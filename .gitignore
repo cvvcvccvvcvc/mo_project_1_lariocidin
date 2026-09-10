@@ -1,6 +1,7 @@
 .env/
 .mplconfig/
 data/raw/
+data/interim/
 results/iqtree/*.bionj
 results/iqtree/*.ckp.gz
 results/iqtree/*.mldist

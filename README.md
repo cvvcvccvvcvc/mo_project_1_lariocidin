@@ -2,17 +2,17 @@
 
 ## Current state
 
-Stages S0–S2a are complete. The 29-BGC prototype was extended with 393 published BGC records, separate canonical/noncanonical profile calibration, local tree sensitivity analyses, five-gene locus comparison, and four accession-verified NCBI contexts. The project is paused at review gate A+; no expanded MAG search or formal HGT test has been performed.
+Stages S0–S3 are complete; S4 candidate triage is ready for review B. The fixed MGnify search produced no context-supported target BGC among records whose primary metadata support metagenomic origin. Three supported canonical BGC belong to cell cultures mislabeled or ambiguously classified as MAG by the catalogue and are nearly identical to published systems. No formal HGT test has yet been performed.
 
-Start with the [S2a checkpoint](reviews/package_S2a.md), then use the [research chronology and decision log](reviews/research-log.md) to reconstruct why each step occurred. [`reviews/package_A.md`](reviews/package_A.md) contains the original figures; [`reviews/2026-09-10-audit.md`](reviews/2026-09-10-audit.md) contains the literature/MAG audit. Scientific rationale and active next steps live in [`../../docs/lariocidin-evidence.md`](../../docs/lariocidin-evidence.md) and [`../../docs/lariocidin-plan.md`](../../docs/lariocidin-plan.md).
+Start with the [S3 analytical checkpoint](reviews/2026-09-11-s3-analysis.md), then use the [research chronology](reviews/research-log.md) for decision history. The active scope is in [`../../docs/lariocidin-plan.md`](../../docs/lariocidin-plan.md); durable source facts and limitations are in [`../../docs/lariocidin-evidence.md`](../../docs/lariocidin-evidence.md). Older packages remain evidence for their stages, not the current protocol.
 
 ## Reference-stage contract
 
 Question for the complete project: how does known lariocidin-like BGC diversity expand in public genomes and MAGs, and which suitable cases have concordant evidence compatible with HGT?
 
-The current prototype does not test that full hypothesis. Its unit of observation is a BGC occurrence in an assembly. A unique protein sequence and an organism/assembly occurrence are retained as separate concepts. The 29 records are an author-curated reference set, not 29 experimentally confirmed lariocidin producers and not a random ecological sample.
+The current work tests the diversity part on one fixed catalogue but has not yet completed the focal HGT test. Its unit of observation is a BGC occurrence in an assembly. A unique protein sequence and an organism/assembly occurrence are retained as separate concepts. The 29 records are an author-curated reference set, not 29 experimentally confirmed lariocidin producers and not a random ecological sample.
 
-The operational family boundary for the next search remains provisional until review A: LrcC homology must be supported by coherent BGC context; an isolated cyclase homolog is insufficient. Short noncanonical Actinomycetota candidates are tracked separately rather than forced to define the canonical search threshold.
+The operational family rule remains: LrcC homology must be supported by coherent BGC context; an isolated profile hit is insufficient. Canonical and noncanonical candidates remain separate. S3 low-score labels are provisional triage, not experimentally validated exclusions.
 
 ## Reproduce the reference prototype
 
@@ -56,10 +56,13 @@ The BLASTP comparison to M2 is a within-record ranking aid, not a validated fami
 | [`results/tables/focal_split_sensitivity.tsv`](results/tables/focal_split_sensitivity.tsv) | Presence and support of the focal unrooted split across five tree variants |
 | [`results/tables/pseudomonadota_core_roles.tsv`](results/tables/pseudomonadota_core_roles.tsv) | Explicit A–D assignments and inference basis for 14 Pseudomonadota loci |
 | [`results/tables/focal_context_manifest.tsv`](results/tables/focal_context_manifest.tsv) | Versioned NCBI accessions, exact C checks, available flanks, and checksums |
+| [`results/tables/maize_curated_candidates.tsv`](results/tables/maize_curated_candidates.tsv) | All 50 S3 hits with sequence, provenance, context status, and stated reason |
+| [`results/tables/maize_checkpoint_summary.json`](results/tables/maize_checkpoint_summary.json) | Machine-readable S3 denominators, result, and limitations |
+| [`results/figures/s3_search_checkpoint.png`](results/figures/s3_search_checkpoint.png) | Review-B summary of provenance and candidate triage |
 
 The rooted files next to the PNGs are visualization products. Rooting does not turn branch support into HGT probability or establish the direction of evolution.
 
-## Known limitations at review A
+## Known limitations
 
 - The original source uses malformed/stripped GenBank fields; parser warnings and translation/CDS discrepancies are retained. Missing colored gene categories in the architecture figure often mean missing annotations, not biological absence.
 - Twenty-one of thirty aligned sequences fail IQ-TREE's composition chi-square check in the full analysis. This is a model/data warning, not a failed program run.
@@ -81,6 +84,16 @@ scripts/run_focal_context.sh
 ```
 
 These runs normalize the fixed literature archive, build/test profiles, repeat the focal tree under prespecified variants, compare A–D, and retrieve four versioned NCBI contexts. Raw downloads remain outside version control; source manifests and derived results are retained.
+
+## Reproduce S3
+
+After S2a products exist, run:
+
+```bash
+scripts/run_maize_search.sh
+```
+
+This verifies/downloads the pinned MGnify and BioSample/ENA inputs, reruns profile controls, searches catalogue representatives and every GFF-annotated CDS, audits provenance, extracts candidate contexts, and regenerates the review checkpoint. Raw/cache inputs require roughly 2 GB and remain outside Git; URLs, retrieval metadata, and SHA-256 values are retained in `config/`. The run does not perform the HGT stage.
 
 ## Research records
 

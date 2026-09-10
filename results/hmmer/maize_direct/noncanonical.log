@@ -1,0 +1,43 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ${OPERATOR_HOME}/code/Study/MO/projects/lariocidin/data/processed/literature_profiles/final.noncanonical.hmm
+# target sequence database:        ${OPERATOR_HOME}/code/Study/MO/projects/lariocidin/data/interim/maize/all_399_MAG_annotated_CDS.faa
+# per-seq hits tabular output:     ${OPERATOR_HOME}/code/Study/MO/projects/lariocidin/results/hmmer/maize_direct/noncanonical.tbl
+# per-dom hits tabular output:     ${OPERATOR_HOME}/code/Study/MO/projects/lariocidin/results/hmmer/maize_direct/noncanonical.domtbl
+# show alignments in output:       no
+# sequence reporting threshold:    score >= 80
+# domain reporting threshold:      score >= 20
+# number of worker threads:        4
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       lariocidin_noncanonical  [M=433]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence:
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (433 nodes)
+Target sequences:                    1645120  (496774499 residues searched)
+Passed MSV filter:                     63952  (0.0388738); expected 32902.4 (0.02)
+Passed bias filter:                    33922  (0.0206198); expected 32902.4 (0.02)
+Passed Vit filter:                      3872  (0.00235363); expected 1645.1 (0.001)
+Passed Fwd filter:                       880  (0.000534915); expected 16.5 (1e-05)
+Initial search space (Z):            1645120  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 18.85u 0.41s 00:00:19.26 Elapsed: 00:00:04.72
+# Mc/sec: 45493.68
+//
+[ok]

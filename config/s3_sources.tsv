@@ -1,0 +1,8 @@
+source_id	local_path	url
+uniprot_reviewed_bacterial_asnb_fasta	data/raw/s3/uniprot_reviewed_bacterial_asnb.faa	https://rest.uniprot.org/uniprotkb/stream?query=%28gene%3AasnB%29%20AND%20%28reviewed%3Atrue%29%20AND%20%28taxonomy_id%3A2%29&format=fasta
+uniprot_reviewed_bacterial_asnb_metadata	data/raw/s3/uniprot_reviewed_bacterial_asnb.tsv	https://rest.uniprot.org/uniprotkb/stream?query=%28gene%3AasnB%29%20AND%20%28reviewed%3Atrue%29%20AND%20%28taxonomy_id%3A2%29&format=tsv&fields=accession,id,protein_name,organism_name,length
+maize_protein_catalogue_100	data/raw/s3/protein_catalogue-100.tar.gz	https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/protein_catalogue/protein_catalogue-100.tar.gz
+maize_pipeline_mmseq	data/raw/s3/mgnify_v2.5.0_mmseq.nf	https://raw.githubusercontent.com/EBI-Metagenomics/genomes-catalogue-pipeline/v2.5.0/modules/mmseq.nf
+maize_pipeline_parameters	data/raw/s3/mgnify_v2.5.0_nextflow.config	https://raw.githubusercontent.com/EBI-Metagenomics/genomes-catalogue-pipeline/v2.5.0/nextflow.config
+bacillus_biosamples	data/raw/s3/bacillus_hit_biosamples.xml	https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=biosample&id=SAMN07598464,SAMN07598308,SAMN07597900&retmode=xml
+bacillus_bioproject	data/raw/s3/bacillus_PRJNA400804.xml	https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=bioproject&id=400804&retmode=xml

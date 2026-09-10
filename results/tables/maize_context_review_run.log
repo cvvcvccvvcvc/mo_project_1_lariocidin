@@ -1,0 +1,15 @@
+{'candidate_loci': 50, 'neighbor_CDS': 684, 'small_ORF_candidates': 23926}
+{
+  "candidate_CDS": 50,
+  "nearest_reference_groups": {
+    "Barrett et al review": 46,
+    "canonical": 4
+  },
+  "priority_by_provenance": {
+    "('high', 'culture_conflicts_with_MAG_label')": 3,
+    "('review', 'culture_conflicts_with_MAG_label')": 6,
+    "('review', 'primary_metadata_supports_metagenomic_origin')": 39,
+    "('review', 'retrieved_origin_not_resolved')": 2
+  },
+  "exact_literature_sequence_matches": 1
+}

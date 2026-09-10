@@ -1,0 +1,13 @@
+#                                                                  --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name              accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------    -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      ${OPERATOR_HOME}/code/Study/MO/projects/lariocidin/data/processed/literature_profiles/final.noncanonical.hmm
+# Target file:     ${OPERATOR_HOME}/code/Study/MO/projects/lariocidin/data/interim/maize/all_399_MAG_annotated_CDS.faa
+# Option settings: ${OPERATOR_HOME}/code/Study/MO/projects/lariocidin/.env/bin/hmmsearch --tblout ${OPERATOR_HOME}/code/Study/MO/projects/lariocidin/results/hmmer/maize_direct/noncanonical.tbl --domtblout ${OPERATOR_HOME}/code/Study/MO/projects/lariocidin/results/hmmer/maize_direct/noncanonical.domtbl --noali -T 80 --domT 20 --seed 42 --cpu 4 ${OPERATOR_HOME}/code/Study/MO/projects/lariocidin/data/processed/literature_profiles/final.noncanonical.hmm ${OPERATOR_HOME}/code/Study/MO/projects/lariocidin/data/interim/maize/all_399_MAG_annotated_CDS.faa 
+# Current dir:     ${OPERATOR_HOME}/code/Study/MO
+# Date:            Thu Sep 10 20:42:15 2026
+# [ok]

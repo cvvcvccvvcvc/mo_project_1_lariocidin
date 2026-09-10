@@ -1,0 +1,32 @@
+{
+  "status": "checkpoint_for_human_review_not_proof_of_MAG_absence",
+  "curation_counts": {
+    "AsnB_favored_target_unconfirmed": 37,
+    "other_lasso_affinity_target_unconfirmed": 10,
+    "context_supported_canonical_culture_not_MAG": 3
+  },
+  "provenance_counts": {
+    "primary_metadata_supports_metagenomic_origin": 272,
+    "culture_conflicts_with_MAG_label": 75,
+    "retrieved_origin_not_resolved": 52
+  },
+  "supported_canonical_MAG": 0,
+  "supported_canonical_culture_loci": 3,
+  "supported_C_unique_sequences": 2,
+  "supported_defined_core_unique_DNA": 2,
+  "supported_cores_exact_in_literature_archive": 0,
+  "catalogue_only_CDS_exact_sequences_searched": 2178,
+  "catalogue_only_CDS_representative_only": [
+    "MGYG000517678_03314",
+    "MGYG000517691_00690",
+    "MGYG000517709_03668",
+    "MGYG000517865_01070",
+    "MGYG000517866_04401"
+  ],
+  "limitations": [
+    "Low-score candidates retain provisional, not validated exclusion labels.",
+    "No target detection is not proof of absence in incomplete MAG/annotations.",
+    "A novel sequence relative to this reference is not necessarily new to all public databases.",
+    "Culture-origin hits cannot answer the MAG expansion question."
+  ]
+}

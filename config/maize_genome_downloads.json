@@ -1,0 +1,2795 @@
+{
+  "MGYG000517500": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517500/genomes1/MGYG000517500.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517500.gff.gz",
+    "bytes": 884328,
+    "sha256": "c01bc0618ec6c4fb6fad2bc056b5285234684a8b52bb99bebbe9c7e14013ac6c",
+    "retrieved_utc": "2026-09-10T15:30:40.579857+00:00"
+  },
+  "MGYG000517501": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517501/genomes1/MGYG000517501.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517501.gff.gz",
+    "bytes": 717045,
+    "sha256": "270173f4f2b0759c3c1b1c6b877e1bcf9e6b6d63e65fe90f5be16af5669f32a8",
+    "retrieved_utc": "2026-09-10T15:30:41.914334+00:00"
+  },
+  "MGYG000517502": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517720/genomes1/MGYG000517502.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517502.gff.gz",
+    "bytes": 878744,
+    "sha256": "4f04b81d96ef435faa85b84778d54e69f06c94b0ac7ae306dcee72fa6231e4c3",
+    "retrieved_utc": "2026-09-10T15:30:40.359307+00:00"
+  },
+  "MGYG000517503": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517503/genomes1/MGYG000517503.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517503.gff.gz",
+    "bytes": 1020926,
+    "sha256": "915802ed31d57ad63ad2c4e31d43bdb52c93b65030db19968ad52a6a19731ecf",
+    "retrieved_utc": "2026-09-10T15:30:40.409279+00:00"
+  },
+  "MGYG000517504": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517504/genomes1/MGYG000517504.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517504.gff.gz",
+    "bytes": 903242,
+    "sha256": "1b36b3ac58dba5633be07257cfab018108128c6c4bd9d2f3576d7f78b3325da9",
+    "retrieved_utc": "2026-09-10T15:30:43.171098+00:00"
+  },
+  "MGYG000517505": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517505/genomes1/MGYG000517505.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517505.gff.gz",
+    "bytes": 1069587,
+    "sha256": "b2d685d1a7f752855963b2d4d13d3ef1c03cabd2f24dd2836db491afddbcfc8f",
+    "retrieved_utc": "2026-09-10T15:30:43.337007+00:00"
+  },
+  "MGYG000517506": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517506/genomes1/MGYG000517506.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517506.gff.gz",
+    "bytes": 1389619,
+    "sha256": "33ff617b3c20c3f193efef53f9da426407e3343a306f4945b08ab6fa2406fce5",
+    "retrieved_utc": "2026-09-10T15:30:43.470517+00:00"
+  },
+  "MGYG000517507": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517848/genomes1/MGYG000517507.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517507.gff.gz",
+    "bytes": 1276717,
+    "sha256": "27a2e96984189e583b2284621f3a71f0467eebb0ccb4eb9374752cd1396c5a46",
+    "retrieved_utc": "2026-09-10T15:30:44.902801+00:00"
+  },
+  "MGYG000517508": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517508/genomes1/MGYG000517508.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517508.gff.gz",
+    "bytes": 1479576,
+    "sha256": "33869425274c7ca0cc28e0cd52b55aae7e0cf77930a44060eec32522cee2b668",
+    "retrieved_utc": "2026-09-10T15:30:46.059416+00:00"
+  },
+  "MGYG000517509": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517509/genomes1/MGYG000517509.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517509.gff.gz",
+    "bytes": 715728,
+    "sha256": "63a947cd20b1d72201692d224eb1247b421ba7543fd456e99c30f48570673598",
+    "retrieved_utc": "2026-09-10T15:30:45.824883+00:00"
+  },
+  "MGYG000517510": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517510/genomes1/MGYG000517510.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517510.gff.gz",
+    "bytes": 1870012,
+    "sha256": "e4036fac3d33aaadae0e5fcf6ada7673273a354901df6545a612df1f95363dc1",
+    "retrieved_utc": "2026-09-10T15:30:46.333020+00:00"
+  },
+  "MGYG000517511": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517511/genomes1/MGYG000517511.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517511.gff.gz",
+    "bytes": 845058,
+    "sha256": "33c3ff16e9e7251864c8759ad47f8e4cccee05b0d8458a18cc44e09f812fd7b2",
+    "retrieved_utc": "2026-09-10T15:30:47.630755+00:00"
+  },
+  "MGYG000517512": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517658/genomes1/MGYG000517512.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517512.gff.gz",
+    "bytes": 773806,
+    "sha256": "d74309f9c14dc204bc9e99e813481933cf9667b557386705539f062a5f11d45b",
+    "retrieved_utc": "2026-09-10T15:30:48.416918+00:00"
+  },
+  "MGYG000517513": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517513/genomes1/MGYG000517513.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517513.gff.gz",
+    "bytes": 1436211,
+    "sha256": "a059369dd3f4000c05ed722d80254b987d5c8f796257567bf2d5c93494f1242e",
+    "retrieved_utc": "2026-09-10T15:30:48.952402+00:00"
+  },
+  "MGYG000517514": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517514/genomes1/MGYG000517514.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517514.gff.gz",
+    "bytes": 737740,
+    "sha256": "c84d4b3d6d97628089392ee5093e228f4a69ce59951f5ef3f3f61bceea0edcb1",
+    "retrieved_utc": "2026-09-10T15:30:48.912791+00:00"
+  },
+  "MGYG000517515": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517515/genomes1/MGYG000517515.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517515.gff.gz",
+    "bytes": 538161,
+    "sha256": "5d867053d19eb337360482cdf1ac45f3bd387011658d4c08bb387d8d18525708",
+    "retrieved_utc": "2026-09-10T15:30:50.332143+00:00"
+  },
+  "MGYG000517516": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517516/genomes1/MGYG000517516.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517516.gff.gz",
+    "bytes": 874556,
+    "sha256": "64e9fbf48341994691c95ce24da1bc536c2e9bc2fa0a96ff34461a2358fa00d7",
+    "retrieved_utc": "2026-09-10T15:30:51.094528+00:00"
+  },
+  "MGYG000517517": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517517/genomes1/MGYG000517517.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517517.gff.gz",
+    "bytes": 176525,
+    "sha256": "5ae29fbce928f68b7d33699d640ca38905f659404dbbd9b7479f73e48b312227",
+    "retrieved_utc": "2026-09-10T15:30:50.946829+00:00"
+  },
+  "MGYG000517518": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517518/genomes1/MGYG000517518.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517518.gff.gz",
+    "bytes": 917034,
+    "sha256": "e9f041c609c82d2e98ae54a87149e322c1e4047ed89a467fa516f6b85ffad27c",
+    "retrieved_utc": "2026-09-10T15:30:52.537509+00:00"
+  },
+  "MGYG000517519": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517519/genomes1/MGYG000517519.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517519.gff.gz",
+    "bytes": 822462,
+    "sha256": "41ae8f1a0dafc3fb72d8d093d41b2f52a9f68bbdd5c77082283aec058dde4e07",
+    "retrieved_utc": "2026-09-10T15:30:53.013601+00:00"
+  },
+  "MGYG000517520": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517520/genomes1/MGYG000517520.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517520.gff.gz",
+    "bytes": 833173,
+    "sha256": "fdb059424e543a0aa0cfb60b50d1533a53a60cccbc2299fb4a5cc45679958b4e",
+    "retrieved_utc": "2026-09-10T15:30:53.865120+00:00"
+  },
+  "MGYG000517521": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517521/genomes1/MGYG000517521.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517521.gff.gz",
+    "bytes": 1358783,
+    "sha256": "2a4e0d67c21cac431eedf0f4e1b21b82ca24659c2790ceff3b45aa7cdc57d08f",
+    "retrieved_utc": "2026-09-10T15:30:54.852936+00:00"
+  },
+  "MGYG000517522": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517522/genomes1/MGYG000517522.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517522.gff.gz",
+    "bytes": 1898642,
+    "sha256": "e76e952df134c8c4d5b99254efb1e005ef334fb81492f58b677eb9ea179e77b5",
+    "retrieved_utc": "2026-09-10T15:30:57.077191+00:00"
+  },
+  "MGYG000517523": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517523/genomes1/MGYG000517523.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517523.gff.gz",
+    "bytes": 1278081,
+    "sha256": "f03dbdf13cbe3a74a1568ccc7c05f17fc34ecc59841d6ba76778762606768774",
+    "retrieved_utc": "2026-09-10T15:30:55.977174+00:00"
+  },
+  "MGYG000517524": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517524/genomes1/MGYG000517524.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517524.gff.gz",
+    "bytes": 1066237,
+    "sha256": "049a3607adcf49c66f1ec93bde607808dbd9adcb52b17176e3bb0cf325766613",
+    "retrieved_utc": "2026-09-10T15:30:56.609429+00:00"
+  },
+  "MGYG000517525": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517525/genomes1/MGYG000517525.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517525.gff.gz",
+    "bytes": 1055376,
+    "sha256": "6d02f8a963b164e2432b77e9ed8d3d2c932b30f98b2fcd7e6b6e22eb8acfb811",
+    "retrieved_utc": "2026-09-10T15:30:57.601950+00:00"
+  },
+  "MGYG000517526": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517526/genomes1/MGYG000517526.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517526.gff.gz",
+    "bytes": 2333352,
+    "sha256": "9e986114985f5b2738103c58371dcf759d50eb1b4fc18b1bb33819a1b6a058fc",
+    "retrieved_utc": "2026-09-10T15:30:59.552562+00:00"
+  },
+  "MGYG000517527": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517527/genomes1/MGYG000517527.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517527.gff.gz",
+    "bytes": 1127821,
+    "sha256": "5d54dd7d0a4082ed81c729d6cf63c41edafa31755b983d2a963a2920c81f21b1",
+    "retrieved_utc": "2026-09-10T15:30:59.310847+00:00"
+  },
+  "MGYG000517528": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517528/genomes1/MGYG000517528.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517528.gff.gz",
+    "bytes": 1618440,
+    "sha256": "d02833769344b3787d4d0a281b99ae9ca20d6875e79770ab3b91bb62bc50991e",
+    "retrieved_utc": "2026-09-10T15:30:59.917058+00:00"
+  },
+  "MGYG000517529": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517529/genomes1/MGYG000517529.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517529.gff.gz",
+    "bytes": 1053874,
+    "sha256": "9668217fdc9746d391a58b107cf9924c6156c0277a07809fbf7de55dec61bd1c",
+    "retrieved_utc": "2026-09-10T15:31:01.618017+00:00"
+  },
+  "MGYG000517530": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517530/genomes1/MGYG000517530.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517530.gff.gz",
+    "bytes": 1366855,
+    "sha256": "90edb27e47d148ba565a366433b0e86fe5f947adb09a5a86724b9f28464d691f",
+    "retrieved_utc": "2026-09-10T15:31:02.312674+00:00"
+  },
+  "MGYG000517531": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517531/genomes1/MGYG000517531.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517531.gff.gz",
+    "bytes": 824360,
+    "sha256": "6462b49695965668ebc13d615c4bce96b669f6db39b23391ba746a29cd994250",
+    "retrieved_utc": "2026-09-10T15:31:02.145792+00:00"
+  },
+  "MGYG000517532": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517532/genomes1/MGYG000517532.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517532.gff.gz",
+    "bytes": 791134,
+    "sha256": "e2bf63d9cb89300953c4a7c6adca5a1b3aab03cc6bf132c8d2ffc87272d25349",
+    "retrieved_utc": "2026-09-10T15:31:02.791883+00:00"
+  },
+  "MGYG000517533": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517533/genomes1/MGYG000517533.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517533.gff.gz",
+    "bytes": 1446781,
+    "sha256": "d5cb7058c726cb600ab6f9d55133ad56047338ac0952717c6c76cb06e2fe6973",
+    "retrieved_utc": "2026-09-10T15:31:04.399337+00:00"
+  },
+  "MGYG000517534": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517534/genomes1/MGYG000517534.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517534.gff.gz",
+    "bytes": 940031,
+    "sha256": "57defedebae14a733fae5f18c2f5086842f1443488df184edb98b4584909f11c",
+    "retrieved_utc": "2026-09-10T15:31:04.770349+00:00"
+  },
+  "MGYG000517535": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517535/genomes1/MGYG000517535.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517535.gff.gz",
+    "bytes": 1924226,
+    "sha256": "d1be8f6ed06e18f9bc51d92ea69b352932912d5ba7af8bdea1760a3794b55c00",
+    "retrieved_utc": "2026-09-10T15:31:06.701888+00:00"
+  },
+  "MGYG000517536": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517536/genomes1/MGYG000517536.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517536.gff.gz",
+    "bytes": 1546201,
+    "sha256": "5eeb3d6a4918b1096869ade4c2e0b6360052ab0b58fefee9f4be51d79797f5e6",
+    "retrieved_utc": "2026-09-10T15:31:05.698594+00:00"
+  },
+  "MGYG000517537": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517537/genomes1/MGYG000517537.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517537.gff.gz",
+    "bytes": 1151518,
+    "sha256": "3e3321fe0df36a608a852fd8c9f332a69ff4299c1b03d8d737d34ba5fb85015c",
+    "retrieved_utc": "2026-09-10T15:31:08.705325+00:00"
+  },
+  "MGYG000517538": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517538/genomes1/MGYG000517538.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517538.gff.gz",
+    "bytes": 1023786,
+    "sha256": "63190918f6dea8bf2d627a78310f45e61b69f63d4a99ad9a6801c8eb8aa2a86d",
+    "retrieved_utc": "2026-09-10T15:31:07.376166+00:00"
+  },
+  "MGYG000517539": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517539/genomes1/MGYG000517539.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517539.gff.gz",
+    "bytes": 1386408,
+    "sha256": "e4057bf4e3a8ec82c39f3e214cf7e7ee837188898bef52a417ca1126e770edbc",
+    "retrieved_utc": "2026-09-10T15:31:08.587726+00:00"
+  },
+  "MGYG000517540": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517540/genomes1/MGYG000517540.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517540.gff.gz",
+    "bytes": 1598522,
+    "sha256": "90244a5450fde4a194059a6bda60e3f9aa2e0c3a47b3f42b5672229be1cc5522",
+    "retrieved_utc": "2026-09-10T15:31:09.551791+00:00"
+  },
+  "MGYG000517541": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517541/genomes1/MGYG000517541.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517541.gff.gz",
+    "bytes": 797465,
+    "sha256": "d9472ebffa30602367272fc62a75861d0e9e0a8866bbe7aff78dc875ea51d1c6",
+    "retrieved_utc": "2026-09-10T15:31:09.805406+00:00"
+  },
+  "MGYG000517542": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517542/genomes1/MGYG000517542.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517542.gff.gz",
+    "bytes": 1262727,
+    "sha256": "3ab14f45808985088588d5a119b8513ad997643b501bfaa2099124dd0e72df8c",
+    "retrieved_utc": "2026-09-10T15:31:11.356070+00:00"
+  },
+  "MGYG000517543": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517848/genomes1/MGYG000517543.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517543.gff.gz",
+    "bytes": 809446,
+    "sha256": "a5b4bd1a6d3cd789c97e733d58bf34988370852c24b19458109e9850eba5125d",
+    "retrieved_utc": "2026-09-10T15:31:11.206042+00:00"
+  },
+  "MGYG000517544": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517544/genomes1/MGYG000517544.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517544.gff.gz",
+    "bytes": 748902,
+    "sha256": "6e575fb00561f6b256e330d377e4323fbe0cf020401c22520f831447972f3107",
+    "retrieved_utc": "2026-09-10T15:31:11.987469+00:00"
+  },
+  "MGYG000517545": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517545/genomes1/MGYG000517545.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517545.gff.gz",
+    "bytes": 958447,
+    "sha256": "9fe4a7719afa2641ff697f4a93cb68f6a4c18db99fe06ad0ed840fc67d55e4b5",
+    "retrieved_utc": "2026-09-10T15:31:12.361428+00:00"
+  },
+  "MGYG000517546": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517546/genomes1/MGYG000517546.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517546.gff.gz",
+    "bytes": 1050370,
+    "sha256": "c63674cb02e80e2335cf96e0e2e406a123fa731b0104b647b56f949cbe79a5f5",
+    "retrieved_utc": "2026-09-10T15:31:13.930181+00:00"
+  },
+  "MGYG000517547": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517547/genomes1/MGYG000517547.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517547.gff.gz",
+    "bytes": 597696,
+    "sha256": "d22b5dd26e6761cfd512a15ae470032614c2047e4ab5bdce8feb7980a9eba78d",
+    "retrieved_utc": "2026-09-10T15:31:14.300463+00:00"
+  },
+  "MGYG000517548": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517548/genomes1/MGYG000517548.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517548.gff.gz",
+    "bytes": 3099410,
+    "sha256": "14db9ea7158281cd626fe1c79dceb3d7fe3fb73d8dd63b4b97e24575c6c7fdf9",
+    "retrieved_utc": "2026-09-10T15:31:15.313240+00:00"
+  },
+  "MGYG000517549": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517549/genomes1/MGYG000517549.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517549.gff.gz",
+    "bytes": 995146,
+    "sha256": "d64a5b8ba1ec8b54d2a754508b806a57fa9a4ba185d058cc9271dfddb6da2514",
+    "retrieved_utc": "2026-09-10T15:31:15.525119+00:00"
+  },
+  "MGYG000517550": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517550/genomes1/MGYG000517550.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517550.gff.gz",
+    "bytes": 1299351,
+    "sha256": "9aa7e9b39c7b53dcef83635474ee7ae31d3cf0f06981cb67068647cd9d10d722",
+    "retrieved_utc": "2026-09-10T15:31:16.458434+00:00"
+  },
+  "MGYG000517551": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517551/genomes1/MGYG000517551.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517551.gff.gz",
+    "bytes": 1853175,
+    "sha256": "26c602b695821aff5f0a9e76fa9c61d19b31627866a80e90ad4a583a6ef6f431",
+    "retrieved_utc": "2026-09-10T15:31:16.959775+00:00"
+  },
+  "MGYG000517552": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517552/genomes1/MGYG000517552.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517552.gff.gz",
+    "bytes": 1263724,
+    "sha256": "4e2dbe9134fd4ac2d4687c0bd2a9f7d72c1b29dda7d079f949e5b100b05af410",
+    "retrieved_utc": "2026-09-10T15:31:17.789646+00:00"
+  },
+  "MGYG000517553": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517553/genomes1/MGYG000517553.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517553.gff.gz",
+    "bytes": 1630965,
+    "sha256": "192bcb71b3713262ce7891fd6e8dd806f1fa83f24fed93dd2c458df2a34bfba4",
+    "retrieved_utc": "2026-09-10T15:31:18.435444+00:00"
+  },
+  "MGYG000517554": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517554/genomes1/MGYG000517554.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517554.gff.gz",
+    "bytes": 907923,
+    "sha256": "18c55402bbb45cc583aafb6e2a85fc640c009173e588b66b70315ba018849bfc",
+    "retrieved_utc": "2026-09-10T15:31:18.869438+00:00"
+  },
+  "MGYG000517555": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517555/genomes1/MGYG000517555.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517555.gff.gz",
+    "bytes": 2113469,
+    "sha256": "6f2baa3a02d730aea745b5081da51acd0e59f2269034b59217b7d1efa272fe2e",
+    "retrieved_utc": "2026-09-10T15:31:20.378478+00:00"
+  },
+  "MGYG000517556": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517556/genomes1/MGYG000517556.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517556.gff.gz",
+    "bytes": 993292,
+    "sha256": "3c65555643db1c11ccf2eef0357e420f72fc942201e230fc0b7a2cbd5d6f471e",
+    "retrieved_utc": "2026-09-10T15:31:21.256440+00:00"
+  },
+  "MGYG000517557": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517557/genomes1/MGYG000517557.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517557.gff.gz",
+    "bytes": 1346056,
+    "sha256": "f7152d53e45d920e1d43be582e7368dfc96cb0f543debc2c5b2cc5c8b1d1ddf4",
+    "retrieved_utc": "2026-09-10T15:31:22.385140+00:00"
+  },
+  "MGYG000517558": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517558/genomes1/MGYG000517558.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517558.gff.gz",
+    "bytes": 2686287,
+    "sha256": "c13c808f883a182c715fb98340acf4a42d78da5c431dc7a101f2450ed4b6c31e",
+    "retrieved_utc": "2026-09-10T15:31:22.120654+00:00"
+  },
+  "MGYG000517559": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517559/genomes1/MGYG000517559.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517559.gff.gz",
+    "bytes": 1329770,
+    "sha256": "510d19c9069064966f1a8b8f1e21e4d0a23c53d522cee0bb7627c74f5c147ce2",
+    "retrieved_utc": "2026-09-10T15:31:23.106055+00:00"
+  },
+  "MGYG000517560": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517560/genomes1/MGYG000517560.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517560.gff.gz",
+    "bytes": 1509369,
+    "sha256": "815b71138d8ae5a72591af470a982f6d28aae766450a45b9be0d06c5d664d836",
+    "retrieved_utc": "2026-09-10T15:31:24.230755+00:00"
+  },
+  "MGYG000517561": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517561/genomes1/MGYG000517561.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517561.gff.gz",
+    "bytes": 1310863,
+    "sha256": "54a756ba2565674b66d57454ace5958b4d97f95453b48a09e343845b06cbf6a9",
+    "retrieved_utc": "2026-09-10T15:31:24.804790+00:00"
+  },
+  "MGYG000517562": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517562/genomes1/MGYG000517562.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517562.gff.gz",
+    "bytes": 1928230,
+    "sha256": "85fe7cc7c38e040c4636c53c5d77eaec61f007062a0923f010d6d1d9a3942734",
+    "retrieved_utc": "2026-09-10T15:31:25.542394+00:00"
+  },
+  "MGYG000517563": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517563/genomes1/MGYG000517563.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517563.gff.gz",
+    "bytes": 1145735,
+    "sha256": "61f5797aacf092c4f8ff92c297beb3b74ff26252100be552a61e51ce6f59693c",
+    "retrieved_utc": "2026-09-10T15:31:28.114902+00:00"
+  },
+  "MGYG000517564": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517564/genomes1/MGYG000517564.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517564.gff.gz",
+    "bytes": 1885870,
+    "sha256": "37fbd616f8d2489822fc585636e22b86e28a95fbdf8df76018b083b9d5aa8b0a",
+    "retrieved_utc": "2026-09-10T15:31:27.410754+00:00"
+  },
+  "MGYG000517565": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517565/genomes1/MGYG000517565.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517565.gff.gz",
+    "bytes": 148563,
+    "sha256": "1b02e681d6ebff239a7ddd7879b55368d1178d9906dfee6bee38051c08c406b3",
+    "retrieved_utc": "2026-09-10T15:31:26.786541+00:00"
+  },
+  "MGYG000517566": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517566/genomes1/MGYG000517566.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517566.gff.gz",
+    "bytes": 1038739,
+    "sha256": "d8c33055ae33559bfcb25c2780b746686ee76f5518bed6d1163840299b4b7c86",
+    "retrieved_utc": "2026-09-10T15:31:28.122211+00:00"
+  },
+  "MGYG000517567": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517567/genomes1/MGYG000517567.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517567.gff.gz",
+    "bytes": 1130147,
+    "sha256": "25ccd408d132c75103574b1fb197e660c161a820add243de3de36f5746a78dbd",
+    "retrieved_utc": "2026-09-10T15:31:29.449437+00:00"
+  },
+  "MGYG000517568": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517568/genomes1/MGYG000517568.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517568.gff.gz",
+    "bytes": 846906,
+    "sha256": "afbb91aedb155518b86183f0636db91a3da37872801ad73327a5cdb8876bf58e",
+    "retrieved_utc": "2026-09-10T15:31:29.940426+00:00"
+  },
+  "MGYG000517569": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517569/genomes1/MGYG000517569.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517569.gff.gz",
+    "bytes": 1315947,
+    "sha256": "ff9f0fca02b1c5c5b7dcf512273b5d0fc6800ff3cac5ffdb5f8e0e0f5435cf4b",
+    "retrieved_utc": "2026-09-10T15:31:30.909249+00:00"
+  },
+  "MGYG000517570": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517570/genomes1/MGYG000517570.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517570.gff.gz",
+    "bytes": 1120321,
+    "sha256": "62d2f551b189470c17eeceb9a8389fcf2d617aa8be92849926ffbbe3c8bc75e7",
+    "retrieved_utc": "2026-09-10T15:31:30.791270+00:00"
+  },
+  "MGYG000517571": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517571/genomes1/MGYG000517571.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517571.gff.gz",
+    "bytes": 704273,
+    "sha256": "e0b883a18e98be6db33bfe7eb204caec41962088223410469b49337757554aef",
+    "retrieved_utc": "2026-09-10T15:31:32.014130+00:00"
+  },
+  "MGYG000517572": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517572/genomes1/MGYG000517572.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517572.gff.gz",
+    "bytes": 1307437,
+    "sha256": "4b44a94ec405cf101ba9adeb2e005348a1d1142a03f7ab162775d08916ae629e",
+    "retrieved_utc": "2026-09-10T15:31:32.622802+00:00"
+  },
+  "MGYG000517573": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517573/genomes1/MGYG000517573.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517573.gff.gz",
+    "bytes": 1005697,
+    "sha256": "1e2468e0e9c2114036ef4da6f7266d88bfc3e563ca5fefd9d5433f15a54505f9",
+    "retrieved_utc": "2026-09-10T15:31:33.374210+00:00"
+  },
+  "MGYG000517574": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517574/genomes1/MGYG000517574.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517574.gff.gz",
+    "bytes": 801414,
+    "sha256": "61c22e3d45771507d33c2d95055efd12de18758416740d7d1f8c6aa593f7c470",
+    "retrieved_utc": "2026-09-10T15:31:34.319580+00:00"
+  },
+  "MGYG000517575": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517575/genomes1/MGYG000517575.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517575.gff.gz",
+    "bytes": 1693446,
+    "sha256": "e0687f791294f1d44627331b871b8a54f1a9b8db9166f6a30ab9ffba843aaf04",
+    "retrieved_utc": "2026-09-10T15:31:34.644596+00:00"
+  },
+  "MGYG000517576": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517576/genomes1/MGYG000517576.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517576.gff.gz",
+    "bytes": 558382,
+    "sha256": "5aa4dce7894dc58e497065502dc916c248ee8f79254e2b16e945c2383c7be43d",
+    "retrieved_utc": "2026-09-10T15:31:35.020026+00:00"
+  },
+  "MGYG000517577": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517577/genomes1/MGYG000517577.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517577.gff.gz",
+    "bytes": 1644981,
+    "sha256": "eadf320556f4599b64513044e5176bdaca5250b1c98cc9039f6be07f7be347f1",
+    "retrieved_utc": "2026-09-10T15:31:36.158459+00:00"
+  },
+  "MGYG000517578": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517578/genomes1/MGYG000517578.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517578.gff.gz",
+    "bytes": 1541441,
+    "sha256": "f5edb420fae59405d1e4bef052578ffa40b4a7c0bdc21048296920327110524e",
+    "retrieved_utc": "2026-09-10T15:31:37.126168+00:00"
+  },
+  "MGYG000517579": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517579/genomes1/MGYG000517579.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517579.gff.gz",
+    "bytes": 665952,
+    "sha256": "08236d8bae557f3ddfc22e5781463ff772a69ac0ca13d84f21b237b9ff14ec56",
+    "retrieved_utc": "2026-09-10T15:31:37.171859+00:00"
+  },
+  "MGYG000517581": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517581/genomes1/MGYG000517581.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517581.gff.gz",
+    "bytes": 1285911,
+    "sha256": "beec73113bbd7f7e2ebf10c3ed5264cd08b6c148a8d6ebf7084fc7ecd4133478",
+    "retrieved_utc": "2026-09-10T15:31:38.772552+00:00"
+  },
+  "MGYG000517582": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517582/genomes1/MGYG000517582.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517582.gff.gz",
+    "bytes": 765859,
+    "sha256": "62b2874768f09472371f623164f5a8e6b0c0740322ba6ad050671d6063c28fce",
+    "retrieved_utc": "2026-09-10T15:31:39.856290+00:00"
+  },
+  "MGYG000517583": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517583/genomes1/MGYG000517583.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517583.gff.gz",
+    "bytes": 1281265,
+    "sha256": "9b50a854849df52c5acb3baf7be1bf7c3e33b9f40a3551add76682f23db10260",
+    "retrieved_utc": "2026-09-10T15:31:40.620307+00:00"
+  },
+  "MGYG000517584": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517584/genomes1/MGYG000517584.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517584.gff.gz",
+    "bytes": 1382525,
+    "sha256": "5e105d9fa97992d3272616cf97e5a46d282acd25250311c14b3d50e9f42f561a",
+    "retrieved_utc": "2026-09-10T15:31:40.094901+00:00"
+  },
+  "MGYG000517585": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517585/genomes1/MGYG000517585.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517585.gff.gz",
+    "bytes": 1234002,
+    "sha256": "67ef428e1d7c9865a282add3d16fda33cd52e771168947cb6690691511d7b305",
+    "retrieved_utc": "2026-09-10T15:31:41.521517+00:00"
+  },
+  "MGYG000517586": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517586/genomes1/MGYG000517586.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517586.gff.gz",
+    "bytes": 1584125,
+    "sha256": "90633cd4a926fe538382118ef9c2921ae9dcfab8e4f8ad3595824d0cf90172a3",
+    "retrieved_utc": "2026-09-10T15:31:42.653013+00:00"
+  },
+  "MGYG000517587": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517587/genomes1/MGYG000517587.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517587.gff.gz",
+    "bytes": 1345642,
+    "sha256": "0f0ab45d29c3289563e282c3c44e0e19faedd49bc3d24976a3f92c7ed94c84e8",
+    "retrieved_utc": "2026-09-10T15:31:43.167393+00:00"
+  },
+  "MGYG000517588": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517588/genomes1/MGYG000517588.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517588.gff.gz",
+    "bytes": 1143824,
+    "sha256": "df32532af43b523c761a99461615d13d6fd40842432c18ada2c1e5fb30c60bbb",
+    "retrieved_utc": "2026-09-10T15:31:43.380401+00:00"
+  },
+  "MGYG000517589": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517589/genomes1/MGYG000517589.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517589.gff.gz",
+    "bytes": 803037,
+    "sha256": "2bb75dca8496f35a6651b75cd38859d8c9eeae3a5d49888182535f5cfe9e1ea4",
+    "retrieved_utc": "2026-09-10T15:31:44.402659+00:00"
+  },
+  "MGYG000517590": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517590/genomes1/MGYG000517590.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517590.gff.gz",
+    "bytes": 1449348,
+    "sha256": "11af9e38cbb163c868624717c8b1640458f7837f62d31285a963135d9825925a",
+    "retrieved_utc": "2026-09-10T15:31:45.704450+00:00"
+  },
+  "MGYG000517591": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517591/genomes1/MGYG000517591.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517591.gff.gz",
+    "bytes": 1485758,
+    "sha256": "cb04f7848d044a15ea74722361d359c7aa698ef256a37df4c5a10501ce2e167a",
+    "retrieved_utc": "2026-09-10T15:31:46.092781+00:00"
+  },
+  "MGYG000517592": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517592/genomes1/MGYG000517592.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517592.gff.gz",
+    "bytes": 922998,
+    "sha256": "3b8f04c49693e095a6f5c35abe5d8ae0f6dfcf54582a19a3bf604036d2d640d2",
+    "retrieved_utc": "2026-09-10T15:31:46.086297+00:00"
+  },
+  "MGYG000517593": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517593/genomes1/MGYG000517593.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517593.gff.gz",
+    "bytes": 803696,
+    "sha256": "d7f65fb69a5e4b69089957b6e20977495490e4e017b85749d6a014cf0f093e1f",
+    "retrieved_utc": "2026-09-10T15:31:47.167045+00:00"
+  },
+  "MGYG000517594": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517594/genomes1/MGYG000517594.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517594.gff.gz",
+    "bytes": 1917757,
+    "sha256": "996b9a213d98b9edd3d203dfb88f83d4bc2ebbc89b4cfa76079298cae6d82655",
+    "retrieved_utc": "2026-09-10T15:31:48.598621+00:00"
+  },
+  "MGYG000517595": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517595/genomes1/MGYG000517595.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517595.gff.gz",
+    "bytes": 988638,
+    "sha256": "c197fb6391e1759b4ac3b620766383ce975476f51b06ee9917ce5535e6037737",
+    "retrieved_utc": "2026-09-10T15:31:48.633932+00:00"
+  },
+  "MGYG000517596": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517596/genomes1/MGYG000517596.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517596.gff.gz",
+    "bytes": 1154181,
+    "sha256": "cc6269076089f98c90303e9223d8ba34c66c5b28b076e3ab54bbae2e8bdde14c",
+    "retrieved_utc": "2026-09-10T15:31:48.645333+00:00"
+  },
+  "MGYG000517597": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517597/genomes1/MGYG000517597.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517597.gff.gz",
+    "bytes": 1537484,
+    "sha256": "cd5fe3a7bf30260694bf039dbdcc2c030f9a11f38aa85b58f99abb39673438b0",
+    "retrieved_utc": "2026-09-10T15:31:49.821369+00:00"
+  },
+  "MGYG000517598": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517598/genomes1/MGYG000517598.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517598.gff.gz",
+    "bytes": 1038014,
+    "sha256": "c3433f491ec24a4d75b88b4d335d33a44ab7f5d350d62b62f531999152af9ec8",
+    "retrieved_utc": "2026-09-10T15:31:51.170211+00:00"
+  },
+  "MGYG000517599": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517599/genomes1/MGYG000517599.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517599.gff.gz",
+    "bytes": 892258,
+    "sha256": "58ed84dfd7e5ef09ba694fba03391329d9b11969fa75448762e4b5d067f2840e",
+    "retrieved_utc": "2026-09-10T15:31:51.096809+00:00"
+  },
+  "MGYG000517600": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517600/genomes1/MGYG000517600.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517600.gff.gz",
+    "bytes": 1355576,
+    "sha256": "f99a36d7bdcfc6bf7cf33c3978223a4bf27a716bd2bcf1a4e799e44c9dd6a609",
+    "retrieved_utc": "2026-09-10T15:31:51.258195+00:00"
+  },
+  "MGYG000517601": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517601/genomes1/MGYG000517601.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517601.gff.gz",
+    "bytes": 1553268,
+    "sha256": "93431948c1ec4f2d4abf6a6c31376ba7aa32b64dd2829dcb2c2eb0b8bc827a29",
+    "retrieved_utc": "2026-09-10T15:31:55.037556+00:00"
+  },
+  "MGYG000517602": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517602/genomes1/MGYG000517602.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517602.gff.gz",
+    "bytes": 1527148,
+    "sha256": "59f29d8a2d12f1bb0faa89ccbdf0449c97cd7329306cb825eb64a1e6064b7475",
+    "retrieved_utc": "2026-09-10T15:31:54.152081+00:00"
+  },
+  "MGYG000517603": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517603/genomes1/MGYG000517603.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517603.gff.gz",
+    "bytes": 877852,
+    "sha256": "0fd2b53c13e43f838d5a75e7764861eec96a3985814bcc150b46405ca06785e7",
+    "retrieved_utc": "2026-09-10T15:31:54.017577+00:00"
+  },
+  "MGYG000517604": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517604/genomes1/MGYG000517604.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517604.gff.gz",
+    "bytes": 1184321,
+    "sha256": "a9dc1e8f8a20c292d1ebf82f2f19f620ed8270651946d0d0203bedfe88bcd5e1",
+    "retrieved_utc": "2026-09-10T15:31:53.977577+00:00"
+  },
+  "MGYG000517605": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517605/genomes1/MGYG000517605.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517605.gff.gz",
+    "bytes": 1357351,
+    "sha256": "ee7a397d49ed8c5aec9d0368889d7377568370be03531e8f47d5cedcf461f1f3",
+    "retrieved_utc": "2026-09-10T15:31:56.685194+00:00"
+  },
+  "MGYG000517606": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517606/genomes1/MGYG000517606.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517606.gff.gz",
+    "bytes": 2033428,
+    "sha256": "2bc5f4311d16281233622eae03e423621d672fb969d174f92fc518cb843ab6d8",
+    "retrieved_utc": "2026-09-10T15:31:57.197609+00:00"
+  },
+  "MGYG000517607": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517607/genomes1/MGYG000517607.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517607.gff.gz",
+    "bytes": 1158307,
+    "sha256": "5722f882eaaa10c96d2578db95fbe4fbaabcdecdad37c0c47bc131e93e5207d5",
+    "retrieved_utc": "2026-09-10T15:31:57.936279+00:00"
+  },
+  "MGYG000517608": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517791/genomes1/MGYG000517608.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517608.gff.gz",
+    "bytes": 1497725,
+    "sha256": "8a8752ed34584241b5f500333431cd08e3851f3fffef8ea3919e2c28bc198c00",
+    "retrieved_utc": "2026-09-10T15:31:59.429578+00:00"
+  },
+  "MGYG000517609": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517609/genomes1/MGYG000517609.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517609.gff.gz",
+    "bytes": 1525849,
+    "sha256": "d4e428e4f90b724601ce1dfdbf2e5e151ce3298d3837c55128343c1c6cd1fc0f",
+    "retrieved_utc": "2026-09-10T15:31:59.459375+00:00"
+  },
+  "MGYG000517610": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517610/genomes1/MGYG000517610.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517610.gff.gz",
+    "bytes": 681367,
+    "sha256": "85e5ade46f190037a0b1a3ede1c0643a426e9949ef80f2819e2b5d2ee05f20da",
+    "retrieved_utc": "2026-09-10T15:32:01.810092+00:00"
+  },
+  "MGYG000517611": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517611/genomes1/MGYG000517611.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517611.gff.gz",
+    "bytes": 1224231,
+    "sha256": "3be0720f35349724e7e6f364a617755b6587cd37ca51f62eb4b46b7c4cf3d4b4",
+    "retrieved_utc": "2026-09-10T15:32:00.729414+00:00"
+  },
+  "MGYG000517612": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517612/genomes1/MGYG000517612.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517612.gff.gz",
+    "bytes": 1082329,
+    "sha256": "ad4624b28762e2076184342215cf5f7ff30a97f07a138f0cd0607f13ac975f53",
+    "retrieved_utc": "2026-09-10T15:32:05.512005+00:00"
+  },
+  "MGYG000517613": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517613/genomes1/MGYG000517613.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517613.gff.gz",
+    "bytes": 1914100,
+    "sha256": "4f86a069779fa3d9f64715cad2e362eee22499dd590b0b7256607a26f7445111",
+    "retrieved_utc": "2026-09-10T15:32:02.516028+00:00"
+  },
+  "MGYG000517614": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517614/genomes1/MGYG000517614.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517614.gff.gz",
+    "bytes": 1237235,
+    "sha256": "270b1a83586beada9771a095afd163e5787e6421fc887975ffd0539975e8649f",
+    "retrieved_utc": "2026-09-10T15:32:03.557193+00:00"
+  },
+  "MGYG000517615": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517615/genomes1/MGYG000517615.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517615.gff.gz",
+    "bytes": 1490987,
+    "sha256": "307632e0a2e40d27712f29ca741ad6215a5ad39e7dd13d1461d84aa54ed443ff",
+    "retrieved_utc": "2026-09-10T15:32:04.881619+00:00"
+  },
+  "MGYG000517616": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517616/genomes1/MGYG000517616.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517616.gff.gz",
+    "bytes": 1421923,
+    "sha256": "097e0a9826c5a3c42db372a2fc3c6b0b61de3d4f5c09e14d9ed9e9466f9673bb",
+    "retrieved_utc": "2026-09-10T15:32:05.494190+00:00"
+  },
+  "MGYG000517617": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517617/genomes1/MGYG000517617.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517617.gff.gz",
+    "bytes": 1451559,
+    "sha256": "093588678e22a1830367d7fcac5895fc81d0052efa3b8f0e22936bb525df9de7",
+    "retrieved_utc": "2026-09-10T15:32:06.439213+00:00"
+  },
+  "MGYG000517619": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517619/genomes1/MGYG000517619.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517619.gff.gz",
+    "bytes": 1651986,
+    "sha256": "e43b0ccfa22c255af2c9189eedd518a33104e97ddb2ab708bcb23c49d7829f41",
+    "retrieved_utc": "2026-09-10T15:32:07.958512+00:00"
+  },
+  "MGYG000517620": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517620/genomes1/MGYG000517620.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517620.gff.gz",
+    "bytes": 1389471,
+    "sha256": "d32662946d0757e0a048ec9e2d51b82ce0ed5cc4615add849ea42193773c7ead",
+    "retrieved_utc": "2026-09-10T15:32:08.349262+00:00"
+  },
+  "MGYG000517621": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517621/genomes1/MGYG000517621.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517621.gff.gz",
+    "bytes": 1898041,
+    "sha256": "0411beec93fcae29c2411683918a7800aad3ce226be63a080a8f3ce0510e333a",
+    "retrieved_utc": "2026-09-10T15:32:09.407602+00:00"
+  },
+  "MGYG000517622": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517622/genomes1/MGYG000517622.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517622.gff.gz",
+    "bytes": 1426655,
+    "sha256": "31aa4e06cb5e0f80e12baf77e5da2fadb1f1524d49cecace07efe0b3b54b6808",
+    "retrieved_utc": "2026-09-10T15:32:09.066868+00:00"
+  },
+  "MGYG000517623": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517623/genomes1/MGYG000517623.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517623.gff.gz",
+    "bytes": 822395,
+    "sha256": "d711917affdc94c0ef3e8c9be0d8971e35ab7222bc2a9419972e783a9e041d86",
+    "retrieved_utc": "2026-09-10T15:32:11.089705+00:00"
+  },
+  "MGYG000517624": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517624/genomes1/MGYG000517624.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517624.gff.gz",
+    "bytes": 1595502,
+    "sha256": "9493abf2aa53dc51f783c2b488d0b083010c2043ca103a59be7f92c56d082931",
+    "retrieved_utc": "2026-09-10T15:32:11.366248+00:00"
+  },
+  "MGYG000517626": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517626/genomes1/MGYG000517626.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517626.gff.gz",
+    "bytes": 1799374,
+    "sha256": "d75872e7bba7bb9741a257f30005946b009966d322c70ab73dc0a7f96ee9fe72",
+    "retrieved_utc": "2026-09-10T15:32:12.031829+00:00"
+  },
+  "MGYG000517627": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517712/genomes1/MGYG000517627.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517627.gff.gz",
+    "bytes": 710309,
+    "sha256": "0f03a5246c531649f9bfe14a423b1310c6dd932bf9d41bdb58f309cac7e74d44",
+    "retrieved_utc": "2026-09-10T15:32:11.825282+00:00"
+  },
+  "MGYG000517628": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517628/genomes1/MGYG000517628.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517628.gff.gz",
+    "bytes": 1995088,
+    "sha256": "2cee61536b7e6e3990f6fd42cf20d3a1454de56c808262f9873ab4e08e35ebdb",
+    "retrieved_utc": "2026-09-10T15:32:15.533898+00:00"
+  },
+  "MGYG000517630": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517675/genomes1/MGYG000517630.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517630.gff.gz",
+    "bytes": 1552489,
+    "sha256": "2203d0935dcfe217045703f39cbc0215e3991a419f6f1e572c0c11361ce01d7a",
+    "retrieved_utc": "2026-09-10T15:32:14.273604+00:00"
+  },
+  "MGYG000517631": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517631/genomes1/MGYG000517631.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517631.gff.gz",
+    "bytes": 1077555,
+    "sha256": "8fc1100098b172f8b665885230b4060228a4c6d19d260794c0ae1f7518a93f72",
+    "retrieved_utc": "2026-09-10T15:32:14.501204+00:00"
+  },
+  "MGYG000517632": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517632/genomes1/MGYG000517632.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517632.gff.gz",
+    "bytes": 2593570,
+    "sha256": "561da47393936b36246095e38824eb3f70a4a2991ee2e45ba75b6fdcd6422351",
+    "retrieved_utc": "2026-09-10T15:32:15.404956+00:00"
+  },
+  "MGYG000517633": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517633/genomes1/MGYG000517633.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517633.gff.gz",
+    "bytes": 784815,
+    "sha256": "c07160df793b1df9e2fd1b776c0806c4694a785fc3d7baf96d7b8ab7039aadc2",
+    "retrieved_utc": "2026-09-10T15:32:16.864065+00:00"
+  },
+  "MGYG000517634": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517634/genomes1/MGYG000517634.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517634.gff.gz",
+    "bytes": 1981327,
+    "sha256": "cb0300f13be2915c35a94e5495f11d6dee8bcf0e02c5c479ae2910f2e8de3316",
+    "retrieved_utc": "2026-09-10T15:32:17.322581+00:00"
+  },
+  "MGYG000517635": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517691/genomes1/MGYG000517635.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517635.gff.gz",
+    "bytes": 881792,
+    "sha256": "64ed011de48472a54737a284db921c8a676a641b6278316c0edbc285bfd1a004",
+    "retrieved_utc": "2026-09-10T15:32:17.985377+00:00"
+  },
+  "MGYG000517636": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517636/genomes1/MGYG000517636.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517636.gff.gz",
+    "bytes": 1405695,
+    "sha256": "5873f68d4739bc0eaba04c148d5f12d0ddea6e8047c9e5a510c5d44c16aa04f0",
+    "retrieved_utc": "2026-09-10T15:32:34.200480+00:00"
+  },
+  "MGYG000517637": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517637/genomes1/MGYG000517637.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517637.gff.gz",
+    "bytes": 2090416,
+    "sha256": "70a8704a2a295584f4eb85fe40b4aba074ad28cf2fad555775f544a630c8b8e5",
+    "retrieved_utc": "2026-09-10T15:32:19.999866+00:00"
+  },
+  "MGYG000517638": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517638/genomes1/MGYG000517638.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517638.gff.gz",
+    "bytes": 1957519,
+    "sha256": "9355c11a971b40af21945f85fd98a562bd7187a3176f3c7a6e52fe3265559aee",
+    "retrieved_utc": "2026-09-10T15:32:20.380125+00:00"
+  },
+  "MGYG000517640": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517640/genomes1/MGYG000517640.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517640.gff.gz",
+    "bytes": 1614320,
+    "sha256": "6deea9434b09d521c5b603474ef9520cb438a982df0bd04268a3c7a3f8f21143",
+    "retrieved_utc": "2026-09-10T15:32:21.181645+00:00"
+  },
+  "MGYG000517641": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517641/genomes1/MGYG000517641.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517641.gff.gz",
+    "bytes": 1625684,
+    "sha256": "46c5e943f2f8f9be8cf5b08da6f3bc4ede918db782891ac39f51c9171f01ef9f",
+    "retrieved_utc": "2026-09-10T15:32:22.968005+00:00"
+  },
+  "MGYG000517642": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517642/genomes1/MGYG000517642.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517642.gff.gz",
+    "bytes": 1175750,
+    "sha256": "9e24ed117bb025cfc25033a92d6e475e4762e3fb64e9bb1c13b5c4d251af0ca2",
+    "retrieved_utc": "2026-09-10T15:32:23.990334+00:00"
+  },
+  "MGYG000517643": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517850/genomes1/MGYG000517643.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517643.gff.gz",
+    "bytes": 1152000,
+    "sha256": "7d85aca38ff168cf9a38c3be1414177c77cd938ea6768010c13cbe8cf2a5e83f",
+    "retrieved_utc": "2026-09-10T15:32:23.860656+00:00"
+  },
+  "MGYG000517644": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517644/genomes1/MGYG000517644.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517644.gff.gz",
+    "bytes": 1442046,
+    "sha256": "3b981413979bbe1c6e0b40935da792370631c618dd38492538492956c7e36e32",
+    "retrieved_utc": "2026-09-10T15:32:25.876600+00:00"
+  },
+  "MGYG000517645": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517645/genomes1/MGYG000517645.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517645.gff.gz",
+    "bytes": 2534469,
+    "sha256": "b9be93430461d4b172c26b46a39c76267cc58949b8dd8631e0e365bfbfcedf18",
+    "retrieved_utc": "2026-09-10T15:32:27.063934+00:00"
+  },
+  "MGYG000517646": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517646/genomes1/MGYG000517646.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517646.gff.gz",
+    "bytes": 1461121,
+    "sha256": "c7f299b6c0223ef923e55fc48ec29335ae1bf7e1436ccf373dd2495140b1241f",
+    "retrieved_utc": "2026-09-10T15:32:27.007635+00:00"
+  },
+  "MGYG000517647": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005179/MGYG000517920/genomes1/MGYG000517647.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517647.gff.gz",
+    "bytes": 1253767,
+    "sha256": "2966d051c6a3a5e0d9bcdad3b95fc9232203fb276dfb5e1a2ddc64f23aa2421c",
+    "retrieved_utc": "2026-09-10T15:32:28.547337+00:00"
+  },
+  "MGYG000517648": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517709/genomes1/MGYG000517648.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517648.gff.gz",
+    "bytes": 1251228,
+    "sha256": "888d31f86631eb808c94d7983665424703622d42d06548b77908cba9e236d76c",
+    "retrieved_utc": "2026-09-10T15:32:31.180522+00:00"
+  },
+  "MGYG000517649": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517649/genomes1/MGYG000517649.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517649.gff.gz",
+    "bytes": 1714500,
+    "sha256": "c05539c4957a711b51d288cf09bca9d967ad2751e2b0d6d4c1ddd604796af9c0",
+    "retrieved_utc": "2026-09-10T15:32:36.384808+00:00"
+  },
+  "MGYG000517650": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517650/genomes1/MGYG000517650.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517650.gff.gz",
+    "bytes": 1011593,
+    "sha256": "79c8e8479db9792dd6844a8894f04c55302a3d1c63b6c488efaf58f3d8930187",
+    "retrieved_utc": "2026-09-10T15:32:31.052533+00:00"
+  },
+  "MGYG000517651": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517651/genomes1/MGYG000517651.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517651.gff.gz",
+    "bytes": 1461805,
+    "sha256": "77af2592643127a4572809b5f2ac648a60bf8289c204cf69bf37777f739d229f",
+    "retrieved_utc": "2026-09-10T15:32:34.489307+00:00"
+  },
+  "MGYG000517652": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517652/genomes1/MGYG000517652.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517652.gff.gz",
+    "bytes": 214860,
+    "sha256": "41628da67dd0fd62ca852bfe238de1e5d7debea1f942a270fffc8ddb1981f721",
+    "retrieved_utc": "2026-09-10T15:32:34.478374+00:00"
+  },
+  "MGYG000517653": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517653/genomes1/MGYG000517653.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517653.gff.gz",
+    "bytes": 378429,
+    "sha256": "a3a9de215707096d8a382c225426b85133985dc434856539e32c7b94f6de811f",
+    "retrieved_utc": "2026-09-10T15:32:36.479511+00:00"
+  },
+  "MGYG000517654": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517654/genomes1/MGYG000517654.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517654.gff.gz",
+    "bytes": 1316753,
+    "sha256": "5ea5f61bb22eceee780f05cdfd53febc02f84622b932c91b06ca75556d9e509b",
+    "retrieved_utc": "2026-09-10T15:32:39.174319+00:00"
+  },
+  "MGYG000517655": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517655/genomes1/MGYG000517655.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517655.gff.gz",
+    "bytes": 1227545,
+    "sha256": "098d92ece029a28b77dedf4c9a9b1dba635f19fe130ec9d4c3fb17a55026b5fe",
+    "retrieved_utc": "2026-09-10T15:32:37.258240+00:00"
+  },
+  "MGYG000517656": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517656/genomes1/MGYG000517656.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517656.gff.gz",
+    "bytes": 1323121,
+    "sha256": "fb20edec78caaa8db0dc1a466a1235f9cc6229e82be074dbe49cc1ef8452e743",
+    "retrieved_utc": "2026-09-10T15:32:38.956989+00:00"
+  },
+  "MGYG000517657": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517657/genomes1/MGYG000517657.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517657.gff.gz",
+    "bytes": 1869890,
+    "sha256": "7077bd954390e45c1b329f8e8ad246c8ae26d123bd8b95cd9163304c91ca84c9",
+    "retrieved_utc": "2026-09-10T15:32:39.353339+00:00"
+  },
+  "MGYG000517658": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517658/genomes1/MGYG000517658.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517658.gff.gz",
+    "bytes": 1111737,
+    "sha256": "aace10346960002ff4214e8391cebcbf63e32b628a65291f9fb42820685a78a8",
+    "retrieved_utc": "2026-09-10T15:32:39.824643+00:00"
+  },
+  "MGYG000517659": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517659/genomes1/MGYG000517659.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517659.gff.gz",
+    "bytes": 845757,
+    "sha256": "3c68abf7b6894a4825ebb8f9d954d26bf73c6bd59d17bbcb30f66dd4b6c9bcb5",
+    "retrieved_utc": "2026-09-10T15:32:42.305157+00:00"
+  },
+  "MGYG000517660": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517660/genomes1/MGYG000517660.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517660.gff.gz",
+    "bytes": 1189834,
+    "sha256": "0aacf479c6a050e9bec17dc7ac621b4cef4d974d6a8196ae559a31c68c13cb2b",
+    "retrieved_utc": "2026-09-10T15:32:43.052380+00:00"
+  },
+  "MGYG000517661": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517661/genomes1/MGYG000517661.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517661.gff.gz",
+    "bytes": 1270202,
+    "sha256": "9e34ecca4f9fb567277521f5465f3c4bdea8cf43bc5f2732af5407783defa44d",
+    "retrieved_utc": "2026-09-10T15:32:41.879024+00:00"
+  },
+  "MGYG000517662": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517662/genomes1/MGYG000517662.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517662.gff.gz",
+    "bytes": 1796711,
+    "sha256": "b5b5db3500d76ab2873acf4d2bff67270a949971c130d402d90aa7f24bc1f8b4",
+    "retrieved_utc": "2026-09-10T15:32:42.608234+00:00"
+  },
+  "MGYG000517663": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517663/genomes1/MGYG000517663.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517663.gff.gz",
+    "bytes": 1845104,
+    "sha256": "2c8254eb2f3ff7638d2191613b52b27f9e8751a69bbcf178c6d0d58886dd4c51",
+    "retrieved_utc": "2026-09-10T15:32:45.159772+00:00"
+  },
+  "MGYG000517664": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517664/genomes1/MGYG000517664.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517664.gff.gz",
+    "bytes": 1927560,
+    "sha256": "4e9ee128874a08139aae1faaa1617e31533e49c50da0186fbdbad5542ac171e2",
+    "retrieved_utc": "2026-09-10T15:32:45.201435+00:00"
+  },
+  "MGYG000517665": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005175/MGYG000517522/genomes1/MGYG000517665.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517665.gff.gz",
+    "bytes": 1829484,
+    "sha256": "559f6528d4a4a62c8bc0b5c65a661196079cff9413f6138d7bc84822e18d655d",
+    "retrieved_utc": "2026-09-10T15:32:45.449134+00:00"
+  },
+  "MGYG000517666": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517666/genomes1/MGYG000517666.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517666.gff.gz",
+    "bytes": 816385,
+    "sha256": "e623a09c2089123a71e88122f9303083df6b7c0c48ba1df662bb22021c707049",
+    "retrieved_utc": "2026-09-10T15:32:45.399229+00:00"
+  },
+  "MGYG000517667": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517667/genomes1/MGYG000517667.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517667.gff.gz",
+    "bytes": 1086779,
+    "sha256": "b14a90e6628947d5a0f24322e3933457aad24f0ae4711613632e384c5f7c658e",
+    "retrieved_utc": "2026-09-10T15:32:48.119318+00:00"
+  },
+  "MGYG000517668": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517668/genomes1/MGYG000517668.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517668.gff.gz",
+    "bytes": 888197,
+    "sha256": "924e116629b5aecaa23998bc5c963dfc2a19338ba1acf7492fe0604e70fbc0db",
+    "retrieved_utc": "2026-09-10T15:32:47.707824+00:00"
+  },
+  "MGYG000517669": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517669/genomes1/MGYG000517669.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517669.gff.gz",
+    "bytes": 1658036,
+    "sha256": "69317f8739a095316fb33bbcf8da0baa01b85505599a55451e1d262bb825ef00",
+    "retrieved_utc": "2026-09-10T15:32:48.359200+00:00"
+  },
+  "MGYG000517670": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517670/genomes1/MGYG000517670.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517670.gff.gz",
+    "bytes": 2985283,
+    "sha256": "1c14850eb2de0db9a48b29dd9e3ef172ae1d12379b84ad70b31917138439a55d",
+    "retrieved_utc": "2026-09-10T15:32:48.692879+00:00"
+  },
+  "MGYG000517671": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517671/genomes1/MGYG000517671.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517671.gff.gz",
+    "bytes": 992914,
+    "sha256": "0fa358ee985cbb8581f7c84bd516414d629626954ccb630b4eea120eb34f33a0",
+    "retrieved_utc": "2026-09-10T15:32:50.182357+00:00"
+  },
+  "MGYG000517672": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517672/genomes1/MGYG000517672.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517672.gff.gz",
+    "bytes": 1492106,
+    "sha256": "493c62689497ec56ed4da72b37e0e388e7a1e3c0b572bbbfe208fc74814f965d",
+    "retrieved_utc": "2026-09-10T15:32:50.644000+00:00"
+  },
+  "MGYG000517673": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517673/genomes1/MGYG000517673.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517673.gff.gz",
+    "bytes": 335470,
+    "sha256": "078c4ddc513f0785f0ef6a45e04ed98a9e69451817c338e721828f4525a02628",
+    "retrieved_utc": "2026-09-10T15:32:50.557373+00:00"
+  },
+  "MGYG000517674": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517674/genomes1/MGYG000517674.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517674.gff.gz",
+    "bytes": 2055397,
+    "sha256": "8151a270b837a7ca47f2782e2c16bd8ea029961ad19239737814278834d3b6ef",
+    "retrieved_utc": "2026-09-10T15:32:51.780514+00:00"
+  },
+  "MGYG000517675": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517675/genomes1/MGYG000517675.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517675.gff.gz",
+    "bytes": 1894025,
+    "sha256": "129fe22f42f9a3df2afbe9f211c5d8f3f1ca641ed2d5d85b96283947787c225d",
+    "retrieved_utc": "2026-09-10T15:32:53.134880+00:00"
+  },
+  "MGYG000517676": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517676/genomes1/MGYG000517676.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517676.gff.gz",
+    "bytes": 999130,
+    "sha256": "c16257f86532c8539afbe46f2367cd789a803f408e1ee602d3acab0a8dfd4f5e",
+    "retrieved_utc": "2026-09-10T15:32:53.264960+00:00"
+  },
+  "MGYG000517677": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517677/genomes1/MGYG000517677.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517677.gff.gz",
+    "bytes": 1743707,
+    "sha256": "f77c5bcb87127a7f59777f5c6e9ac28aed16956d0bc01b3f478012615303e2b4",
+    "retrieved_utc": "2026-09-10T15:32:53.627513+00:00"
+  },
+  "MGYG000517678": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517678/genomes1/MGYG000517678.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517678.gff.gz",
+    "bytes": 1677169,
+    "sha256": "ad39b58829abc680ded6fd379c8b8bb976ad31a22c15b8092f9849b719f8ea8d",
+    "retrieved_utc": "2026-09-10T15:32:55.015987+00:00"
+  },
+  "MGYG000517679": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517679/genomes1/MGYG000517679.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517679.gff.gz",
+    "bytes": 1828170,
+    "sha256": "a7989329fe15f15ed56896402131298c0c4f6ec99feddaf7a079b70714a1f518",
+    "retrieved_utc": "2026-09-10T15:32:56.009805+00:00"
+  },
+  "MGYG000517680": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517678/genomes1/MGYG000517680.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517680.gff.gz",
+    "bytes": 1295793,
+    "sha256": "aa5c0ead722817936a1b430260ebb2887d7e36d9d022796ab3c990d3cb29d799",
+    "retrieved_utc": "2026-09-10T15:32:56.278513+00:00"
+  },
+  "MGYG000517681": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517681/genomes1/MGYG000517681.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517681.gff.gz",
+    "bytes": 2111513,
+    "sha256": "4a5b9dcf397801c70d491a42e60120a39e391b0ec35935d60ed9ed9aa66da23d",
+    "retrieved_utc": "2026-09-10T15:32:56.980830+00:00"
+  },
+  "MGYG000517682": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517682/genomes1/MGYG000517682.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517682.gff.gz",
+    "bytes": 2331219,
+    "sha256": "1e41f80f8aa9c9148ae760bc718f5d525c87fc842a2fec59b9be87830aae7f7f",
+    "retrieved_utc": "2026-09-10T15:32:58.271664+00:00"
+  },
+  "MGYG000517683": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517683/genomes1/MGYG000517683.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517683.gff.gz",
+    "bytes": 1293774,
+    "sha256": "69f3e25eb71fb9a53d02450422892494aff9333277465a259a6f543d34a1868b",
+    "retrieved_utc": "2026-09-10T15:32:59.746094+00:00"
+  },
+  "MGYG000517684": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517684/genomes1/MGYG000517684.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517684.gff.gz",
+    "bytes": 1792613,
+    "sha256": "11647b7ea61cd27591e43f4e9be5023e806e812cfc96961de0495c9825415487",
+    "retrieved_utc": "2026-09-10T15:32:59.000088+00:00"
+  },
+  "MGYG000517685": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517685/genomes1/MGYG000517685.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517685.gff.gz",
+    "bytes": 1447106,
+    "sha256": "1fd4cf15733ab3d05a1bb7396d2551ca3a8f335a7b33953877e19a2138a3c3d1",
+    "retrieved_utc": "2026-09-10T15:32:59.537332+00:00"
+  },
+  "MGYG000517686": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517686/genomes1/MGYG000517686.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517686.gff.gz",
+    "bytes": 1860588,
+    "sha256": "ea5af184f702e4e64c4406818bada191c3880ff2a830b047058430690032a4c1",
+    "retrieved_utc": "2026-09-10T15:33:01.132989+00:00"
+  },
+  "MGYG000517687": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517845/genomes1/MGYG000517687.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517687.gff.gz",
+    "bytes": 1516722,
+    "sha256": "57c5a92b9343d03af0ea9a4ef58d6a5e909c92b6816883d85a253a9cf1ffef5d",
+    "retrieved_utc": "2026-09-10T15:33:01.686567+00:00"
+  },
+  "MGYG000517688": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517688/genomes1/MGYG000517688.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517688.gff.gz",
+    "bytes": 1331818,
+    "sha256": "ffef04cf6e464de7facd6823fa8b43d0be068852c7e6a591dc7afa4aceba81b3",
+    "retrieved_utc": "2026-09-10T15:33:02.346324+00:00"
+  },
+  "MGYG000517689": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517689/genomes1/MGYG000517689.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517689.gff.gz",
+    "bytes": 1505902,
+    "sha256": "e32d4c6b945ea9a51d80e2f57961665e63f3438bfe361d4b1a0a14a0d3ab8173",
+    "retrieved_utc": "2026-09-10T15:33:02.378220+00:00"
+  },
+  "MGYG000517690": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517690/genomes1/MGYG000517690.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517690.gff.gz",
+    "bytes": 1403488,
+    "sha256": "12c2944865c667160718438cc9a7378e99678936e80108a8fb55ce61d86001fc",
+    "retrieved_utc": "2026-09-10T15:33:04.858023+00:00"
+  },
+  "MGYG000517691": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517691/genomes1/MGYG000517691.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517691.gff.gz",
+    "bytes": 1367862,
+    "sha256": "3c99d2e17a8e03e21604c1ec15179c8023682e4f80a186c933a6e217b9f9d922",
+    "retrieved_utc": "2026-09-10T15:33:04.393490+00:00"
+  },
+  "MGYG000517692": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517692/genomes1/MGYG000517692.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517692.gff.gz",
+    "bytes": 2091255,
+    "sha256": "efd9ff4d0cd4b12316ce6993077ffc8453a1bb754b5a672e11f174df83be5b76",
+    "retrieved_utc": "2026-09-10T15:33:05.645550+00:00"
+  },
+  "MGYG000517694": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517657/genomes1/MGYG000517694.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517694.gff.gz",
+    "bytes": 934295,
+    "sha256": "eb64ca0fc90509d46ec34ada824c9942a31d7dcc93a12734f802bf43798301d9",
+    "retrieved_utc": "2026-09-10T15:33:20.877057+00:00"
+  },
+  "MGYG000517695": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517695/genomes1/MGYG000517695.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517695.gff.gz",
+    "bytes": 847007,
+    "sha256": "28c17dceed1996526652b4b63a36baf6ca4248a53c7acd28185ffd57fccd19a7",
+    "retrieved_utc": "2026-09-10T15:33:06.949019+00:00"
+  },
+  "MGYG000517696": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005179/MGYG000517920/genomes1/MGYG000517696.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517696.gff.gz",
+    "bytes": 1239621,
+    "sha256": "a7865f82def7f6f66cdc1ffd33527397a7bb8dd386036cb5eb767b5fee0e5155",
+    "retrieved_utc": "2026-09-10T15:33:08.845300+00:00"
+  },
+  "MGYG000517697": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517697/genomes1/MGYG000517697.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517697.gff.gz",
+    "bytes": 1191487,
+    "sha256": "7853482b18c050c711d9393934ab51b9b78f104e62bc7d19b239e46f9811d869",
+    "retrieved_utc": "2026-09-10T15:33:08.487103+00:00"
+  },
+  "MGYG000517698": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517698/genomes1/MGYG000517698.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517698.gff.gz",
+    "bytes": 2474921,
+    "sha256": "f08bb46c21758d8ab34694dd5b58b5a1cafdbde698a48c7970ad90e62e215a1b",
+    "retrieved_utc": "2026-09-10T15:33:10.452273+00:00"
+  },
+  "MGYG000517699": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517699/genomes1/MGYG000517699.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517699.gff.gz",
+    "bytes": 521627,
+    "sha256": "96adaec89816017149983fa6c4150cd50fb3890a770f81938b72cd510b4b76e0",
+    "retrieved_utc": "2026-09-10T15:33:10.715478+00:00"
+  },
+  "MGYG000517701": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517701/genomes1/MGYG000517701.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517701.gff.gz",
+    "bytes": 1606410,
+    "sha256": "a4f9968107474f032551551bd9a3395e86d70a175f44a62c0bb679039e64b78a",
+    "retrieved_utc": "2026-09-10T15:33:11.632224+00:00"
+  },
+  "MGYG000517702": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517702/genomes1/MGYG000517702.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517702.gff.gz",
+    "bytes": 282468,
+    "sha256": "0af2bc327938e38d34ad6ca148db04778654dc5bc0994de1ce645531a0d84e4a",
+    "retrieved_utc": "2026-09-10T15:33:14.109849+00:00"
+  },
+  "MGYG000517703": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517703/genomes1/MGYG000517703.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517703.gff.gz",
+    "bytes": 1541323,
+    "sha256": "25c0a9b1bfa4e73fb8bdb861b6f276bd17e57d5b153036c452fd3a2e99cac0bd",
+    "retrieved_utc": "2026-09-10T15:33:13.395541+00:00"
+  },
+  "MGYG000517704": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517704/genomes1/MGYG000517704.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517704.gff.gz",
+    "bytes": 1497700,
+    "sha256": "4da537133dda3868e71928a620dfe56fd9d89bd33a7514c3b2a03b5a4b464ea2",
+    "retrieved_utc": "2026-09-10T15:33:14.396360+00:00"
+  },
+  "MGYG000517705": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517705/genomes1/MGYG000517705.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517705.gff.gz",
+    "bytes": 452244,
+    "sha256": "d0febb7317278a9b942d011e6f0a38b450b3c1aa4193b5a69b04a17306fd6e25",
+    "retrieved_utc": "2026-09-10T15:33:16.211045+00:00"
+  },
+  "MGYG000517706": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517706/genomes1/MGYG000517706.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517706.gff.gz",
+    "bytes": 1753357,
+    "sha256": "73f7ae96bc24b878007383c80a6b81d8b2b866999d1f254507a18c8ed35244c9",
+    "retrieved_utc": "2026-09-10T15:33:16.846404+00:00"
+  },
+  "MGYG000517707": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517707/genomes1/MGYG000517707.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517707.gff.gz",
+    "bytes": 1666633,
+    "sha256": "c58e8314c971d19c77d313e390a850a4a955f6ad211733a726abf6b1140d59b5",
+    "retrieved_utc": "2026-09-10T15:33:18.647069+00:00"
+  },
+  "MGYG000517708": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517708/genomes1/MGYG000517708.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517708.gff.gz",
+    "bytes": 2895686,
+    "sha256": "1324ca01e3fcba03bdc99b58dc3688e960d3f9a70581a7f030af1fc7bf98ad99",
+    "retrieved_utc": "2026-09-10T15:33:20.070844+00:00"
+  },
+  "MGYG000517709": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517709/genomes1/MGYG000517709.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517709.gff.gz",
+    "bytes": 1948592,
+    "sha256": "6af58903423599edd70822f027967bab3a89f96252d590e66af6777f5cb649bb",
+    "retrieved_utc": "2026-09-10T15:33:20.406456+00:00"
+  },
+  "MGYG000517710": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517710/genomes1/MGYG000517710.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517710.gff.gz",
+    "bytes": 1983847,
+    "sha256": "d7d927bd0fac578b4530466037fc22f2d529220999665d1253c04ebd3016afdb",
+    "retrieved_utc": "2026-09-10T15:33:21.506721+00:00"
+  },
+  "MGYG000517711": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517711/genomes1/MGYG000517711.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517711.gff.gz",
+    "bytes": 2038387,
+    "sha256": "d07a2c393fb3b5a2bd20ed56e626d2de2b250da07aa214b6354367749135c5e3",
+    "retrieved_utc": "2026-09-10T15:33:23.076578+00:00"
+  },
+  "MGYG000517712": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517712/genomes1/MGYG000517712.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517712.gff.gz",
+    "bytes": 756918,
+    "sha256": "3053ba1f2dcc2c8cd62e19652ece5752e6eb21be0d8d2a816bbb93b69bb4f3fb",
+    "retrieved_utc": "2026-09-10T15:33:25.785639+00:00"
+  },
+  "MGYG000517713": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517713/genomes1/MGYG000517713.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517713.gff.gz",
+    "bytes": 1960452,
+    "sha256": "5b43de77846e7ae94ed5942574b40c9d67e940d5f01b3a5a817c0c3e6e117260",
+    "retrieved_utc": "2026-09-10T15:33:23.893442+00:00"
+  },
+  "MGYG000517714": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517714/genomes1/MGYG000517714.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517714.gff.gz",
+    "bytes": 1426151,
+    "sha256": "273ce0bdeec7304cc708b6055800f756885b3ce6128e7424e4c2ba9d9cfd3cb2",
+    "retrieved_utc": "2026-09-10T15:33:25.018951+00:00"
+  },
+  "MGYG000517715": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517715/genomes1/MGYG000517715.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517715.gff.gz",
+    "bytes": 1432521,
+    "sha256": "f7670cedaa3c96932c19db9ad1cc0dfeaf405c868df58497f2b72b641f6fb86e",
+    "retrieved_utc": "2026-09-10T15:33:26.617391+00:00"
+  },
+  "MGYG000517716": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517716/genomes1/MGYG000517716.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517716.gff.gz",
+    "bytes": 1594142,
+    "sha256": "ae6d56770c81d7fa25dcf68252f099b649733460e306cf46cb9300e9afe19dab",
+    "retrieved_utc": "2026-09-10T15:33:27.232949+00:00"
+  },
+  "MGYG000517717": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517717/genomes1/MGYG000517717.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517717.gff.gz",
+    "bytes": 3167198,
+    "sha256": "ba045d8d9b066655389a926efb3bd4bdeb9b010580331d24a9f2a4ad1626a57e",
+    "retrieved_utc": "2026-09-10T15:33:29.879903+00:00"
+  },
+  "MGYG000517718": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517718/genomes1/MGYG000517718.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517718.gff.gz",
+    "bytes": 374908,
+    "sha256": "3dbe3ba7bd3ea1b2ce05cd1bc0f39a84257971ba51a6ac0f93c56708cf3587da",
+    "retrieved_utc": "2026-09-10T15:33:28.343901+00:00"
+  },
+  "MGYG000517719": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517719/genomes1/MGYG000517719.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517719.gff.gz",
+    "bytes": 1205531,
+    "sha256": "dbc7fa2b08e635c2b987fa141fa78fc21cd52a564d0ad4ced14716f4e753a0fa",
+    "retrieved_utc": "2026-09-10T15:33:29.263750+00:00"
+  },
+  "MGYG000517720": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517720/genomes1/MGYG000517720.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517720.gff.gz",
+    "bytes": 967939,
+    "sha256": "6670533988370b22f0101b13510d1ba7cddd752e07c3f52a16c3bc636d1a19b9",
+    "retrieved_utc": "2026-09-10T15:33:29.872132+00:00"
+  },
+  "MGYG000517721": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517721/genomes1/MGYG000517721.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517721.gff.gz",
+    "bytes": 1704954,
+    "sha256": "324d3530779087e54d83d3d44192a9c02d9874a6b396bc7cc47c9c53a08c3ed6",
+    "retrieved_utc": "2026-09-10T15:33:31.290653+00:00"
+  },
+  "MGYG000517723": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517723/genomes1/MGYG000517723.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517723.gff.gz",
+    "bytes": 1969072,
+    "sha256": "0c90fb31b7336cf2a22bdd90ba921942ef83b3b3fc16865fcb4b2ed86bf2e98f",
+    "retrieved_utc": "2026-09-10T15:33:32.174896+00:00"
+  },
+  "MGYG000517724": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517724/genomes1/MGYG000517724.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517724.gff.gz",
+    "bytes": 1807298,
+    "sha256": "f4f5004b834146f03b3a39499e63a85853167af4ffddfaa36f3a3d213d03ac62",
+    "retrieved_utc": "2026-09-10T15:33:33.882990+00:00"
+  },
+  "MGYG000517725": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517725/genomes1/MGYG000517725.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517725.gff.gz",
+    "bytes": 2066313,
+    "sha256": "9d339702b4966581130c3828201ea841fc3d05ba3a5e3fec52e53bfe0f4887a3",
+    "retrieved_utc": "2026-09-10T15:33:32.949174+00:00"
+  },
+  "MGYG000517726": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517726/genomes1/MGYG000517726.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517726.gff.gz",
+    "bytes": 2466396,
+    "sha256": "a4cb4d50154bb99d281c9f985690a65d9f487615adcc6e3ced112c4129c3f3f7",
+    "retrieved_utc": "2026-09-10T15:33:35.925108+00:00"
+  },
+  "MGYG000517727": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517727/genomes1/MGYG000517727.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517727.gff.gz",
+    "bytes": 3360194,
+    "sha256": "d19628154f55c56500dd6bbc3dfe13d48b22b0a9b161fdffae74d4df0aaee2c8",
+    "retrieved_utc": "2026-09-10T15:33:36.944388+00:00"
+  },
+  "MGYG000517728": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517728/genomes1/MGYG000517728.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517728.gff.gz",
+    "bytes": 138555,
+    "sha256": "3004c88a681ab2eae74795aae1f7797cbbbb2e473721b757bd1cb8d1f4b9e604",
+    "retrieved_utc": "2026-09-10T15:33:34.894613+00:00"
+  },
+  "MGYG000517729": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517729/genomes1/MGYG000517729.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517729.gff.gz",
+    "bytes": 253653,
+    "sha256": "fb483419fa8731d4f88c776cef4a8e6e98335bee10d13fe1ba77dc89e11c19f3",
+    "retrieved_utc": "2026-09-10T15:33:36.044861+00:00"
+  },
+  "MGYG000517730": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517730/genomes1/MGYG000517730.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517730.gff.gz",
+    "bytes": 1031153,
+    "sha256": "bb3f81554c50751538f4a8e5434038f5983a05c5c33e2bf6a57a59bfd84c5066",
+    "retrieved_utc": "2026-09-10T15:33:37.664292+00:00"
+  },
+  "MGYG000517731": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517731/genomes1/MGYG000517731.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517731.gff.gz",
+    "bytes": 329205,
+    "sha256": "bcbc7b321846344e62f765daefbf37bbe6ef6f4ce93bd8f531213aca01fc8d48",
+    "retrieved_utc": "2026-09-10T15:33:38.212372+00:00"
+  },
+  "MGYG000517732": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517732/genomes1/MGYG000517732.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517732.gff.gz",
+    "bytes": 1292232,
+    "sha256": "cc30a2f000e57b0de70b9408500d3bb5dc9ac6d036cbaad2038f68b92879311d",
+    "retrieved_utc": "2026-09-10T15:33:38.688216+00:00"
+  },
+  "MGYG000517733": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517733/genomes1/MGYG000517733.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517733.gff.gz",
+    "bytes": 1721346,
+    "sha256": "82b8c59ac522bb359f170fa51b30ebf8e806b54f7f9ca704b9acfdb499df8f8f",
+    "retrieved_utc": "2026-09-10T15:33:39.843873+00:00"
+  },
+  "MGYG000517734": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517734/genomes1/MGYG000517734.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517734.gff.gz",
+    "bytes": 1896873,
+    "sha256": "59740a2e10de63d24e9a63e1d09ccedeb1a9478c3d4edeee2447ad8a03c2a97f",
+    "retrieved_utc": "2026-09-10T15:33:42.368329+00:00"
+  },
+  "MGYG000517735": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517676/genomes1/MGYG000517735.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517735.gff.gz",
+    "bytes": 603360,
+    "sha256": "1ea65c1042ad1cf756b49380ca1bc73d7a2b24e67a013c0319bc6c79fdc9a1af",
+    "retrieved_utc": "2026-09-10T15:33:40.838623+00:00"
+  },
+  "MGYG000517736": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517736/genomes1/MGYG000517736.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517736.gff.gz",
+    "bytes": 1012700,
+    "sha256": "76c3c82b180ab71640f9af08b622cd30fcea4833de8fed769bfc5c4d6e79e308",
+    "retrieved_utc": "2026-09-10T15:33:42.277128+00:00"
+  },
+  "MGYG000517737": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517737/genomes1/MGYG000517737.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517737.gff.gz",
+    "bytes": 1394123,
+    "sha256": "6bdab33aa733401584b597cc5c80a4a2127221771edc37323def062f22bda2b3",
+    "retrieved_utc": "2026-09-10T15:33:44.135898+00:00"
+  },
+  "MGYG000517738": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517738/genomes1/MGYG000517738.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517738.gff.gz",
+    "bytes": 2177493,
+    "sha256": "d12ebf38b8e8ea2c42e1963c4801712d48a687547f2720d19e6872bb045f510d",
+    "retrieved_utc": "2026-09-10T15:33:45.895972+00:00"
+  },
+  "MGYG000517739": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517739/genomes1/MGYG000517739.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517739.gff.gz",
+    "bytes": 566382,
+    "sha256": "1916fad9e11f3d446707f5e843d0c736d2232b07d6caca4bc9bd6db7638d7c01",
+    "retrieved_utc": "2026-09-10T15:33:45.465784+00:00"
+  },
+  "MGYG000517740": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517740/genomes1/MGYG000517740.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517740.gff.gz",
+    "bytes": 1984816,
+    "sha256": "4d26a6984f896c723e19fae3b214ff1768ea702d6c2822907ddeb6fb658ffe20",
+    "retrieved_utc": "2026-09-10T15:33:47.186827+00:00"
+  },
+  "MGYG000517741": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517741/genomes1/MGYG000517741.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517741.gff.gz",
+    "bytes": 1635703,
+    "sha256": "26130305453be2c9cf559e1145a569769e5709958b2ccea8a20a7da91556ed53",
+    "retrieved_utc": "2026-09-10T15:33:48.358146+00:00"
+  },
+  "MGYG000517742": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517742/genomes1/MGYG000517742.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517742.gff.gz",
+    "bytes": 1395413,
+    "sha256": "7aa13f2f16dfdf0c8fce0c4b23ae439cfce90dd5f3405bd0051a541e2e0d068f",
+    "retrieved_utc": "2026-09-10T15:33:49.087956+00:00"
+  },
+  "MGYG000517743": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517743/genomes1/MGYG000517743.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517743.gff.gz",
+    "bytes": 2083621,
+    "sha256": "77aa54fbe5bc5858e40ec3c81fa73a90bb6508c29bd349d673f3c3162175918e",
+    "retrieved_utc": "2026-09-10T15:33:49.663077+00:00"
+  },
+  "MGYG000517745": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517745/genomes1/MGYG000517745.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517745.gff.gz",
+    "bytes": 1935600,
+    "sha256": "5898f2045353de1e90af43cfe7222718f2438ef784f1a0069b999819244cfc23",
+    "retrieved_utc": "2026-09-10T15:33:50.451605+00:00"
+  },
+  "MGYG000517746": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517746/genomes1/MGYG000517746.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517746.gff.gz",
+    "bytes": 1003073,
+    "sha256": "f2a788432a1fbebfd7d9c0f81e963ddc1e1793ad8819aee55185883272c9a218",
+    "retrieved_utc": "2026-09-10T15:33:50.854191+00:00"
+  },
+  "MGYG000517747": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517747/genomes1/MGYG000517747.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517747.gff.gz",
+    "bytes": 1087379,
+    "sha256": "8f494210c750b1880563d3bc791ad189a0a4e207dd6f42abe1463e1a254647e4",
+    "retrieved_utc": "2026-09-10T15:33:51.537883+00:00"
+  },
+  "MGYG000517748": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517746/genomes1/MGYG000517748.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517748.gff.gz",
+    "bytes": 679999,
+    "sha256": "645117249771221ebcb92f68cb197f671a322f6bfc10b98538280277e160de47",
+    "retrieved_utc": "2026-09-10T15:33:52.591282+00:00"
+  },
+  "MGYG000517749": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517749/genomes1/MGYG000517749.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517749.gff.gz",
+    "bytes": 707284,
+    "sha256": "680dbf175b3168e5e793cc0f25c349530142f44ce8451f6cd6802327f45bf563",
+    "retrieved_utc": "2026-09-10T15:33:53.008950+00:00"
+  },
+  "MGYG000517750": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517750/genomes1/MGYG000517750.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517750.gff.gz",
+    "bytes": 343797,
+    "sha256": "241d944fef73230610e486102272195af4616bb8b57293affc001ef9d95f11d3",
+    "retrieved_utc": "2026-09-10T15:33:53.026568+00:00"
+  },
+  "MGYG000517751": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517751/genomes1/MGYG000517751.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517751.gff.gz",
+    "bytes": 1934283,
+    "sha256": "dcb3993da57a72fe56ae81aceb742ca53120501f0960e7dd9db10f0527094d07",
+    "retrieved_utc": "2026-09-10T15:33:54.511761+00:00"
+  },
+  "MGYG000517752": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517752/genomes1/MGYG000517752.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517752.gff.gz",
+    "bytes": 1538084,
+    "sha256": "cb91ad4f68117cec0bcc6d5af146c6beefd44b08aa60ee60d675317975b342ca",
+    "retrieved_utc": "2026-09-10T15:33:55.406123+00:00"
+  },
+  "MGYG000517753": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517753/genomes1/MGYG000517753.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517753.gff.gz",
+    "bytes": 1732021,
+    "sha256": "4e0041ea954e790728a478991b35830efea02c1d51ca7c6c2cf979cbbc448f99",
+    "retrieved_utc": "2026-09-10T15:33:55.832754+00:00"
+  },
+  "MGYG000517754": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517754/genomes1/MGYG000517754.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517754.gff.gz",
+    "bytes": 2258440,
+    "sha256": "b3830cbe23760da4fd8050e9bddcdb40dedeb09d20500f15a41636e5294d48ab",
+    "retrieved_utc": "2026-09-10T15:33:56.786903+00:00"
+  },
+  "MGYG000517755": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517755/genomes1/MGYG000517755.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517755.gff.gz",
+    "bytes": 1300888,
+    "sha256": "84d0f0674851cbc878e9ee2c4b9a1c1fc2584c92f6701777704b74a28bcf621c",
+    "retrieved_utc": "2026-09-10T15:33:57.296052+00:00"
+  },
+  "MGYG000517756": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517756/genomes1/MGYG000517756.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517756.gff.gz",
+    "bytes": 793785,
+    "sha256": "93904b6a8d50d21a670b49aeb964c81e4a222358a0beaf84c1fc0859b0a103ac",
+    "retrieved_utc": "2026-09-10T15:33:59.334107+00:00"
+  },
+  "MGYG000517757": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517757/genomes1/MGYG000517757.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517757.gff.gz",
+    "bytes": 876520,
+    "sha256": "d90dae3f45f27fd2abb1a3ac349cbb8b177295b7c3646df3149eab7ab1ba8cf5",
+    "retrieved_utc": "2026-09-10T15:33:58.717076+00:00"
+  },
+  "MGYG000517758": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517758/genomes1/MGYG000517758.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517758.gff.gz",
+    "bytes": 830784,
+    "sha256": "bb26feb63447aa72e7bd2b307da27be2f69a55b7a1b982755d671789a1d4e92c",
+    "retrieved_utc": "2026-09-10T15:33:59.167596+00:00"
+  },
+  "MGYG000517759": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517759/genomes1/MGYG000517759.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517759.gff.gz",
+    "bytes": 996689,
+    "sha256": "1527775f8fad673977e72e212bf556374ea025af28524c6301bb992623202e51",
+    "retrieved_utc": "2026-09-10T15:33:59.972812+00:00"
+  },
+  "MGYG000517760": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517760/genomes1/MGYG000517760.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517760.gff.gz",
+    "bytes": 1557934,
+    "sha256": "aff16a2cb108908aceb88b758128b3c37360735f087c69b1cbf0b1212d4945cd",
+    "retrieved_utc": "2026-09-10T15:34:01.423720+00:00"
+  },
+  "MGYG000517761": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517761/genomes1/MGYG000517761.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517761.gff.gz",
+    "bytes": 1208647,
+    "sha256": "3ac278632a48d632887b27f8e3a1caaa556e33df3a4f0e253371248bf0101316",
+    "retrieved_utc": "2026-09-10T15:34:01.983729+00:00"
+  },
+  "MGYG000517762": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517762/genomes1/MGYG000517762.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517762.gff.gz",
+    "bytes": 2228229,
+    "sha256": "1e6edcd40d2fda3fa8cd997321e0e09066ea2127131743c23f8f66445b2e25f8",
+    "retrieved_utc": "2026-09-10T15:34:02.697319+00:00"
+  },
+  "MGYG000517763": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517763/genomes1/MGYG000517763.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517763.gff.gz",
+    "bytes": 1374908,
+    "sha256": "8674b815f34d4fda37573cea543c5766134cd39d3afee0e83f3c8d4225066155",
+    "retrieved_utc": "2026-09-10T15:34:02.781128+00:00"
+  },
+  "MGYG000517764": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517765/genomes1/MGYG000517764.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517764.gff.gz",
+    "bytes": 2401168,
+    "sha256": "8370ec2ce9880b1ea73e3cc2978e5a06e49302f2749d4513faba3f237703b10f",
+    "retrieved_utc": "2026-09-10T15:34:06.384652+00:00"
+  },
+  "MGYG000517765": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517765/genomes1/MGYG000517765.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517765.gff.gz",
+    "bytes": 2642105,
+    "sha256": "c6285bfc9f142317ee824d43d9b3d6fd9fb1b991a76637ee1765b71288661422",
+    "retrieved_utc": "2026-09-10T15:34:04.616924+00:00"
+  },
+  "MGYG000517766": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517855/genomes1/MGYG000517766.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517766.gff.gz",
+    "bytes": 1359598,
+    "sha256": "d8d89dae7304de31d57ab8947af86112c6fab4182e25eb85c9f8daaeee43a296",
+    "retrieved_utc": "2026-09-10T15:34:05.232090+00:00"
+  },
+  "MGYG000517767": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517801/genomes1/MGYG000517767.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517767.gff.gz",
+    "bytes": 1956848,
+    "sha256": "2009896228c3425a2fb3221d93ab10136210dbccfa2e392bb6b78fbb66c8e341",
+    "retrieved_utc": "2026-09-10T15:34:06.064423+00:00"
+  },
+  "MGYG000517768": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517844/genomes1/MGYG000517768.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517768.gff.gz",
+    "bytes": 2051073,
+    "sha256": "3a4cecd51cd609889a3600b10b1e1c22354689b516a47d2b20ff47ca8c2389ac",
+    "retrieved_utc": "2026-09-10T15:34:07.275517+00:00"
+  },
+  "MGYG000517769": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517802/genomes1/MGYG000517769.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517769.gff.gz",
+    "bytes": 2016508,
+    "sha256": "8bf96f830a8249a954516abd650d78366af1f3a588819a16739ac5bb89a32def",
+    "retrieved_utc": "2026-09-10T15:34:08.343763+00:00"
+  },
+  "MGYG000517770": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517772/genomes1/MGYG000517770.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517770.gff.gz",
+    "bytes": 1956850,
+    "sha256": "c6ebdcfadbf87cff8a342cca17bf339bbc8fcace701f83c854fbab12c1c00b61",
+    "retrieved_utc": "2026-09-10T15:34:09.042091+00:00"
+  },
+  "MGYG000517771": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517772/genomes1/MGYG000517771.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517771.gff.gz",
+    "bytes": 1929487,
+    "sha256": "3761eca232b25727ed89fed0ec353c0c1df2aee3f83afeb498d63b69c5c46a81",
+    "retrieved_utc": "2026-09-10T15:34:09.314931+00:00"
+  },
+  "MGYG000517772": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517772/genomes1/MGYG000517772.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517772.gff.gz",
+    "bytes": 2140106,
+    "sha256": "550de5020bd3f4f6b709247b3252bb55ce91ea21eb8da601e225a6ecf4be5774",
+    "retrieved_utc": "2026-09-10T15:34:12.032414+00:00"
+  },
+  "MGYG000517773": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517801/genomes1/MGYG000517773.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517773.gff.gz",
+    "bytes": 2025982,
+    "sha256": "97d1d4b2ef824012922746722557da38d0cf67ec4a8308ee32c470310679c886",
+    "retrieved_utc": "2026-09-10T15:34:11.070430+00:00"
+  },
+  "MGYG000517774": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517772/genomes1/MGYG000517774.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517774.gff.gz",
+    "bytes": 1936416,
+    "sha256": "86bf048a1d91a9b554bf9748e2fffce1a79166d5ef089741f3f02dac5c8857e8",
+    "retrieved_utc": "2026-09-10T15:34:12.002400+00:00"
+  },
+  "MGYG000517775": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517844/genomes1/MGYG000517775.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517775.gff.gz",
+    "bytes": 2149577,
+    "sha256": "5b1a5f08a8b42a9183d4e346acbb2981b82aee600895a859dd254abc5bddd9c8",
+    "retrieved_utc": "2026-09-10T15:34:12.542237+00:00"
+  },
+  "MGYG000517776": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517844/genomes1/MGYG000517776.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517776.gff.gz",
+    "bytes": 2075269,
+    "sha256": "53da9f65e6a38eba5086dd38562a932425306cbe0b96652aa475348de7124f0c",
+    "retrieved_utc": "2026-09-10T15:34:14.310082+00:00"
+  },
+  "MGYG000517777": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517777/genomes1/MGYG000517777.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517777.gff.gz",
+    "bytes": 2269787,
+    "sha256": "91e7be93b01f900c5b6ebecd7dc29e85ffe72415392ed0ead3c7f1b6e0572349",
+    "retrieved_utc": "2026-09-10T15:34:15.510777+00:00"
+  },
+  "MGYG000517778": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517777/genomes1/MGYG000517778.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517778.gff.gz",
+    "bytes": 2002822,
+    "sha256": "94408d8cf2a6d2c63e26568bbd02cd7865fe586f106bfd9c02e6a43fec4abb41",
+    "retrieved_utc": "2026-09-10T15:34:15.262955+00:00"
+  },
+  "MGYG000517779": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517844/genomes1/MGYG000517779.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517779.gff.gz",
+    "bytes": 2018065,
+    "sha256": "c80ad660289ef5e9bb4838b23e0a84249853a87b70d74b3a13d09686705a095f",
+    "retrieved_utc": "2026-09-10T15:34:17.257235+00:00"
+  },
+  "MGYG000517780": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517794/genomes1/MGYG000517780.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517780.gff.gz",
+    "bytes": 1921575,
+    "sha256": "8aa5f9becb44cafa9053fc3926a9e0db3698a4abfe94c775ef024b6f98c96ae7",
+    "retrieved_utc": "2026-09-10T15:34:17.345205+00:00"
+  },
+  "MGYG000517781": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517781/genomes1/MGYG000517781.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517781.gff.gz",
+    "bytes": 2189401,
+    "sha256": "7f7122e8bdbabe3b34f35df7e9c83794e4db20656f093a27b4f970ddb4c54857",
+    "retrieved_utc": "2026-09-10T15:34:19.104151+00:00"
+  },
+  "MGYG000517782": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517844/genomes1/MGYG000517782.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517782.gff.gz",
+    "bytes": 2120767,
+    "sha256": "8a3dc724b0f81088eb3862827bfadd19e74031dc79c1b6f7082251015a0332bb",
+    "retrieved_utc": "2026-09-10T15:34:18.939088+00:00"
+  },
+  "MGYG000517783": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517844/genomes1/MGYG000517783.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517783.gff.gz",
+    "bytes": 2005971,
+    "sha256": "12bc64029ae7506d80dd26ff8c10345bc16d873390dee61bf29c1dce8d0ad0f8",
+    "retrieved_utc": "2026-09-10T15:34:20.168435+00:00"
+  },
+  "MGYG000517784": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517844/genomes1/MGYG000517784.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517784.gff.gz",
+    "bytes": 2111642,
+    "sha256": "73fbf69021ff3c45c52fc3bb93856e89824970adcefe8d310b3ec126c1ab1628",
+    "retrieved_utc": "2026-09-10T15:34:20.426624+00:00"
+  },
+  "MGYG000517785": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517785/genomes1/MGYG000517785.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517785.gff.gz",
+    "bytes": 2134345,
+    "sha256": "2c03d5b0d8badf47c241858874bdfe4357fe490f9a3ed06bad84d8e2b9262c7d",
+    "retrieved_utc": "2026-09-10T15:34:22.284029+00:00"
+  },
+  "MGYG000517786": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517844/genomes1/MGYG000517786.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517786.gff.gz",
+    "bytes": 2163352,
+    "sha256": "2b872c2eea249aa8d2b326bd59fcbeabb254c0e49946310b9b6c8106ab3ce7c2",
+    "retrieved_utc": "2026-09-10T15:34:22.233932+00:00"
+  },
+  "MGYG000517787": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517791/genomes1/MGYG000517787.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517787.gff.gz",
+    "bytes": 2103473,
+    "sha256": "716728d799a5c715854535f9ad654881c877bec906a2f3e48630c872012f0d69",
+    "retrieved_utc": "2026-09-10T15:34:23.225030+00:00"
+  },
+  "MGYG000517788": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517844/genomes1/MGYG000517788.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517788.gff.gz",
+    "bytes": 2050750,
+    "sha256": "464d3e8fc37c8bb6d5ee1a6da02d5b6af8f2f51a90c72251f317fa0a23a48d79",
+    "retrieved_utc": "2026-09-10T15:34:23.400941+00:00"
+  },
+  "MGYG000517789": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517844/genomes1/MGYG000517789.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517789.gff.gz",
+    "bytes": 2030446,
+    "sha256": "bba8328c88cf66eb0ad1deb20e45f65fe0f71b1f7b4a19ac5615826af4247994",
+    "retrieved_utc": "2026-09-10T15:34:25.965412+00:00"
+  },
+  "MGYG000517790": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517844/genomes1/MGYG000517790.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517790.gff.gz",
+    "bytes": 2113764,
+    "sha256": "1b6465fcbad66d0e4595bafbdc1c826b14c4d3255b1e8dccf6ec53ce6a4a9ba1",
+    "retrieved_utc": "2026-09-10T15:34:25.299494+00:00"
+  },
+  "MGYG000517791": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517791/genomes1/MGYG000517791.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517791.gff.gz",
+    "bytes": 2248056,
+    "sha256": "345ab98edfc31fbfd7734842888280b7c6a64c9cdc92dddc284c282e648eec0c",
+    "retrieved_utc": "2026-09-10T15:34:26.259785+00:00"
+  },
+  "MGYG000517792": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517802/genomes1/MGYG000517792.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517792.gff.gz",
+    "bytes": 1967001,
+    "sha256": "02371fbd9f15e0610d2eb1785a14d04def6886303034300b1555776b7c34f2d6",
+    "retrieved_utc": "2026-09-10T15:34:26.687005+00:00"
+  },
+  "MGYG000517793": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517801/genomes1/MGYG000517793.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517793.gff.gz",
+    "bytes": 2078959,
+    "sha256": "16e340a03f0ac76190c1c600d2801479fab1a0363aec349f921a06b6fb8aad7a",
+    "retrieved_utc": "2026-09-10T15:34:29.479771+00:00"
+  },
+  "MGYG000517794": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517794/genomes1/MGYG000517794.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517794.gff.gz",
+    "bytes": 2165505,
+    "sha256": "1643a1518796142f9edfd494802ac9bcd3bd89695a4e0a3b45765c63d6cc5e86",
+    "retrieved_utc": "2026-09-10T15:34:29.664830+00:00"
+  },
+  "MGYG000517795": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517801/genomes1/MGYG000517795.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517795.gff.gz",
+    "bytes": 1991155,
+    "sha256": "71be899e069d5202e531cc4117283b9714672830b0bf4ab50fb67ecdfa37ea28",
+    "retrieved_utc": "2026-09-10T15:34:29.460142+00:00"
+  },
+  "MGYG000517796": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517802/genomes1/MGYG000517796.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517796.gff.gz",
+    "bytes": 2000730,
+    "sha256": "1e0fbfffd976cd21e852d310d3be85c10f56d7e1a01b339c063ff26fbfa12b5f",
+    "retrieved_utc": "2026-09-10T15:34:30.562148+00:00"
+  },
+  "MGYG000517797": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517801/genomes1/MGYG000517797.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517797.gff.gz",
+    "bytes": 2058146,
+    "sha256": "3325dff8290c3025770a8ea6f7b6ec04671fa21d6f9e18bf9d94c159c44efd4f",
+    "retrieved_utc": "2026-09-10T15:34:32.919917+00:00"
+  },
+  "MGYG000517798": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517844/genomes1/MGYG000517798.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517798.gff.gz",
+    "bytes": 2059150,
+    "sha256": "eb77e9279f47ce8d374d2a893fd8bf795aed1004f8c3a04a53b087f1f2c97670",
+    "retrieved_utc": "2026-09-10T15:34:33.174943+00:00"
+  },
+  "MGYG000517799": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517844/genomes1/MGYG000517799.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517799.gff.gz",
+    "bytes": 2019139,
+    "sha256": "188ce1994006fa48192a670a019caaaa9db4d447e276f23275b293764b085bcb",
+    "retrieved_utc": "2026-09-10T15:34:32.757630+00:00"
+  },
+  "MGYG000517800": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517844/genomes1/MGYG000517800.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517800.gff.gz",
+    "bytes": 2039875,
+    "sha256": "a8e3c9a6273c867a73931965ba296347a27f54ecab36981f74c4f5465b409373",
+    "retrieved_utc": "2026-09-10T15:34:33.845034+00:00"
+  },
+  "MGYG000517801": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517801/genomes1/MGYG000517801.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517801.gff.gz",
+    "bytes": 2269519,
+    "sha256": "af7bdeab53e2e08e3af09145324ee43b2f21beb566b713452c046d257e8b4728",
+    "retrieved_utc": "2026-09-10T15:34:36.514984+00:00"
+  },
+  "MGYG000517802": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517802/genomes1/MGYG000517802.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517802.gff.gz",
+    "bytes": 2179319,
+    "sha256": "705e7dbe3680e006b801daed4b356f5a4fd03cdf8ecf1983f6aac631fd9bdefc",
+    "retrieved_utc": "2026-09-10T15:34:36.016845+00:00"
+  },
+  "MGYG000517803": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517802/genomes1/MGYG000517803.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517803.gff.gz",
+    "bytes": 1934325,
+    "sha256": "6bd0838131f7da13853fb8d81793d4c13725aabfd0a381de106b34ca63cc997d",
+    "retrieved_utc": "2026-09-10T15:34:36.200541+00:00"
+  },
+  "MGYG000517804": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517802/genomes1/MGYG000517804.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517804.gff.gz",
+    "bytes": 2038784,
+    "sha256": "fa3106d0a832a94ca2a8ee83729b7b7a7d4cc96cdc2cf0ec3d2759355966578f",
+    "retrieved_utc": "2026-09-10T15:34:40.803942+00:00"
+  },
+  "MGYG000517805": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517805/genomes1/MGYG000517805.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517805.gff.gz",
+    "bytes": 2278688,
+    "sha256": "be6de415a2be4deb1c788a4d24e5f44f3dc5c7f6065e5506b643d3852e3dbfc1",
+    "retrieved_utc": "2026-09-10T15:34:39.577044+00:00"
+  },
+  "MGYG000517806": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517844/genomes1/MGYG000517806.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517806.gff.gz",
+    "bytes": 2161398,
+    "sha256": "38f6b330887e76e712bb9bfdf44612c21ce54b32333e2b51d6201f023f327acf",
+    "retrieved_utc": "2026-09-10T15:34:39.604460+00:00"
+  },
+  "MGYG000517807": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517807/genomes1/MGYG000517807.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517807.gff.gz",
+    "bytes": 1270941,
+    "sha256": "def7f3d19dfde34a7f7c2933ecfaf1f68145792d61a2bb8fc4368c9fe7fe5221",
+    "retrieved_utc": "2026-09-10T15:34:39.371676+00:00"
+  },
+  "MGYG000517808": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517808/genomes1/MGYG000517808.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517808.gff.gz",
+    "bytes": 2674077,
+    "sha256": "d31968324af68c06325c2ba52eb44eb179a27633162b71203efff2ffb7183502",
+    "retrieved_utc": "2026-09-10T15:34:42.924429+00:00"
+  },
+  "MGYG000517809": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517809/genomes1/MGYG000517809.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517809.gff.gz",
+    "bytes": 3402608,
+    "sha256": "489e398fd671dbcfcd48522f99dd5d55c76debd5276de886f5314d457074b34b",
+    "retrieved_utc": "2026-09-10T15:34:43.410591+00:00"
+  },
+  "MGYG000517810": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517810/genomes1/MGYG000517810.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517810.gff.gz",
+    "bytes": 3169512,
+    "sha256": "eb89f6148d7fb07bd25eb14c87d77f01d2503f2deb0e8ad4f2b1886c1e85ae7d",
+    "retrieved_utc": "2026-09-10T15:34:43.864955+00:00"
+  },
+  "MGYG000517811": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517811/genomes1/MGYG000517811.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517811.gff.gz",
+    "bytes": 1818705,
+    "sha256": "68467240f20a87e5daa1c43acaeb65476a3071f688a377657e3ec76764725b6f",
+    "retrieved_utc": "2026-09-10T15:34:44.081241+00:00"
+  },
+  "MGYG000517813": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517813/genomes1/MGYG000517813.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517813.gff.gz",
+    "bytes": 2063353,
+    "sha256": "1d5530899acd58f5063762b131201166947ad27a958693c121b90b827b8cf1dc",
+    "retrieved_utc": "2026-09-10T15:34:45.827423+00:00"
+  },
+  "MGYG000517816": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517816/genomes1/MGYG000517816.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517816.gff.gz",
+    "bytes": 2560588,
+    "sha256": "bab9d8bef890ff62796c0aeb68275f54fca29dad3839a2fcd0827e8e18ae21a7",
+    "retrieved_utc": "2026-09-10T15:34:46.460811+00:00"
+  },
+  "MGYG000517817": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517816/genomes1/MGYG000517817.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517817.gff.gz",
+    "bytes": 2353548,
+    "sha256": "4a1a81cab65e435a46152e2e36d59491ada1d8198f37c538d290d9284974b039",
+    "retrieved_utc": "2026-09-10T15:34:47.119787+00:00"
+  },
+  "MGYG000517818": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517816/genomes1/MGYG000517818.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517818.gff.gz",
+    "bytes": 2276757,
+    "sha256": "1111df8ed5afd1778d6cdcbc6e650c5bd580a7aca3bcc06633da0b2e3ca4a4a0",
+    "retrieved_utc": "2026-09-10T15:34:47.978852+00:00"
+  },
+  "MGYG000517819": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517819/genomes1/MGYG000517819.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517819.gff.gz",
+    "bytes": 1585615,
+    "sha256": "aec90bc57a590456ef5b812885726be744621bb7a1cd14ec3146b298ebdfdb40",
+    "retrieved_utc": "2026-09-10T15:34:48.462480+00:00"
+  },
+  "MGYG000517820": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517820/genomes1/MGYG000517820.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517820.gff.gz",
+    "bytes": 2026270,
+    "sha256": "7a1fdda17c7b27b36975d749623e69b9896c6bd220817260b52c190c551bad68",
+    "retrieved_utc": "2026-09-10T15:34:49.725895+00:00"
+  },
+  "MGYG000517821": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517855/genomes1/MGYG000517821.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517821.gff.gz",
+    "bytes": 1460565,
+    "sha256": "89dd1a6fe9a44982990a14cde15af65743d4970fcc23514a2530a56b6bf4c899",
+    "retrieved_utc": "2026-09-10T15:34:49.945888+00:00"
+  },
+  "MGYG000517822": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517822/genomes1/MGYG000517822.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517822.gff.gz",
+    "bytes": 1633673,
+    "sha256": "900daa1e7d68a87f34bd008be75a7409ede22ddfe3c70f0ad9af220deb378729",
+    "retrieved_utc": "2026-09-10T15:34:50.759427+00:00"
+  },
+  "MGYG000517823": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517844/genomes1/MGYG000517823.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517823.gff.gz",
+    "bytes": 1873434,
+    "sha256": "1655ebc0e845046c2855e7136351a2f1e46704008ee89b18bfa55443620ce97a",
+    "retrieved_utc": "2026-09-10T15:34:51.746339+00:00"
+  },
+  "MGYG000517824": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517855/genomes1/MGYG000517824.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517824.gff.gz",
+    "bytes": 1443152,
+    "sha256": "370746e1df05b967935a57216c949ea62e511b81787e989ec6e9b71b2f10cd74",
+    "retrieved_utc": "2026-09-10T15:34:52.378701+00:00"
+  },
+  "MGYG000517825": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517819/genomes1/MGYG000517825.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517825.gff.gz",
+    "bytes": 1421060,
+    "sha256": "40b7c4a2b965491a39de6fadd5493929e021aaa61dc841f8596e24c36d2f6169",
+    "retrieved_utc": "2026-09-10T15:34:52.684106+00:00"
+  },
+  "MGYG000517826": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517819/genomes1/MGYG000517826.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517826.gff.gz",
+    "bytes": 1421285,
+    "sha256": "6426e6b75bc86df3e03b2fa9d05839fc858f7170b4d2fd3faa4fca5eeda166ee",
+    "retrieved_utc": "2026-09-10T15:34:53.514419+00:00"
+  },
+  "MGYG000517827": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517814/genomes1/MGYG000517827.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517827.gff.gz",
+    "bytes": 2252473,
+    "sha256": "f8cff68670ea2f74386b1e54588a9b5a455a516522ca796a536a903c49da2c02",
+    "retrieved_utc": "2026-09-10T15:34:54.844430+00:00"
+  },
+  "MGYG000517828": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517828/genomes1/MGYG000517828.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517828.gff.gz",
+    "bytes": 1821294,
+    "sha256": "5fd035e8ca7e122e4068121ca05996b1bd2d4ee89d73626d45793e937cb8834b",
+    "retrieved_utc": "2026-09-10T15:34:56.645208+00:00"
+  },
+  "MGYG000517829": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517808/genomes1/MGYG000517829.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517829.gff.gz",
+    "bytes": 2470766,
+    "sha256": "3fcc0b4d3cb4ac9752f9abb18ae08c73a407bb0d00fff3edd23c1812a14bf57b",
+    "retrieved_utc": "2026-09-10T15:34:56.410292+00:00"
+  },
+  "MGYG000517830": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517885/genomes1/MGYG000517830.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517830.gff.gz",
+    "bytes": 2815132,
+    "sha256": "42701bc6301eceef04a36c6d9a4a656dde644f871fc0eeaa842f785dea7176cf",
+    "retrieved_utc": "2026-09-10T15:34:57.091294+00:00"
+  },
+  "MGYG000517833": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517833/genomes1/MGYG000517833.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517833.gff.gz",
+    "bytes": 1979921,
+    "sha256": "6f4a434bed0612e67b9e4a5622d580d5bacef60da1196500983d23b782187ce8",
+    "retrieved_utc": "2026-09-10T15:35:02.336100+00:00"
+  },
+  "MGYG000517834": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517834/genomes1/MGYG000517834.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517834.gff.gz",
+    "bytes": 3035270,
+    "sha256": "b6bedf772a641f1c8216b8b2fd53ad007a2cbe106b424ba7140992d456b32f77",
+    "retrieved_utc": "2026-09-10T15:35:00.220457+00:00"
+  },
+  "MGYG000517835": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517836/genomes1/MGYG000517835.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517835.gff.gz",
+    "bytes": 2057060,
+    "sha256": "3e3e47e3abee2bbcc5d1412ada37c2515710ffb5f8fdc2bd269ee71d3129c21e",
+    "retrieved_utc": "2026-09-10T15:34:59.658489+00:00"
+  },
+  "MGYG000517836": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517836/genomes1/MGYG000517836.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517836.gff.gz",
+    "bytes": 2350828,
+    "sha256": "e04d131612ef9c685b2f48eec21a09404bb17b57bf4a474edc5a5be0436ecc41",
+    "retrieved_utc": "2026-09-10T15:34:59.998731+00:00"
+  },
+  "MGYG000517837": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517836/genomes1/MGYG000517837.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517837.gff.gz",
+    "bytes": 2138198,
+    "sha256": "75026c0819095947adf3728d8c116fcd47f3936ccc7db3b8e1770c9a619114a6",
+    "retrieved_utc": "2026-09-10T15:35:02.683127+00:00"
+  },
+  "MGYG000517838": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517838/genomes1/MGYG000517838.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517838.gff.gz",
+    "bytes": 2525148,
+    "sha256": "a6696435ea4b2a102d1a635bc6aad22864753c63490392423fc6eb3a68b51ea5",
+    "retrieved_utc": "2026-09-10T15:35:03.221302+00:00"
+  },
+  "MGYG000517839": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517839/genomes1/MGYG000517839.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517839.gff.gz",
+    "bytes": 2441512,
+    "sha256": "4ecc39ac3d9dcecbe58c74bc513b234c34dec17ab259ca36cf6778f0bc00c1d6",
+    "retrieved_utc": "2026-09-10T15:35:03.747274+00:00"
+  },
+  "MGYG000517841": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517816/genomes1/MGYG000517841.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517841.gff.gz",
+    "bytes": 2333697,
+    "sha256": "c7ddc31b259acce040e12b4548cdad1664134480d8c3d77f4bb357ba2e906cc3",
+    "retrieved_utc": "2026-09-10T15:35:05.602302+00:00"
+  },
+  "MGYG000517842": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517842/genomes1/MGYG000517842.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517842.gff.gz",
+    "bytes": 1596779,
+    "sha256": "a9c47ff597018960d6afdc8bef025542c49a837c19bc17cfcbd6d32ca85cb0f5",
+    "retrieved_utc": "2026-09-10T15:35:05.461463+00:00"
+  },
+  "MGYG000517843": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517843/genomes1/MGYG000517843.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517843.gff.gz",
+    "bytes": 1195581,
+    "sha256": "a684fdf78197687683b0c1790447d6ac75c203df5ca5c56bfa0ce8c31b5181e4",
+    "retrieved_utc": "2026-09-10T15:35:05.951139+00:00"
+  },
+  "MGYG000517846": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517895/genomes1/MGYG000517846.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517846.gff.gz",
+    "bytes": 2181485,
+    "sha256": "728b20adbc8c006bc4cc9c63fac27edac5f74ab45c333702f1430a9b6ddb4d7e",
+    "retrieved_utc": "2026-09-10T15:35:06.737371+00:00"
+  },
+  "MGYG000517850": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517850/genomes1/MGYG000517850.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517850.gff.gz",
+    "bytes": 1349227,
+    "sha256": "81930c45ef35b84ffd9db73e0aae4ffcb9abe2328747d51aaced4ddf6c10ab96",
+    "retrieved_utc": "2026-09-10T15:35:08.457658+00:00"
+  },
+  "MGYG000517852": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517855/genomes1/MGYG000517852.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517852.gff.gz",
+    "bytes": 1490443,
+    "sha256": "c1c87f29a138f7f301de93a1ad6294ccdbebac3354e3a4b0852f9e026390ca18",
+    "retrieved_utc": "2026-09-10T15:35:08.352804+00:00"
+  },
+  "MGYG000517853": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517855/genomes1/MGYG000517853.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517853.gff.gz",
+    "bytes": 1340717,
+    "sha256": "64c27c11c2ca4ab7d8e0c63ba137cb1609cce58528f8812b790b092ccb7b57a6",
+    "retrieved_utc": "2026-09-10T15:35:08.663331+00:00"
+  },
+  "MGYG000517854": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517854/genomes1/MGYG000517854.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517854.gff.gz",
+    "bytes": 1834925,
+    "sha256": "b1456658e10e132d9c47c4021ec3a1dd6bdb53b7b1a484363cdc0a978c2529d0",
+    "retrieved_utc": "2026-09-10T15:35:09.596249+00:00"
+  },
+  "MGYG000517857": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517857/genomes1/MGYG000517857.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517857.gff.gz",
+    "bytes": 2290059,
+    "sha256": "9834ce308c505de0530ef13114b4cb387fd3cf51b9744d1baed7b0b1ff9d1015",
+    "retrieved_utc": "2026-09-10T15:35:13.494492+00:00"
+  },
+  "MGYG000517858": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517858/genomes1/MGYG000517858.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517858.gff.gz",
+    "bytes": 2111447,
+    "sha256": "cf3cc00f869500dbc65f9994b946369dfcd97bbc45f20035677a758e20b893f1",
+    "retrieved_utc": "2026-09-10T15:35:11.728855+00:00"
+  },
+  "MGYG000517859": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517859/genomes1/MGYG000517859.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517859.gff.gz",
+    "bytes": 1901292,
+    "sha256": "93377fe337125abcd502b6fd5a298fed2f5011cf70dd21792b3f0acf10854046",
+    "retrieved_utc": "2026-09-10T15:35:11.593661+00:00"
+  },
+  "MGYG000517860": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517860/genomes1/MGYG000517860.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517860.gff.gz",
+    "bytes": 1449316,
+    "sha256": "5034af3a73e2c07026819d8c5d5f8b314a7ab07997567c5bcf6584a5c9bfdf8f",
+    "retrieved_utc": "2026-09-10T15:35:12.204479+00:00"
+  },
+  "MGYG000517861": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517676/genomes1/MGYG000517861.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517861.gff.gz",
+    "bytes": 593180,
+    "sha256": "08948f2b5a707d158ef903f34c3aca2eab2348f0436797eac023bc4d0bd15ff8",
+    "retrieved_utc": "2026-09-10T15:35:13.850555+00:00"
+  },
+  "MGYG000517862": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517862/genomes1/MGYG000517862.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517862.gff.gz",
+    "bytes": 1399792,
+    "sha256": "fa08864966ff85275d9a0342efdd66f032acbba50cc0e16d92aa102e8ad92c3d",
+    "retrieved_utc": "2026-09-10T15:35:14.804878+00:00"
+  },
+  "MGYG000517864": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517864/genomes1/MGYG000517864.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517864.gff.gz",
+    "bytes": 568216,
+    "sha256": "1c3f7dea84867795c4619c1bc40234676851dfd8d676fdb7cf2d2190ed6fcba2",
+    "retrieved_utc": "2026-09-10T15:35:14.762538+00:00"
+  },
+  "MGYG000517865": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517865/genomes1/MGYG000517865.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517865.gff.gz",
+    "bytes": 2121738,
+    "sha256": "26ef9e83701b5d5505c0b352fa4993bec4425715c168c08c80f5c08abbda86a4",
+    "retrieved_utc": "2026-09-10T15:35:17.144329+00:00"
+  },
+  "MGYG000517866": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517866/genomes1/MGYG000517866.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517866.gff.gz",
+    "bytes": 2528096,
+    "sha256": "264e136fd65b586ede07955fd454d8dc167292ec83199d70664a5a6c2143441e",
+    "retrieved_utc": "2026-09-10T15:35:17.232417+00:00"
+  },
+  "MGYG000517867": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517873/genomes1/MGYG000517867.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517867.gff.gz",
+    "bytes": 1070104,
+    "sha256": "d198ebf8bdb70097cc770b1135d599207ce0091c844c264a8fd96b3a2834ca56",
+    "retrieved_utc": "2026-09-10T15:35:17.367303+00:00"
+  },
+  "MGYG000517868": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517869/genomes1/MGYG000517868.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517868.gff.gz",
+    "bytes": 1675679,
+    "sha256": "3686c830841b10c20eb76e51804cf544cd2c2050831854b21ffe52abb61ed5c2",
+    "retrieved_utc": "2026-09-10T15:35:17.472016+00:00"
+  },
+  "MGYG000517869": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517869/genomes1/MGYG000517869.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517869.gff.gz",
+    "bytes": 1970108,
+    "sha256": "4453454f48813ddf5759d5b4b942e9eaae79a31d61f69c998b03ca57c8cefe6c",
+    "retrieved_utc": "2026-09-10T15:35:20.176245+00:00"
+  },
+  "MGYG000517870": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517866/genomes1/MGYG000517870.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517870.gff.gz",
+    "bytes": 2747555,
+    "sha256": "690ec84b5349e365100881b1ba20f420de0903ea60bbab25de09af91a64ac8fe",
+    "retrieved_utc": "2026-09-10T15:35:20.985906+00:00"
+  },
+  "MGYG000517871": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517815/genomes1/MGYG000517871.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517871.gff.gz",
+    "bytes": 2742776,
+    "sha256": "79619e52ff200e57ac3c13e0652ae7286523effc15b82cebf09cdcd14d5d2c1a",
+    "retrieved_utc": "2026-09-10T15:35:21.155002+00:00"
+  },
+  "MGYG000517872": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517869/genomes1/MGYG000517872.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517872.gff.gz",
+    "bytes": 1661645,
+    "sha256": "0da4b34d9479b4a76c52a42320a7992fdcf99f7a68d5f05557a1c6f4cb23beba",
+    "retrieved_utc": "2026-09-10T15:35:21.459692+00:00"
+  },
+  "MGYG000517873": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517873/genomes1/MGYG000517873.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517873.gff.gz",
+    "bytes": 1313176,
+    "sha256": "b5a6e09f0e71a69092ffb70c9418e99388d15530bfd7c8075ad2f7bab178b02e",
+    "retrieved_utc": "2026-09-10T15:35:22.928182+00:00"
+  },
+  "MGYG000517874": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517874/genomes1/MGYG000517874.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517874.gff.gz",
+    "bytes": 898606,
+    "sha256": "4e93c03e6b95541e66cf8f95ef6f2152c5a532f5de41a49d00f29454c6a7cb02",
+    "retrieved_utc": "2026-09-10T15:35:23.594804+00:00"
+  },
+  "MGYG000517875": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517632/genomes1/MGYG000517875.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517875.gff.gz",
+    "bytes": 2433901,
+    "sha256": "50a48ef4588b3add65d46ef14205acb5e103cf3dbb385338f1885f675cc67390",
+    "retrieved_utc": "2026-09-10T15:35:25.246036+00:00"
+  },
+  "MGYG000517876": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517866/genomes1/MGYG000517876.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517876.gff.gz",
+    "bytes": 2554474,
+    "sha256": "f930e2011335fbfbf5eef7465e747cfbd580a04884c90f49a721971b17210cd0",
+    "retrieved_utc": "2026-09-10T15:35:25.254286+00:00"
+  },
+  "MGYG000517877": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517632/genomes1/MGYG000517877.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517877.gff.gz",
+    "bytes": 2435347,
+    "sha256": "8b9db9b1f9efe11f681a62be124611a1c4b13134b16e968912d4c9ddfa35f468",
+    "retrieved_utc": "2026-09-10T15:35:26.656027+00:00"
+  },
+  "MGYG000517878": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517866/genomes1/MGYG000517878.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517878.gff.gz",
+    "bytes": 2566953,
+    "sha256": "03ada0594bfb4b23eb84b5094c726e61a0c225ad96e4c098d7324750898d03af",
+    "retrieved_utc": "2026-09-10T15:35:27.531551+00:00"
+  },
+  "MGYG000517879": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517866/genomes1/MGYG000517879.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517879.gff.gz",
+    "bytes": 2583935,
+    "sha256": "faa6cc2e54230ff63de7a603c6152705ba077d928ea4098c147040b1bd7acecb",
+    "retrieved_utc": "2026-09-10T15:35:33.840197+00:00"
+  },
+  "MGYG000517880": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005176/MGYG000517632/genomes1/MGYG000517880.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517880.gff.gz",
+    "bytes": 2436286,
+    "sha256": "7082ace6e3abde1cf2214e33251e836b99e7fd9625f13bd242ec42234159da1e",
+    "retrieved_utc": "2026-09-10T15:35:28.205143+00:00"
+  },
+  "MGYG000517885": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517885/genomes1/MGYG000517885.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517885.gff.gz",
+    "bytes": 2844837,
+    "sha256": "1f9da98850af9100b6c7e4b325221410b89ddae53583292818cc2125f757c0af",
+    "retrieved_utc": "2026-09-10T15:35:30.759829+00:00"
+  },
+  "MGYG000517886": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517886/genomes1/MGYG000517886.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517886.gff.gz",
+    "bytes": 2410068,
+    "sha256": "3599d62e3053ae09e17ff463786e070e65ff3de54c7d7239717059d395d45be3",
+    "retrieved_utc": "2026-09-10T15:35:30.817341+00:00"
+  },
+  "MGYG000517887": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517781/genomes1/MGYG000517887.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517887.gff.gz",
+    "bytes": 1871174,
+    "sha256": "93263032303f2f68a9fe62404ee14d2f999e90e1462defd3c4c7ee0bbd577269",
+    "retrieved_utc": "2026-09-10T15:35:31.363447+00:00"
+  },
+  "MGYG000517888": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517888/genomes1/MGYG000517888.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517888.gff.gz",
+    "bytes": 1673990,
+    "sha256": "1d78d27b2df0eccd3234566cc4bb529f7fc26b60b688c5ec2e2a8427951d1ebd",
+    "retrieved_utc": "2026-09-10T15:35:34.973796+00:00"
+  },
+  "MGYG000517889": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517889/genomes1/MGYG000517889.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517889.gff.gz",
+    "bytes": 2398232,
+    "sha256": "cd8000a0799d3bfd0690ba2223a1e1e74056ca8bc1d544d744e582a94d84f008",
+    "retrieved_utc": "2026-09-10T15:35:34.774373+00:00"
+  },
+  "MGYG000517890": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517890/genomes1/MGYG000517890.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517890.gff.gz",
+    "bytes": 2530596,
+    "sha256": "97c91fbe2e80630636ae778c88f035e6a876755c036c95d56a6a8f8752390538",
+    "retrieved_utc": "2026-09-10T15:35:34.918811+00:00"
+  },
+  "MGYG000517893": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517855/genomes1/MGYG000517893.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517893.gff.gz",
+    "bytes": 1339013,
+    "sha256": "1beb38cc5ebf0cd35acd93364ed6ceb4b76dd23c9664e9a99aa698919d15cb90",
+    "retrieved_utc": "2026-09-10T15:35:36.442074+00:00"
+  },
+  "MGYG000517894": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517865/genomes1/MGYG000517894.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517894.gff.gz",
+    "bytes": 1865954,
+    "sha256": "acd1b65f1587d3456b608a0ff81d4a7e2b1ed116bcd2f43b6d8b08da10bee650",
+    "retrieved_utc": "2026-09-10T15:35:38.359126+00:00"
+  },
+  "MGYG000517895": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517895/genomes1/MGYG000517895.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517895.gff.gz",
+    "bytes": 2718475,
+    "sha256": "27591416904a30287482fe916585fcbd49580e14cb0659df565c0099b4a563e5",
+    "retrieved_utc": "2026-09-10T15:35:38.914767+00:00"
+  },
+  "MGYG000517896": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005177/MGYG000517791/genomes1/MGYG000517896.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517896.gff.gz",
+    "bytes": 1981222,
+    "sha256": "46ef98f93cb27f9b488039db688505149e979cda1cfecf44f701fbdbf095794b",
+    "retrieved_utc": "2026-09-10T15:35:40.548402+00:00"
+  },
+  "MGYG000517897": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517899/genomes1/MGYG000517897.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517897.gff.gz",
+    "bytes": 2844528,
+    "sha256": "c6ed2bf49ef7775e2f870107cfc49b217cb1268f0d6f8437eab9df406e88a5ac",
+    "retrieved_utc": "2026-09-10T15:35:41.527347+00:00"
+  },
+  "MGYG000517898": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517899/genomes1/MGYG000517898.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517898.gff.gz",
+    "bytes": 2736045,
+    "sha256": "903bd6a920001a9af629530f38eca4f37a75c916b8523107b97b2505f98e0588",
+    "retrieved_utc": "2026-09-10T15:35:42.691251+00:00"
+  },
+  "MGYG000517899": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517899/genomes1/MGYG000517899.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517899.gff.gz",
+    "bytes": 2939310,
+    "sha256": "99e3a26407ef792ccd91d2bfe2c45d922e174d8b3267f65419eb3800bce4b74d",
+    "retrieved_utc": "2026-09-10T15:35:42.864861+00:00"
+  },
+  "MGYG000517900": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005179/MGYG000517900/genomes1/MGYG000517900.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517900.gff.gz",
+    "bytes": 3090574,
+    "sha256": "07f100ae80a0c247e5c1f8310602523338b1e194e66c9c36df1507388bd80baa",
+    "retrieved_utc": "2026-09-10T15:35:44.657537+00:00"
+  },
+  "MGYG000517901": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005179/MGYG000517901/genomes1/MGYG000517901.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517901.gff.gz",
+    "bytes": 2155375,
+    "sha256": "f5cd36fb4169f238605b7af8141f301b20392f0db513fe80d791d73fcf92e7f4",
+    "retrieved_utc": "2026-09-10T15:35:45.998552+00:00"
+  },
+  "MGYG000517904": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005179/MGYG000517915/genomes1/MGYG000517904.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517904.gff.gz",
+    "bytes": 2335902,
+    "sha256": "30b479374a2a34ea25e64b65d8add593ba9e53b86e47657925a45f8e92a05d45",
+    "retrieved_utc": "2026-09-10T15:35:46.018101+00:00"
+  },
+  "MGYG000517905": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005179/MGYG000517905/genomes1/MGYG000517905.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517905.gff.gz",
+    "bytes": 2686677,
+    "sha256": "ce02446d52248fe8a8ca61a6f82323a79482714d30465976ab92c1c7aba4e27d",
+    "retrieved_utc": "2026-09-10T15:35:46.313300+00:00"
+  },
+  "MGYG000517906": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005179/MGYG000517906/genomes1/MGYG000517906.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517906.gff.gz",
+    "bytes": 2440825,
+    "sha256": "65183de95d01fa01371579fca875f13d181c6fa5b821c7174354aad0725bd3fd",
+    "retrieved_utc": "2026-09-10T15:35:47.875858+00:00"
+  },
+  "MGYG000517907": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005179/MGYG000517907/genomes1/MGYG000517907.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517907.gff.gz",
+    "bytes": 1651287,
+    "sha256": "fa29040f1988ceb745963d0dcc1bc629e6138be7b2a81f8d8c7c4d34ffb5f653",
+    "retrieved_utc": "2026-09-10T15:35:50.543961+00:00"
+  },
+  "MGYG000517908": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005179/MGYG000517908/genomes1/MGYG000517908.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517908.gff.gz",
+    "bytes": 2160547,
+    "sha256": "69f939c2b62ca82d09178d8bac2840a41e91d39dba498718820c162ff7abfb26",
+    "retrieved_utc": "2026-09-10T15:35:49.368605+00:00"
+  },
+  "MGYG000517909": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005179/MGYG000517909/genomes1/MGYG000517909.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517909.gff.gz",
+    "bytes": 3057667,
+    "sha256": "3b5b79e785df244bd083cb015bcc9ad990fe2f0d98c12e3ad09da311390d0a1b",
+    "retrieved_utc": "2026-09-10T15:35:49.581261+00:00"
+  },
+  "MGYG000517910": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005179/MGYG000517910/genomes1/MGYG000517910.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517910.gff.gz",
+    "bytes": 1725060,
+    "sha256": "63743433349b10e8014cb1f2a800a9a35dfe6db209b9940383e5bf15ce84840f",
+    "retrieved_utc": "2026-09-10T15:35:50.751254+00:00"
+  },
+  "MGYG000517911": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005179/MGYG000517911/genomes1/MGYG000517911.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517911.gff.gz",
+    "bytes": 1871673,
+    "sha256": "26da1d6cabcfb96135d7cea768866a7590673bd52ce54564ef42c0f623d3c106",
+    "retrieved_utc": "2026-09-10T15:35:52.424051+00:00"
+  },
+  "MGYG000517912": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005179/MGYG000517912/genomes1/MGYG000517912.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517912.gff.gz",
+    "bytes": 2001058,
+    "sha256": "fe466d862b9aa62e3089b7065167d0e2220b70ffdd9d6a5e0c10edc6a2f9ec38",
+    "retrieved_utc": "2026-09-10T15:35:53.265088+00:00"
+  },
+  "MGYG000517913": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005179/MGYG000517913/genomes1/MGYG000517913.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517913.gff.gz",
+    "bytes": 2529598,
+    "sha256": "aa742954231778850866ca83d3680a9b8cd7f291e176fb3412a9df3c39b94aa4",
+    "retrieved_utc": "2026-09-10T15:36:10.206769+00:00"
+  },
+  "MGYG000517914": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005179/MGYG000517914/genomes1/MGYG000517914.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517914.gff.gz",
+    "bytes": 1993693,
+    "sha256": "b7d46fba73afd38d1707aef7796c877e8473c20187230c35e1ea1055dbb63e87",
+    "retrieved_utc": "2026-09-10T15:35:53.800738+00:00"
+  },
+  "MGYG000517915": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005179/MGYG000517915/genomes1/MGYG000517915.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517915.gff.gz",
+    "bytes": 2458654,
+    "sha256": "e136e9db58f57f7c827a333b031ac67018d643e55b3e16e5021f4dbb40fc6324",
+    "retrieved_utc": "2026-09-10T15:35:55.928238+00:00"
+  },
+  "MGYG000517916": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005179/MGYG000517915/genomes1/MGYG000517916.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517916.gff.gz",
+    "bytes": 2302609,
+    "sha256": "0cb17f5aa6d6646570a559640a053848650276daa55c363cf379915f4122719e",
+    "retrieved_utc": "2026-09-10T15:35:57.825067+00:00"
+  },
+  "MGYG000517917": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005179/MGYG000517915/genomes1/MGYG000517917.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517917.gff.gz",
+    "bytes": 2278041,
+    "sha256": "066d7ab58531a0cf8c0efbd6fc91a17584b8115b544c5fc172d6f290a2c121a1",
+    "retrieved_utc": "2026-09-10T15:35:56.739344+00:00"
+  },
+  "MGYG000517918": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005179/MGYG000517918/genomes1/MGYG000517918.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517918.gff.gz",
+    "bytes": 1232154,
+    "sha256": "a262cfa27dddd9514c276c63b978607090c4454c0f0d5a7128cb947dc64b24c5",
+    "retrieved_utc": "2026-09-10T15:35:58.823735+00:00"
+  },
+  "MGYG000517919": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005179/MGYG000517919/genomes1/MGYG000517919.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517919.gff.gz",
+    "bytes": 2027270,
+    "sha256": "cd8ad9de43d96a320e22a4ae57b5ccad4940a7ece414449dcb6dfad3e551552e",
+    "retrieved_utc": "2026-09-10T15:36:04.206348+00:00"
+  },
+  "MGYG000517920": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005179/MGYG000517920/genomes1/MGYG000517920.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517920.gff.gz",
+    "bytes": 1770523,
+    "sha256": "fe2d3d865713100897cc8c270e58a2467585f304617b08a3af97066245b8f8a2",
+    "retrieved_utc": "2026-09-10T15:36:01.390902+00:00"
+  },
+  "MGYG000517921": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005179/MGYG000517921/genomes1/MGYG000517921.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517921.gff.gz",
+    "bytes": 2203133,
+    "sha256": "fe123e3373bcd75d0ac774d0abbad4fcccfc75d628eea5129cc1c2f51c6f7622",
+    "retrieved_utc": "2026-09-10T15:36:01.937189+00:00"
+  },
+  "MGYG000517922": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005179/MGYG000517924/genomes1/MGYG000517922.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517922.gff.gz",
+    "bytes": 2475426,
+    "sha256": "2de6c17df4aa93ee3070e54c444dcb8f3c7fbcf3578d913b3f0853ca69ea6ead",
+    "retrieved_utc": "2026-09-10T15:36:04.698975+00:00"
+  },
+  "MGYG000517923": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005179/MGYG000517923/genomes1/MGYG000517923.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517923.gff.gz",
+    "bytes": 1225681,
+    "sha256": "3ef5dbb9e31e0fa0a545d899353ab146180e7c9e746bc552dd739a9aa4314814",
+    "retrieved_utc": "2026-09-10T15:36:05.207297+00:00"
+  },
+  "MGYG000517924": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005179/MGYG000517924/genomes1/MGYG000517924.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517924.gff.gz",
+    "bytes": 2671209,
+    "sha256": "4825923e9014696dbad218f0e8a6ecf76621aa04d2e49d21072d476776771b17",
+    "retrieved_utc": "2026-09-10T15:36:09.483055+00:00"
+  },
+  "MGYG000517925": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005178/MGYG000517855/genomes1/MGYG000517925.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517925.gff.gz",
+    "bytes": 1404890,
+    "sha256": "f81d8c34ac465063c3ea477f035295f013e9ca74f45eb12d4a16a8e31aeab69b",
+    "retrieved_utc": "2026-09-10T15:36:08.466406+00:00"
+  },
+  "MGYG000517926": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005179/MGYG000517926/genomes1/MGYG000517926.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517926.gff.gz",
+    "bytes": 2431306,
+    "sha256": "70b011bfef8112d3bb17a099f8c80aae8a250e67a769719735fde3361430a042",
+    "retrieved_utc": "2026-09-10T15:36:08.774220+00:00"
+  },
+  "MGYG000517927": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005179/MGYG000517927/genomes1/MGYG000517927.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517927.gff.gz",
+    "bytes": 2133614,
+    "sha256": "55c6407308f12730826a93374227d076e39b1d5c0aef46e9291d8212d66ab8ba",
+    "retrieved_utc": "2026-09-10T15:36:11.919891+00:00"
+  },
+  "MGYG000517928": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005179/MGYG000517912/genomes1/MGYG000517928.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517928.gff.gz",
+    "bytes": 1733360,
+    "sha256": "b1962446424747596b8fc2909b1620b1533360f617d2f29cf5298dc4ed8c3147",
+    "retrieved_utc": "2026-09-10T15:36:11.689546+00:00"
+  },
+  "MGYG000517929": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005179/MGYG000517929/genomes1/MGYG000517929.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517929.gff.gz",
+    "bytes": 1910339,
+    "sha256": "b4ec3244a8e0ce0e0d1a52f8a745e412c469386e04dcc94aa47dd8da075dfb44",
+    "retrieved_utc": "2026-09-10T15:36:12.661448+00:00"
+  },
+  "MGYG000517930": {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/maize-rhizosphere/v1.0/all_genomes/MGYG0005179/MGYG000517930/genomes1/MGYG000517930.gff.gz",
+    "local_path": "data/raw/s3/genomes/MGYG000517930.gff.gz",
+    "bytes": 1914311,
+    "sha256": "4a98cd7b691a45a9a104c2abe528ca11d90605754bf23bbb6c6d04db10f43977",
+    "retrieved_utc": "2026-09-10T15:36:13.184745+00:00"
+  }
+}
