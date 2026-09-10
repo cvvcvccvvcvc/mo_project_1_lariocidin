@@ -1,0 +1,117 @@
+sample_id	rank_within_bgc	feature_id	cds_index	aa_length	label	product	locus_tag	protein_id	pident	alignment_length	query_coverage	evalue	bitscore
+bacillus_cereus_cz2	1	bacillus_cereus_cz2__cds05	5	663	B6F67_RS27055	asparagine synthetase B family protein	B6F67_RS27055	WP_088233253.1	45.77	662.0	99.0	0.0	652.0
+bacillus_cereus_cz2	2	bacillus_cereus_cz2__cds08	8	384	B6F67_RS27070	hypothetical protein	B6F67_RS27070	WP_170933808.1	33.333	33.0	50.0	0.05	21.9
+bacillus_cereus_cz2	3	bacillus_cereus_cz2__cds07	7	602	B6F67_RS27065	ABC transporter ATP-binding protein	B6F67_RS27065	WP_088233263.1	31.579	38.0	30.0	1.1	18.5
+bacillus_cereus_cz2	4	bacillus_cereus_cz2__cds06	6	659	B6F67_RS27060	ABC transporter ATP-binding protein	B6F67_RS27060	WP_088233254.1	50.0	12.0	31.0	1.5	18.1
+bacillus_glycinifermentans_b65291	1	bacillus_glycinifermentans_b65291__cds06	6	664	ctg43_320		ctg43_320		64.264	666.0	99.0	0.0	871.0
+bacillus_glycinifermentans_b65291	2	bacillus_glycinifermentans_b65291__cds07	7	616	ctg43_321		ctg43_321		35.0	20.0	43.0	0.81	18.9
+bacillus_glycinifermentans_b65291	3	bacillus_glycinifermentans_b65291__cds08	8	601	ctg43_322		ctg43_322		30.0	20.0	21.0	1.5	18.1
+bacillus_glycinifermentans_b65291	4	bacillus_glycinifermentans_b65291__cds05	5	154	ctg43_319		ctg43_319		25.0	32.0	60.0	0.42	17.3
+bacillus_subtilis_b1166	1	bacillus_subtilis_b1166__cds07	7	664	P4472_13850	asparagine synthase-related protein	P4472_13850	MED3602954.1	64.264	666.0	99.0	0.0	868.0
+bacillus_subtilis_b1166	2	bacillus_subtilis_b1166__cds06	6	155	P4472_13855	lasso peptide biosynthesis B2 protein	P4472_13855	MED3602955.1	24.194	62.0	43.0	0.045	20.4
+bacillus_subtilis_b1166	3	bacillus_subtilis_b1166__cds09	9	601	P4472_13840	ABC transporter ATP-binding protein	P4472_13840	MED3602952.1	28.571	21.0	32.0	1.3	18.1
+bacillus_subtilis_b1166	4	bacillus_subtilis_b1166__cds08	8	619	P4472_13845	ABC transporter ATP-binding protein	P4472_13845	MED3602953.1	30.0	20.0	35.0	2.1	17.3
+bacillus_thuringiensis_4bl1	1	bacillus_thuringiensis_4bl1__cds08	8	672	BK731_RS17450	asparagine synthase	BK731_RS17450	WP_179192565.1	45.234	661.0	98.0	0.0	590.0
+bacillus_thuringiensis_4bl1	2	bacillus_thuringiensis_4bl1__cds10	10	602	BK731_RS17460	ABC transporter ATP-binding protein	BK731_RS17460	WP_087953760.1	33.333	33.0	28.0	0.06	22.3
+bacillus_thuringiensis_4bl1	3	bacillus_thuringiensis_4bl1__cds09	9	597	BK731_RS17455	ATP-binding cassette domain-containing protein	BK731_RS17455	WP_179192567.1	42.857	21.0	30.0	0.76	18.9
+bacillus_thuringiensis_4bl1	4	bacillus_thuringiensis_4bl1__cds11	11	407	BK731_RS17465	hypothetical protein	BK731_RS17465	WP_087953761.1	55.556	9.0	46.0	2.5	16.5
+brevibacillus_gelatini_dsm100115	1	brevibacillus_gelatini_dsm100115__cds08	8	668		asparagine synthase-related protein	EDM57_RS10310	WP_122904685.1	49.697	660.0	99.0	0.0	658.0
+brevibacillus_gelatini_dsm100115	2	brevibacillus_gelatini_dsm100115__cds09	9	669		ABC transporter ATP-binding protein	EDM57_RS10315	WP_246005785.1	47.368	19.0	40.0	0.07	22.3
+brevibacillus_gelatini_dsm100115	3	brevibacillus_gelatini_dsm100115__cds14	14	290		LysR family transcriptional regulator	EDM57_RS10340	WP_005832054.1	31.579	38.0	49.0	0.13	20.0
+brevibacillus_gelatini_dsm100115	4	brevibacillus_gelatini_dsm100115__cds12	12	148		GNAT family N-acetyltransferase	EDM57_RS10330	WP_246005786.1	37.931	29.0	45.0	0.11	19.2
+burkholderia_imcc1007	1	burkholderia_imcc1007__cds04	4	643	O1Q03_RS22970	asparagine synthase C-terminal domain-containingprotein	O1Q03_RS22970	WP_269506329.1	31.465	553.0	91.0	9.55e-76	243.0
+burkholderia_imcc1007	2	burkholderia_imcc1007__cds08	8	493	O1Q03_RS22990	efflux transporter outer membrane subunit	O1Q03_RS22990	WP_269506332.1	31.034	29.0	22.0	0.12	21.2
+burkholderia_imcc1007	3	burkholderia_imcc1007__cds07	7	683	O1Q03_RS22985	MacB family efflux pump subunit	O1Q03_RS22985	WP_269506331.1	32.432	37.0	29.0	0.28	20.4
+burkholderia_imcc1007	4	burkholderia_imcc1007__cds05	5	612	O1Q03_RS22975	ABC transporter ATP-binding protein	O1Q03_RS22975	WP_269506330.1	27.273	99.0	39.0	0.79	18.9
+chitinasiproducens_palmae_js23	1	chitinasiproducens_palmae_js23__cds05	5	648	BLU54_RS05845	asparagine synthetase B family protein	BLU54_RS05845	WP_170845038.1	31.738	564.0	90.0	1.13e-75	243.0
+chitinasiproducens_palmae_js23	2	chitinasiproducens_palmae_js23__cds07	7	274	BLU54_RS05855	ABC transporter permease	BLU54_RS05855	WP_235837806.1	35.294	34.0	50.0	0.11	20.4
+chitinasiproducens_palmae_js23	3	chitinasiproducens_palmae_js23__cds01	1	322	BLU54_RS05830	LysR family transcriptional regulator	BLU54_RS05830	WP_235837805.1	35.714	14.0	30.0	1.2	17.3
+chitinasiproducens_palmae_js23	4	chitinasiproducens_palmae_js23__cds06	6	595	BLU54_RS05850	ABC transporter ATP-binding protein	BLU54_RS05850	WP_091905924.1	45.833	24.0	32.0	2.7	16.9
+kribbella_antibiotica_jcm13523	1	kribbella_antibiotica_jcm13523__cds09	9	428	E1263_RS05465	asparagine synthase-related protein	E1263_RS05465	WP_132166012.1	20.968	186.0	64.0	7.81e-05	31.2
+kribbella_antibiotica_jcm13523	2	kribbella_antibiotica_jcm13523__cds02	2	316	E1263_RS05440	EcsC family protein	E1263_RS05440	WP_165956483.1	32.143	28.0	39.0	0.43	18.5
+kribbella_antibiotica_jcm13523	3	kribbella_antibiotica_jcm13523__cds04	4	571	E1263_RS05450	bis-aminopropyl spermidine synthase familyprotein	E1263_RS05450	WP_132166006.1	27.273	22.0	25.0	2.8	16.9
+kribbella_antibiotica_jcm13523	4	kribbella_antibiotica_jcm13523__cds07	7	94	E1263_RS05460	hypothetical protein	E1263_RS05460	WP_132166010.1	40.0	20.0	32.0	0.32	16.9
+lysinibacillus_cd3_6	1	lysinibacillus_cd3_6__cds05	5	659	FH508_RS09750	asparagine synthetase B family protein	FH508_RS09750	WP_172771140.1	60.698	659.0	100.0	0.0	861.0
+lysinibacillus_cd3_6	2	lysinibacillus_cd3_6__cds07	7	601	FH508_RS09740	ABC transporter ATP-binding protein	FH508_RS09740	WP_172771138.1	24.615	65.0	53.0	0.28	20.4
+lysinibacillus_cd3_6	3	lysinibacillus_cd3_6__cds06	6	668	FH508_RS09745	ABC transporter ATP-binding protein	FH508_RS09745	WP_172771139.1	31.818	22.0	23.0	0.55	19.2
+lysinibacillus_cd3_6	4	lysinibacillus_cd3_6__cds04	4	156	FH508_RS09755	lasso peptide biosynthesis B2 protein	FH508_RS09755	WP_172771141.1	33.333	30.0	71.0	0.37	17.7
+paenibacillus_alvei_blr1	1	paenibacillus_alvei_blr1__cds06	6	670	PBLR_RS04135	asparagine synthase-related protein	PBLR_RS04135	WP_138184774.1	48.636	660.0	98.0	0.0	654.0
+paenibacillus_alvei_blr1	2	paenibacillus_alvei_blr1__cds10	10	154	PBLR_RS04155	GNAT family N-acetyltransferase	PBLR_RS04155	WP_138184778.1	35.714	42.0	89.0	0.12	19.2
+paenibacillus_alvei_blr1	3	paenibacillus_alvei_blr1__cds05	5	157	PBLR_RS04130	lasso peptide biosynthesis protein	PBLR_RS04130	WP_138184772.1	27.586	29.0	80.0	0.27	18.1
+paenibacillus_alvei_blr1	4	paenibacillus_alvei_blr1__cds08	8	613	PBLR_RS04145	ABC transporter ATP-binding protein	PBLR_RS04145	WP_138184775.1	53.846	13.0	40.0	1.7	17.7
+paenibacillus_fsl_r5_0765	1	paenibacillus_fsl_r5_0765__cds05	5	668	BK141_RS20665	asparagine synthetase B family protein	BK141_RS20665	WP_076214937.1	92.216	668.0	100.0	0.0	1251.0
+paenibacillus_fsl_r5_0765	2	paenibacillus_fsl_r5_0765__cds06	6	649	BK141_RS20660	ABC transporter ATP-binding protein	BK141_RS20660	WP_076214934.1	30.233	43.0	39.0	0.32	20.0
+paenibacillus_fsl_r5_0765	3	paenibacillus_fsl_r5_0765__cds07	7	601	BK141_RS20655	ABC transporter ATP-binding protein	BK141_RS20655	WP_256704311.1	34.286	35.0	39.0	1.0	18.5
+paenibacillus_fsl_r5_0765	4	paenibacillus_fsl_r5_0765__cds08	8	153	BK141_RS20650	GNAT family N-acetyltransferase	BK141_RS20650	WP_076214931.1	29.63	27.0	56.0	0.6	16.9
+paenibacillus_glucanolyticus_5162	1	paenibacillus_glucanolyticus_5162__cds05	5	674	A3958_05680	hypothetical protein	A3958_05680	ANA79505.1	48.03	660.0	97.0	0.0	643.0
+paenibacillus_glucanolyticus_5162	2	paenibacillus_glucanolyticus_5162__cds06	6	664	A3958_05675	hypothetical protein	A3958_05675	ANA79504.1	31.579	38.0	29.0	0.36	20.0
+paenibacillus_glucanolyticus_5162	3	paenibacillus_glucanolyticus_5162__cds07	7	600	A3958_05670	ABC transporter	A3958_05670	ANA79503.1	75.0	8.0	41.0	1.1	18.5
+paenibacillus_glucanolyticus_5162	4	paenibacillus_glucanolyticus_5162__cds08	8	415	A3958_05665	hypothetical protein	A3958_05665	ANA79502.1	23.611	72.0	68.0	3.0	16.2
+paenibacillus_m2	1	paenibacillus_m2__cds04	4	668	LarC				100.0	668.0	100.0	0.0	1370.0
+paenibacillus_m2	2	paenibacillus_m2__cds05	5	649	LarD1				30.233	43.0	33.0	0.1	21.6
+paenibacillus_m2	3	paenibacillus_m2__cds06	6	601	LarD2				34.286	35.0	41.0	1.0	18.5
+paenibacillus_m2	4	paenibacillus_m2__cds03	3	154	LarB2				34.783	23.0	38.0	0.91	16.5
+paenibacillus_tarimensis_dsm19409	1	paenibacillus_tarimensis_dsm19409__cds12	12	667	ctg4_602		ctg4_602		48.632	658.0	98.0	0.0	645.0
+paenibacillus_tarimensis_dsm19409	2	paenibacillus_tarimensis_dsm19409__cds05	5	376	ctg4_609		ctg4_609		33.333	27.0	53.0	0.084	21.2
+paenibacillus_tarimensis_dsm19409	3	paenibacillus_tarimensis_dsm19409__cds01	1	230	ctg4_613		ctg4_613		38.095	21.0	22.0	0.06	20.8
+paenibacillus_tarimensis_dsm19409	4	paenibacillus_tarimensis_dsm19409__cds18	18	292	ctg4_596		ctg4_596		23.256	86.0	49.0	0.11	20.4
+paraburkholderia_mimosarum_stm3621	1	paraburkholderia_mimosarum_stm3621__cds04	4	647	A19S_RS0105705	asparagine synthase C-terminal domain-containingprotein	A19S_RS0105705	WP_028210195.1	31.485	559.0	86.0	1.82e-74	240.0
+paraburkholderia_mimosarum_stm3621	2	paraburkholderia_mimosarum_stm3621__cds06	6	506	A19S_RS0105715	ABC transporter ATP-binding protein	A19S_RS0105715	WP_028210197.1	24.793	121.0	49.0	0.1	21.2
+paraburkholderia_mimosarum_stm3621	3	paraburkholderia_mimosarum_stm3621__cds08	8	671	A19S_RS0105725	MacB family efflux pump subunit	A19S_RS0105725	WP_028210198.1	31.034	29.0	21.0	1.4	18.1
+paraburkholderia_mimosarum_stm3621	4	paraburkholderia_mimosarum_stm3621__cds09	9	395	macA	macrolide transporter subunit MacA	A19S_RS0105730	WP_028210199.1	38.095	21.0	43.0	2.8	16.2
+photorhabdus_asymbiotica_dsm15149	1	photorhabdus_asymbiotica_dsm15149__cds04	4	640	BDD30_0028	asparagine synthase (glutamine-hydrolysing)	BDD30_0028	RKS65759.1	31.636	550.0	84.0	5.99e-88	276.0
+photorhabdus_asymbiotica_dsm15149	2	photorhabdus_asymbiotica_dsm15149__cds05	5	588	BDD30_0027	ATP-binding cassette subfamily B protein	BDD30_0027	RKS65758.1	31.25	32.0	52.0	0.4	19.6
+photorhabdus_asymbiotica_dsm15149	3	photorhabdus_asymbiotica_dsm15149__cds02	2	93	BDD30_0030	hypothetical protein	BDD30_0030	RKS65761.1	50.0	8.0	72.0	4.5	13.5
+photorhabdus_asymbiotica_dsm15149	4	photorhabdus_asymbiotica_dsm15149__cds03	3	136	BDD30_0029	transglutaminase superfamily protein	BDD30_0029	RKS65760.1	25.0	12.0	26.0	42.0	11.2
+photorhabdus_caribbeanensis_hg29	1	photorhabdus_caribbeanensis_hg29__cds04	4	638	EAE90_RS05850	asparagine synthetase B family protein	EAE90_RS05850	WP_214052697.1	28.904	602.0	91.0	1.7e-80	256.0
+photorhabdus_caribbeanensis_hg29	2	photorhabdus_caribbeanensis_hg29__cds05	5	536	EAE90_RS05845	ABC transporter ATP-binding protein	EAE90_RS05845	WP_214052696.1	24.096	83.0	28.0	0.1	21.6
+photorhabdus_caribbeanensis_hg29	3	photorhabdus_caribbeanensis_hg29__cds07	7	420	EAE90_RS05835	clostripain-related cysteine peptidase	EAE90_RS05835	WP_214052694.1	27.273	55.0	20.0	1.1	17.7
+photorhabdus_caribbeanensis_hg29	4	photorhabdus_caribbeanensis_hg29__cds03	3	157	EAE90_RS05855	lasso peptide biosynthesis protein	EAE90_RS05855	WP_214052698.1	21.739	69.0	69.0	2.4	15.0
+photorhabdus_rw14	1	photorhabdus_rw14__cds07	7	638	ctg2_128		ctg2_128		29.236	602.0	90.0	3.53e-87	274.0
+photorhabdus_rw14	2	photorhabdus_rw14__cds08	8	538	ctg2_127		ctg2_127		46.667	15.0	37.0	0.2	20.4
+photorhabdus_rw14	3	photorhabdus_rw14__cds09	9	419	ctg2_126		ctg2_126		26.829	41.0	35.0	0.24	20.0
+photorhabdus_rw14	4	photorhabdus_rw14__cds03	3	162	ctg2_132		ctg2_132		29.412	51.0	38.0	0.55	17.3
+ralstonia_pickettii_dtp0602	1	ralstonia_pickettii_dtp0602__cds05	5	643	N234_26165	hypothetical protein	N234_26165	AGW93523.1	31.429	560.0	86.0	4.83e-81	258.0
+ralstonia_pickettii_dtp0602	2	ralstonia_pickettii_dtp0602__cds06	6	608	N234_26160	hypothetical protein	N234_26160	AGW93522.1	28.8	125.0	37.0	0.57	19.2
+ralstonia_pickettii_dtp0602	3	ralstonia_pickettii_dtp0602__cds03	3	99	N234_26175	hypothetical protein	N234_26175	AGW93525.1	38.095	21.0	60.0	0.36	16.9
+ralstonia_pickettii_dtp0602	4	ralstonia_pickettii_dtp0602__cds01	1	143	ORF #51				31.034	29.0	27.0	2.0	15.4
+streptomyces_b15	1	streptomyces_b15__cds02	2	442	KBY19_RS20440	asparagine synthase-related protein	KBY19_RS20440	WP_210966362.1	37.143	35.0	86.0	0.037	22.7
+streptomyces_b15	2	streptomyces_b15__cds05	5	423	KBY19_RS37555	glycosyltransferase	KBY19_RS37555	WP_210966359.1	28.814	59.0	53.0	0.23	20.0
+streptomyces_b15	3	streptomyces_b15__cds03	3	291	KBY19_RS37275	GNAT family N-acetyltransferase	KBY19_RS37275	WP_210966361.1	41.667	12.0	38.0	4.6	15.0
+streptomyces_b15	4	streptomyces_b15__cds04	4	131	KBY19_RS20430	hypothetical protein	KBY19_RS20430	WP_210966360.1	22.917	48.0	72.0	2.6	14.6
+streptomyces_griseocarneus_atcc29818	1	streptomyces_griseocarneus_atcc29818__cds05	5	376	J3S04_30225	hypothetical protein	J3S04_30225	QSY49197.1	26.364	220.0	72.0	9.61e-05	30.8
+streptomyces_griseocarneus_atcc29818	2	streptomyces_griseocarneus_atcc29818__cds02	2	290	J3S04_30210	GNAT family N-acetyltransferase	J3S04_30210	QSY49194.1	36.111	36.0	56.0	0.67	17.7
+streptomyces_griseocarneus_atcc29818	3	streptomyces_griseocarneus_atcc29818__cds06	6	585	J3S04_30230	ABC transporter ATP-binding protein	J3S04_30230	QSY49198.1	23.529	51.0	39.0	3.7	16.5
+streptomyces_griseocarneus_atcc29818	4	streptomyces_griseocarneus_atcc29818__cds03	3	184	J3S04_30215	helix-turn-helix transcriptional regulator	J3S04_30215	QSY49195.1	25.455	55.0	48.0	1.4	16.2
+streptomyces_lunaelactis_mm31	1	streptomyces_lunaelactis_mm31__cds03	3	411	HRW13_RS09945	asparagine synthase-related protein	HRW13_RS09945	WP_217506814.1	22.302	139.0	67.0	0.045	22.3
+streptomyces_lunaelactis_mm31	2	streptomyces_lunaelactis_mm31__cds01	1	137	HRW13_RS39705	helix-turn-helix transcriptional regulator	HRW13_RS39705	WP_309228943.1	30.0	50.0	45.0	2.5	15.0
+streptomyces_lunaelactis_mm31	3	streptomyces_lunaelactis_mm31__cds04	4	298	HRW13_RS09940	GNAT family N-acetyltransferase	HRW13_RS09940	WP_175299904.1	50.0	14.0	21.0	9.1	14.2
+streptomyces_lunaelactis_mm31	4	streptomyces_lunaelactis_mm31__cds02	2	45	HRW13_RS09950	hypothetical protein	HRW13_RS09950	WP_175299903.1	66.667	3.0	13.0	15.0	10.8
+trinickia_acidisoli_4d114	1	trinickia_acidisoli_4d114__cds04	4	642	ctg1_864		ctg1_864		32.427	515.0	93.0	7.620000000000001e-66	216.0
+trinickia_acidisoli_4d114	2	trinickia_acidisoli_4d114__cds05	5	584	ctg1_863		ctg1_863		23.301	103.0	40.0	0.72	18.9
+trinickia_acidisoli_4d114	3	trinickia_acidisoli_4d114__cds06	6	67	ctg1_862		ctg1_862		41.176	17.0	43.0	0.051	18.5
+trinickia_acidisoli_4d114	4	trinickia_acidisoli_4d114__cds02	2	97	ctg1_866		ctg1_866		33.333	21.0	76.0	0.14	18.1
+trinickia_caryophylli_nbrc13591	1	trinickia_caryophylli_nbrc13591__cds04	4	653	QSJ90_RS01995	asparagine synthetase B family protein	QSJ90_RS01995	WP_139831097.1	32.653	539.0	81.0	2.4899999999999998e-76	245.0
+trinickia_caryophylli_nbrc13591	2	trinickia_caryophylli_nbrc13591__cds05	5	597	QSJ90_RS02000	ABC transporter ATP-binding protein	QSJ90_RS02000	WP_085223654.1	27.273	33.0	22.0	0.43	19.6
+trinickia_caryophylli_nbrc13591	3	trinickia_caryophylli_nbrc13591__cds03	3	168	QSJ90_RS01990	lasso peptide biosynthesis protein	QSJ90_RS01990	WP_158243535.1	45.455	11.0	66.0	4.2	14.6
+trinickia_caryophylli_nbrc13591	4	trinickia_caryophylli_nbrc13591__cds02	2	102	QSJ90_RS01985	hypothetical protein	QSJ90_RS01985	WP_085223660.1	31.25	16.0	29.0	61.0	10.0
+trinickia_symbiotica_jpy366	1	trinickia_symbiotica_jpy366__cds04	4	643	C9I57_RS10225	asparagine synthase-related protein	C9I57_RS10225	WP_146166195.1	32.519	532.0	86.0	2.67e-75	242.0
+trinickia_symbiotica_jpy366	2	trinickia_symbiotica_jpy366__cds05	5	584	C9I57_RS10220	ABC transporter ATP-binding protein	C9I57_RS10220	WP_107150493.1	28.571	28.0	32.0	1.9	17.3
+trinickia_symbiotica_jpy366	3	trinickia_symbiotica_jpy366__cds03	3	162	C9I57_RS10230	lasso peptide biosynthesis protein	C9I57_RS10230	WP_181321788.1	50.0	8.0	41.0	1.8	15.4
+trinickia_symbiotica_jpy366	4	trinickia_symbiotica_jpy366__cds02	2	92	C9I57_RS10235	hypothetical protein	C9I57_RS10235	WP_107150496.1					-1.0
+uncultured_paraburkholderia	1	uncultured_paraburkholderia__cds04	4	575	ctg1_158		ctg1_158		30.769	559.0	93.0	3.76e-75	240.0
+uncultured_paraburkholderia	2	uncultured_paraburkholderia__cds05	5	581	ctg1_159		ctg1_159		77.778	9.0	33.0	0.38	19.6
+uncultured_paraburkholderia	3	uncultured_paraburkholderia__cds08	8	510	ctg1_162		ctg1_162		30.769	26.0	23.0	0.49	19.2
+uncultured_paraburkholderia	4	uncultured_paraburkholderia__cds07	7	238	ctg1_161		ctg1_161		38.889	18.0	49.0	1.5	16.5
+xenorhabdus_bovienii_mc235	1	xenorhabdus_bovienii_mc235__cds04	4	638	KKJ29_06500	hypothetical protein	KKJ29_06500	MDE1482077.1	29.159	559.0	85.0	3.22e-70	228.0
+xenorhabdus_bovienii_mc235	2	xenorhabdus_bovienii_mc235__cds07	7	418	KKJ29_06515	hypothetical protein	KKJ29_06515	MDE1482080.1	26.19	42.0	25.0	0.74	18.5
+xenorhabdus_bovienii_mc235	3	xenorhabdus_bovienii_mc235__cds05	5	538	KKJ29_06505	ABC transporter ATP-binding protein/permease	KKJ29_06505	MDE1482078.1	23.077	39.0	34.0	1.3	17.7
+xenorhabdus_bovienii_mc235	4	xenorhabdus_bovienii_mc235__cds02	2	91	KKJ29_06490	hypothetical protein	KKJ29_06490	MDE1482075.1	50.0	10.0	64.0	1.3	15.0
+xenorhabdus_budapestensis_c72	1	xenorhabdus_budapestensis_c72__cds04	4	638	HGO23_RS03040	asparagine synthase-related protein	HGO23_RS03040	WP_209027937.1	28.073	602.0	89.0	5.18e-72	233.0
+xenorhabdus_budapestensis_c72	2	xenorhabdus_budapestensis_c72__cds06	6	572	HGO23_RS03030	GNAT family N-acetyltransferase	HGO23_RS03030	WP_209027935.1	28.571	42.0	22.0	0.024	23.5
+xenorhabdus_budapestensis_c72	3	xenorhabdus_budapestensis_c72__cds05	5	538	HGO23_RS03035	ABC transporter ATP-binding protein	HGO23_RS03035	WP_209027936.1	40.0	20.0	22.0	0.85	18.5
+xenorhabdus_budapestensis_c72	4	xenorhabdus_budapestensis_c72__cds02	2	92	HGO23_RS03050	hypothetical protein	HGO23_RS03050	WP_209027939.1	25.0	24.0	50.0	4.6	13.5
+xenorhabdus_innexi_dsm16336	1	xenorhabdus_innexi_dsm16336__cds04	4	638	Xinn_00944	hypothetical protein	Xinn_00944	PHM37559.1	29.928	558.0	93.0	1.78e-84	266.0
+xenorhabdus_innexi_dsm16336	2	xenorhabdus_innexi_dsm16336__cds07	7	418	Xinn_00947	alpha-clostripain	Xinn_00947	PHM37562.1	34.211	38.0	36.0	4.1	15.8
+xenorhabdus_innexi_dsm16336	3	xenorhabdus_innexi_dsm16336__cds06	6	146	Xinn_00946	ribosomal-protein-S18-alanine acetyltransferase	Xinn_00946	PHM37561.1	34.483	29.0	30.0	1.8	15.4
+xenorhabdus_innexi_dsm16336	4	xenorhabdus_innexi_dsm16336__cds05	5	539	Xinn_00945	zinc ABC transporter ATP-binding protein ZnuC	Xinn_00945	PHM37560.1	50.0	12.0	27.0	17.0	14.2

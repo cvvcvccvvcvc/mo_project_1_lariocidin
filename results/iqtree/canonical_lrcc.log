@@ -1,0 +1,181 @@
+IQ-TREE version 3.1.3 for MacOS ARM 64-bit built Jul 26 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    Ivans-MacBook-Air.local (SSE4.2, 16 GB RAM)
+Command: projects/lariocidin/.env/bin/iqtree -s projects/lariocidin/results/alignment/lrcc_canonical_with_outgroup.aligned.faa -m MFP -B 1000 --alrt 1000 -T AUTO --seed 20260909 --prefix projects/lariocidin/results/iqtree/canonical_lrcc
+Seed:    20260909 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Sep  9 16:17:18 2026
+Kernel:  SSE2 - auto-detect threads (8 CPU cores detected)
+
+Reading alignment file projects/lariocidin/results/alignment/lrcc_canonical_with_outgroup.aligned.faa ... Fasta format detected
+Reading fasta file: done in 0.000384092 secs using 91.38% CPU
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.000896215 secs using 79.22% CPU
+Alignment has 26 sequences with 786 columns, 727 distinct patterns
+603 parsimony-informative, 63 singleton sites, 120 constant sites
+                                    Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 6.98566e-05 secs using 124.5% CPU
+   1  bacillus_cereus_cz2                  15.65%    failed      0.20%
+   2  bacillus_glycinifermentans_b65291    15.52%    passed     55.74%
+   3  bacillus_subtilis_b1166              15.52%    passed     44.83%
+   4  bacillus_thuringiensis_4bl1          14.50%    failed      0.17%
+   5  brevibacillus_gelatini_dsm100115     15.01%    passed     32.24%
+   6  burkholderia_imcc1007                18.19%    failed      0.00%
+   7  chitinasiproducens_palmae_js23       17.56%    failed      0.00%
+   8  lysinibacillus_cd3_6                 16.16%    failed      0.69%
+   9  paenibacillus_alvei_blr1             14.76%    passed     71.88%
+  10  paenibacillus_fsl_r5_0765            15.01%    passed     26.44%
+  11  paenibacillus_glucanolyticus_5162    14.25%    passed      5.20%
+  12  paenibacillus_m2                     15.01%    failed      4.30%
+  13  paenibacillus_tarimensis_dsm19409    15.14%    passed     67.84%
+  14  paraburkholderia_mimosarum_stm3621   17.68%    failed      0.23%
+  15  photorhabdus_asymbiotica_dsm15149    18.58%    passed     38.79%
+  16  photorhabdus_caribbeanensis_hg29     18.83%    failed      0.00%
+  17  photorhabdus_rw14                    18.83%    failed      0.00%
+  18  ralstonia_pickettii_dtp0602          18.19%    failed      0.00%
+  19  trinickia_acidisoli_4d114            18.32%    failed      0.00%
+  20  trinickia_caryophylli_nbrc13591      16.92%    failed      0.00%
+  21  trinickia_symbiotica_jpy366          18.19%    failed      0.00%
+  22  uncultured_paraburkholderia          26.84%    failed      0.37%
+  23  xenorhabdus_bovienii_mc235           18.83%    failed      0.00%
+  24  xenorhabdus_budapestensis_c72        18.83%    failed      0.00%
+  25  xenorhabdus_innexi_dsm16336          18.83%    failed      0.00%
+  26  paeninodin_outgroup                  17.43%    failed      3.06%
+****  TOTAL                                17.25%  18 sequences failed composition chi2 test (p-value<5%; df=19)
+Checking for duplicate sequences: done in 0.000106812 secs using 87.07% CPU
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.003 seconds
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+22 trees examined
+Threads: 1 / Time: 8.376 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -33253
+Threads: 2 / Time: 5.624 sec / Speedup: 1.489 / Efficiency: 74% / LogL: -33253
+Threads: 3 / Time: 4.057 sec / Speedup: 2.065 / Efficiency: 69% / LogL: -33253
+Threads: 4 / Time: 5.306 sec / Speedup: 1.579 / Efficiency: 39% / LogL: -33253
+Determining AUTO threadcount: done in 23.3639 secs using 165.7% CPU
+BEST NUMBER OF THREADS: 3
+
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -23342.885
+Optimal log-likelihood: -23342.428
+Proportion of invariable sites: 0.024
+Gamma shape alpha: 1.329
+Parameters optimization took 1 rounds (0.209 sec)
+Time for fast ML tree search: 1.027 seconds
+
+NOTE: ModelFinder requires 32 MB RAM!
+ModelFinder will test up to 1232 protein models (sample size: 786 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+Akaike Information Criterion:           Q.PFAM+R4
+Corrected Akaike Information Criterion: Q.PFAM+R4
+Bayesian Information Criterion:         Q.PFAM+I+G4
+Best-fit model: Q.PFAM+I+G4 chosen according to BIC
+
+All model information printed to projects/lariocidin/results/iqtree/canonical_lrcc.model.gz
+CPU time for ModelFinder: 242.444 seconds (0h:4m:2s)
+Wall-clock time for ModelFinder: 113.563 seconds (0h:1m:53s)
+Generating 1000 samples for ultrafast bootstrap (seed: 20260909)...
+
+NOTE: 14 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 1.363 / Estimate: 0.000, 1.171 / LogL: -23326.915
+Init pinv, alpha: 0.017, 1.363 / Estimate: 0.021, 1.345 / LogL: -23321.938
+Init pinv, alpha: 0.034, 1.363 / Estimate: 0.024, 1.370 / LogL: -23321.938
+Init pinv, alpha: 0.051, 1.363 / Estimate: 0.024, 1.371 / LogL: -23321.942
+Init pinv, alpha: 0.068, 1.363 / Estimate: 0.025, 1.374 / LogL: -23321.959
+Init pinv, alpha: 0.085, 1.363 / Estimate: 0.024, 1.368 / LogL: -23321.934
+Init pinv, alpha: 0.102, 1.363 / Estimate: 0.024, 1.369 / LogL: -23321.938
+Init pinv, alpha: 0.119, 1.363 / Estimate: 0.024, 1.370 / LogL: -23321.941
+Init pinv, alpha: 0.136, 1.363 / Estimate: 0.024, 1.371 / LogL: -23321.944
+Init pinv, alpha: 0.153, 1.363 / Estimate: 0.025, 1.371 / LogL: -23321.947
+Optimal pinv,alpha: 0.024, 1.368 / LogL: -23321.934
+
+Parameters optimization took 4.232 sec
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.122107 secs using 283.1% CPU
+Computing ML distances took 0.122308 sec (of wall-clock time) 0.345778 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 6.10352e-05 secs using 118% CPU
+Constructing RapidNJ tree: done in 0.00130892 secs using 56.92% CPU
+Computing RapidNJ tree took 0.001419 sec (of wall-clock time) 0.000838 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -23397.469
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.396 second
+Computing log-likelihood of 98 initial trees ... 3.551 seconds
+Current best score: -23321.934
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -23321.920
+Iteration 10 / LogL: -23323.767 / Time: 0h:2m:7s
+Iteration 20 / LogL: -23322.745 / Time: 0h:2m:13s
+Finish initializing candidate tree set (5)
+Current best tree score: -23321.920 / CPU time: 15.474
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -23329.329 / Time: 0h:2m:20s (0h:1m:6s left)
+Iteration 40 / LogL: -23322.129 / Time: 0h:2m:26s (0h:0m:51s left)
+Iteration 50 / LogL: -23322.547 / Time: 0h:2m:32s (0h:0m:40s left)
+Log-likelihood cutoff on original alignment: -23354.572
+Iteration 60 / LogL: -23324.505 / Time: 0h:2m:37s (0h:0m:30s left)
+Iteration 70 / LogL: -23323.780 / Time: 0h:2m:43s (0h:0m:22s left)
+Iteration 80 / LogL: -23322.914 / Time: 0h:2m:50s (0h:0m:15s left)
+Iteration 90 / LogL: -23322.514 / Time: 0h:2m:58s (0h:0m:8s left)
+Iteration 100 / LogL: -23322.213 / Time: 0h:3m:4s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -23352.419
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 1.000
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:3m:5s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -23321.920
+Optimal log-likelihood: -23321.915
+Proportion of invariable sites: 0.023
+Gamma shape alpha: 1.361
+Parameters optimization took 1 rounds (0.091 sec)
+BEST SCORE FOUND : -23321.915
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.220 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file projects/lariocidin/results/iqtree/canonical_lrcc.splits.nex
+Total tree length: 16.740
+
+Total number of iterations: 102
+CPU time used for tree search: 140.148 sec (0h:2m:20s)
+Wall-clock time used for tree search: 67.361 sec (0h:1m:7s)
+Total CPU time used: 393.928 sec (0h:6m:33s)
+Total wall-clock time used: 185.881 sec (0h:3m:5s)
+
+Computing bootstrap consensus tree...
+Reading input file projects/lariocidin/results/iqtree/canonical_lrcc.splits.nex...
+26 taxa and 99 splits.
+Consensus tree written to projects/lariocidin/results/iqtree/canonical_lrcc.contree
+Reading input trees file projects/lariocidin/results/iqtree/canonical_lrcc.contree
+Log-likelihood of consensus tree: -23321.916
+
+Analysis results written to: 
+  IQ-TREE report:                projects/lariocidin/results/iqtree/canonical_lrcc.iqtree
+  Maximum-likelihood tree:       projects/lariocidin/results/iqtree/canonical_lrcc.treefile
+  Likelihood distances:          projects/lariocidin/results/iqtree/canonical_lrcc.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          projects/lariocidin/results/iqtree/canonical_lrcc.splits.nex
+  Consensus tree:                projects/lariocidin/results/iqtree/canonical_lrcc.contree
+  Screen log file:               projects/lariocidin/results/iqtree/canonical_lrcc.log
+
+Date and Time: Wed Sep  9 16:20:24 2026

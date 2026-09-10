@@ -1,0 +1,30 @@
+sample_id	exact_cds_match_count	first_matching_archive_member	first_match_product
+bacillus_cereus_cz2	0		
+bacillus_glycinifermentans_b65291	1	canonical/WP_057957738.1.gbk	C_asparagine synthetase B family protein
+bacillus_subtilis_b1166	4	canonical/MED3602954.1.gbk	C_asparagine synthase-related protein
+bacillus_thuringiensis_4bl1	0		
+brevibacillus_gelatini_dsm100115	4	canonical/Bgel_C.gbk	C_Proposed C 
+burkholderia_imcc1007	1	canonical/WP_269506329.1.gbk	C_asparagine synthase C-terminal domain-containing protein
+chitinasiproducens_palmae_js23	2	canonical/SAMN05216551.contig00001_11.gbk	C_
+kribbella_antibiotica_jcm13523	1	noncanonical/WP_132166012.1.gbk	C_asparagine synthase-related protein
+lysinibacillus_cd3_6	1	canonical/WP_172771140.1.gbk	C_asparagine synthetase B family protein
+paenibacillus_alvei_blr1	1	canonical/WP_138184774.1.gbk	C_asparagine synthase-related protein
+paenibacillus_fsl_r5_0765	1	canonical/WP_076214937.1.gbk	C_asparagine synthetase B family protein
+paenibacillus_glucanolyticus_5162	23	canonical/NPDC056430.ctg-0007_203.gbk	C_
+paenibacillus_m2	1	canonical/WP_222215840.1.gbk	C_asparagine synthetase B family protein
+paenibacillus_tarimensis_dsm19409	2	canonical/Ptar_C.gbk	C_Proposed macrocyclase
+paraburkholderia_mimosarum_stm3621	1	canonical/WP_028210195.1.gbk	C_asparagine synthase C-terminal domain-containing protein
+photorhabdus_asymbiotica_dsm15149	1	canonical/WP_041381870.1.gbk	C_asparagine synthase C-terminal domain-containing protein
+photorhabdus_caribbeanensis_hg29	1	canonical/WP_214052697.1.gbk	C_asparagine synthetase B family protein
+photorhabdus_rw14	1	canonical/WP_165577333.1.gbk	C_asparagine synthase-related protein
+ralstonia_pickettii_dtp0602	2	canonical/AGW93523.1.gbk	C_hypothetical protein
+streptomyces_b15	1	noncanonical/WP_210966362.1.gbk	C_asparagine synthase-related protein
+streptomyces_griseocarneus_atcc29818	2	noncanonical/BGC0002151.gbk	C_hypothetical protein
+streptomyces_lunaelactis_mm31	1	noncanonical/WP_217506814.1.gbk	C_asparagine synthase-related protein
+trinickia_acidisoli_4d114	1	canonical/WP_206951345.1.gbk	C_asparagine synthase-related protein
+trinickia_caryophylli_nbrc13591	0		
+trinickia_symbiotica_jpy366	1	canonical/WP_146166195.1.gbk	C_asparagine synthase-related protein
+uncultured_paraburkholderia	0		
+xenorhabdus_bovienii_mc235	1	canonical/WP_274719341.1.gbk	C_asparagine synthase-related protein
+xenorhabdus_budapestensis_c72	1	canonical/WP_209027937.1.gbk	C_asparagine synthase-related protein
+xenorhabdus_innexi_dsm16336	1	canonical/WP_099137610.1.gbk	C_asparagine synthase-related protein

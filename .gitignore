@@ -1,0 +1,12 @@
+.env/
+.mplconfig/
+data/raw/
+results/iqtree/*.bionj
+results/iqtree/*.ckp.gz
+results/iqtree/*.mldist
+results/iqtree/*.model.gz
+results/iqtree/*.splits.nex
+results/iqtree/*.ufboot
+__pycache__/
+*.pyc
+.DS_Store

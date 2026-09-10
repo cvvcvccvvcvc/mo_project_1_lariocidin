@@ -1,0 +1,17 @@
+bgc_id	archive_member	rank_within_bgc	feature_id	cds_index	start_0based	end_0based_exclusive	aa_length	label	product	protein_id	seed_id	exact_explicit_cyclase_match	pident	alignment_length	query_coverage	evalue	bitscore
+lit_npdc017092_ctg_0061_3_bbcef2c867	noncanonical/NPDC017092.ctg-0061_3.gbk	1	lit_npdc017092_ctg_0061_3_bbcef2c867__cds003	3	1209	2100	296				cyc_f106209635a3a534	False	89.161	286.0	97.0	6.649999999999999e-90	268.0
+lit_npdc017092_ctg_0061_3_bbcef2c867	noncanonical/NPDC017092.ctg-0061_3.gbk	2	lit_npdc017092_ctg_0061_3_bbcef2c867__cds022	22	9819	10530	236				cyc_e4501e754cd75cc6	False	27.835	97.0	41.0	0.016	28.5
+lit_npdc017092_ctg_0061_3_bbcef2c867	noncanonical/NPDC017092.ctg-0061_3.gbk	3	lit_npdc017092_ctg_0061_3_bbcef2c867__cds002	2	194	1145	316				cyc_c6fe0c8ffff9857a	False	36.111	36.0	11.0	1.0	23.5
+lit_npdc017092_ctg_0061_3_bbcef2c867	noncanonical/NPDC017092.ctg-0061_3.gbk	4	lit_npdc017092_ctg_0061_3_bbcef2c867__cds013	13	6362	6587	74				cyc_998eb19a67e787a7	False	35.556	45.0	55.0	0.3	21.9
+lit_npdc019527_ctg_0005_389_cf8d3e2fa7	noncanonical/NPDC019527.ctg-0005_389.gbk	1	lit_npdc019527_ctg_0005_389_cf8d3e2fa7__cds010	10	10000	11170	389				cyc_f31bf64d1f0cfc81	True	100.0	389.0	100.0	0.0	778.0
+lit_npdc019527_ctg_0005_389_cf8d3e2fa7	noncanonical/NPDC019527.ctg-0005_389.gbk	2	lit_npdc019527_ctg_0005_389_cf8d3e2fa7__cds023	23	18189	18855	221				cyc_09bd7602b8e33a4b	False	34.328	67.0	25.0	0.39	24.3
+lit_npdc019527_ctg_0005_389_cf8d3e2fa7	noncanonical/NPDC019527.ctg-0005_389.gbk	3	lit_npdc019527_ctg_0005_389_cf8d3e2fa7__cds025	25	19510	20089	192				cyc_99307912db027f26	False	33.333	39.0	18.0	0.28	24.3
+lit_npdc019527_ctg_0005_389_cf8d3e2fa7	noncanonical/NPDC019527.ctg-0005_389.gbk	4	lit_npdc019527_ctg_0005_389_cf8d3e2fa7__cds007	7	5557	6484	308				cyc_a1965d4cb3c49483	False	45.161	31.0	9.0	0.77	23.9
+lit_npdc019951_ctg_0040_19_c20aa1d13b	noncanonical/NPDC019951.ctg-0040_19.gbk	1	lit_npdc019951_ctg_0040_19_c20aa1d13b__cds006	6	10000	10975	324				cyc_affc630d67cc310b	False	89.506	324.0	100.0	0.0	521.0
+lit_npdc019951_ctg_0040_19_c20aa1d13b	noncanonical/NPDC019951.ctg-0040_19.gbk	2	lit_npdc019951_ctg_0040_19_c20aa1d13b__cds001	1	883	1501	205				cyc_3d6365290818854c	False	28.235	85.0	35.0	0.85	23.1
+lit_npdc019951_ctg_0040_19_c20aa1d13b	noncanonical/NPDC019951.ctg-0040_19.gbk	3	lit_npdc019951_ctg_0040_19_c20aa1d13b__cds014	14	16995	18084	362				cyc_8c4952f8987ca03e	False	28.571	84.0	23.0	2.4	22.7
+lit_npdc019951_ctg_0040_19_c20aa1d13b	noncanonical/NPDC019951.ctg-0040_19.gbk	4	lit_npdc019951_ctg_0040_19_c20aa1d13b__cds015	15	18080	18755	224				cyc_7a88de6a02ffeba4	False	32.759	58.0	24.0	1.4	22.7
+lit_npdc058211_ctg_0002_41_826075af06	noncanonical/NPDC058211.ctg-0002_41.gbk	1	lit_npdc058211_ctg_0002_41_826075af06__cds011	11	10000	11320	439	ctg2_41			cyc_427ec02e0977d52b	True	100.0	187.0	85.0	1.1899999999999998e-104	311.0
+lit_npdc058211_ctg_0002_41_826075af06	noncanonical/NPDC058211.ctg-0002_41.gbk	2	lit_npdc058211_ctg_0002_41_826075af06__cds015	15	13738	14563	274	ctg2_45			cyc_d9cc369b64651a4d	False	39.286	28.0	10.0	1.1	23.1
+lit_npdc058211_ctg_0002_41_826075af06	noncanonical/NPDC058211.ctg-0002_41.gbk	3	lit_npdc058211_ctg_0002_41_826075af06__cds018	18	17477	19034	518	ctg2_48			cyc_0791513a35e0712f	False	31.646	79.0	15.0	4.4	22.3
+lit_npdc058211_ctg_0002_41_826075af06	noncanonical/NPDC058211.ctg-0002_41.gbk	4	lit_npdc058211_ctg_0002_41_826075af06__cds006	6	5469	6963	497	ctg2_37			cyc_35aaa2b60069ab83	False	45.0	20.0	4.0	5.2	21.9

@@ -1,0 +1,4 @@
+source_id	role	url	version_or_accession	accessed_at	sha256
+lar_bgc	29 published BGC records	https://github.com/jangrm1/LAR-BGC	42280aa5d43ef01f766fa207740dd9914166134c	2026-09-09	2f9a39493d8056232ceedb1d4b676dccbdfd10c6d81319bd745ae8a3f137a980
+m2_genome	map the M2 reference cluster	https://www.ncbi.nlm.nih.gov/nuccore/CP169648.1	CP169648.1	2026-09-09	fd1f54f979278437a01b0b607f861aac78ec239f12ab0d018c7b7497112bfedb
+paeninodin_contig	outgroup cyclase EHQ60560.1	https://www.ncbi.nlm.nih.gov/nuccore/AHKH01000064.1	AHKH01000064.1	2026-09-09	b769341f04fd9d6270d7fdc9c7602ccb3dcc4cb9946bc3e3a2ad25eb458cc84b

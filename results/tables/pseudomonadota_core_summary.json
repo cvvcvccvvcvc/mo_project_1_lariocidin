@@ -1,0 +1,50 @@
+{
+  "status": "descriptive_not_independent_HGT_test",
+  "role_assignment": "narrow canonical-order/size heuristic; inspect role table",
+  "loci": 14,
+  "complete_role_sets": 14,
+  "focal_query": "photorhabdus_asymbiotica_dsm15149",
+  "focal_nearest_nonself_by_role": {
+    "A": {
+      "sample_id": "chitinasiproducens_palmae_js23",
+      "taxonomic_group": "Burkholderiales",
+      "percent_identity": 78.261,
+      "query_coverage_percent": 61.0,
+      "bitscore": 42.7
+    },
+    "B1": {
+      "sample_id": "ralstonia_pickettii_dtp0602",
+      "taxonomic_group": "Burkholderiales",
+      "percent_identity": 52.326,
+      "query_coverage_percent": 92.0,
+      "bitscore": 90.5
+    },
+    "B2": {
+      "sample_id": "ralstonia_pickettii_dtp0602",
+      "taxonomic_group": "Burkholderiales",
+      "percent_identity": 63.971,
+      "query_coverage_percent": 100.0,
+      "bitscore": 193.0
+    },
+    "C": {
+      "sample_id": "burkholderia_imcc1007",
+      "taxonomic_group": "Burkholderiales",
+      "percent_identity": 62.519,
+      "query_coverage_percent": 100.0,
+      "bitscore": 845.0
+    },
+    "D": {
+      "sample_id": "burkholderia_imcc1007",
+      "taxonomic_group": "Burkholderiales",
+      "percent_identity": 71.649,
+      "query_coverage_percent": 99.0,
+      "bitscore": 852.0
+    }
+  },
+  "focal_roles_whose_nearest_sequence_is_Burkholderiales": 5,
+  "limitations": [
+    "Genes in one BGC are linked and are not independent statistical replicates.",
+    "Nearest-sequence affinity is descriptive and does not distinguish HGT from vertical inheritance plus loss.",
+    "The author-selected 14-locus set lacks many close host relatives."
+  ]
+}

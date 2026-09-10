@@ -1,0 +1,32 @@
+{
+  "interpretation": "Leave-one-out BLASTP calibration only; source labels derive from the published archive and are not independent experimental truth.",
+  "unique_sequences": 307,
+  "source_group_counts": {
+    "noncanonical": 137,
+    "canonical": 90,
+    "Barrett et al review": 80
+  },
+  "cross_source_group_exact_sequence_duplicates": 0,
+  "queries_with_nonself_hit": 307,
+  "nearest_nonself_same_source_group_fraction": 1.0,
+  "nearest_nonself_same_family_class_fraction": 1.0,
+  "nearest_subject_group_by_query_group": {
+    "Barrett et al review": {
+      "Barrett et al review": 80,
+      "canonical": 0,
+      "noncanonical": 0
+    },
+    "canonical": {
+      "Barrett et al review": 0,
+      "canonical": 90,
+      "noncanonical": 0
+    },
+    "noncanonical": {
+      "Barrett et al review": 0,
+      "canonical": 0,
+      "noncanonical": 137
+    }
+  },
+  "positive_queries_nearest_comparator": 0,
+  "comparator_queries_nearest_positive": 0
+}

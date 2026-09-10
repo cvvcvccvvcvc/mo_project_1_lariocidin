@@ -1,0 +1,14 @@
+name: lariocidin
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.12
+  - biopython
+  - pandas
+  - numpy
+  - matplotlib-base
+  - mafft
+  - iqtree
+  - blast
+  - hmmer=3.4

@@ -1,0 +1,5 @@
+sample_id	requested_nucleotide_accession	focal_protein_id	source_database	source_url
+burkholderia_imcc1007	NZ_JAPVQY010000029	WP_269506329.1	NCBI_Nucleotide	https://www.ncbi.nlm.nih.gov/nuccore/NZ_JAPVQY010000029
+paraburkholderia_mimosarum_stm3621	NZ_AXAO01000004	WP_028210195.1	NCBI_Nucleotide	https://www.ncbi.nlm.nih.gov/nuccore/NZ_AXAO01000004
+photorhabdus_asymbiotica_dsm15149	RBLJ01000001	RKS65759.1	NCBI_Nucleotide	https://www.ncbi.nlm.nih.gov/nuccore/RBLJ01000001
+ralstonia_pickettii_dtp0602	CP006668.1	AGW93523.1	NCBI_Nucleotide	https://www.ncbi.nlm.nih.gov/nuccore/CP006668.1

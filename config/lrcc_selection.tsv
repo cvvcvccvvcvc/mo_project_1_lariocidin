@@ -1,0 +1,30 @@
+sample_id	feature_id	confidence	decision_basis
+bacillus_subtilis_b1166	bacillus_subtilis_b1166__cds07	high	asparagine-synthase-related annotation and top whole-BGC BLASTP hit
+bacillus_cereus_cz2	bacillus_cereus_cz2__cds05	high	asparagine-synthetase annotation and top whole-BGC BLASTP hit
+bacillus_glycinifermentans_b65291	bacillus_glycinifermentans_b65291__cds06	high	unannotated top whole-BGC BLASTP hit with full-length cyclase-sized protein
+bacillus_thuringiensis_4bl1	bacillus_thuringiensis_4bl1__cds08	high	asparagine-synthase annotation and top whole-BGC BLASTP hit
+brevibacillus_gelatini_dsm100115	brevibacillus_gelatini_dsm100115__cds08	high	antiSMASH Asn_synthase domain and top whole-BGC BLASTP hit
+burkholderia_imcc1007	burkholderia_imcc1007__cds04	high	asparagine-synthase-domain annotation and top whole-BGC BLASTP hit
+chitinasiproducens_palmae_js23	chitinasiproducens_palmae_js23__cds05	high	asparagine-synthetase annotation and top whole-BGC BLASTP hit
+kribbella_antibiotica_jcm13523	kribbella_antibiotica_jcm13523__cds09	moderate	short noncanonical asparagine-synthase-related protein and top whole-BGC BLASTP hit
+lysinibacillus_cd3_6	lysinibacillus_cd3_6__cds05	high	asparagine-synthetase annotation and top whole-BGC BLASTP hit
+paenibacillus_m2	paenibacillus_m2__cds04	high	author label LarC; seed sequence
+paenibacillus_alvei_blr1	paenibacillus_alvei_blr1__cds06	high	asparagine-synthase-related annotation and top whole-BGC BLASTP hit
+paenibacillus_glucanolyticus_5162	paenibacillus_glucanolyticus_5162__cds05	moderate	unannotated top whole-BGC BLASTP hit with cyclase-sized protein
+paenibacillus_fsl_r5_0765	paenibacillus_fsl_r5_0765__cds05	high	asparagine-synthetase annotation and top whole-BGC BLASTP hit
+paenibacillus_tarimensis_dsm19409	paenibacillus_tarimensis_dsm19409__cds12	high	unannotated top whole-BGC BLASTP hit with full-length cyclase-sized protein
+paraburkholderia_mimosarum_stm3621	paraburkholderia_mimosarum_stm3621__cds04	high	asparagine-synthase-domain annotation and top whole-BGC BLASTP hit
+photorhabdus_asymbiotica_dsm15149	photorhabdus_asymbiotica_dsm15149__cds04	high	asparagine-synthase annotation and top whole-BGC BLASTP hit
+photorhabdus_caribbeanensis_hg29	photorhabdus_caribbeanensis_hg29__cds04	high	asparagine-synthetase annotation and top whole-BGC BLASTP hit
+photorhabdus_rw14	photorhabdus_rw14__cds07	moderate	unannotated top whole-BGC BLASTP hit with cyclase-sized protein
+ralstonia_pickettii_dtp0602	ralstonia_pickettii_dtp0602__cds05	moderate	unannotated top whole-BGC BLASTP hit with cyclase-sized protein
+streptomyces_griseocarneus_atcc29818	streptomyces_griseocarneus_atcc29818__cds05	moderate	short noncanonical hypothetical protein and top whole-BGC BLASTP hit
+streptomyces_lunaelactis_mm31	streptomyces_lunaelactis_mm31__cds03	moderate	short noncanonical asparagine-synthase-related protein and top whole-BGC BLASTP hit
+streptomyces_b15	streptomyces_b15__cds02	moderate	short noncanonical asparagine-synthase-related protein and top whole-BGC BLASTP hit
+trinickia_acidisoli_4d114	trinickia_acidisoli_4d114__cds04	high	unannotated top whole-BGC BLASTP hit with cyclase-sized protein
+trinickia_caryophylli_nbrc13591	trinickia_caryophylli_nbrc13591__cds04	high	asparagine-synthetase annotation and top whole-BGC BLASTP hit
+trinickia_symbiotica_jpy366	trinickia_symbiotica_jpy366__cds04	high	asparagine-synthase-related annotation and top whole-BGC BLASTP hit
+uncultured_paraburkholderia	uncultured_paraburkholderia__cds04	moderate	unannotated top whole-BGC BLASTP hit; shorter than canonical Proteobacteria candidates
+xenorhabdus_bovienii_mc235	xenorhabdus_bovienii_mc235__cds04	high	top whole-BGC BLASTP hit and cyclase-sized protein adjacent to annotated lasso B2
+xenorhabdus_budapestensis_c72	xenorhabdus_budapestensis_c72__cds04	high	asparagine-synthase-related annotation and top whole-BGC BLASTP hit
+xenorhabdus_innexi_dsm16336	xenorhabdus_innexi_dsm16336__cds04	high	top whole-BGC BLASTP hit and cyclase-sized protein in expected cluster position

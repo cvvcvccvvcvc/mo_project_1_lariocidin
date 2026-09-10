@@ -1,0 +1,308 @@
+cyclase_id	aa_length	occurrence_count	source_groups	family_labels	archive_members	protein_ids	exact_lar29_sample_ids	anchor_products
+cyc_005a6d4b7e6fb0d0	668	1	canonical	triculamin_like_canonical	canonical/WP_307892816.1.gbk	WP_307892816.1		
+cyc_005eff9f048bce3c	439	1	noncanonical	triculamin_like_noncanonical	noncanonical/NPDC002643.ctg-0015_180.gbk			
+cyc_00e504b928f96e4e	668	1	canonical	triculamin_like_canonical	canonical/WP_105600221.1.gbk	WP_105600221.1		
+cyc_01d1883afbce1cd7	424	1	noncanonical	triculamin_like_noncanonical	noncanonical/NPDC003181.ctg-0007_30.gbk			
+cyc_021702c740bd8551	672	1	canonical	triculamin_like_canonical	canonical/WP_179196837.1.gbk	WP_179196837.1		
+cyc_025d4d45bafee3e7	670	2	canonical	triculamin_like_canonical	canonical/MBC6973539.1.gbk;canonical/NSW39496.1.gbk	MBC6973539.1;NSW39496.1		
+cyc_03a0bbc965fc0da5	674	1	canonical	triculamin_like_canonical	canonical/WP_152827342.1.gbk	WP_152827342.1		
+cyc_0403ce31854d7ef2	668	1	canonical	triculamin_like_canonical	canonical/WP_076759523.1.gbk	WP_076759523.1		
+cyc_0591365673f90ff2	614	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Achromosin.gb	WP_358592946.1		
+cyc_071cf93aac0e8948	524	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Anantin.gb			
+cyc_07232818b212489f	674	5	canonical	triculamin_like_canonical	canonical/NPDC005966.ctg-0008_75.gbk;canonical/NPDC007132.ctg-0008_75.gbk;canonical/NPDC050491.ctg-0008_75.gbk;canonical/NPDC088413.ctg-0008_75.gbk;canonical/SAMEA1018298.contig00009_75.gbk			
+cyc_0791513a35e0712f	441	1	noncanonical	triculamin_like_noncanonical	noncanonical/NPDC090066.ctg-0018_60.gbk			
+cyc_085d9220387ad19d	424	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_362249200.1.gbk	WP_362249200.1		
+cyc_088f0a31c6c6dd7d	610	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Halolassin.gb	WP_068689552.1		
+cyc_08edeb7a60511994	643	1	canonical	triculamin_like_canonical	canonical/WP_185735450.1.gbk	WP_185735450.1		
+cyc_09bd7602b8e33a4b	437	2	noncanonical	triculamin_like_noncanonical	noncanonical/SAMN15009833.contig00002_85.gbk;noncanonical/SAMN15009834.contig00030_7.gbk			
+cyc_0bf7589edeb3414b	423	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_231085553.1.gbk	WP_231085553.1		
+cyc_0c64a0d1b39d1845	440	1	noncanonical	triculamin_like_noncanonical	noncanonical/NPDC032701.ctg-0037_2.gbk			
+cyc_0efc3db14d51bd55	396	1	noncanonical	triculamin_like_noncanonical	noncanonical/NUK41203.1.gbk	NUK41203.1		
+cyc_0f140989974ecadf	605	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Moomysin.gb	WP_014140852.1		
+cyc_0f73852f02bdb201	442	1	noncanonical	triculamin_like_noncanonical	noncanonical/NPDC006784.ctg-0027_12.gbk			
+cyc_106613468a7cfd2e	424	2	noncanonical	triculamin_like_noncanonical	noncanonical/NPDC024155.ctg-0020_72.gbk;noncanonical/NPDC025494.ctg-0042_63.gbk			
+cyc_10f644fbf8399c45	666	1	canonical	triculamin_like_canonical	canonical/WP_268385504.1.gbk	WP_268385504.1		
+cyc_1251112c00601cae	439	1	noncanonical	triculamin_like_noncanonical	noncanonical/Sala_C.gbk			
+cyc_14053c3e2c960221	622	1	canonical	triculamin_like_canonical	canonical/NPDC005484.ctg-0013_133.gbk			
+cyc_156e9195e24b7722	648	2	canonical	triculamin_like_canonical	canonical/SAMN05216551.contig00001_11.gbk;canonical/WP_170845038.1.gbk	WP_170845038.1	chitinasiproducens_palmae_js23	
+cyc_17c33148cd54fb1b	638	1	canonical	triculamin_like_canonical	canonical/WP_350404311.1.gbk	WP_350404311.1		
+cyc_19672c1261bb5c61	585	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Brevunsin.gb	EGF94507.1		
+cyc_1dd530208020550e	382	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_279933098.1.gbk	WP_279933098.1		
+cyc_2179d39c46ce4a59	668	1	canonical	triculamin_like_canonical	canonical/WP_215077459.1.gbk	WP_215077459.1		
+cyc_2307731a2b856400	444	1	noncanonical	triculamin_like_noncanonical	noncanonical/NPDC000818.ctg-0100_11.gbk			
+cyc_23be0304937ac5ec	432	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_366396185.1.gbk	WP_366396185.1		
+cyc_2445607f6d6ea886	643	2	canonical	triculamin_like_canonical	canonical/AGW93523.1.gbk;canonical/WP_022538259.1.gbk	AGW93523.1;WP_022538259.1	ralstonia_pickettii_dtp0602	
+cyc_246da7b6d0d5d49a	674	5	canonical	triculamin_like_canonical	canonical/SAMEA104411605.contig00020_191.gbk;canonical/SAMEA104411656.contig00132_8.gbk;canonical/SAMEA104411665.contig00021_191.gbk;canonical/SAMN05929625.contig00011_117.gbk;canonical/WP_076151674.1.gbk	WP_076151674.1		
+cyc_24ad3115dd628990	432	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_285740294.1.gbk	WP_285740294.1		
+cyc_2506342a68cfcf73	417	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_340555935.1.gbk	WP_340555935.1		
+cyc_25498a19c556e37a	638	1	canonical	triculamin_like_canonical	canonical/WP_165577333.1.gbk	WP_165577333.1	photorhabdus_rw14	
+cyc_25777c0505119e5e	424	1	noncanonical	triculamin_like_noncanonical	noncanonical/NPDC003889.ctg-0010_244.gbk			
+cyc_25cd6378c595313b	442	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_210966362.1.gbk	WP_210966362.1	streptomyces_b15	
+cyc_274ad875f3fb1928	668	1	canonical	triculamin_like_canonical	canonical/WP_307541592.1.gbk	WP_307541592.1		
+cyc_276c5b2b93bbf042	443	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_378365178.1.gbk	WP_378365178.1		
+cyc_291b1efba53f75e6	424	1	noncanonical	triculamin_like_noncanonical	noncanonical/NPDC095613.ctg-0002_36.gbk			
+cyc_29b59997bea1e69a	442	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_388582365.1.gbk	WP_388582365.1		
+cyc_2bd7154b5cf4cb9d	440	1	noncanonical	triculamin_like_noncanonical	noncanonical/SAMN02597228.contig00038_10.gbk			
+cyc_2cc73668ec52320c	556	1	canonical	triculamin_like_canonical	canonical/SAMEA104411591.contig00447_1.gbk			
+cyc_2d21c7b414645b67	384	1	noncanonical	triculamin_like_noncanonical	noncanonical/NPDC049883.ctg-0009_344.gbk			
+cyc_2d5388249bba3825	436	2	noncanonical	triculamin_like_noncanonical	noncanonical/NPDC091212.ctg-0025_32.gbk;noncanonical/WP_365391009.1.gbk	WP_365391009.1		
+cyc_2e8f4c1c5610dc87	451	1	noncanonical	triculamin_like_noncanonical	noncanonical/NPDC045007.ctg-0321_1.gbk			
+cyc_2f2408ae6af861a7	614	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Lp2006.gb	WP_017534152.1		
+cyc_2f378175cd3efd3b	443	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_356233687.1.gbk	WP_356233687.1		
+cyc_2f6358ad7a47d59e	442	1	noncanonical	triculamin_like_noncanonical	noncanonical/NPDC003336.ctg-0059_40.gb			
+cyc_3151cb5b32a3e54f	426	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_018255973.1.gbk	WP_018255973.1		
+cyc_31a25837429f8308	441	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_215154340.1.gbk	WP_215154340.1		
+cyc_31c0486e9f8e9d81	668	4	canonical	triculamin_like_canonical	canonical/Bgel_C.gbk;canonical/SAMN08912797.contig00032_40.gbk;canonical/SAMN08912927.contig00048_25.gbk;canonical/WP_122904685.1.gbk	WP_122904685.1	brevibacillus_gelatini_dsm100115	gelatinamin
+cyc_32737ce8a65ee989	581	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Sphingonodin_II.gb	BAI99046.1		
+cyc_32dd3e8913f40afa	414	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_264267830.1.gbk	WP_264267830.1		
+cyc_33e6bc3f61790554	653	1	canonical	triculamin_like_canonical	canonical/Cpal_C.gbk			palmamin
+cyc_35aaa2b60069ab83	424	1	noncanonical	triculamin_like_noncanonical	noncanonical/SAMN09932352.contig00103_6.gbk			
+cyc_37c0649295590c64	581	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Syanodin_I.gb	WP_010335838.1		
+cyc_3999eb506234a875	389	13	noncanonical	triculamin_like_noncanonical	noncanonical/SAMN33241596.contig00026_6.gbk;noncanonical/SAMN33241597.contig00002_479.gbk;noncanonical/SAMN33241598.contig00001_479.gbk;noncanonical/SAMN33241599.contig00002_479.gbk;noncanonical/SAMN33241600.contig00001_580.gbk;noncanonical/SAMN33241605.contig00001_96.gbk;noncanonical/SAMN33241608.contig00012_5.gbk;noncanonical/SAMN33241609.contig00028_5.gbk;noncanonical/SAMN33241610.contig00028_5.gbk;noncanonical/SAMN33241611.contig00029_96.gbk;noncanonical/SAMN33241612.contig00059_5.gbk;noncanonical/SAMN33241614.contig00001_274.gbk;noncanonical/SAMN33241615.contig00048_6.gbk			
+cyc_39ed4317d505f8da	638	1	canonical	triculamin_like_canonical	canonical/WP_209027937.1.gbk	WP_209027937.1	xenorhabdus_budapestensis_c72	
+cyc_3ad4609a5110db89	438	1	noncanonical	triculamin_like_noncanonical	noncanonical/SAMN09932439.contig00039_4.gbk			
+cyc_3bc599a88283d24d	424	1	noncanonical	triculamin_like_noncanonical	noncanonical/NPDC023111.ctg-0001_19.gbk			
+cyc_3c15e57d810d5142	589	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Benenodin-1.gb	WP_018082340.1		
+cyc_3d03360ae8ee2562	422	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_384785334.1.gbk	WP_384785334.1		
+cyc_3d6365290818854c	432	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_226367323.1.gbk	WP_226367323.1		
+cyc_3f07034906e462e1	587	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Sphingocin.gb	GGJ65066.1		
+cyc_41164ae1b9251ed8	536	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Cloacaenodin.gb	WP_046889163.1		
+cyc_418633c1d55cc813	670	1	canonical	triculamin_like_canonical	canonical/HEK9103803.1.gbk	HEK9103803.1		
+cyc_41d3b07ce186bb59	376	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_356453598.1.gbk	WP_356453598.1		
+cyc_41d406bfd729a887	607	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Res_701_1.gb	WP_006604202.1		
+cyc_425a05e6e150d50f	667	2	canonical	triculamin_like_canonical	canonical/Ptar_C.gbk;canonical/WP_235286075.1.gbk	WP_235286075.1	paenibacillus_tarimensis_dsm19409	
+cyc_427ec02e0977d52b	439	1	noncanonical	triculamin_like_noncanonical	noncanonical/NPDC058241.ctg-0034_42.gbk			
+cyc_42f149be117a142e	640	1	canonical	triculamin_like_canonical	canonical/WP_041381870.1.gbk	WP_041381870.1	photorhabdus_asymbiotica_dsm15149	
+cyc_44b7e66f4e18a611	572	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Astexin_1.gb	WP_013479714.1		
+cyc_44f4d4bdf715004b	513	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Microcin_J25.gb	WP_256498469.1		
+cyc_455518cf395b05f3	437	1	noncanonical	triculamin_like_noncanonical	noncanonical/NPDC056987.ctg-0019_39.gbk			
+cyc_468a9e00ee5831a2	603	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Felipeptin.gb	QFU91024.1		
+cyc_469133d59e36e22c	666	1	canonical	triculamin_like_canonical	canonical/WP_243941623.1.gbk	WP_243941623.1		
+cyc_471b7aadf7daa97e	625	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Canucin.gb	WP_059209679.1		
+cyc_48d2fa217a92143d	609	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Siamycin_I.gb	WP_063839106.1		
+cyc_4b55a2c9f6ca7761	668	1	canonical	triculamin_like_canonical	canonical/WP_148956978.1.gbk	WP_148956978.1		
+cyc_4c863535b2d529c2	666	1	canonical	triculamin_like_canonical	canonical/WP_268551100.1.gbk	WP_268551100.1		
+cyc_4c9e1b560ccbc4e5	590	7	canonical	triculamin_like_canonical	canonical/SAMN17211779.contig00019_134.gbk;canonical/SAMN17211784.contig00019_75.gbk;canonical/SAMN17211789.contig00018_134.gbk;canonical/SAMN17211794.contig00018_135.gb;canonical/SAMN17211794.contig00018_135.gbk;canonical/SAMN17211799.contig00022_134.gbk;canonical/SAMN17211804.contig00021_134.gbk			
+cyc_4d79b87448ebb1c7	639	1	Barrett et al review	other_lasso_comparator	Barrett et al review/9810-lp.gb	WP_033894612.1		
+cyc_4f4ac5d8c1f79298	580	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Burhizin.gb	CBW74824.1		
+cyc_4f7bd0225d36e527	474	1	canonical	triculamin_like_canonical	canonical/WP_232287628.1.gbk	WP_232287628.1		
+cyc_4fc45a284889a7db	596	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Propeptin.gb	WP_142556471.1		
+cyc_50691868afb80244	442	1	noncanonical	triculamin_like_noncanonical	noncanonical/SAMN02199259.contig00026_9.gbk			
+cyc_5085db7b63a3a526	389	2	noncanonical	triculamin_like_noncanonical	noncanonical/NPDC003479.ctg-0009_30.gbk;noncanonical/WP_084823638.1.gbk	WP_084823638.1		
+cyc_5207c63445bccdb5	647	1	canonical	triculamin_like_canonical	canonical/WP_028210195.1.gbk	WP_028210195.1	paraburkholderia_mimosarum_stm3621	
+cyc_524cdfcce8c799a2	497	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_181769896.1.gbk	WP_181769896.1		
+cyc_52b7eaf77a0290cc	424	1	noncanonical	triculamin_like_noncanonical	noncanonical/NPDC022525.ctg-0002_287.gbk			
+cyc_5358470406b43046	535	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Capistruin.gb	AHI77932.1		
+cyc_53b9c827927fe914	643	1	canonical	triculamin_like_canonical	canonical/WP_269506329.1.gbk	WP_269506329.1	burkholderia_imcc1007	
+cyc_554066427d63ac4f	426	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_212007810.1.gbk	WP_212007810.1		
+cyc_55fead7e6df9cd2e	668	1	canonical	triculamin_like_canonical	canonical/WP_307415798.1.gbk	WP_307415798.1		
+cyc_562d49b40b950efe	672	1	canonical	triculamin_like_canonical	canonical/WP_332282161.1.gbk	WP_332282161.1		
+cyc_5a1fd35e2d5c30d5	200	1	canonical	triculamin_like_canonical	canonical/KJE33472.1.gbk	KJE33472.1		
+cyc_5a2b5c86fa431d15	536	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Longipeptin A.gb	WP_194500064.1		
+cyc_5b14b1eddc4cfef3	587	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Sphingopyxin II.gb	ABF54308.1		
+cyc_5bc4204b2cb7f3e1	668	1	canonical	triculamin_like_canonical	canonical/SAMN08913095.contig00039_9.gbk			
+cyc_5c48e72b057c9167	389	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_355156436.1.gbk	WP_355156436.1		
+cyc_5c6a40979e4fb75d	440	1	noncanonical	triculamin_like_noncanonical	noncanonical/SBT69319.1.gbk	SBT69319.1		
+cyc_5dc9aec158141f80	424	1	noncanonical	triculamin_like_noncanonical	noncanonical/NPDC101181.ctg-0002_388.gbk			
+cyc_5f9799bdd37255ea	393	1	canonical	triculamin_like_canonical	canonical/WP_166302263.1.gbk	WP_166302263.1		
+cyc_5ffde129aeab24d6	439	1	noncanonical	triculamin_like_noncanonical	noncanonical/NRP74650.1.gbk	NRP74650.1		
+cyc_60014c5f0eb1e217	643	1	canonical	triculamin_like_canonical	canonical/WP_039007202.1.gbk	WP_039007202.1		
+cyc_606f13ff7ac836d4	668	1	canonical	triculamin_like_canonical	canonical/WP_310343353.1.gbk	WP_310343353.1		
+cyc_619453f15aa69840	423	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_280294996.1.gbk	WP_280294996.1		
+cyc_63840eee3eb92b7f	355	1	canonical	triculamin_like_canonical	canonical/WP_326082264.1.gbk	WP_326082264.1		
+cyc_63c79fb056a87b77	648	1	canonical	triculamin_like_canonical	canonical/WP_124602994.1.gbk	WP_124602994.1		
+cyc_6497ca73f3409ac2	422	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_385538746.1.gbk	WP_385538746.1		
+cyc_6538d091619248ca	581	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Xanthomonin III.gb	WP_003487128.1		
+cyc_65f0c301078e6ad3	672	1	canonical	triculamin_like_canonical	canonical/WP_176544197.1.gbk	WP_176544197.1		
+cyc_66f60d2c47959c75	681	1	canonical	triculamin_like_canonical	canonical/PDZ48590.1.gbk	PDZ48590.1		
+cyc_6748e50a4e232376	674	23	canonical	triculamin_like_canonical	canonical/NPDC056430.ctg-0007_203.gbk;canonical/NPDC058225.ctg-0011_76.gbk;canonical/NPDC058493.ctg-0011_202.gb;canonical/NPDC058493.ctg-0011_202.gbk;canonical/SAMEA13299636.contig00008_78.gbk;canonical/SAMEA2340876.contig00016_6.gbk;canonical/SAMEA2340887.contig00017_6.gbk;canonical/SAMEA2340901.contig00021_135.gbk;canonical/SAMEA2627029.contig00022_6.gbk;canonical/SAMEA3359873.contig00011_6.gbk;canonical/SAMEA3359899.contig00019_135.gbk;canonical/SAMEA3504618.contig00020_135.gb;canonical/SAMEA3504618.contig00020_135.gbk;canonical/SAMEA3504625.contig00018_5.gbk;canonical/SAMEA5607302.contig00357_3.gbk;canonical/SAMN03018408.contig00011_134.gbk;canonical/SAMN03649451.contig00011_133.gbk;canonical/SAMN08438723.contig00014_133.gbk;canonical/SAMN10361570.contig00037_77.gbk;canonical/SAMN13075219.contig00025_5.gbk;canonical/SAMN13955582.contig00004_77.gbk;canonical/SAMN17301536.contig00007_78.gbk;canonical/WP_036643503.1.gbk	WP_036643503.1	paenibacillus_glucanolyticus_5162	
+cyc_6787fab317fde4b8	674	1	canonical	triculamin_like_canonical	canonical/SAMEA104411684.contig00381_6.gbk			
+cyc_693c6a832423c3d2	617	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Rubrivinodin.gb	WP_014426918.1		
+cyc_69b027192d80c5a7	681	1	canonical	triculamin_like_canonical	canonical/PDZ14633.1.gbk	PDZ14633.1		
+cyc_6c084519b9843ea1	427	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_179763172.1.gbk	WP_179763172.1		
+cyc_6c7b448dd4bcef58	443	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_217621368.1.gbk	WP_217621368.1		
+cyc_6d4dc09aa3af327f	449	1	noncanonical	triculamin_like_noncanonical	noncanonical/SCL26959.1.gbk	SCL26959.1		
+cyc_6db659c03bb7ca7e	448	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_225978829.1.gbk	WP_225978829.1		
+cyc_6e5f755da19a282f	562	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Shimazuellin I.gb	WP_240873447.1		
+cyc_71cf1b26a088b33c	649	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Paeninodin.gb	EHQ60560.1		
+cyc_7246000a5d82a73a	422	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_351562035.1.gbk	WP_351562035.1		
+cyc_727798e4b41ad4d0	544	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Lihuanodin.gb	WP_089970445.1		
+cyc_72c3eb302ebda657	372	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_351824579.1.gbk	WP_351824579.1		
+cyc_74497dcdddcd8317	481	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Sviceucin.gb	WP_050789791.1		
+cyc_750aae88650cca32	668	2	canonical	triculamin_like_canonical	canonical/SAMEA970869.contig00026_13.gbk;canonical/SAMEA970882.contig00047_3.gbk			
+cyc_750b78f20fc0f102	434	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_360818769.1.gbk	WP_360818769.1		
+cyc_755c5d1c21b15b9b	424	1	noncanonical	triculamin_like_noncanonical	noncanonical/NPDC023218.ctg-0008_91.gbk			
+cyc_75b0c9868b26d56e	524	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Novosphingonodin II.gb	WP_168905531.1		
+cyc_767191c9a3d8f731	638	1	canonical	triculamin_like_canonical	canonical/WP_274719341.1.gbk	WP_274719341.1	xenorhabdus_bovienii_mc235	
+cyc_77a47d5225ed087d	428	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_194925788.1.gbk	WP_194925788.1		
+cyc_7820215aee02c8ca	423	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_181579499.1.gbk	WP_181579499.1		
+cyc_784212a86bc34f0b	424	1	noncanonical	triculamin_like_noncanonical	noncanonical/NPDC020323.ctg-0003_327.gbk			
+cyc_785f846a971b810b	668	1	canonical	triculamin_like_canonical	canonical/WP_076214937.1.gbk	WP_076214937.1	paenibacillus_fsl_r5_0765	
+cyc_7a318828af6bb034	424	1	noncanonical	triculamin_like_noncanonical	noncanonical/NPDC003710.ctg-0075_3.gbk			
+cyc_7a88de6a02ffeba4	470	2	noncanonical	triculamin_like_noncanonical	noncanonical/RKT54192.1.gbk;noncanonical/Saus_C.gbk	RKT54192.1		
+cyc_7a8f3fe6003b5521	299	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_158687659.1.gbk	WP_158687659.1		
+cyc_7d2727cf3595c401	422	1	noncanonical	triculamin_like_noncanonical	noncanonical/Salb_C.gbk			
+cyc_7d70b9f0383f9f8b	668	1	canonical	triculamin_like_canonical	canonical/WP_327889140.1.gbk	WP_327889140.1		
+cyc_7e661f615d2852e2	518	1	canonical	triculamin_like_canonical	canonical/SAMEA104411642.contig00364_1.gbk			
+cyc_7f0029b00802bf37	666	1	canonical	triculamin_like_canonical	canonical/WP_326455328.1.gbk	WP_326455328.1		
+cyc_7f0126243dcb5c2d	684	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Sro15_2005.gb	WP_032770970.1		
+cyc_7fa837d17a25edb2	643	1	canonical	triculamin_like_canonical	canonical/WP_044843846.1.gbk	WP_044843846.1		
+cyc_7fce3ece7944c0e8	681	1	canonical	triculamin_like_canonical	canonical/PGC13747.1.gbk	PGC13747.1		
+cyc_7ff2a38f156c887a	510	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Microcin Y.gb	EAT4894071.1		
+cyc_8178e9a73d2a9d4b	659	1	canonical	triculamin_like_canonical	canonical/WP_172771140.1.gbk	WP_172771140.1	lysinibacillus_cd3_6	
+cyc_81fbcd2ee37d88cc	389	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_352084504.1.gbk	WP_352084504.1		
+cyc_823b4eab060230e1	638	1	canonical	triculamin_like_canonical	canonical/WP_099137610.1.gbk	WP_099137610.1	xenorhabdus_innexi_dsm16336	
+cyc_833520c6f65224ab	428	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_358684211.1.gbk	WP_358684211.1		
+cyc_84992c199fcd9017	411	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_217506814.1.gbk	WP_217506814.1	streptomyces_lunaelactis_mm31	
+cyc_85cd58ce444ab5f5	635	1	canonical	triculamin_like_canonical	canonical/WP_157835544.1.gbk	WP_157835544.1		
+cyc_861fe9acd9e191ad	428	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_132166012.1.gbk	WP_132166012.1	kribbella_antibiotica_jcm13523	
+cyc_8645807bf9ca9eaa	445	1	noncanonical	triculamin_like_noncanonical	noncanonical/NPDC001690.ctg-0198_2.gbk			
+cyc_8761d3fb21b0aa02	577	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Xanthomonin I.gb	APP86193.1		
+cyc_8b384e1d6878f922	389	1	noncanonical	triculamin_like_noncanonical	noncanonical/NPDC046037.ctg-0007_31.gbk			
+cyc_8b551e8be225637b	558	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Albusnodin.gb	AJE82646.1		
+cyc_8b66ac938c9c6a5d	442	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_388605848.1.gbk	WP_388605848.1		
+cyc_8be630a57e5c505e	424	3	noncanonical	triculamin_like_noncanonical	noncanonical/NPDC019304.ctg-0012_122.gbk;noncanonical/NPDC019309.ctg-0011_122.gbk;noncanonical/NPDC019323.ctg-0006_372.gbk			
+cyc_8c0f57672ebbda6b	428	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_355367898.1.gbk	WP_355367898.1		
+cyc_8c4952f8987ca03e	442	1	noncanonical	triculamin_like_noncanonical	noncanonical/NPDC053289.ctg-0255_3.gbk			
+cyc_8e7087da6c70c9d2	424	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_127152311.1.gbk	WP_127152311.1		
+cyc_8ef5072a55d4976a	437	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_193520361.1.gbk	WP_193520361.1		
+cyc_8fd061dcb6fa45a9	666	1	canonical	triculamin_like_canonical	canonical/WP_173601899.1.gbk	WP_173601899.1		
+cyc_9026c3837bcd64f1	422	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_384977342.1.gbk	WP_384977342.1		
+cyc_90a6da0271158bbe	334	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_201843415.1.gbk	WP_201843415.1		
+cyc_9138da364e42cf83	556	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Lagmysin.gb	WP_234335044.1		
+cyc_92397719fcd1355b	670	1	canonical	triculamin_like_canonical	canonical/WP_138184774.1.gbk	WP_138184774.1	paenibacillus_alvei_blr1	
+cyc_93b21b700049b34e	617	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Caulosegnin.gb	WP_013079671.1		
+cyc_95c5522828fd8854	613	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Huascopeptin.gb	QCY49167.1		
+cyc_981a409706fed853	674	1	canonical	triculamin_like_canonical	canonical/WP_368601363.1.gbk	WP_368601363.1		
+cyc_99307912db027f26	445	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_215066581.1.gbk	WP_215066581.1		
+cyc_998eb19a67e787a7	383	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_269286705.1.gbk	WP_269286705.1		
+cyc_9ad36697da38bab2	584	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Rhodanodin.gb	WP_039953927.1		
+cyc_9d599e2803ac9829	606	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Snou-LP.gb	WP_102925571.1		
+cyc_9e146bc11cc8b9ff	476	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Pseudomonassin.gb	WP_168425191.1		
+cyc_9ead2c4f560afcc0	424	1	noncanonical	triculamin_like_noncanonical	noncanonical/Stri_C.gbk			
+cyc_a01c8e2dbbd885dc	436	1	noncanonical	triculamin_like_noncanonical	noncanonical/NPDC093109.ctg-0015_125.gbk			
+cyc_a03358253fd95f42	643	1	canonical	triculamin_like_canonical	canonical/WP_146166195.1.gbk	WP_146166195.1	trinickia_symbiotica_jpy366	
+cyc_a1965d4cb3c49483	427	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_379674564.1.gbk	WP_379674564.1		
+cyc_a25f3c3b3490606e	422	1	noncanonical	triculamin_like_noncanonical	noncanonical/NPDC059568.ctg-0004_284.gbk			
+cyc_a26dc6dbdc86a28c	571	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Zucinodin.gb	ACG78807.1		
+cyc_a4095693de310cb7	668	1	canonical	triculamin_like_canonical	canonical/NPDC048992.ctg-0044_14.gbk			
+cyc_a40e57c7db42fc13	389	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_195045149.1.gbk	WP_195045149.1		
+cyc_a49fbb56ad3986b0	581	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Koreensin.gb	WP_066573225.1		
+cyc_a93797b849775d1f	424	1	noncanonical	triculamin_like_noncanonical	noncanonical/SAMEA2661005.contig00037_31.gbk			
+cyc_a9a61ce781eb1b21	613	1	Barrett et al review	other_lasso_comparator	Barrett et al review/9401-lp1.gb	ARA91540.1		
+cyc_aa04b1b89f50b8c8	666	1	canonical	triculamin_like_canonical	canonical/WP_268345894.1.gbk	WP_268345894.1		
+cyc_ab0476f91a1d0818	674	1	canonical	triculamin_like_canonical	canonical/WP_063477789.1.gbk	WP_063477789.1		
+cyc_ad2ac084a1793825	442	1	noncanonical	triculamin_like_noncanonical	noncanonical/NPDC057809.ctg-0180_8.gbk			
+cyc_adc37c1936d6adf6	424	6	noncanonical	triculamin_like_noncanonical	noncanonical/NPDC006439.ctg-0021_97.gbk;noncanonical/NPDC006537.ctg-0024_80.gbk;noncanonical/NPDC032246.ctg-0025_46.gbk;noncanonical/NPDC043129.ctg-0536_4.gbk;noncanonical/NPDC045359.ctg-0025_53.gbk;noncanonical/NPDC053390.ctg-0150_9.gbk			
+cyc_ae454cfc55d177bf	442	1	noncanonical	triculamin_like_noncanonical	noncanonical/SAMN09932516.contig00515_2.gbk			
+cyc_af21bb4f5c612205	642	1	canonical	triculamin_like_canonical	canonical/WP_206951345.1.gbk	WP_206951345.1	trinickia_acidisoli_4d114	
+cyc_af5b24479668be79	625	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Leepeptin.gb	CQR60044.1		
+cyc_affc630d67cc310b	422	1	noncanonical	triculamin_like_noncanonical	noncanonical/NPDC059479.ctg-0017_26.gbk			
+cyc_b01b94313a3ccbdf	440	1	noncanonical	triculamin_like_noncanonical	noncanonical/SAMN02195006.contig00051_5.gbk			
+cyc_b1362da14d88a423	668	1	canonical	triculamin_like_canonical	canonical/SAMN08913278.contig00064_24.gbk			
+cyc_b1cc264da622752f	529	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Klebsidin.gb	WP_029497446.1		
+cyc_b24b022457b7b64e	457	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_236793272.1.gbk	WP_236793272.1		
+cyc_b5340e6fdb4b6ab7	663	1	canonical	triculamin_like_canonical	canonical/WP_340824785.1.gbk	WP_340824785.1		
+cyc_b68fc3dce0206841	575	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Cochonodin - I.gb	WP_044677311.1		
+cyc_b7c6b76b72febbbb	442	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_218609760.1.gbk	WP_218609760.1		
+cyc_b97948d1cc0f6612	540	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Las-917.gb	WP_006888528.1		
+cyc_bc4e3411e77da9de	607	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Citrulassin A.gb			
+cyc_bc8b6de0b9510aa8	442	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_388550812.1.gbk	WP_388550812.1		
+cyc_bc92b3148a713090	560	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Ubonodin.gb	KVR35743.1		
+cyc_bd7f2464ade7f157	585	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Pandonodin.gb	WP_058377879.1		
+cyc_be3bff4f6d59a0a9	442	2	noncanonical	triculamin_like_noncanonical	noncanonical/NPDC092045.ctg-0031_49.gbk;noncanonical/NPDC101224.ctg-0011_238.gbk			
+cyc_be6529a9cd7195e7	610	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Fusilassin.gb	WP_011291592.1		
+cyc_be97e81b5cc51757	580	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Mycetolassin.gb	WP_076785565.1		
+cyc_bf8ffe48a5c5790b	599	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Wygwalassin.gb	WP_030301604.1		
+cyc_bff9d1a75ba73034	607	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Specialicin.gb	WP_059005880.1		
+cyc_c12c3a408c1e2db6	575	1	Barrett et al review	other_lasso_comparator	Barrett et al review/achromonodin-1.gb	WP_082400507.1		
+cyc_c12c6eb32111051c	569	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Cellulassin (cellulonodin-1).gb	WP_232306730.1		
+cyc_c182a459205910d9	668	1	canonical	triculamin_like_canonical	canonical/WP_222215840.1.gbk	WP_222215840.1	paenibacillus_m2	lariocidin
+cyc_c230addd40e4fa61	648	2	canonical	triculamin_like_canonical	canonical/GLU30548.1.gbk;canonical/PMS11602.1.gbk	GLU30548.1;PMS11602.1		
+cyc_c40af26f90b91163	439	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_229882342.1.gbk	WP_229882342.1		
+cyc_c6fe0c8ffff9857a	443	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_360884222.1.gbk	WP_360884222.1		
+cyc_c7b393c15a226cd7	607	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Humidimycin.gb	QHZ32193.1		
+cyc_c8ca83749816e834	376	1	noncanonical	triculamin_like_noncanonical	noncanonical/BGC0002150.gbk	MBO0654593.1		triculamin
+cyc_c8f0cdbde67802ba	629	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Las-995.gb	WP_004212596.1		
+cyc_c966b7d23fc48031	507	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Citrocin.gb	WP_040233130.1		
+cyc_c9b2f2a6f79e00fb	424	1	noncanonical	triculamin_like_noncanonical	noncanonical/NPDC005810.ctg-0001_325.gbk			
+cyc_ca69476394236871	603	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Chlorolassin.gb	WP_143022794.1		
+cyc_cbe21bf596badf52	560	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Acinetodin.gb	EPF88079.1		
+cyc_cbee61e1f082e7a9	604	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Chaxapeptin.gb	WP_047121368.1		
+cyc_cc834e7eff78350a	437	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_351515543.1.gbk	WP_351515543.1		
+cyc_cd716800dc87ad04	609	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Rubrinodin.gb	RVT50612.1		
+cyc_ce59fd828e4691ec	674	1	canonical	triculamin_like_canonical	canonical/WP_340463042.1.gbk	WP_340463042.1		
+cyc_ceac33d8cd082ec7	573	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Novosphingonodin I.gb	WP_125955260.1		
+cyc_d09a3400ae8a96b4	647	1	canonical	triculamin_like_canonical	canonical/WP_342962066.1.gbk	WP_342962066.1		
+cyc_d0f15dbd78b1fbbc	389	3	noncanonical	triculamin_like_noncanonical	noncanonical/NPDC058568.ctg-0008_185.gbk;noncanonical/NPDC058569.ctg-0038_9.gbk;noncanonical/WP_380953505.1.gbk	WP_380953505.1		
+cyc_d2022eb74182a94c	664	1	canonical	triculamin_like_canonical	canonical/WP_057957738.1.gbk	WP_057957738.1	bacillus_glycinifermentans_b65291	
+cyc_d25e74072aa93bc9	375	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_383436300.1.gbk	WP_383436300.1		
+cyc_d2bd69db7d8121bb	664	1	canonical	triculamin_like_canonical	canonical/WP_326289550.1.gbk	WP_326289550.1		
+cyc_d3a65079ed8798d8	570	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Sphingopyxin_I.gb	ABF54240.1		
+cyc_d434123937b68a88	459	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_229698886.1.gbk	WP_229698886.1		
+cyc_d43a3fd13e01b3e2	672	1	canonical	triculamin_like_canonical	canonical/WP_179196651.1.gbk	WP_179196651.1		
+cyc_d4a6a590f24240fa	664	1	canonical	triculamin_like_canonical	canonical/WP_247069797.1.gbk	WP_247069797.1		
+cyc_d597740d4e3d74a8	601	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Sphaericin.gb	GAT69129.2		
+cyc_d59967731b521062	612	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Cellulonodin-2.gb	WP_157080134.1		
+cyc_d5ade23043c1eaa7	442	1	noncanonical	triculamin_like_noncanonical	noncanonical/NPDC006925.ctg-0034_9.gbk			
+cyc_d72738469564b5fd	389	1	noncanonical	triculamin_like_noncanonical	noncanonical/NPDC020858.ctg-0005_315.gbk			
+cyc_d8b95f3207eb0bcc	666	1	canonical	triculamin_like_canonical	canonical/WP_195257866.1.gbk	WP_195257866.1		
+cyc_d919835d2e0d9a9b	666	1	canonical	triculamin_like_canonical	canonical/WP_377923682.1.gbk	WP_377923682.1		
+cyc_d96932dc0758eda1	389	1	noncanonical	triculamin_like_noncanonical	noncanonical/NPDC046767.ctg-0013_123.gbk			
+cyc_d9cc369b64651a4d	404	1	noncanonical	triculamin_like_noncanonical	noncanonical/NPDC018833.ctg-0026_4.gbk			
+cyc_da1943a32acb8e4e	447	1	noncanonical	triculamin_like_noncanonical	noncanonical/MDQ1014324.1.gbk	MDQ1014324.1		
+cyc_da6c91e64c75cec2	389	2	noncanonical	triculamin_like_noncanonical	noncanonical/NPDC003772.ctg-0016_128.gbk;noncanonical/NPDC004090.ctg-0045_32.gb			
+cyc_db35f9a2ad106060	376	2	noncanonical	triculamin_like_noncanonical	noncanonical/BGC0002151.gbk;noncanonical/WP_179199026.1.gbk	QSY49197.1;WP_179199026.1	streptomyces_griseocarneus_atcc29818	
+cyc_db691206872cb998	374	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_020421170.1.gbk	WP_020421170.1		
+cyc_dc379a8fa00558ab	604	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Lariatin_A.gb	BAL72547.1		
+cyc_de6ed41a78d6c13a	437	1	noncanonical	triculamin_like_noncanonical	noncanonical/SAMN15009843.contig00003_103.gbk			
+cyc_defad7097653e8ac	442	1	noncanonical	triculamin_like_noncanonical	noncanonical/NPDC007025.ctg-0023_23.gbk			
+cyc_df8b685bb51e496d	668	1	canonical	triculamin_like_canonical	canonical/WP_327831948.1.gbk	WP_327831948.1		
+cyc_dfff75a05bba0432	442	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_173875177.1.gbk	WP_173875177.1		
+cyc_e15e2cc85e17ec67	755	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Arcumycin.gb	WP_051698793.1		
+cyc_e17edccd3b86fd37	437	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_276093570.1.gbk	WP_276093570.1		
+cyc_e34f561a4a150c58	628	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Streptomonomicin.gb	WP_084722903.1		
+cyc_e383fbd9217bb0e0	398	1	canonical	triculamin_like_canonical	canonical/NHB91193.1.gbk	NHB91193.1		
+cyc_e3d7a0e5d8e9d74d	619	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Deepstreptin.gb	WP_067228666.1		
+cyc_e4501e754cd75cc6	417	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_382892213.1.gbk	WP_382892213.1		
+cyc_e517cc2327e56e2f	424	2	noncanonical	triculamin_like_noncanonical	noncanonical/NPDC019619.ctg-0002_703.gbk;noncanonical/NPDC019626.ctg-0006_371.gbk			
+cyc_e7b19af4a0ce555d	448	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_364143914.1.gbk	WP_364143914.1		
+cyc_e7b27a9fa89d18df	674	1	canonical	triculamin_like_canonical	canonical/SAMEA104411596.contig00024_104.gbk			
+cyc_e8cb4e63689b6913	475	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_238753768.1.gbk	WP_238753768.1		
+cyc_e96baf6473a21da6	432	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_370219818.1.gbk	WP_370219818.1		
+cyc_e9adff75441cb646	422	1	canonical	triculamin_like_canonical	canonical/SAMN09727225.contig00032_1.gbk			
+cyc_eb959805474e844f	583	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Sphingonodin_I.gb	BAI97837.1		
+cyc_eba076b12f65861b	606	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Astexin-2.gb	WP_013479921.1		
+cyc_ec76ffc0989231b7	547	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Nocapeptin A.gb	WP_171983240.1		
+cyc_ec7ad1d401ea9eac	602	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Stlassin.gb	QYB25760.1		
+cyc_ed39e5a85efe9f1d	389	4	noncanonical	triculamin_like_noncanonical	noncanonical/NPDC003726.ctg-0013_32.gbk;noncanonical/NPDC019296.ctg-0006_32.gbk;noncanonical/NPDC019302.ctg-0012_32.gbk;noncanonical/NPDC019375.ctg-0011_32.gbk			
+cyc_ef34892c143e49d6	384	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_389414511.1.gbk	WP_389414511.1		
+cyc_f0ff90741707215d	561	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Las-2.gb	MES5878382.1		
+cyc_f106209635a3a534	439	1	noncanonical	triculamin_like_noncanonical	noncanonical/NPDC002055.ctg-0098_14.gbk			
+cyc_f19a466740e59990	580	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Mycetohabin.gb	CBW73571.1		
+cyc_f25a8a6f84218401	664	4	canonical	triculamin_like_canonical	canonical/MED3602954.1.gbk;canonical/MED3628502.1.gbk;canonical/MED3693458.1.gbk;canonical/WEY98320.1.gbk	MED3602954.1;MED3628502.1;MED3693458.1;WEY98320.1	bacillus_subtilis_b1166	
+cyc_f25d6fbc5f2343a1	253	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_365468188.1.gbk	WP_365468188.1		
+cyc_f31bf64d1f0cfc81	389	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_358216264.1.gbk	WP_358216264.1		
+cyc_f348d32842c25fc8	449	1	noncanonical	triculamin_like_noncanonical	noncanonical/Miny_C.gbk			
+cyc_f36fb54763144a8b	638	1	canonical	triculamin_like_canonical	canonical/WP_323838123.1.gbk	WP_323838123.1		
+cyc_f3c9ed9c5e9dae4e	668	1	canonical	triculamin_like_canonical	canonical/WP_327843425.1.gbk	WP_327843425.1		
+cyc_f3e5108b93eb0f64	674	1	canonical	triculamin_like_canonical	canonical/WP_006212738.1.gbk	WP_006212738.1		
+cyc_f4b93ab15f4f265e	445	1	noncanonical	triculamin_like_noncanonical	noncanonical/NPDC046830.ctg-0020_2.gbk			
+cyc_f5768d3c13bf2ad3	428	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_356648407.1.gbk	WP_356648407.1		
+cyc_f5a34f974f69b3fb	441	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_269728597.1.gbk	WP_269728597.1		
+cyc_f627640a288016b6	384	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_356877344.1.gbk	WP_356877344.1		
+cyc_f65bb6f0598e661f	666	1	canonical	triculamin_like_canonical	canonical/WP_268342609.1.gbk	WP_268342609.1		
+cyc_f76ca0720ce19861	604	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Las-6.gb	WP_042385011.1		
+cyc_f790f39b7e16e96a	444	1	noncanonical	triculamin_like_noncanonical	noncanonical/NPDC052396.ctg-0035_3.gbk			
+cyc_f7ae3642bb90c9fd	603	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Rp_71955.gb	GGQ38289.1		
+cyc_f8da90ee28008518	422	1	noncanonical	triculamin_like_noncanonical	noncanonical/NPDC059743.ctg-0002_415.gbk			
+cyc_f93f0701e40e8e0f	480	1	Barrett et al review	other_lasso_comparator	Barrett et al review/Actinokineosin.gb	EWC60871.1		
+cyc_f9a42793339a0a76	672	1	canonical	triculamin_like_canonical	canonical/EOQ22164.1.gbk	EOQ22164.1		
+cyc_f9d77eadb05943ec	668	1	canonical	triculamin_like_canonical	canonical/WP_091012796.1.gbk	WP_091012796.1		
+cyc_fb698d873f615899	638	1	canonical	triculamin_like_canonical	canonical/WP_214052697.1.gbk	WP_214052697.1	photorhabdus_caribbeanensis_hg29	
+cyc_fbdd06e363d89604	424	1	noncanonical	triculamin_like_noncanonical	noncanonical/SAMEA2042076.contig00020_31.gbk			
+cyc_fc96ca6e63dbe389	424	1	noncanonical	triculamin_like_noncanonical	noncanonical/NPDC003894.ctg-0004_30.gbk			
+cyc_fd5cc6f32ed5d09e	437	1	noncanonical	triculamin_like_noncanonical	noncanonical/NPDC005407.ctg-0181_4.gbk			
+cyc_fddffdabaaf65a2a	438	1	noncanonical	triculamin_like_noncanonical	noncanonical/WP_199826149.1.gbk	WP_199826149.1		
+cyc_fe2923150f6139da	674	2	canonical	triculamin_like_canonical	canonical/SAMN02403471.contig00012_77.gbk;canonical/SAMN02403472.contig00147_5.gbk			
+cyc_ff2d051a7e8fe48c	672	1	canonical	triculamin_like_canonical	canonical/WP_166689511.1.gbk	WP_166689511.1		

@@ -1,0 +1,130 @@
+sample_id	record_accession	focal_protein_id	start_0based	end_0based_exclusive	strand	distance_to_focal_bp	locus_tag	protein_id	product	exact_core_role	mobile_keyword	distance_to_core_bgc_bp
+burkholderia_imcc1007	NZ_JAPVQY010000029.1	WP_269506329.1	0	427	1	1276	O1Q03_RS22950	WP_269506325.1	IS30 family transposase		True	312
+burkholderia_imcc1007	NZ_JAPVQY010000029.1	WP_269506329.1	739	862	1	841	O1Q03_RS22955	WP_269506326.1	lariocidin family lasso peptide	A	False	0
+burkholderia_imcc1007	NZ_JAPVQY010000029.1	WP_269506329.1	953	1253	1	450	O1Q03_RS22960	WP_269506327.1	hypothetical protein	B1	False	0
+burkholderia_imcc1007	NZ_JAPVQY010000029.1	WP_269506329.1	1242	1707	1	0	O1Q03_RS22965	WP_269506328.1	lasso peptide biosynthesis B2 protein	B2	False	0
+burkholderia_imcc1007	NZ_JAPVQY010000029.1	WP_269506329.1	1703	3635	1	0	O1Q03_RS22970	WP_269506329.1	asparagine synthase-related protein	C	False	0
+burkholderia_imcc1007	NZ_JAPVQY010000029.1	WP_269506329.1	3645	5484	1	10	O1Q03_RS22975	WP_269506330.1	ATP-binding cassette domain-containing protein	D	False	0
+burkholderia_imcc1007	NZ_JAPVQY010000029.1	WP_269506329.1	5589	6771	1	1954	O1Q03_RS22980	WP_124891988.1	macrolide transporter subunit MacA		False	105
+burkholderia_imcc1007	NZ_JAPVQY010000029.1	WP_269506329.1	6773	8825	1	3138	O1Q03_RS22985	WP_269506331.1	MacB family efflux pump subunit		False	1289
+burkholderia_imcc1007	NZ_JAPVQY010000029.1	WP_269506329.1	8832	10314	1	5197	O1Q03_RS22990	WP_269506332.1	efflux transporter outer membrane subunit		False	3348
+burkholderia_imcc1007	NZ_JAPVQY010000029.1	WP_269506329.1	10709	12635	-1	7074	O1Q03_RS23000	WP_269506333.1	selenocysteine-specific translation elongation factor		False	5225
+burkholderia_imcc1007	NZ_JAPVQY010000029.1	WP_269506329.1	12631	14071	-1	8996	O1Q03_RS23005	WP_269506334.1	L-seryl-tRNA(Sec) selenium transferase		False	7147
+burkholderia_imcc1007	NZ_JAPVQY010000029.1	WP_269506329.1	14146	15094	-1	10511	O1Q03_RS23010	WP_269506335.1	formate dehydrogenase accessory protein FdhE		False	8662
+burkholderia_imcc1007	NZ_JAPVQY010000029.1	WP_269506329.1	15199	15826	-1	11564	O1Q03_RS23015	WP_269506336.1	formate dehydrogenase subunit gamma		False	9715
+burkholderia_imcc1007	NZ_JAPVQY010000029.1	WP_269506329.1	15822	16737	-1	12187	O1Q03_RS23020	WP_269506337.1	formate dehydrogenase subunit beta		False	10338
+burkholderia_imcc1007	NZ_JAPVQY010000029.1	WP_269506329.1	16747	19816	-1	13112	O1Q03_RS23025	WP_269506338.1	formate dehydrogenase-N subunit alpha		False	11263
+burkholderia_imcc1007	NZ_JAPVQY010000029.1	WP_269506329.1	19956	20889	1	16321	O1Q03_RS23030	WP_269506339.1	YihY/virulence factor BrkB family protein		False	14472
+burkholderia_imcc1007	NZ_JAPVQY010000029.1	WP_269506329.1	21322	22483	1	17687	O1Q03_RS23035	WP_269506340.1	porin		False	15838
+burkholderia_imcc1007	NZ_JAPVQY010000029.1	WP_269506329.1	23025	23499	1	19390	O1Q03_RS23040	WP_269506341.1	VOC family protein		False	17541
+paraburkholderia_mimosarum_stm3621	NZ_AXAO01000004.1	WP_028210195.1	29903	30413	1	19923	A19S_RS0105605	WP_028210178.1	CinA family protein		False	18990
+paraburkholderia_mimosarum_stm3621	NZ_AXAO01000004.1	WP_028210195.1	30598	30790	1	19546	A19S_RS0105610	WP_028210179.1	hypothetical protein		False	18613
+paraburkholderia_mimosarum_stm3621	NZ_AXAO01000004.1	WP_028210195.1	31121	32390	1	17946	A19S_RS0105615	WP_051390739.1	acyl-CoA dehydrogenase family protein		False	17013
+paraburkholderia_mimosarum_stm3621	NZ_AXAO01000004.1	WP_028210195.1	32423	33542	-1	16794	A19S_RS0105620	WP_028210181.1	sigma-54 interaction domain-containing protein		False	15861
+paraburkholderia_mimosarum_stm3621	NZ_AXAO01000004.1	WP_028210195.1	34061	34631	1	15705	A19S_RS0105625	WP_028210182.1	FMN reductase		False	14772
+paraburkholderia_mimosarum_stm3621	NZ_AXAO01000004.1	WP_028210195.1	34657	35761	1	14575	A19S_RS0105630	WP_028210183.1	dimethylsulfone monooxygenase SfnG		False	13642
+paraburkholderia_mimosarum_stm3621	NZ_AXAO01000004.1	WP_028210195.1	35846	36626	1	13710	A19S_RS0105635	WP_028210184.1	ABC transporter ATP-binding protein		False	12777
+paraburkholderia_mimosarum_stm3621	NZ_AXAO01000004.1	WP_028210195.1	36638	37520	1	12816	A19S_RS0105640	WP_028210185.1	branched-chain amino acid ABC transporter permease		False	11883
+paraburkholderia_mimosarum_stm3621	NZ_AXAO01000004.1	WP_028210195.1	37530	38565	1	11771	A19S_RS0105645	WP_028210186.1	branched-chain amino acid ABC transporter permease		False	10838
+paraburkholderia_mimosarum_stm3621	NZ_AXAO01000004.1	WP_028210195.1	38612	39995	1	10341	A19S_RS0105650	WP_238327621.1	ABC transporter substrate-binding protein		False	9408
+paraburkholderia_mimosarum_stm3621	NZ_AXAO01000004.1	WP_028210195.1	39996	40824	1	9512	A19S_RS0105655	WP_028210188.1	ABC transporter ATP-binding protein		False	8579
+paraburkholderia_mimosarum_stm3621	NZ_AXAO01000004.1	WP_028210195.1	40868	42146	-1	8190	A19S_RS0105660	WP_028210189.1	MFS transporter		False	7257
+paraburkholderia_mimosarum_stm3621	NZ_AXAO01000004.1	WP_028210195.1	42208	43234	-1	7102	A19S_RS41860	WP_162175004.1	SagB/ThcOx family dehydrogenase		False	6169
+paraburkholderia_mimosarum_stm3621	NZ_AXAO01000004.1	WP_028210195.1	43397	44705	-1	5631	A19S_RS49735	WP_155836764.1	hypothetical protein		False	4698
+paraburkholderia_mimosarum_stm3621	NZ_AXAO01000004.1	WP_028210195.1	44714	45713	-1	4623	A19S_RS47915	WP_081715841.1	ThiF family adenylyltransferase		False	3690
+paraburkholderia_mimosarum_stm3621	NZ_AXAO01000004.1	WP_028210195.1	46296	46980	-1	3356	A19S_RS0105675	WP_028210191.1	MarC family protein		False	2423
+paraburkholderia_mimosarum_stm3621	NZ_AXAO01000004.1	WP_028210195.1	47180	47798	-1	2538	A19S_RS0105680	WP_042290733.1	histidine phosphatase family protein		False	1605
+paraburkholderia_mimosarum_stm3621	NZ_AXAO01000004.1	WP_028210195.1	47992	48391	-1	1945	A19S_RS0105685	WP_028210193.1	carboxymuconolactone decarboxylase family protein		False	1012
+paraburkholderia_mimosarum_stm3621	NZ_AXAO01000004.1	WP_028210195.1	49403	49526	1	810	A19S_RS52830	WP_272945653.1	lariocidin family lasso peptide	A	False	0
+paraburkholderia_mimosarum_stm3621	NZ_AXAO01000004.1	WP_028210195.1	49592	49928	1	408	A19S_RS0105700	WP_155836765.1	hypothetical protein	B1	False	0
+paraburkholderia_mimosarum_stm3621	NZ_AXAO01000004.1	WP_028210195.1	49944	50355	1	0	A19S_RS47920	WP_162175005.1	lasso peptide biosynthesis B2 protein	B2	False	0
+paraburkholderia_mimosarum_stm3621	NZ_AXAO01000004.1	WP_028210195.1	50336	52280	1	0	A19S_RS0105705	WP_028210195.1	asparagine synthase-related protein	C	False	0
+paraburkholderia_mimosarum_stm3621	NZ_AXAO01000004.1	WP_028210195.1	52290	52563	1	10	A19S_RS0105710	WP_028210196.1	hypothetical protein		False	0
+paraburkholderia_mimosarum_stm3621	NZ_AXAO01000004.1	WP_028210195.1	52575	54096	1	295	A19S_RS0105715	WP_028210197.1	ATP-binding cassette domain-containing protein	D	False	0
+paraburkholderia_mimosarum_stm3621	NZ_AXAO01000004.1	WP_028210195.1	54221	55632	-1	1941	A19S_RS41870		efflux transporter outer membrane subunit		False	125
+paraburkholderia_mimosarum_stm3621	NZ_AXAO01000004.1	WP_028210195.1	55644	57660	-1	3364	A19S_RS0105725	WP_028210198.1	MacB family efflux pump subunit		False	1548
+paraburkholderia_mimosarum_stm3621	NZ_AXAO01000004.1	WP_028210195.1	57662	58850	-1	5382	A19S_RS0105730	WP_028210199.1	macrolide transporter subunit MacA		False	3566
+paraburkholderia_mimosarum_stm3621	NZ_AXAO01000004.1	WP_028210195.1	59241	59616	-1	6961	A19S_RS0105735	WP_028232317.1	cytochrome o ubiquinol oxidase subunit IV		False	5145
+paraburkholderia_mimosarum_stm3621	NZ_AXAO01000004.1	WP_028210195.1	59612	60218	-1	7332	A19S_RS0105740	WP_028210201.1	cytochrome o ubiquinol oxidase subunit III		False	5516
+paraburkholderia_mimosarum_stm3621	NZ_AXAO01000004.1	WP_028210195.1	60221	62231	-1	7941	A19S_RS0105745	WP_028210202.1	cytochrome o ubiquinol oxidase subunit I		False	6125
+paraburkholderia_mimosarum_stm3621	NZ_AXAO01000004.1	WP_028210195.1	62238	63252	-1	9958	A19S_RS41875	WP_028210203.1	ubiquinol oxidase subunit II		False	8142
+paraburkholderia_mimosarum_stm3621	NZ_AXAO01000004.1	WP_028210195.1	63434	64829	1	11154	A19S_RS0105755	WP_028210204.1	aminotransferase-like domain-containing protein		False	9338
+paraburkholderia_mimosarum_stm3621	NZ_AXAO01000004.1	WP_028210195.1	65159	66056	1	12879	A19S_RS0105760	WP_028210205.1	fructose bisphosphate aldolase		False	11063
+paraburkholderia_mimosarum_stm3621	NZ_AXAO01000004.1	WP_028210195.1	66206	66950	1	13926	A19S_RS0105765	WP_028210206.1	transglycosylase SLT domain-containing protein		False	12110
+paraburkholderia_mimosarum_stm3621	NZ_AXAO01000004.1	WP_028210195.1	67252	68314	-1	14972	A19S_RS0105770	WP_028210207.1	ProQ/FINO family protein		False	13156
+paraburkholderia_mimosarum_stm3621	NZ_AXAO01000004.1	WP_028210195.1	68522	69299	1	16242	A19S_RS0105775	WP_028210208.1	SDR family oxidoreductase		False	14426
+paraburkholderia_mimosarum_stm3621	NZ_AXAO01000004.1	WP_028210195.1	69463	70552	-1	17183	A19S_RS0105780	WP_028210209.1	OpgC domain-containing protein		False	15367
+paraburkholderia_mimosarum_stm3621	NZ_AXAO01000004.1	WP_028210195.1	71120	73481	1	18840	A19S_RS0105785	WP_028210210.1	bifunctional salicylyl-CoA 5-hydroxylase/oxidoreductase		False	17024
+photorhabdus_asymbiotica_dsm15149	RBLJ01000001.1	RKS65759.1	19691	21698	1	19687	BDD30_0014	RKS65745.1	type VI secretion system secreted protein VgrG		False	17901
+photorhabdus_asymbiotica_dsm15149	RBLJ01000001.1	RKS65759.1	21732	22329	1	19056	BDD30_0015	RKS65746.1	hypothetical protein		False	17270
+photorhabdus_asymbiotica_dsm15149	RBLJ01000001.1	RKS65759.1	22328	22628	1	18757	BDD30_0016	RKS65747.1	putative Zn-binding protein involved in type VI secretion		False	16971
+photorhabdus_asymbiotica_dsm15149	RBLJ01000001.1	RKS65759.1	22641	23739	1	17646	BDD30_0017	RKS65748.1	type VI secretion system protein ImpA		False	15860
+photorhabdus_asymbiotica_dsm15149	RBLJ01000001.1	RKS65759.1	23728	24388	1	16997	BDD30_0018	RKS65749.1	putative component of type VI protein secretion system		False	15211
+photorhabdus_asymbiotica_dsm15149	RBLJ01000001.1	RKS65759.1	24393	25791	1	15594	BDD30_0019	RKS65750.1	type VI secretion system protein ImpJ		False	13808
+photorhabdus_asymbiotica_dsm15149	RBLJ01000001.1	RKS65759.1	25790	26411	1	14974	BDD30_0020	RKS65751.1	type VI secretion system protein ImpK		False	13188
+photorhabdus_asymbiotica_dsm15149	RBLJ01000001.1	RKS65759.1	26426	29927	1	11458	BDD30_0021	RKS65752.1	type VI secretion system protein ImpL		False	9672
+photorhabdus_asymbiotica_dsm15149	RBLJ01000001.1	RKS65759.1	29919	32490	1	8895	BDD30_0022	RKS65753.1	type VI secretion system protein VasG		False	7109
+photorhabdus_asymbiotica_dsm15149	RBLJ01000001.1	RKS65759.1	32554	33814	1	7571	BDD30_0023	RKS65754.1	integral membrane sensor domain MASE1		False	5785
+photorhabdus_asymbiotica_dsm15149	RBLJ01000001.1	RKS65759.1	33831	34458	1	6927	BDD30_0024	RKS65755.1	LuxR family two component transcriptional regulator		False	5141
+photorhabdus_asymbiotica_dsm15149	RBLJ01000001.1	RKS65759.1	34461	38070	1	3315	BDD30_0025	RKS65756.1	two-component system sensor histidine kinase EvgS		False	1529
+photorhabdus_asymbiotica_dsm15149	RBLJ01000001.1	RKS65759.1	38272	38647	-1	2738	BDD30_0026	RKS65757.1	PA-IL-like protein		False	952
+photorhabdus_asymbiotica_dsm15149	RBLJ01000001.1	RKS65759.1	39599	41366	-1	19	BDD30_0027	RKS65758.1	ATP-binding cassette subfamily B protein	D	False	0
+photorhabdus_asymbiotica_dsm15149	RBLJ01000001.1	RKS65759.1	41385	43308	-1	0	BDD30_0028	RKS65759.1	asparagine synthase (glutamine-hydrolysing)	C	False	0
+photorhabdus_asymbiotica_dsm15149	RBLJ01000001.1	RKS65759.1	43304	43715	-1	0	BDD30_0029	RKS65760.1	transglutaminase superfamily protein	B2	False	0
+photorhabdus_asymbiotica_dsm15149	RBLJ01000001.1	RKS65759.1	43758	44040	-1	450	BDD30_0030	RKS65761.1	hypothetical protein	B1	False	0
+photorhabdus_asymbiotica_dsm15149	RBLJ01000001.1	RKS65759.1	44125	44242	-1	817	BDD30_0031	RKS65762.1	hypothetical protein	A	False	0
+photorhabdus_asymbiotica_dsm15149	RBLJ01000001.1	RKS65759.1	44911	45379	-1	1603	BDD30_0032	RKS65763.1	hypothetical protein		False	669
+photorhabdus_asymbiotica_dsm15149	RBLJ01000001.1	RKS65759.1	46115	47672	1	2807	BDD30_0033	RKS65764.1	sugar phosphate permease		False	1873
+photorhabdus_asymbiotica_dsm15149	RBLJ01000001.1	RKS65759.1	47714	48518	1	4406	BDD30_0034	RKS65765.1	NAD(P)-dependent dehydrogenase (short-subunit alcohol dehydrogenase family)		False	3472
+photorhabdus_asymbiotica_dsm15149	RBLJ01000001.1	RKS65759.1	48678	49794	1	5370	BDD30_0035	RKS65766.1	2,4-dienoyl-CoA reductase-like NADH-dependent reductase (Old Yellow Enzyme family)		False	4436
+photorhabdus_asymbiotica_dsm15149	RBLJ01000001.1	RKS65759.1	49987	50959	-1	6679	BDD30_0036	RKS65767.1	EthD domain-containing protein		False	5745
+photorhabdus_asymbiotica_dsm15149	RBLJ01000001.1	RKS65759.1	51303	52986	1	7995	BDD30_0037	RKS65768.1	3-(3-hydroxy-phenyl)propionate hydroxylase		False	7061
+photorhabdus_asymbiotica_dsm15149	RBLJ01000001.1	RKS65759.1	52985	53219	1	9677	BDD30_0038	RKS65769.1	uncharacterized protein DUF2783		False	8743
+photorhabdus_asymbiotica_dsm15149	RBLJ01000001.1	RKS65759.1	53263	56776	1	9955	BDD30_0039	RKS65770.1	indolepyruvate ferredoxin oxidoreductase		False	9021
+photorhabdus_asymbiotica_dsm15149	RBLJ01000001.1	RKS65759.1	57374	58256	-1	14066	BDD30_0040	RKS65771.1	DNA-binding transcriptional LysR family regulator		False	13132
+photorhabdus_asymbiotica_dsm15149	RBLJ01000001.1	RKS65759.1	59396	60962	1	16088	BDD30_0041	RKS65772.1	hypothetical protein		False	15154
+photorhabdus_asymbiotica_dsm15149	RBLJ01000001.1	RKS65759.1	60961	61078	1	17653	BDD30_0042	RKS65773.1	hypothetical protein		False	16719
+photorhabdus_asymbiotica_dsm15149	RBLJ01000001.1	RKS65759.1	61169	61619	1	17861	BDD30_0043	RKS65774.1	phage tail-like protein		True	16927
+photorhabdus_asymbiotica_dsm15149	RBLJ01000001.1	RKS65759.1	61644	63018	1	18336	BDD30_0044	RKS65775.1	hypothetical protein		False	17402
+ralstonia_pickettii_dtp0602	CP006668.1	AGW93523.1	1091823	1092726	1	19166	N234_26065	AGW93503.1	LysR family transcriptional regulator		False	17329
+ralstonia_pickettii_dtp0602	CP006668.1	AGW93523.1	1092938	1094033	1	17859	N234_26070	AGW93504.1	MFS transporter		False	16022
+ralstonia_pickettii_dtp0602	CP006668.1	AGW93523.1	1094172	1094916	1	16976	N234_26075	AGW93505.1	hypothetical protein		False	15139
+ralstonia_pickettii_dtp0602	CP006668.1	AGW93523.1	1094976	1095276	-1	16616	N234_26080	AGW93506.1	hypothetical protein		False	14779
+ralstonia_pickettii_dtp0602	CP006668.1	AGW93523.1	1095288	1095513	-1	16379	N234_26085	AGW93507.1	hypothetical protein		False	14542
+ralstonia_pickettii_dtp0602	CP006668.1	AGW93523.1	1095796	1096345	-1	15547	N234_26090	AGW93508.1	hypothetical protein		False	13710
+ralstonia_pickettii_dtp0602	CP006668.1	AGW93523.1	1096450	1097596	1	14296	N234_26095	AGW93509.1	hypothetical protein		False	12459
+ralstonia_pickettii_dtp0602	CP006668.1	AGW93523.1	1098013	1098856	-1	13036	N234_26100	AGW93510.1	hypothetical protein		False	11199
+ralstonia_pickettii_dtp0602	CP006668.1	AGW93523.1	1098852	1100082	-1	11810	N234_26105	AGW93511.1	hypothetical protein		False	9973
+ralstonia_pickettii_dtp0602	CP006668.1	AGW93523.1	1100087	1100891	-1	11001	N234_26110	AGW93512.1	hypothetical protein		False	9164
+ralstonia_pickettii_dtp0602	CP006668.1	AGW93523.1	1101332	1101539	1	10353	N234_26115	AGW93513.1	hypothetical protein		False	8516
+ralstonia_pickettii_dtp0602	CP006668.1	AGW93523.1	1101843	1102458	-1	9434	N234_26120	AGW93514.1	hypothetical protein		False	7597
+ralstonia_pickettii_dtp0602	CP006668.1	AGW93523.1	1102483	1103857	-1	8035	N234_26125	AGW93515.1	hypothetical protein		False	6198
+ralstonia_pickettii_dtp0602	CP006668.1	AGW93523.1	1104721	1105051	-1	6841	N234_26130	AGW93516.1	hypothetical protein		False	5004
+ralstonia_pickettii_dtp0602	CP006668.1	AGW93523.1	1105201	1106008	-1	5884	N234_26135	AGW93517.1	hypothetical protein		False	4047
+ralstonia_pickettii_dtp0602	CP006668.1	AGW93523.1	1106680	1107094	-1	4798	N234_26140	AGW93518.1	hypothetical protein		False	2961
+ralstonia_pickettii_dtp0602	CP006668.1	AGW93523.1	1107873	1108818	1	3074	N234_26145	AGW93519.1	D-alanyl-D-alanine endopeptidase		False	1237
+ralstonia_pickettii_dtp0602	CP006668.1	AGW93523.1	1108814	1109030	1	2862	N234_26150	AGW93520.1	hypothetical protein		False	1025
+ralstonia_pickettii_dtp0602	CP006668.1	AGW93523.1	1109525	1109825	1	2067	N234_26155	AGW93521.1	hypothetical protein		False	230
+ralstonia_pickettii_dtp0602	CP006668.1	AGW93523.1	1110055	1111882	-1	10	N234_26160	AGW93522.1	hypothetical protein	D	False	0
+ralstonia_pickettii_dtp0602	CP006668.1	AGW93523.1	1111892	1113824	-1	0	N234_26165	AGW93523.1	hypothetical protein	C	False	0
+ralstonia_pickettii_dtp0602	CP006668.1	AGW93523.1	1113820	1114285	-1	0	N234_26170	AGW93524.1	hypothetical protein	B2	False	0
+ralstonia_pickettii_dtp0602	CP006668.1	AGW93523.1	1114274	1114574	-1	450	N234_26175	AGW93525.1	hypothetical protein	B1	False	0
+ralstonia_pickettii_dtp0602	CP006668.1	AGW93523.1	1116301	1116484	1	2477	N234_26180	AGW93526.1	hypothetical protein		False	1727
+ralstonia_pickettii_dtp0602	CP006668.1	AGW93523.1	1116480	1116672	1	2656	N234_26185	AGW93527.1	hypothetical protein		False	1906
+ralstonia_pickettii_dtp0602	CP006668.1	AGW93523.1	1117254	1117539	-1	3430	N234_26190	AGW93528.1	hypothetical protein		False	2680
+ralstonia_pickettii_dtp0602	CP006668.1	AGW93523.1	1117644	1119747	-1	3820	N234_26195	AGW93529.1	CoA-binding protein		False	3070
+ralstonia_pickettii_dtp0602	CP006668.1	AGW93523.1	1119778	1120771	-1	5954	N234_26200	AGW93530.1	MFS transporter		False	5204
+ralstonia_pickettii_dtp0602	CP006668.1	AGW93523.1	1120841	1121195	-1	7017	N234_26205	AGW93531.1	DNA-binding protein		False	6267
+ralstonia_pickettii_dtp0602	CP006668.1	AGW93523.1	1121191	1122337	-1	7367	N234_26210	AGW93532.1	thiolase		False	6617
+ralstonia_pickettii_dtp0602	CP006668.1	AGW93523.1	1122338	1123577	-1	8514	N234_26215	AGW93533.1	ABC transporter permease		False	7764
+ralstonia_pickettii_dtp0602	CP006668.1	AGW93523.1	1123605	1124661	-1	9781	N234_26220	AGW93534.1	cyclase		False	9031
+ralstonia_pickettii_dtp0602	CP006668.1	AGW93523.1	1124664	1125477	-1	10840	N234_26225	AGW93535.1	IclR family transcriptional regulator		False	10090
+ralstonia_pickettii_dtp0602	CP006668.1	AGW93523.1	1125850	1127410	1	12026	N234_26230	AGW93536.1	D-galactarate dehydratase		False	11276
+ralstonia_pickettii_dtp0602	CP006668.1	AGW93523.1	1127387	1128293	-1	13563	N234_26235	AGW93537.1	LysR family transcriptional regulator		False	12813
+ralstonia_pickettii_dtp0602	CP006668.1	AGW93523.1	1128385	1129696	1	14561	N234_26240	AGW93538.1	membrane protein		False	13811
+ralstonia_pickettii_dtp0602	CP006668.1	AGW93523.1	1129706	1129931	-1	15882	N234_26245	AGW93539.1	hypothetical protein		False	15132
+ralstonia_pickettii_dtp0602	CP006668.1	AGW93523.1	1130140	1130341	-1	16316	N234_26250	AGW93540.1	hypothetical protein		False	15566
+ralstonia_pickettii_dtp0602	CP006668.1	AGW93523.1	1130152	1130599	1	16328	N234_26255	AGW93541.1	hypothetical protein		False	15578
+ralstonia_pickettii_dtp0602	CP006668.1	AGW93523.1	1130611	1131520	-1	16787	N234_26260	AGW93542.1	multidrug transporter		False	16037
+ralstonia_pickettii_dtp0602	CP006668.1	AGW93523.1	1131602	1132598	-1	17778	N234_26265	AGW93543.1	LacI family transcription regulator		False	17028
+ralstonia_pickettii_dtp0602	CP006668.1	AGW93523.1	1132720	1134007	1	18896	N234_26270	AGW93544.1	MdlA		False	18146

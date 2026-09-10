@@ -1,0 +1,30 @@
+file_name	sample_id	display_name	accession_override	phylum	group	metadata_basis
+B. subtilis B-1166.gbk	bacillus_subtilis_b1166	Bacillus subtilis B-1166		Bacillota	Bacillales	file/source name
+Bacillus cereus CZ-2_NZ_NBBB01000032.gbk	bacillus_cereus_cz2	Bacillus cereus CZ-2		Bacillota	Bacillales	file/source name
+Bacillus glycinifermentans NRRL B-65291.gbk	bacillus_glycinifermentans_b65291	Bacillus glycinifermentans NRRL B-65291		Bacillota	Bacillales	file name; embedded organism is unspecified
+Bacillus thuringensis BGSC 4BL1_NZ_NFDF01000035.gbk	bacillus_thuringiensis_4bl1	Bacillus thuringiensis BGSC 4BL1		Bacillota	Bacillales	embedded source name; filename spelling corrected
+Brevibacillus gelatini DSM 100115_NZ_RHHS01000024.gbk	brevibacillus_gelatini_dsm100115	Brevibacillus gelatini DSM 100115		Bacillota	Bacillales	file/source name
+Burkholderia sp. IMCC1007.gbk	burkholderia_imcc1007	Burkholderia sp. IMCC1007		Pseudomonadota	Burkholderiales	file/source name
+Chitinasiproducens palmae JS23_NZ_FNLO01000002.gbk	chitinasiproducens_palmae_js23	Chitinasiproducens palmae JS23		Pseudomonadota	Burkholderiales	file/source name
+Kribbella antibiotica strain JCM 13523.gbk	kribbella_antibiotica_jcm13523	Kribbella antibiotica JCM 13523		Actinomycetota	Actinomycetales	file/source name
+Lysinibacillus sp. CD3-6.gbk	lysinibacillus_cd3_6	Lysinibacillus sp. CD3-6	NZ_CP085880.1	Bacillota	Bacillales	source qualifier plus unique locus-tag lookup; record organism is synthetic construct
+Paenibacillus M2.gbk	paenibacillus_m2	Paenibacillus sp. M2	CP169648.1	Bacillota	Bacillales	Nature paper and CP169648.1; embedded organism is unspecified
+Paenibacillus alvei  B-LR1.gbk	paenibacillus_alvei_blr1	Paenibacillus alvei B-LR1		Bacillota	Bacillales	file/source name
+Paenibacillus glucanolyticus strain 5162.gbk	paenibacillus_glucanolyticus_5162	Paenibacillus glucanolyticus 5162	CP015286.1	Bacillota	Bacillales	GenPept coded_by from ANA79509.1; record organism is synthetic construct
+Paenibacillus sp. FSL R5-0765_NZ_MRTS01000015.gbk	paenibacillus_fsl_r5_0765	Paenibacillus sp. FSL R5-0765		Bacillota	Bacillales	file/source name
+Paenibacillus tarimensis DSM 19409_JAKGAO010000004.gbk	paenibacillus_tarimensis_dsm19409	Paenibacillus tarimensis DSM 19409		Bacillota	Bacillales	file name; embedded organism is unspecified
+Paraburkholderia mimosarum STM 3621.gbk	paraburkholderia_mimosarum_stm3621	Paraburkholderia mimosarum STM 3621		Pseudomonadota	Burkholderiales	file/source name
+Photorhabdus asymbiotica strain DSM 15149.gbk	photorhabdus_asymbiotica_dsm15149	Photorhabdus asymbiotica DSM 15149		Pseudomonadota	Enterobacterales	file/source name
+Photorhabdus caribbeanensis HG29.gbk	photorhabdus_caribbeanensis_hg29	Photorhabdus caribbeanensis HG29		Pseudomonadota	Enterobacterales	file/source name
+Photorhabdus sp. RW14_PUJT01000002.gbk	photorhabdus_rw14	Photorhabdus sp. RW14		Pseudomonadota	Enterobacterales	file name; embedded organism is unspecified
+Ralstonia pickettii DTP0602.gbk	ralstonia_pickettii_dtp0602	Ralstonia pickettii DTP0602	CP006668.1	Pseudomonadota	Burkholderiales	GenPept coded_by from AGW93525.1; record organism is synthetic construct
+Streptomyces griseocarneus ATCC 29818.gbk	streptomyces_griseocarneus_atcc29818	Streptomyces griseocarneus ATCC 29818		Actinomycetota	Streptomycetales	file/source name
+Streptomyces lunaelactis strain MM31.gbk	streptomyces_lunaelactis_mm31	Streptomyces lunaelactis MM31		Actinomycetota	Streptomycetales	file/source name
+Streptomyces sp. B15.gbk	streptomyces_b15	Streptomyces sp. B15		Actinomycetota	Streptomycetales	file/source name
+Trinickia acidisoli 4D114_JAFLRG010000001.gbk	trinickia_acidisoli_4d114	Trinickia acidisoli 4D114		Pseudomonadota	Burkholderiales	file name; embedded organism is unspecified
+Trinickia caryophylli strain NBRC 13591.gbk	trinickia_caryophylli_nbrc13591	Trinickia caryophylli NBRC 13591		Pseudomonadota	Burkholderiales	file/source name
+Trinickia symbiotica JPY-366_NZ_PYUC01000004.gbk	trinickia_symbiotica_jpy366	Trinickia symbiotica JPY-366		Pseudomonadota	Burkholderiales	file/source name
+Uncultured Paraburkholderia sp_CALFSE010000100.gbk	uncultured_paraburkholderia	Uncultured Paraburkholderia sp.		Pseudomonadota	Burkholderiales	file name; embedded organism is unspecified
+Xenorhabdus bovienii MC_235_JAILST010000005.gbk	xenorhabdus_bovienii_mc235	Xenorhabdus bovienii MC_235		Pseudomonadota	Enterobacterales	file/source name
+Xenorhabdus budapestensis strain C-7-2.gbk	xenorhabdus_budapestensis_c72	Xenorhabdus budapestensis C-7-2	NZ_CP072455.1	Pseudomonadota	Enterobacterales	source qualifier plus unique locus-tag lookup; record organism is synthetic construct
+Xenorhabdus innexi strain DSM 16336.gbk	xenorhabdus_innexi_dsm16336	Xenorhabdus innexi DSM 16336		Pseudomonadota	Enterobacterales	file/source name
