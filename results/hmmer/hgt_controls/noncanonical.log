@@ -1,0 +1,44 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  ${OPERATOR_HOME}/code/Study/MO/projects/lariocidin/data/processed/literature_profiles/final.noncanonical.hmm
+# target sequence database:        projects/lariocidin/data/processed/hgt_control_proteomes.faa
+# per-seq hits tabular output:     projects/lariocidin/results/hmmer/hgt_controls/noncanonical.tbl
+# per-dom hits tabular output:     projects/lariocidin/results/hmmer/hgt_controls/noncanonical.domtbl
+# show alignments in output:       no
+# sequence reporting threshold:    score >= 80
+# domain reporting threshold:      score >= 20
+# Max sensitivity mode:            on [all heuristic filters off]
+# number of worker threads:        4
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       lariocidin_noncanonical  [M=433]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence:
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (433 nodes)
+Target sequences:                      43897  (14271773 residues searched)
+Passed MSV filter:                     43897  (1); expected 43897.0 (1)
+Passed bias filter:                    43897  (1); expected 43897.0 (1)
+Passed Vit filter:                     43897  (1); expected 43897.0 (1)
+Passed Fwd filter:                     43897  (1); expected 43897.0 (1)
+Initial search space (Z):              43897  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 87.55u 0.76s 00:01:28.31 Elapsed: 00:00:22.98
+# Mc/sec: 268.89
+//
+[ok]

@@ -2,15 +2,15 @@
 
 ## Current state
 
-Stages S0–S3 are complete; S4 candidate triage is ready for review B. The fixed MGnify search produced no context-supported target BGC among records whose primary metadata support metagenomic origin. Three supported canonical BGC belong to cell cultures mislabeled or ambiguously classified as MAG by the catalogue and are nearly identical to published systems. No formal HGT test has yet been performed.
+The bounded scientific analysis is complete. The fixed MGnify search found no context-supported target BGC among records whose primary metadata support metagenomic origin. Three supported canonical BGC belong to cell cultures labelled MAG by the catalogue and are nearly identical to published systems. In the focal HGT case, the host-order constraint was not rejected for B1/B2/D, and the free C tree is already compatible. This supports an inconclusive HGT result, not a claim that transfer never occurred. The [final synthesis and review C](reviews/2026-10-08-final-synthesis.md) give the exact hypotheses, denominators, evidence and limitations. Human scientific review and public repository placement remain before submission.
 
-Start with the [S3 analytical checkpoint](reviews/2026-09-11-s3-analysis.md), then use the [research chronology](reviews/research-log.md) for decision history. The active scope is in [`../../docs/lariocidin-plan.md`](../../docs/lariocidin-plan.md); durable source facts and limitations are in [`../../docs/lariocidin-evidence.md`](../../docs/lariocidin-evidence.md). Older packages remain evidence for their stages, not the current protocol.
+Start with the [final synthesis](reviews/2026-10-08-final-synthesis.md), then use the [research chronology](reviews/research-log.md) for decision history. The active scope is in [`../../docs/lariocidin-plan.md`](../../docs/lariocidin-plan.md); durable source facts and limitations are in [`../../docs/lariocidin-evidence.md`](../../docs/lariocidin-evidence.md). Older packages remain evidence for their stages, not the current protocol.
 
 ## Reference-stage contract
 
 Question for the complete project: how does known lariocidin-like BGC diversity expand in public genomes and MAGs, and which suitable cases have concordant evidence compatible with HGT?
 
-The current work tests the diversity part on one fixed catalogue but has not yet completed the focal HGT test. Its unit of observation is a BGC occurrence in an assembly. A unique protein sequence and an organism/assembly occurrence are retained as separate concepts. The 29 records are an author-curated reference set, not 29 experimentally confirmed lariocidin producers and not a random ecological sample.
+The current work tests the diversity part on one fixed catalogue and includes a calculated focal HGT comparison without significant rejection of the prespecified host-order constraint. This is not proof of vertical inheritance or absence of HGT. Its unit of observation is a BGC occurrence in an assembly. A unique protein sequence and an organism/assembly occurrence are retained as separate concepts. The 29 records are an author-curated reference set, not 29 experimentally confirmed lariocidin producers and not a random ecological sample.
 
 The operational family rule remains: LrcC homology must be supported by coherent BGC context; an isolated profile hit is insufficient. Canonical and noncanonical candidates remain separate. S3 low-score labels are provisional triage, not experimentally validated exclusions.
 
@@ -94,6 +94,26 @@ scripts/run_maize_search.sh
 ```
 
 This verifies/downloads the pinned MGnify and BioSample/ENA inputs, reruns profile controls, searches catalogue representatives and every GFF-annotated CDS, audits provenance, extracts candidate contexts, and regenerates the review checkpoint. Raw/cache inputs require roughly 2 GB and remain outside Git; URLs, retrieval metadata, and SHA-256 values are retained in `config/`. The run does not perform the HGT stage.
+
+## Reproduce and inspect S5
+
+The saved [S5 protocol](reviews/2026-09-11-s5-protocol.md) fixes the carrier set, host markers, gene tests and stop rule. `config/hgt_assemblies.tsv` and `config/s5_download_manifest.json` map exact assemblies to downloaded GBFF files and checksums. From this directory, after S2a and environment setup:
+
+```bash
+scripts/run_hgt_assembly_fetch.sh
+scripts/run_hgt_trees.sh
+.env/bin/python scripts/audit_core_assembly_dna.py \
+  --assemblies config/hgt_assemblies.tsv \
+  --validation results/tables/carrier_bgc_assembly_validation.tsv \
+  --core-dir data/processed/pseudomonadota_core \
+  --output results/tables/carrier_bgc_dna_validation.tsv
+```
+
+`run_hgt_trees.sh` reruns the expensive alignments, ML trees and AU tests; no tree was rerun for the final synthesis. The last command checks the 15 published A–D proteins without exact assembly CDS-translation matches directly against assembly DNA. Thirteen translate exactly in a standard reading frame, and two use a bacterial `TTG` start; see the [per-row evidence](results/tables/carrier_bgc_dna_validation.tsv). The host tree was fitted to one concatenated alignment under one model, without partitions. The stored [topology test table](results/tables/hgt_topology_tests.tsv), [host summary](results/tables/host_tree_summary.json) and [primary IQ-TREE outputs](results/iqtree/hgt/) support the reported conclusion. BioSample and same-species context tables require their dedicated scripts and the curated `config/hgt_control_review.tsv`; they are not regenerated by `run_hgt_trees.sh`.
+
+## Defence material
+
+The editable [four-slide defence deck](results/defence/lariocidin_defence_2026-10-08-v2.pptx) contains speaker notes and the English S3 result figure. The [S5 summary figure](results/figures/s5_hgt_summary.png) and [final synthesis](reviews/2026-10-08-final-synthesis.md) provide supporting detail. Add the public repository URL to the deck after publication; no GitHub or Zenodo remote is configured here.
 
 ## Research records
 

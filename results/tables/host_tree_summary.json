@@ -1,0 +1,26 @@
+{
+  "host_tree": {
+    "taxa": 21,
+    "carrier_taxa": 13,
+    "same_species_controls": 8,
+    "omitted_carriers": [
+      "uncultured_paraburkholderia"
+    ],
+    "markers": 34,
+    "alignment_columns": 4788,
+    "composition_failures": 0,
+    "order_split_present": true,
+    "order_split_sh_alrt": 100.0,
+    "order_split_ufboot": 100.0
+  },
+  "same_species_controls": {
+    "pairs": 8,
+    "sister_pairs": 8,
+    "exact_marker_matches": 4
+  },
+  "assembly_translation_audit": {
+    "exact_role_matches": 55,
+    "tested_role_sequences": 70,
+    "unannotated_role_sequences": 5
+  }
+}

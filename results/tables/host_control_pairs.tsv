@@ -1,0 +1,9 @@
+carrier	control	carrier_assembly	control_assembly	exact_concatenated_marker_match	patristic_distance	mrca_leaf_count	sister_pair	pair_sh_alrt	pair_ufboot
+paraburkholderia_mimosarum_stm3621	control__paraburkholderia_mimosarum_stm3621	GCF_000472845.1	GCF_000472825.1	True	2.004e-06	2	True	100.0	100.0
+photorhabdus_asymbiotica_dsm15149	control__photorhabdus_asymbiotica_dsm15149	GCF_003634575.1	GCF_000196475.1	True	2.004e-06	2	True	100.0	100.0
+ralstonia_pickettii_dtp0602	control__ralstonia_pickettii_dtp0602	GCF_000471925.1	GCF_902374465.2	False	0.097085485	2	True	100.0	100.0
+trinickia_caryophylli_nbrc13591	control__trinickia_caryophylli_nbrc13591	GCF_030268165.1	GCF_034424545.1	True	2.004e-06	2	True	100.0	100.0
+trinickia_symbiotica_jpy366	control__trinickia_symbiotica_jpy366	GCF_003028655.1	GCF_002934455.1	False	0.0031243252000000003	2	True	100.0	100.0
+xenorhabdus_bovienii_mc235	control__xenorhabdus_bovienii_mc235	GCF_028863165.1	GCF_059639835.1	False	0.0002058362	2	True	100.0	100.0
+xenorhabdus_budapestensis_c72	control__xenorhabdus_budapestensis_c72	GCF_017743015.1	GCF_048081655.1	False	0.0014398609	2	True	100.0	99.0
+xenorhabdus_innexi_dsm16336	control__xenorhabdus_innexi_dsm16336	GCF_002632485.1	GCF_900155355.1	True	2.004e-06	2	True	100.0	100.0

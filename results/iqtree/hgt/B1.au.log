@@ -1,0 +1,93 @@
+IQ-TREE version 3.1.3 for MacOS ARM 64-bit built Jul 26 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    Ivans-MacBook-Air.local (SSE4.2, 16 GB RAM)
+Command: ${OPERATOR_HOME}/code/Study/MO/projects/lariocidin/.env/bin/iqtree3 -s ${OPERATOR_HOME}/code/Study/MO/projects/lariocidin/results/alignments/hgt/bgc/B1.trim.faa -st AA -m Q.PLANT+G4 -z ${OPERATOR_HOME}/code/Study/MO/projects/lariocidin/results/iqtree/hgt/B1.candidates.trees -n 0 -zb 10000 -zw -au -T AUTO -seed 20260911 --redo --prefix ${OPERATOR_HOME}/code/Study/MO/projects/lariocidin/results/iqtree/hgt/B1.au
+Seed:    20260911 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Sep 11 00:52:45 2026
+Kernel:  SSE2 - auto-detect threads (8 CPU cores detected)
+
+Reading alignment file ${OPERATOR_HOME}/code/Study/MO/projects/lariocidin/results/alignments/hgt/bgc/B1.trim.faa ... Fasta format detected
+Reading fasta file: done in 9.39369e-05 secs using 76.65% CPU
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.000257015 secs using 60.31% CPU
+Alignment has 14 sequences with 87 columns, 83 distinct patterns
+78 parsimony-informative, 1 singleton sites, 8 constant sites
+                                    Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000104904 secs using 31.46% CPU
+   1  burkholderia_imcc1007                 0.00%    passed     96.30%
+   2  chitinasiproducens_palmae_js23        0.00%    passed     22.65%
+   3  paraburkholderia_mimosarum_stm3621    0.00%    passed     78.47%
+   4  photorhabdus_asymbiotica_dsm15149     0.00%    passed     87.10%
+   5  photorhabdus_caribbeanensis_hg29      0.00%    passed     43.99%
+   6  photorhabdus_rw14                     0.00%    passed     46.58%
+   7  ralstonia_pickettii_dtp0602           0.00%    passed     76.91%
+   8  trinickia_acidisoli_4d114             0.00%    passed     69.49%
+   9  trinickia_caryophylli_nbrc13591       0.00%    passed     85.46%
+  10  trinickia_symbiotica_jpy366           1.15%    passed     70.54%
+  11  uncultured_paraburkholderia           6.90%    passed     41.23%
+  12  xenorhabdus_bovienii_mc235            0.00%    passed     34.19%
+  13  xenorhabdus_budapestensis_c72         0.00%    passed      7.96%
+  14  xenorhabdus_innexi_dsm16336           0.00%    passed     45.99%
+****  TOTAL                                 0.57%  0 sequences failed composition chi2 test (p-value<5%; df=19)
+Checking for duplicate sequences: done in 0.000166893 secs using 34.15% CPU
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.001 seconds
+
+NOTE: 0 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+303 trees examined
+Threads: 1 / Time: 8.020 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -2556
+Threads: 2 / Time: 8.696 sec / Speedup: 0.922 / Efficiency: 46% / LogL: -2556
+Determining AUTO threadcount: done in 16.7161 secs using 107.4% CPU
+BEST NUMBER OF THREADS: 1
+
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -2008.255
+2. Current log-likelihood: -1968.475
+3. Current log-likelihood: -1967.685
+4. Current log-likelihood: -1967.663
+Optimal log-likelihood: -1967.654
+Gamma shape alpha: 1.059
+Parameters optimization took 4 rounds (0.050 sec)
+Wrote distance file to... 
+BEST SCORE FOUND : -1967.654
+Total tree length: 13.639
+
+Total number of iterations: 0
+CPU time used for tree search: 0.000 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.000 sec (0h:0m:0s)
+Total CPU time used: 18.010 sec (0h:0m:18s)
+Total wall-clock time used: 16.782 sec (0h:0m:16s)
+Reading trees in ${OPERATOR_HOME}/code/Study/MO/projects/lariocidin/results/iqtree/hgt/B1.candidates.trees ...
+
+2 trees detected
+Note: 3.474 MB of RAM required!
+Creating 10000 bootstrap replicates...
+done
+Tree 1 / LogL: -1965.618
+Tree 2 / LogL: -1968.272
+Performing RELL-BP test...
+Performing KH and SH test...
+Computing pairwise logl difference variance ...
+Performing WKH and WSH test...
+Performing ELW test...
+Performing approximately unbiased (AU) test...
+1 MB required for AU test
+Generating 10 x 10000 multiscale bootstrap replicates... 0.351 seconds
+TreeID	AU	RSS	d	c
+1	0.677	4.167	-0.456	0.003
+2	0.323	4.167	0.456	-0.003
+Time for AU test: 0.352 seconds
+Time for evaluating all trees: 0.378 sec.
+
+Analysis results written to: 
+  IQ-TREE report:                ${OPERATOR_HOME}/code/Study/MO/projects/lariocidin/results/iqtree/hgt/B1.au.iqtree
+  Maximum-likelihood tree:       ${OPERATOR_HOME}/code/Study/MO/projects/lariocidin/results/iqtree/hgt/B1.au.treefile
+  Evaluated user trees:          ${OPERATOR_HOME}/code/Study/MO/projects/lariocidin/results/iqtree/hgt/B1.au.trees
+  Screen log file:               ${OPERATOR_HOME}/code/Study/MO/projects/lariocidin/results/iqtree/hgt/B1.au.log
+
+Date and Time: Fri Sep 11 00:53:02 2026

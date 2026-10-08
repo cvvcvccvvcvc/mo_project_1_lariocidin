@@ -1,0 +1,13 @@
+#                                                                  --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name              accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------    -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      ${OPERATOR_HOME}/code/Study/MO/projects/lariocidin/data/processed/literature_profiles/final.noncanonical.hmm
+# Target file:     projects/lariocidin/data/processed/hgt_control_proteomes.faa
+# Option settings: ${OPERATOR_HOME}/code/Study/MO/projects/lariocidin/.env/bin/hmmsearch --tblout projects/lariocidin/results/hmmer/hgt_controls/noncanonical.tbl --domtblout projects/lariocidin/results/hmmer/hgt_controls/noncanonical.domtbl --noali -T 80 --domT 20 --max --seed 42 --cpu 4 ${OPERATOR_HOME}/code/Study/MO/projects/lariocidin/data/processed/literature_profiles/final.noncanonical.hmm projects/lariocidin/data/processed/hgt_control_proteomes.faa 
+# Current dir:     ${OPERATOR_HOME}/code/Study/MO
+# Date:            Fri Sep 11 01:00:28 2026
+# [ok]

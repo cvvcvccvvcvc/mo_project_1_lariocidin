@@ -1,0 +1,18 @@
+#                                                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name                                        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#                                ------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+control__photorhabdus_asymbiotica_dsm15149__cds02127 -          lariocidin_canonical -           4.4e-250  833.1   0.5  4.9e-250  832.9   0.5   1.0   1   0   0   1   1   1   1 -
+control__trinickia_caryophylli_nbrc13591__cds01039   -          lariocidin_canonical -           9.3e-225  749.4   0.0    1e-224  749.2   0.0   1.0   1   0   0   1   1   1   1 -
+control__photorhabdus_caribbeanensis_hg29__cds01739  -          lariocidin_canonical -           2.9e-218  727.9  11.9  3.7e-218  727.6  11.9   1.1   1   0   0   1   1   1   1 -
+control__xenorhabdus_innexi_dsm16336__cds03469       -          lariocidin_canonical -           1.1e-175  587.3   9.2  1.3e-175  587.0   9.2   1.1   1   0   0   1   1   1   1 -
+control__xenorhabdus_innexi_dsm16336__cds03468       -          lariocidin_canonical -            3.6e-37  129.5   1.4     4e-37  129.4   1.4   1.0   1   0   0   1   1   1   1 -
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      ${OPERATOR_HOME}/code/Study/MO/projects/lariocidin/data/processed/literature_profiles/final.canonical.hmm
+# Target file:     projects/lariocidin/data/processed/hgt_control_proteomes.faa
+# Option settings: ${OPERATOR_HOME}/code/Study/MO/projects/lariocidin/.env/bin/hmmsearch --tblout projects/lariocidin/results/hmmer/hgt_controls/canonical.tbl --domtblout projects/lariocidin/results/hmmer/hgt_controls/canonical.domtbl --noali -T 80 --domT 20 --max --seed 42 --cpu 4 ${OPERATOR_HOME}/code/Study/MO/projects/lariocidin/data/processed/literature_profiles/final.canonical.hmm projects/lariocidin/data/processed/hgt_control_proteomes.faa 
+# Current dir:     ${OPERATOR_HOME}/code/Study/MO
+# Date:            Fri Sep 11 01:00:05 2026
+# [ok]

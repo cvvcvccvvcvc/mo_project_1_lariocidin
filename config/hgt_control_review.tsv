@@ -1,0 +1,10 @@
+control_sample_id	carrier_source_label	control_source_label	strain_relationship	basis
+control__paraburkholderia_mimosarum_stm3621	STM 3621	LMG 23256	distinct_source_labels	NCBI GBFF strain fields; control is type strain
+control__photorhabdus_asymbiotica_dsm15149	DSM 15149	ATCC 43949	distinct_strains	DSM 15149 aliases include ATCC 43950, not ATCC 43949; NCBI/BacDive
+control__photorhabdus_caribbeanensis_hg29	HG29	HG29T	same_strain_reassembly	T denotes the type-strain form of HG29; NCBI GBFF and BacDive
+control__ralstonia_pickettii_dtp0602	DTP0602	MGYG-HGUT-01384	distinct_source_labels	NCBI GBFF strain/isolate fields
+control__trinickia_caryophylli_nbrc13591	NBRC 13591	HAMBI 2159	distinct_source_labels	NCBI GBFF strain fields; control is type strain
+control__trinickia_symbiotica_jpy366	JPY-366	JPY-345	distinct_source_labels	NCBI GBFF strain fields
+control__xenorhabdus_bovienii_mc235	MC_235_E_2016	affine MC_202	distinct_source_labels	NCBI GBFF strain fields
+control__xenorhabdus_budapestensis_c72	C-7-2	XH-4	distinct_source_labels	NCBI GBFF strain fields
+control__xenorhabdus_innexi_dsm16336	DSM 16336 / Sca	HGB1681 / PTA-6826	distinct_strains	DSMZ type-strain record and published HGB1681 genome description

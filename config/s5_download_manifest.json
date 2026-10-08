@@ -1,0 +1,1206 @@
+{
+  "biosample__burkholderia_imcc1007": {
+    "bytes": 1968,
+    "local_path": "data/raw/s5_ncbi/biosample__burkholderia_imcc1007.xml",
+    "retrieved_utc": "2026-09-10T20:06:22.730932+00:00",
+    "sha256": "dc3197923f4b913fdfd32a160616d9005f1e28f7f1d6472fc995f4eaec09b01b",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=biosample&id=SAMN32146873&retmode=xml"
+  },
+  "biosample__chitinasiproducens_palmae_js23": {
+    "bytes": 2991,
+    "local_path": "data/raw/s5_ncbi/biosample__chitinasiproducens_palmae_js23.xml",
+    "retrieved_utc": "2026-09-10T20:06:23.972869+00:00",
+    "sha256": "935e4cd0282851dd72fe58e795cbe5da5b6d72ddb5b48b6fa3009aff86e2f1a1",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=biosample&id=SAMN05216551&retmode=xml"
+  },
+  "biosample__control__paraburkholderia_mimosarum_stm3621": {
+    "bytes": 3230,
+    "local_path": "data/raw/s5_ncbi/biosample__control__paraburkholderia_mimosarum_stm3621.xml",
+    "retrieved_utc": "2026-09-10T20:06:39.436489+00:00",
+    "sha256": "4b740ce206da58d5fa450e5b0f2f315f19e3712a3b98bd92fa1ead1149e9a817",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=biosample&id=SAMN02440713&retmode=xml"
+  },
+  "biosample__control__photorhabdus_asymbiotica_dsm15149": {
+    "bytes": 2992,
+    "local_path": "data/raw/s5_ncbi/biosample__control__photorhabdus_asymbiotica_dsm15149.xml",
+    "retrieved_utc": "2026-09-10T20:06:40.597793+00:00",
+    "sha256": "c5c8783a80b7ad1a16c882060be4702e4b61fbd7aa3afd71aa0021337edb784a",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=biosample&id=SAMEA2272210&retmode=xml"
+  },
+  "biosample__control__photorhabdus_caribbeanensis_hg29": {
+    "bytes": 1963,
+    "local_path": "data/raw/s5_ncbi/biosample__control__photorhabdus_caribbeanensis_hg29.xml",
+    "retrieved_utc": "2026-09-10T20:06:41.750224+00:00",
+    "sha256": "2d8a6abf109e232844ca6e6d4980f8f0dbb92efce2c9dd89b863055d16525f09",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=biosample&id=SAMN60694392&retmode=xml"
+  },
+  "biosample__control__ralstonia_pickettii_dtp0602": {
+    "bytes": 1748,
+    "local_path": "data/raw/s5_ncbi/biosample__control__ralstonia_pickettii_dtp0602.xml",
+    "retrieved_utc": "2026-09-10T20:06:42.832249+00:00",
+    "sha256": "df95cab1bb6b3b20704e9885181485e3fb224b9f36bc3aa52cbc73c2133399c5",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=biosample&id=SAMEA5850887&retmode=xml"
+  },
+  "biosample__control__trinickia_caryophylli_nbrc13591": {
+    "bytes": 2929,
+    "local_path": "data/raw/s5_ncbi/biosample__control__trinickia_caryophylli_nbrc13591.xml",
+    "retrieved_utc": "2026-09-10T20:06:44.049724+00:00",
+    "sha256": "d9b8565a6dc31dd3bc9db85c6b49bae04ea3c8ad68a821fdb00f562133bccf78",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=biosample&id=SAMN38562713&retmode=xml"
+  },
+  "biosample__control__trinickia_symbiotica_jpy366": {
+    "bytes": 2953,
+    "local_path": "data/raw/s5_ncbi/biosample__control__trinickia_symbiotica_jpy366.xml",
+    "retrieved_utc": "2026-09-10T20:06:45.296785+00:00",
+    "sha256": "a4cd46b34cd9160bb267cc3ca09ae123b7ba353e288d38f8ae9cf844e45dcee0",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=biosample&id=SAMN06295927&retmode=xml"
+  },
+  "biosample__control__xenorhabdus_bovienii_mc235": {
+    "bytes": 2607,
+    "local_path": "data/raw/s5_ncbi/biosample__control__xenorhabdus_bovienii_mc235.xml",
+    "retrieved_utc": "2026-09-10T20:06:46.682914+00:00",
+    "sha256": "532abc60548e4f17cf94d024791d4619cd91378040cd737050ef32e11c2d7f85",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=biosample&id=SAMN61008764&retmode=xml"
+  },
+  "biosample__control__xenorhabdus_budapestensis_c72": {
+    "bytes": 1820,
+    "local_path": "data/raw/s5_ncbi/biosample__control__xenorhabdus_budapestensis_c72.xml",
+    "retrieved_utc": "2026-09-10T20:06:47.799244+00:00",
+    "sha256": "1d0d2a67aa6c8e2c80fb61100cc0d110c1aeee8c0e62f2adcb747e0aba038f8a",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=biosample&id=SAMN46862184&retmode=xml"
+  },
+  "biosample__control__xenorhabdus_innexi_dsm16336": {
+    "bytes": 2550,
+    "local_path": "data/raw/s5_ncbi/biosample__control__xenorhabdus_innexi_dsm16336.xml",
+    "retrieved_utc": "2026-09-10T20:06:49.073143+00:00",
+    "sha256": "06f370e53f6932b9af8b37a22e8a7170fc9dd2afb11e7cc93d324ae23709743c",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=biosample&id=SAMEA37048168&retmode=xml"
+  },
+  "biosample__paraburkholderia_mimosarum_stm3621": {
+    "bytes": 2993,
+    "local_path": "data/raw/s5_ncbi/biosample__paraburkholderia_mimosarum_stm3621.xml",
+    "retrieved_utc": "2026-09-10T20:06:25.000916+00:00",
+    "sha256": "d5514d300af08bf99b558db4df85de66139126333586bb655aba96cc5349dc9f",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=biosample&id=SAMN02440788&retmode=xml"
+  },
+  "biosample__photorhabdus_asymbiotica_dsm15149": {
+    "bytes": 3119,
+    "local_path": "data/raw/s5_ncbi/biosample__photorhabdus_asymbiotica_dsm15149.xml",
+    "retrieved_utc": "2026-09-10T20:06:26.086467+00:00",
+    "sha256": "6fb5bb42cca1d24d236d55788aad3aa74d9fc05abd3209bd1c7bc03d381a3f4a",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=biosample&id=SAMN05444850&retmode=xml"
+  },
+  "biosample__photorhabdus_caribbeanensis_hg29": {
+    "bytes": 1898,
+    "local_path": "data/raw/s5_ncbi/biosample__photorhabdus_caribbeanensis_hg29.xml",
+    "retrieved_utc": "2026-09-10T20:06:27.361683+00:00",
+    "sha256": "2b2c0f3b1bdcc9e97568d888aad98aa77446e4c112b6e71869638621315f4fe1",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=biosample&id=SAMN10241664&retmode=xml"
+  },
+  "biosample__photorhabdus_rw14": {
+    "bytes": 1926,
+    "local_path": "data/raw/s5_ncbi/biosample__photorhabdus_rw14.xml",
+    "retrieved_utc": "2026-09-10T20:06:28.631193+00:00",
+    "sha256": "c6fdb04bb739ef7bb4dec9c1f7394dfac9de2e7d9056ad67651852657ee56d63",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=biosample&id=SAMN08584168&retmode=xml"
+  },
+  "biosample__ralstonia_pickettii_dtp0602": {
+    "bytes": 1401,
+    "local_path": "data/raw/s5_ncbi/biosample__ralstonia_pickettii_dtp0602.xml",
+    "retrieved_utc": "2026-09-10T20:06:29.781432+00:00",
+    "sha256": "89a819409477ccd452d27f3ec7ed8684818d9966eb200ffd82fa266dd4d83134",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=biosample&id=SAMN02259197&retmode=xml"
+  },
+  "biosample__trinickia_acidisoli_4d114": {
+    "bytes": 2941,
+    "local_path": "data/raw/s5_ncbi/biosample__trinickia_acidisoli_4d114.xml",
+    "retrieved_utc": "2026-09-10T20:06:30.801436+00:00",
+    "sha256": "8a082e703e60c809fe9554a0a3a133b713bea0cf1a266f436583facdb6c90237",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=biosample&id=SAMN18133352&retmode=xml"
+  },
+  "biosample__trinickia_caryophylli_nbrc13591": {
+    "bytes": 2957,
+    "local_path": "data/raw/s5_ncbi/biosample__trinickia_caryophylli_nbrc13591.xml",
+    "retrieved_utc": "2026-09-10T20:06:32.190796+00:00",
+    "sha256": "608e8e36cf35fc73c3626a63bbe1fd495a99fe67254e25aefc927bc93718df87",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=biosample&id=SAMD00557615&retmode=xml"
+  },
+  "biosample__trinickia_symbiotica_jpy366": {
+    "bytes": 2843,
+    "local_path": "data/raw/s5_ncbi/biosample__trinickia_symbiotica_jpy366.xml",
+    "retrieved_utc": "2026-09-10T20:06:33.601162+00:00",
+    "sha256": "28dbc1f0296b575160cb7e883c6da9020d02828ba573cdffc8762a2a33cfa2b1",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=biosample&id=SAMN08794480&retmode=xml"
+  },
+  "biosample__uncultured_paraburkholderia": {
+    "bytes": 3591,
+    "local_path": "data/raw/s5_ncbi/biosample__uncultured_paraburkholderia.xml",
+    "retrieved_utc": "2026-09-10T20:06:34.766366+00:00",
+    "sha256": "bd7af0d0439a368b6b10a84a9f12d747456c052e7c9178e4072e550ed9d1e19d",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=biosample&id=SAMEA14037588&retmode=xml"
+  },
+  "biosample__xenorhabdus_bovienii_mc235": {
+    "bytes": 2539,
+    "local_path": "data/raw/s5_ncbi/biosample__xenorhabdus_bovienii_mc235.xml",
+    "retrieved_utc": "2026-09-10T20:06:35.848626+00:00",
+    "sha256": "4daf99bdb70cb5f50cf6b326e210ef889b682d56f97824e096c7b3458b22722b",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=biosample&id=SAMN19312228&retmode=xml"
+  },
+  "biosample__xenorhabdus_budapestensis_c72": {
+    "bytes": 1801,
+    "local_path": "data/raw/s5_ncbi/biosample__xenorhabdus_budapestensis_c72.xml",
+    "retrieved_utc": "2026-09-10T20:06:36.976731+00:00",
+    "sha256": "d9720fe0323614e87d3592347c34d8684922968cc31f0b9727a8f188455e117b",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=biosample&id=SAMN14595202&retmode=xml"
+  },
+  "biosample__xenorhabdus_innexi_dsm16336": {
+    "bytes": 1956,
+    "local_path": "data/raw/s5_ncbi/biosample__xenorhabdus_innexi_dsm16336.xml",
+    "retrieved_utc": "2026-09-10T20:06:38.156645+00:00",
+    "sha256": "1651300be48a647912be5f58f0a77b90dc991de4ca33332425575032b0ace87e",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=biosample&id=SAMN05375098&retmode=xml"
+  },
+  "biosample_search__burkholderia_imcc1007": {
+    "bytes": 301,
+    "local_path": "data/raw/s5_ncbi/biosample_search__burkholderia_imcc1007.json",
+    "retrieved_utc": "2026-09-10T20:07:49.271322+00:00",
+    "sha256": "03150d7e073bf099ddb2e8915ee7b8e612d374a9e6f8899d361fc5eb1100cd8d",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=biosample&term=SAMN32146873%5BAccession%5D&retmode=json&retmax=5"
+  },
+  "biosample_search__chitinasiproducens_palmae_js23": {
+    "bytes": 300,
+    "local_path": "data/raw/s5_ncbi/biosample_search__chitinasiproducens_palmae_js23.json",
+    "retrieved_utc": "2026-09-10T20:07:51.378889+00:00",
+    "sha256": "1b5c1f850c74f91ebf3d53df391822f9090e9fa0957f24d55c8688379069135c",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=biosample&term=SAMN05216551%5BAccession%5D&retmode=json&retmax=5"
+  },
+  "biosample_search__control__paraburkholderia_mimosarum_stm3621": {
+    "bytes": 300,
+    "local_path": "data/raw/s5_ncbi/biosample_search__control__paraburkholderia_mimosarum_stm3621.json",
+    "retrieved_utc": "2026-09-10T20:08:17.078858+00:00",
+    "sha256": "65574aefc63dbf48a956c672f989e03fdcc43abd819b93eb9688cb4dcf95ab73",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=biosample&term=SAMN02440713%5BAccession%5D&retmode=json&retmax=5"
+  },
+  "biosample_search__control__photorhabdus_asymbiotica_dsm15149": {
+    "bytes": 300,
+    "local_path": "data/raw/s5_ncbi/biosample_search__control__photorhabdus_asymbiotica_dsm15149.json",
+    "retrieved_utc": "2026-09-10T20:08:19.119204+00:00",
+    "sha256": "d6e3ea46977f2fa07f0fc519646c31d329ee17ef7a011c8f9e8ad650857462a0",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=biosample&term=SAMEA2272210%5BAccession%5D&retmode=json&retmax=5"
+  },
+  "biosample_search__control__photorhabdus_caribbeanensis_hg29": {
+    "bytes": 301,
+    "local_path": "data/raw/s5_ncbi/biosample_search__control__photorhabdus_caribbeanensis_hg29.json",
+    "retrieved_utc": "2026-09-10T20:08:21.701754+00:00",
+    "sha256": "6ddc96e0ca34a08fe795d5b446bef6a658575308c9c0932035d7975e90f108ca",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=biosample&term=SAMN60694392%5BAccession%5D&retmode=json&retmax=5"
+  },
+  "biosample_search__control__ralstonia_pickettii_dtp0602": {
+    "bytes": 301,
+    "local_path": "data/raw/s5_ncbi/biosample_search__control__ralstonia_pickettii_dtp0602.json",
+    "retrieved_utc": "2026-09-10T20:08:23.448627+00:00",
+    "sha256": "e2cd9ae47a14b3860370403757e282d4ecab6df3dbf52aabfc3ebfe435b575d7",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=biosample&term=SAMEA5850887%5BAccession%5D&retmode=json&retmax=5"
+  },
+  "biosample_search__control__trinickia_caryophylli_nbrc13591": {
+    "bytes": 301,
+    "local_path": "data/raw/s5_ncbi/biosample_search__control__trinickia_caryophylli_nbrc13591.json",
+    "retrieved_utc": "2026-09-10T20:08:25.369084+00:00",
+    "sha256": "162f193d309d4ad8ffe426f79ff01be4f3d72307f1b6ae35443eee49b556dee8",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=biosample&term=SAMN38562713%5BAccession%5D&retmode=json&retmax=5"
+  },
+  "biosample_search__control__trinickia_symbiotica_jpy366": {
+    "bytes": 300,
+    "local_path": "data/raw/s5_ncbi/biosample_search__control__trinickia_symbiotica_jpy366.json",
+    "retrieved_utc": "2026-09-10T20:08:27.073898+00:00",
+    "sha256": "9144eb2294e8caacd1fcf868e7ebd978f6e9084d5b6ba6c93e3811b68e3033e2",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=biosample&term=SAMN06295927%5BAccession%5D&retmode=json&retmax=5"
+  },
+  "biosample_search__control__xenorhabdus_bovienii_mc235": {
+    "bytes": 301,
+    "local_path": "data/raw/s5_ncbi/biosample_search__control__xenorhabdus_bovienii_mc235.json",
+    "retrieved_utc": "2026-09-10T20:08:29.166295+00:00",
+    "sha256": "0b3c3194926cd0f3a16b00f660bce02213bae223fdd3b09ea007b1f3bb545011",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=biosample&term=SAMN61008764%5BAccession%5D&retmode=json&retmax=5"
+  },
+  "biosample_search__control__xenorhabdus_budapestensis_c72": {
+    "bytes": 301,
+    "local_path": "data/raw/s5_ncbi/biosample_search__control__xenorhabdus_budapestensis_c72.json",
+    "retrieved_utc": "2026-09-10T20:08:30.973121+00:00",
+    "sha256": "71db7832b660960f381368da9c06598d480445620a265caa8783e1622adfed50",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=biosample&term=SAMN46862184%5BAccession%5D&retmode=json&retmax=5"
+  },
+  "biosample_search__control__xenorhabdus_innexi_dsm16336": {
+    "bytes": 302,
+    "local_path": "data/raw/s5_ncbi/biosample_search__control__xenorhabdus_innexi_dsm16336.json",
+    "retrieved_utc": "2026-09-10T20:08:32.648492+00:00",
+    "sha256": "32a6453e756cf26b1f7dfefe2c459f4cb780ef76ad549b889a4f885fb7444b34",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=biosample&term=SAMEA37048168%5BAccession%5D&retmode=json&retmax=5"
+  },
+  "biosample_search__paraburkholderia_mimosarum_stm3621": {
+    "bytes": 300,
+    "local_path": "data/raw/s5_ncbi/biosample_search__paraburkholderia_mimosarum_stm3621.json",
+    "retrieved_utc": "2026-09-10T20:07:53.571208+00:00",
+    "sha256": "78facab548abd3dc398f03691aabadf79d1672726f269c0969c6674857e8a2b0",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=biosample&term=SAMN02440788%5BAccession%5D&retmode=json&retmax=5"
+  },
+  "biosample_search__photorhabdus_asymbiotica_dsm15149": {
+    "bytes": 300,
+    "local_path": "data/raw/s5_ncbi/biosample_search__photorhabdus_asymbiotica_dsm15149.json",
+    "retrieved_utc": "2026-09-10T20:07:55.364624+00:00",
+    "sha256": "6f3a2d95ce29fce0e588133277e1af0266cf6836166fc6a0c35eb85ca073967f",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=biosample&term=SAMN05444850%5BAccession%5D&retmode=json&retmax=5"
+  },
+  "biosample_search__photorhabdus_caribbeanensis_hg29": {
+    "bytes": 301,
+    "local_path": "data/raw/s5_ncbi/biosample_search__photorhabdus_caribbeanensis_hg29.json",
+    "retrieved_utc": "2026-09-10T20:07:57.567885+00:00",
+    "sha256": "0cac4572d01738b4f0efdef0622e43c1900a50834ec3f40b11c32b723b6c07c2",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=biosample&term=SAMN10241664%5BAccession%5D&retmode=json&retmax=5"
+  },
+  "biosample_search__photorhabdus_rw14": {
+    "bytes": 300,
+    "local_path": "data/raw/s5_ncbi/biosample_search__photorhabdus_rw14.json",
+    "retrieved_utc": "2026-09-10T20:07:59.291462+00:00",
+    "sha256": "d74431b1b0f8dffea575b7e664d5fa32133b0d6582f3833824bf52efcb9967a0",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=biosample&term=SAMN08584168%5BAccession%5D&retmode=json&retmax=5"
+  },
+  "biosample_search__ralstonia_pickettii_dtp0602": {
+    "bytes": 300,
+    "local_path": "data/raw/s5_ncbi/biosample_search__ralstonia_pickettii_dtp0602.json",
+    "retrieved_utc": "2026-09-10T20:08:01.151143+00:00",
+    "sha256": "88437f3aedddd3893d6a214c58f9a74e485d4ea69409257a03140df20fc2040c",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=biosample&term=SAMN02259197%5BAccession%5D&retmode=json&retmax=5"
+  },
+  "biosample_search__trinickia_acidisoli_4d114": {
+    "bytes": 301,
+    "local_path": "data/raw/s5_ncbi/biosample_search__trinickia_acidisoli_4d114.json",
+    "retrieved_utc": "2026-09-10T20:08:02.854204+00:00",
+    "sha256": "0a76b4f3cfbd23e17bdceddd1f40cc0764e5dcdb8a627c3d1ad5caa4aa5525f7",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=biosample&term=SAMN18133352%5BAccession%5D&retmode=json&retmax=5"
+  },
+  "biosample_search__trinickia_caryophylli_nbrc13591": {
+    "bytes": 301,
+    "local_path": "data/raw/s5_ncbi/biosample_search__trinickia_caryophylli_nbrc13591.json",
+    "retrieved_utc": "2026-09-10T20:08:04.976291+00:00",
+    "sha256": "6d8c5c1b303c22ee5d9aac1f41bf1fba8388551bfd5c06c81471d7440fdbe3df",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=biosample&term=SAMD00557615%5BAccession%5D&retmode=json&retmax=5"
+  },
+  "biosample_search__trinickia_symbiotica_jpy366": {
+    "bytes": 300,
+    "local_path": "data/raw/s5_ncbi/biosample_search__trinickia_symbiotica_jpy366.json",
+    "retrieved_utc": "2026-09-10T20:08:07.010895+00:00",
+    "sha256": "b626906c89cd1a8efc5e31f771f5608dd14b4cdfe4582dc135cb3fcd3efcadfd",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=biosample&term=SAMN08794480%5BAccession%5D&retmode=json&retmax=5"
+  },
+  "biosample_search__uncultured_paraburkholderia": {
+    "bytes": 303,
+    "local_path": "data/raw/s5_ncbi/biosample_search__uncultured_paraburkholderia.json",
+    "retrieved_utc": "2026-09-10T20:08:08.747592+00:00",
+    "sha256": "c06e264daf9562020bc06f1e79f7733582c97ea4418185d47503292213c1ace1",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=biosample&term=SAMEA14037588%5BAccession%5D&retmode=json&retmax=5"
+  },
+  "biosample_search__xenorhabdus_bovienii_mc235": {
+    "bytes": 301,
+    "local_path": "data/raw/s5_ncbi/biosample_search__xenorhabdus_bovienii_mc235.json",
+    "retrieved_utc": "2026-09-10T20:08:10.643367+00:00",
+    "sha256": "464ba6c35ad05c1ec4209af7d4ab20a8786737b3cccbff33dd21519a39701eb6",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=biosample&term=SAMN19312228%5BAccession%5D&retmode=json&retmax=5"
+  },
+  "biosample_search__xenorhabdus_budapestensis_c72": {
+    "bytes": 301,
+    "local_path": "data/raw/s5_ncbi/biosample_search__xenorhabdus_budapestensis_c72.json",
+    "retrieved_utc": "2026-09-10T20:08:12.721262+00:00",
+    "sha256": "c552ab269f89720261c13febcd65b822580425f0b9215f98420fc56facacff96",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=biosample&term=SAMN14595202%5BAccession%5D&retmode=json&retmax=5"
+  },
+  "biosample_search__xenorhabdus_innexi_dsm16336": {
+    "bytes": 300,
+    "local_path": "data/raw/s5_ncbi/biosample_search__xenorhabdus_innexi_dsm16336.json",
+    "retrieved_utc": "2026-09-10T20:08:14.791674+00:00",
+    "sha256": "7c6de1cc70de86cc8264cb56d2ad47f0b3ab53a638dfec4c3a9ee419b7874015",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=biosample&term=SAMN05375098%5BAccession%5D&retmode=json&retmax=5"
+  },
+  "biosample_v2__burkholderia_imcc1007": {
+    "bytes": 1968,
+    "local_path": "data/raw/s5_ncbi/biosample_v2__burkholderia_imcc1007.xml",
+    "retrieved_utc": "2026-09-10T20:07:50.372876+00:00",
+    "sha256": "dc3197923f4b913fdfd32a160616d9005f1e28f7f1d6472fc995f4eaec09b01b",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=biosample&id=32146873&retmode=xml"
+  },
+  "biosample_v2__chitinasiproducens_palmae_js23": {
+    "bytes": 2991,
+    "local_path": "data/raw/s5_ncbi/biosample_v2__chitinasiproducens_palmae_js23.xml",
+    "retrieved_utc": "2026-09-10T20:07:52.447680+00:00",
+    "sha256": "935e4cd0282851dd72fe58e795cbe5da5b6d72ddb5b48b6fa3009aff86e2f1a1",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=biosample&id=5216551&retmode=xml"
+  },
+  "biosample_v2__control__paraburkholderia_mimosarum_stm3621": {
+    "bytes": 3230,
+    "local_path": "data/raw/s5_ncbi/biosample_v2__control__paraburkholderia_mimosarum_stm3621.xml",
+    "retrieved_utc": "2026-09-10T20:08:17.749553+00:00",
+    "sha256": "4b740ce206da58d5fa450e5b0f2f315f19e3712a3b98bd92fa1ead1149e9a817",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=biosample&id=2440713&retmode=xml"
+  },
+  "biosample_v2__control__photorhabdus_asymbiotica_dsm15149": {
+    "bytes": 1989,
+    "local_path": "data/raw/s5_ncbi/biosample_v2__control__photorhabdus_asymbiotica_dsm15149.xml",
+    "retrieved_utc": "2026-09-10T20:08:20.096897+00:00",
+    "sha256": "1d21b3d0c33aa41d0056f1b26374ae81b4338cb698d633ccac499354c526001f",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=biosample&id=2483889&retmode=xml"
+  },
+  "biosample_v2__control__photorhabdus_caribbeanensis_hg29": {
+    "bytes": 1963,
+    "local_path": "data/raw/s5_ncbi/biosample_v2__control__photorhabdus_caribbeanensis_hg29.xml",
+    "retrieved_utc": "2026-09-10T20:08:22.451451+00:00",
+    "sha256": "2d8a6abf109e232844ca6e6d4980f8f0dbb92efce2c9dd89b863055d16525f09",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=biosample&id=60694392&retmode=xml"
+  },
+  "biosample_v2__control__ralstonia_pickettii_dtp0602": {
+    "bytes": 2949,
+    "local_path": "data/raw/s5_ncbi/biosample_v2__control__ralstonia_pickettii_dtp0602.xml",
+    "retrieved_utc": "2026-09-10T20:08:24.355684+00:00",
+    "sha256": "2404da1735e3133f2a8d8bf1ee22f53e3e8052c4f9baac63f2727205f48fde88",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=biosample&id=12519857&retmode=xml"
+  },
+  "biosample_v2__control__trinickia_caryophylli_nbrc13591": {
+    "bytes": 2929,
+    "local_path": "data/raw/s5_ncbi/biosample_v2__control__trinickia_caryophylli_nbrc13591.xml",
+    "retrieved_utc": "2026-09-10T20:08:26.072006+00:00",
+    "sha256": "d9b8565a6dc31dd3bc9db85c6b49bae04ea3c8ad68a821fdb00f562133bccf78",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=biosample&id=38562713&retmode=xml"
+  },
+  "biosample_v2__control__trinickia_symbiotica_jpy366": {
+    "bytes": 2953,
+    "local_path": "data/raw/s5_ncbi/biosample_v2__control__trinickia_symbiotica_jpy366.xml",
+    "retrieved_utc": "2026-09-10T20:08:27.982550+00:00",
+    "sha256": "a4cd46b34cd9160bb267cc3ca09ae123b7ba353e288d38f8ae9cf844e45dcee0",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=biosample&id=6295927&retmode=xml"
+  },
+  "biosample_v2__control__xenorhabdus_bovienii_mc235": {
+    "bytes": 2607,
+    "local_path": "data/raw/s5_ncbi/biosample_v2__control__xenorhabdus_bovienii_mc235.xml",
+    "retrieved_utc": "2026-09-10T20:08:29.892079+00:00",
+    "sha256": "532abc60548e4f17cf94d024791d4619cd91378040cd737050ef32e11c2d7f85",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=biosample&id=61008764&retmode=xml"
+  },
+  "biosample_v2__control__xenorhabdus_budapestensis_c72": {
+    "bytes": 1820,
+    "local_path": "data/raw/s5_ncbi/biosample_v2__control__xenorhabdus_budapestensis_c72.xml",
+    "retrieved_utc": "2026-09-10T20:08:31.690389+00:00",
+    "sha256": "1d0d2a67aa6c8e2c80fb61100cc0d110c1aeee8c0e62f2adcb747e0aba038f8a",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=biosample&id=46862184&retmode=xml"
+  },
+  "biosample_v2__control__xenorhabdus_innexi_dsm16336": {
+    "bytes": 2862,
+    "local_path": "data/raw/s5_ncbi/biosample_v2__control__xenorhabdus_innexi_dsm16336.xml",
+    "retrieved_utc": "2026-09-10T20:08:33.613766+00:00",
+    "sha256": "397da7aa124e131a7bc2e6a94d5482a62ad5bec37f92e592b49526e4b194dffa",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=biosample&id=6215476&retmode=xml"
+  },
+  "biosample_v2__paraburkholderia_mimosarum_stm3621": {
+    "bytes": 2993,
+    "local_path": "data/raw/s5_ncbi/biosample_v2__paraburkholderia_mimosarum_stm3621.xml",
+    "retrieved_utc": "2026-09-10T20:07:54.355267+00:00",
+    "sha256": "d5514d300af08bf99b558db4df85de66139126333586bb655aba96cc5349dc9f",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=biosample&id=2440788&retmode=xml"
+  },
+  "biosample_v2__photorhabdus_asymbiotica_dsm15149": {
+    "bytes": 3119,
+    "local_path": "data/raw/s5_ncbi/biosample_v2__photorhabdus_asymbiotica_dsm15149.xml",
+    "retrieved_utc": "2026-09-10T20:07:56.135880+00:00",
+    "sha256": "6fb5bb42cca1d24d236d55788aad3aa74d9fc05abd3209bd1c7bc03d381a3f4a",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=biosample&id=5444850&retmode=xml"
+  },
+  "biosample_v2__photorhabdus_caribbeanensis_hg29": {
+    "bytes": 1898,
+    "local_path": "data/raw/s5_ncbi/biosample_v2__photorhabdus_caribbeanensis_hg29.xml",
+    "retrieved_utc": "2026-09-10T20:07:58.282979+00:00",
+    "sha256": "2b2c0f3b1bdcc9e97568d888aad98aa77446e4c112b6e71869638621315f4fe1",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=biosample&id=10241664&retmode=xml"
+  },
+  "biosample_v2__photorhabdus_rw14": {
+    "bytes": 1926,
+    "local_path": "data/raw/s5_ncbi/biosample_v2__photorhabdus_rw14.xml",
+    "retrieved_utc": "2026-09-10T20:08:00.023718+00:00",
+    "sha256": "c6fdb04bb739ef7bb4dec9c1f7394dfac9de2e7d9056ad67651852657ee56d63",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=biosample&id=8584168&retmode=xml"
+  },
+  "biosample_v2__ralstonia_pickettii_dtp0602": {
+    "bytes": 1401,
+    "local_path": "data/raw/s5_ncbi/biosample_v2__ralstonia_pickettii_dtp0602.xml",
+    "retrieved_utc": "2026-09-10T20:08:01.852446+00:00",
+    "sha256": "89a819409477ccd452d27f3ec7ed8684818d9966eb200ffd82fa266dd4d83134",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=biosample&id=2259197&retmode=xml"
+  },
+  "biosample_v2__trinickia_acidisoli_4d114": {
+    "bytes": 2941,
+    "local_path": "data/raw/s5_ncbi/biosample_v2__trinickia_acidisoli_4d114.xml",
+    "retrieved_utc": "2026-09-10T20:08:03.915694+00:00",
+    "sha256": "8a082e703e60c809fe9554a0a3a133b713bea0cf1a266f436583facdb6c90237",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=biosample&id=18133352&retmode=xml"
+  },
+  "biosample_v2__trinickia_caryophylli_nbrc13591": {
+    "bytes": 3424,
+    "local_path": "data/raw/s5_ncbi/biosample_v2__trinickia_caryophylli_nbrc13591.xml",
+    "retrieved_utc": "2026-09-10T20:08:06.023610+00:00",
+    "sha256": "33aa7d49537abeca5ac33b1a87f47c630fee53a9aecbc0edf2313fa26105b588",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=biosample&id=35053449&retmode=xml"
+  },
+  "biosample_v2__trinickia_symbiotica_jpy366": {
+    "bytes": 2843,
+    "local_path": "data/raw/s5_ncbi/biosample_v2__trinickia_symbiotica_jpy366.xml",
+    "retrieved_utc": "2026-09-10T20:08:07.705037+00:00",
+    "sha256": "28dbc1f0296b575160cb7e883c6da9020d02828ba573cdffc8762a2a33cfa2b1",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=biosample&id=8794480&retmode=xml"
+  },
+  "biosample_v2__uncultured_paraburkholderia": {
+    "bytes": 5039,
+    "local_path": "data/raw/s5_ncbi/biosample_v2__uncultured_paraburkholderia.xml",
+    "retrieved_utc": "2026-09-10T20:08:09.652160+00:00",
+    "sha256": "c91b4f226e0efc2ce463fa15a4e8e3bca4b1775845e4a86e46c90e1264c302c1",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=biosample&id=32556530&retmode=xml"
+  },
+  "biosample_v2__xenorhabdus_bovienii_mc235": {
+    "bytes": 2539,
+    "local_path": "data/raw/s5_ncbi/biosample_v2__xenorhabdus_bovienii_mc235.xml",
+    "retrieved_utc": "2026-09-10T20:08:11.516247+00:00",
+    "sha256": "4daf99bdb70cb5f50cf6b326e210ef889b682d56f97824e096c7b3458b22722b",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=biosample&id=19312228&retmode=xml"
+  },
+  "biosample_v2__xenorhabdus_budapestensis_c72": {
+    "bytes": 1801,
+    "local_path": "data/raw/s5_ncbi/biosample_v2__xenorhabdus_budapestensis_c72.xml",
+    "retrieved_utc": "2026-09-10T20:08:13.476007+00:00",
+    "sha256": "d9720fe0323614e87d3592347c34d8684922968cc31f0b9727a8f188455e117b",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=biosample&id=14595202&retmode=xml"
+  },
+  "biosample_v2__xenorhabdus_innexi_dsm16336": {
+    "bytes": 1956,
+    "local_path": "data/raw/s5_ncbi/biosample_v2__xenorhabdus_innexi_dsm16336.xml",
+    "retrieved_utc": "2026-09-10T20:08:15.692582+00:00",
+    "sha256": "1651300be48a647912be5f58f0a77b90dc991de4ca33332425575032b0ace87e",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=biosample&id=5375098&retmode=xml"
+  },
+  "burkholderia_imcc1007__assembly_link": {
+    "bytes": 185,
+    "local_path": "data/raw/s5_ncbi/burkholderia_imcc1007__assembly_link.json",
+    "retrieved_utc": "2026-09-10T19:30:58.054920+00:00",
+    "sha256": "2bac473d9045604dff975944f40a38931e19f2e6a9ddedf6f46d9d136e5d84cf",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=nuccore&db=assembly&id=2417800183&retmode=json"
+  },
+  "burkholderia_imcc1007__assembly_link_0": {
+    "bytes": 185,
+    "local_path": "data/raw/s5_ncbi/burkholderia_imcc1007__assembly_link_0.json",
+    "retrieved_utc": "2026-09-10T19:33:15.372966+00:00",
+    "sha256": "2bac473d9045604dff975944f40a38931e19f2e6a9ddedf6f46d9d136e5d84cf",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=nuccore&db=assembly&id=2417800183&retmode=json"
+  },
+  "burkholderia_imcc1007__assembly_summary": {
+    "bytes": 4371,
+    "local_path": "data/raw/s5_ncbi/burkholderia_imcc1007__assembly_summary.json",
+    "retrieved_utc": "2026-09-10T19:30:59.716106+00:00",
+    "sha256": "9b149122ffebd90da53da43eed82037b28292736baf0d21c39cecb9786bb7d64",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=assembly&id=15089481&retmode=json"
+  },
+  "burkholderia_imcc1007__nuccore_search": {
+    "bytes": 315,
+    "local_path": "data/raw/s5_ncbi/burkholderia_imcc1007__nuccore_search.json",
+    "retrieved_utc": "2026-09-10T19:30:56.114842+00:00",
+    "sha256": "73083a2a571682d417cfe78366e49f09f70162ec8c34be4cc43a189fbd5e9c48",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=nuccore&term=NZ_JAPVQY010000029%5BAccession%5D&retmode=json&retmax=5"
+  },
+  "carrier__burkholderia_imcc1007": {
+    "bytes": 6334714,
+    "local_path": "data/raw/s5_ncbi/carrier__burkholderia_imcc1007.gbff.gz",
+    "retrieved_utc": "2026-09-10T19:31:03.492007+00:00",
+    "sha256": "26f2714c4994b96c00e0d24519c65d4e8bf0a3189da4cabd0683216794375bf3",
+    "url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/027/257/875/GCF_027257875.1_ASM2725787v1/GCF_027257875.1_ASM2725787v1_genomic.gbff.gz"
+  },
+  "carrier__chitinasiproducens_palmae_js23": {
+    "bytes": 3810573,
+    "local_path": "data/raw/s5_ncbi/carrier__chitinasiproducens_palmae_js23.gbff.gz",
+    "retrieved_utc": "2026-09-10T19:31:12.684988+00:00",
+    "sha256": "c0a2fa14166ede0aec3dfceeb10154156bbda93cedf2008b4b02ee91634f5586",
+    "url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/900/095/735/GCF_900095735.1_IMG-taxon_2651870115_annotated_assembly/GCF_900095735.1_IMG-taxon_2651870115_annotated_assembly_genomic.gbff.gz"
+  },
+  "carrier__paraburkholderia_mimosarum_stm3621": {
+    "bytes": 6449918,
+    "local_path": "data/raw/s5_ncbi/carrier__paraburkholderia_mimosarum_stm3621.gbff.gz",
+    "retrieved_utc": "2026-09-10T19:31:22.903196+00:00",
+    "sha256": "1611a9780078302632b5c0a99d90ceb4b6f7d8794a4cf62b08628f98fd110c58",
+    "url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/472/845/GCF_000472845.1_ASM47284v1/GCF_000472845.1_ASM47284v1_genomic.gbff.gz"
+  },
+  "carrier__photorhabdus_asymbiotica_dsm15149": {
+    "bytes": 3628921,
+    "local_path": "data/raw/s5_ncbi/carrier__photorhabdus_asymbiotica_dsm15149.gbff.gz",
+    "retrieved_utc": "2026-09-10T19:31:33.314504+00:00",
+    "sha256": "bac9c0a265221ed8917c316304ba88920e4bdcbed236038efb96c3bec85d3bb5",
+    "url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/003/634/575/GCF_003634575.1_ASM363457v1/GCF_003634575.1_ASM363457v1_genomic.gbff.gz"
+  },
+  "carrier__photorhabdus_caribbeanensis_hg29": {
+    "bytes": 3972071,
+    "local_path": "data/raw/s5_ncbi/carrier__photorhabdus_caribbeanensis_hg29.gbff.gz",
+    "retrieved_utc": "2026-09-10T19:31:44.569808+00:00",
+    "sha256": "5e342f0acfd6a7fbdf868c8e4fd54eddb08cddc68d5ceb7739c4b6f28cde7e5a",
+    "url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/018/448/885/GCF_018448885.1_ASM1844888v1/GCF_018448885.1_ASM1844888v1_genomic.gbff.gz"
+  },
+  "carrier__photorhabdus_rw14": {
+    "bytes": 3863510,
+    "local_path": "data/raw/s5_ncbi/carrier__photorhabdus_rw14.gbff.gz",
+    "retrieved_utc": "2026-09-10T19:33:32.159154+00:00",
+    "sha256": "9b591d212949f9e793eb4f4308208a054eed1cddc7f9d1beb2aea14a4a27b356",
+    "url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/011/174/915/GCF_011174915.1_ASM1117491v1/GCF_011174915.1_ASM1117491v1_genomic.gbff.gz"
+  },
+  "carrier__ralstonia_pickettii_dtp0602": {
+    "bytes": 5213482,
+    "local_path": "data/raw/s5_ncbi/carrier__ralstonia_pickettii_dtp0602.gbff.gz",
+    "retrieved_utc": "2026-09-10T19:33:41.272820+00:00",
+    "sha256": "3e1e6e332225e3d846bf5273f6814804ca1149c1845f4afe330f71ef280db340",
+    "url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/471/925/GCF_000471925.1_ASM47192v1/GCF_000471925.1_ASM47192v1_genomic.gbff.gz"
+  },
+  "carrier__trinickia_acidisoli_4d114": {
+    "bytes": 4570110,
+    "local_path": "data/raw/s5_ncbi/carrier__trinickia_acidisoli_4d114.gbff.gz",
+    "retrieved_utc": "2026-09-10T19:34:13.334681+00:00",
+    "sha256": "f8b4a30a58d49bbf6ec7c785a1ed6061dd500647ab9048840fcce4015081ab1d",
+    "url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/017/315/725/GCF_017315725.1_ASM1731572v1/GCF_017315725.1_ASM1731572v1_genomic.gbff.gz"
+  },
+  "carrier__trinickia_caryophylli_nbrc13591": {
+    "bytes": 4805345,
+    "local_path": "data/raw/s5_ncbi/carrier__trinickia_caryophylli_nbrc13591.gbff.gz",
+    "retrieved_utc": "2026-09-10T19:34:23.769604+00:00",
+    "sha256": "41a4b8af8c3f5a6b48a97bcc07dcef242dedcd40f502b76ed15123cb9ca6010c",
+    "url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/030/268/165/GCF_030268165.1_ASM3026816v1/GCF_030268165.1_ASM3026816v1_genomic.gbff.gz"
+  },
+  "carrier__trinickia_symbiotica_jpy366": {
+    "bytes": 5136318,
+    "local_path": "data/raw/s5_ncbi/carrier__trinickia_symbiotica_jpy366.gbff.gz",
+    "retrieved_utc": "2026-09-10T19:34:34.584048+00:00",
+    "sha256": "1f0575a2e72e3770ee436874e28dd46294e338628895f2273e739fdb1d3d7e00",
+    "url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/003/028/655/GCF_003028655.1_ASM302865v1/GCF_003028655.1_ASM302865v1_genomic.gbff.gz"
+  },
+  "carrier__uncultured_paraburkholderia": {
+    "bytes": 2704536,
+    "local_path": "data/raw/s5_ncbi/carrier__uncultured_paraburkholderia.gbff.gz",
+    "retrieved_utc": "2026-09-10T19:34:44.803718+00:00",
+    "sha256": "ad513b8bb2dd80f56bed34ff87886b547ffb1187a084e1c680c541a60d7dbe32",
+    "url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/937/916/605/GCA_937916605.1_ERR1654122_bin.3_CONCOCT_v1.1_MAG/GCA_937916605.1_ERR1654122_bin.3_CONCOCT_v1.1_MAG_genomic.gbff.gz"
+  },
+  "carrier__xenorhabdus_bovienii_mc235": {
+    "bytes": 3552868,
+    "local_path": "data/raw/s5_ncbi/carrier__xenorhabdus_bovienii_mc235.gbff.gz",
+    "retrieved_utc": "2026-09-10T19:34:53.302180+00:00",
+    "sha256": "f9a3f5940d6198404ddd82cd3c533a1ff50739093bae42ec6f0a320f4506b1ab",
+    "url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/028/863/165/GCF_028863165.1_ASM2886316v1/GCF_028863165.1_ASM2886316v1_genomic.gbff.gz"
+  },
+  "carrier__xenorhabdus_budapestensis_c72": {
+    "bytes": 3130861,
+    "local_path": "data/raw/s5_ncbi/carrier__xenorhabdus_budapestensis_c72.gbff.gz",
+    "retrieved_utc": "2026-09-10T19:35:03.491957+00:00",
+    "sha256": "3540d9bab7852e5019c9bec7d9aebd9663d2681aac84813481d3c61246098937",
+    "url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/017/743/015/GCF_017743015.1_ASM1774301v1/GCF_017743015.1_ASM1774301v1_genomic.gbff.gz"
+  },
+  "carrier__xenorhabdus_innexi_dsm16336": {
+    "bytes": 3589964,
+    "local_path": "data/raw/s5_ncbi/carrier__xenorhabdus_innexi_dsm16336.gbff.gz",
+    "retrieved_utc": "2026-09-10T19:35:13.946074+00:00",
+    "sha256": "35b4b69119d66e8566d2c20dfa00761224139069ff582bf87fdc281664b35f1a",
+    "url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/632/485/GCF_002632485.1_ASM263248v1/GCF_002632485.1_ASM263248v1_genomic.gbff.gz"
+  },
+  "chitinasiproducens_palmae_js23__assembly_link": {
+    "bytes": 183,
+    "local_path": "data/raw/s5_ncbi/chitinasiproducens_palmae_js23__assembly_link.json",
+    "retrieved_utc": "2026-09-10T19:31:07.878778+00:00",
+    "sha256": "6b0608e66396ea1a6fc53ba75b9a869a56a60348056cefd8e6934973c1dbea7a",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=nuccore&db=assembly&id=1223881092&retmode=json"
+  },
+  "chitinasiproducens_palmae_js23__assembly_link_0": {
+    "bytes": 183,
+    "local_path": "data/raw/s5_ncbi/chitinasiproducens_palmae_js23__assembly_link_0.json",
+    "retrieved_utc": "2026-09-10T19:33:17.729966+00:00",
+    "sha256": "6b0608e66396ea1a6fc53ba75b9a869a56a60348056cefd8e6934973c1dbea7a",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=nuccore&db=assembly&id=1223881092&retmode=json"
+  },
+  "chitinasiproducens_palmae_js23__assembly_summary": {
+    "bytes": 4795,
+    "local_path": "data/raw/s5_ncbi/chitinasiproducens_palmae_js23__assembly_summary.json",
+    "retrieved_utc": "2026-09-10T19:31:09.831023+00:00",
+    "sha256": "4b9e99cdb4516a7899e5f253a0a8c87e526375c40ff0a8c6373fa20d466e8a57",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=assembly&id=866861&retmode=json"
+  },
+  "chitinasiproducens_palmae_js23__nuccore_search": {
+    "bytes": 309,
+    "local_path": "data/raw/s5_ncbi/chitinasiproducens_palmae_js23__nuccore_search.json",
+    "retrieved_utc": "2026-09-10T19:31:05.838792+00:00",
+    "sha256": "0667573d5595bf224596fd18242e5294c3551b426480cdeef4c4ba2dc370cfe7",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=nuccore&term=NZ_FNLO01000002%5BAccession%5D&retmode=json&retmax=5"
+  },
+  "chitinasiproducens_palmae_js23__species_assembly_search": {
+    "bytes": 369,
+    "local_path": "data/raw/s5_ncbi/chitinasiproducens_palmae_js23__species_assembly_search.json",
+    "retrieved_utc": "2026-09-10T19:31:14.561217+00:00",
+    "sha256": "37b72e269622c14ba887520967eb784d758201ef00b097bee0f882cec6872c90",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=assembly&term=%22Chitinasiproducens+palmae%22%5BOrganism%3Anoexp%5D+AND+latest%5Bfilter%5D&retmode=json&retmax=100"
+  },
+  "chitinasiproducens_palmae_js23__species_assembly_search_v2": {
+    "bytes": 422,
+    "local_path": "data/raw/s5_ncbi/chitinasiproducens_palmae_js23__species_assembly_search_v2.json",
+    "retrieved_utc": "2026-09-10T19:36:13.482494+00:00",
+    "sha256": "4368a6454520985971454989ad84bf3e092110415db6affdb3f6379907d5a0ce",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=assembly&term=%22Chitinasiproducens+palmae%22%5BOrganism%5D+AND+latest%5Bfilter%5D&retmode=json&retmax=500"
+  },
+  "chitinasiproducens_palmae_js23__species_v2__assembly_summary": {
+    "bytes": 4795,
+    "local_path": "data/raw/s5_ncbi/chitinasiproducens_palmae_js23__species_v2__assembly_summary.json",
+    "retrieved_utc": "2026-09-10T19:36:15.086000+00:00",
+    "sha256": "4b9e99cdb4516a7899e5f253a0a8c87e526375c40ff0a8c6373fa20d466e8a57",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=assembly&id=866861&retmode=json"
+  },
+  "control__paraburkholderia_mimosarum_stm3621": {
+    "bytes": 6300369,
+    "local_path": "data/raw/s5_ncbi/control__paraburkholderia_mimosarum_stm3621.gbff.gz",
+    "retrieved_utc": "2026-09-10T19:36:22.249125+00:00",
+    "sha256": "5f6b8a00f080eb14365ed42564db21c2dc731db5aca4b1f3d97a3ec562a10635",
+    "url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/472/825/GCF_000472825.1_ASM47282v1/GCF_000472825.1_ASM47282v1_genomic.gbff.gz"
+  },
+  "control__photorhabdus_asymbiotica_dsm15149": {
+    "bytes": 3618138,
+    "local_path": "data/raw/s5_ncbi/control__photorhabdus_asymbiotica_dsm15149.gbff.gz",
+    "retrieved_utc": "2026-09-10T19:36:30.551036+00:00",
+    "sha256": "f46409730e0247a5b3d12011a444770d5dd91d1118f1c85d53084c843a88e2b0",
+    "url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/196/475/GCF_000196475.1_ASM19647v1/GCF_000196475.1_ASM19647v1_genomic.gbff.gz"
+  },
+  "control__photorhabdus_caribbeanensis_hg29": {
+    "bytes": 3792777,
+    "local_path": "data/raw/s5_ncbi/control__photorhabdus_caribbeanensis_hg29.gbff.gz",
+    "retrieved_utc": "2026-09-10T19:36:37.979939+00:00",
+    "sha256": "5e61bece8092b64889a64f72d0b8e53c4ca3e9009fbc7bc43f055b72f0d4dc73",
+    "url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/060/394/545/GCF_060394545.1_ASM6039454v1/GCF_060394545.1_ASM6039454v1_genomic.gbff.gz"
+  },
+  "control__ralstonia_pickettii_dtp0602": {
+    "bytes": 3857478,
+    "local_path": "data/raw/s5_ncbi/control__ralstonia_pickettii_dtp0602.gbff.gz",
+    "retrieved_utc": "2026-09-10T19:36:47.486456+00:00",
+    "sha256": "097e415aa45872108f60372d9d198b26a1a4a2c38f8e52dec049d83a1351e2a2",
+    "url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/902/374/465/GCF_902374465.2_UHGG_MGYG-HGUT-01384/GCF_902374465.2_UHGG_MGYG-HGUT-01384_genomic.gbff.gz"
+  },
+  "control__trinickia_caryophylli_nbrc13591": {
+    "bytes": 4781841,
+    "local_path": "data/raw/s5_ncbi/control__trinickia_caryophylli_nbrc13591.gbff.gz",
+    "retrieved_utc": "2026-09-10T19:36:58.913095+00:00",
+    "sha256": "26353172a72b4e293300ddae7fed069488a252dd9b5f03acd940a85c160e9c40",
+    "url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/034/424/545/GCF_034424545.1_ASM3442454v1/GCF_034424545.1_ASM3442454v1_genomic.gbff.gz"
+  },
+  "control__trinickia_symbiotica_jpy366": {
+    "bytes": 4946908,
+    "local_path": "data/raw/s5_ncbi/control__trinickia_symbiotica_jpy366.gbff.gz",
+    "retrieved_utc": "2026-09-10T19:37:07.019420+00:00",
+    "sha256": "66559f627b3472091d69502d35474f1b7716f55843ace5b6206eefdb2393f933",
+    "url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/934/455/GCF_002934455.1_ASM293445v1/GCF_002934455.1_ASM293445v1_genomic.gbff.gz"
+  },
+  "control__xenorhabdus_bovienii_mc235": {
+    "bytes": 3361828,
+    "local_path": "data/raw/s5_ncbi/control__xenorhabdus_bovienii_mc235.gbff.gz",
+    "retrieved_utc": "2026-09-10T19:37:15.450810+00:00",
+    "sha256": "42dacaab60313bc4e03af7066f82777d09b283bf226c514c29826e6ce5d61497",
+    "url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/059/639/835/GCF_059639835.1_ASM5963983v1/GCF_059639835.1_ASM5963983v1_genomic.gbff.gz"
+  },
+  "control__xenorhabdus_budapestensis_c72": {
+    "bytes": 3234973,
+    "local_path": "data/raw/s5_ncbi/control__xenorhabdus_budapestensis_c72.gbff.gz",
+    "retrieved_utc": "2026-09-10T19:37:23.593061+00:00",
+    "sha256": "45eb3add0da803545c2283fc890350d4c0a6bff52aea30f80bf4f30f424db285",
+    "url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/048/081/655/GCF_048081655.1_ASM4808165v1/GCF_048081655.1_ASM4808165v1_genomic.gbff.gz"
+  },
+  "control__xenorhabdus_innexi_dsm16336": {
+    "bytes": 3288112,
+    "local_path": "data/raw/s5_ncbi/control__xenorhabdus_innexi_dsm16336.gbff.gz",
+    "retrieved_utc": "2026-09-10T19:37:30.983928+00:00",
+    "sha256": "d85675eb752d9f7d8f464d0c57c551279cd9d6dc81bb70e0cbb3ba696c630652",
+    "url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/900/155/355/GCF_900155355.1_ASM90015535v1/GCF_900155355.1_ASM90015535v1_genomic.gbff.gz"
+  },
+  "paraburkholderia_mimosarum_stm3621__assembly_link": {
+    "bytes": 181,
+    "local_path": "data/raw/s5_ncbi/paraburkholderia_mimosarum_stm3621__assembly_link.json",
+    "retrieved_utc": "2026-09-10T19:31:18.227916+00:00",
+    "sha256": "a92d9605c23f03b49c21bbee9d072b9f2a2b4d3d824c7bcd42c0ada743110daa",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=nuccore&db=assembly&id=654755280&retmode=json"
+  },
+  "paraburkholderia_mimosarum_stm3621__assembly_link_0": {
+    "bytes": 181,
+    "local_path": "data/raw/s5_ncbi/paraburkholderia_mimosarum_stm3621__assembly_link_0.json",
+    "retrieved_utc": "2026-09-10T19:33:19.778290+00:00",
+    "sha256": "a92d9605c23f03b49c21bbee9d072b9f2a2b4d3d824c7bcd42c0ada743110daa",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=nuccore&db=assembly&id=654755280&retmode=json"
+  },
+  "paraburkholderia_mimosarum_stm3621__assembly_summary": {
+    "bytes": 4320,
+    "local_path": "data/raw/s5_ncbi/paraburkholderia_mimosarum_stm3621__assembly_summary.json",
+    "retrieved_utc": "2026-09-10T19:31:19.913578+00:00",
+    "sha256": "f9b1f2c46f94405c2ec1f4cb723dabd7eb4e0cc8b9353fafe6c1dc1e702771d1",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=assembly&id=66501&retmode=json"
+  },
+  "paraburkholderia_mimosarum_stm3621__nuccore_search": {
+    "bytes": 308,
+    "local_path": "data/raw/s5_ncbi/paraburkholderia_mimosarum_stm3621__nuccore_search.json",
+    "retrieved_utc": "2026-09-10T19:31:16.286135+00:00",
+    "sha256": "4065fedc0940a66845f2528f3ead1794f794cb014591291a9d920280097e5dbd",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=nuccore&term=NZ_AXAO01000004%5BAccession%5D&retmode=json&retmax=5"
+  },
+  "paraburkholderia_mimosarum_stm3621__species_assembly_search": {
+    "bytes": 371,
+    "local_path": "data/raw/s5_ncbi/paraburkholderia_mimosarum_stm3621__species_assembly_search.json",
+    "retrieved_utc": "2026-09-10T19:31:25.210201+00:00",
+    "sha256": "9faddfd479ff861436d9e9f0400c2e946bde7a3f2631ccb9775c12f16ef32f2b",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=assembly&term=%22Paraburkholderia+mimosarum%22%5BOrganism%3Anoexp%5D+AND+latest%5Bfilter%5D&retmode=json&retmax=100"
+  },
+  "paraburkholderia_mimosarum_stm3621__species_assembly_search_v2": {
+    "bytes": 461,
+    "local_path": "data/raw/s5_ncbi/paraburkholderia_mimosarum_stm3621__species_assembly_search_v2.json",
+    "retrieved_utc": "2026-09-10T19:36:17.234823+00:00",
+    "sha256": "64146cdc9e2013af924ed2c43f849dc558f568b87ac1385446a6232470e44ca2",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=assembly&term=%22Paraburkholderia+mimosarum%22%5BOrganism%5D+AND+latest%5Bfilter%5D&retmode=json&retmax=500"
+  },
+  "paraburkholderia_mimosarum_stm3621__species_v2__assembly_summary": {
+    "bytes": 21735,
+    "local_path": "data/raw/s5_ncbi/paraburkholderia_mimosarum_stm3621__species_v2__assembly_summary.json",
+    "retrieved_utc": "2026-09-10T19:36:19.210776+00:00",
+    "sha256": "86bf264e8a348f20dbe55a8a216dd37cf89afc23e4428fda3992879d1cbc6e07",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=assembly&id=27018371%2C7276561%2C203461%2C66501%2C66491&retmode=json"
+  },
+  "photorhabdus_asymbiotica_dsm15149__assembly_link": {
+    "bytes": 264,
+    "local_path": "data/raw/s5_ncbi/photorhabdus_asymbiotica_dsm15149__assembly_link.json",
+    "retrieved_utc": "2026-09-10T19:31:28.860540+00:00",
+    "sha256": "2c629f2b38a340623301ac3d5e525ebe9d2c31a995a1072d1b605762fa6305f3",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=nuccore&db=assembly&id=1488886765&retmode=json"
+  },
+  "photorhabdus_asymbiotica_dsm15149__assembly_link_0": {
+    "bytes": 264,
+    "local_path": "data/raw/s5_ncbi/photorhabdus_asymbiotica_dsm15149__assembly_link_0.json",
+    "retrieved_utc": "2026-09-10T19:33:23.057161+00:00",
+    "sha256": "2c629f2b38a340623301ac3d5e525ebe9d2c31a995a1072d1b605762fa6305f3",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=nuccore&db=assembly&id=1488886765&retmode=json"
+  },
+  "photorhabdus_asymbiotica_dsm15149__assembly_summary": {
+    "bytes": 4443,
+    "local_path": "data/raw/s5_ncbi/photorhabdus_asymbiotica_dsm15149__assembly_summary.json",
+    "retrieved_utc": "2026-09-10T19:31:30.558604+00:00",
+    "sha256": "34f3fbfbe6228b94a9f619baac025d96f58ccf808b7f25fc9c517620c4258940",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=assembly&id=2011111&retmode=json"
+  },
+  "photorhabdus_asymbiotica_dsm15149__nuccore_search": {
+    "bytes": 303,
+    "local_path": "data/raw/s5_ncbi/photorhabdus_asymbiotica_dsm15149__nuccore_search.json",
+    "retrieved_utc": "2026-09-10T19:31:26.884965+00:00",
+    "sha256": "f756c6611d524d43a9d48c2c87695088de4fe2511eebcda0c32c8ede58480e39",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=nuccore&term=RBLJ01000001%5BAccession%5D&retmode=json&retmax=5"
+  },
+  "photorhabdus_asymbiotica_dsm15149__species_assembly_search": {
+    "bytes": 367,
+    "local_path": "data/raw/s5_ncbi/photorhabdus_asymbiotica_dsm15149__species_assembly_search.json",
+    "retrieved_utc": "2026-09-10T19:31:35.558168+00:00",
+    "sha256": "b86909c27a3f7c5baca66a2adadf4c635ed77dde7a3abdd5bc3feabdf9325eef",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=assembly&term=%22Photorhabdus+asymbiotica%22%5BOrganism%3Anoexp%5D+AND+latest%5Bfilter%5D&retmode=json&retmax=100"
+  },
+  "photorhabdus_asymbiotica_dsm15149__species_assembly_search_v2": {
+    "bytes": 485,
+    "local_path": "data/raw/s5_ncbi/photorhabdus_asymbiotica_dsm15149__species_assembly_search_v2.json",
+    "retrieved_utc": "2026-09-10T19:36:25.146199+00:00",
+    "sha256": "ed3834caa4d145da7d4694dca12a11c3ce8545ab3eda9c577a736be187a59135",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=assembly&term=%22Photorhabdus+asymbiotica%22%5BOrganism%5D+AND+latest%5Bfilter%5D&retmode=json&retmax=500"
+  },
+  "photorhabdus_asymbiotica_dsm15149__species_v2__assembly_summary": {
+    "bytes": 30441,
+    "local_path": "data/raw/s5_ncbi/photorhabdus_asymbiotica_dsm15149__species_v2__assembly_summary.json",
+    "retrieved_utc": "2026-09-10T19:36:27.613565+00:00",
+    "sha256": "7c28a1a8c027cb4cf0f20019e857bdf463b9a6132fa14f950ff06bfc03551d63",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=assembly&id=75157688%2C35269961%2C30020631%2C21788641%2C21722891%2C2011111%2C264898&retmode=json"
+  },
+  "photorhabdus_caribbeanensis_hg29__assembly_link": {
+    "bytes": 185,
+    "local_path": "data/raw/s5_ncbi/photorhabdus_caribbeanensis_hg29__assembly_link.json",
+    "retrieved_utc": "2026-09-10T19:31:39.473663+00:00",
+    "sha256": "87b22dae902fd5558ff00d568fe4f1c3c37752b10113d608adfe34a0d80dbe6d",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=nuccore&db=assembly&id=2045874156&retmode=json"
+  },
+  "photorhabdus_caribbeanensis_hg29__assembly_link_0": {
+    "bytes": 185,
+    "local_path": "data/raw/s5_ncbi/photorhabdus_caribbeanensis_hg29__assembly_link_0.json",
+    "retrieved_utc": "2026-09-10T19:33:25.113969+00:00",
+    "sha256": "87b22dae902fd5558ff00d568fe4f1c3c37752b10113d608adfe34a0d80dbe6d",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=nuccore&db=assembly&id=2045874156&retmode=json"
+  },
+  "photorhabdus_caribbeanensis_hg29__assembly_summary": {
+    "bytes": 4441,
+    "local_path": "data/raw/s5_ncbi/photorhabdus_caribbeanensis_hg29__assembly_summary.json",
+    "retrieved_utc": "2026-09-10T19:31:41.167013+00:00",
+    "sha256": "c402eeef61dea02c9ec17975174d086924f697cabf7e2cffc02892f17b517581",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=assembly&id=10096591&retmode=json"
+  },
+  "photorhabdus_caribbeanensis_hg29__nuccore_search": {
+    "bytes": 309,
+    "local_path": "data/raw/s5_ncbi/photorhabdus_caribbeanensis_hg29__nuccore_search.json",
+    "retrieved_utc": "2026-09-10T19:31:37.520128+00:00",
+    "sha256": "34a86192024d2d9975a4aa3c2949b54fef84d9e632bdbe863f604c2f31888c3c",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=nuccore&term=NZ_RCWB01000005%5BAccession%5D&retmode=json&retmax=5"
+  },
+  "photorhabdus_caribbeanensis_hg29__species_assembly_search": {
+    "bytes": 373,
+    "local_path": "data/raw/s5_ncbi/photorhabdus_caribbeanensis_hg29__species_assembly_search.json",
+    "retrieved_utc": "2026-09-10T19:31:46.592575+00:00",
+    "sha256": "2621f88f5d1b16a174236735ed08ab6c1b6f1d498426aa5740a8891b3d9a62d8",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=assembly&term=%22Photorhabdus+caribbeanensis%22%5BOrganism%3Anoexp%5D+AND+latest%5Bfilter%5D&retmode=json&retmax=100"
+  },
+  "photorhabdus_caribbeanensis_hg29__species_assembly_search_v2": {
+    "bytes": 450,
+    "local_path": "data/raw/s5_ncbi/photorhabdus_caribbeanensis_hg29__species_assembly_search_v2.json",
+    "retrieved_utc": "2026-09-10T19:36:33.106346+00:00",
+    "sha256": "267759e0d6fd9844fb8588853e88147552fea5c79c3a839b7b4bf158a1e35a2c",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=assembly&term=%22Photorhabdus+caribbeanensis%22%5BOrganism%5D+AND+latest%5Bfilter%5D&retmode=json&retmax=500"
+  },
+  "photorhabdus_caribbeanensis_hg29__species_v2__assembly_summary": {
+    "bytes": 13187,
+    "local_path": "data/raw/s5_ncbi/photorhabdus_caribbeanensis_hg29__species_v2__assembly_summary.json",
+    "retrieved_utc": "2026-09-10T19:36:34.899799+00:00",
+    "sha256": "5de0d84f2778a7355e8841d7ca0c82bd8d9c1a39e2421d9b7ea1b6832da44e65",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=assembly&id=35269881%2C21800021%2C10096591&retmode=json"
+  },
+  "photorhabdus_rw14__nuccore_search": {
+    "bytes": 363,
+    "local_path": "data/raw/s5_ncbi/photorhabdus_rw14__nuccore_search.json",
+    "retrieved_utc": "2026-09-10T19:31:48.333423+00:00",
+    "sha256": "bd198f078b41461ce4ac0c5ea182304d9c55d9009a52f19196f6234a90778d10",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=nuccore&term=PUJT01000002%5BAccession%5D&retmode=json&retmax=5"
+  },
+  "photorhabdus_rw14__wgs__assembly_summary": {
+    "bytes": 4355,
+    "local_path": "data/raw/s5_ncbi/photorhabdus_rw14__wgs__assembly_summary.json",
+    "retrieved_utc": "2026-09-10T19:33:28.993880+00:00",
+    "sha256": "6ebf30f646b6ef4253557d3c867386a44f832d4f57e08f4d6220980d05249f11",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=assembly&id=6155751&retmode=json"
+  },
+  "photorhabdus_rw14__wgs_assembly_search": {
+    "bytes": 291,
+    "local_path": "data/raw/s5_ncbi/photorhabdus_rw14__wgs_assembly_search.json",
+    "retrieved_utc": "2026-09-10T19:33:27.181594+00:00",
+    "sha256": "6d2ab7aa60f65de07cbd46d7c7f13ad711a9311c68b570d3618c6b7aafe0f167",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=assembly&term=PUJT01%5BAll+Fields%5D&retmode=json&retmax=20"
+  },
+  "ralstonia_pickettii_dtp0602__assembly_link_0": {
+    "bytes": 181,
+    "local_path": "data/raw/s5_ncbi/ralstonia_pickettii_dtp0602__assembly_link_0.json",
+    "retrieved_utc": "2026-09-10T19:33:36.160147+00:00",
+    "sha256": "11cd16a40b3e5e3e38c359a35b51b9b9f09cad6c9609b6c250f856fb72219f05",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=nuccore&db=assembly&id=546340292&retmode=json"
+  },
+  "ralstonia_pickettii_dtp0602__assembly_summary": {
+    "bytes": 4447,
+    "local_path": "data/raw/s5_ncbi/ralstonia_pickettii_dtp0602__assembly_summary.json",
+    "retrieved_utc": "2026-09-10T19:33:38.208818+00:00",
+    "sha256": "80fa1e37ac7357ac736a0ed4a875bb77db1a7e177bcbd7fe5165696eeb64f0d8",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=assembly&id=66041&retmode=json"
+  },
+  "ralstonia_pickettii_dtp0602__nuccore_search": {
+    "bytes": 298,
+    "local_path": "data/raw/s5_ncbi/ralstonia_pickettii_dtp0602__nuccore_search.json",
+    "retrieved_utc": "2026-09-10T19:33:34.136420+00:00",
+    "sha256": "0a5005ddc2b2b2b9d603683a44118f5ffdc1249a61a276177241142678fdedc3",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=nuccore&term=CP006668.1%5BAccession%5D&retmode=json&retmax=5"
+  },
+  "ralstonia_pickettii_dtp0602__species_assembly_search": {
+    "bytes": 357,
+    "local_path": "data/raw/s5_ncbi/ralstonia_pickettii_dtp0602__species_assembly_search.json",
+    "retrieved_utc": "2026-09-10T19:33:43.231415+00:00",
+    "sha256": "201ebfc55d4006367ed1a7c6ee79da151464e246d69944874b67b348356afd58",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=assembly&term=%22Ralstonia+pickettii%22%5BOrganism%3Anoexp%5D+AND+latest%5Bfilter%5D&retmode=json&retmax=100"
+  },
+  "ralstonia_pickettii_dtp0602__species_assembly_search_v2": {
+    "bytes": 1943,
+    "local_path": "data/raw/s5_ncbi/ralstonia_pickettii_dtp0602__species_assembly_search_v2.json",
+    "retrieved_utc": "2026-09-10T19:36:41.094343+00:00",
+    "sha256": "e1400e3d7f3c21709afb89f0149c4347e6bdb972ce67b909d1a0a99060bb6d1a",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=assembly&term=%22Ralstonia+pickettii%22%5BOrganism%5D+AND+latest%5Bfilter%5D&retmode=json&retmax=500"
+  },
+  "ralstonia_pickettii_dtp0602__species_v2__assembly_summary": {
+    "bytes": 618712,
+    "local_path": "data/raw/s5_ncbi/ralstonia_pickettii_dtp0602__species_v2__assembly_summary.json",
+    "retrieved_utc": "2026-09-10T19:36:44.542722+00:00",
+    "sha256": "f39d909756e49fbc6cb3eaa3e26819aef8a5044140c236c4bd6f440c78381ac3",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=assembly&id=87679748%2C87679708%2C87679688%2C87679668%2C74973368%2C35232011%2C34974441%2C33991651%2C33991521%2C33986411%2C33970091%2C33731371%2C33728991%2C33728221%2C33728021%2C33727181%2C33726641%2C33622911%2C33289271%2C33289241%2C33289191%2C33289161%2C33289141%2C32183051%2C30383241%2C30383171%2C30383161%2C30383131%2C30383091%2C30382951%2C30382901%2C30382891%2C30382841%2C30382751%2C30382661%2C30382521%2C30382501%2C30382401%2C30382281%2C30382231%2C30382211%2C30382181%2C30382151%2C30382001%2C30381981%2C30381941%2C29493851%2C29042101%2C28101741%2C22292001%2C21557941%2C20846981%2C20846961%2C20838821%2C20838811%2C20838801%2C19804441%2C19184221%2C17943781%2C16610801%2C12962321%2C12794651%2C11115101%2C10960031%2C10720531%2C10720521%2C10720511%2C10720501%2C10720471%2C10720461%2C10720441%2C10720421%2C10720401%2C10720371%2C10720361%2C10720331%2C10720311%2C10720301%2C10720291%2C10720271%2C10720241%2C10720211%2C10720171%2C10720151%2C10720141%2C10720121%2C10720111%2C10720081%2C10720031%2C10720011%2C10719981%2C10719971%2C10719961%2C10719951%2C10719931%2C10167661%2C9429551%2C7855351%2C7855331%2C7855321%2C7855291%2C7855281%2C7855221%2C7855211%2C7855201%2C7855161%2C7855101%2C7855081%2C7855071%2C7855041%2C7855031%2C7855001%2C7854951%2C7854911%2C7854881%2C7854861%2C7854791%2C7854781%2C7854651%2C7854581%2C7854551%2C7854541%2C7854531%2C7854521%2C7854491%2C7854481%2C7854421%2C7854411%2C7349711%2C7330811%2C5325631%2C1850711%2C1549291%2C1503771%2C1245241%2C1192221%2C778171%2C778151%2C668618%2C633561%2C235138%2C205271%2C138101%2C138091%2C66041&retmode=json"
+  },
+  "trinickia_acidisoli_4d114__nuccore_search": {
+    "bytes": 369,
+    "local_path": "data/raw/s5_ncbi/trinickia_acidisoli_4d114__nuccore_search.json",
+    "retrieved_utc": "2026-09-10T19:33:44.893865+00:00",
+    "sha256": "f18cac5a4ee4f5da2e94a00c1716d58aa8330192e2617f0a5dd56760d33546ac",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=nuccore&term=JAFLRG010000001%5BAccession%5D&retmode=json&retmax=5"
+  },
+  "trinickia_acidisoli_4d114__species_assembly_search": {
+    "bytes": 357,
+    "local_path": "data/raw/s5_ncbi/trinickia_acidisoli_4d114__species_assembly_search.json",
+    "retrieved_utc": "2026-09-10T19:34:15.378714+00:00",
+    "sha256": "89706d1308da8de37099594983189c51362696a2904de818edcd21ac5c82f49f",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=assembly&term=%22Trinickia+acidisoli%22%5BOrganism%3Anoexp%5D+AND+latest%5Bfilter%5D&retmode=json&retmax=100"
+  },
+  "trinickia_acidisoli_4d114__species_assembly_search_v2": {
+    "bytes": 411,
+    "local_path": "data/raw/s5_ncbi/trinickia_acidisoli_4d114__species_assembly_search_v2.json",
+    "retrieved_utc": "2026-09-10T19:36:50.047880+00:00",
+    "sha256": "485f1ddc93f6434e8d24ccb9434ddc130a182725782c3a2d6e002d4b0b064494",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=assembly&term=%22Trinickia+acidisoli%22%5BOrganism%5D+AND+latest%5Bfilter%5D&retmode=json&retmax=500"
+  },
+  "trinickia_acidisoli_4d114__species_v2__assembly_summary": {
+    "bytes": 4405,
+    "local_path": "data/raw/s5_ncbi/trinickia_acidisoli_4d114__species_v2__assembly_summary.json",
+    "retrieved_utc": "2026-09-10T19:36:51.847104+00:00",
+    "sha256": "04c55a226e2758b5fe7e6916150fd810b1ea8da303c19c6f7c764cc8ec4493b2",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=assembly&id=9506571&retmode=json"
+  },
+  "trinickia_acidisoli_4d114__wgs__assembly_summary": {
+    "bytes": 4405,
+    "local_path": "data/raw/s5_ncbi/trinickia_acidisoli_4d114__wgs__assembly_summary.json",
+    "retrieved_utc": "2026-09-10T19:34:10.082638+00:00",
+    "sha256": "04c55a226e2758b5fe7e6916150fd810b1ea8da303c19c6f7c764cc8ec4493b2",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=assembly&id=9506571&retmode=json"
+  },
+  "trinickia_acidisoli_4d114__wgs_assembly_search": {
+    "bytes": 295,
+    "local_path": "data/raw/s5_ncbi/trinickia_acidisoli_4d114__wgs_assembly_search.json",
+    "retrieved_utc": "2026-09-10T19:34:08.415664+00:00",
+    "sha256": "78ede44ebde52921b5e23c8f0fca95d86882dd2d9b958e74ec0ba06366844017",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=assembly&term=JAFLRG01%5BAll+Fields%5D&retmode=json&retmax=20"
+  },
+  "trinickia_caryophylli_nbrc13591__assembly_link_0": {
+    "bytes": 185,
+    "local_path": "data/raw/s5_ncbi/trinickia_caryophylli_nbrc13591__assembly_link_0.json",
+    "retrieved_utc": "2026-09-10T19:34:18.910849+00:00",
+    "sha256": "0d9dd5c38528233fd6f020971da01a23d4c1dd8e192c0d3ce2fad9d589c7ba6b",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=nuccore&db=assembly&id=2520684891&retmode=json"
+  },
+  "trinickia_caryophylli_nbrc13591__assembly_summary": {
+    "bytes": 4472,
+    "local_path": "data/raw/s5_ncbi/trinickia_caryophylli_nbrc13591__assembly_summary.json",
+    "retrieved_utc": "2026-09-10T19:34:20.764861+00:00",
+    "sha256": "08138ca1e52db9313125f68e55742fe73debfb77d79831dd1319c3b5dd124f31",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=assembly&id=16862771&retmode=json"
+  },
+  "trinickia_caryophylli_nbrc13591__nuccore_search": {
+    "bytes": 309,
+    "local_path": "data/raw/s5_ncbi/trinickia_caryophylli_nbrc13591__nuccore_search.json",
+    "retrieved_utc": "2026-09-10T19:34:17.037390+00:00",
+    "sha256": "d7fdaf7ed2e529ac75c44a731f2d6a7df310fed6a0bb4311f892fbe972f40f89",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=nuccore&term=NZ_BSQD01000001%5BAccession%5D&retmode=json&retmax=5"
+  },
+  "trinickia_caryophylli_nbrc13591__species_assembly_search": {
+    "bytes": 361,
+    "local_path": "data/raw/s5_ncbi/trinickia_caryophylli_nbrc13591__species_assembly_search.json",
+    "retrieved_utc": "2026-09-10T19:34:26.027209+00:00",
+    "sha256": "c3aa08d68b96b25fd319e5bcb6bfc86c60cc97c8bf8865c32219ff0b6772898a",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=assembly&term=%22Trinickia+caryophylli%22%5BOrganism%3Anoexp%5D+AND+latest%5Bfilter%5D&retmode=json&retmax=100"
+  },
+  "trinickia_caryophylli_nbrc13591__species_assembly_search_v2": {
+    "bytes": 513,
+    "local_path": "data/raw/s5_ncbi/trinickia_caryophylli_nbrc13591__species_assembly_search_v2.json",
+    "retrieved_utc": "2026-09-10T19:36:53.793290+00:00",
+    "sha256": "623bf84a91bc7ae751a1fa1c12f2da10487ca2c088ddf1ad1c98849ca0733d7c",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=assembly&term=%22Trinickia+caryophylli%22%5BOrganism%5D+AND+latest%5Bfilter%5D&retmode=json&retmax=500"
+  },
+  "trinickia_caryophylli_nbrc13591__species_v2__assembly_summary": {
+    "bytes": 43961,
+    "local_path": "data/raw/s5_ncbi/trinickia_caryophylli_nbrc13591__species_v2__assembly_summary.json",
+    "retrieved_utc": "2026-09-10T19:36:55.942910+00:00",
+    "sha256": "744c37461596df4ca125953d7dbf4f90cf1c25227d00df0aef96ea134a7513e8",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=assembly&id=59802558%2C24149511%2C22250791%2C21045991%2C16862771%2C7276691%2C3878911%2C1838611%2C1522871%2C1076811&retmode=json"
+  },
+  "trinickia_symbiotica_jpy366__assembly_link_0": {
+    "bytes": 184,
+    "local_path": "data/raw/s5_ncbi/trinickia_symbiotica_jpy366__assembly_link_0.json",
+    "retrieved_utc": "2026-09-10T19:34:29.849306+00:00",
+    "sha256": "8c27e73012703462baac955f59effe8af98587c32a6c870cc57ab74ba46f6ca7",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=nuccore&db=assembly&id=1374072545&retmode=json"
+  },
+  "trinickia_symbiotica_jpy366__assembly_summary": {
+    "bytes": 4351,
+    "local_path": "data/raw/s5_ncbi/trinickia_symbiotica_jpy366__assembly_summary.json",
+    "retrieved_utc": "2026-09-10T19:34:31.595763+00:00",
+    "sha256": "c9374eeee488e64c56da0c76be45b5109b9732b0a5b480395a278389e0b915ec",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=assembly&id=1656361&retmode=json"
+  },
+  "trinickia_symbiotica_jpy366__nuccore_search": {
+    "bytes": 309,
+    "local_path": "data/raw/s5_ncbi/trinickia_symbiotica_jpy366__nuccore_search.json",
+    "retrieved_utc": "2026-09-10T19:34:27.790059+00:00",
+    "sha256": "a4a1cd5fca2d6ea547701e9918b6949da7e659c94b2cc9b53c41aa876efbb087",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=nuccore&term=NZ_PYUC01000004%5BAccession%5D&retmode=json&retmax=5"
+  },
+  "trinickia_symbiotica_jpy366__species_assembly_search": {
+    "bytes": 359,
+    "local_path": "data/raw/s5_ncbi/trinickia_symbiotica_jpy366__species_assembly_search.json",
+    "retrieved_utc": "2026-09-10T19:34:36.791091+00:00",
+    "sha256": "d2661dbe6d70bbe4171e20b2c28a1e5f7e77e9d14b5dbb61d7dfb988dd76610c",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=assembly&term=%22Trinickia+symbiotica%22%5BOrganism%3Anoexp%5D+AND+latest%5Bfilter%5D&retmode=json&retmax=100"
+  },
+  "trinickia_symbiotica_jpy366__species_assembly_search_v2": {
+    "bytes": 442,
+    "local_path": "data/raw/s5_ncbi/trinickia_symbiotica_jpy366__species_assembly_search_v2.json",
+    "retrieved_utc": "2026-09-10T19:37:01.815378+00:00",
+    "sha256": "64233bc88a8cc96655c48502ceacfd72fc5a3a6b1d89ba711ec3f430ba568a26",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=assembly&term=%22Trinickia+symbiotica%22%5BOrganism%5D+AND+latest%5Bfilter%5D&retmode=json&retmax=500"
+  },
+  "trinickia_symbiotica_jpy366__species_v2__assembly_summary": {
+    "bytes": 17207,
+    "local_path": "data/raw/s5_ncbi/trinickia_symbiotica_jpy366__species_v2__assembly_summary.json",
+    "retrieved_utc": "2026-09-10T19:37:03.620727+00:00",
+    "sha256": "2cde2cd7921556b8230e1eb2117bce4d5372aea306fe06e6d2c19d9b062d76ab",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=assembly&id=1656361%2C1564651%2C1522891%2C635558&retmode=json"
+  },
+  "uncultured_paraburkholderia__nuccore_search": {
+    "bytes": 369,
+    "local_path": "data/raw/s5_ncbi/uncultured_paraburkholderia__nuccore_search.json",
+    "retrieved_utc": "2026-09-10T19:34:38.682977+00:00",
+    "sha256": "22fe6605219de6816b5ee06c07f406219acf3a718368018cc77a8d3ff48b93a4",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=nuccore&term=CALFSE010000100%5BAccession%5D&retmode=json&retmax=5"
+  },
+  "uncultured_paraburkholderia__wgs__assembly_summary": {
+    "bytes": 4303,
+    "local_path": "data/raw/s5_ncbi/uncultured_paraburkholderia__wgs__assembly_summary.json",
+    "retrieved_utc": "2026-09-10T19:34:42.228966+00:00",
+    "sha256": "6b1cd35c03293f4ccd56386424122298c82ecc73c5230bf308ea47145dda6cbf",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=assembly&id=15494041&retmode=json"
+  },
+  "uncultured_paraburkholderia__wgs_assembly_search": {
+    "bytes": 296,
+    "local_path": "data/raw/s5_ncbi/uncultured_paraburkholderia__wgs_assembly_search.json",
+    "retrieved_utc": "2026-09-10T19:34:40.491152+00:00",
+    "sha256": "f6f4e1b3106ba763bdb4813f20c048ac05e2fcc299d195e7e0f5f9852e4e6074",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=assembly&term=CALFSE01%5BAll+Fields%5D&retmode=json&retmax=20"
+  },
+  "xenorhabdus_bovienii_mc235__nuccore_search": {
+    "bytes": 369,
+    "local_path": "data/raw/s5_ncbi/xenorhabdus_bovienii_mc235__nuccore_search.json",
+    "retrieved_utc": "2026-09-10T19:34:46.312511+00:00",
+    "sha256": "c72e33554b16f272033912e30ab9baae72c93544ea57184b199b8922da0d86c3",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=nuccore&term=JAILST010000005%5BAccession%5D&retmode=json&retmax=5"
+  },
+  "xenorhabdus_bovienii_mc235__species_assembly_search": {
+    "bytes": 359,
+    "local_path": "data/raw/s5_ncbi/xenorhabdus_bovienii_mc235__species_assembly_search.json",
+    "retrieved_utc": "2026-09-10T19:34:55.313619+00:00",
+    "sha256": "04fff285661cf6d4ff8dbe452afd53ca032ae3e4016633d0e37aa50244e74eef",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=assembly&term=%22Xenorhabdus+bovienii%22%5BOrganism%3Anoexp%5D+AND+latest%5Bfilter%5D&retmode=json&retmax=100"
+  },
+  "xenorhabdus_bovienii_mc235__species_assembly_search_v2": {
+    "bytes": 1220,
+    "local_path": "data/raw/s5_ncbi/xenorhabdus_bovienii_mc235__species_assembly_search_v2.json",
+    "retrieved_utc": "2026-09-10T19:37:09.610388+00:00",
+    "sha256": "d995425c89d18b77010dd33ac73207380836bf792b872f4adbe3d12c4dd86831",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=assembly&term=%22Xenorhabdus+bovienii%22%5BOrganism%5D+AND+latest%5Bfilter%5D&retmode=json&retmax=500"
+  },
+  "xenorhabdus_bovienii_mc235__species_v2__assembly_summary": {
+    "bytes": 330742,
+    "local_path": "data/raw/s5_ncbi/xenorhabdus_bovienii_mc235__species_v2__assembly_summary.json",
+    "retrieved_utc": "2026-09-10T19:37:12.580962+00:00",
+    "sha256": "1f05023abddd4337cf9ed8851641305c0d441c079a16a37b486ad27abfd23351",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=assembly&id=34878681%2C34586591%2C33942841%2C28973701%2C28973671%2C28973661%2C28973651%2C21859241%2C21859191%2C21744851%2C21744801%2C21718521%2C21717541%2C21717531%2C21717521%2C21717511%2C21717501%2C21717491%2C21717481%2C21717471%2C21717461%2C16125711%2C16125691%2C16125681%2C16125671%2C16125661%2C16125651%2C16125641%2C16125631%2C16125621%2C16125611%2C16125601%2C16125591%2C16125581%2C16125571%2C16125561%2C16125551%2C16125541%2C16125531%2C16125521%2C16125511%2C16125501%2C16125491%2C16125481%2C16125471%2C16125461%2C16125451%2C16125441%2C16125431%2C16125421%2C16125411%2C16125401%2C16125391%2C16125381%2C16125361%2C16006841%2C16006831%2C16006821%2C16006811%2C16006801%2C16006791%2C13524741%2C13303561%2C12068161%2C12068131%2C322581%2C201751%2C201741%2C201731%2C201721%2C201711%2C201701%2C201691%2C201681%2C201671%2C109768&retmode=json"
+  },
+  "xenorhabdus_bovienii_mc235__wgs__assembly_summary": {
+    "bytes": 4397,
+    "local_path": "data/raw/s5_ncbi/xenorhabdus_bovienii_mc235__wgs__assembly_summary.json",
+    "retrieved_utc": "2026-09-10T19:34:49.988751+00:00",
+    "sha256": "6c02535aff5d39ba7f6e1bac38baa770035be2b53dbbfdd048457015dec9342c",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=assembly&id=16006811&retmode=json"
+  },
+  "xenorhabdus_bovienii_mc235__wgs_assembly_search": {
+    "bytes": 296,
+    "local_path": "data/raw/s5_ncbi/xenorhabdus_bovienii_mc235__wgs_assembly_search.json",
+    "retrieved_utc": "2026-09-10T19:34:48.043059+00:00",
+    "sha256": "858bbb69a0479ba626312a0fca595596272f410980f0218cac77e9a696e88991",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=assembly&term=JAILST01%5BAll+Fields%5D&retmode=json&retmax=20"
+  },
+  "xenorhabdus_budapestensis_c72__assembly_link_0": {
+    "bytes": 184,
+    "local_path": "data/raw/s5_ncbi/xenorhabdus_budapestensis_c72__assembly_link_0.json",
+    "retrieved_utc": "2026-09-10T19:34:59.104858+00:00",
+    "sha256": "228a41a80631aba967da473703cba3cb180c2d3c9147501287c3048a895a0ec7",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=nuccore&db=assembly&id=2021914476&retmode=json"
+  },
+  "xenorhabdus_budapestensis_c72__assembly_summary": {
+    "bytes": 4454,
+    "local_path": "data/raw/s5_ncbi/xenorhabdus_budapestensis_c72__assembly_summary.json",
+    "retrieved_utc": "2026-09-10T19:35:00.843790+00:00",
+    "sha256": "bc6ea79a6a255d5a792d2ea1beb7c2e3a714b23e27d5492c76a18c06cc66252a",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=assembly&id=9730981&retmode=json"
+  },
+  "xenorhabdus_budapestensis_c72__nuccore_search": {
+    "bytes": 305,
+    "local_path": "data/raw/s5_ncbi/xenorhabdus_budapestensis_c72__nuccore_search.json",
+    "retrieved_utc": "2026-09-10T19:34:57.156232+00:00",
+    "sha256": "4c9a5ed2865e573d98bd5824c2f62f1ad46982eb7d3e63835379a285ee1fc7b2",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=nuccore&term=NZ_CP072455.1%5BAccession%5D&retmode=json&retmax=5"
+  },
+  "xenorhabdus_budapestensis_c72__species_assembly_search": {
+    "bytes": 369,
+    "local_path": "data/raw/s5_ncbi/xenorhabdus_budapestensis_c72__species_assembly_search.json",
+    "retrieved_utc": "2026-09-10T19:35:05.247311+00:00",
+    "sha256": "d5ba889141b06ba6e56425deab1b4e79323bf397b35bf48845ff110639f5f68a",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=assembly&term=%22Xenorhabdus+budapestensis%22%5BOrganism%3Anoexp%5D+AND+latest%5Bfilter%5D&retmode=json&retmax=100"
+  },
+  "xenorhabdus_budapestensis_c72__species_assembly_search_v2": {
+    "bytes": 455,
+    "local_path": "data/raw/s5_ncbi/xenorhabdus_budapestensis_c72__species_assembly_search_v2.json",
+    "retrieved_utc": "2026-09-10T19:37:17.658551+00:00",
+    "sha256": "c6e07bff525d1d2f2f257802845e22c907d28fef4e6e5be220e1ff868c171970",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=assembly&term=%22Xenorhabdus+budapestensis%22%5BOrganism%5D+AND+latest%5Bfilter%5D&retmode=json&retmax=500"
+  },
+  "xenorhabdus_budapestensis_c72__species_v2__assembly_summary": {
+    "bytes": 17570,
+    "local_path": "data/raw/s5_ncbi/xenorhabdus_budapestensis_c72__species_v2__assembly_summary.json",
+    "retrieved_utc": "2026-09-10T19:37:19.500961+00:00",
+    "sha256": "e97b44605148fa51ff2fe75d1ab8fb3d79ba16d72923b3864d18fa2de89a2d1b",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=assembly&id=71010338%2C21700661%2C9730981%2C1368971&retmode=json"
+  },
+  "xenorhabdus_innexi_dsm16336__assembly_link_0": {
+    "bytes": 264,
+    "local_path": "data/raw/s5_ncbi/xenorhabdus_innexi_dsm16336__assembly_link_0.json",
+    "retrieved_utc": "2026-09-10T19:35:09.293277+00:00",
+    "sha256": "c194632159747ffef0fb22a8255a412e1b00939e93f37fc45f5f4fbdefb26f7a",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=nuccore&db=assembly&id=1269053686&retmode=json"
+  },
+  "xenorhabdus_innexi_dsm16336__assembly_summary": {
+    "bytes": 4456,
+    "local_path": "data/raw/s5_ncbi/xenorhabdus_innexi_dsm16336__assembly_summary.json",
+    "retrieved_utc": "2026-09-10T19:35:10.964568+00:00",
+    "sha256": "db822ac18799502624c093696a8d7114015d4860965a22774516f24602654bb6",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=assembly&id=1369011&retmode=json"
+  },
+  "xenorhabdus_innexi_dsm16336__nuccore_search": {
+    "bytes": 303,
+    "local_path": "data/raw/s5_ncbi/xenorhabdus_innexi_dsm16336__nuccore_search.json",
+    "retrieved_utc": "2026-09-10T19:35:07.194551+00:00",
+    "sha256": "e279c47c43190bdcda190d9e93d93f7d50dea3a1a9e6d3a2aba18314944dfb99",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=nuccore&term=NIBU01000007%5BAccession%5D&retmode=json&retmax=5"
+  },
+  "xenorhabdus_innexi_dsm16336__species_assembly_search": {
+    "bytes": 355,
+    "local_path": "data/raw/s5_ncbi/xenorhabdus_innexi_dsm16336__species_assembly_search.json",
+    "retrieved_utc": "2026-09-10T19:35:15.915378+00:00",
+    "sha256": "742a158407c58dcec49f4b67afc91013b8500df3a1c465f7388b0c6d50bba821",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=assembly&term=%22Xenorhabdus+innexi%22%5BOrganism%3Anoexp%5D+AND+latest%5Bfilter%5D&retmode=json&retmax=100"
+  },
+  "xenorhabdus_innexi_dsm16336__species_assembly_search_v2": {
+    "bytes": 441,
+    "local_path": "data/raw/s5_ncbi/xenorhabdus_innexi_dsm16336__species_assembly_search_v2.json",
+    "retrieved_utc": "2026-09-10T19:37:26.047053+00:00",
+    "sha256": "d7d88395f64921dc3b048c60880cdfcf5295c47fe6ab8343e4d3ff7629aea7e6",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=assembly&term=%22Xenorhabdus+innexi%22%5BOrganism%5D+AND+latest%5Bfilter%5D&retmode=json&retmax=500"
+  },
+  "xenorhabdus_innexi_dsm16336__species_v2__assembly_summary": {
+    "bytes": 17622,
+    "local_path": "data/raw/s5_ncbi/xenorhabdus_innexi_dsm16336__species_v2__assembly_summary.json",
+    "retrieved_utc": "2026-09-10T19:37:27.889370+00:00",
+    "sha256": "bd6f650712a725ff50db10630229c68fdfb37f41472b59d2c19eb15892077d32",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=assembly&id=21747081%2C21723591%2C1369011%2C1113551&retmode=json"
+  }
+}

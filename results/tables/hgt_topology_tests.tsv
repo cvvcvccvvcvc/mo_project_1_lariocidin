@@ -1,0 +1,5 @@
+role	taxa	trimmed_columns	model	composition_failures	free_order_split_present	order_split_sh_alrt	order_split_ufboot	focal_nearest_taxon_by_tree_distance	focal_nearest_taxonomic_group	constrained_log_likelihood	delta_log_likelihood_vs_free	constrained_au_p	h0_decision	holm_adjusted_p	holm_reject_0_05
+B1	14	87	Q.PLANT+G4	0	False			burkholderia_imcc1007	Burkholderiales	-1968.271849	2.6543	0.323	constraint_not_rejected	1.0	False
+B2	14	135	Q.PLANT+G4	2	False			ralstonia_pickettii_dtp0602	Burkholderiales	-2685.800813	1.2494	0.337	constraint_not_rejected	1.0	False
+C	14	608	Q.PFAM+G4	13	True	99.0	83.0	paraburkholderia_mimosarum_stm3621	Burkholderiales				free_tree_compatible		False
+D	14	534	Q.PLANT+G4	13	False			burkholderia_imcc1007	Burkholderiales	-9027.184348	1.0258	0.432	constraint_not_rejected	1.0	False
