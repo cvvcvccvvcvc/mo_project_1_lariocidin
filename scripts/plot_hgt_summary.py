@@ -9,6 +9,7 @@ from pathlib import Path
 import matplotlib.pyplot as plt
 import pandas as pd
 from Bio import Phylo
+from summarize_hgt_trees import split_clade, support_values
 
 
 COLORS = {"Enterobacterales": "#D55E00", "Burkholderiales": "#0072B2"}
@@ -51,6 +52,8 @@ def main() -> None:
     fig.subplots_adjust(left=0.055, right=0.97, top=0.88, bottom=0.13, wspace=0.13)
 
     tree = Phylo.read(args.host_tree, "newick")
+    host_group = set(taxa.loc[taxa.taxonomic_group == "Enterobacterales", "sample_id"])
+    host_support = support_values(split_clade(tree, host_group))
     tree.root_at_midpoint()
     Phylo.draw(
         tree,
@@ -64,7 +67,7 @@ def main() -> None:
             text.set_color(COLORS[group_by_label[text.get_text().strip()]])
             text.set_fontsize(9)
     ax_tree.set_xlim(0, max(tree.depths().values()) * 1.75)
-    ax_tree.set_title("A  Independent host tree (21 genomes, 34 markers)", loc="left", fontsize=12)
+    ax_tree.set_title(f"A  Independent host tree ({len(taxa)} genomes, {taxa.markers_total.max()} markers)", loc="left", fontsize=12)
     ax_tree.set_xlabel("amino-acid substitutions per site")
     ax_tree.set_ylabel("")
     ax_tree.text(0.01, -0.08, "● published carrier    ○ different strain label",
@@ -83,15 +86,21 @@ def main() -> None:
         y = 0.75 - index * 0.12
         values = [row.role, "yes" if row.free_order_split_present else "no",
                   f"{float(row.constrained_au_p):.3f}" if row.constrained_au_p != "" else "not run",
-                  f"{row.composition_failures}/14"]
+                  f"{row.composition_failures}/{row.taxa}"]
         for (x, _), value in zip(columns, values):
             ax_test.text(x, y, value, transform=ax_test.transAxes, fontsize=11,
                          color="#B22222" if x == 0.76 and int(row.composition_failures) else "#222222")
-    ax_test.text(0.02, 0.20, "B1/B2/D: order constraint not rejected",
+    rejected = tests.loc[tests.h0_decision == "constraint_rejected", "role"].tolist()
+    compatible = tests.loc[tests.h0_decision == "free_tree_compatible", "role"].tolist()
+    tested = tests.loc[tests.constrained_au_p != "", "role"].tolist()
+    decision = (f"{'/'.join(rejected)}: order constraint rejected (Holm)" if rejected else
+                f"{'/'.join(tested)}: order constraint not rejected")
+    ax_test.text(0.02, 0.20, decision,
                  transform=ax_test.transAxes, fontsize=11, weight="bold")
-    ax_test.text(0.02, 0.15, "C: free tree already order-compatible",
+    ax_test.text(0.02, 0.15, f"{'/'.join(compatible) or 'None'}: free tree already order-compatible",
                  transform=ax_test.transAxes, fontsize=11)
-    ax_test.text(0.02, 0.10, "Host order split: SH-aLRT/UFBoot 100/100",
+    support = "/".join(f"{value:g}" if value is not None else "NA" for value in host_support)
+    ax_test.text(0.02, 0.10, f"Host order split: SH-aLRT/UFBoot {support}",
                  transform=ax_test.transAxes, fontsize=10)
 
     status = pd.read_csv(args.control_status, sep="\t", keep_default_na=False)
@@ -101,7 +110,8 @@ def main() -> None:
                  f"Same-species controls: target BGC in {supported}/{len(distinct)} different strain labels",
                  transform=ax_test.transAxes, fontsize=10)
 
-    fig.suptitle("Focal HGT case: no significant rejection of host-order split", fontsize=17)
+    fig.suptitle("Focal HGT case: " + ("host-order conflict detected" if rejected else
+                                     "no significant rejection of host-order split"), fontsize=17)
     args.output.parent.mkdir(parents=True, exist_ok=True)
     fig.savefig(args.output, dpi=220, bbox_inches="tight")
     plt.close(fig)

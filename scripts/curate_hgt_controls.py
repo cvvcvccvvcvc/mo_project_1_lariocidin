@@ -4,10 +4,41 @@
 from __future__ import annotations
 
 import argparse
+import subprocess
+import tempfile
 from pathlib import Path
 
 import pandas as pd
 from Bio import SeqIO
+from Bio.Seq import Seq
+from Bio.SeqRecord import SeqRecord
+
+
+def processing_homology(proteins, core_dir, output):
+    """Check B1/B2/D sequence homology; protein size alone does not identify a role."""
+    refs = []
+    for role in ("B1", "B2", "D"):
+        for record in SeqIO.parse(core_dir / f"pseudomonadota_core_{role}.faa", "fasta"):
+            refs.append(SeqRecord(record.seq, id=f"{role}|{record.id}", description=""))
+    columns = ["feature_id", "reference_id", "identity_pct", "query_coverage_pct", "evalue", "bitscore"]
+    with tempfile.TemporaryDirectory() as directory:
+        directory = Path(directory)
+        query, reference, hits = (directory / name for name in ("query.faa", "reference.faa", "hits.tsv"))
+        SeqIO.write([SeqRecord(Seq(seq), id=key, description="") for key, seq in proteins.items()], query, "fasta")
+        SeqIO.write(refs, reference, "fasta")
+        if proteins:
+            subprocess.run([
+                str(Path(__file__).resolve().parents[1] / ".env/bin/blastp"),
+                "-query", str(query), "-subject", str(reference), "-seg", "yes",
+                "-evalue", "1e-5", "-max_target_seqs", str(len(refs)),
+                "-outfmt", "6 qseqid sseqid pident qcovs evalue bitscore", "-out", str(hits),
+            ], check=True)
+        data = pd.read_csv(hits, sep="\t", names=columns) if proteins and hits.stat().st_size else pd.DataFrame(columns=columns)
+    data["role"] = data.reference_id.str.split("|").str[0]
+    data = data.sort_values("bitscore", ascending=False).drop_duplicates(["feature_id", "role"])
+    data["passes_homology_rule"] = (data.identity_pct >= 30) & (data.query_coverage_pct >= 70)
+    data.to_csv(output, sep="\t", index=False)
+    return data.loc[data.passes_homology_rule]
 
 
 def main() -> None:
@@ -17,6 +48,8 @@ def main() -> None:
     parser.add_argument("--features", type=Path, required=True)
     parser.add_argument("--proteins", type=Path, required=True)
     parser.add_argument("--known-c", type=Path, required=True)
+    parser.add_argument("--core-dir", type=Path, required=True)
+    parser.add_argument("--homology-out", type=Path, required=True)
     parser.add_argument("--hits", type=Path, required=True)
     parser.add_argument("--status-out", type=Path, required=True)
     parser.add_argument("--contexts-out", type=Path, required=True)
@@ -29,6 +62,15 @@ def main() -> None:
     hits = pd.read_csv(args.hits, sep="\t", keep_default_na=False)
     proteins = {record.id: str(record.seq) for record in SeqIO.parse(args.proteins, "fasta")}
     known_c = {record.id: str(record.seq) for record in SeqIO.parse(args.known_c, "fasta")}
+    precursor_sequences = {str(record.seq) for record in SeqIO.parse(args.core_dir / "pseudomonadota_core_A.faa", "fasta")}
+    high_hits = hits.loc[(hits.profile == "canonical") & (hits.sequence_score >= 250) & (hits.model_coverage >= 0.70)]
+    neighbor_ids = set()
+    for hit in high_hits.itertuples(index=False):
+        neighbor_ids.update(features.loc[
+            (features.sample_id == hit.sample_id) & (features.contig_accession == hit.contig_accession)
+            & (features.strand == hit.strand) & features.cds_index.between(hit.cds_index - 5, hit.cds_index + 5), "feature_id"
+        ])
+    homologs = processing_homology({key: proteins[key] for key in sorted(neighbor_ids)}, args.core_dir, args.homology_out)
 
     context_rows = []
     status_rows = []
@@ -51,7 +93,15 @@ def main() -> None:
             precursor_count = int(other["aa_length"].between(20, 60).sum())
             processing_count = int(other["aa_length"].between(50, 200).sum())
             transporter_count = int(other["aa_length"].between(450, 700).sum())
-            context_supported = precursor_count >= 1 and processing_count >= 2 and transporter_count >= 1
+            role_ids = {role: set(homologs.loc[
+                (homologs.role == role) & homologs.feature_id.isin(other.feature_id), "feature_id"
+            ]) for role in ("B1", "B2", "D")}
+            precursor_ids = {key for key in other.feature_id if proteins[key] in precursor_sequences}
+            # Distinct genes must support the roles; one short CDS cannot fill A and B1.
+            context_supported = any(
+                len({a, b1, b2, d}) == 4
+                for a in precursor_ids for b1 in role_ids["B1"] for b2 in role_ids["B2"] for d in role_ids["D"]
+            )
             exact_matches = [
                 sample for sample, sequence in known_c.items()
                 if sequence == proteins[hit.target_id]
@@ -69,6 +119,8 @@ def main() -> None:
                 "processing_sized_same_strand_cds": processing_count,
                 "transporter_sized_same_strand_cds": transporter_count,
                 "exact_known_c_matches": "|".join(exact_matches),
+                "exact_known_precursor_ids": "|".join(sorted(precursor_ids)),
+                **{f"{role}_homolog_ids": "|".join(sorted(ids)) for role, ids in role_ids.items()},
                 "context_supported": context_supported,
             })
             supported.append(context_supported)

@@ -7,6 +7,8 @@ processed_dir="$project_dir/data/processed"
 table_dir="$project_dir/results/tables"
 raw_dir="$project_dir/data/raw/research_2026-09-10"
 
+"$env_dir/bin/python" "$project_dir/scripts/fetch_research_inputs.py"
+
 "$env_dir/bin/python" "$project_dir/scripts/prepare_literature_reference.py" \
   --archive "$raw_dir/triculamin_lasso_BGCs.zip" \
   --lar29-fasta "$processed_dir/lrcc_reference.faa" \

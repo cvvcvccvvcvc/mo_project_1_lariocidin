@@ -17,6 +17,12 @@ from maize_genomes import digest
 from profile_search import ROOT
 
 
+def validate_accessions(samples, requested):
+    received = [sample.get("accession") for sample in samples]
+    if len(received) != len(set(received)) or set(received) != set(requested):
+        raise ValueError("BioSample response does not match requested accession set")
+
+
 def main():
     table = pd.read_csv(ROOT / "config/maize_s3_genomes.tsv", sep="\t")
     scope = table[table.in_scope]
@@ -49,6 +55,7 @@ def main():
         manifest_path.write_text(json.dumps(manifest, indent=2) + "\n")
         root = ET.parse(path).getroot()
         assert root.tag == "BioSampleSet", f"Unexpected API response: {root.tag}"
+        validate_accessions(root.findall("BioSample"), batch)
         for sample in root.findall("BioSample"):
             attributes = {a.get("harmonized_name", a.get("attribute_name")): a.text or ""
                           for a in sample.findall("./Attributes/Attribute")}
@@ -91,6 +98,7 @@ def main():
         manifest_path.write_text(json.dumps(manifest, indent=2) + "\n")
         root = ET.parse(path).getroot()
         assert root.tag == "SAMPLE_SET", f"Unexpected ENA response: {root.tag}"
+        validate_accessions(root.findall("SAMPLE"), batch)
         for sample in root.findall("SAMPLE"):
             attributes = {a.findtext("TAG"): a.findtext("VALUE", "")
                           for a in sample.findall("./SAMPLE_ATTRIBUTES/SAMPLE_ATTRIBUTE")}

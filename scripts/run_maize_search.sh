@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
-# Requires the retained literature profiles and previously downloaded metadata.
+# Requires the retained literature profiles; pinned metadata are restored below.
 set -euo pipefail
 project_dir=$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)
 python="$project_dir/.env/bin/python"
+"$python" "$project_dir/scripts/fetch_research_inputs.py"
 "$python" "$project_dir/scripts/fetch_s3_sources.py"
 "$python" "$project_dir/scripts/validate_final_profiles.py"
 "$python" "$project_dir/scripts/search_maize_catalogue.py"

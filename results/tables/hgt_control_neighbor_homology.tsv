@@ -1,0 +1,13 @@
+feature_id	reference_id	identity_pct	query_coverage_pct	evalue	bitscore	role	passes_homology_rule
+control__photorhabdus_asymbiotica_dsm15149__cds02128	D|photorhabdus_asymbiotica_dsm15149	100.0	100	0.0	1186.0	D	True
+control__xenorhabdus_innexi_dsm16336__cds03467	D|xenorhabdus_innexi_dsm16336	100.0	100	0.0	1041.0	D	True
+control__trinickia_caryophylli_nbrc13591__cds01040	D|trinickia_caryophylli_nbrc13591	100.0	97	0.0	993.0	D	True
+control__photorhabdus_caribbeanensis_hg29__cds01738	D|photorhabdus_caribbeanensis_hg29	100.0	100	0.0	991.0	D	True
+control__trinickia_caryophylli_nbrc13591__cds01038	B2|trinickia_caryophylli_nbrc13591	100.0	100	1.1000000000000001e-125	342.0	B2	True
+control__photorhabdus_caribbeanensis_hg29__cds01740	B2|photorhabdus_caribbeanensis_hg29	100.0	100	7.35e-116	316.0	B2	True
+control__xenorhabdus_innexi_dsm16336__cds03470	B2|xenorhabdus_innexi_dsm16336	100.0	92	6.5899999999999996e-108	296.0	B2	True
+control__photorhabdus_asymbiotica_dsm15149__cds02126	B2|photorhabdus_asymbiotica_dsm15149	99.265	88	5.39e-102	280.0	B2	True
+control__trinickia_caryophylli_nbrc13591__cds01037	B1|trinickia_caryophylli_nbrc13591	100.0	100	8.43e-74	205.0	B1	True
+control__photorhabdus_caribbeanensis_hg29__cds01741	B1|photorhabdus_caribbeanensis_hg29	100.0	100	1.0899999999999999e-45	133.0	B1	True
+control__xenorhabdus_innexi_dsm16336__cds03471	B1|xenorhabdus_innexi_dsm16336	100.0	86	4.0999999999999995e-42	124.0	B1	True
+control__photorhabdus_asymbiotica_dsm15149__cds02125	B1|photorhabdus_asymbiotica_dsm15149	98.276	100	2.4499999999999997e-38	114.0	B1	True

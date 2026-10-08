@@ -132,6 +132,9 @@ def main() -> None:
             raise ValueError(f"Annotated carrier fails 80% marker coverage: {row.sample_id}")
 
     args.output_dir.mkdir(parents=True, exist_ok=True)
+    stale = {path.stem for path in args.output_dir.glob("*.faa")} - set(retained_markers)
+    if stale:
+        raise ValueError(f"Stale marker files; use a clean output directory: {sorted(stale)}")
     for marker in retained_markers:
         records = []
         for sample_id in included_taxa:

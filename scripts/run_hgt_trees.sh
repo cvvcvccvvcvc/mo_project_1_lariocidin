@@ -35,6 +35,7 @@ done
 "$python" "$project_dir/scripts/concat_host_markers.py" \
   --alignment-dir "$alignment_dir/host_markers" \
   --taxa "$table_dir/host_taxa.tsv" \
+  --inventory "$table_dir/host_marker_inventory.tsv" \
   --output "$alignment_dir/host_concat.trim.faa" \
   --boundaries "$table_dir/host_marker_boundaries.tsv"
 

@@ -14,8 +14,16 @@ from Bio import Phylo
 ROLES = ("B1", "B2", "C", "D")
 
 
-def has_split(tree_path: Path, group: set[str]) -> bool:
+def validate_taxa(names, expected: set[str], label: str) -> None:
+    names = list(names)
+    if len(names) != len(set(names)) or set(names) != expected:
+        raise ValueError(f"Taxon mismatch or duplicate IDs in {label}")
+
+
+def has_split(tree_path: Path, group: set[str], expected: set[str] | None = None) -> bool:
     tree = Phylo.read(tree_path, "newick")
+    if expected is not None:
+        validate_taxa((leaf.name for leaf in tree.get_terminals()), expected, str(tree_path))
     leaves = {leaf.name for leaf in tree.get_terminals()}
     if not group < leaves:
         raise ValueError(f"Invalid or trivial group for {tree_path}")
@@ -62,7 +70,9 @@ def main() -> None:
         prefix = args.tree_dir / f"{role}.free"
         rows.append({
             "role": role,
-            "order_split_present": has_split(Path(str(prefix) + ".treefile"), groups["Enterobacterales"]),
+            "order_split_present": has_split(
+                Path(str(prefix) + ".treefile"), groups["Enterobacterales"], set(selected.sample_id)
+            ),
             "model": model_from_report(Path(str(prefix) + ".iqtree")),
         })
     pd.DataFrame(rows).to_csv(args.output, sep="\t", index=False)

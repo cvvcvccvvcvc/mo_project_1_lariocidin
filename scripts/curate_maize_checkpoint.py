@@ -97,6 +97,7 @@ def main():
 
     # Catalogue-only IDs: the direct GFF search must not imply these were read.
     missing = pd.read_csv(tables / "maize_catalogue_GFF_differences.tsv", sep="\t")
+    missing = missing.loc[missing.presence == "catalogue_only"].copy()
     missing_ids, mapping = set(missing.target_id), {}
     with (ROOT / "data/raw/s3/protein_catalogue-100.tsv").open() as handle:
         for line in handle:
@@ -109,7 +110,8 @@ def main():
     summary = {"status": "checkpoint_for_human_review_not_proof_of_MAG_absence",
                "curation_counts": triage.curation_status.value_counts().to_dict(),
                "provenance_counts": pd.read_csv(tables / "maize_provenance_audit.tsv", sep="\t").provenance_status.value_counts().to_dict(),
-               "supported_canonical_MAG": 0, "supported_canonical_culture_loci": len(supported_ids),
+               "supported_canonical_MAG": int((triage.target_id.isin(supported_ids) & triage.provenance_status.eq("primary_metadata_supports_metagenomic_origin")).sum()),
+               "supported_canonical_culture_loci": int((triage.target_id.isin(supported_ids) & triage.provenance_status.eq("culture_conflicts_with_MAG_label")).sum()),
                "supported_C_unique_sequences": len({r["C_sha256"] for r in core_rows}),
                "supported_defined_core_unique_DNA": len({r["core_sha256"] for r in core_rows}),
                "supported_cores_exact_in_literature_archive": sum(bool(r["core_exact_archive_matches"]) for r in core_rows),

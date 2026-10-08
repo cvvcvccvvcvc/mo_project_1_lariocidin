@@ -111,6 +111,8 @@ def main() -> None:
         writer.writeheader()
         writer.writerows(sorted(results, key=lambda row: (row["sample_id"], ROLES.index(row["role"]))))
     print(f"Audited {len(results)} role sequences with no exact CDS translation match")
+    if any(row["matching_loci"] != 1 for row in results):
+        raise ValueError("DNA audit contains missing or ambiguous loci; inspect the saved table")
 
 
 if __name__ == "__main__":
