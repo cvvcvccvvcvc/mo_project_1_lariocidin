@@ -1,0 +1,20 @@
+{
+  "origin": "Reconstructed initial collector input from completed Slurm 937682 shards plus specific-protein IPG coordinate provenance; original 197 source genome inputs, no later relatives or named-anchor curation",
+  "files": [
+    {
+      "path": "inputs/H1_2026-10-13/relative_selection_basis/H1_assembly_inputs.tsv",
+      "sha256": "98edfc2ae3d4afd934b0064a4f264cb207d42343acb54c626f642cf43ef20993",
+      "bytes": 39851
+    },
+    {
+      "path": "inputs/H1_2026-10-13/relative_selection_basis/H1_carrier_catalogue.tsv",
+      "sha256": "7a14c032074951b8cc9f631c489e3a4194103135bb054742293c7f4f9c8394a5",
+      "bytes": 88456
+    },
+    {
+      "path": "inputs/H1_2026-10-13/relative_selection_basis/H1_genome_quality.tsv",
+      "sha256": "62a661f7cc447be11ca3eb8d1c6e8ea0397c730c9898f2a6e716eb4cb0bd7fae",
+      "bytes": 72785
+    }
+  ]
+}

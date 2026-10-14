@@ -1,0 +1,53 @@
+{
+  "selection": "manually selected concrete relations from completed fits; not a ranking or an exhaustive event list",
+  "candidates": [
+    {
+      "candidate_id": "H2-CAN-M2",
+      "scope": "Bacteria74",
+      "family": "canonical_C",
+      "gene_split": "0c05a2ca7128",
+      "host_split": "67c72d65a826",
+      "interpretation": "linked_B1_B2_C_history_candidate; whole_BGC_not_established"
+    },
+    {
+      "candidate_id": "H2-CAN-XENO",
+      "scope": "Bacteria74",
+      "family": "canonical_C",
+      "gene_split": "5dfa004b23e6",
+      "host_split": "f1b6f8d5aab8",
+      "interpretation": "C_component_candidate; B1_B2_support_must_be_checked"
+    },
+    {
+      "candidate_id": "H2-CAN-BURK",
+      "scope": "Bacteria74",
+      "family": "canonical_C",
+      "gene_split": "5202af9f5f2b",
+      "host_split": "2c48f22cd4ee",
+      "interpretation": "C_component_candidate; other_core_histories_need_local_examination"
+    },
+    {
+      "candidate_id": "H2-NC-ISL",
+      "scope": "Bacteria74",
+      "family": "noncanonical_C",
+      "gene_split": "3ee2688d3442",
+      "host_split": "717a018c1732",
+      "interpretation": "C_and_GNAT_neighbour_agreement; GNAT_not_proven_universal_core"
+    },
+    {
+      "candidate_id": "H2-NC-ALA",
+      "scope": "Bacteria74",
+      "family": "noncanonical_C",
+      "gene_split": "d3dccb740372",
+      "host_split": "fc0cb7e6540a",
+      "interpretation": "C_and_GNAT_neighbour_agreement; assembly_and_138_marker_host_check_required"
+    },
+    {
+      "candidate_id": "H2-NATURE4",
+      "scope": "Actinobacteria138",
+      "family": "uncertain_Nature_system_C",
+      "gene_split": "fb6e7f6cb5a6",
+      "host_split": "0487e4318867",
+      "interpretation": "separate_quartet_diagnostic_only;20_PIS_and_below_threshold_Kribbella"
+    }
+  ]
+}

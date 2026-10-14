@@ -1,0 +1,9 @@
+{
+  "date": "2026-10-13",
+  "user_decision": "Include both MAGs in primary H2 trees only after agreed marker QC; repeat analysis without both MAGs",
+  "hosts": ["H0008", "H0275"],
+  "minimum_usable_single_copy_markers": 60,
+  "marker_total": 74,
+  "remaining_limitation": "binning, contamination and spanning reads not established; marker pass does not resolve these",
+  "provenance_note": "uncultured Paraburkholderia uses identifier-matching BioSample v2 SAMEA14037588; original SAMN14037588 response rejected"
+}

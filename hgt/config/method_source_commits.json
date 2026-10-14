@@ -1,0 +1,56 @@
+[
+  {
+    "repo": "SysBioChalmers/HGTphyloDetect",
+    "commit": "d4ff8c5dbdaf3b200e45dd57962dfb11776f43d7",
+    "candidate_files": [
+      "example/HGT_workflow.py",
+      "main/HGT_workflow_close.py",
+      "main/HGT_workflow_distant.py",
+      "main/blastp.py",
+      "phylogenetics/scripts/HGT_homologs_sequence.py"
+    ],
+    "retrieved_utc": "2026-10-13T11:12:11.939321+00:00"
+  },
+  {
+    "repo": "biobakery/waafle",
+    "commit": "fbf3679e39935d928eff1fcaa243456422056877",
+    "candidate_files": [
+      "demo/docs/demo.md",
+      "demo/docs/waafle_webfig1_for_wiki.png",
+      "demo/input/demo_contigs.fna",
+      "demo/input/demo_taxonomy.tsv",
+      "demo/input/demo_waafledb/demo_waafledb.nhr",
+      "demo/input/demo_waafledb/demo_waafledb.nin",
+      "demo/input/demo_waafledb/demo_waafledb.nsq",
+      "demo/output/demo_contigs.blastout",
+      "demo/output/demo_contigs.gff",
+      "demo/output/demo_contigs.lgt.tsv",
+      "demo/output/demo_contigs.no_lgt.tsv",
+      "demo/output/demo_contigs.unclassified.tsv",
+      "demo/output_prodigal/demo_contigs.prodigal.gff",
+      "demo/output_prodigal/demo_contigs.prodigal.lgt.tsv",
+      "demo/output_prodigal/demo_contigs.prodigal.no_lgt.tsv",
+      "demo/output_prodigal/demo_contigs.prodigal.unclassified.tsv",
+      "test/run_demo.sh"
+    ],
+    "retrieved_utc": "2026-10-13T11:12:11.898608+00:00"
+  },
+  {
+    "repo": "ssolo/ALE",
+    "commit": "b59dfaf3f00290bd29c606c569dde0d960211f02",
+    "candidate_files": [],
+    "retrieved_utc": "2026-10-13T11:12:11.965014+00:00"
+  },
+  {
+    "repo": "BenoitMorel/AleRax",
+    "commit": "97ae2ab2b363ece4734a5f1fd30577a578ce22b7",
+    "candidate_files": [],
+    "retrieved_utc": "2026-10-13T11:12:12.092774+00:00"
+  },
+  {
+    "repo": "biobakery/waafle",
+    "tag": "v1.0.0",
+    "commit": "52fc236506bcbd942aaf513975b63b2257d590c8",
+    "purpose": "Released fixture pilot"
+  }
+]

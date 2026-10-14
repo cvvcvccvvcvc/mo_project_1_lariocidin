@@ -1,0 +1,2 @@
+3.12.14 (main, Sep  2 2026, 23:27:36) [GCC 15.3.0]
+{'Bio': True, 'numpy': True, 'matplotlib': True, 'scipy': False}

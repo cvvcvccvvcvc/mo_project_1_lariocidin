@@ -1,0 +1,99 @@
+{
+  "genome_inputs": 320,
+  "publication_exports": 342,
+  "sequence_mappings": 589,
+  "gene_checks": 10436,
+  "physical_locus_occurrences": 228,
+  "parse_errors": 0,
+  "C_role_unassigned_exports": 0,
+  "lineages": {
+    "canonical": {
+      "exports": 164,
+      "statuses": {
+        "C_and_carrier_supported; context_requires_review": 4,
+        "whole_export_and_carrier_supported": 114,
+        "sequence_occurrence_without_primary_carrier": 36,
+        "not_resolved_in_frozen_genomes": 10
+      },
+      "C_sequence_and_carrier_confirmed": 118
+    },
+    "noncanonical": {
+      "exports": 174,
+      "statuses": {
+        "whole_export_and_carrier_supported": 129,
+        "not_resolved_in_frozen_genomes": 20,
+        "sequence_occurrence_without_primary_carrier": 25
+      },
+      "C_sequence_and_carrier_confirmed": 129
+    },
+    "uncertain_Nature_system": {
+      "exports": 4,
+      "statuses": {
+        "whole_export_and_carrier_supported": 4
+      },
+      "C_sequence_and_carrier_confirmed": 4
+    }
+  },
+  "DNA_check_statuses": {
+    "coding_DNA_differs_at_projected_coordinates": 1233,
+    "exact_coding_DNA": 9124,
+    "outside_source_contig": 79
+  },
+  "translation_check_statuses": {
+    "translation_mismatch_requires_review": 1150,
+    "exact_with_bacterial_initiator_M": 1097,
+    "exact_translation": 8108,
+    "not_checked": 79,
+    "no_published_translation": 2
+  },
+  "source_supported_exports": 251,
+  "source_genome_inputs": 203,
+  "source_physical_locus_occurrences": 205,
+  "source_mapping_count": 254,
+  "source_mapping_evidence": {
+    "C_DNA_exact_window_not_exact": 4,
+    "whole_export_exact": 250
+  },
+  "source_gene_checks": 4578,
+  "source_gene_translation_interpretation": {
+    "projected_coordinates_or_sequence_change_requires_review": 16,
+    "exact_with_bacterial_initiator_M": 818,
+    "exact_translation": 3658,
+    "export_boundary_truncation_possible_despite_exact_location_flags": 83,
+    "no_published_translation": 2,
+    "annotation_translation_requires_review": 1
+  },
+  "source_assembly_levels": {
+    "Complete Genome": 18,
+    "Contig": 63,
+    "Scaffold": 118,
+    "Chromosome": 3,
+    "single_complete_chromosome": 1
+  },
+  "source_min_N50": 8381,
+  "source_max_records": 1157,
+  "source_no_native_translations": [
+    "uncultured_paraburkholderia"
+  ],
+  "relative_selection_count": 104,
+  "relative_realised_roles": {
+    "taxonomic_relative_control": 103,
+    "published_carrier_recovered; retain_as_target": 1
+  },
+  "relative_sequence_identical_source_count": 5,
+  "B_candidates": {
+    "B1": {
+      "genes": 148,
+      "exports": 148,
+      "source_DNA_translation_confirmed": 104
+    },
+    "B2": {
+      "genes": 152,
+      "exports": 152,
+      "source_DNA_translation_confirmed": 108
+    }
+  },
+  "unique_export_sequences": 303,
+  "unique_C_protein_sequences": 233,
+  "source_edge_flags": 4
+}

@@ -1,0 +1,1097 @@
+{
+  "created_utc": "2026-10-13T12:18:18.239799+00:00",
+  "files": [
+    {
+      "origin": "projects/lariocidin/config/diversity_metadata_snapshots.zip",
+      "snapshot": "inputs/H1_2026-10-13/archives/diversity_metadata_snapshots.zip",
+      "bytes": 128741522,
+      "sha256": "a28e5f66c7e45e643fb1cfedaf90592407c9953d8d00b2c3d3e9f76a374d793f"
+    },
+    {
+      "origin": "projects/lariocidin/data/raw/s5_ncbi/carrier__burkholderia_imcc1007.gbff.gz",
+      "snapshot": "inputs/H1_2026-10-13/legacy_assemblies/carrier__burkholderia_imcc1007.gbff.gz",
+      "bytes": 6334714,
+      "sha256": "26f2714c4994b96c00e0d24519c65d4e8bf0a3189da4cabd0683216794375bf3"
+    },
+    {
+      "origin": "projects/lariocidin/data/raw/s5_ncbi/carrier__chitinasiproducens_palmae_js23.gbff.gz",
+      "snapshot": "inputs/H1_2026-10-13/legacy_assemblies/carrier__chitinasiproducens_palmae_js23.gbff.gz",
+      "bytes": 3810573,
+      "sha256": "c0a2fa14166ede0aec3dfceeb10154156bbda93cedf2008b4b02ee91634f5586"
+    },
+    {
+      "origin": "projects/lariocidin/data/raw/s5_ncbi/carrier__paraburkholderia_mimosarum_stm3621.gbff.gz",
+      "snapshot": "inputs/H1_2026-10-13/legacy_assemblies/carrier__paraburkholderia_mimosarum_stm3621.gbff.gz",
+      "bytes": 6449918,
+      "sha256": "1611a9780078302632b5c0a99d90ceb4b6f7d8794a4cf62b08628f98fd110c58"
+    },
+    {
+      "origin": "projects/lariocidin/data/raw/s5_ncbi/carrier__photorhabdus_asymbiotica_dsm15149.gbff.gz",
+      "snapshot": "inputs/H1_2026-10-13/legacy_assemblies/carrier__photorhabdus_asymbiotica_dsm15149.gbff.gz",
+      "bytes": 3628921,
+      "sha256": "bac9c0a265221ed8917c316304ba88920e4bdcbed236038efb96c3bec85d3bb5"
+    },
+    {
+      "origin": "projects/lariocidin/data/raw/s5_ncbi/carrier__photorhabdus_caribbeanensis_hg29.gbff.gz",
+      "snapshot": "inputs/H1_2026-10-13/legacy_assemblies/carrier__photorhabdus_caribbeanensis_hg29.gbff.gz",
+      "bytes": 3972071,
+      "sha256": "5e342f0acfd6a7fbdf868c8e4fd54eddb08cddc68d5ceb7739c4b6f28cde7e5a"
+    },
+    {
+      "origin": "projects/lariocidin/data/raw/s5_ncbi/carrier__photorhabdus_rw14.gbff.gz",
+      "snapshot": "inputs/H1_2026-10-13/legacy_assemblies/carrier__photorhabdus_rw14.gbff.gz",
+      "bytes": 3863510,
+      "sha256": "9b591d212949f9e793eb4f4308208a054eed1cddc7f9d1beb2aea14a4a27b356"
+    },
+    {
+      "origin": "projects/lariocidin/data/raw/s5_ncbi/carrier__ralstonia_pickettii_dtp0602.gbff.gz",
+      "snapshot": "inputs/H1_2026-10-13/legacy_assemblies/carrier__ralstonia_pickettii_dtp0602.gbff.gz",
+      "bytes": 5213482,
+      "sha256": "3e1e6e332225e3d846bf5273f6814804ca1149c1845f4afe330f71ef280db340"
+    },
+    {
+      "origin": "projects/lariocidin/data/raw/s5_ncbi/carrier__trinickia_acidisoli_4d114.gbff.gz",
+      "snapshot": "inputs/H1_2026-10-13/legacy_assemblies/carrier__trinickia_acidisoli_4d114.gbff.gz",
+      "bytes": 4570110,
+      "sha256": "f8b4a30a58d49bbf6ec7c785a1ed6061dd500647ab9048840fcce4015081ab1d"
+    },
+    {
+      "origin": "projects/lariocidin/data/raw/s5_ncbi/carrier__trinickia_caryophylli_nbrc13591.gbff.gz",
+      "snapshot": "inputs/H1_2026-10-13/legacy_assemblies/carrier__trinickia_caryophylli_nbrc13591.gbff.gz",
+      "bytes": 4805345,
+      "sha256": "41a4b8af8c3f5a6b48a97bcc07dcef242dedcd40f502b76ed15123cb9ca6010c"
+    },
+    {
+      "origin": "projects/lariocidin/data/raw/s5_ncbi/carrier__trinickia_symbiotica_jpy366.gbff.gz",
+      "snapshot": "inputs/H1_2026-10-13/legacy_assemblies/carrier__trinickia_symbiotica_jpy366.gbff.gz",
+      "bytes": 5136318,
+      "sha256": "1f0575a2e72e3770ee436874e28dd46294e338628895f2273e739fdb1d3d7e00"
+    },
+    {
+      "origin": "projects/lariocidin/data/raw/s5_ncbi/carrier__uncultured_paraburkholderia.gbff.gz",
+      "snapshot": "inputs/H1_2026-10-13/legacy_assemblies/carrier__uncultured_paraburkholderia.gbff.gz",
+      "bytes": 2704536,
+      "sha256": "ad513b8bb2dd80f56bed34ff87886b547ffb1187a084e1c680c541a60d7dbe32"
+    },
+    {
+      "origin": "projects/lariocidin/data/raw/s5_ncbi/carrier__xenorhabdus_bovienii_mc235.gbff.gz",
+      "snapshot": "inputs/H1_2026-10-13/legacy_assemblies/carrier__xenorhabdus_bovienii_mc235.gbff.gz",
+      "bytes": 3552868,
+      "sha256": "f9a3f5940d6198404ddd82cd3c533a1ff50739093bae42ec6f0a320f4506b1ab"
+    },
+    {
+      "origin": "projects/lariocidin/data/raw/s5_ncbi/carrier__xenorhabdus_budapestensis_c72.gbff.gz",
+      "snapshot": "inputs/H1_2026-10-13/legacy_assemblies/carrier__xenorhabdus_budapestensis_c72.gbff.gz",
+      "bytes": 3130861,
+      "sha256": "3540d9bab7852e5019c9bec7d9aebd9663d2681aac84813481d3c61246098937"
+    },
+    {
+      "origin": "projects/lariocidin/data/raw/s5_ncbi/carrier__xenorhabdus_innexi_dsm16336.gbff.gz",
+      "snapshot": "inputs/H1_2026-10-13/legacy_assemblies/carrier__xenorhabdus_innexi_dsm16336.gbff.gz",
+      "bytes": 3589964,
+      "sha256": "35b4b69119d66e8566d2c20dfa00761224139069ff582bf87fdc281664b35f1a"
+    },
+    {
+      "origin": "projects/lariocidin/data/raw/s5_ncbi/control__paraburkholderia_mimosarum_stm3621.gbff.gz",
+      "snapshot": "inputs/H1_2026-10-13/legacy_assemblies/control__paraburkholderia_mimosarum_stm3621.gbff.gz",
+      "bytes": 6300369,
+      "sha256": "5f6b8a00f080eb14365ed42564db21c2dc731db5aca4b1f3d97a3ec562a10635"
+    },
+    {
+      "origin": "projects/lariocidin/data/raw/s5_ncbi/control__photorhabdus_asymbiotica_dsm15149.gbff.gz",
+      "snapshot": "inputs/H1_2026-10-13/legacy_assemblies/control__photorhabdus_asymbiotica_dsm15149.gbff.gz",
+      "bytes": 3618138,
+      "sha256": "f46409730e0247a5b3d12011a444770d5dd91d1118f1c85d53084c843a88e2b0"
+    },
+    {
+      "origin": "projects/lariocidin/data/raw/s5_ncbi/control__photorhabdus_caribbeanensis_hg29.gbff.gz",
+      "snapshot": "inputs/H1_2026-10-13/legacy_assemblies/control__photorhabdus_caribbeanensis_hg29.gbff.gz",
+      "bytes": 3792777,
+      "sha256": "5e61bece8092b64889a64f72d0b8e53c4ca3e9009fbc7bc43f055b72f0d4dc73"
+    },
+    {
+      "origin": "projects/lariocidin/data/raw/s5_ncbi/control__ralstonia_pickettii_dtp0602.gbff.gz",
+      "snapshot": "inputs/H1_2026-10-13/legacy_assemblies/control__ralstonia_pickettii_dtp0602.gbff.gz",
+      "bytes": 3857478,
+      "sha256": "097e415aa45872108f60372d9d198b26a1a4a2c38f8e52dec049d83a1351e2a2"
+    },
+    {
+      "origin": "projects/lariocidin/data/raw/s5_ncbi/control__trinickia_caryophylli_nbrc13591.gbff.gz",
+      "snapshot": "inputs/H1_2026-10-13/legacy_assemblies/control__trinickia_caryophylli_nbrc13591.gbff.gz",
+      "bytes": 4781841,
+      "sha256": "26353172a72b4e293300ddae7fed069488a252dd9b5f03acd940a85c160e9c40"
+    },
+    {
+      "origin": "projects/lariocidin/data/raw/s5_ncbi/control__trinickia_symbiotica_jpy366.gbff.gz",
+      "snapshot": "inputs/H1_2026-10-13/legacy_assemblies/control__trinickia_symbiotica_jpy366.gbff.gz",
+      "bytes": 4946908,
+      "sha256": "66559f627b3472091d69502d35474f1b7716f55843ace5b6206eefdb2393f933"
+    },
+    {
+      "origin": "projects/lariocidin/data/raw/s5_ncbi/control__xenorhabdus_bovienii_mc235.gbff.gz",
+      "snapshot": "inputs/H1_2026-10-13/legacy_assemblies/control__xenorhabdus_bovienii_mc235.gbff.gz",
+      "bytes": 3361828,
+      "sha256": "42dacaab60313bc4e03af7066f82777d09b283bf226c514c29826e6ce5d61497"
+    },
+    {
+      "origin": "projects/lariocidin/data/raw/s5_ncbi/control__xenorhabdus_budapestensis_c72.gbff.gz",
+      "snapshot": "inputs/H1_2026-10-13/legacy_assemblies/control__xenorhabdus_budapestensis_c72.gbff.gz",
+      "bytes": 3234973,
+      "sha256": "45eb3add0da803545c2283fc890350d4c0a6bff52aea30f80bf4f30f424db285"
+    },
+    {
+      "origin": "projects/lariocidin/data/raw/s5_ncbi/control__xenorhabdus_innexi_dsm16336.gbff.gz",
+      "snapshot": "inputs/H1_2026-10-13/legacy_assemblies/control__xenorhabdus_innexi_dsm16336.gbff.gz",
+      "bytes": 3288112,
+      "sha256": "d85675eb752d9f7d8f464d0c57c551279cd9d6dc81bb70e0cbb3ba696c630652"
+    },
+    {
+      "origin": "archives/diversity_metadata_snapshots.zip::data/raw/diversity_2026-10-12/GCA_002569665.1__assembly_summary.json",
+      "snapshot": "inputs/H1_2026-10-13/reference_metadata/GCA_002569665.1__assembly_summary.json",
+      "bytes": 4319,
+      "sha256": "d277b2793673804f2df591457261f66ea366c84b314ffeae0dbdba6215954e26"
+    },
+    {
+      "origin": "archives/diversity_metadata_snapshots.zip::data/raw/diversity_2026-10-12/GCA_002572225.1__assembly_summary.json",
+      "snapshot": "inputs/H1_2026-10-13/reference_metadata/GCA_002572225.1__assembly_summary.json",
+      "bytes": 4321,
+      "sha256": "d53060a9bf49e0c6d0d7e448361d6ebbb5eb9eeb9b724eb5b12de0317c013040"
+    },
+    {
+      "origin": "archives/diversity_metadata_snapshots.zip::data/raw/diversity_2026-10-12/GCA_002582335.1__assembly_summary.json",
+      "snapshot": "inputs/H1_2026-10-13/reference_metadata/GCA_002582335.1__assembly_summary.json",
+      "bytes": 4320,
+      "sha256": "3eb84468aaed5f947ff60c8d8cdabb28bb2d866f73c28b1e2e49be69f9dbeb3d"
+    },
+    {
+      "origin": "archives/diversity_metadata_snapshots.zip::data/raw/diversity_2026-10-12/WP_176544197.1__ipg.tsv",
+      "snapshot": "inputs/H1_2026-10-13/reference_metadata/WP_176544197.1__ipg.tsv",
+      "bytes": 663,
+      "sha256": "fe4734df299e635e1973776494c48f1901b8114d8b00c4ac1c5ac127bdb42b96"
+    },
+    {
+      "origin": "archives/diversity_metadata_snapshots.zip::data/raw/diversity_2026-10-12/WP_176547010.1__ipg.tsv",
+      "snapshot": "inputs/H1_2026-10-13/reference_metadata/WP_176547010.1__ipg.tsv",
+      "bytes": 192,
+      "sha256": "98c714eec87d91bdf62bd056f242f6950e7b4e6db16471b16aab268dfbcf7e97"
+    },
+    {
+      "origin": "archives/diversity_metadata_snapshots.zip::data/raw/diversity_2026-10-12/refseq_bacterial_assembly_summary.txt",
+      "snapshot": "inputs/H1_2026-10-13/reference_metadata/refseq_bacterial_assembly_summary.txt",
+      "bytes": 240673304,
+      "sha256": "3e620e61ebca0d2abcaac8b508c1893d6e59211f6259a3d6f34bf68f96695358"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample__burkholderia_imcc1007.xml",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample__burkholderia_imcc1007.xml",
+      "bytes": 1968,
+      "sha256": "dc3197923f4b913fdfd32a160616d9005f1e28f7f1d6472fc995f4eaec09b01b"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample__chitinasiproducens_palmae_js23.xml",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample__chitinasiproducens_palmae_js23.xml",
+      "bytes": 2991,
+      "sha256": "935e4cd0282851dd72fe58e795cbe5da5b6d72ddb5b48b6fa3009aff86e2f1a1"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample__control__paraburkholderia_mimosarum_stm3621.xml",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample__control__paraburkholderia_mimosarum_stm3621.xml",
+      "bytes": 3230,
+      "sha256": "4b740ce206da58d5fa450e5b0f2f315f19e3712a3b98bd92fa1ead1149e9a817"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample__control__photorhabdus_asymbiotica_dsm15149.xml",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample__control__photorhabdus_asymbiotica_dsm15149.xml",
+      "bytes": 2992,
+      "sha256": "c5c8783a80b7ad1a16c882060be4702e4b61fbd7aa3afd71aa0021337edb784a"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample__control__photorhabdus_caribbeanensis_hg29.xml",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample__control__photorhabdus_caribbeanensis_hg29.xml",
+      "bytes": 1963,
+      "sha256": "2d8a6abf109e232844ca6e6d4980f8f0dbb92efce2c9dd89b863055d16525f09"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample__control__ralstonia_pickettii_dtp0602.xml",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample__control__ralstonia_pickettii_dtp0602.xml",
+      "bytes": 1748,
+      "sha256": "df95cab1bb6b3b20704e9885181485e3fb224b9f36bc3aa52cbc73c2133399c5"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample__control__trinickia_caryophylli_nbrc13591.xml",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample__control__trinickia_caryophylli_nbrc13591.xml",
+      "bytes": 2929,
+      "sha256": "d9b8565a6dc31dd3bc9db85c6b49bae04ea3c8ad68a821fdb00f562133bccf78"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample__control__trinickia_symbiotica_jpy366.xml",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample__control__trinickia_symbiotica_jpy366.xml",
+      "bytes": 2953,
+      "sha256": "a4cd46b34cd9160bb267cc3ca09ae123b7ba353e288d38f8ae9cf844e45dcee0"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample__control__xenorhabdus_bovienii_mc235.xml",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample__control__xenorhabdus_bovienii_mc235.xml",
+      "bytes": 2607,
+      "sha256": "532abc60548e4f17cf94d024791d4619cd91378040cd737050ef32e11c2d7f85"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample__control__xenorhabdus_budapestensis_c72.xml",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample__control__xenorhabdus_budapestensis_c72.xml",
+      "bytes": 1820,
+      "sha256": "1d0d2a67aa6c8e2c80fb61100cc0d110c1aeee8c0e62f2adcb747e0aba038f8a"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample__control__xenorhabdus_innexi_dsm16336.xml",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample__control__xenorhabdus_innexi_dsm16336.xml",
+      "bytes": 2550,
+      "sha256": "06f370e53f6932b9af8b37a22e8a7170fc9dd2afb11e7cc93d324ae23709743c"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample__paraburkholderia_mimosarum_stm3621.xml",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample__paraburkholderia_mimosarum_stm3621.xml",
+      "bytes": 2993,
+      "sha256": "d5514d300af08bf99b558db4df85de66139126333586bb655aba96cc5349dc9f"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample__photorhabdus_asymbiotica_dsm15149.xml",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample__photorhabdus_asymbiotica_dsm15149.xml",
+      "bytes": 3119,
+      "sha256": "6fb5bb42cca1d24d236d55788aad3aa74d9fc05abd3209bd1c7bc03d381a3f4a"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample__photorhabdus_caribbeanensis_hg29.xml",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample__photorhabdus_caribbeanensis_hg29.xml",
+      "bytes": 1898,
+      "sha256": "2b2c0f3b1bdcc9e97568d888aad98aa77446e4c112b6e71869638621315f4fe1"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample__photorhabdus_rw14.xml",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample__photorhabdus_rw14.xml",
+      "bytes": 1926,
+      "sha256": "c6fdb04bb739ef7bb4dec9c1f7394dfac9de2e7d9056ad67651852657ee56d63"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample__ralstonia_pickettii_dtp0602.xml",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample__ralstonia_pickettii_dtp0602.xml",
+      "bytes": 1401,
+      "sha256": "89a819409477ccd452d27f3ec7ed8684818d9966eb200ffd82fa266dd4d83134"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample__trinickia_acidisoli_4d114.xml",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample__trinickia_acidisoli_4d114.xml",
+      "bytes": 2941,
+      "sha256": "8a082e703e60c809fe9554a0a3a133b713bea0cf1a266f436583facdb6c90237"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample__trinickia_caryophylli_nbrc13591.xml",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample__trinickia_caryophylli_nbrc13591.xml",
+      "bytes": 2957,
+      "sha256": "608e8e36cf35fc73c3626a63bbe1fd495a99fe67254e25aefc927bc93718df87"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample__trinickia_symbiotica_jpy366.xml",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample__trinickia_symbiotica_jpy366.xml",
+      "bytes": 2843,
+      "sha256": "28dbc1f0296b575160cb7e883c6da9020d02828ba573cdffc8762a2a33cfa2b1"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample__uncultured_paraburkholderia.xml",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample__uncultured_paraburkholderia.xml",
+      "bytes": 3591,
+      "sha256": "bd7af0d0439a368b6b10a84a9f12d747456c052e7c9178e4072e550ed9d1e19d"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample__xenorhabdus_bovienii_mc235.xml",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample__xenorhabdus_bovienii_mc235.xml",
+      "bytes": 2539,
+      "sha256": "4daf99bdb70cb5f50cf6b326e210ef889b682d56f97824e096c7b3458b22722b"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample__xenorhabdus_budapestensis_c72.xml",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample__xenorhabdus_budapestensis_c72.xml",
+      "bytes": 1801,
+      "sha256": "d9720fe0323614e87d3592347c34d8684922968cc31f0b9727a8f188455e117b"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample__xenorhabdus_innexi_dsm16336.xml",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample__xenorhabdus_innexi_dsm16336.xml",
+      "bytes": 1956,
+      "sha256": "1651300be48a647912be5f58f0a77b90dc991de4ca33332425575032b0ace87e"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample_search__burkholderia_imcc1007.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample_search__burkholderia_imcc1007.json",
+      "bytes": 301,
+      "sha256": "03150d7e073bf099ddb2e8915ee7b8e612d374a9e6f8899d361fc5eb1100cd8d"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample_search__chitinasiproducens_palmae_js23.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample_search__chitinasiproducens_palmae_js23.json",
+      "bytes": 300,
+      "sha256": "1b5c1f850c74f91ebf3d53df391822f9090e9fa0957f24d55c8688379069135c"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample_search__control__paraburkholderia_mimosarum_stm3621.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample_search__control__paraburkholderia_mimosarum_stm3621.json",
+      "bytes": 300,
+      "sha256": "65574aefc63dbf48a956c672f989e03fdcc43abd819b93eb9688cb4dcf95ab73"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample_search__control__photorhabdus_asymbiotica_dsm15149.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample_search__control__photorhabdus_asymbiotica_dsm15149.json",
+      "bytes": 300,
+      "sha256": "d6e3ea46977f2fa07f0fc519646c31d329ee17ef7a011c8f9e8ad650857462a0"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample_search__control__photorhabdus_caribbeanensis_hg29.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample_search__control__photorhabdus_caribbeanensis_hg29.json",
+      "bytes": 301,
+      "sha256": "6ddc96e0ca34a08fe795d5b446bef6a658575308c9c0932035d7975e90f108ca"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample_search__control__ralstonia_pickettii_dtp0602.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample_search__control__ralstonia_pickettii_dtp0602.json",
+      "bytes": 301,
+      "sha256": "e2cd9ae47a14b3860370403757e282d4ecab6df3dbf52aabfc3ebfe435b575d7"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample_search__control__trinickia_caryophylli_nbrc13591.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample_search__control__trinickia_caryophylli_nbrc13591.json",
+      "bytes": 301,
+      "sha256": "162f193d309d4ad8ffe426f79ff01be4f3d72307f1b6ae35443eee49b556dee8"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample_search__control__trinickia_symbiotica_jpy366.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample_search__control__trinickia_symbiotica_jpy366.json",
+      "bytes": 300,
+      "sha256": "9144eb2294e8caacd1fcf868e7ebd978f6e9084d5b6ba6c93e3811b68e3033e2"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample_search__control__xenorhabdus_bovienii_mc235.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample_search__control__xenorhabdus_bovienii_mc235.json",
+      "bytes": 301,
+      "sha256": "0b3c3194926cd0f3a16b00f660bce02213bae223fdd3b09ea007b1f3bb545011"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample_search__control__xenorhabdus_budapestensis_c72.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample_search__control__xenorhabdus_budapestensis_c72.json",
+      "bytes": 301,
+      "sha256": "71db7832b660960f381368da9c06598d480445620a265caa8783e1622adfed50"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample_search__control__xenorhabdus_innexi_dsm16336.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample_search__control__xenorhabdus_innexi_dsm16336.json",
+      "bytes": 302,
+      "sha256": "32a6453e756cf26b1f7dfefe2c459f4cb780ef76ad549b889a4f885fb7444b34"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample_search__paraburkholderia_mimosarum_stm3621.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample_search__paraburkholderia_mimosarum_stm3621.json",
+      "bytes": 300,
+      "sha256": "78facab548abd3dc398f03691aabadf79d1672726f269c0969c6674857e8a2b0"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample_search__photorhabdus_asymbiotica_dsm15149.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample_search__photorhabdus_asymbiotica_dsm15149.json",
+      "bytes": 300,
+      "sha256": "6f3a2d95ce29fce0e588133277e1af0266cf6836166fc6a0c35eb85ca073967f"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample_search__photorhabdus_caribbeanensis_hg29.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample_search__photorhabdus_caribbeanensis_hg29.json",
+      "bytes": 301,
+      "sha256": "0cac4572d01738b4f0efdef0622e43c1900a50834ec3f40b11c32b723b6c07c2"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample_search__photorhabdus_rw14.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample_search__photorhabdus_rw14.json",
+      "bytes": 300,
+      "sha256": "d74431b1b0f8dffea575b7e664d5fa32133b0d6582f3833824bf52efcb9967a0"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample_search__ralstonia_pickettii_dtp0602.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample_search__ralstonia_pickettii_dtp0602.json",
+      "bytes": 300,
+      "sha256": "88437f3aedddd3893d6a214c58f9a74e485d4ea69409257a03140df20fc2040c"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample_search__trinickia_acidisoli_4d114.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample_search__trinickia_acidisoli_4d114.json",
+      "bytes": 301,
+      "sha256": "0a76b4f3cfbd23e17bdceddd1f40cc0764e5dcdb8a627c3d1ad5caa4aa5525f7"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample_search__trinickia_caryophylli_nbrc13591.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample_search__trinickia_caryophylli_nbrc13591.json",
+      "bytes": 301,
+      "sha256": "6d8c5c1b303c22ee5d9aac1f41bf1fba8388551bfd5c06c81471d7440fdbe3df"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample_search__trinickia_symbiotica_jpy366.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample_search__trinickia_symbiotica_jpy366.json",
+      "bytes": 300,
+      "sha256": "b626906c89cd1a8efc5e31f771f5608dd14b4cdfe4582dc135cb3fcd3efcadfd"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample_search__uncultured_paraburkholderia.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample_search__uncultured_paraburkholderia.json",
+      "bytes": 303,
+      "sha256": "c06e264daf9562020bc06f1e79f7733582c97ea4418185d47503292213c1ace1"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample_search__xenorhabdus_bovienii_mc235.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample_search__xenorhabdus_bovienii_mc235.json",
+      "bytes": 301,
+      "sha256": "464ba6c35ad05c1ec4209af7d4ab20a8786737b3cccbff33dd21519a39701eb6"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample_search__xenorhabdus_budapestensis_c72.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample_search__xenorhabdus_budapestensis_c72.json",
+      "bytes": 301,
+      "sha256": "c552ab269f89720261c13febcd65b822580425f0b9215f98420fc56facacff96"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample_search__xenorhabdus_innexi_dsm16336.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample_search__xenorhabdus_innexi_dsm16336.json",
+      "bytes": 300,
+      "sha256": "7c6de1cc70de86cc8264cb56d2ad47f0b3ab53a638dfec4c3a9ee419b7874015"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample_v2__burkholderia_imcc1007.xml",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample_v2__burkholderia_imcc1007.xml",
+      "bytes": 1968,
+      "sha256": "dc3197923f4b913fdfd32a160616d9005f1e28f7f1d6472fc995f4eaec09b01b"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample_v2__chitinasiproducens_palmae_js23.xml",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample_v2__chitinasiproducens_palmae_js23.xml",
+      "bytes": 2991,
+      "sha256": "935e4cd0282851dd72fe58e795cbe5da5b6d72ddb5b48b6fa3009aff86e2f1a1"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample_v2__control__paraburkholderia_mimosarum_stm3621.xml",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample_v2__control__paraburkholderia_mimosarum_stm3621.xml",
+      "bytes": 3230,
+      "sha256": "4b740ce206da58d5fa450e5b0f2f315f19e3712a3b98bd92fa1ead1149e9a817"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample_v2__control__photorhabdus_asymbiotica_dsm15149.xml",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample_v2__control__photorhabdus_asymbiotica_dsm15149.xml",
+      "bytes": 1989,
+      "sha256": "1d21b3d0c33aa41d0056f1b26374ae81b4338cb698d633ccac499354c526001f"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample_v2__control__photorhabdus_caribbeanensis_hg29.xml",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample_v2__control__photorhabdus_caribbeanensis_hg29.xml",
+      "bytes": 1963,
+      "sha256": "2d8a6abf109e232844ca6e6d4980f8f0dbb92efce2c9dd89b863055d16525f09"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample_v2__control__ralstonia_pickettii_dtp0602.xml",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample_v2__control__ralstonia_pickettii_dtp0602.xml",
+      "bytes": 2949,
+      "sha256": "2404da1735e3133f2a8d8bf1ee22f53e3e8052c4f9baac63f2727205f48fde88"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample_v2__control__trinickia_caryophylli_nbrc13591.xml",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample_v2__control__trinickia_caryophylli_nbrc13591.xml",
+      "bytes": 2929,
+      "sha256": "d9b8565a6dc31dd3bc9db85c6b49bae04ea3c8ad68a821fdb00f562133bccf78"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample_v2__control__trinickia_symbiotica_jpy366.xml",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample_v2__control__trinickia_symbiotica_jpy366.xml",
+      "bytes": 2953,
+      "sha256": "a4cd46b34cd9160bb267cc3ca09ae123b7ba353e288d38f8ae9cf844e45dcee0"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample_v2__control__xenorhabdus_bovienii_mc235.xml",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample_v2__control__xenorhabdus_bovienii_mc235.xml",
+      "bytes": 2607,
+      "sha256": "532abc60548e4f17cf94d024791d4619cd91378040cd737050ef32e11c2d7f85"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample_v2__control__xenorhabdus_budapestensis_c72.xml",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample_v2__control__xenorhabdus_budapestensis_c72.xml",
+      "bytes": 1820,
+      "sha256": "1d0d2a67aa6c8e2c80fb61100cc0d110c1aeee8c0e62f2adcb747e0aba038f8a"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample_v2__control__xenorhabdus_innexi_dsm16336.xml",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample_v2__control__xenorhabdus_innexi_dsm16336.xml",
+      "bytes": 2862,
+      "sha256": "397da7aa124e131a7bc2e6a94d5482a62ad5bec37f92e592b49526e4b194dffa"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample_v2__paraburkholderia_mimosarum_stm3621.xml",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample_v2__paraburkholderia_mimosarum_stm3621.xml",
+      "bytes": 2993,
+      "sha256": "d5514d300af08bf99b558db4df85de66139126333586bb655aba96cc5349dc9f"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample_v2__photorhabdus_asymbiotica_dsm15149.xml",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample_v2__photorhabdus_asymbiotica_dsm15149.xml",
+      "bytes": 3119,
+      "sha256": "6fb5bb42cca1d24d236d55788aad3aa74d9fc05abd3209bd1c7bc03d381a3f4a"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample_v2__photorhabdus_caribbeanensis_hg29.xml",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample_v2__photorhabdus_caribbeanensis_hg29.xml",
+      "bytes": 1898,
+      "sha256": "2b2c0f3b1bdcc9e97568d888aad98aa77446e4c112b6e71869638621315f4fe1"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample_v2__photorhabdus_rw14.xml",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample_v2__photorhabdus_rw14.xml",
+      "bytes": 1926,
+      "sha256": "c6fdb04bb739ef7bb4dec9c1f7394dfac9de2e7d9056ad67651852657ee56d63"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample_v2__ralstonia_pickettii_dtp0602.xml",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample_v2__ralstonia_pickettii_dtp0602.xml",
+      "bytes": 1401,
+      "sha256": "89a819409477ccd452d27f3ec7ed8684818d9966eb200ffd82fa266dd4d83134"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample_v2__trinickia_acidisoli_4d114.xml",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample_v2__trinickia_acidisoli_4d114.xml",
+      "bytes": 2941,
+      "sha256": "8a082e703e60c809fe9554a0a3a133b713bea0cf1a266f436583facdb6c90237"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample_v2__trinickia_caryophylli_nbrc13591.xml",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample_v2__trinickia_caryophylli_nbrc13591.xml",
+      "bytes": 3424,
+      "sha256": "33aa7d49537abeca5ac33b1a87f47c630fee53a9aecbc0edf2313fa26105b588"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample_v2__trinickia_symbiotica_jpy366.xml",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample_v2__trinickia_symbiotica_jpy366.xml",
+      "bytes": 2843,
+      "sha256": "28dbc1f0296b575160cb7e883c6da9020d02828ba573cdffc8762a2a33cfa2b1"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample_v2__uncultured_paraburkholderia.xml",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample_v2__uncultured_paraburkholderia.xml",
+      "bytes": 5039,
+      "sha256": "c91b4f226e0efc2ce463fa15a4e8e3bca4b1775845e4a86e46c90e1264c302c1"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample_v2__xenorhabdus_bovienii_mc235.xml",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample_v2__xenorhabdus_bovienii_mc235.xml",
+      "bytes": 2539,
+      "sha256": "4daf99bdb70cb5f50cf6b326e210ef889b682d56f97824e096c7b3458b22722b"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample_v2__xenorhabdus_budapestensis_c72.xml",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample_v2__xenorhabdus_budapestensis_c72.xml",
+      "bytes": 1801,
+      "sha256": "d9720fe0323614e87d3592347c34d8684922968cc31f0b9727a8f188455e117b"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/biosample_v2__xenorhabdus_innexi_dsm16336.xml",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/biosample_v2__xenorhabdus_innexi_dsm16336.xml",
+      "bytes": 1956,
+      "sha256": "1651300be48a647912be5f58f0a77b90dc991de4ca33332425575032b0ace87e"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/burkholderia_imcc1007__assembly_link.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/burkholderia_imcc1007__assembly_link.json",
+      "bytes": 185,
+      "sha256": "2bac473d9045604dff975944f40a38931e19f2e6a9ddedf6f46d9d136e5d84cf"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/burkholderia_imcc1007__assembly_link_0.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/burkholderia_imcc1007__assembly_link_0.json",
+      "bytes": 185,
+      "sha256": "2bac473d9045604dff975944f40a38931e19f2e6a9ddedf6f46d9d136e5d84cf"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/burkholderia_imcc1007__assembly_summary.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/burkholderia_imcc1007__assembly_summary.json",
+      "bytes": 4371,
+      "sha256": "9b149122ffebd90da53da43eed82037b28292736baf0d21c39cecb9786bb7d64"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/burkholderia_imcc1007__nuccore_search.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/burkholderia_imcc1007__nuccore_search.json",
+      "bytes": 315,
+      "sha256": "73083a2a571682d417cfe78366e49f09f70162ec8c34be4cc43a189fbd5e9c48"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/chitinasiproducens_palmae_js23__assembly_link.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/chitinasiproducens_palmae_js23__assembly_link.json",
+      "bytes": 183,
+      "sha256": "6b0608e66396ea1a6fc53ba75b9a869a56a60348056cefd8e6934973c1dbea7a"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/chitinasiproducens_palmae_js23__assembly_link_0.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/chitinasiproducens_palmae_js23__assembly_link_0.json",
+      "bytes": 183,
+      "sha256": "6b0608e66396ea1a6fc53ba75b9a869a56a60348056cefd8e6934973c1dbea7a"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/chitinasiproducens_palmae_js23__assembly_summary.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/chitinasiproducens_palmae_js23__assembly_summary.json",
+      "bytes": 4795,
+      "sha256": "4b9e99cdb4516a7899e5f253a0a8c87e526375c40ff0a8c6373fa20d466e8a57"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/chitinasiproducens_palmae_js23__nuccore_search.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/chitinasiproducens_palmae_js23__nuccore_search.json",
+      "bytes": 309,
+      "sha256": "0667573d5595bf224596fd18242e5294c3551b426480cdeef4c4ba2dc370cfe7"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/chitinasiproducens_palmae_js23__species_assembly_search.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/chitinasiproducens_palmae_js23__species_assembly_search.json",
+      "bytes": 369,
+      "sha256": "37b72e269622c14ba887520967eb784d758201ef00b097bee0f882cec6872c90"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/chitinasiproducens_palmae_js23__species_assembly_search_v2.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/chitinasiproducens_palmae_js23__species_assembly_search_v2.json",
+      "bytes": 422,
+      "sha256": "4368a6454520985971454989ad84bf3e092110415db6affdb3f6379907d5a0ce"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/chitinasiproducens_palmae_js23__species_v2__assembly_summary.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/chitinasiproducens_palmae_js23__species_v2__assembly_summary.json",
+      "bytes": 4795,
+      "sha256": "4b9e99cdb4516a7899e5f253a0a8c87e526375c40ff0a8c6373fa20d466e8a57"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/paraburkholderia_mimosarum_stm3621__assembly_link.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/paraburkholderia_mimosarum_stm3621__assembly_link.json",
+      "bytes": 181,
+      "sha256": "a92d9605c23f03b49c21bbee9d072b9f2a2b4d3d824c7bcd42c0ada743110daa"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/paraburkholderia_mimosarum_stm3621__assembly_link_0.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/paraburkholderia_mimosarum_stm3621__assembly_link_0.json",
+      "bytes": 181,
+      "sha256": "a92d9605c23f03b49c21bbee9d072b9f2a2b4d3d824c7bcd42c0ada743110daa"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/paraburkholderia_mimosarum_stm3621__assembly_summary.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/paraburkholderia_mimosarum_stm3621__assembly_summary.json",
+      "bytes": 4320,
+      "sha256": "f9b1f2c46f94405c2ec1f4cb723dabd7eb4e0cc8b9353fafe6c1dc1e702771d1"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/paraburkholderia_mimosarum_stm3621__nuccore_search.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/paraburkholderia_mimosarum_stm3621__nuccore_search.json",
+      "bytes": 308,
+      "sha256": "4065fedc0940a66845f2528f3ead1794f794cb014591291a9d920280097e5dbd"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/paraburkholderia_mimosarum_stm3621__species_assembly_search.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/paraburkholderia_mimosarum_stm3621__species_assembly_search.json",
+      "bytes": 371,
+      "sha256": "9faddfd479ff861436d9e9f0400c2e946bde7a3f2631ccb9775c12f16ef32f2b"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/paraburkholderia_mimosarum_stm3621__species_assembly_search_v2.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/paraburkholderia_mimosarum_stm3621__species_assembly_search_v2.json",
+      "bytes": 461,
+      "sha256": "64146cdc9e2013af924ed2c43f849dc558f568b87ac1385446a6232470e44ca2"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/paraburkholderia_mimosarum_stm3621__species_v2__assembly_summary.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/paraburkholderia_mimosarum_stm3621__species_v2__assembly_summary.json",
+      "bytes": 21735,
+      "sha256": "86bf264e8a348f20dbe55a8a216dd37cf89afc23e4428fda3992879d1cbc6e07"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/photorhabdus_asymbiotica_dsm15149__assembly_link.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/photorhabdus_asymbiotica_dsm15149__assembly_link.json",
+      "bytes": 264,
+      "sha256": "2c629f2b38a340623301ac3d5e525ebe9d2c31a995a1072d1b605762fa6305f3"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/photorhabdus_asymbiotica_dsm15149__assembly_link_0.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/photorhabdus_asymbiotica_dsm15149__assembly_link_0.json",
+      "bytes": 264,
+      "sha256": "2c629f2b38a340623301ac3d5e525ebe9d2c31a995a1072d1b605762fa6305f3"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/photorhabdus_asymbiotica_dsm15149__assembly_summary.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/photorhabdus_asymbiotica_dsm15149__assembly_summary.json",
+      "bytes": 4443,
+      "sha256": "34f3fbfbe6228b94a9f619baac025d96f58ccf808b7f25fc9c517620c4258940"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/photorhabdus_asymbiotica_dsm15149__nuccore_search.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/photorhabdus_asymbiotica_dsm15149__nuccore_search.json",
+      "bytes": 303,
+      "sha256": "f756c6611d524d43a9d48c2c87695088de4fe2511eebcda0c32c8ede58480e39"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/photorhabdus_asymbiotica_dsm15149__species_assembly_search.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/photorhabdus_asymbiotica_dsm15149__species_assembly_search.json",
+      "bytes": 367,
+      "sha256": "b86909c27a3f7c5baca66a2adadf4c635ed77dde7a3abdd5bc3feabdf9325eef"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/photorhabdus_asymbiotica_dsm15149__species_assembly_search_v2.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/photorhabdus_asymbiotica_dsm15149__species_assembly_search_v2.json",
+      "bytes": 485,
+      "sha256": "ed3834caa4d145da7d4694dca12a11c3ce8545ab3eda9c577a736be187a59135"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/photorhabdus_asymbiotica_dsm15149__species_v2__assembly_summary.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/photorhabdus_asymbiotica_dsm15149__species_v2__assembly_summary.json",
+      "bytes": 30441,
+      "sha256": "7c28a1a8c027cb4cf0f20019e857bdf463b9a6132fa14f950ff06bfc03551d63"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/photorhabdus_caribbeanensis_hg29__assembly_link.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/photorhabdus_caribbeanensis_hg29__assembly_link.json",
+      "bytes": 185,
+      "sha256": "87b22dae902fd5558ff00d568fe4f1c3c37752b10113d608adfe34a0d80dbe6d"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/photorhabdus_caribbeanensis_hg29__assembly_link_0.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/photorhabdus_caribbeanensis_hg29__assembly_link_0.json",
+      "bytes": 185,
+      "sha256": "87b22dae902fd5558ff00d568fe4f1c3c37752b10113d608adfe34a0d80dbe6d"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/photorhabdus_caribbeanensis_hg29__assembly_summary.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/photorhabdus_caribbeanensis_hg29__assembly_summary.json",
+      "bytes": 4441,
+      "sha256": "c402eeef61dea02c9ec17975174d086924f697cabf7e2cffc02892f17b517581"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/photorhabdus_caribbeanensis_hg29__nuccore_search.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/photorhabdus_caribbeanensis_hg29__nuccore_search.json",
+      "bytes": 309,
+      "sha256": "34a86192024d2d9975a4aa3c2949b54fef84d9e632bdbe863f604c2f31888c3c"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/photorhabdus_caribbeanensis_hg29__species_assembly_search.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/photorhabdus_caribbeanensis_hg29__species_assembly_search.json",
+      "bytes": 373,
+      "sha256": "2621f88f5d1b16a174236735ed08ab6c1b6f1d498426aa5740a8891b3d9a62d8"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/photorhabdus_caribbeanensis_hg29__species_assembly_search_v2.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/photorhabdus_caribbeanensis_hg29__species_assembly_search_v2.json",
+      "bytes": 450,
+      "sha256": "267759e0d6fd9844fb8588853e88147552fea5c79c3a839b7b4bf158a1e35a2c"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/photorhabdus_caribbeanensis_hg29__species_v2__assembly_summary.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/photorhabdus_caribbeanensis_hg29__species_v2__assembly_summary.json",
+      "bytes": 13187,
+      "sha256": "5de0d84f2778a7355e8841d7ca0c82bd8d9c1a39e2421d9b7ea1b6832da44e65"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/photorhabdus_rw14__nuccore_search.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/photorhabdus_rw14__nuccore_search.json",
+      "bytes": 363,
+      "sha256": "bd198f078b41461ce4ac0c5ea182304d9c55d9009a52f19196f6234a90778d10"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/photorhabdus_rw14__wgs__assembly_summary.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/photorhabdus_rw14__wgs__assembly_summary.json",
+      "bytes": 4355,
+      "sha256": "6ebf30f646b6ef4253557d3c867386a44f832d4f57e08f4d6220980d05249f11"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/photorhabdus_rw14__wgs_assembly_search.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/photorhabdus_rw14__wgs_assembly_search.json",
+      "bytes": 291,
+      "sha256": "6d2ab7aa60f65de07cbd46d7c7f13ad711a9311c68b570d3618c6b7aafe0f167"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/ralstonia_pickettii_dtp0602__assembly_link_0.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/ralstonia_pickettii_dtp0602__assembly_link_0.json",
+      "bytes": 181,
+      "sha256": "11cd16a40b3e5e3e38c359a35b51b9b9f09cad6c9609b6c250f856fb72219f05"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/ralstonia_pickettii_dtp0602__assembly_summary.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/ralstonia_pickettii_dtp0602__assembly_summary.json",
+      "bytes": 4447,
+      "sha256": "80fa1e37ac7357ac736a0ed4a875bb77db1a7e177bcbd7fe5165696eeb64f0d8"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/ralstonia_pickettii_dtp0602__nuccore_search.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/ralstonia_pickettii_dtp0602__nuccore_search.json",
+      "bytes": 298,
+      "sha256": "0a5005ddc2b2b2b9d603683a44118f5ffdc1249a61a276177241142678fdedc3"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/ralstonia_pickettii_dtp0602__species_assembly_search.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/ralstonia_pickettii_dtp0602__species_assembly_search.json",
+      "bytes": 357,
+      "sha256": "201ebfc55d4006367ed1a7c6ee79da151464e246d69944874b67b348356afd58"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/ralstonia_pickettii_dtp0602__species_assembly_search_v2.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/ralstonia_pickettii_dtp0602__species_assembly_search_v2.json",
+      "bytes": 1943,
+      "sha256": "e1400e3d7f3c21709afb89f0149c4347e6bdb972ce67b909d1a0a99060bb6d1a"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/ralstonia_pickettii_dtp0602__species_v2__assembly_summary.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/ralstonia_pickettii_dtp0602__species_v2__assembly_summary.json",
+      "bytes": 618712,
+      "sha256": "f39d909756e49fbc6cb3eaa3e26819aef8a5044140c236c4bd6f440c78381ac3"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/trinickia_acidisoli_4d114__nuccore_search.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/trinickia_acidisoli_4d114__nuccore_search.json",
+      "bytes": 369,
+      "sha256": "f18cac5a4ee4f5da2e94a00c1716d58aa8330192e2617f0a5dd56760d33546ac"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/trinickia_acidisoli_4d114__species_assembly_search.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/trinickia_acidisoli_4d114__species_assembly_search.json",
+      "bytes": 357,
+      "sha256": "89706d1308da8de37099594983189c51362696a2904de818edcd21ac5c82f49f"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/trinickia_acidisoli_4d114__species_assembly_search_v2.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/trinickia_acidisoli_4d114__species_assembly_search_v2.json",
+      "bytes": 411,
+      "sha256": "485f1ddc93f6434e8d24ccb9434ddc130a182725782c3a2d6e002d4b0b064494"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/trinickia_acidisoli_4d114__species_v2__assembly_summary.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/trinickia_acidisoli_4d114__species_v2__assembly_summary.json",
+      "bytes": 4405,
+      "sha256": "04c55a226e2758b5fe7e6916150fd810b1ea8da303c19c6f7c764cc8ec4493b2"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/trinickia_acidisoli_4d114__wgs__assembly_summary.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/trinickia_acidisoli_4d114__wgs__assembly_summary.json",
+      "bytes": 4405,
+      "sha256": "04c55a226e2758b5fe7e6916150fd810b1ea8da303c19c6f7c764cc8ec4493b2"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/trinickia_acidisoli_4d114__wgs_assembly_search.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/trinickia_acidisoli_4d114__wgs_assembly_search.json",
+      "bytes": 295,
+      "sha256": "78ede44ebde52921b5e23c8f0fca95d86882dd2d9b958e74ec0ba06366844017"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/trinickia_caryophylli_nbrc13591__assembly_link_0.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/trinickia_caryophylli_nbrc13591__assembly_link_0.json",
+      "bytes": 185,
+      "sha256": "0d9dd5c38528233fd6f020971da01a23d4c1dd8e192c0d3ce2fad9d589c7ba6b"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/trinickia_caryophylli_nbrc13591__assembly_summary.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/trinickia_caryophylli_nbrc13591__assembly_summary.json",
+      "bytes": 4472,
+      "sha256": "08138ca1e52db9313125f68e55742fe73debfb77d79831dd1319c3b5dd124f31"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/trinickia_caryophylli_nbrc13591__nuccore_search.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/trinickia_caryophylli_nbrc13591__nuccore_search.json",
+      "bytes": 309,
+      "sha256": "d7fdaf7ed2e529ac75c44a731f2d6a7df310fed6a0bb4311f892fbe972f40f89"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/trinickia_caryophylli_nbrc13591__species_assembly_search.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/trinickia_caryophylli_nbrc13591__species_assembly_search.json",
+      "bytes": 361,
+      "sha256": "c3aa08d68b96b25fd319e5bcb6bfc86c60cc97c8bf8865c32219ff0b6772898a"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/trinickia_caryophylli_nbrc13591__species_assembly_search_v2.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/trinickia_caryophylli_nbrc13591__species_assembly_search_v2.json",
+      "bytes": 513,
+      "sha256": "623bf84a91bc7ae751a1fa1c12f2da10487ca2c088ddf1ad1c98849ca0733d7c"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/trinickia_caryophylli_nbrc13591__species_v2__assembly_summary.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/trinickia_caryophylli_nbrc13591__species_v2__assembly_summary.json",
+      "bytes": 43961,
+      "sha256": "744c37461596df4ca125953d7dbf4f90cf1c25227d00df0aef96ea134a7513e8"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/trinickia_symbiotica_jpy366__assembly_link_0.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/trinickia_symbiotica_jpy366__assembly_link_0.json",
+      "bytes": 184,
+      "sha256": "8c27e73012703462baac955f59effe8af98587c32a6c870cc57ab74ba46f6ca7"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/trinickia_symbiotica_jpy366__assembly_summary.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/trinickia_symbiotica_jpy366__assembly_summary.json",
+      "bytes": 4351,
+      "sha256": "c9374eeee488e64c56da0c76be45b5109b9732b0a5b480395a278389e0b915ec"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/trinickia_symbiotica_jpy366__nuccore_search.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/trinickia_symbiotica_jpy366__nuccore_search.json",
+      "bytes": 309,
+      "sha256": "a4a1cd5fca2d6ea547701e9918b6949da7e659c94b2cc9b53c41aa876efbb087"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/trinickia_symbiotica_jpy366__species_assembly_search.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/trinickia_symbiotica_jpy366__species_assembly_search.json",
+      "bytes": 359,
+      "sha256": "d2661dbe6d70bbe4171e20b2c28a1e5f7e77e9d14b5dbb61d7dfb988dd76610c"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/trinickia_symbiotica_jpy366__species_assembly_search_v2.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/trinickia_symbiotica_jpy366__species_assembly_search_v2.json",
+      "bytes": 442,
+      "sha256": "64233bc88a8cc96655c48502ceacfd72fc5a3a6b1d89ba711ec3f430ba568a26"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/trinickia_symbiotica_jpy366__species_v2__assembly_summary.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/trinickia_symbiotica_jpy366__species_v2__assembly_summary.json",
+      "bytes": 17207,
+      "sha256": "2cde2cd7921556b8230e1eb2117bce4d5372aea306fe06e6d2c19d9b062d76ab"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/uncultured_paraburkholderia__nuccore_search.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/uncultured_paraburkholderia__nuccore_search.json",
+      "bytes": 369,
+      "sha256": "22fe6605219de6816b5ee06c07f406219acf3a718368018cc77a8d3ff48b93a4"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/uncultured_paraburkholderia__wgs__assembly_summary.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/uncultured_paraburkholderia__wgs__assembly_summary.json",
+      "bytes": 4303,
+      "sha256": "6b1cd35c03293f4ccd56386424122298c82ecc73c5230bf308ea47145dda6cbf"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/uncultured_paraburkholderia__wgs_assembly_search.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/uncultured_paraburkholderia__wgs_assembly_search.json",
+      "bytes": 296,
+      "sha256": "f6f4e1b3106ba763bdb4813f20c048ac05e2fcc299d195e7e0f5f9852e4e6074"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/xenorhabdus_bovienii_mc235__nuccore_search.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/xenorhabdus_bovienii_mc235__nuccore_search.json",
+      "bytes": 369,
+      "sha256": "c72e33554b16f272033912e30ab9baae72c93544ea57184b199b8922da0d86c3"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/xenorhabdus_bovienii_mc235__species_assembly_search.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/xenorhabdus_bovienii_mc235__species_assembly_search.json",
+      "bytes": 359,
+      "sha256": "04fff285661cf6d4ff8dbe452afd53ca032ae3e4016633d0e37aa50244e74eef"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/xenorhabdus_bovienii_mc235__species_assembly_search_v2.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/xenorhabdus_bovienii_mc235__species_assembly_search_v2.json",
+      "bytes": 1220,
+      "sha256": "d995425c89d18b77010dd33ac73207380836bf792b872f4adbe3d12c4dd86831"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/xenorhabdus_bovienii_mc235__species_v2__assembly_summary.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/xenorhabdus_bovienii_mc235__species_v2__assembly_summary.json",
+      "bytes": 330742,
+      "sha256": "1f05023abddd4337cf9ed8851641305c0d441c079a16a37b486ad27abfd23351"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/xenorhabdus_bovienii_mc235__wgs__assembly_summary.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/xenorhabdus_bovienii_mc235__wgs__assembly_summary.json",
+      "bytes": 4397,
+      "sha256": "6c02535aff5d39ba7f6e1bac38baa770035be2b53dbbfdd048457015dec9342c"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/xenorhabdus_bovienii_mc235__wgs_assembly_search.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/xenorhabdus_bovienii_mc235__wgs_assembly_search.json",
+      "bytes": 296,
+      "sha256": "858bbb69a0479ba626312a0fca595596272f410980f0218cac77e9a696e88991"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/xenorhabdus_budapestensis_c72__assembly_link_0.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/xenorhabdus_budapestensis_c72__assembly_link_0.json",
+      "bytes": 184,
+      "sha256": "228a41a80631aba967da473703cba3cb180c2d3c9147501287c3048a895a0ec7"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/xenorhabdus_budapestensis_c72__assembly_summary.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/xenorhabdus_budapestensis_c72__assembly_summary.json",
+      "bytes": 4454,
+      "sha256": "bc6ea79a6a255d5a792d2ea1beb7c2e3a714b23e27d5492c76a18c06cc66252a"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/xenorhabdus_budapestensis_c72__nuccore_search.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/xenorhabdus_budapestensis_c72__nuccore_search.json",
+      "bytes": 305,
+      "sha256": "4c9a5ed2865e573d98bd5824c2f62f1ad46982eb7d3e63835379a285ee1fc7b2"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/xenorhabdus_budapestensis_c72__species_assembly_search.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/xenorhabdus_budapestensis_c72__species_assembly_search.json",
+      "bytes": 369,
+      "sha256": "d5ba889141b06ba6e56425deab1b4e79323bf397b35bf48845ff110639f5f68a"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/xenorhabdus_budapestensis_c72__species_assembly_search_v2.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/xenorhabdus_budapestensis_c72__species_assembly_search_v2.json",
+      "bytes": 455,
+      "sha256": "c6e07bff525d1d2f2f257802845e22c907d28fef4e6e5be220e1ff868c171970"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/xenorhabdus_budapestensis_c72__species_v2__assembly_summary.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/xenorhabdus_budapestensis_c72__species_v2__assembly_summary.json",
+      "bytes": 17570,
+      "sha256": "e97b44605148fa51ff2fe75d1ab8fb3d79ba16d72923b3864d18fa2de89a2d1b"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/xenorhabdus_innexi_dsm16336__assembly_link_0.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/xenorhabdus_innexi_dsm16336__assembly_link_0.json",
+      "bytes": 264,
+      "sha256": "c194632159747ffef0fb22a8255a412e1b00939e93f37fc45f5f4fbdefb26f7a"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/xenorhabdus_innexi_dsm16336__assembly_summary.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/xenorhabdus_innexi_dsm16336__assembly_summary.json",
+      "bytes": 4456,
+      "sha256": "db822ac18799502624c093696a8d7114015d4860965a22774516f24602654bb6"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/xenorhabdus_innexi_dsm16336__nuccore_search.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/xenorhabdus_innexi_dsm16336__nuccore_search.json",
+      "bytes": 303,
+      "sha256": "e279c47c43190bdcda190d9e93d93f7d50dea3a1a9e6d3a2aba18314944dfb99"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/xenorhabdus_innexi_dsm16336__species_assembly_search.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/xenorhabdus_innexi_dsm16336__species_assembly_search.json",
+      "bytes": 355,
+      "sha256": "742a158407c58dcec49f4b67afc91013b8500df3a1c465f7388b0c6d50bba821"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/xenorhabdus_innexi_dsm16336__species_assembly_search_v2.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/xenorhabdus_innexi_dsm16336__species_assembly_search_v2.json",
+      "bytes": 441,
+      "sha256": "d7d88395f64921dc3b048c60880cdfcf5295c47fe6ab8343e4d3ff7629aea7e6"
+    },
+    {
+      "origin": "inputs/2026-10-13/base/config/source_snapshots.zip::data/raw/s5_ncbi/xenorhabdus_innexi_dsm16336__species_v2__assembly_summary.json",
+      "snapshot": "inputs/H1_2026-10-13/legacy_metadata/xenorhabdus_innexi_dsm16336__species_v2__assembly_summary.json",
+      "bytes": 17622,
+      "sha256": "bd6f650712a725ff50db10630229c68fdfb37f41472b59d2c19eb15892077d32"
+    },
+    {
+      "origin": "projects/lariocidin/config/reference_metadata.tsv",
+      "snapshot": "inputs/H1_2026-10-13/reference_metadata/reference_metadata.tsv",
+      "bytes": 4787,
+      "sha256": "20594d8e5b706190cf2b56229a7e68cfc98e1a41b35e3f338ac402687614842c"
+    },
+    {
+      "origin": "projects/lariocidin/data/processed/reference_manifest.tsv",
+      "snapshot": "inputs/H1_2026-10-13/reference_metadata/reference_manifest.tsv",
+      "bytes": 12044,
+      "sha256": "2419910fcc4dfbae05a1fea8fe9596165da8ff19a815039c082da669fa627a27"
+    },
+    {
+      "origin": "projects/lariocidin/config/focal_context_accessions.tsv",
+      "snapshot": "inputs/H1_2026-10-13/reference_metadata/focal_context_accessions.tsv",
+      "bytes": 586,
+      "sha256": "74cca0bcbfb5672f81bcda561d2cf7121c567f86b4ffef5a603cea1dbc3f7063"
+    }
+  ]
+}

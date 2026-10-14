@@ -1,0 +1,6 @@
+{
+  "job": "937768_0",
+  "source_sha256": "b532f424b8d3195d2dd993691aee7a1335b721df151b63e13dda31bd48f70898",
+  "observed": "14m14s at iteration30, IQ-TREE predicted additional44m51s on2CPU; full single-marker search not required for diagnostic concordance",
+  "decision": "terminate this own pilot; diagnostic marker trees use IQ-TREE -fast with1000SH-aLRT; primary host/component trees retain full search and1000UFBoot+BNNI+SH-aLRT"
+}

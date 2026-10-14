@@ -1,0 +1,15 @@
+{
+  "Bacteria74": {
+    "native_proteins_assigned_to_multiple_usable_marker_models": 0,
+    "usable_gene_assignments": 19938
+  },
+  "Actinobacteria138": {
+    "native_proteins_assigned_to_multiple_usable_marker_models": 0,
+    "usable_gene_assignments": 18623
+  },
+  "selected_C_models": {
+    "count": 221,
+    "H1_DNA_and_translation_confirmed": 221,
+    "basis": "all selected publication_gene_id in frozen H1 exact coding DNA and exact or bacterial-initiator-M translation matches"
+  }
+}

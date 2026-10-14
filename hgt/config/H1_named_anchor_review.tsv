@@ -1,0 +1,5 @@
+locus_id	published_strain	evidence_source	limitation
+Merrild_2025_271912dd3eeb	DSM 100115	Merrild canonical Bgel_C; frozen publication metadata and Nature carrier reference	requires whole_export_exact plus literal strain agreement; strain synonyms not assumed
+Merrild_2025_dd84ee921f03	JS23	Merrild canonical Cpal_C; frozen publication metadata and Nature carrier reference	requires whole_export_exact plus literal strain agreement; strain synonyms not assumed
+Merrild_2025_44e7044a58ba	DSM 19409	Merrild canonical Ptar_C; frozen publication metadata and Nature carrier reference	requires whole_export_exact plus literal strain agreement; strain synonyms not assumed
+Merrild_2025_879faa010cad	JCM 4242	Merrild PMC12070363: triACD amplified from genomic DNA of Streptomyces triculaminicus JCM4242	requires whole_export_exact plus literal strain agreement; source nucleotide absent from synthetic anchor

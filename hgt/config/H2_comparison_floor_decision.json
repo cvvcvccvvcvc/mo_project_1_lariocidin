@@ -1,0 +1,8 @@
+{
+  "date": "2026-10-14",
+  "reason": "default IQ-TREE numeric branch floor1e-6; completed trees include1.001e-6 branches; initial predicate<=1e-6 could count numerical unresolved edges",
+  "resolved_edge_min_length": 1.01e-06,
+  "effect": "mask edges at floor with1percent numerical margin; do not change tree fits or primary support; recompute descriptive comparisons",
+  "previous_outputs": "results/H2/run_checkpoints/comparison_before_floor_correction",
+  "source": "https://iqtree.github.io/doc/Command-Reference"
+}

@@ -1,0 +1,125 @@
+{
+  "status": "partial_full_ML_execution_saved_before_CPU_increase; not_a_model_comparison",
+  "files": [
+    {
+      "path": "results/H2/run_checkpoints/cpu8/Actino138/noncanonical/ML.bionj",
+      "bytes": 4611,
+      "sha256": "d6eb35054575e91e4c98a636ab0e9a96f1a644d0ec5fa091156892e3d9aa65ff"
+    },
+    {
+      "path": "results/H2/run_checkpoints/cpu8/Actino138/noncanonical/ML.ckp.gz",
+      "bytes": 18975,
+      "sha256": "c9d0f4b919e5038de1a2173eb45db262232a8bab6a718be4497d5823cf0d88f6"
+    },
+    {
+      "path": "results/H2/run_checkpoints/cpu8/Actino138/noncanonical/ML.log",
+      "bytes": 27442,
+      "sha256": "2999e0d9f29f2e86ea3579462ef42adfc1710b6a4ef9bd260862d4ae1893ca68"
+    },
+    {
+      "path": "results/H2/run_checkpoints/cpu8/Actino138/noncanonical/ML.mldist",
+      "bytes": 209092,
+      "sha256": "e574934f14bd9e2d804ac19d620f0f07b39b56413c6b4a3dfaf12d580c154c29"
+    },
+    {
+      "path": "results/H2/run_checkpoints/cpu8/Actino138/noncanonical/ML.treefile",
+      "bytes": 4854,
+      "sha256": "a93c6da03aaa854e32a53740e1176fab63363628aeb79e2eeea5bee817921127"
+    },
+    {
+      "path": "results/H2/run_checkpoints/cpu8/Actino138/noncanonical/iqtree.log",
+      "bytes": 27442,
+      "sha256": "2999e0d9f29f2e86ea3579462ef42adfc1710b6a4ef9bd260862d4ae1893ca68"
+    },
+    {
+      "path": "results/H2/run_checkpoints/cpu8/Bacteria74/canonical/ML.bionj",
+      "bytes": 4876,
+      "sha256": "096044caab271833f954df5aa4a539dea24678d89d2931adfab1d678849b3679"
+    },
+    {
+      "path": "results/H2/run_checkpoints/cpu8/Bacteria74/canonical/ML.ckp.gz",
+      "bytes": 889993,
+      "sha256": "f83b01e7afdc2cff8b08a1125937225036ae1a07dc9be3ce4cad4e7d1cb753a2"
+    },
+    {
+      "path": "results/H2/run_checkpoints/cpu8/Bacteria74/canonical/ML.log",
+      "bytes": 19995,
+      "sha256": "30a608114d2aa9251eb9fc05c07f7040ebb7427b3ecace2cdaaa2623e10e1ae4"
+    },
+    {
+      "path": "results/H2/run_checkpoints/cpu8/Bacteria74/canonical/ML.mldist",
+      "bytes": 206210,
+      "sha256": "f797b8ea9b52beaf00f0e9a0af8a31de7d7f54cfe34c5975a45a4c3b7cdabbf8"
+    },
+    {
+      "path": "results/H2/run_checkpoints/cpu8/Bacteria74/canonical/ML.treefile",
+      "bytes": 4820,
+      "sha256": "97f64c70ce4b720d8b0e299d2b5b0514194f17fd51baccf18d8aab9798cbebb7"
+    },
+    {
+      "path": "results/H2/run_checkpoints/cpu8/Bacteria74/canonical/iqtree.log",
+      "bytes": 19995,
+      "sha256": "30a608114d2aa9251eb9fc05c07f7040ebb7427b3ecace2cdaaa2623e10e1ae4"
+    },
+    {
+      "path": "results/H2/run_checkpoints/cpu8/Bacteria74/canonical_MAG_diagnostic/ML.bionj",
+      "bytes": 4915,
+      "sha256": "bc222eb6cc23379db5cf0ccc0b14b1078397df81941e00c8b6122cdd252c2e2e"
+    },
+    {
+      "path": "results/H2/run_checkpoints/cpu8/Bacteria74/canonical_MAG_diagnostic/ML.ckp.gz",
+      "bytes": 921286,
+      "sha256": "86779273c0c37172dbbc14704700ad5c139574bfe2707eadb0800886a81dccc4"
+    },
+    {
+      "path": "results/H2/run_checkpoints/cpu8/Bacteria74/canonical_MAG_diagnostic/ML.log",
+      "bytes": 20667,
+      "sha256": "cbf933d2a6d9fbd17ad907f4a480d8db5217bfa39bd1b37064e65938f88a7adc"
+    },
+    {
+      "path": "results/H2/run_checkpoints/cpu8/Bacteria74/canonical_MAG_diagnostic/ML.mldist",
+      "bytes": 209092,
+      "sha256": "143775c69b1fadea5a7e6c8a8607723cf491144ea19bd3991b27e751ce9b62d5"
+    },
+    {
+      "path": "results/H2/run_checkpoints/cpu8/Bacteria74/canonical_MAG_diagnostic/ML.treefile",
+      "bytes": 4854,
+      "sha256": "45f82878b9226d3357d29c280eaa0185a021912457c99ced6eb47c93e0a13af1"
+    },
+    {
+      "path": "results/H2/run_checkpoints/cpu8/Bacteria74/canonical_MAG_diagnostic/iqtree.log",
+      "bytes": 20667,
+      "sha256": "cbf933d2a6d9fbd17ad907f4a480d8db5217bfa39bd1b37064e65938f88a7adc"
+    },
+    {
+      "path": "results/H2/run_checkpoints/cpu8/Bacteria74/noncanonical/ML.bionj",
+      "bytes": 3847,
+      "sha256": "f283ee0d13e51b80f0d5fcdee82ac5df6d8e21aa298acdad9b84ae4187b3aae2"
+    },
+    {
+      "path": "results/H2/run_checkpoints/cpu8/Bacteria74/noncanonical/ML.ckp.gz",
+      "bytes": 576677,
+      "sha256": "8745b272618baf454fe6a78a5e4033d06c59d9ba46128456700f29fed70e1fe3"
+    },
+    {
+      "path": "results/H2/run_checkpoints/cpu8/Bacteria74/noncanonical/ML.log",
+      "bytes": 19739,
+      "sha256": "964d22c0649ab1a4ca2adb9c83cae6101faa940a54edcbc4f893998df4103b26"
+    },
+    {
+      "path": "results/H2/run_checkpoints/cpu8/Bacteria74/noncanonical/ML.mldist",
+      "bytes": 155252,
+      "sha256": "a166085f861bf3c91ac9726c886bd6c3ef626db15490bf5813b6d22003811967"
+    },
+    {
+      "path": "results/H2/run_checkpoints/cpu8/Bacteria74/noncanonical/ML.treefile",
+      "bytes": 4174,
+      "sha256": "9d946fb322312eba5b0d92779b1c9eb512af7199aeed7f5a993c9b297e3ed4a1"
+    },
+    {
+      "path": "results/H2/run_checkpoints/cpu8/Bacteria74/noncanonical/iqtree.log",
+      "bytes": 19739,
+      "sha256": "964d22c0649ab1a4ca2adb9c83cae6101faa940a54edcbc4f893998df4103b26"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "scope": "additional analyses; original H2_methods.json retained",
+  "user_decisions": {
+    "MAG": "main only if agreed QC passes; assess without both MAGs",
+    "Actinomycetota": "published 138-marker panel and local trees; keep74 baseline"
+  },
+  "markers138": {
+    "admission": ">=111/138; mask all multicopy, partial, BGC-window overlap and length outliers\u00b120% of Actinomycetota median",
+    "canonical_applicability": "no Actinomycetota carriers or relatives in resolved canonical panel; no invented canonical Actinomycetota tree"
+  },
+  "marker_tree_diagnostic": "IQ-TREE -fast +1000 SH-aLRT; distinct from full-search primary host/component trees",
+  "concordance": "IQ-TREE gCF of pruned independent marker trees; approximate marker ML; no p-value or HGT event probability",
+  "C_domain_diagnostic": "PF00733 regions; unique exact C-domain sequences with all copy aliases; one highest domain score background protein per genus outside mapped windows; background function unproven; diagnostic pooling is not primary lineage pooling; approximate ML plus1000SH-aLRT only; unfinished full-search pilot retained separately",
+  "comparisons": "unrooted nonzero-length splits on shared single-copy hosts; all multicopy gene trees retained; 80 SH-aLRT and95 UFBoot support gates; descriptive RF/conflicting split pairs, not HGT event counts; C MAG-addition and C resampling after Actino138 admission compared descriptively on shared taxa; different taxon sets/site filters confound isolated marker-panel effects",
+  "resource": "normal QoS cpu64/user; Actinobacteria marker array reduced to4 concurrent to admit host fits; no other-agent jobs changed",
+  "primary_host_ML": "edge-linked proportional partitioned full ML; independent-marker BIC class LG/WAG/JTT +/-F +G4, per-marker parameters reestimated; no merging search; original MFP+MERGE pilot archived",
+  "uncertain_Nature_host": "separate four-carrier plus local frozen relatives dataset (actual leaf count in tree inputs); Kribbella below111 cutoff admitted only to this diagnostic; full MFP+MERGE on small dataset",
+  "domain_annotation_note": "PF13471.13 is Transglut_core3 (broad transglutaminase-like superfamily), not a unique C39 functional label; PF03412 Peptidase_C39, PF05402 PqqD/RRE-like; use actual frozen profile names",
+  "ABC_comparison": "canonical D1/D2 reference family preserved with all copies; excluded from one-to-one RF even on single-copy hosts because paralog identity remains unresolved",
+  "Nature_genomic_lineage": "four Nature systems assigned noncanonical by exact same-locus precursor+C coding DNA/AA correspondence to Merrild; diagnostics and frozen H1 class retained; no duplicate primary occurrences",
+  "copy_context": "BLASTN C\u00b15kb for two multicopy hosts; 7402bp exact flanking match in ICBG162 leaves assembly repetition versus duplication unresolved without reads",
+  "one_copy_scope": "one represented target copy for descriptive comparison; not absence of metabolic paralogues or other RiPP copies in the whole genome",
+  "extra_C_inventory": "135 full-length reference-homologue rows outside represented C copies:131 canonical-like,4 noncanonical-like; function unresolved; inventory reuses existing native BLAST outputs, no primary input changes",
+  "extra_NC_diagnostic": "115-tip separate approximate ML from111 target copies plus4 native homologues; reuse previously selected primary noncanonical_C model class;1000SH-aLRT only; inspect native5kb neighborhoods; no new model comparisons",
+  "H2_review_protocol": {
+    "ready_results": "reviews/2026-10-14-H2-ready-tree-comparison.md",
+    "completed_comparison_datasets": 19,
+    "full_H2_complete": false,
+    "resolved_edge_min_length": 1.01e-06,
+    "gCF_serialization": "topology-only degree>=3 unrooted display roots; no biological root imposed; original marker trees unchanged",
+    "relation_catalog": "six manual descriptive queries with host gCF and assembly/locus provenance; not event calls or a classifier",
+    "extra_C_context": "four native CDS translations plus BLASTN C\u00b15kb windows and exact published precursor alleles; no automatic main-family expansion",
+    "positive_HGT_required": false
+  }
+}

@@ -1,0 +1,852 @@
+{
+  "created_utc": "2026-10-13T14:18:11.716719+00:00",
+  "scope": "H1 audited outputs and code; original raw sequence sources have separate manifests",
+  "jobs": {
+    "937682": "original207_genomes",
+    "937712": "supplement112_genomes",
+    "937720": "B_homology",
+    "937740": "Nature_BGSC4BL1"
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "4e22f239af83bc5a1c0f71c1eac731c9cf889ac7c667ac60cf9ae2a896f5754f",
+      "bytes": 7935
+    },
+    {
+      "path": "config/H1_lineage_review.tsv",
+      "sha256": "3658c651816ae7b76bb16763269d1c24ae9c2a9f03801dc956bf76eeef6497bd",
+      "bytes": 1225
+    },
+    {
+      "path": "config/H1_named_anchor_review.tsv",
+      "sha256": "485dd9e0b9e13a26cda57a9ff1885a9a376f6ba7f1813a3ab9418650a2df6428",
+      "bytes": 902
+    },
+    {
+      "path": "plan.md",
+      "sha256": "22b4bb9ae36f0da2d2bcfe3c9fe9ea5569ba6abdb6ffcb20fa101d6a74c4352a",
+      "bytes": 26523
+    },
+    {
+      "path": "results/H1_4BL1_shards/0/H1_C_role_evidence.tsv",
+      "sha256": "1282265de6b490f63d8dd046212a5475becac9c7009f9dde99d24b3f69ecb1c8",
+      "bytes": 68090
+    },
+    {
+      "path": "results/H1_4BL1_shards/0/H1_carrier_catalogue.tsv",
+      "sha256": "45219a49292067c4b479062f75bb2419d9d8d5a8f89f11ce6f3479e76a767796",
+      "bytes": 138437
+    },
+    {
+      "path": "results/H1_4BL1_shards/0/H1_correspondence_summary.json",
+      "sha256": "8c6ab4e353d4cefffbd1acffb348c0adac9584f14fb56140502d00e2e98bcfec",
+      "bytes": 614
+    },
+    {
+      "path": "results/H1_4BL1_shards/0/H1_gene_genome_correspondence.tsv",
+      "sha256": "d8dc2440f6a9ad054e7e2f3d63b4456e2f1d438022d5ba667dead63cbc643a13",
+      "bytes": 3124
+    },
+    {
+      "path": "results/H1_4BL1_shards/0/H1_genome_parse_errors.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3
+    },
+    {
+      "path": "results/H1_4BL1_shards/0/H1_genome_quality.tsv",
+      "sha256": "0a346e81a4cc3e5da51aa4f93af15ab76dfdda4eec4e43421e22fd6fd07e672d",
+      "bytes": 728
+    },
+    {
+      "path": "results/H1_4BL1_shards/0/H1_locus_genome_correspondence.tsv",
+      "sha256": "b8d12859796f62c04db1aeb06edbbed080ec1e0a4e5757219c6baf54c3d9f59d",
+      "bytes": 795
+    },
+    {
+      "path": "results/H1_shards/0/H1_C_role_evidence.tsv",
+      "sha256": "1282265de6b490f63d8dd046212a5475becac9c7009f9dde99d24b3f69ecb1c8",
+      "bytes": 68090
+    },
+    {
+      "path": "results/H1_shards/0/H1_carrier_catalogue.tsv",
+      "sha256": "e7af847a8ec60c144cdd559b3c2ae6cbbc133ae4c2590bf19dce3597813f1a57",
+      "bytes": 139806
+    },
+    {
+      "path": "results/H1_shards/0/H1_correspondence_summary.json",
+      "sha256": "db4df614aa1b18b26f558ec21a4d13f7afa92af0b0f8653ec1a77c9b90147be1",
+      "bytes": 1166
+    },
+    {
+      "path": "results/H1_shards/0/H1_gene_genome_correspondence.tsv",
+      "sha256": "4b6b3c76eaf0a7060e5e65e688186895fc20058c6122421b11abf62536fd2acd",
+      "bytes": 314886
+    },
+    {
+      "path": "results/H1_shards/0/H1_genome_parse_errors.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3
+    },
+    {
+      "path": "results/H1_shards/0/H1_genome_quality.tsv",
+      "sha256": "b4253250ef2a402081c7705a36640bc7f419639a7895db66f7c1ef30be6eb0af",
+      "bytes": 9320
+    },
+    {
+      "path": "results/H1_shards/0/H1_locus_genome_correspondence.tsv",
+      "sha256": "b3b3fb4aaec05c1d24ac7ad441385548c2e17f63f01c8c2fde938d1be1677c29",
+      "bytes": 22908
+    },
+    {
+      "path": "results/H1_shards/1/H1_C_role_evidence.tsv",
+      "sha256": "1282265de6b490f63d8dd046212a5475becac9c7009f9dde99d24b3f69ecb1c8",
+      "bytes": 68090
+    },
+    {
+      "path": "results/H1_shards/1/H1_carrier_catalogue.tsv",
+      "sha256": "b1bce778ef055f8bc891ce27c9498a0778cac25a81e0f66353244b8da735924a",
+      "bytes": 139701
+    },
+    {
+      "path": "results/H1_shards/1/H1_correspondence_summary.json",
+      "sha256": "013c136b1c08988c7c38011b8cdb22f0fbd06f43218394797a8c5c5f2d92b9d5",
+      "bytes": 986
+    },
+    {
+      "path": "results/H1_shards/1/H1_gene_genome_correspondence.tsv",
+      "sha256": "c81e9381f1852d75f404fe23baccd1c42bdce99229409d07ca0e469290010c43",
+      "bytes": 292030
+    },
+    {
+      "path": "results/H1_shards/1/H1_genome_parse_errors.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3
+    },
+    {
+      "path": "results/H1_shards/1/H1_genome_quality.tsv",
+      "sha256": "0b66accf7ef2aab6b8fc5e27dc4d6e9ae7995424881d7869a55c9ac92949a43a",
+      "bytes": 9406
+    },
+    {
+      "path": "results/H1_shards/1/H1_locus_genome_correspondence.tsv",
+      "sha256": "fe4a120955e7837442542ed1724cd4bf383d47f010202e1465b84201efa0f079",
+      "bytes": 20971
+    },
+    {
+      "path": "results/H1_shards/2/H1_C_role_evidence.tsv",
+      "sha256": "1282265de6b490f63d8dd046212a5475becac9c7009f9dde99d24b3f69ecb1c8",
+      "bytes": 68090
+    },
+    {
+      "path": "results/H1_shards/2/H1_carrier_catalogue.tsv",
+      "sha256": "cd22dd691e9f638590b9e1b69f3a53f77b14d65acab6c325648e587ae94183bf",
+      "bytes": 140641
+    },
+    {
+      "path": "results/H1_shards/2/H1_correspondence_summary.json",
+      "sha256": "e29af406905baaf95d9389e7377f88b0ccb6d8ab34842e7ca7dd9314d8672bd0",
+      "bytes": 1168
+    },
+    {
+      "path": "results/H1_shards/2/H1_gene_genome_correspondence.tsv",
+      "sha256": "f4520b591951617694992d39c2fc17523eebf63c256b97f48be263a1e22c8139",
+      "bytes": 441438
+    },
+    {
+      "path": "results/H1_shards/2/H1_genome_parse_errors.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3
+    },
+    {
+      "path": "results/H1_shards/2/H1_genome_quality.tsv",
+      "sha256": "6a00c760a5e17328c5b9219d4f3091b5ff33ff5a08712f398b2858a3228fa005",
+      "bytes": 9586
+    },
+    {
+      "path": "results/H1_shards/2/H1_locus_genome_correspondence.tsv",
+      "sha256": "b751f881ea498acf930d4543ba85ee3a992af9bbbc57596c645154b19cdb8c4a",
+      "bytes": 33910
+    },
+    {
+      "path": "results/H1_shards/3/H1_C_role_evidence.tsv",
+      "sha256": "1282265de6b490f63d8dd046212a5475becac9c7009f9dde99d24b3f69ecb1c8",
+      "bytes": 68090
+    },
+    {
+      "path": "results/H1_shards/3/H1_carrier_catalogue.tsv",
+      "sha256": "bdd2f685a1373567987e5546c91c71d6b470c5d1624041162a6779fdd805c875",
+      "bytes": 139866
+    },
+    {
+      "path": "results/H1_shards/3/H1_correspondence_summary.json",
+      "sha256": "75d0e3e065dbc0de8182eeadc0ade17cf28167c7f635276c81f72bc2c682ce4a",
+      "bytes": 1021
+    },
+    {
+      "path": "results/H1_shards/3/H1_gene_genome_correspondence.tsv",
+      "sha256": "09d43261844305faa23b63e416a9ab746148d34dae9336c37b89281ff3d86418",
+      "bytes": 284308
+    },
+    {
+      "path": "results/H1_shards/3/H1_genome_parse_errors.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3
+    },
+    {
+      "path": "results/H1_shards/3/H1_genome_quality.tsv",
+      "sha256": "e4359f7e7bb65c5d435f4418ce7d75c383f5ea76bfe91b7142917142d2947a4e",
+      "bytes": 9439
+    },
+    {
+      "path": "results/H1_shards/3/H1_locus_genome_correspondence.tsv",
+      "sha256": "2d9871fe3a185f0aac94cab91a039780819613eec64852e5bda0b8c926ae8b94",
+      "bytes": 22012
+    },
+    {
+      "path": "results/H1_shards/4/H1_C_role_evidence.tsv",
+      "sha256": "1282265de6b490f63d8dd046212a5475becac9c7009f9dde99d24b3f69ecb1c8",
+      "bytes": 68090
+    },
+    {
+      "path": "results/H1_shards/4/H1_carrier_catalogue.tsv",
+      "sha256": "c8c30b300fb9f92391f5b3730afdbfbb3d8e12679085a84ba7b6f7349c032913",
+      "bytes": 139446
+    },
+    {
+      "path": "results/H1_shards/4/H1_correspondence_summary.json",
+      "sha256": "1f191da00566a788ae1481acca122da835d445c3738cf8ebb5e6c7939ca53002",
+      "bytes": 1020
+    },
+    {
+      "path": "results/H1_shards/4/H1_gene_genome_correspondence.tsv",
+      "sha256": "6729ed2bc55449444bcc9d839827a8928b0717e9aa9a3ac9186903806e3841e9",
+      "bytes": 239941
+    },
+    {
+      "path": "results/H1_shards/4/H1_genome_parse_errors.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3
+    },
+    {
+      "path": "results/H1_shards/4/H1_genome_quality.tsv",
+      "sha256": "17e851a6993b59f3b3722bcdf07d872ecb91c641db9fe871006b81e62f3f6b54",
+      "bytes": 9533
+    },
+    {
+      "path": "results/H1_shards/4/H1_locus_genome_correspondence.tsv",
+      "sha256": "930009db09ddfddb49082bc6e2ea7926f859fc88f4672ecfd234e10ee83d3375",
+      "bytes": 16729
+    },
+    {
+      "path": "results/H1_shards/5/H1_C_role_evidence.tsv",
+      "sha256": "1282265de6b490f63d8dd046212a5475becac9c7009f9dde99d24b3f69ecb1c8",
+      "bytes": 68090
+    },
+    {
+      "path": "results/H1_shards/5/H1_carrier_catalogue.tsv",
+      "sha256": "b3c1aac16d025660157ab074399b07d2ad1df4000015715d3eba6cebf123482e",
+      "bytes": 139918
+    },
+    {
+      "path": "results/H1_shards/5/H1_correspondence_summary.json",
+      "sha256": "d9647c6a4a8a0804bffef5788cb61ef6f69fb314847381d72a3363d7ed8b708a",
+      "bytes": 1041
+    },
+    {
+      "path": "results/H1_shards/5/H1_gene_genome_correspondence.tsv",
+      "sha256": "85050df17ddcc6c65cc4724ce11bce9ee433c6938b716d13383900765574e69b",
+      "bytes": 311195
+    },
+    {
+      "path": "results/H1_shards/5/H1_genome_parse_errors.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3
+    },
+    {
+      "path": "results/H1_shards/5/H1_genome_quality.tsv",
+      "sha256": "1b198d7d593272714d8d4e4641d5b550c02d9ee1bf89f35963b81bae481222a6",
+      "bytes": 9468
+    },
+    {
+      "path": "results/H1_shards/5/H1_locus_genome_correspondence.tsv",
+      "sha256": "f5909353a3ee170db4c67cd8658ed179a7577bc44219d1d2ead8bfbb0aded316",
+      "bytes": 23347
+    },
+    {
+      "path": "results/H1_shards/6/H1_C_role_evidence.tsv",
+      "sha256": "1282265de6b490f63d8dd046212a5475becac9c7009f9dde99d24b3f69ecb1c8",
+      "bytes": 68090
+    },
+    {
+      "path": "results/H1_shards/6/H1_carrier_catalogue.tsv",
+      "sha256": "6cccba38a0867e5e98293b25ad1633e8e77b6284cfd6efa1d01b49747b69b51a",
+      "bytes": 140233
+    },
+    {
+      "path": "results/H1_shards/6/H1_correspondence_summary.json",
+      "sha256": "2304cae66fffa2b0bad63f0f84a62adb195f6f93ddc90ebfdabac98dee5022bf",
+      "bytes": 1108
+    },
+    {
+      "path": "results/H1_shards/6/H1_gene_genome_correspondence.tsv",
+      "sha256": "c8fd8d4344a2e9376476896d4d7c5fcb802130786ff94436ecf3170b464dc933",
+      "bytes": 388351
+    },
+    {
+      "path": "results/H1_shards/6/H1_genome_parse_errors.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3
+    },
+    {
+      "path": "results/H1_shards/6/H1_genome_quality.tsv",
+      "sha256": "66a8da7463b2c83a2e9cbc65d726cf3abeb5da6aa4341d2d57498f47542213ba",
+      "bytes": 9450
+    },
+    {
+      "path": "results/H1_shards/6/H1_locus_genome_correspondence.tsv",
+      "sha256": "1eac835122833e1aab8febb13f11baff4f726757a762f51efd03b8f59e96c872",
+      "bytes": 28391
+    },
+    {
+      "path": "results/H1_shards/7/H1_C_role_evidence.tsv",
+      "sha256": "1282265de6b490f63d8dd046212a5475becac9c7009f9dde99d24b3f69ecb1c8",
+      "bytes": 68090
+    },
+    {
+      "path": "results/H1_shards/7/H1_carrier_catalogue.tsv",
+      "sha256": "18e9f2f030302a524c48a3fc9b6917456bb5dec54cd610d79cf57f6a2d4873f7",
+      "bytes": 139589
+    },
+    {
+      "path": "results/H1_shards/7/H1_correspondence_summary.json",
+      "sha256": "9937aeae094bcd92c9b6f7264f8b9ec23bd4d1489b3c443c3224d591e7877122",
+      "bytes": 1041
+    },
+    {
+      "path": "results/H1_shards/7/H1_gene_genome_correspondence.tsv",
+      "sha256": "d8f58b69f46f53d9595d883516131dba9947ad65058eb0477450238a312de680",
+      "bytes": 273637
+    },
+    {
+      "path": "results/H1_shards/7/H1_genome_parse_errors.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3
+    },
+    {
+      "path": "results/H1_shards/7/H1_genome_quality.tsv",
+      "sha256": "c7daa7bb68e78db43bcd2013225ffea4f7149fa40630dc4bc59659a81073213d",
+      "bytes": 9138
+    },
+    {
+      "path": "results/H1_shards/7/H1_locus_genome_correspondence.tsv",
+      "sha256": "2470abe46e59e862183a27a21cd7ba8bf93395da5deb17c96a0b28667107a543",
+      "bytes": 20041
+    },
+    {
+      "path": "results/H1_supplement_shards/0/H1_C_role_evidence.tsv",
+      "sha256": "1282265de6b490f63d8dd046212a5475becac9c7009f9dde99d24b3f69ecb1c8",
+      "bytes": 68090
+    },
+    {
+      "path": "results/H1_supplement_shards/0/H1_carrier_catalogue.tsv",
+      "sha256": "3a09b942a4ada2f3a384621a049b9458de91ff4938343828cb7bd1c3921fab8c",
+      "bytes": 138633
+    },
+    {
+      "path": "results/H1_supplement_shards/0/H1_correspondence_summary.json",
+      "sha256": "e93c640c0ee52633650431ede3b6b8e5fce79de505909be69db23102577403cf",
+      "bytes": 930
+    },
+    {
+      "path": "results/H1_supplement_shards/0/H1_gene_genome_correspondence.tsv",
+      "sha256": "a8c02d7ded7354b57c5765caeb779d4fe1176292533895c371995827673ea417",
+      "bytes": 30290
+    },
+    {
+      "path": "results/H1_supplement_shards/0/H1_genome_parse_errors.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3
+    },
+    {
+      "path": "results/H1_supplement_shards/0/H1_genome_quality.tsv",
+      "sha256": "aad946671c3acdf0452aa72419499c1b0f998d66504d3fb313612e1a01147d22",
+      "bytes": 5192
+    },
+    {
+      "path": "results/H1_supplement_shards/0/H1_locus_genome_correspondence.tsv",
+      "sha256": "abef9095691ef5fb7cce90123cdfbfdf44880ede1335d7747204a5abe0f1e22c",
+      "bytes": 3505
+    },
+    {
+      "path": "results/H1_supplement_shards/1/H1_C_role_evidence.tsv",
+      "sha256": "1282265de6b490f63d8dd046212a5475becac9c7009f9dde99d24b3f69ecb1c8",
+      "bytes": 68090
+    },
+    {
+      "path": "results/H1_supplement_shards/1/H1_carrier_catalogue.tsv",
+      "sha256": "d7d992f88e489d7cf237f06ebff29e9639b02b3259aae95468c975f08912e636",
+      "bytes": 138633
+    },
+    {
+      "path": "results/H1_supplement_shards/1/H1_correspondence_summary.json",
+      "sha256": "442fa693a6458fc4256ca1996fce389e060ad93bb92ca76fe7b3db313597ec29",
+      "bytes": 874
+    },
+    {
+      "path": "results/H1_supplement_shards/1/H1_gene_genome_correspondence.tsv",
+      "sha256": "d3351ec90d5b8f1f4a7290fd973111251a98d173efe986d73867d388eec58df6",
+      "bytes": 45140
+    },
+    {
+      "path": "results/H1_supplement_shards/1/H1_genome_parse_errors.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3
+    },
+    {
+      "path": "results/H1_supplement_shards/1/H1_genome_quality.tsv",
+      "sha256": "3b4d2e93c2a754eaaa1038ee51f3e9d593095a2d8c8fe1bb483721602e3b19a7",
+      "bytes": 5109
+    },
+    {
+      "path": "results/H1_supplement_shards/1/H1_locus_genome_correspondence.tsv",
+      "sha256": "4fba5cd13ccfcfef014e509a382dd117ab9a2f6ba3bd92188d1e25d2e7be764f",
+      "bytes": 3483
+    },
+    {
+      "path": "results/H1_supplement_shards/2/H1_C_role_evidence.tsv",
+      "sha256": "1282265de6b490f63d8dd046212a5475becac9c7009f9dde99d24b3f69ecb1c8",
+      "bytes": 68090
+    },
+    {
+      "path": "results/H1_supplement_shards/2/H1_carrier_catalogue.tsv",
+      "sha256": "f1e82a4f357f1b0e20ec9473e1d17a1b0e93c13d19bd9669af3d44e4739b4a34",
+      "bytes": 138638
+    },
+    {
+      "path": "results/H1_supplement_shards/2/H1_correspondence_summary.json",
+      "sha256": "aec83bfa4a023e9d0a75f73e20c1bc25305dcab404c7ce53547d24a11dca8df4",
+      "bytes": 1051
+    },
+    {
+      "path": "results/H1_supplement_shards/2/H1_gene_genome_correspondence.tsv",
+      "sha256": "78bbe082b9e68872454baa07b0d24469f6edd5d82dac6170f8f00360c080336c",
+      "bytes": 48116
+    },
+    {
+      "path": "results/H1_supplement_shards/2/H1_genome_parse_errors.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3
+    },
+    {
+      "path": "results/H1_supplement_shards/2/H1_genome_quality.tsv",
+      "sha256": "c5e884c7024300637bd7f2c8c1953e6f621a5e69f7f83d30db8bc97e673c0b9d",
+      "bytes": 5164
+    },
+    {
+      "path": "results/H1_supplement_shards/2/H1_locus_genome_correspondence.tsv",
+      "sha256": "7bab9ed74708ce9f2104614646af3156f4cf209bef4fc8f855efc72f578d46f6",
+      "bytes": 3484
+    },
+    {
+      "path": "results/H1_supplement_shards/3/H1_C_role_evidence.tsv",
+      "sha256": "1282265de6b490f63d8dd046212a5475becac9c7009f9dde99d24b3f69ecb1c8",
+      "bytes": 68090
+    },
+    {
+      "path": "results/H1_supplement_shards/3/H1_carrier_catalogue.tsv",
+      "sha256": "4c4987c31456129f4108384e5d11b6f7b935d2654a1c19967c2c439f8ed650c5",
+      "bytes": 138633
+    },
+    {
+      "path": "results/H1_supplement_shards/3/H1_correspondence_summary.json",
+      "sha256": "9bb90cfb7ac6e6b7c1dab78a86867ad5496268dfdf3db5a2e06ba0af02a4407f",
+      "bytes": 875
+    },
+    {
+      "path": "results/H1_supplement_shards/3/H1_gene_genome_correspondence.tsv",
+      "sha256": "45fcf03cc6db03e94a2aaad012d2909880f3c31fa7b8bc9286edf072d89d13b1",
+      "bytes": 44397
+    },
+    {
+      "path": "results/H1_supplement_shards/3/H1_genome_parse_errors.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3
+    },
+    {
+      "path": "results/H1_supplement_shards/3/H1_genome_quality.tsv",
+      "sha256": "e19f1bd34b0f7c82227250a172716f02c4ebeaf21d7e4da513453b543b29b059",
+      "bytes": 5203
+    },
+    {
+      "path": "results/H1_supplement_shards/3/H1_locus_genome_correspondence.tsv",
+      "sha256": "57b320304da86d4136a1ae91d40a85e9d48ae7bb3f6be57bb86ab21a58aeed64",
+      "bytes": 3476
+    },
+    {
+      "path": "results/H1_supplement_shards/4/H1_C_role_evidence.tsv",
+      "sha256": "1282265de6b490f63d8dd046212a5475becac9c7009f9dde99d24b3f69ecb1c8",
+      "bytes": 68090
+    },
+    {
+      "path": "results/H1_supplement_shards/4/H1_carrier_catalogue.tsv",
+      "sha256": "f12a3873da3542c824ccd5feaf83486292520ade26f38369bbf4f1f7b91079a6",
+      "bytes": 138546
+    },
+    {
+      "path": "results/H1_supplement_shards/4/H1_correspondence_summary.json",
+      "sha256": "1df2b7599021f0d92da3d823ba315d38a3e5564c5c008c320c1390cc549c30c8",
+      "bytes": 835
+    },
+    {
+      "path": "results/H1_supplement_shards/4/H1_gene_genome_correspondence.tsv",
+      "sha256": "212718a0eb2e589dc15c7143ffec34c1dd5a9f796803fc51c2b53dd84ceb0c5d",
+      "bytes": 22027
+    },
+    {
+      "path": "results/H1_supplement_shards/4/H1_genome_parse_errors.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3
+    },
+    {
+      "path": "results/H1_supplement_shards/4/H1_genome_quality.tsv",
+      "sha256": "cd14c437b0a2bcc66f9ffc3ba34f4eda5a17ca1c9a2490ea7706d64382ee621b",
+      "bytes": 5206
+    },
+    {
+      "path": "results/H1_supplement_shards/4/H1_locus_genome_correspondence.tsv",
+      "sha256": "f80edf30257e8254f7054101132a7203cffa676e00b729b492b2bf04832c7243",
+      "bytes": 2364
+    },
+    {
+      "path": "results/H1_supplement_shards/5/H1_C_role_evidence.tsv",
+      "sha256": "1282265de6b490f63d8dd046212a5475becac9c7009f9dde99d24b3f69ecb1c8",
+      "bytes": 68090
+    },
+    {
+      "path": "results/H1_supplement_shards/5/H1_carrier_catalogue.tsv",
+      "sha256": "79af0c315c65e06af54f2bc0fb0316d97f671700b290a2fb66925e5c3be4a0fd",
+      "bytes": 139202
+    },
+    {
+      "path": "results/H1_supplement_shards/5/H1_correspondence_summary.json",
+      "sha256": "b3bf5f1f85d12dd7a97ca0fd352ffa1eee041be97e1956ba807525aee5932ce7",
+      "bytes": 787
+    },
+    {
+      "path": "results/H1_supplement_shards/5/H1_gene_genome_correspondence.tsv",
+      "sha256": "3c76db39e4c789986e217ca3ed483fa68c25a20e6d34f18e4bb6967a5ac41675",
+      "bytes": 133750
+    },
+    {
+      "path": "results/H1_supplement_shards/5/H1_genome_parse_errors.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3
+    },
+    {
+      "path": "results/H1_supplement_shards/5/H1_genome_quality.tsv",
+      "sha256": "b466548203dc53cabf8e9946420be5e113adca69b9b584ee09d7974469f02f35",
+      "bytes": 5149
+    },
+    {
+      "path": "results/H1_supplement_shards/5/H1_locus_genome_correspondence.tsv",
+      "sha256": "2683cbe83b7b2f9507eaadbcf7e45c2070ff139184577f3310df4066e620ef91",
+      "bytes": 11528
+    },
+    {
+      "path": "results/H1_supplement_shards/6/H1_C_role_evidence.tsv",
+      "sha256": "1282265de6b490f63d8dd046212a5475becac9c7009f9dde99d24b3f69ecb1c8",
+      "bytes": 68090
+    },
+    {
+      "path": "results/H1_supplement_shards/6/H1_carrier_catalogue.tsv",
+      "sha256": "6b62a0d4f532d42d0e7a388a8537c0b4d5457091627816d74c846dcb69809359",
+      "bytes": 139174
+    },
+    {
+      "path": "results/H1_supplement_shards/6/H1_correspondence_summary.json",
+      "sha256": "767a0f13c746dd89f1d276668e661c0e2ddb69fd584c55591d3bccc6ba4f8394",
+      "bytes": 787
+    },
+    {
+      "path": "results/H1_supplement_shards/6/H1_gene_genome_correspondence.tsv",
+      "sha256": "fe06eaeadf00d302b561569f818829e723ab45013058de1f197a39d962ae2086",
+      "bytes": 127199
+    },
+    {
+      "path": "results/H1_supplement_shards/6/H1_genome_parse_errors.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3
+    },
+    {
+      "path": "results/H1_supplement_shards/6/H1_genome_quality.tsv",
+      "sha256": "7893b854c5d16e42e7409819862f3c289d31e0d6901a6efbe49afb538edcd749",
+      "bytes": 5165
+    },
+    {
+      "path": "results/H1_supplement_shards/6/H1_locus_genome_correspondence.tsv",
+      "sha256": "c7f6971caa41612a5d81a8629b99286bfc31a0c6a3ed044c2b285a2a914f4a79",
+      "bytes": 10838
+    },
+    {
+      "path": "results/H1_supplement_shards/7/H1_C_role_evidence.tsv",
+      "sha256": "1282265de6b490f63d8dd046212a5475becac9c7009f9dde99d24b3f69ecb1c8",
+      "bytes": 68090
+    },
+    {
+      "path": "results/H1_supplement_shards/7/H1_carrier_catalogue.tsv",
+      "sha256": "91fea9ddc1a278079cdec68bf606b45fb84ac52ac25defcae59b903a1de64ff2",
+      "bytes": 138530
+    },
+    {
+      "path": "results/H1_supplement_shards/7/H1_correspondence_summary.json",
+      "sha256": "4b4daa52ec3978638ffe2a6d5835090b353d03839960a953fd57f287f6b7371f",
+      "bytes": 837
+    },
+    {
+      "path": "results/H1_supplement_shards/7/H1_gene_genome_correspondence.tsv",
+      "sha256": "a783568fdb07db1bf6efd2a72b1bf8aee9b977d480bcf6ea53f297a6f943f2a2",
+      "bytes": 16430
+    },
+    {
+      "path": "results/H1_supplement_shards/7/H1_genome_parse_errors.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3
+    },
+    {
+      "path": "results/H1_supplement_shards/7/H1_genome_quality.tsv",
+      "sha256": "ec07676c4e9fd544a380a4e5fd96c3be6e3eca38d47edef33c30fd4054fb1e37",
+      "bytes": 5154
+    },
+    {
+      "path": "results/H1_supplement_shards/7/H1_locus_genome_correspondence.tsv",
+      "sha256": "d1e7c60d08c28009bd5a585751c6ce92f9acf741f5e29e6de448d5d60e206af0",
+      "bytes": 1988
+    },
+    {
+      "path": "results/tables/H1_B_homology.tsv",
+      "sha256": "b54a4b22f8b9786ba0d0b326df13120c6424ae035fad067a8fae9ad8fbe07ea8",
+      "bytes": 62558
+    },
+    {
+      "path": "results/tables/H1_C_homology.tsv",
+      "sha256": "01e8a06c65462fd00bbe362eb41f08ffbe410b060fd9c65860ffcb85ebb9e30c",
+      "bytes": 173008
+    },
+    {
+      "path": "results/tables/H1_C_redundancy.tsv",
+      "sha256": "490cbd67900e7a826b0cd78933c39771875534acf6f8d92e4ebc5bd6add5a52e",
+      "bytes": 11335
+    },
+    {
+      "path": "results/tables/H1_C_role_evidence.tsv",
+      "sha256": "4e2bd9d70ee67c378c9e7168aa4f53e9c26a1a28a5b9788f81baad34fda40902",
+      "bytes": 68336
+    },
+    {
+      "path": "results/tables/H1_Nature_4BL1_assembly_inputs.tsv",
+      "sha256": "ca2c64b66f5cf6c60c6108bdbc267f89dcca0ac2b46012627a6a8759caa91162",
+      "bytes": 314
+    },
+    {
+      "path": "results/tables/H1_assembly_inputs.tsv",
+      "sha256": "98edfc2ae3d4afd934b0064a4f264cb207d42343acb54c626f642cf43ef20993",
+      "bytes": 39851
+    },
+    {
+      "path": "results/tables/H1_carrier_catalogue.tsv",
+      "sha256": "1448107b0aa50045ca704332981bb44faf26abf687eef8eaf30d2d56d6cd1e01",
+      "bytes": 158054
+    },
+    {
+      "path": "results/tables/H1_collected_summary.json",
+      "sha256": "57fbaff2c51305a0423d72d52cfdb2656e929f14f98e78afb14444b0932910f1",
+      "bytes": 2866
+    },
+    {
+      "path": "results/tables/H1_component_candidates.tsv",
+      "sha256": "b023fcce6f01e63e234163bed1e44c57b2a4c4a334511bc366e748eae1e4f0d1",
+      "bytes": 64354
+    },
+    {
+      "path": "results/tables/H1_component_correspondence.tsv",
+      "sha256": "156aa3165408c34d72952f8f952f884fd76864c8ed4f73ac577e2fbd00339d67",
+      "bytes": 201480
+    },
+    {
+      "path": "results/tables/H1_export_redundancy.tsv",
+      "sha256": "4984ebc2875768bf8a2091ff6b02901e270d4615ec870f7aaa3eed26f4f34a85",
+      "bytes": 5372
+    },
+    {
+      "path": "results/tables/H1_gene_genome_correspondence.tsv",
+      "sha256": "3cd86ba3cf18644c3c07e4c1274c726a3c268133e3aed5cc59649cba6a5dcee8",
+      "bytes": 3334165
+    },
+    {
+      "path": "results/tables/H1_genome_download_errors.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3
+    },
+    {
+      "path": "results/tables/H1_genome_quality.tsv",
+      "sha256": "28057bc7d69f2aa0d46b191b45a4efa6357185b5bbe1f23ec8238d56b96baeed",
+      "bytes": 135400
+    },
+    {
+      "path": "results/tables/H1_genome_redundancy.tsv",
+      "sha256": "9acd26fbb56590e1d4716b199b30912c224ef21264d9a6485fe4476dc331df2a",
+      "bytes": 3046
+    },
+    {
+      "path": "results/tables/H1_locus_genome_correspondence.tsv",
+      "sha256": "af9cbbcee214c1e3c51ec6854dc6c3ac5f6a7e662a86d6bd3816422a4730bf1c",
+      "bytes": 234286
+    },
+    {
+      "path": "results/tables/H1_mapping_review_flags.tsv",
+      "sha256": "ce35c1b218513b4030b13af48d8d282e2eb49fe721781ed5586ed1ef227dbe97",
+      "bytes": 1973
+    },
+    {
+      "path": "results/tables/H1_npdc_assembly_candidates.tsv",
+      "sha256": "3b20c06dbdbc2a4c663d7bedaf59b6a70a6d599ee082d5f7f6c13c03400b8752",
+      "bytes": 26999
+    },
+    {
+      "path": "results/tables/H1_nucleotide_assembly_links.tsv",
+      "sha256": "8b22b14a181dcf066ecdf34c7b89d02654d64e56f118439f6582a4ab398f760c",
+      "bytes": 37324
+    },
+    {
+      "path": "results/tables/H1_physical_loci.tsv",
+      "sha256": "31b37f75aafffe5b55762443ff37340e075c2473d13b47a50f4fc5f6ccba924f",
+      "bytes": 55540
+    },
+    {
+      "path": "results/tables/H1_publication_genes.tsv",
+      "sha256": "43b2d778a2ccdfb5a9a51551383806e8a8a666c88e4459bde7a5496479127d0b",
+      "bytes": 1529575
+    },
+    {
+      "path": "results/tables/H1_publication_loci.tsv",
+      "sha256": "96f373543f5c962fb328b4634960cc29db619331ae726eb84afc3935dc2ebb69",
+      "bytes": 74061
+    },
+    {
+      "path": "results/tables/H1_relative_metadata_pool.tsv",
+      "sha256": "a27e432c1b83bd206506c8f7a781d7514539f89e54fffaabe049b5c2a754fc80",
+      "bytes": 21686843
+    },
+    {
+      "path": "results/tables/H1_relative_panel.tsv",
+      "sha256": "2928a11435f9e41329edfddfa6043b5b4b9ccab98101a3761ef66b9fbf15bdf1",
+      "bytes": 98156
+    },
+    {
+      "path": "results/tables/H1_relative_selection.tsv",
+      "sha256": "6932df64751932ce50759173ae39eb2906a94a01024b886f024925b012668d23",
+      "bytes": 83099
+    },
+    {
+      "path": "results/tables/H1_relative_selection_gaps.tsv",
+      "sha256": "16dc5902d131a3b41dff5b29a0c20b2a637c5c332fd7d139cf798d4b4ed491cf",
+      "bytes": 12109
+    },
+    {
+      "path": "results/tables/H1_review_metrics.json",
+      "sha256": "57fbaff2c51305a0423d72d52cfdb2656e929f14f98e78afb14444b0932910f1",
+      "bytes": 2866
+    },
+    {
+      "path": "results/tables/H1_supplement_assembly_inputs.tsv",
+      "sha256": "b7f7d8d98f53955316edccf019d56689e39c46bd796c718b47fdf14636843d57",
+      "bytes": 20547
+    },
+    {
+      "path": "results/tables/H1_supplement_download_errors.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3
+    },
+    {
+      "path": "results/tables/H1_supplement_selection_summary.json",
+      "sha256": "2af36e005ce44fd73d71a7be193c5ceadc6714d588b694ed573d415759d676d4",
+      "bytes": 394
+    },
+    {
+      "path": "results/tables/H1_wgs_assembly_candidates.tsv",
+      "sha256": "dc6f6f6066c9bec687380361791035389d4e80223f6a706dfe8d5f9c4bba7f52",
+      "bytes": 64808
+    },
+    {
+      "path": "reviews/2026-10-13-H1-carriers-and-relatives.md",
+      "sha256": "4c143f8870626c6048738eeee8b206bae524bda4f1d8d43e6bd8826c62c54590",
+      "bytes": 20772
+    },
+    {
+      "path": "scripts/H1_4BL1.sbatch",
+      "sha256": "1c46bba312c4560a5cf9d066e3692bad1ffb8fde8525749c5e8b1bd9a3947c37",
+      "bytes": 653
+    },
+    {
+      "path": "scripts/H1_B_homology.sbatch",
+      "sha256": "ab97c700cf01eeee2df6efe55cb980befeed1442076703d424b2c395fd89ac81",
+      "bytes": 970
+    },
+    {
+      "path": "scripts/H1_correspondence.sbatch",
+      "sha256": "0be031a8168c9dfd8250dac3f39af842c995689896b8fc9d814158907fc716bb",
+      "bytes": 654
+    },
+    {
+      "path": "scripts/H1_supplement.sbatch",
+      "sha256": "c9e18b84a5345120b63fc0c808a0b000a6817430094746af9d7d00ef175646dd",
+      "bytes": 710
+    },
+    {
+      "path": "scripts/audit_h1.py",
+      "sha256": "3f2bfffe2d0f91897166a708e8bf66e1a7ba3bf1dc23279930f11cb36ae52dfd",
+      "bytes": 20184
+    },
+    {
+      "path": "scripts/collect_h1.py",
+      "sha256": "1c82210ca13982abb5da51143145590cf9ad43b32d12688330df0aefbb788d4a",
+      "bytes": 22393
+    },
+    {
+      "path": "scripts/fetch_h1.py",
+      "sha256": "7fa8a00411b1e3f27ed3b3cc5364fd6af6f087bffac803657bc6ff9149f65ae5",
+      "bytes": 10432
+    },
+    {
+      "path": "scripts/prepare_h1.py",
+      "sha256": "e6127c7ca602ec5cd73afb3c922d37fd1371af63ee44a9a961bf2fe1451294e7",
+      "bytes": 9404
+    },
+    {
+      "path": "scripts/prepare_h1_supplement.py",
+      "sha256": "24fc940ae468b05772ed7e1f73812f29ac1af75c31572861197b1cf65b0ff864",
+      "bytes": 9651
+    },
+    {
+      "path": "scripts/run_h1_homology.sh",
+      "sha256": "7b682d6f1d03cf5eb0866c84c8a36e9e42acdc8369135a7b1eee3e727ff2ca55",
+      "bytes": 666
+    },
+    {
+      "path": "scripts/submit_H1_array.sh",
+      "sha256": "ff6ccc85918b6508e11d6e0125b37f57bdb6382a84252decd34810744962fcd1",
+      "bytes": 478
+    },
+    {
+      "path": "scripts/submit_H1_runtime.sh",
+      "sha256": "f5c15c60728f95809a9d2dcefb305d2bd47619ae2ff81554367a338e526c427f",
+      "bytes": 468
+    },
+    {
+      "path": "scripts/submit_H1_supplement.sh",
+      "sha256": "a85ba6744bb96fb413954e1318f5d74a4e28dadeed826d09b390cd272b803697",
+      "bytes": 512
+    }
+  ]
+}

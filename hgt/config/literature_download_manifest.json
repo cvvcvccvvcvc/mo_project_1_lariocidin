@@ -1,0 +1,89 @@
+[
+  {
+    "name": "HGTphyloDetect_README.md",
+    "url": "https://raw.githubusercontent.com/SysBioChalmers/HGTphyloDetect/master/README.md",
+    "local_path": "inputs/2026-10-13/literature/HGTphyloDetect_README.md",
+    "bytes": 3679,
+    "sha256": "6b4225deaae32fa59f5fe92e3f13dbaa9fa77c7a6f0d8943503013fc223fe03b",
+    "retrieved_utc": "2026-10-13T11:09:31.850497+00:00"
+  },
+  {
+    "name": "WAAFLE_README.md",
+    "url": "https://raw.githubusercontent.com/biobakery/waafle/main/README.md",
+    "local_path": "inputs/2026-10-13/literature/WAAFLE_README.md",
+    "bytes": 20074,
+    "sha256": "7d79566c8a780de87f36fc171ac865863f46d05ca3c31b9b97f962010895c2dc",
+    "retrieved_utc": "2026-10-13T11:09:31.966518+00:00"
+  },
+  {
+    "name": "ALE_README.md",
+    "url": "https://raw.githubusercontent.com/ssolo/ALE/master/README.md",
+    "local_path": "inputs/2026-10-13/literature/ALE_README.md",
+    "bytes": 7940,
+    "sha256": "6ad23da35201b3be2e1b24acb90f5c6c243ba937fb8dc579738e26256e50cf7d",
+    "retrieved_utc": "2026-10-13T11:09:31.913458+00:00"
+  },
+  {
+    "name": "AleRax_README.md",
+    "url": "https://raw.githubusercontent.com/BenoitMorel/AleRax/master/README.md",
+    "local_path": "inputs/2026-10-13/literature/AleRax_README.md",
+    "bytes": 2925,
+    "sha256": "c2c6538bd12feac2a7dd8d86a2a463372d3d8f4298d36b970d56d92bdb1a2fb0",
+    "retrieved_utc": "2026-10-13T11:09:31.927150+00:00"
+  },
+  {
+    "name": "Yuan2023.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10025432/fullTextXML",
+    "local_path": "inputs/2026-10-13/literature/Yuan2023.xml",
+    "bytes": 72438,
+    "sha256": "1800ba3118608a7697f9aa37346cce3651abf726ecae2a5cf8f2854f9884be02",
+    "retrieved_utc": "2026-10-13T11:09:33.042619+00:00"
+  },
+  {
+    "name": "Merrild2025.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12070363/fullTextXML",
+    "local_path": "inputs/2026-10-13/literature/Merrild2025.xml",
+    "bytes": 172407,
+    "sha256": "795682a42f98981b0fa7de15ccca909fdfce32d3e78fdb62093a96f4a74e29f4",
+    "retrieved_utc": "2026-10-13T11:09:33.227241+00:00"
+  },
+  {
+    "name": "Jangra2025.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12497486/fullTextXML",
+    "error": "HTTP Error 500: "
+  },
+  {
+    "name": "Szollosi2013.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3797637/fullTextXML",
+    "local_path": "inputs/2026-10-13/literature/Szollosi2013.xml",
+    "bytes": 107783,
+    "sha256": "b8e4f9e902741ecf097b701d0f2ef658d4c5568f04676dc8c3a7510370567d6a",
+    "retrieved_utc": "2026-10-13T11:09:32.904905+00:00"
+  },
+  {
+    "name": "GToTree2019.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6792077/fullTextXML",
+    "local_path": "inputs/2026-10-13/literature/GToTree2019.xml",
+    "bytes": 31925,
+    "sha256": "7b82baef0215826ad5ecb8d935fb8acd90e23d6dd827cd8be9255ae9cfd12d64",
+    "retrieved_utc": "2026-10-13T11:16:29.056924+00:00"
+  },
+  {
+    "name": "Jangra2025_BioC.json",
+    "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/PMC12497486/unicode",
+    "local_path": "inputs/2026-10-13/literature/Jangra2025_BioC.json",
+    "bytes": 6140,
+    "sha256": "478f38e0765ee9c406831bb2fc27e8019ac5227c20c6b28ca0de582d8449354a",
+    "retrieved_utc": "2026-10-13T11:16:26.276213+00:00",
+    "content_status": "API error page, not article text",
+    "error": "No result can be found (HTTP 200 error body)"
+  },
+  {
+    "name": "GToTree_SCG_sets.md",
+    "url": "https://raw.githubusercontent.com/wiki/AstrobioMike/GToTree/SCG-sets.md",
+    "local_path": "inputs/2026-10-13/literature/GToTree_SCG_sets.md",
+    "bytes": 9937,
+    "sha256": "645aab380a5451d628ce1fc33eb71dac96e8f44017623097ae890b34e7d74fdd",
+    "retrieved_utc": "2026-10-13T11:16:26.247267+00:00"
+  }
+]

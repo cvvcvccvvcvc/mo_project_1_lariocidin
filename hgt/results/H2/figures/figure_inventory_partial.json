@@ -1,0 +1,107 @@
+[
+  {
+    "figure": "Bacteria74_canonical_ABC_family.pdf",
+    "source_tree": "component_trees/canonical_ABC_family/ML.treefile",
+    "display": "arbitrary_unrooted_orientation; no_donor_or_recipient_inference"
+  },
+  {
+    "figure": "Bacteria74_canonical_B1.pdf",
+    "source_tree": "component_trees/canonical_B1/ML.treefile",
+    "display": "arbitrary_unrooted_orientation; no_donor_or_recipient_inference"
+  },
+  {
+    "figure": "Bacteria74_canonical_B2.pdf",
+    "source_tree": "component_trees/canonical_B2/ML.treefile",
+    "display": "arbitrary_unrooted_orientation; no_donor_or_recipient_inference"
+  },
+  {
+    "figure": "Bacteria74_canonical_C.pdf",
+    "source_tree": "component_trees/canonical_C/ML.treefile",
+    "display": "arbitrary_unrooted_orientation; no_donor_or_recipient_inference"
+  },
+  {
+    "figure": "Bacteria74_canonical_GNAT_E.pdf",
+    "source_tree": "component_trees/canonical_GNAT_E/ML.treefile",
+    "display": "arbitrary_unrooted_orientation; no_donor_or_recipient_inference"
+  },
+  {
+    "figure": "Bacteria74_noncanonical_ABC_D.pdf",
+    "source_tree": "component_trees/noncanonical_ABC_D/ML.treefile",
+    "display": "arbitrary_unrooted_orientation; no_donor_or_recipient_inference"
+  },
+  {
+    "figure": "Bacteria74_noncanonical_C.pdf",
+    "source_tree": "component_trees/noncanonical_C/ML.treefile",
+    "display": "arbitrary_unrooted_orientation; no_donor_or_recipient_inference"
+  },
+  {
+    "figure": "Bacteria74_noncanonical_GNAT_neighbour.pdf",
+    "source_tree": "component_trees/noncanonical_GNAT_neighbour/ML.treefile",
+    "display": "arbitrary_unrooted_orientation; no_donor_or_recipient_inference"
+  },
+  {
+    "figure": "Bacteria74_uncertain_Nature_system_C.pdf",
+    "source_tree": "component_trees/uncertain_Nature_system_C/ML.treefile",
+    "display": "arbitrary_unrooted_orientation; no_donor_or_recipient_inference"
+  },
+  {
+    "figure": "Bacteria74_canonical_C_MAG_diagnostic.pdf",
+    "source_tree": "component_trees/canonical_C_MAG_diagnostic/ML.treefile",
+    "display": "arbitrary_unrooted_orientation; no_donor_or_recipient_inference"
+  },
+  {
+    "figure": "Bacteria74_C_domain_background_diagnostic.pdf",
+    "source_tree": "component_trees/C_domain_background_diagnostic/ML.treefile",
+    "display": "arbitrary_unrooted_orientation; no_donor_or_recipient_inference"
+  },
+  {
+    "figure": "Bacteria74_canonical.pdf",
+    "source_tree": "host_trees/canonical/ML.treefile",
+    "display": "arbitrary_unrooted_orientation; no_donor_or_recipient_inference"
+  },
+  {
+    "figure": "Bacteria74_canonical_MAG_diagnostic.pdf",
+    "source_tree": "host_trees/canonical_MAG_diagnostic/ML.treefile",
+    "display": "arbitrary_unrooted_orientation; no_donor_or_recipient_inference"
+  },
+  {
+    "figure": "Bacteria74_noncanonical.pdf",
+    "source_tree": "host_trees/noncanonical/ML.treefile",
+    "display": "arbitrary_unrooted_orientation; no_donor_or_recipient_inference"
+  },
+  {
+    "figure": "Bacteria74_canonical_C_overview.pdf",
+    "shown_hosts": "H0003;H0007;H0013;H0022;H0056;H0065;H0076;H0109;H0172;H0185;H0199;H0210",
+    "display": "one_lexicographic_C_tip_per_genus; overview_only; no_support_or_history_claim_after_pruning"
+  },
+  {
+    "figure": "Bacteria74_noncanonical_C_overview.pdf",
+    "shown_hosts": "H0001;H0009;H0011;H0023;H0042;H0068;H0080;H0157;H0165;H0193;H0207;H0265;H0269;H0297",
+    "display": "one_lexicographic_C_tip_per_genus; overview_only; no_support_or_history_claim_after_pruning"
+  },
+  {
+    "figure": "Actino138_noncanonical_ABC_D.pdf",
+    "source_tree": "actino/component_trees/noncanonical_ABC_D/ML.treefile",
+    "display": "arbitrary_unrooted_orientation; no_donor_or_recipient_inference"
+  },
+  {
+    "figure": "Actino138_noncanonical_C.pdf",
+    "source_tree": "actino/component_trees/noncanonical_C/ML.treefile",
+    "display": "arbitrary_unrooted_orientation; no_donor_or_recipient_inference"
+  },
+  {
+    "figure": "Actino138_noncanonical_GNAT_neighbour.pdf",
+    "source_tree": "actino/component_trees/noncanonical_GNAT_neighbour/ML.treefile",
+    "display": "arbitrary_unrooted_orientation; no_donor_or_recipient_inference"
+  },
+  {
+    "figure": "Actino138_uncertain_Nature_system_C.pdf",
+    "source_tree": "actino/component_trees/uncertain_Nature_system_C/ML.treefile",
+    "display": "arbitrary_unrooted_orientation; no_donor_or_recipient_inference"
+  },
+  {
+    "figure": "Actino138_uncertain_Nature.pdf",
+    "source_tree": "actino/host_trees/uncertain_Nature/ML.treefile",
+    "display": "arbitrary_unrooted_orientation; no_donor_or_recipient_inference"
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "python": "3.12.14 (main, Sep  3 2026, 03:46:19) [Clang 21.1.8 ]",
+  "executable": "<operator-local-python>",
+  "biopython": "1.88",
+  "numpy": "2.5.3",
+  "scope": "Inventory and author WAAFLE fixture only. Existing shared environment read; no packages installed."
+}

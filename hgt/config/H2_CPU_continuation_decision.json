@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-14",
+  "user_authorization": "parallel calculations using maximum64 CPU;512GB RAM ceiling and256GB disk hard limit",
+  "previous_jobs": [
+    "938121_0",
+    "938121_1",
+    "938121_2",
+    "938122_0"
+  ],
+  "replacement_jobs": [
+    "938285_0",
+    "938285_1",
+    "938285_2",
+    "938286_0"
+  ],
+  "continuation": "same IQ-TREE version, source matrices, fixed per-marker model classes, seeds, full-search criteria and1000UFBoot+BNNI/1000SH-aLRT; CPU threads8to16; checkpoint continuation without -redo",
+  "archive": "results/H2/run_checkpoints/cpu8; saved locally to avoid duplicate remote data",
+  "resource_reason": "32 additional cores available in allowed normal QoS; first canonical estimate4h14 remaining before support; all4 fits now16CPU each,64total",
+  "scope": "execution resource change, no new model comparisons; no claim of bitwise equivalence across thread settings",
+  "Slurm_followups": {
+    "gCF74": 938287,
+    "gCF138": 938288,
+    "comparisons_and_figures": 938289
+  },
+  "H2_review_continuation": {
+    "date": "2026-10-14",
+    "completed_main_jobs": [
+      "938285_0",
+      "938285_1",
+      "938285_2"
+    ],
+    "unfinished_host": "Actino138 noncanonical",
+    "stopped_job": "938286_0",
+    "reason": "remaining full-support refinement risked16h time limit; requested walltime extension was denied by Slurm;64CPU now available after Bacteria74 fits",
+    "CPU16_archive": "H2_CPU16_continuation_archive_manifest.json",
+    "replacement_job": "938342_0",
+    "CPU": 64,
+    "RAM_GB": 32,
+    "walltime_hours": 32,
+    "method": "same checkpoint, model classes, alignments and seed; unfinished phases may repeat; no claim that all prior BNNI samples are saved",
+    "gCF74_job": "938340",
+    "ready_results_job": "938341",
+    "gCF138_job": "938343",
+    "final_results_job": "938347",
+    "review_steps": "short1CPU srun steps inside the existing64CPU allocation; no additional CPU allocation or genome duplication",
+    "observed_resume": "IQ-TREE restored107 ML iterations and441 refined bootstrap samples; current best log likelihood-909355.453"
+  }
+}

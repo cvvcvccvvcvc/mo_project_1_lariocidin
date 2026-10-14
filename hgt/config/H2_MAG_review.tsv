@@ -1,0 +1,3 @@
+host_id	genome_id	biosample	organism	metadata_flag	basis
+H0275	GCF_004018325.1	SAMN10686632	Mesorhizobium sp.	derived from metagenome;N.Ca.IN.000.30.1	frozen_RefSeq_assembly_metadata
+H0008	uncultured_paraburkholderia	SAMEA14037588	uncultured Paraburkholderia sp.	soil metagenome; native_annotation_unavailable	verified_identifier_matching_frozen_BioSample_v2

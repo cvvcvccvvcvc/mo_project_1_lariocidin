@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-13",
+  "scope": "separate canonical and noncanonical phylogenies; uncertain Nature systems diagnostic only",
+  "host_markers": {
+    "panel": "GToTree Bacteria.hmm, 74 Pfam models; author MD5 verified and SHA256 frozen",
+    "search": "hmmsearch --cut_ga",
+    "duplicates": "mask all copies of a marker in a genome; no highest-score choice",
+    "length_filter": "retain within 20 percent of across-genome marker median; report exclusions",
+    "BGC_exclusion": "conservatively mask markers overlapping mapped publication windows; C-only projected windows flagged",
+    "genome_admission": "at least 80 percent of 74 markers usable as independent single-copy sequences",
+    "genome_redundancy": "one computational representative per exact strand-independent genome-content hash, retaining all BioSample and gene mappings"
+  },
+  "components": {
+    "initial_native_scope": "source-provenance-supported occurrences or whole-export-exact occurrences in known frozen assemblies",
+    "C": "native DNA/translation checked, source role/context and domain evidence recorded; different annotation variants retained for review",
+    "B1_B2": "standard BLASTP against published M2/Bgel/Cpal/Ptar references; both coverages >=70 percent, E<=1e-5; local C context and domain inventory; multiple copies retained",
+    "auxiliary": "GNAT and ABC require full-length reference homology plus context and family-tree inspection; no universal GNAT/ABC role",
+    "precursor": "DNA and amino-acid sequences/alleles; no forced standalone tree",
+    "uncertain_Nature": "separate diagnostic C/domain/context assessment; no automatic addition to primary canonical tree"
+  },
+  "phylogeny": {
+    "alignment": "MAFFT --auto",
+    "site_filter": "trimAl -gappyout; retain raw alignment and removed-column statistics",
+    "ML": "IQ-TREE ModelFinder over LG,WAG,JTT with gamma; marker partitions merged using relaxed clustering",
+    "support": "1000 ultrafast bootstrap with BNNI and 1000 SH-aLRT for main component/host trees",
+    "marker_trees": "individual ML trees and support, informative-site inventory; assess conflicts with concatenation",
+    "identical_gene_sequences": "keep separate biological copies and carriers; deduplicate only repeated exports of same physical gene",
+    "seed": 131013,
+    "root": "unrooted primary estimates; any display root explicit and non-historical; reconciliation roots decided later",
+    "sensitivity": "targeted untrimmed or site-heterogeneous alternative when alignment loss/composition diagnostics warrant it"
+  },
+  "interpretation": "putative orthology and topology support; neither HGT event support nor p-value for transfer",
+  "resource_plan": "native extraction/HMM array max8 jobs x2CPU/4GB; marker/tree jobs through Slurm; main host tree jobs up to8CPU/16GB, wall limit8h; measure pilot before broadening"
+}

@@ -1,0 +1,16 @@
+{
+  "decision": "fixed_per_marker_BIC_model_classes_for_primary_host_trees; full_ML_plus1000UFBoot_BNNI_SHaLRT",
+  "observed": "138-marker MFP+MERGE still initial individual-model stage at233/2025 after20m45 with estimate2h39 remaining; later merging and full tree/support additional;74-marker merge estimated614 but examined>2459 schemes",
+  "user_discussion": "explicit user approval received; per-marker primary scheme authorized",
+  "model_choice": "BIC class from independent -fast marker fits on frozen genomic background; host parameters reestimated on its own subset",
+  "model_scope": "LG/WAG/JTT +/-F +G4; fallbackLG+G4 for uninformative marker; edge-linked proportional per-marker partitions; no merging search",
+  "Nature_diagnostic": "completed full MFP+MERGE 8-host local diagnostic; separate from primary host scheme",
+  "cancelled_pilots": [
+    "937868",
+    "937907"
+  ],
+  "preserve": "partial results and original partitions under results/H2/pilots/host_model_merge; original operational scripts archived",
+  "user_decision": "Explicitly approved per-marker already-selected model classes, full taxon set and marker partitions, full ML and parameter optimization,1000UFBoot+BNNI and1000SH-aLRT; preserve unfinished MERGE checkpoint/logs; no claim of equivalence; no new mass model comparisons; targeted robustness checks retained",
+  "model_alignment_check": "Verify classes from final filtered per-marker alignment reports; verify each final host matrix block is exactly the selected taxon subset of that alignment; selected class from full frozen marker background, host parameters reestimated on final subset; no claim of subset-specific BIC optimality",
+  "preserved_checkpoint_note": "all available pilot files retained locally and remotely; ML.model.gz preserves ModelFinder state, ML.ckp.gz exists where IQ-TREE had entered full tree search"
+}

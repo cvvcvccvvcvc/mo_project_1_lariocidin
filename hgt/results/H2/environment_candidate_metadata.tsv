@@ -1,0 +1,3 @@
+candidate_id	host_id	BioSample	frozen_source	raw_environment_attributes	interpretation
+H2-CAN-BURK	H0203	SAMN02440788	inputs/H1_2026-10-13/legacy_metadata/biosample_v2__paraburkholderia_mimosarum_stm3621.xml	"{""host"": ""Mimosa pudica"", ""environment"": ""Plant root; Root nodule; Host; Soil""}"	modern_plant_associated_or_soil_metadata; incomplete_candidate_coverage; no_historical_route
+H2-CAN-BURK	H0308	SAMN32146873	inputs/H1_2026-10-13/legacy_metadata/biosample_v2__burkholderia_imcc1007.xml	"{""isolation_source"": ""rhizospheric soil"", ""host"": ""Maize"", ""geo_loc_name"": ""Malaysia: Pagoh""}"	modern_plant_associated_or_soil_metadata; incomplete_candidate_coverage; no_historical_route

@@ -1,0 +1,6 @@
+{
+  "sequence_and_WGS_pool_tables": "four original tables identical SHA-256",
+  "NPDC_candidates": "same 53 assembly accessions as frozen original candidate metadata; original ad hoc byte format not reproduced; normalized in maintained script",
+  "original_table_sha256": "0b1a70e766ec0fc5fd34f14bd787c0f80270414f8d7f96dba2d8f1e2d2c7442c",
+  "current_normalized_sha256": "3b20c06dbdbc2a4c663d7bedaf59b6a70a6d599ee082d5f7f6c13c03400b8752"
+}

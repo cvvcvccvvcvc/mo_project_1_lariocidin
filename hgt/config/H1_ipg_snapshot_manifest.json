@@ -1,0 +1,21 @@
+{
+  "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=HEK9103803.1%2CMBC6973539.1%2CMBO0654593.1%2CMDQ1014324.1%2CMED3602954.1%2CMED3628502.1%2CMED3693458.1%2CNHB91193.1%2CNRP74650.1%2CNSW39496.1%2CQSY49197.1%2CWP_179192565.1&rettype=ipg&retmode=text",
+  "local_path": "inputs/H1_2026-10-13/ncbi/unlinked_C_ipg.tsv",
+  "bytes": 5514,
+  "sha256": "ad9ac55fe1c2fc2cb60a75383c197dd7341a713362d5d8f0fa8a97f743188e2d",
+  "retrieved_utc": "2026-10-13T13:23:20.828324+00:00",
+  "protein_ids": [
+    "HEK9103803.1",
+    "MBC6973539.1",
+    "MBO0654593.1",
+    "MDQ1014324.1",
+    "MED3602954.1",
+    "MED3628502.1",
+    "MED3693458.1",
+    "NHB91193.1",
+    "NRP74650.1",
+    "NSW39496.1",
+    "QSY49197.1",
+    "WP_179192565.1"
+  ]
+}

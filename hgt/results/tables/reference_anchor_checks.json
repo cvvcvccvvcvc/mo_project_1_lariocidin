@@ -1,0 +1,14 @@
+{
+  "reference_genome": "CP169648.1",
+  "reference_organism": "Paenibacillus sp. M2",
+  "m2_export_bp": 8459,
+  "forward_exact_occurrences": 0,
+  "reverse_exact_occurrences": 1,
+  "forward_start_0based": -1,
+  "reverse_start_0based": 6808154,
+  "merrild_export_organism": "Paenibacillus sp. DR312",
+  "merrild_C_accession": "WP_222215840.1",
+  "m2_C_vs_merrild_C_exact_protein": true,
+  "m2_export_exact_in_merrild_window": false,
+  "limitation": "Sequence correspondence only. Protein identity does not establish carrier identity or HGT. Raw reads not inspected."
+}

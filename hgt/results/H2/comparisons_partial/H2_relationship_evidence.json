@@ -1,0 +1,818 @@
+[
+  {
+    "candidate_id": "H2-CAN-M2",
+    "scope": "Bacteria74",
+    "family": "canonical_C",
+    "gene_split": "0c05a2ca7128",
+    "host_split": "67c72d65a826",
+    "interpretation": "linked_B1_B2_C_history_candidate; whole_BGC_not_established",
+    "status": "H2_relation_candidate; no_DTL_AU_or_HGT_event_call",
+    "comparison": {
+      "scope": "Bacteria74",
+      "family": "canonical_C",
+      "gene_split": "0c05a2ca7128",
+      "host_split": "67c72d65a826",
+      "shared_hosts": "H0003;H0007;H0013;H0014;H0016;H0022;H0025;H0032;H0033;H0035;H0038;H0045;H0049;H0050;H0056;H0058;H0059;H0061;H0062;H0065;H0066;H0070;H0073;H0075;H0076;H0077;H0079;H0088;H0089;H0096;H0097;H0098;H0102;H0107;H0109;H0113;H0114;H0116;H0117;H0118;H0119;H0125;H0130;H0132;H0133;H0136;H0137;H0138;H0141;H0142;H0143;H0147;H0154;H0155;H0163;H0168;H0170;H0172;H0176;H0178;H0181;H0185;H0186;H0187;H0190;H0191;H0194;H0198;H0199;H0200;H0201;H0203;H0205;H0208;H0210;H0211;H0215;H0219;H0231;H0234;H0237;H0240;H0242;H0244;H0245;H0253;H0256;H0258;H0261;H0268;H0271;H0272;H0276;H0278;H0280;H0281;H0282;H0285;H0287;H0300;H0301;H0304;H0307;H0308",
+      "gene_side": "H0022;H0102;H0118;H0143;H0245",
+      "host_side": "H0032;H0245",
+      "gene_side_genera": "Paenibacillus",
+      "host_side_genera": "Paenibacillus",
+      "gene_SH_aLRT": "100.0",
+      "gene_UFBoot": "99.0",
+      "host_SH_aLRT": "100.0",
+      "host_UFBoot": "100.0",
+      "interpretation": "supported_topology_disagreement_requires_orthology_model_and_DTL_alternatives; not_an_event"
+    },
+    "host_gCF": [
+      {
+        "ID": "247",
+        "Label": "100/100",
+        "gCF": "17.91",
+        "gCF_N": "12",
+        "gN": "67",
+        "gDF1": "0",
+        "gDF2": "1.49",
+        "gDFP": "80.6",
+        "Length": "0.00135572"
+      }
+    ],
+    "context_families": {
+      "canonical_B1": {
+        "exact_full_tree_group_edge": true,
+        "SH_UF": [
+          [
+            95.5,
+            100.0
+          ]
+        ]
+      },
+      "canonical_B2": {
+        "exact_full_tree_group_edge": true,
+        "SH_UF": [
+          [
+            96.7,
+            98.0
+          ]
+        ]
+      },
+      "canonical_C": {
+        "exact_full_tree_group_edge": true,
+        "SH_UF": [
+          [
+            100.0,
+            99.0
+          ]
+        ]
+      },
+      "canonical_GNAT_E": {
+        "exact_full_tree_group_edge": true,
+        "SH_UF": [
+          [
+            74.4,
+            97.0
+          ]
+        ]
+      },
+      "canonical_C_MAG_diagnostic": {
+        "exact_full_tree_group_edge": true,
+        "SH_UF": [
+          [
+            98.5,
+            96.0
+          ]
+        ]
+      }
+    },
+    "carrier_and_locus_identity": [
+      {
+        "host_id": "H0022",
+        "taxonomy": "Paenibacillus sp. M2",
+        "assembly": "GCF_046713495.1",
+        "BioSample": "SAMN43462237",
+        "assembly_level": "Complete Genome",
+        "C_loci": [
+          {
+            "tip_id": "H0022_Cf2a25a2bd7",
+            "contig": "NZ_CP169648.1",
+            "start_0based": "6813666",
+            "end_0based": "6815673",
+            "C_contig_edge_bp": "519765",
+            "publication_locus_ids": "Nature_2025_91bc539987e9"
+          }
+        ]
+      },
+      {
+        "host_id": "H0032",
+        "taxonomy": "Paenibacillus sp. 2003",
+        "assembly": "GCF_031455635.1",
+        "BioSample": "SAMN18257912",
+        "assembly_level": "Contig",
+        "C_loci": [
+          {
+            "tip_id": "H0032_C7d210cd496",
+            "contig": "NZ_JAVDTB010000019.1",
+            "start_0based": "5740",
+            "end_0based": "7747",
+            "C_contig_edge_bp": "1950",
+            "publication_locus_ids": "Merrild_2025_8bc1b79292cc"
+          }
+        ]
+      },
+      {
+        "host_id": "H0102",
+        "taxonomy": "Paenibacillus sp. DR312",
+        "assembly": "GCF_019793795.1",
+        "BioSample": "SAMN20846937",
+        "assembly_level": "Complete Genome",
+        "C_loci": [
+          {
+            "tip_id": "H0102_Cd60165525b",
+            "contig": "NZ_CP081825.1",
+            "start_0based": "1249927",
+            "end_0based": "1251934",
+            "C_contig_edge_bp": "1249927",
+            "publication_locus_ids": "Merrild_2025_3e7b0ba7f316"
+          }
+        ]
+      },
+      {
+        "host_id": "H0118",
+        "taxonomy": "Paenibacillus sp. CFBP 13594",
+        "assembly": "GCF_014842675.1",
+        "BioSample": "SAMN16237029",
+        "assembly_level": "Contig",
+        "C_loci": [
+          {
+            "tip_id": "H0118_Ca2b9d5588c",
+            "contig": "NZ_JACYVQ010000007.1",
+            "start_0based": "131100",
+            "end_0based": "133107",
+            "C_contig_edge_bp": "131100",
+            "publication_locus_ids": "Merrild_2025_2ee8dbd56900"
+          }
+        ]
+      },
+      {
+        "host_id": "H0143",
+        "taxonomy": "Paenibacillus sp. MYb63",
+        "assembly": "GCF_002975315.1",
+        "BioSample": "SAMN07581388",
+        "assembly_level": "Scaffold",
+        "C_loci": [
+          {
+            "tip_id": "H0143_C1ce20c7e11",
+            "contig": "NZ_PCOX01000004.1",
+            "start_0based": "271237",
+            "end_0based": "273244",
+            "C_contig_edge_bp": "271237",
+            "publication_locus_ids": "Merrild_2025_02e3b9d2b9d8"
+          }
+        ]
+      },
+      {
+        "host_id": "H0245",
+        "taxonomy": "Paenibacillus sp. W4I10",
+        "assembly": "GCF_030816325.1",
+        "BioSample": "SAMN34353143",
+        "assembly_level": "Contig",
+        "C_loci": [
+          {
+            "tip_id": "H0245_C20894aafaa",
+            "contig": "NZ_JAUSXX010000001.1",
+            "start_0based": "5680721",
+            "end_0based": "5682728",
+            "C_contig_edge_bp": "1295927",
+            "publication_locus_ids": "Merrild_2025_ad4b08098d31"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "candidate_id": "H2-CAN-XENO",
+    "scope": "Bacteria74",
+    "family": "canonical_C",
+    "gene_split": "5dfa004b23e6",
+    "host_split": "f1b6f8d5aab8",
+    "interpretation": "C_component_candidate; B1_B2_support_must_be_checked",
+    "status": "H2_relation_candidate; no_DTL_AU_or_HGT_event_call",
+    "comparison": {
+      "scope": "Bacteria74",
+      "family": "canonical_C",
+      "gene_split": "5dfa004b23e6",
+      "host_split": "f1b6f8d5aab8",
+      "shared_hosts": "H0003;H0007;H0013;H0014;H0016;H0022;H0025;H0032;H0033;H0035;H0038;H0045;H0049;H0050;H0056;H0058;H0059;H0061;H0062;H0065;H0066;H0070;H0073;H0075;H0076;H0077;H0079;H0088;H0089;H0096;H0097;H0098;H0102;H0107;H0109;H0113;H0114;H0116;H0117;H0118;H0119;H0125;H0130;H0132;H0133;H0136;H0137;H0138;H0141;H0142;H0143;H0147;H0154;H0155;H0163;H0168;H0170;H0172;H0176;H0178;H0181;H0185;H0186;H0187;H0190;H0191;H0194;H0198;H0199;H0200;H0201;H0203;H0205;H0208;H0210;H0211;H0215;H0219;H0231;H0234;H0237;H0240;H0242;H0244;H0245;H0253;H0256;H0258;H0261;H0268;H0271;H0272;H0276;H0278;H0280;H0281;H0282;H0285;H0287;H0300;H0301;H0304;H0307;H0308",
+      "gene_side": "H0109;H0201",
+      "host_side": "H0109;H0287",
+      "gene_side_genera": "Xenorhabdus",
+      "host_side_genera": "Xenorhabdus",
+      "gene_SH_aLRT": "96.8",
+      "gene_UFBoot": "97.0",
+      "host_SH_aLRT": "100.0",
+      "host_UFBoot": "100.0",
+      "interpretation": "supported_topology_disagreement_requires_orthology_model_and_DTL_alternatives; not_an_event"
+    },
+    "host_gCF": [
+      {
+        "ID": "269",
+        "Label": "100/100",
+        "gCF": "30.88",
+        "gCF_N": "21",
+        "gN": "68",
+        "gDF1": "17.65",
+        "gDF2": "13.24",
+        "gDFP": "38.24",
+        "Length": "0.011548"
+      }
+    ],
+    "context_families": {
+      "canonical_B1": {
+        "status": "missing_or_multiple_query_copies"
+      },
+      "canonical_B2": {
+        "status": "missing_or_multiple_query_copies"
+      },
+      "canonical_C": {
+        "exact_full_tree_group_edge": true,
+        "SH_UF": [
+          [
+            96.8,
+            97.0
+          ]
+        ]
+      },
+      "canonical_GNAT_E": {
+        "status": "missing_or_multiple_query_copies"
+      },
+      "canonical_C_MAG_diagnostic": {
+        "exact_full_tree_group_edge": true,
+        "SH_UF": [
+          [
+            98.3,
+            98.0
+          ]
+        ]
+      }
+    },
+    "carrier_and_locus_identity": [
+      {
+        "host_id": "H0109",
+        "taxonomy": "Xenorhabdus budapestensis",
+        "assembly": "GCF_017743015.1",
+        "BioSample": "SAMN14595202",
+        "assembly_level": "Complete Genome",
+        "C_loci": [
+          {
+            "tip_id": "H0109_C1c3ab74924",
+            "contig": "NZ_CP072455.1",
+            "start_0based": "706100",
+            "end_0based": "708017",
+            "C_contig_edge_bp": "706100",
+            "publication_locus_ids": "Merrild_2025_9abc409e978e;Nature_2025_18bb9e0196cd"
+          }
+        ]
+      },
+      {
+        "host_id": "H0201",
+        "taxonomy": "Xenorhabdus bovienii",
+        "assembly": "GCF_028863165.1",
+        "BioSample": "SAMN19312228",
+        "assembly_level": "Scaffold",
+        "C_loci": [
+          {
+            "tip_id": "H0201_C5ac39e3c09",
+            "contig": "NZ_JAILST010000005.1",
+            "start_0based": "14758",
+            "end_0based": "16675",
+            "C_contig_edge_bp": "14758",
+            "publication_locus_ids": "Merrild_2025_8d45d196839d;Nature_2025_e6f4cc4cdd88"
+          }
+        ]
+      },
+      {
+        "host_id": "H0287",
+        "taxonomy": "Xenorhabdus innexi",
+        "assembly": "GCF_963876265.1",
+        "BioSample": "SAMEA115015402",
+        "assembly_level": "Scaffold",
+        "C_loci": [
+          {
+            "tip_id": "H0287_Ca0d1d7c9d2",
+            "contig": "NZ_CAWNQC010000270.1",
+            "start_0based": "121940",
+            "end_0based": "123857",
+            "C_contig_edge_bp": "7991",
+            "publication_locus_ids": "Merrild_2025_cb2c3d7edfd8;Nature_2025_d1eb85ddd74d"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "candidate_id": "H2-CAN-BURK",
+    "scope": "Bacteria74",
+    "family": "canonical_C",
+    "gene_split": "5202af9f5f2b",
+    "host_split": "2c48f22cd4ee",
+    "interpretation": "C_component_candidate; other_core_histories_need_local_examination",
+    "status": "H2_relation_candidate; no_DTL_AU_or_HGT_event_call",
+    "comparison": {
+      "scope": "Bacteria74",
+      "family": "canonical_C",
+      "gene_split": "5202af9f5f2b",
+      "host_split": "2c48f22cd4ee",
+      "shared_hosts": "H0003;H0007;H0013;H0014;H0016;H0022;H0025;H0032;H0033;H0035;H0038;H0045;H0049;H0050;H0056;H0058;H0059;H0061;H0062;H0065;H0066;H0070;H0073;H0075;H0076;H0077;H0079;H0088;H0089;H0096;H0097;H0098;H0102;H0107;H0109;H0113;H0114;H0116;H0117;H0118;H0119;H0125;H0130;H0132;H0133;H0136;H0137;H0138;H0141;H0142;H0143;H0147;H0154;H0155;H0163;H0168;H0170;H0172;H0176;H0178;H0181;H0185;H0186;H0187;H0190;H0191;H0194;H0198;H0199;H0200;H0201;H0203;H0205;H0208;H0210;H0211;H0215;H0219;H0231;H0234;H0237;H0240;H0242;H0244;H0245;H0253;H0256;H0258;H0261;H0268;H0271;H0272;H0276;H0278;H0280;H0281;H0282;H0285;H0287;H0300;H0301;H0304;H0307;H0308",
+      "gene_side": "H0065;H0163;H0203",
+      "host_side": "H0056;H0163;H0208;H0308",
+      "gene_side_genera": "Burkholderia;Paraburkholderia",
+      "host_side_genera": "Burkholderia",
+      "gene_SH_aLRT": "99.9",
+      "gene_UFBoot": "100.0",
+      "host_SH_aLRT": "100.0",
+      "host_UFBoot": "100.0",
+      "interpretation": "supported_topology_disagreement_requires_orthology_model_and_DTL_alternatives; not_an_event"
+    },
+    "host_gCF": [
+      {
+        "ID": "161",
+        "Label": "100/100",
+        "gCF": "81.25",
+        "gCF_N": "52",
+        "gN": "64",
+        "gDF1": "1.56",
+        "gDF2": "0",
+        "gDFP": "17.19",
+        "Length": "0.0605618"
+      }
+    ],
+    "context_families": {
+      "canonical_B1": {
+        "exact_full_tree_group_edge": true,
+        "SH_UF": [
+          [
+            81.6,
+            94.0
+          ]
+        ]
+      },
+      "canonical_B2": {
+        "status": "missing_or_multiple_query_copies"
+      },
+      "canonical_C": {
+        "exact_full_tree_group_edge": true,
+        "SH_UF": [
+          [
+            99.9,
+            100.0
+          ]
+        ]
+      },
+      "canonical_GNAT_E": {
+        "status": "missing_or_multiple_query_copies"
+      },
+      "canonical_C_MAG_diagnostic": {
+        "exact_full_tree_group_edge": true,
+        "SH_UF": [
+          [
+            99.8,
+            100.0
+          ]
+        ]
+      }
+    },
+    "carrier_and_locus_identity": [
+      {
+        "host_id": "H0056",
+        "taxonomy": "Burkholderia sp. Bp9090",
+        "assembly": "GCF_003857985.1",
+        "BioSample": "SAMN09073333",
+        "assembly_level": "Contig",
+        "C_loci": [
+          {
+            "tip_id": "H0056_Cf843f3c6e1",
+            "contig": "NZ_QTPV01000004.1",
+            "start_0based": "64886",
+            "end_0based": "66818",
+            "C_contig_edge_bp": "64886",
+            "publication_locus_ids": "Merrild_2025_efb402b8cca1"
+          }
+        ]
+      },
+      {
+        "host_id": "H0065",
+        "taxonomy": "Paraburkholderia sp. JHI2823",
+        "assembly": "GCF_038900695.1",
+        "BioSample": "SAMN39286532",
+        "assembly_level": "Contig",
+        "C_loci": [
+          {
+            "tip_id": "H0065_C78e6145138",
+            "contig": "NZ_JAYMRY010000003.1",
+            "start_0based": "299344",
+            "end_0based": "301288",
+            "C_contig_edge_bp": "114514",
+            "publication_locus_ids": "Merrild_2025_2880151c61aa"
+          }
+        ]
+      },
+      {
+        "host_id": "H0163",
+        "taxonomy": "Burkholderia sp. Bp8963",
+        "assembly": "GCF_003854275.1",
+        "BioSample": "SAMN09073220",
+        "assembly_level": "Contig",
+        "C_loci": [
+          {
+            "tip_id": "H0163_Cd9401e25b3",
+            "contig": "NZ_QTQP01000053.1",
+            "start_0based": "48059",
+            "end_0based": "50006",
+            "C_contig_edge_bp": "1566",
+            "publication_locus_ids": "Merrild_2025_d392e3157af5"
+          }
+        ]
+      },
+      {
+        "host_id": "H0203",
+        "taxonomy": "Paraburkholderia mimosarum STM 3621",
+        "assembly": "GCF_000472845.1",
+        "BioSample": "SAMN02440788",
+        "assembly_level": "Scaffold",
+        "C_loci": [
+          {
+            "tip_id": "H0203_C7666e36c9a",
+            "contig": "NZ_AXAO01000004.1",
+            "start_0based": "50336",
+            "end_0based": "52280",
+            "C_contig_edge_bp": "50336",
+            "publication_locus_ids": "Merrild_2025_4926d1f50c36;Nature_2025_2bbd8e4fbc99"
+          }
+        ]
+      },
+      {
+        "host_id": "H0208",
+        "taxonomy": "Burkholderia sp. USMB20",
+        "assembly": "GCF_000949135.2",
+        "BioSample": "SAMN03177436",
+        "assembly_level": "Contig",
+        "C_loci": [
+          {
+            "tip_id": "H0208_Cbfacb1059a",
+            "contig": "NZ_JTAN02000003.1",
+            "start_0based": "443985",
+            "end_0based": "445917",
+            "C_contig_edge_bp": "250994",
+            "publication_locus_ids": "Merrild_2025_266ad58ca622"
+          }
+        ]
+      },
+      {
+        "host_id": "H0308",
+        "taxonomy": "Burkholderia sp. IMCC1007",
+        "assembly": "GCF_027257875.1",
+        "BioSample": "SAMN32146873",
+        "assembly_level": "Scaffold",
+        "C_loci": [
+          {
+            "tip_id": "H0308_Ca1a9bf969c",
+            "contig": "NZ_JAPVQY010000029.1",
+            "start_0based": "1703",
+            "end_0based": "3635",
+            "C_contig_edge_bp": "1703",
+            "publication_locus_ids": "Merrild_2025_7bc8aa363d5c;Nature_2025_c37e2475a144"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "candidate_id": "H2-NC-ISL",
+    "scope": "Bacteria74",
+    "family": "noncanonical_C",
+    "gene_split": "3ee2688d3442",
+    "host_split": "717a018c1732",
+    "interpretation": "C_and_GNAT_neighbour_agreement; GNAT_not_proven_universal_core",
+    "status": "H2_relation_candidate; no_DTL_AU_or_HGT_event_call",
+    "comparison": {
+      "scope": "Bacteria74",
+      "family": "noncanonical_C",
+      "gene_split": "3ee2688d3442",
+      "host_split": "717a018c1732",
+      "shared_hosts": "H0001;H0005;H0009;H0011;H0012;H0017;H0020;H0023;H0027;H0029;H0042;H0044;H0046;H0048;H0051;H0055;H0057;H0060;H0063;H0067;H0068;H0074;H0080;H0081;H0082;H0083;H0084;H0086;H0087;H0092;H0095;H0099;H0101;H0103;H0110;H0111;H0112;H0120;H0124;H0128;H0131;H0134;H0144;H0151;H0156;H0157;H0160;H0165;H0171;H0173;H0182;H0183;H0192;H0193;H0196;H0204;H0207;H0220;H0223;H0227;H0228;H0232;H0246;H0251;H0255;H0257;H0264;H0265;H0267;H0269;H0277;H0283;H0284;H0286;H0289;H0290;H0293;H0294;H0297;H0299;H0303;H0305;H0309",
+      "gene_side": "H0051;H0223",
+      "host_side": "H0183;H0223",
+      "gene_side_genera": "Streptomyces",
+      "host_side_genera": "Streptomyces",
+      "gene_SH_aLRT": "99.9",
+      "gene_UFBoot": "100.0",
+      "host_SH_aLRT": "100.0",
+      "host_UFBoot": "100.0",
+      "interpretation": "supported_topology_disagreement_requires_orthology_model_and_DTL_alternatives; not_an_event"
+    },
+    "host_gCF": [
+      {
+        "ID": "207",
+        "Label": "100/100",
+        "gCF": "14.52",
+        "gCF_N": "9",
+        "gN": "62",
+        "gDF1": "1.61",
+        "gDF2": "4.84",
+        "gDFP": "79.03",
+        "Length": "0.0170444"
+      }
+    ],
+    "context_families": {
+      "noncanonical_ABC_D": {
+        "status": "missing_or_multiple_query_copies"
+      },
+      "noncanonical_C": {
+        "exact_full_tree_group_edge": true,
+        "SH_UF": [
+          [
+            99.9,
+            100.0
+          ]
+        ]
+      },
+      "noncanonical_GNAT_neighbour": {
+        "exact_full_tree_group_edge": true,
+        "SH_UF": [
+          [
+            100.0,
+            100.0
+          ]
+        ]
+      }
+    },
+    "carrier_and_locus_identity": [
+      {
+        "host_id": "H0051",
+        "taxonomy": "Streptomyces sp. ISL-22",
+        "assembly": "GCF_018614355.1",
+        "BioSample": "SAMN18298959",
+        "assembly_level": "Scaffold",
+        "C_loci": [
+          {
+            "tip_id": "H0051_Cbe5968925b",
+            "contig": "NZ_JAGGOQ010000019.1",
+            "start_0based": "190362",
+            "end_0based": "191688",
+            "C_contig_edge_bp": "128647",
+            "publication_locus_ids": "Merrild_2025_e1687aadee72"
+          }
+        ]
+      },
+      {
+        "host_id": "H0183",
+        "taxonomy": "Streptomyces chengmaiensis",
+        "assembly": "GCF_029846775.1",
+        "BioSample": "SAMN34154221",
+        "assembly_level": "Scaffold",
+        "C_loci": [
+          {
+            "tip_id": "H0183_C04d68fb29f",
+            "contig": "NZ_JARWBG010000081.1",
+            "start_0based": "18735",
+            "end_0based": "19884",
+            "C_contig_edge_bp": "1609",
+            "publication_locus_ids": "Merrild_2025_dca36ab58277"
+          }
+        ]
+      },
+      {
+        "host_id": "H0223",
+        "taxonomy": "Streptomyces sp. WMMC940",
+        "assembly": "GCF_027460265.1",
+        "BioSample": "SAMN32275917",
+        "assembly_level": "Contig",
+        "C_loci": [
+          {
+            "tip_id": "H0223_C5bd105a36e",
+            "contig": "NZ_JAPZBC010000001.1",
+            "start_0based": "2617836",
+            "end_0based": "2619162",
+            "C_contig_edge_bp": "2617836",
+            "publication_locus_ids": "Merrild_2025_b1441d852585"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "candidate_id": "H2-NC-ALA",
+    "scope": "Bacteria74",
+    "family": "noncanonical_C",
+    "gene_split": "d3dccb740372",
+    "host_split": "fc0cb7e6540a",
+    "interpretation": "C_and_GNAT_neighbour_agreement; assembly_and_138_marker_host_check_required",
+    "status": "H2_relation_candidate; no_DTL_AU_or_HGT_event_call",
+    "comparison": {
+      "scope": "Bacteria74",
+      "family": "noncanonical_C",
+      "gene_split": "d3dccb740372",
+      "host_split": "fc0cb7e6540a",
+      "shared_hosts": "H0001;H0005;H0009;H0011;H0012;H0017;H0020;H0023;H0027;H0029;H0042;H0044;H0046;H0048;H0051;H0055;H0057;H0060;H0063;H0067;H0068;H0074;H0080;H0081;H0082;H0083;H0084;H0086;H0087;H0092;H0095;H0099;H0101;H0103;H0110;H0111;H0112;H0120;H0124;H0128;H0131;H0134;H0144;H0151;H0156;H0157;H0160;H0165;H0171;H0173;H0182;H0183;H0192;H0193;H0196;H0204;H0207;H0220;H0223;H0227;H0228;H0232;H0246;H0251;H0255;H0257;H0264;H0265;H0267;H0269;H0277;H0283;H0284;H0286;H0289;H0290;H0293;H0294;H0297;H0299;H0303;H0305;H0309",
+      "gene_side": "H0081;H0264",
+      "host_side": "H0044;H0264",
+      "gene_side_genera": "Streptomyces",
+      "host_side_genera": "Streptomyces",
+      "gene_SH_aLRT": "99.1",
+      "gene_UFBoot": "100.0",
+      "host_SH_aLRT": "100.0",
+      "host_UFBoot": "98.0",
+      "interpretation": "supported_topology_disagreement_requires_orthology_model_and_DTL_alternatives; not_an_event"
+    },
+    "host_gCF": [
+      {
+        "ID": "236",
+        "Label": "100/98",
+        "gCF": "3.33",
+        "gCF_N": "2",
+        "gN": "60",
+        "gDF1": "3.33",
+        "gDF2": "5",
+        "gDFP": "88.33",
+        "Length": "0.0149464"
+      }
+    ],
+    "context_families": {
+      "noncanonical_ABC_D": {
+        "status": "missing_or_multiple_query_copies"
+      },
+      "noncanonical_C": {
+        "exact_full_tree_group_edge": true,
+        "SH_UF": [
+          [
+            99.1,
+            100.0
+          ]
+        ]
+      },
+      "noncanonical_GNAT_neighbour": {
+        "exact_full_tree_group_edge": true,
+        "SH_UF": [
+          [
+            96.9,
+            100.0
+          ]
+        ]
+      }
+    },
+    "carrier_and_locus_identity": [
+      {
+        "host_id": "H0044",
+        "taxonomy": "Streptomyces cacaoi",
+        "assembly": "GCF_043656355.1",
+        "BioSample": "SAMN43797023",
+        "assembly_level": "Scaffold",
+        "C_loci": [
+          {
+            "tip_id": "H0044_C398babc367",
+            "contig": "NZ_JBHVWU010000034.1",
+            "start_0based": "40020",
+            "end_0based": "41340",
+            "C_contig_edge_bp": "40020",
+            "publication_locus_ids": "Merrild_2025_9ae9a194ba37"
+          }
+        ]
+      },
+      {
+        "host_id": "H0081",
+        "taxonomy": "Streptomyces alanosinicus",
+        "assembly": "GCF_014650595.1",
+        "BioSample": "SAMD00245497",
+        "assembly_level": "Contig",
+        "C_loci": [
+          {
+            "tip_id": "H0081_C35549b4a3c",
+            "contig": "NZ_BMVG01000044.1",
+            "start_0based": "31270",
+            "end_0based": "32590",
+            "C_contig_edge_bp": "22519",
+            "publication_locus_ids": "Merrild_2025_83d12b63c4b4;Merrild_2025_fb9a675d6c01"
+          }
+        ]
+      },
+      {
+        "host_id": "H0264",
+        "taxonomy": "Streptomyces sp. NPDC002643",
+        "assembly": "GCF_053592555.1",
+        "BioSample": "SAMN41496916",
+        "assembly_level": "Scaffold",
+        "C_loci": [
+          {
+            "tip_id": "H0264_C7e040c8531",
+            "contig": "NZ_JBSFVY010000015.1",
+            "start_0based": "196270",
+            "end_0based": "197590",
+            "C_contig_edge_bp": "39745",
+            "publication_locus_ids": "Merrild_2025_890136195196"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "candidate_id": "H2-NATURE4",
+    "scope": "Actinobacteria138",
+    "family": "uncertain_Nature_system_C",
+    "gene_split": "fb6e7f6cb5a6",
+    "host_split": "0487e4318867",
+    "interpretation": "separate_quartet_diagnostic_only;20_PIS_and_below_threshold_Kribbella",
+    "status": "H2_relation_candidate; no_DTL_AU_or_HGT_event_call",
+    "comparison": {
+      "scope": "Actinobacteria138",
+      "family": "uncertain_Nature_system_C",
+      "gene_split": "fb6e7f6cb5a6",
+      "host_split": "0487e4318867",
+      "shared_hosts": "H0048;H0067;H0103;H0254",
+      "gene_side": "H0048;H0103",
+      "host_side": "H0048;H0254",
+      "gene_side_genera": "Streptomyces",
+      "host_side_genera": "Kribbella;Streptomyces",
+      "gene_SH_aLRT": "99.9",
+      "gene_UFBoot": "100.0",
+      "host_SH_aLRT": "100.0",
+      "host_UFBoot": "100.0",
+      "interpretation": "supported_topology_disagreement_requires_orthology_model_and_DTL_alternatives; not_an_event"
+    },
+    "host_gCF": [
+      {
+        "ID": "9",
+        "Label": "100/100",
+        "gCF": "57",
+        "gCF_N": "57",
+        "gN": "100",
+        "gDF1": "20",
+        "gDF2": "21",
+        "gDFP": "2",
+        "Length": "0.0568969"
+      }
+    ],
+    "context_families": {
+      "uncertain_Nature_system_C": {
+        "exact_full_tree_group_edge": true,
+        "SH_UF": [
+          [
+            99.9,
+            100.0
+          ]
+        ]
+      }
+    },
+    "carrier_and_locus_identity": [
+      {
+        "host_id": "H0048",
+        "taxonomy": "Streptomyces sp. B15",
+        "assembly": "GCF_018070605.1",
+        "BioSample": "SAMN18713693",
+        "assembly_level": "Scaffold",
+        "C_loci": [
+          {
+            "tip_id": "H0048_C7f07e87e01",
+            "contig": "NZ_JAGPXJ010000045.1",
+            "start_0based": "34691",
+            "end_0based": "36020",
+            "C_contig_edge_bp": "23148",
+            "publication_locus_ids": "Nature_2025_f776322cb54a"
+          }
+        ]
+      },
+      {
+        "host_id": "H0103",
+        "taxonomy": "Streptomyces lunaelactis",
+        "assembly": "GCF_013358065.1",
+        "BioSample": "SAMN15009834",
+        "assembly_level": "Contig",
+        "C_loci": [
+          {
+            "tip_id": "H0103_Cef9ad1b18f",
+            "contig": "NZ_JABSUH010000035.1",
+            "start_0based": "41076",
+            "end_0based": "42312",
+            "C_contig_edge_bp": "4774",
+            "publication_locus_ids": "Nature_2025_bad8274a0e60"
+          }
+        ]
+      },
+      {
+        "host_id": "H0254",
+        "taxonomy": "Kribbella antibiotica",
+        "assembly": "GCF_004349055.1",
+        "BioSample": "SAMN11032561",
+        "assembly_level": "Contig",
+        "C_loci": [
+          {
+            "tip_id": "H0254_Cbb587dd881",
+            "contig": "NZ_SMKX01000009.1",
+            "start_0based": "89253",
+            "end_0based": "90540",
+            "C_contig_edge_bp": "20395",
+            "publication_locus_ids": "Nature_2025_d8070b265fba"
+          }
+        ]
+      }
+    ]
+  }
+]

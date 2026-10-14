@@ -1,0 +1,2127 @@
+{
+  "created_utc": "2026-10-13T15:18:31.250036+00:00",
+  "scope": "H2 frozen H1 inputs and primary method references",
+  "GToTree_commit": "9ce125f69366b0fea043df5e91380fe8254b502e",
+  "genomes": [
+    {
+      "genome_id": "GCA_029536815.2",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCA_029536815.2.gbff.gz",
+      "sha256": "7c7ac2fd090cc318797df4ac56843032bc8a20684d12f522af940551ba34fc82",
+      "bytes": 3066440
+    },
+    {
+      "genome_id": "GCF_000186125.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_000186125.1.gbff.gz",
+      "sha256": "5548e98d1b918761dff64b9acb8018ab7f9377b23721f0908486014ffc8dd82c",
+      "bytes": 3210531
+    },
+    {
+      "genome_id": "GCF_000193415.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_000193415.1.gbff.gz",
+      "sha256": "1db2c04cf74b085485d9fe3115ab13659a871554d3abccdb6605c5d2f09fc997",
+      "bytes": 4640050
+    },
+    {
+      "genome_id": "GCF_000231075.2",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_000231075.2.gbff.gz",
+      "sha256": "79c512d493e321e44a713a4db9c6979add4e97d2c7d5c816d7cdcd4fba8389f8",
+      "bytes": 6249084
+    },
+    {
+      "genome_id": "GCF_000280905.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_000280905.1.gbff.gz",
+      "sha256": "82db7bacb4007a72975a9cc465ae87a1fc94039177e4f82b7b8607cd2c62ef3c",
+      "bytes": 5212791
+    },
+    {
+      "genome_id": "GCF_000379065.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_000379065.1.gbff.gz",
+      "sha256": "a309dd5bc5042a154185467ff3bddd423975bb56781bca6ee17048ef523f53d7",
+      "bytes": 3663274
+    },
+    {
+      "genome_id": "GCF_000399645.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_000399645.1.gbff.gz",
+      "sha256": "ecbaee7c5ab72b9ee19ace7b890d7e924d9a83230e4b2ea634ce2dfcc6a13884",
+      "bytes": 4192557
+    },
+    {
+      "genome_id": "GCF_000812465.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_000812465.1.gbff.gz",
+      "sha256": "46908239ca05c05d525daf9f0c5577048ff64d5268620b2b170c806ccc8ffa9a",
+      "bytes": 6020978
+    },
+    {
+      "genome_id": "GCF_000948275.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_000948275.1.gbff.gz",
+      "sha256": "48c9c59ef4e792004ffe95c60a7facb8ba0ca937073330c55e83cbbd66b43391",
+      "bytes": 3095279
+    },
+    {
+      "genome_id": "GCF_000949135.2",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_000949135.2.gbff.gz",
+      "sha256": "d2a4c42634e0725961c133faf8764165b38f30f23d97d1ecdbc94df4de67bd67",
+      "bytes": 5464897
+    },
+    {
+      "genome_id": "GCF_001042475.2",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_001042475.2.gbff.gz",
+      "sha256": "eec9e02b3ed52354ada1eb9c792fe31d54845298aff27c78ab11c1ba6305b4a2",
+      "bytes": 3629398
+    },
+    {
+      "genome_id": "GCF_001083795.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_001083795.1.gbff.gz",
+      "sha256": "a84c6d54089e37cd11afc0d89f4793a8c0a89f04c900875b5f0e788ba29a352a",
+      "bytes": 6579423
+    },
+    {
+      "genome_id": "GCF_001612785.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_001612785.1.gbff.gz",
+      "sha256": "d90a9ce0e97863e946d599a8142ddf4f916af36eb223ffb793357263758a3ae2",
+      "bytes": 5546845
+    },
+    {
+      "genome_id": "GCF_001632305.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_001632305.1.gbff.gz",
+      "sha256": "a99518ee6d2784d458470702159cc70a373a22e635ddc80777170f3af00c7cc7",
+      "bytes": 4260954
+    },
+    {
+      "genome_id": "GCF_001955855.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_001955855.1.gbff.gz",
+      "sha256": "a54d25bc4e7e516d378e814dba7e893e4d67ab2f4b2cea9498a1d251ac2fd4fe",
+      "bytes": 5098500
+    },
+    {
+      "genome_id": "GCF_001955865.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_001955865.1.gbff.gz",
+      "sha256": "f644414976100b436fac76d6dd41c156f85a876674c4b7605f1c7e2a28ef28c2",
+      "bytes": 5317129
+    },
+    {
+      "genome_id": "GCF_002196815.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_002196815.1.gbff.gz",
+      "sha256": "28ea28d8c00c84c428c6221c278458e3fbaf02aca37db32595152e39b4b35674",
+      "bytes": 3885317
+    },
+    {
+      "genome_id": "GCF_002550475.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_002550475.1.gbff.gz",
+      "sha256": "dbfc755179331ba58a0b482a4018ab88a19d7721ca19d193caf5b9d3f208629f",
+      "bytes": 4142110
+    },
+    {
+      "genome_id": "GCF_002550645.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_002550645.1.gbff.gz",
+      "sha256": "f7e380b55dfa54fbf8d47a0faea4c8f4c132c5208bece2f117c57661904387aa",
+      "bytes": 4177862
+    },
+    {
+      "genome_id": "GCF_002571465.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_002571465.1.gbff.gz",
+      "sha256": "654a19d99fb405f60f715965459fe281549221df6d6714b0cab5ce8fa0e489dc",
+      "bytes": 4480785
+    },
+    {
+      "genome_id": "GCF_002879875.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_002879875.1.gbff.gz",
+      "sha256": "e1b91cffad7b4a1aa7c6ae712a6133c078222f9f164e178bd3c09a3e70fc31d7",
+      "bytes": 4911970
+    },
+    {
+      "genome_id": "GCF_002975315.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_002975315.1.gbff.gz",
+      "sha256": "697a9cdd19a4f0e2bc267de72835a4eaa6c6d780e0cb183d117fca7ac683671b",
+      "bytes": 5218939
+    },
+    {
+      "genome_id": "GCF_003634935.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_003634935.1.gbff.gz",
+      "sha256": "09b16f42313d86a832333b4eda60a231ccad496ac9d4273096382a1152696e4d",
+      "bytes": 5401353
+    },
+    {
+      "genome_id": "GCF_003710935.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_003710935.1.gbff.gz",
+      "sha256": "cb98950a6b6eb8be1d7f1413bcd376193e4feddb087f7bf37ad969150f318969",
+      "bytes": 3546362
+    },
+    {
+      "genome_id": "GCF_003854275.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_003854275.1.gbff.gz",
+      "sha256": "9b9f34d5f986d7ba8f508cabad076cc52dc3c598ab81ca33fd823e95e9430e61",
+      "bytes": 6055292
+    },
+    {
+      "genome_id": "GCF_003857985.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_003857985.1.gbff.gz",
+      "sha256": "a19cb8fb8901efb3a484ab06b1fec71425257b4bf2247d198ff7b3a11d78975b",
+      "bytes": 5680763
+    },
+    {
+      "genome_id": "GCF_003994375.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_003994375.1.gbff.gz",
+      "sha256": "c368716f743993cceeec74ddaca45a345aaf788422ffea45311194d0153bf088",
+      "bytes": 6306915
+    },
+    {
+      "genome_id": "GCF_004018325.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_004018325.1.gbff.gz",
+      "sha256": "d474703578640ed5f914d3287875994560ddb80cb8c8628b74840d168793c21d",
+      "bytes": 4799217
+    },
+    {
+      "genome_id": "GCF_004349055.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_004349055.1.gbff.gz",
+      "sha256": "30b792a8891a2fed5ff67e339eb50b2816999116d6123db9bd8f676538723933",
+      "bytes": 7276428
+    },
+    {
+      "genome_id": "GCF_005405885.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_005405885.1.gbff.gz",
+      "sha256": "e3b205dfb0fef65a6fb1cf6d7ab17a6d26a82b58c5748b58b976b83212dbfcdc",
+      "bytes": 4507843
+    },
+    {
+      "genome_id": "GCF_006351725.2",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_006351725.2.gbff.gz",
+      "sha256": "68e3d1bee08364d74b59136ac3605bcefb4c6aa512b33459ef4f28c6ef2fe9e7",
+      "bytes": 3466528
+    },
+    {
+      "genome_id": "GCF_006658625.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_006658625.1.gbff.gz",
+      "sha256": "4a2fa7acef2fb0acbf145fef426044e40a638f3d48a0e671f700c5eeb4715cfb",
+      "bytes": 5887965
+    },
+    {
+      "genome_id": "GCF_008180465.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_008180465.1.gbff.gz",
+      "sha256": "4c49150319767d60efdd45484bea3017331821f63632c491128cd0515a43a71b",
+      "bytes": 3403944
+    },
+    {
+      "genome_id": "GCF_009377295.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_009377295.1.gbff.gz",
+      "sha256": "d7695086d447fa073c32e66f50929244329de8ce53ee779f0df816e0101212f6",
+      "bytes": 4760132
+    },
+    {
+      "genome_id": "GCF_011189575.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_011189575.1.gbff.gz",
+      "sha256": "997a1a8a45c6b4eafb0602381b1b29a212fd81c6cf2893b15724349c5515aca5",
+      "bytes": 3664422
+    },
+    {
+      "genome_id": "GCF_011751595.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_011751595.1.gbff.gz",
+      "sha256": "0a58fe124ef68c91925a4e775aef5b36d9c8485c976082b6142b95e2f9503a28",
+      "bytes": 4287617
+    },
+    {
+      "genome_id": "GCF_012516315.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_012516315.1.gbff.gz",
+      "sha256": "c0a76254644a10d9b51d068f8fb41406d286b9b1c9e7d83f1a8723837ef8a152",
+      "bytes": 4405671
+    },
+    {
+      "genome_id": "GCF_013283645.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_013283645.1.gbff.gz",
+      "sha256": "6a2eb4ed7ab4dce2ce13cb1fdce75b403ac9780c38a04c45cfd0d2b677fa1e0c",
+      "bytes": 5406902
+    },
+    {
+      "genome_id": "GCF_013284485.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_013284485.1.gbff.gz",
+      "sha256": "6f629c56da24c7459b7807931f140c7a8ab705b1e0f07b0454eac70d98f0e8c5",
+      "bytes": 4196622
+    },
+    {
+      "genome_id": "GCF_013302895.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_013302895.1.gbff.gz",
+      "sha256": "211fc7a805ba5668b0830ae47e679a1c4e02b1320ea1bc4c03f3928e08ef1d01",
+      "bytes": 5175682
+    },
+    {
+      "genome_id": "GCF_013314535.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_013314535.1.gbff.gz",
+      "sha256": "78cb147fe17caf687c1100635f9187cf378a533d410d3067bf8b2aea3b9a84a0",
+      "bytes": 4180274
+    },
+    {
+      "genome_id": "GCF_013357965.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_013357965.1.gbff.gz",
+      "sha256": "dc5351589882167bc881a30d2b3ea8f8864eae413e4c405d5b9f5df9d5199a9e",
+      "bytes": 6596440
+    },
+    {
+      "genome_id": "GCF_013358065.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_013358065.1.gbff.gz",
+      "sha256": "b5ff56de87c170e9340f5f291a9aa116d80ee1104026bf115f470add54490cf0",
+      "bytes": 6433905
+    },
+    {
+      "genome_id": "GCF_013358115.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_013358115.1.gbff.gz",
+      "sha256": "8daa56d987baeb61d046cf1975a46d3f86e4194b7cf51d6abbe69a5f12c1dda5",
+      "bytes": 6352613
+    },
+    {
+      "genome_id": "GCF_013744875.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_013744875.1.gbff.gz",
+      "sha256": "a1af0139bb032917458b6075a131c65fe33665309683b07518a8a38681417d3b",
+      "bytes": 5937850
+    },
+    {
+      "genome_id": "GCF_014338615.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_014338615.1.gbff.gz",
+      "sha256": "ae11cfc69563c4b59f313c3093c0d5f825e409fb740354da935381c1bf34890f",
+      "bytes": 4329931
+    },
+    {
+      "genome_id": "GCF_014646055.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_014646055.1.gbff.gz",
+      "sha256": "b6c5cfd7687f8dd68a394705adf84f1ebecd0d13c47f41de2124791c68acce91",
+      "bytes": 6095795
+    },
+    {
+      "genome_id": "GCF_014650595.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_014650595.1.gbff.gz",
+      "sha256": "2e59410fa4658fa42a03a1e3532deaaf352b9479b964d45291db621ed1c0708b",
+      "bytes": 7420553
+    },
+    {
+      "genome_id": "GCF_014842675.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_014842675.1.gbff.gz",
+      "sha256": "372f16f769659dfd3341ff8b5ad0f26349d3628ccde69f7f4b9de9379d006cfb",
+      "bytes": 5341274
+    },
+    {
+      "genome_id": "GCF_015356865.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_015356865.1.gbff.gz",
+      "sha256": "fff421b555694022cfe3ba0397e5d979df50f4c17c92d013115d5b5de47d99a9",
+      "bytes": 8777087
+    },
+    {
+      "genome_id": "GCF_015477055.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_015477055.1.gbff.gz",
+      "sha256": "85dacf81c986d13541079d583081de52d346095a8f8422e614dc38f1b1de4fa4",
+      "bytes": 5424957
+    },
+    {
+      "genome_id": "GCF_015550535.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_015550535.1.gbff.gz",
+      "sha256": "34c9eadcc8464814b53b6dd5e4bc64e8eb64fce66f1e272f4ca9bd59b695409a",
+      "bytes": 3249005
+    },
+    {
+      "genome_id": "GCF_015999545.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_015999545.1.gbff.gz",
+      "sha256": "8ccbbabfdb982eeac2d1fa9dbe1516b1092ccb10264756e53c5e0e2d7e716059",
+      "bytes": 3389016
+    },
+    {
+      "genome_id": "GCF_016741775.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_016741775.1.gbff.gz",
+      "sha256": "ac692149b67f3f2a99c8259bd6a9d30d9964fe994dc10d309e4555dc325171b5",
+      "bytes": 6241198
+    },
+    {
+      "genome_id": "GCF_017356985.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_017356985.1.gbff.gz",
+      "sha256": "b3e9d68bad18374f7316611739ee3e9da4c773ce2d944e41935a0f6eea6d1fb5",
+      "bytes": 5003968
+    },
+    {
+      "genome_id": "GCF_018070605.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_018070605.1.gbff.gz",
+      "sha256": "1224ad3d9bc838547805e3a1fef91ae9cf58cc19451d15bec3df4cb37c6d55af",
+      "bytes": 5906041
+    },
+    {
+      "genome_id": "GCF_018274415.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_018274415.1.gbff.gz",
+      "sha256": "5a40e50cdfb6aba132bbd4830cfdc3b92c537c5101525877560e0ffcd74af692",
+      "bytes": 8490995
+    },
+    {
+      "genome_id": "GCF_018614205.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_018614205.1.gbff.gz",
+      "sha256": "65433ca851ed0f299d8b6602bbc475e6747865c8c7ef9890db4c5bba39948982",
+      "bytes": 6032589
+    },
+    {
+      "genome_id": "GCF_018614355.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_018614355.1.gbff.gz",
+      "sha256": "d0643bbdef10cc128dfdd4c8f6a770b484d0f49914163eb49d7c8f01e047190e",
+      "bytes": 6783766
+    },
+    {
+      "genome_id": "GCF_018614975.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_018614975.1.gbff.gz",
+      "sha256": "70ae1bd27a25e9e3037b268235de75685bdf689169ac1efc93a06d29704a1211",
+      "bytes": 4911433
+    },
+    {
+      "genome_id": "GCF_018741285.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_018741285.1.gbff.gz",
+      "sha256": "86e8f4c010bb2591a526bec990ebac6d0b222e70a11c1ac1ff24b096848a48e5",
+      "bytes": 4231491
+    },
+    {
+      "genome_id": "GCF_019263595.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_019263595.1.gbff.gz",
+      "sha256": "7b2e2db481c204737d517ee42ce604478b2d3bae4e931e22535e6021398712a3",
+      "bytes": 5245256
+    },
+    {
+      "genome_id": "GCF_019793795.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_019793795.1.gbff.gz",
+      "sha256": "c89c9cb337c8639294ee46cd051586778964d1a6112df52c013b41da293c3f6f",
+      "bytes": 5197858
+    },
+    {
+      "genome_id": "GCF_020496225.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_020496225.1.gbff.gz",
+      "sha256": "af1a8700e8bc1bf233d502997292683ec83da57beb89bcdaf996fcd6a6c6983d",
+      "bytes": 4966973
+    },
+    {
+      "genome_id": "GCF_021044705.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_021044705.1.gbff.gz",
+      "sha256": "4b2cc65438a1f7b0f12cf4adb3e7cc544f3fb4eb24acd022813374a1615679b8",
+      "bytes": 5921314
+    },
+    {
+      "genome_id": "GCF_021532315.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_021532315.1.gbff.gz",
+      "sha256": "cd687d780edc873b131464ced97574fdd006006b6ef9c30826d8010c78548946",
+      "bytes": 3717390
+    },
+    {
+      "genome_id": "GCF_021653975.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_021653975.1.gbff.gz",
+      "sha256": "5a3b995917e1ba5b75d126ae803dfdd89415d22544bf8c3f52d81d536dbbfe9f",
+      "bytes": 5860177
+    },
+    {
+      "genome_id": "GCF_022267515.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_022267515.1.gbff.gz",
+      "sha256": "92aa300104679a7647c66dd0c5e8c8acb7420d9187e8a0010870f364d56f4f13",
+      "bytes": 4211600
+    },
+    {
+      "genome_id": "GCF_022832475.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_022832475.1.gbff.gz",
+      "sha256": "055050ba915a5b01e16d7753fcc82c36402acf009558756ad0f2a7bbd6a1e7c9",
+      "bytes": 3148802
+    },
+    {
+      "genome_id": "GCF_023022945.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_023022945.1.gbff.gz",
+      "sha256": "6fe8c1e58fd7f4fd00cb71f72e919beb6ffdd33cd4cc869f16cb747199cd2db6",
+      "bytes": 3205313
+    },
+    {
+      "genome_id": "GCF_025846855.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_025846855.1.gbff.gz",
+      "sha256": "ab01069b94245b8dcb1e45ba3b708276603393132fb8cdda96ee172a4c512ae8",
+      "bytes": 5756036
+    },
+    {
+      "genome_id": "GCF_025846855.2",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_025846855.2.gbff.gz",
+      "sha256": "4bca348985d10c1a439140941c20f9edd5c259af98c1dddc127654ca5100cd24",
+      "bytes": 5768077
+    },
+    {
+      "genome_id": "GCF_026789545.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_026789545.1.gbff.gz",
+      "sha256": "86edd28f5f00e8a1e1aa6324681cc1a46d60dcf05afd52f30c0db905e135727f",
+      "bytes": 3284906
+    },
+    {
+      "genome_id": "GCF_026790595.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_026790595.1.gbff.gz",
+      "sha256": "9b516a995b768505b860804aaf434fb5335be9f7ade754d4b9122b7fd5ecfb2d",
+      "bytes": 3197353
+    },
+    {
+      "genome_id": "GCF_026792105.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_026792105.1.gbff.gz",
+      "sha256": "f84c153df6bc217d874df56acbb8525b7c0b7ddeabb3b9d64a36268edf3379dc",
+      "bytes": 3197380
+    },
+    {
+      "genome_id": "GCF_027158125.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_027158125.1.gbff.gz",
+      "sha256": "bae08e9ec60a29d766021eaecf9f67e6c6c09d97579b8676aa10deb7c85b5cb9",
+      "bytes": 7686931
+    },
+    {
+      "genome_id": "GCF_027460265.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_027460265.1.gbff.gz",
+      "sha256": "e6363a02806d2f37847227d3d038a8e36729d00667ded02de4c4444229eb5090",
+      "bytes": 5273069
+    },
+    {
+      "genome_id": "GCF_029269905.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_029269905.1.gbff.gz",
+      "sha256": "ee9ef7d246a2ee122a03feeaf9d60fc25b1fcd90b48a6d5841508abf9d8a6fb4",
+      "bytes": 5635807
+    },
+    {
+      "genome_id": "GCF_029846775.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_029846775.1.gbff.gz",
+      "sha256": "d3b6462dd75b92aebe2ef74d3e6404d2ba083d278fa6d682692d3fcf43bb5d9b",
+      "bytes": 5830124
+    },
+    {
+      "genome_id": "GCF_029867355.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_029867355.1.gbff.gz",
+      "sha256": "0a0e5b85e33ef0263e452105b178ada6f86096764381d83f5e99cfd2e8eed898",
+      "bytes": 6342717
+    },
+    {
+      "genome_id": "GCF_030268885.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_030268885.1.gbff.gz",
+      "sha256": "610cc41ab20a53b238c7c580613155171628a047c3681842743e0a9a70a21cd5",
+      "bytes": 6146683
+    },
+    {
+      "genome_id": "GCF_030815985.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_030815985.1.gbff.gz",
+      "sha256": "e8366b6b95db04598ed95ef08be6820b611e1fc9ca23ef6ac16393c4c796108e",
+      "bytes": 5023688
+    },
+    {
+      "genome_id": "GCF_030816325.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_030816325.1.gbff.gz",
+      "sha256": "fd06179ebfc7c8fc3147f5f564edb3d54d83417cac9f9c80da36341fe9394fb9",
+      "bytes": 5017776
+    },
+    {
+      "genome_id": "GCF_030817705.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_030817705.1.gbff.gz",
+      "sha256": "8f0328432b6a203169c52fd2fc0d6f10e3e7bbbcd14b05480b09276a5f1525ac",
+      "bytes": 6922278
+    },
+    {
+      "genome_id": "GCF_030908325.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_030908325.1.gbff.gz",
+      "sha256": "0dc191c1ed71a386e96744b80dae9957ab336337c4cb8dfe6a4c76951ce90cdb",
+      "bytes": 3331433
+    },
+    {
+      "genome_id": "GCF_031455635.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_031455635.1.gbff.gz",
+      "sha256": "34424cc50596ac884909d730a2d889f96c30f502bf156e9311061fc7ae8d7107",
+      "bytes": 5048213
+    },
+    {
+      "genome_id": "GCF_035181445.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_035181445.1.gbff.gz",
+      "sha256": "a46b9919ce1c4d46e6b8bb9b830adb4dc82afbdb061ab9ed2a0545c8b2d994c9",
+      "bytes": 3938601
+    },
+    {
+      "genome_id": "GCF_035804975.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_035804975.1.gbff.gz",
+      "sha256": "d3652998767d785660fe3a8352994fe5ffe4228b5a0ee4c50d86071634868974",
+      "bytes": 3635567
+    },
+    {
+      "genome_id": "GCF_035805255.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_035805255.1.gbff.gz",
+      "sha256": "ebca77fca02825658db654e7fdaa9c6dabb2cd8d6f4252dba047798962ac34b2",
+      "bytes": 3527061
+    },
+    {
+      "genome_id": "GCF_035809135.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_035809135.1.gbff.gz",
+      "sha256": "9a7c59a4f318f1dc9c679f06664480f5876d799eceb20a05f491b58f04cd414b",
+      "bytes": 3375827
+    },
+    {
+      "genome_id": "GCF_035818335.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_035818335.1.gbff.gz",
+      "sha256": "10c05a29932574da00436b4bfc7e3cf8dd5bf314bc39a52f35d1adfb8bb1623a",
+      "bytes": 3249692
+    },
+    {
+      "genome_id": "GCF_035830835.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_035830835.1.gbff.gz",
+      "sha256": "4c4cb34430d77cb27b0912b077297dc2d232f57b5ed3e3400c2dbb2bdc5f16c2",
+      "bytes": 3242608
+    },
+    {
+      "genome_id": "GCF_036212645.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_036212645.1.gbff.gz",
+      "sha256": "a44d35c67c82b4f2c1e49fe85c3f01d57b6d00d183d25977e9e1457eee6a8b1e",
+      "bytes": 3458103
+    },
+    {
+      "genome_id": "GCF_036216845.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_036216845.1.gbff.gz",
+      "sha256": "14f90497b56a39baef087d048f365823fdaf6b57032fd8ccfb444e97f9e3157d",
+      "bytes": 3582275
+    },
+    {
+      "genome_id": "GCF_036216865.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_036216865.1.gbff.gz",
+      "sha256": "8d072b5a2977dec24f033c89b4d28b68047bc68648875044bd82f229a21309c0",
+      "bytes": 3586797
+    },
+    {
+      "genome_id": "GCF_036621315.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_036621315.1.gbff.gz",
+      "sha256": "ae67b046fe82bf7ff449ae45a81b75f5bbcc173dbace5c1c0819df3907fdb36e",
+      "bytes": 4388825
+    },
+    {
+      "genome_id": "GCF_037333485.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_037333485.1.gbff.gz",
+      "sha256": "8b00e3700d41359f7eddccca2e47bcc1394056222e77e14c94a3cb70ba05195b",
+      "bytes": 4842822
+    },
+    {
+      "genome_id": "GCF_037907165.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_037907165.1.gbff.gz",
+      "sha256": "554e3039bff91ba17168a5cb86ee7c64ccfb3600ff996bcb4760f3f07c35a5c2",
+      "bytes": 4803155
+    },
+    {
+      "genome_id": "GCF_037911585.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_037911585.1.gbff.gz",
+      "sha256": "bc71e49863f43744fee608e9128b71dbd7d8097fc15f711095dab2d19ad8dc8d",
+      "bytes": 4179922
+    },
+    {
+      "genome_id": "GCF_037976035.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_037976035.1.gbff.gz",
+      "sha256": "7ca30d515ce0456202aa591632da6dd7d66fa4ea4db26dc6feae65ea1a88bfc3",
+      "bytes": 3218878
+    },
+    {
+      "genome_id": "GCF_038008685.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_038008685.1.gbff.gz",
+      "sha256": "412cef027f77f38525428097ccf70c784ebd6876ab8bbd1b1f511fb3dcb9f68c",
+      "bytes": 3394285
+    },
+    {
+      "genome_id": "GCF_038900695.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_038900695.1.gbff.gz",
+      "sha256": "8f22b5a6f28d0672223fc29c0c94500ef6b8b66d813cc2a6c90f7f093bd4a3a2",
+      "bytes": 6249991
+    },
+    {
+      "genome_id": "GCF_039527485.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_039527485.1.gbff.gz",
+      "sha256": "009af93abf8182d6c2839a256480ce8f468cd9fedfbf370a2e004f83cbf8fd6a",
+      "bytes": 4442545
+    },
+    {
+      "genome_id": "GCF_040149425.2",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_040149425.2.gbff.gz",
+      "sha256": "53c859c2acd2871335d2e535a497f8da44bc88e7a0ed124a0eab0c98e3b7409b",
+      "bytes": 6514462
+    },
+    {
+      "genome_id": "GCF_040272795.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_040272795.1.gbff.gz",
+      "sha256": "a0458059ffe4589aa08c05f5786031a118b910d726f10270704d38455dcfeed3",
+      "bytes": 4030569
+    },
+    {
+      "genome_id": "GCF_040296705.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_040296705.1.gbff.gz",
+      "sha256": "39f11551796dd1642b9498ebbd29f3a711e55a525ac7cf72b36a2ca090c5949e",
+      "bytes": 5798942
+    },
+    {
+      "genome_id": "GCF_040299345.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_040299345.1.gbff.gz",
+      "sha256": "1b3163945ca3ff58d5ef14464a9e10a1170ee4f956cba5df60e4332d624797d7",
+      "bytes": 6944218
+    },
+    {
+      "genome_id": "GCF_040300825.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_040300825.1.gbff.gz",
+      "sha256": "8e607b3e1ee59725d44977638b628d7db3ba9b8d4d714ec6a8c5e322aa994c6d",
+      "bytes": 5650193
+    },
+    {
+      "genome_id": "GCF_040303465.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_040303465.1.gbff.gz",
+      "sha256": "6def15ab78fefed5007625c508a0e56db1f0bfa7bfb2bcb6148585dfc8eb368b",
+      "bytes": 5695437
+    },
+    {
+      "genome_id": "GCF_040606465.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_040606465.1.gbff.gz",
+      "sha256": "b1e2239d3f8c54cb1dc0bfef72d4b26b880986dc59e475b2348d624f66cc1b45",
+      "bytes": 7244950
+    },
+    {
+      "genome_id": "GCF_040610655.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_040610655.1.gbff.gz",
+      "sha256": "07b5cc83ba7008336dc8527767d3ae8bb73f56419703bd7d35efc59604a6fab3",
+      "bytes": 5330794
+    },
+    {
+      "genome_id": "GCF_040611175.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_040611175.1.gbff.gz",
+      "sha256": "818be32924b8988ba3dc9c16cbdce4e71f6cd0b17609f60a7953c8b900516f57",
+      "bytes": 5213492
+    },
+    {
+      "genome_id": "GCF_040611815.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_040611815.1.gbff.gz",
+      "sha256": "952f8a0c082ac1e5acb97cc26a5b623804b8ebd699bc2164bfae2e0a398baf74",
+      "bytes": 5693223
+    },
+    {
+      "genome_id": "GCF_040611935.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_040611935.1.gbff.gz",
+      "sha256": "289f9381b9dc1e303c2f5234826757135b5b0feb65d6e195aa7adcda6ac58e44",
+      "bytes": 6433384
+    },
+    {
+      "genome_id": "GCF_040612275.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_040612275.1.gbff.gz",
+      "sha256": "6841ebc206fa4cc8e63e942228d2dc14243bb9001b1091866a8184f24badbb74",
+      "bytes": 5798048
+    },
+    {
+      "genome_id": "GCF_040613155.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_040613155.1.gbff.gz",
+      "sha256": "66582081ab9a4abc0fe37ceeac2f8d513695344410fe680f136926e28f98d0dd",
+      "bytes": 5763536
+    },
+    {
+      "genome_id": "GCF_040630375.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_040630375.1.gbff.gz",
+      "sha256": "312697c5484ee6740848f893c3aed37a653766cbe398c6274de7dedd17b9f5d5",
+      "bytes": 5317829
+    },
+    {
+      "genome_id": "GCF_040632275.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_040632275.1.gbff.gz",
+      "sha256": "0a6fa5ffae57ad0010cd7f0b856616e69e8c47d00aeb120c5a60ab57c2d21940",
+      "bytes": 5269419
+    },
+    {
+      "genome_id": "GCF_040632435.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_040632435.1.gbff.gz",
+      "sha256": "b44ed14259a333b820b358f3a1c9209f20047aff1e7409dadde208f458e71713",
+      "bytes": 5080928
+    },
+    {
+      "genome_id": "GCF_040632445.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_040632445.1.gbff.gz",
+      "sha256": "62beae7c4e7b8e2e676e45dd0c647e4c465fb83cf21f149a67326985d9b92ce1",
+      "bytes": 5137791
+    },
+    {
+      "genome_id": "GCF_040632455.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_040632455.1.gbff.gz",
+      "sha256": "d28aaab5eebbc82f6ccc3ace8b74bf6dc2b4deeadd099c37574027309fa2b671",
+      "bytes": 5124123
+    },
+    {
+      "genome_id": "GCF_040632505.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_040632505.1.gbff.gz",
+      "sha256": "24c44ad2bbcdf34a1c82fc850a7b3bc8cbfc84cf6044836fbb8f4c95886832f9",
+      "bytes": 5637157
+    },
+    {
+      "genome_id": "GCF_040639015.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_040639015.1.gbff.gz",
+      "sha256": "583ace8ea011c47bd5c3e7037f0d9a9cb893f18d801fbae43b3a1d36da603a36",
+      "bytes": 6555596
+    },
+    {
+      "genome_id": "GCF_040644035.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_040644035.1.gbff.gz",
+      "sha256": "88ff3e21c5e9336f13889c466d9c063deedb5d69cdbe5735daa6c8ab0fd57b02",
+      "bytes": 7836322
+    },
+    {
+      "genome_id": "GCF_040659795.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_040659795.1.gbff.gz",
+      "sha256": "a54745f6505232cf255e4685c67d581e6d304a013e89f4dcf98404229ed13866",
+      "bytes": 4305442
+    },
+    {
+      "genome_id": "GCF_040678235.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_040678235.1.gbff.gz",
+      "sha256": "eef8d9968b807bfa8b304e14ef100f007d6410a08b00afd03fca16d2d27e3191",
+      "bytes": 5398818
+    },
+    {
+      "genome_id": "GCF_040680595.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_040680595.1.gbff.gz",
+      "sha256": "e5cb66fe3e8d6c6b8d60bc77b18ea05578e4b5163f159d7142f0ca44c692a7e3",
+      "bytes": 7441123
+    },
+    {
+      "genome_id": "GCF_040684415.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_040684415.1.gbff.gz",
+      "sha256": "6cd750633075fa9e2e3af2581634f841f637549bedb39f9bbe7653d8bdacf920",
+      "bytes": 5744749
+    },
+    {
+      "genome_id": "GCF_040701725.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_040701725.1.gbff.gz",
+      "sha256": "a25c68c091509aa768ac2e242449ed6fa26a873f86779d797be4840e99be4090",
+      "bytes": 6227333
+    },
+    {
+      "genome_id": "GCF_040946265.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_040946265.1.gbff.gz",
+      "sha256": "a0f19110a6450021c25e050a592f3fda3914f3a6f29598f49b76b00c225d3863",
+      "bytes": 4862078
+    },
+    {
+      "genome_id": "GCF_041262605.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_041262605.1.gbff.gz",
+      "sha256": "d6913d987d7f593dcf329736bcbbcac28f8b32c97161b34cea449f6a97f733bd",
+      "bytes": 6146313
+    },
+    {
+      "genome_id": "GCF_042261905.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_042261905.1.gbff.gz",
+      "sha256": "42fc6c0c2377298e507d186e8d853c9901582a15268d830fab8eeac11a65ad78",
+      "bytes": 4899005
+    },
+    {
+      "genome_id": "GCF_042270255.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_042270255.1.gbff.gz",
+      "sha256": "3ff86cec85a79216c1002f6155c8b6fe7d51f884df3f5574baa9e3be9188a8c3",
+      "bytes": 4219311
+    },
+    {
+      "genome_id": "GCF_042667115.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_042667115.1.gbff.gz",
+      "sha256": "ed09e8eb4e742110c6a0902eb13b222eca06c5a707dc645e798374420d00f8d1",
+      "bytes": 3534844
+    },
+    {
+      "genome_id": "GCF_042673865.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_042673865.1.gbff.gz",
+      "sha256": "6ecc343461715bf98f620501ebf09feacdaad8b5935792497bce051d5792021b",
+      "bytes": 6783198
+    },
+    {
+      "genome_id": "GCF_042718355.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_042718355.1.gbff.gz",
+      "sha256": "d22c861423764c579c775568dd9aa5f46a9bc65c8eaf859cd1d267c901a50bfd",
+      "bytes": 6622582
+    },
+    {
+      "genome_id": "GCF_042718755.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_042718755.1.gbff.gz",
+      "sha256": "be8814cb7e8926e5e3519c4349f6eddf2e7e53238df17706bc58b0948f38b688",
+      "bytes": 6087552
+    },
+    {
+      "genome_id": "GCF_042718795.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_042718795.1.gbff.gz",
+      "sha256": "409261cde56acf5c8fc848bc9ced794f1cb53b8e7264e9b4302b4571140ab820",
+      "bytes": 6003360
+    },
+    {
+      "genome_id": "GCF_042720675.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_042720675.1.gbff.gz",
+      "sha256": "25bb2ebf34c4166b00ed94f707a65e798b02ff5e551443eab1309e134608894c",
+      "bytes": 4876805
+    },
+    {
+      "genome_id": "GCF_042732975.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_042732975.1.gbff.gz",
+      "sha256": "ed22e2ccf7aa8cf26985ceacbc8e683822c4aeb327712938a59c962670346dc2",
+      "bytes": 6131003
+    },
+    {
+      "genome_id": "GCF_042735535.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_042735535.1.gbff.gz",
+      "sha256": "4a943abfae54d632f3c4c373ac253b6730147a8acda06a4363abc7f29c66178c",
+      "bytes": 6266066
+    },
+    {
+      "genome_id": "GCF_042749695.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_042749695.1.gbff.gz",
+      "sha256": "72a78ba850dfb93a9aa2a6daffd1400126c6290981e083abadc8872479e236ec",
+      "bytes": 6203047
+    },
+    {
+      "genome_id": "GCF_042797515.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_042797515.1.gbff.gz",
+      "sha256": "d37eef170ac63ca15b79ed271e4cb00328de4796e2a937f9188079c12070aa9e",
+      "bytes": 5871111
+    },
+    {
+      "genome_id": "GCF_042799295.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_042799295.1.gbff.gz",
+      "sha256": "22f5b576ea76d0e647b83c76fd9b834ee07fa8dab44648332d1423a576ef0bda",
+      "bytes": 5577313
+    },
+    {
+      "genome_id": "GCF_042800595.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_042800595.1.gbff.gz",
+      "sha256": "cd5dfb116a5275d1720aa82d99e93e46b025f137a0c64a83b35fbe835d8c7de4",
+      "bytes": 4476441
+    },
+    {
+      "genome_id": "GCF_042869215.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_042869215.1.gbff.gz",
+      "sha256": "22c5ced34e8eb647d7c71f230df3a90987347899bd51655e9c29fc8b4623c137",
+      "bytes": 4884040
+    },
+    {
+      "genome_id": "GCF_042869455.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_042869455.1.gbff.gz",
+      "sha256": "3f7881924873b8eb8b17ab0ebe7cc728de348bd4531c812ffa37645853f6c105",
+      "bytes": 5010337
+    },
+    {
+      "genome_id": "GCF_042869575.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_042869575.1.gbff.gz",
+      "sha256": "f14aaded3167796c77e96d3ab3dbfa6d1662e085143dd7d0e681450ba11edb99",
+      "bytes": 5124690
+    },
+    {
+      "genome_id": "GCF_042869715.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_042869715.1.gbff.gz",
+      "sha256": "eec11f2be11c2e5ff9eee602bab4870357b3fefdbf14705a8925a186e07c6786",
+      "bytes": 4865015
+    },
+    {
+      "genome_id": "GCF_042879415.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_042879415.1.gbff.gz",
+      "sha256": "bf90e3b2db80eac10ecfcfc2145916f3082efc24e22b744ca68f04e23cd01b1c",
+      "bytes": 3694738
+    },
+    {
+      "genome_id": "GCF_042882305.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_042882305.1.gbff.gz",
+      "sha256": "b0978c07110357cdc8272797dffe67e0ef7a1b7f25d56e08e5e514655af5e9f5",
+      "bytes": 4833516
+    },
+    {
+      "genome_id": "GCF_042890265.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_042890265.1.gbff.gz",
+      "sha256": "3596a81ce6831d9228a55d2bcb193c820c6161d2ee6dc6e5dcd8006483d4f0e3",
+      "bytes": 5288078
+    },
+    {
+      "genome_id": "GCF_043656355.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_043656355.1.gbff.gz",
+      "sha256": "f673471fbc25d96c5a927c9f8a7905c892aec4c0ec5ea04e0780c8a196c94b1b",
+      "bytes": 7253305
+    },
+    {
+      "genome_id": "GCF_044332345.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_044332345.1.gbff.gz",
+      "sha256": "724797bc64dccecff672b5e9b65b92619956f12563bffea1ae934b84ebd0c865",
+      "bytes": 6537816
+    },
+    {
+      "genome_id": "GCF_044334115.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_044334115.1.gbff.gz",
+      "sha256": "2390de18e25025665e46eeb190df81b870b6ef4de945e8aff0dcb9e7547fa621",
+      "bytes": 6172658
+    },
+    {
+      "genome_id": "GCF_044387595.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_044387595.1.gbff.gz",
+      "sha256": "b488dcc0b5e92ed8cca2c157d94f42bde2071f9baf859704a820fd47da63d123",
+      "bytes": 5469469
+    },
+    {
+      "genome_id": "GCF_044389265.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_044389265.1.gbff.gz",
+      "sha256": "09f408998c941530da899067dadc06f9c4ff3b8385c5fb35ab254b8ce930d49b",
+      "bytes": 5265566
+    },
+    {
+      "genome_id": "GCF_044389345.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_044389345.1.gbff.gz",
+      "sha256": "9d65eb7aae0bbaa568b9e3ee1c6d7088249c28fc14403ec1fe11b4c7038f8961",
+      "bytes": 5267161
+    },
+    {
+      "genome_id": "GCF_044389845.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_044389845.1.gbff.gz",
+      "sha256": "347cfe974c5c0f1a08bdd846c3562f481813592a64969dbfd285b3311956190f",
+      "bytes": 5062106
+    },
+    {
+      "genome_id": "GCF_044390825.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_044390825.1.gbff.gz",
+      "sha256": "5e5fd800a83d96c4dcdd3729a82ff9fd172016df5fac05c74fe36c3d86ad14ff",
+      "bytes": 5417970
+    },
+    {
+      "genome_id": "GCF_044458165.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_044458165.1.gbff.gz",
+      "sha256": "4181442741011fd814f2f335f674745c5eacc141de0b3d21107b6f58d05dada8",
+      "bytes": 4880545
+    },
+    {
+      "genome_id": "GCF_044461185.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_044461185.1.gbff.gz",
+      "sha256": "7c8bac87f16d877a0998a9a048eb9113d7fb2337d610dc271a50a96da6799878",
+      "bytes": 5153731
+    },
+    {
+      "genome_id": "GCF_044593195.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_044593195.1.gbff.gz",
+      "sha256": "890ab90db4f009f4322b059a7670356a12d682e62341b4c3591e75b2f0354b15",
+      "bytes": 5266403
+    },
+    {
+      "genome_id": "GCF_044747625.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_044747625.1.gbff.gz",
+      "sha256": "9aed97e1cf42c6ffe4ae81465fcf7aa62701cc177c02c430fd8bccf6963a797c",
+      "bytes": 5648876
+    },
+    {
+      "genome_id": "GCF_044756005.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_044756005.1.gbff.gz",
+      "sha256": "456eaaa807fb00a5db7c60aead9d308d0492b21bd43397fcf95c1395cc126afe",
+      "bytes": 5480167
+    },
+    {
+      "genome_id": "GCF_044767625.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_044767625.1.gbff.gz",
+      "sha256": "e7c9b8525558d5ca0e40dfc4fd76559bdd6b28e0153a4b2f20b21b7e07c97af2",
+      "bytes": 5486118
+    },
+    {
+      "genome_id": "GCF_044767975.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_044767975.1.gbff.gz",
+      "sha256": "3cbd7901d8c744d749ecdf055f62ed87017b2308c63b68c4abd80adf4b5ef07b",
+      "bytes": 4945954
+    },
+    {
+      "genome_id": "GCF_046713495.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_046713495.1.gbff.gz",
+      "sha256": "c26c24f10a0beb18947a527febe3b775279e86c0c432c0f9cd9261da3404b240",
+      "bytes": 5255351
+    },
+    {
+      "genome_id": "GCF_050272275.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_050272275.1.gbff.gz",
+      "sha256": "bd1aed58c019490d1c438273931174a58ea19ba692d173fbae633b0e0e72f960",
+      "bytes": 5569595
+    },
+    {
+      "genome_id": "GCF_050275235.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_050275235.1.gbff.gz",
+      "sha256": "55d12f51b22b444a2f1d05a9cb63bddb8b79c0eb20b6cb97e5a9c3b3d9e33755",
+      "bytes": 5027164
+    },
+    {
+      "genome_id": "GCF_053586955.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_053586955.1.gbff.gz",
+      "sha256": "a947fa1e47bd9c8427105e1f45cc9f805fba80d45cbf847ce91439c78d647596",
+      "bytes": 5325138
+    },
+    {
+      "genome_id": "GCF_053587015.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_053587015.1.gbff.gz",
+      "sha256": "4404b6dbee14d5234bce21981eaef94b2e9cb64eaa1094c177679253f170fde3",
+      "bytes": 6337648
+    },
+    {
+      "genome_id": "GCF_053588155.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_053588155.1.gbff.gz",
+      "sha256": "8bf81bf956a268d66e1415876eab5237baee2f6289c4e1370444a2ae586083a5",
+      "bytes": 5720560
+    },
+    {
+      "genome_id": "GCF_053590845.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_053590845.1.gbff.gz",
+      "sha256": "dfdea2259c9a802e1668e02628c1aa011110373a4c1d75e513f3988c51ac3d82",
+      "bytes": 5616077
+    },
+    {
+      "genome_id": "GCF_053592555.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_053592555.1.gbff.gz",
+      "sha256": "e77b795b5745f3725db76a975fbf27e213d1436003570ac5003127f3a19b7477",
+      "bytes": 7498429
+    },
+    {
+      "genome_id": "GCF_053604055.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_053604055.1.gbff.gz",
+      "sha256": "f66d70f292a6b8b97486abae051679e3ce55ceffe702adceeb27cf9cc6020079",
+      "bytes": 5519634
+    },
+    {
+      "genome_id": "GCF_053605665.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_053605665.1.gbff.gz",
+      "sha256": "f31a5127ffd7f1e73d0793b65b487eea67c9a16211a312a6b820ea5da2effc45",
+      "bytes": 5513653
+    },
+    {
+      "genome_id": "GCF_900089585.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_900089585.1.gbff.gz",
+      "sha256": "63ed0bbbd7d889de2cf2d24fde7bb8f9bf6734c3db51b1de38ecfd82f479a36a",
+      "bytes": 4833931
+    },
+    {
+      "genome_id": "GCF_900091415.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_900091415.1.gbff.gz",
+      "sha256": "322320bc027d8044e0adcce5eca214811531aac606d74c4ec2492d347aaef48e",
+      "bytes": 4794204
+    },
+    {
+      "genome_id": "GCF_900095505.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_900095505.1.gbff.gz",
+      "sha256": "2c3ad1e789e5b68687c55493081dc18f84b3c7e0a5aeceba33d18b299c52ef1b",
+      "bytes": 4273586
+    },
+    {
+      "genome_id": "GCF_900519125.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_900519125.1.gbff.gz",
+      "sha256": "aeb96fc54064f657126d2ced1569431fa23d6aae9ce41a9e71eae7ee3e56b485",
+      "bytes": 4784847
+    },
+    {
+      "genome_id": "GCF_963863825.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_963863825.1.gbff.gz",
+      "sha256": "aa1342b847af4d5d67c0ddc754d38c989e0b6f84a7a508879662962217432375",
+      "bytes": 3594124
+    },
+    {
+      "genome_id": "GCF_963888115.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_963888115.1.gbff.gz",
+      "sha256": "b5a058c2ce335e3ab99d0522a95b6dde0fa7552da4b1c2dc0a82db26910b554b",
+      "bytes": 3625409
+    },
+    {
+      "genome_id": "M2_CP169648_reference",
+      "path": "inputs/2026-10-13/base/data/raw/CP169648.1.gb",
+      "sha256": "fd1f54f979278437a01b0b607f861aac78ec239f12ab0d018c7b7497112bfedb",
+      "bytes": 17368805
+    },
+    {
+      "genome_id": "burkholderia_imcc1007",
+      "path": "inputs/H1_2026-10-13/legacy_assemblies/carrier__burkholderia_imcc1007.gbff.gz",
+      "sha256": "26f2714c4994b96c00e0d24519c65d4e8bf0a3189da4cabd0683216794375bf3",
+      "bytes": 6334714
+    },
+    {
+      "genome_id": "chitinasiproducens_palmae_js23",
+      "path": "inputs/H1_2026-10-13/legacy_assemblies/carrier__chitinasiproducens_palmae_js23.gbff.gz",
+      "sha256": "c0a2fa14166ede0aec3dfceeb10154156bbda93cedf2008b4b02ee91634f5586",
+      "bytes": 3810573
+    },
+    {
+      "genome_id": "control__paraburkholderia_mimosarum_stm3621",
+      "path": "inputs/H1_2026-10-13/legacy_assemblies/control__paraburkholderia_mimosarum_stm3621.gbff.gz",
+      "sha256": "5f6b8a00f080eb14365ed42564db21c2dc731db5aca4b1f3d97a3ec562a10635",
+      "bytes": 6300369
+    },
+    {
+      "genome_id": "control__photorhabdus_asymbiotica_dsm15149",
+      "path": "inputs/H1_2026-10-13/legacy_assemblies/control__photorhabdus_asymbiotica_dsm15149.gbff.gz",
+      "sha256": "f46409730e0247a5b3d12011a444770d5dd91d1118f1c85d53084c843a88e2b0",
+      "bytes": 3618138
+    },
+    {
+      "genome_id": "control__photorhabdus_caribbeanensis_hg29",
+      "path": "inputs/H1_2026-10-13/legacy_assemblies/control__photorhabdus_caribbeanensis_hg29.gbff.gz",
+      "sha256": "5e61bece8092b64889a64f72d0b8e53c4ca3e9009fbc7bc43f055b72f0d4dc73",
+      "bytes": 3792777
+    },
+    {
+      "genome_id": "control__ralstonia_pickettii_dtp0602",
+      "path": "inputs/H1_2026-10-13/legacy_assemblies/control__ralstonia_pickettii_dtp0602.gbff.gz",
+      "sha256": "097e415aa45872108f60372d9d198b26a1a4a2c38f8e52dec049d83a1351e2a2",
+      "bytes": 3857478
+    },
+    {
+      "genome_id": "control__trinickia_caryophylli_nbrc13591",
+      "path": "inputs/H1_2026-10-13/legacy_assemblies/control__trinickia_caryophylli_nbrc13591.gbff.gz",
+      "sha256": "26353172a72b4e293300ddae7fed069488a252dd9b5f03acd940a85c160e9c40",
+      "bytes": 4781841
+    },
+    {
+      "genome_id": "control__trinickia_symbiotica_jpy366",
+      "path": "inputs/H1_2026-10-13/legacy_assemblies/control__trinickia_symbiotica_jpy366.gbff.gz",
+      "sha256": "66559f627b3472091d69502d35474f1b7716f55843ace5b6206eefdb2393f933",
+      "bytes": 4946908
+    },
+    {
+      "genome_id": "control__xenorhabdus_bovienii_mc235",
+      "path": "inputs/H1_2026-10-13/legacy_assemblies/control__xenorhabdus_bovienii_mc235.gbff.gz",
+      "sha256": "42dacaab60313bc4e03af7066f82777d09b283bf226c514c29826e6ce5d61497",
+      "bytes": 3361828
+    },
+    {
+      "genome_id": "control__xenorhabdus_budapestensis_c72",
+      "path": "inputs/H1_2026-10-13/legacy_assemblies/control__xenorhabdus_budapestensis_c72.gbff.gz",
+      "sha256": "45eb3add0da803545c2283fc890350d4c0a6bff52aea30f80bf4f30f424db285",
+      "bytes": 3234973
+    },
+    {
+      "genome_id": "control__xenorhabdus_innexi_dsm16336",
+      "path": "inputs/H1_2026-10-13/legacy_assemblies/control__xenorhabdus_innexi_dsm16336.gbff.gz",
+      "sha256": "d85675eb752d9f7d8f464d0c57c551279cd9d6dc81bb70e0cbb3ba696c630652",
+      "bytes": 3288112
+    },
+    {
+      "genome_id": "paraburkholderia_mimosarum_stm3621",
+      "path": "inputs/H1_2026-10-13/legacy_assemblies/carrier__paraburkholderia_mimosarum_stm3621.gbff.gz",
+      "sha256": "1611a9780078302632b5c0a99d90ceb4b6f7d8794a4cf62b08628f98fd110c58",
+      "bytes": 6449918
+    },
+    {
+      "genome_id": "photorhabdus_asymbiotica_dsm15149",
+      "path": "inputs/H1_2026-10-13/legacy_assemblies/carrier__photorhabdus_asymbiotica_dsm15149.gbff.gz",
+      "sha256": "bac9c0a265221ed8917c316304ba88920e4bdcbed236038efb96c3bec85d3bb5",
+      "bytes": 3628921
+    },
+    {
+      "genome_id": "photorhabdus_caribbeanensis_hg29",
+      "path": "inputs/H1_2026-10-13/legacy_assemblies/carrier__photorhabdus_caribbeanensis_hg29.gbff.gz",
+      "sha256": "5e342f0acfd6a7fbdf868c8e4fd54eddb08cddc68d5ceb7739c4b6f28cde7e5a",
+      "bytes": 3972071
+    },
+    {
+      "genome_id": "photorhabdus_rw14",
+      "path": "inputs/H1_2026-10-13/legacy_assemblies/carrier__photorhabdus_rw14.gbff.gz",
+      "sha256": "9b591d212949f9e793eb4f4308208a054eed1cddc7f9d1beb2aea14a4a27b356",
+      "bytes": 3863510
+    },
+    {
+      "genome_id": "ralstonia_pickettii_dtp0602",
+      "path": "inputs/H1_2026-10-13/legacy_assemblies/carrier__ralstonia_pickettii_dtp0602.gbff.gz",
+      "sha256": "3e1e6e332225e3d846bf5273f6814804ca1149c1845f4afe330f71ef280db340",
+      "bytes": 5213482
+    },
+    {
+      "genome_id": "trinickia_acidisoli_4d114",
+      "path": "inputs/H1_2026-10-13/legacy_assemblies/carrier__trinickia_acidisoli_4d114.gbff.gz",
+      "sha256": "f8b4a30a58d49bbf6ec7c785a1ed6061dd500647ab9048840fcce4015081ab1d",
+      "bytes": 4570110
+    },
+    {
+      "genome_id": "trinickia_caryophylli_nbrc13591",
+      "path": "inputs/H1_2026-10-13/legacy_assemblies/carrier__trinickia_caryophylli_nbrc13591.gbff.gz",
+      "sha256": "41a4b8af8c3f5a6b48a97bcc07dcef242dedcd40f502b76ed15123cb9ca6010c",
+      "bytes": 4805345
+    },
+    {
+      "genome_id": "trinickia_symbiotica_jpy366",
+      "path": "inputs/H1_2026-10-13/legacy_assemblies/carrier__trinickia_symbiotica_jpy366.gbff.gz",
+      "sha256": "1f0575a2e72e3770ee436874e28dd46294e338628895f2273e739fdb1d3d7e00",
+      "bytes": 5136318
+    },
+    {
+      "genome_id": "uncultured_paraburkholderia",
+      "path": "inputs/H1_2026-10-13/legacy_assemblies/carrier__uncultured_paraburkholderia.gbff.gz",
+      "sha256": "ad513b8bb2dd80f56bed34ff87886b547ffb1187a084e1c680c541a60d7dbe32",
+      "bytes": 2704536
+    },
+    {
+      "genome_id": "xenorhabdus_bovienii_mc235",
+      "path": "inputs/H1_2026-10-13/legacy_assemblies/carrier__xenorhabdus_bovienii_mc235.gbff.gz",
+      "sha256": "f9a3f5940d6198404ddd82cd3c533a1ff50739093bae42ec6f0a320f4506b1ab",
+      "bytes": 3552868
+    },
+    {
+      "genome_id": "xenorhabdus_budapestensis_c72",
+      "path": "inputs/H1_2026-10-13/legacy_assemblies/carrier__xenorhabdus_budapestensis_c72.gbff.gz",
+      "sha256": "3540d9bab7852e5019c9bec7d9aebd9663d2681aac84813481d3c61246098937",
+      "bytes": 3130861
+    },
+    {
+      "genome_id": "xenorhabdus_innexi_dsm16336",
+      "path": "inputs/H1_2026-10-13/legacy_assemblies/carrier__xenorhabdus_innexi_dsm16336.gbff.gz",
+      "sha256": "35b4b69119d66e8566d2c20dfa00761224139069ff582bf87fdc281664b35f1a",
+      "bytes": 3589964
+    },
+    {
+      "genome_id": "GCA_034033015.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCA_034033015.1.gbff.gz",
+      "sha256": "cc6e1e5693e254ff652d0738f95c5ff1a62c602cb7e7cca74ce23ece4822c872",
+      "bytes": 4229150
+    },
+    {
+      "genome_id": "GCA_036219325.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCA_036219325.1.gbff.gz",
+      "sha256": "ca78e938ce5554e89e25682ebd07399503873a667f87a95b79a68c58fa7240af",
+      "bytes": 3278510
+    },
+    {
+      "genome_id": "GCA_036219345.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCA_036219345.1.gbff.gz",
+      "sha256": "2e7318d418d92529fdc87b3253438e50b134671c96a1f7a1a752eb128d1d287e",
+      "bytes": 3097601
+    },
+    {
+      "genome_id": "GCA_036219365.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCA_036219365.1.gbff.gz",
+      "sha256": "67fada84e7df026ba63f246076116e2fd43f268d7ade9c8255bbfdbcc41f8d4a",
+      "bytes": 3095062
+    },
+    {
+      "genome_id": "GCF_000007825.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_000007825.1.gbff.gz",
+      "sha256": "cb2abeb3d696299aeef4bc96c9e73a340943787ae1ec48f28566eb8a97f09a15",
+      "bytes": 3899932
+    },
+    {
+      "genome_id": "GCF_000008425.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_000008425.1.gbff.gz",
+      "sha256": "6e46a86840abfa064cbe52113e180f20a9f5cc5b832b1e29324976657168cb4e",
+      "bytes": 3130242
+    },
+    {
+      "genome_id": "GCF_000009045.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_000009045.1.gbff.gz",
+      "sha256": "cf958f2c986289f4edc7c94b7cd6f625a4a4af16a3f0f67620fc9de67e670c0e",
+      "bytes": 3391532
+    },
+    {
+      "genome_id": "GCF_000011645.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_000011645.1.gbff.gz",
+      "sha256": "2afa460f16340f05048283bbce9bcc4d652182e56426705c812293d0976fcb39",
+      "bytes": 3130554
+    },
+    {
+      "genome_id": "GCF_000161615.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_000161615.1.gbff.gz",
+      "sha256": "e7f5c600f0f2bda0f41b57a2ede4537e07266355dfddd2a91c6192fa888012aa",
+      "bytes": 4597545
+    },
+    {
+      "genome_id": "GCF_000293805.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_000293805.1.gbff.gz",
+      "sha256": "d957343a77b0a4d2e0322ae9a025b2128160fc145b5e861a8e154c358239e84a",
+      "bytes": 4916668
+    },
+    {
+      "genome_id": "GCF_000308455.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_000308455.1.gbff.gz",
+      "sha256": "a5bc05a56bc3268dd9bd7438eb2a7b36e72be94363d155eb7dad7ba8e1cc41bb",
+      "bytes": 6273022
+    },
+    {
+      "genome_id": "GCF_000344745.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_000344745.1.gbff.gz",
+      "sha256": "413b9a4835e2975065fa65f869d96c7dabe51abf5f9c05b37d901587e96b1b54",
+      "bytes": 3129777
+    },
+    {
+      "genome_id": "GCF_000371885.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_000371885.1.gbff.gz",
+      "sha256": "486b04887d4de08957523ffdc56249a3b1b0d3f7f7c845b3d9b9172d1a9a0dc2",
+      "bytes": 5125948
+    },
+    {
+      "genome_id": "GCF_000373005.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_000373005.1.gbff.gz",
+      "sha256": "d1871ca20e249e2cbf31f1d4e037ef1f0e5386a9e8064b9f84fb33c6e2a809b5",
+      "bytes": 4730003
+    },
+    {
+      "genome_id": "GCF_000408885.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_000408885.1.gbff.gz",
+      "sha256": "cc166c648f180bfa1af6e30811d5597624c3780f77fbecb31e66b4451c16739f",
+      "bytes": 3231486
+    },
+    {
+      "genome_id": "GCF_000424905.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_000424905.1.gbff.gz",
+      "sha256": "7d35aa95816fb207f488ddc5c8b9be94715ca26a469d3fe943a320b6f26e788a",
+      "bytes": 3759573
+    },
+    {
+      "genome_id": "GCF_000473265.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_000473265.1.gbff.gz",
+      "sha256": "f68d22cea83eaaba106c488b26fa4dd86dbf8b32312a79ce37f075fe667854b9",
+      "bytes": 6181677
+    },
+    {
+      "genome_id": "GCF_000514435.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_000514435.1.gbff.gz",
+      "sha256": "d8d7213db2e68ec771a49fc8a7f82cc1128a750130bbd6f3f0a15a55c1d79f32",
+      "bytes": 3735637
+    },
+    {
+      "genome_id": "GCF_000670435.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_000670435.1.gbff.gz",
+      "sha256": "6c873e382b14a2d178a5e3b2ff2cde4a0419e3152c4bd99f1d9ca29282ca636a",
+      "bytes": 3211795
+    },
+    {
+      "genome_id": "GCF_000670455.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_000670455.1.gbff.gz",
+      "sha256": "67e3c08ea28a75631357ee761cdebc059b5122599f07215ac6cd59687444deb5",
+      "bytes": 3192380
+    },
+    {
+      "genome_id": "GCF_000711895.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_000711895.1.gbff.gz",
+      "sha256": "3926f8449b989c1285ea0ce2f6dd7a8e8e9cc3549ccab7c041cfa5826c816586",
+      "bytes": 3681219
+    },
+    {
+      "genome_id": "GCF_000716545.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_000716545.1.gbff.gz",
+      "sha256": "4c44ac90dab3edf695f4b4356d75552c39396768789f45685ad07e7686d02f9d",
+      "bytes": 5563455
+    },
+    {
+      "genome_id": "GCF_000717345.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_000717345.1.gbff.gz",
+      "sha256": "2238f5643a7fb7fece294c037a63c531adee1565715ab4a513caeaf01228ee2e",
+      "bytes": 5900471
+    },
+    {
+      "genome_id": "GCF_000718135.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_000718135.1.gbff.gz",
+      "sha256": "4cc20fa651606018e721da1e7a888d1cbddd429af207d854aaa4427315513bb5",
+      "bytes": 5666900
+    },
+    {
+      "genome_id": "GCF_000725885.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_000725885.1.gbff.gz",
+      "sha256": "17282ee1e37b4cabf3379a17491d77fece4c12f23cc0b25d13ea7e71799076e6",
+      "bytes": 5375334
+    },
+    {
+      "genome_id": "GCF_000739085.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_000739085.1.gbff.gz",
+      "sha256": "b66d028e8bcc2f0a646e5816f0f0e7f8399683a773fae117c527fa80db1b13ff",
+      "bytes": 5189095
+    },
+    {
+      "genome_id": "GCF_000739815.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_000739815.1.gbff.gz",
+      "sha256": "f30461cf0d767a2109662fe241467b1cad6da4c4d29968810b2314f1d8e63371",
+      "bytes": 6355483
+    },
+    {
+      "genome_id": "GCF_000742895.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_000742895.1.gbff.gz",
+      "sha256": "c440085efcdf3125443bbe984f897f4e708a6458b0cdee8472d079accb78d104",
+      "bytes": 3952238
+    },
+    {
+      "genome_id": "GCF_000813365.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_000813365.1.gbff.gz",
+      "sha256": "d766b5cd45723570cfa1913efe5ff139e073fe3548d80c1318bf51334dd4f0a0",
+      "bytes": 5403955
+    },
+    {
+      "genome_id": "GCF_001042485.2",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_001042485.2.gbff.gz",
+      "sha256": "a3c18f6cdad79fcc1df43d09ad69e2a139b53b875c14bd173f1c5711d7ab6e8b",
+      "bytes": 3415609
+    },
+    {
+      "genome_id": "GCF_001583695.3",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_001583695.3.gbff.gz",
+      "sha256": "75835fefaa80986d53323065199b75cf3d521d55b1535626761dbafe57d31e77",
+      "bytes": 3926297
+    },
+    {
+      "genome_id": "GCF_001884025.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_001884025.1.gbff.gz",
+      "sha256": "5b8d4a0df50f963d57dea44247cb1fadcdab2c17b2fea1c93a0d03bc34234c8d",
+      "bytes": 4107296
+    },
+    {
+      "genome_id": "GCF_001884185.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_001884185.1.gbff.gz",
+      "sha256": "580f9da3a8de3c6519e116f32ff69ae996262f42bdd14cca2ef177f0d08cdc9a",
+      "bytes": 4400296
+    },
+    {
+      "genome_id": "GCF_001969815.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_001969815.1.gbff.gz",
+      "sha256": "50f7e4a1f2a7d98cf73998e11808389628dd0931de4e7e08df0fe22de98364b1",
+      "bytes": 3437750
+    },
+    {
+      "genome_id": "GCF_001969855.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_001969855.1.gbff.gz",
+      "sha256": "9a9f60a496817768365980b2e0517950cbf1ca033cdf945a11b68bc37775826c",
+      "bytes": 3345864
+    },
+    {
+      "genome_id": "GCF_002119445.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_002119445.1.gbff.gz",
+      "sha256": "7249355b4bc07b59a883a427dd07c3b055d6ae06f5853dc3c1ab6d325aa94584",
+      "bytes": 4572837
+    },
+    {
+      "genome_id": "GCF_002443095.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_002443095.1.gbff.gz",
+      "sha256": "ef04dd6e21e6d8d1abba45b9ede8bdc2b41b620603b515a4858bb0a884564aa5",
+      "bytes": 3403589
+    },
+    {
+      "genome_id": "GCF_002632465.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_002632465.1.gbff.gz",
+      "sha256": "81935cd32fb3f4ddcb51d4ebd5ec88f4922992b4cf55d21c488f6bf485c89953",
+      "bytes": 3244064
+    },
+    {
+      "genome_id": "GCF_002813375.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_002813375.1.gbff.gz",
+      "sha256": "5def987be150f3941d040886d82863e0250dc18b0cead6aa112426faa29b1257",
+      "bytes": 4221694
+    },
+    {
+      "genome_id": "GCF_002879935.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_002879935.1.gbff.gz",
+      "sha256": "6eec303b4c6ccc9607678c603d7ab26a6e1ff37ec8a3f749d17c6a5cba688931",
+      "bytes": 4990814
+    },
+    {
+      "genome_id": "GCF_002933115.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_002933115.1.gbff.gz",
+      "sha256": "c39be7b05fcd6fae89429b10c774815b8b3a927dc5f1cbc926937c8b5c2c534f",
+      "bytes": 2464065
+    },
+    {
+      "genome_id": "GCF_003054555.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_003054555.1.gbff.gz",
+      "sha256": "e792f1ca4657ad8af97086250ec3966dc7182248bc7efdc14ad3a5777eba9c4a",
+      "bytes": 6098471
+    },
+    {
+      "genome_id": "GCF_003265665.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_003265665.1.gbff.gz",
+      "sha256": "347fc75db647b505bf63eaedd020baf3b383de522717880665612fb09bb8acfb",
+      "bytes": 5001009
+    },
+    {
+      "genome_id": "GCF_003287575.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_003287575.1.gbff.gz",
+      "sha256": "ad1ac98d48b28f9c320f6cfcf3873a8e580f0355cba422cfd59a1e1964ac6bc3",
+      "bytes": 3798735
+    },
+    {
+      "genome_id": "GCF_003343245.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_003343245.1.gbff.gz",
+      "sha256": "a941c5022bf102f2615d20c031f0ea21dd0fe7c03249b6c621476de93c8e002d",
+      "bytes": 4050336
+    },
+    {
+      "genome_id": "GCF_003752125.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_003752125.1.gbff.gz",
+      "sha256": "96de6ee686608d4569f1268dc73cda2b1c7f2aa7fc95e9d5429e455f82691c83",
+      "bytes": 5964477
+    },
+    {
+      "genome_id": "GCF_004000885.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_004000885.1.gbff.gz",
+      "sha256": "19c30a4ceb71da8c983149d4d6a841c2a49afadf7f09fd0f5383ddc5a7b54796",
+      "bytes": 4522736
+    },
+    {
+      "genome_id": "GCF_004125245.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_004125245.1.gbff.gz",
+      "sha256": "e7ac8c841f7ea5f9414517982aea83206916326272c94fb696136fb2564ca9b8",
+      "bytes": 5524111
+    },
+    {
+      "genome_id": "GCF_006094295.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_006094295.1.gbff.gz",
+      "sha256": "4dd5c80d551af0332d4b2f2e90adec29aa515507205e4f68e87fe48b973c9e7b",
+      "bytes": 4004450
+    },
+    {
+      "genome_id": "GCF_006539165.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_006539165.1.gbff.gz",
+      "sha256": "a2f4f2968db2bbd578600177f43d6619a3480b9111fb42383161a7ba5a203686",
+      "bytes": 6125877
+    },
+    {
+      "genome_id": "GCF_006715785.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_006715785.1.gbff.gz",
+      "sha256": "bb0a8d94cde51385a8a10071f29e5524e538ac9cf74818223ffc0e4dcbaa25f5",
+      "bytes": 6447765
+    },
+    {
+      "genome_id": "GCF_008704995.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_008704995.1.gbff.gz",
+      "sha256": "4cbc57612b2fe569a2d7fedf251adf44e7b6654db45e8f837f4490252fcbe55a",
+      "bytes": 5498193
+    },
+    {
+      "genome_id": "GCF_009299385.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_009299385.1.gbff.gz",
+      "sha256": "8e5f37ca2dec57d2ca9c5d721f966c36005e1cb7528521aea2efa127f45d1999",
+      "bytes": 5317018
+    },
+    {
+      "genome_id": "GCF_011758705.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_011758705.1.gbff.gz",
+      "sha256": "18d3e02fcf0e7a37db41adc7738af5191840509d6c4c78358cf0921a812f7dad",
+      "bytes": 5237820
+    },
+    {
+      "genome_id": "GCF_013004455.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_013004455.1.gbff.gz",
+      "sha256": "b6c21b4f4a9c0f680803f14c9af61e5b1860dbea231de75547b60814128e3c4c",
+      "bytes": 6402699
+    },
+    {
+      "genome_id": "GCF_013357925.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_013357925.1.gbff.gz",
+      "sha256": "20c31826d229eba949e1f0e7f98300a96703ef9c5ee8d454e7ce718dbc47f471",
+      "bytes": 5796818
+    },
+    {
+      "genome_id": "GCF_013408715.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_013408715.1.gbff.gz",
+      "sha256": "27147fb343f41795aecee5fdbf852f0466a9e4096061aaaab5e751db2f26f079",
+      "bytes": 4453356
+    },
+    {
+      "genome_id": "GCF_014042035.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_014042035.1.gbff.gz",
+      "sha256": "fe2c3eab5e21eb220380ed496ce96d15b96a16d52831ac0e765b0441e73511be",
+      "bytes": 3144108
+    },
+    {
+      "genome_id": "GCF_014205035.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_014205035.1.gbff.gz",
+      "sha256": "4c477311e999b9f0ce399a99eeab928064ecb331eac5dcd6e9589626e1f7ac0b",
+      "bytes": 5451560
+    },
+    {
+      "genome_id": "GCF_014489865.2",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_014489865.2.gbff.gz",
+      "sha256": "f8663a1597170f50e39a28abcd647538aee873eeedb01d647d780bf116cf9cc7",
+      "bytes": 3998088
+    },
+    {
+      "genome_id": "GCF_014655595.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_014655595.1.gbff.gz",
+      "sha256": "922f505e40225e671f897146373395d03d3d988aa6752820ba9ce550f517f4be",
+      "bytes": 5254557
+    },
+    {
+      "genome_id": "GCF_015356215.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_015356215.1.gbff.gz",
+      "sha256": "3a3bd0f12b342fbb16cbb2331ece0b3c59faac3d41178e5f160fd4f7815b36be",
+      "bytes": 8687825
+    },
+    {
+      "genome_id": "GCF_015710975.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_015710975.1.gbff.gz",
+      "sha256": "f9d1b62e056329e9728fd0e7953566e30363189d47cc6c6f75c4b6d516e73b7b",
+      "bytes": 4276099
+    },
+    {
+      "genome_id": "GCF_016622115.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_016622115.1.gbff.gz",
+      "sha256": "c08ca2c9c9a123593d42718516ba8de302ffc5496a8419dc7da402518800d68e",
+      "bytes": 3577303
+    },
+    {
+      "genome_id": "GCF_017349075.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_017349075.1.gbff.gz",
+      "sha256": "c339d21ffe1570d1e143a5580b3efc4df854e8ba67d06fe791bff9aae86e7639",
+      "bytes": 5235415
+    },
+    {
+      "genome_id": "GCF_017876625.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_017876625.1.gbff.gz",
+      "sha256": "212f79c59f6beecfb1637f3236ae18d95a812f8a985869c25d680d6002200d8c",
+      "bytes": 5449968
+    },
+    {
+      "genome_id": "GCF_018274385.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_018274385.1.gbff.gz",
+      "sha256": "0cb3d5232cfa7d0397fd8782da0d0d87386f549fd47ac0aabb59310acfe9e18d",
+      "bytes": 8776841
+    },
+    {
+      "genome_id": "GCF_018741405.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_018741405.1.gbff.gz",
+      "sha256": "f58dc760b0d79a4edcaf20efb07234e5f777c55ab0602f80d7a7ad84d0453be4",
+      "bytes": 4007432
+    },
+    {
+      "genome_id": "GCF_020093395.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_020093395.1.gbff.gz",
+      "sha256": "869876405e0f7e86f471e34b5fde58e949cfd09df4bfa22b9187693995e63090",
+      "bytes": 5296883
+    },
+    {
+      "genome_id": "GCF_020731305.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_020731305.1.gbff.gz",
+      "sha256": "3768dd0e8844c771ce51c6c96164a69e2229ce203c854fe3200efe30086fde55",
+      "bytes": 6067934
+    },
+    {
+      "genome_id": "GCF_022221345.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_022221345.1.gbff.gz",
+      "sha256": "83eacd90c23541bbd0751eaa9c3586c44dd7f2beff53f39e416efd93e6ce1e6b",
+      "bytes": 3957049
+    },
+    {
+      "genome_id": "GCF_022811565.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_022811565.1.gbff.gz",
+      "sha256": "dd9790026de4b8f1fc089ab71577ecca1840c10f20e84d1af15fd1336af951fb",
+      "bytes": 4349765
+    },
+    {
+      "genome_id": "GCF_024316195.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_024316195.1.gbff.gz",
+      "sha256": "4f6b014a1c67a68acf3677c971e3251530ce1322237176268eb9fc83622e626d",
+      "bytes": 3579152
+    },
+    {
+      "genome_id": "GCF_024721015.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_024721015.1.gbff.gz",
+      "sha256": "4f90c815604c3286237ed2e254f9e4a3cb009fca7e6062aa6af6ac480a5bae05",
+      "bytes": 3630499
+    },
+    {
+      "genome_id": "GCF_026794105.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_026794105.1.gbff.gz",
+      "sha256": "988329157d9afc664aed9dadb709dcf45977fd717b3dc414e629db2defb00459",
+      "bytes": 4799535
+    },
+    {
+      "genome_id": "GCF_027158085.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_027158085.1.gbff.gz",
+      "sha256": "c219f2a6ca2197b753435e56c0b13c7c259275117ba644c96290ea614827ce8b",
+      "bytes": 4924041
+    },
+    {
+      "genome_id": "GCF_030418985.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_030418985.1.gbff.gz",
+      "sha256": "56c1199b268c5e62170311e21d0560f196cdf6b54dc109cb684b7ac4c749216b",
+      "bytes": 3410132
+    },
+    {
+      "genome_id": "GCF_033109485.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_033109485.1.gbff.gz",
+      "sha256": "a3f1fcdaf9e299a3fc01ba59bb6034da185be86e0ce661efa57769a2354e67ad",
+      "bytes": 5767074
+    },
+    {
+      "genome_id": "GCF_035666115.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_035666115.1.gbff.gz",
+      "sha256": "5de92ec7d0b6285df1eb1223a1f2818eceaad94660d55c2397f6a475777f989e",
+      "bytes": 3557873
+    },
+    {
+      "genome_id": "GCF_038086985.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_038086985.1.gbff.gz",
+      "sha256": "6724dd17751dd36fd0c15ba63cc90f6f1a85198ddeb8391c154613d73ca72af9",
+      "bytes": 4387648
+    },
+    {
+      "genome_id": "GCF_040314805.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_040314805.1.gbff.gz",
+      "sha256": "f47c8143d32437cc18e72e152c83d474be273862fd059a577d329ed17ce16528",
+      "bytes": 4720340
+    },
+    {
+      "genome_id": "GCF_040631645.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_040631645.1.gbff.gz",
+      "sha256": "91283dd2fae92ac47c0cbca34e5083ee118360412de17d6773315f204057a3bd",
+      "bytes": 4529874
+    },
+    {
+      "genome_id": "GCF_040632515.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_040632515.1.gbff.gz",
+      "sha256": "0244641762213721f506395577326627ffe6f9647554d8e6316a3cfa817362d3",
+      "bytes": 4874609
+    },
+    {
+      "genome_id": "GCF_040645395.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_040645395.1.gbff.gz",
+      "sha256": "4aec1b612aa215c3a772b4fb84d04f4fa845aed10e7ea355620c358e2d6e6d64",
+      "bytes": 5328233
+    },
+    {
+      "genome_id": "GCF_042431885.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_042431885.1.gbff.gz",
+      "sha256": "cd4603d6e6407d62bebb96038a91f32825610ec82e12d635055f53627b579430",
+      "bytes": 6234005
+    },
+    {
+      "genome_id": "GCF_042682065.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_042682065.1.gbff.gz",
+      "sha256": "6be83738cebb0a81959eaae428d90f7506ac7c5d922920e7f9b984a64a11252a",
+      "bytes": 4746892
+    },
+    {
+      "genome_id": "GCF_042746415.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_042746415.1.gbff.gz",
+      "sha256": "aa26dc2cdcb62ccbb9914455fb9c3e45c9b8d5db5ac42b2af4dae00fb9260ad4",
+      "bytes": 5891652
+    },
+    {
+      "genome_id": "GCF_044327915.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_044327915.1.gbff.gz",
+      "sha256": "4d4c657851b1bcf7f0a3cd6b941ed4f9966b5af9dfd09f259470254486786ce1",
+      "bytes": 6767576
+    },
+    {
+      "genome_id": "GCF_044546805.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_044546805.1.gbff.gz",
+      "sha256": "0a876c012d44109ac4ec8f0faf9284feb56bceb1c5a19f9a3787eb216fdc8f1b",
+      "bytes": 5370654
+    },
+    {
+      "genome_id": "GCF_050920745.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_050920745.1.gbff.gz",
+      "sha256": "9005dbbb42d7ebe2aeef26fa2da34dc50a9c03d905492dd66564f1679eec0329",
+      "bytes": 3280456
+    },
+    {
+      "genome_id": "GCF_050936825.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_050936825.1.gbff.gz",
+      "sha256": "3cd313ee9a956bc5285f8544a537ab5e6e4a80b9cfa4aa6dfc275bd2100f1689",
+      "bytes": 5571889
+    },
+    {
+      "genome_id": "GCF_051122545.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_051122545.1.gbff.gz",
+      "sha256": "f037f01db836776ddda4e316b285fdd91b74bc127ae08562f6e1131d75dc2dce",
+      "bytes": 3854104
+    },
+    {
+      "genome_id": "GCF_051172475.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_051172475.1.gbff.gz",
+      "sha256": "554e6a15ef2fbec8adb789544625eb0c14190917583c5cd8463f958d3cc478d3",
+      "bytes": 6426472
+    },
+    {
+      "genome_id": "GCF_052068515.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_052068515.1.gbff.gz",
+      "sha256": "cae7300aa86484fbbc8998e37013605ea2d8a9cf2a94dfb9088111586c127fdb",
+      "bytes": 3199280
+    },
+    {
+      "genome_id": "GCF_053604965.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_053604965.1.gbff.gz",
+      "sha256": "cd990fece76894850a7b7d4fdbb6f9c96c011c9be729b8fed2bed53185f59d47",
+      "bytes": 5564691
+    },
+    {
+      "genome_id": "GCF_054187885.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_054187885.1.gbff.gz",
+      "sha256": "ad0e9f396371c9d9fc70ea60f8cfe82f07b0030c3dd3d243a04638c12dd697f1",
+      "bytes": 3239343
+    },
+    {
+      "genome_id": "GCF_056110285.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_056110285.1.gbff.gz",
+      "sha256": "414bca8fc21aa7acc280a292ac1433761c95e1daaa167f29852ae0f8e8a36240",
+      "bytes": 3837019
+    },
+    {
+      "genome_id": "GCF_056436125.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_056436125.1.gbff.gz",
+      "sha256": "7947aba2caf3aaeb83fd427402fb4027f0ca0905481da5cfa16fc5780eb54fd8",
+      "bytes": 6587868
+    },
+    {
+      "genome_id": "GCF_057709745.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_057709745.1.gbff.gz",
+      "sha256": "c65f9f373add6c25ed9e9a387285bd6f9d7a1d46c484004f72ddba24eb90debb",
+      "bytes": 4988154
+    },
+    {
+      "genome_id": "GCF_060394675.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_060394675.1.gbff.gz",
+      "sha256": "a9f38f23621245c11884c224b33d18532a9a75dccf494b4275f07e23a7139e76",
+      "bytes": 3672370
+    },
+    {
+      "genome_id": "GCF_060498115.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_060498115.1.gbff.gz",
+      "sha256": "e345addbf49d560d009ffeee91c795b09e2b5455f69d0b03454804394774066f",
+      "bytes": 3570403
+    },
+    {
+      "genome_id": "GCF_900111245.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_900111245.1.gbff.gz",
+      "sha256": "e87173a21885ea9ac52f236de92eda0b122b587ed47e93d0c727324eda7fec18",
+      "bytes": 5012596
+    },
+    {
+      "genome_id": "GCF_902833725.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_902833725.1.gbff.gz",
+      "sha256": "60de65a6cf8bcd3d4040bd541c4cee3e27056432c883da1291ceacc4bbdd1e54",
+      "bytes": 6289952
+    },
+    {
+      "genome_id": "GCF_963861675.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_963861675.1.gbff.gz",
+      "sha256": "9eefd3cea6c43efc505e2ca8ab43981fc7c4f028c6b6d6f3ddeadfbef1024a65",
+      "bytes": 3585479
+    },
+    {
+      "genome_id": "GCF_963875625.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_963875625.1.gbff.gz",
+      "sha256": "de9e9cf9a238aacbfd9b7d6c117fb799cbfcec8de9a7bbaeecb4e50cf7a213ac",
+      "bytes": 3203791
+    },
+    {
+      "genome_id": "GCF_963876265.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_963876265.1.gbff.gz",
+      "sha256": "50700f7c21a4c523a81db8bdc1c4e6d08bdf4f04b03c08e506fdffaf4d499cbe",
+      "bytes": 3517677
+    },
+    {
+      "genome_id": "GCF_963887965.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_963887965.1.gbff.gz",
+      "sha256": "92c78f4838636dd67f7e97bf0f31be5f270bd6bce22f44805b0ae07cc46052cf",
+      "bytes": 3844594
+    },
+    {
+      "genome_id": "GCF_963892975.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_963892975.1.gbff.gz",
+      "sha256": "7a3e271ecd093fef34df4013cd3c51110f7c5eaf5d95d8ddf59cdaec1710502f",
+      "bytes": 3917249
+    },
+    {
+      "genome_id": "GCF_963899725.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_963899725.1.gbff.gz",
+      "sha256": "e3e9f8196fa5ead10cc2a2a877bb8bf169385c58d2eeb4dbb6c1c8dbc3115298",
+      "bytes": 3265908
+    },
+    {
+      "genome_id": "GCF_965137855.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_965137855.1.gbff.gz",
+      "sha256": "3eee74bb71558026cbbc3810105b4e57622e3fe23e381c99d4e82952ccd8751f",
+      "bytes": 4319203
+    },
+    {
+      "genome_id": "GCF_965139985.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_965139985.1.gbff.gz",
+      "sha256": "3143cabe58b8e09ef22d1ab739ce807f1739c0e4d37c5fb97442a0555834b85f",
+      "bytes": 3721037
+    },
+    {
+      "genome_id": "GCF_965344005.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_965344005.1.gbff.gz",
+      "sha256": "ea9a0d450941572a446758f0337227238fbff02a5f1f4203e490b79292fb0f3c",
+      "bytes": 4950997
+    },
+    {
+      "genome_id": "GCF_002146705.1",
+      "path": "inputs/H1_2026-10-13/ncbi/genomes/GCF_002146705.1.gbff.gz",
+      "sha256": "a7a31740e5a83cf947a87a53d528142ad879ea982c7fc9c086a9695daffa4c8c",
+      "bytes": 4193617
+    }
+  ],
+  "copied": [
+    {
+      "path": "inputs/H2_2026-10-13/H1/H1_carrier_catalogue.tsv",
+      "source": "results/tables/H1_carrier_catalogue.tsv",
+      "sha256": "1448107b0aa50045ca704332981bb44faf26abf687eef8eaf30d2d56d6cd1e01",
+      "bytes": 158054
+    },
+    {
+      "path": "inputs/H2_2026-10-13/H1/H1_publication_loci.tsv",
+      "source": "results/tables/H1_publication_loci.tsv",
+      "sha256": "96f373543f5c962fb328b4634960cc29db619331ae726eb84afc3935dc2ebb69",
+      "bytes": 74061
+    },
+    {
+      "path": "inputs/H2_2026-10-13/H1/H1_publication_genes.tsv",
+      "source": "results/tables/H1_publication_genes.tsv",
+      "sha256": "43b2d778a2ccdfb5a9a51551383806e8a8a666c88e4459bde7a5496479127d0b",
+      "bytes": 1529575
+    },
+    {
+      "path": "inputs/H2_2026-10-13/H1/H1_C_role_evidence.tsv",
+      "source": "results/tables/H1_C_role_evidence.tsv",
+      "sha256": "4e2bd9d70ee67c378c9e7168aa4f53e9c26a1a28a5b9788f81baad34fda40902",
+      "bytes": 68336
+    },
+    {
+      "path": "inputs/H2_2026-10-13/H1/H1_component_candidates.tsv",
+      "source": "results/tables/H1_component_candidates.tsv",
+      "sha256": "b023fcce6f01e63e234163bed1e44c57b2a4c4a334511bc366e748eae1e4f0d1",
+      "bytes": 64354
+    },
+    {
+      "path": "inputs/H2_2026-10-13/H1/H1_gene_genome_correspondence.tsv",
+      "source": "results/tables/H1_gene_genome_correspondence.tsv",
+      "sha256": "3cd86ba3cf18644c3c07e4c1274c726a3c268133e3aed5cc59649cba6a5dcee8",
+      "bytes": 3334165
+    },
+    {
+      "path": "inputs/H2_2026-10-13/H1/H1_locus_genome_correspondence.tsv",
+      "source": "results/tables/H1_locus_genome_correspondence.tsv",
+      "sha256": "af9cbbcee214c1e3c51ec6854dc6c3ac5f6a7e662a86d6bd3816422a4730bf1c",
+      "bytes": 234286
+    },
+    {
+      "path": "inputs/H2_2026-10-13/H1/H1_genome_quality.tsv",
+      "source": "results/tables/H1_genome_quality.tsv",
+      "sha256": "28057bc7d69f2aa0d46b191b45a4efa6357185b5bbe1f23ec8238d56b96baeed",
+      "bytes": 135400
+    },
+    {
+      "path": "inputs/H2_2026-10-13/H1/H1_relative_panel.tsv",
+      "source": "results/tables/H1_relative_panel.tsv",
+      "sha256": "2928a11435f9e41329edfddfa6043b5b4b9ccab98101a3761ef66b9fbf15bdf1",
+      "bytes": 98156
+    },
+    {
+      "path": "inputs/H2_2026-10-13/H1/H1_physical_loci.tsv",
+      "source": "results/tables/H1_physical_loci.tsv",
+      "sha256": "31b37f75aafffe5b55762443ff37340e075c2473d13b47a50f4fc5f6ccba924f",
+      "bytes": 55540
+    },
+    {
+      "path": "inputs/H2_2026-10-13/H1/proteins.faa",
+      "source": "results/H1_sequences/proteins.faa",
+      "sha256": "ffee52742a386ee7d46bcc7fa9064f27bc84f8a66321c2878c137fbf56eb16cc",
+      "bytes": 1897276
+    },
+    {
+      "path": "inputs/H2_2026-10-13/H1/coding_sequences.fna",
+      "source": "results/H1_sequences/coding_sequences.fna",
+      "sha256": "a69ee72cd1fb15da6b39fc727e49d984d6daafb3ef158d52038e257de54572ff",
+      "bytes": 5337590
+    },
+    {
+      "path": "inputs/H2_2026-10-13/H1/loci.fna",
+      "source": "results/H1_sequences/loci.fna",
+      "sha256": "d9ad3b535232c05e8bd858264a0456067179adac5cb09ebdc062e43e761b8b2e",
+      "bytes": 6269289
+    },
+    {
+      "path": "inputs/H2_2026-10-13/H1/H1_lineage_review.tsv",
+      "source": "config/H1_lineage_review.tsv",
+      "sha256": "3658c651816ae7b76bb16763269d1c24ae9c2a9f03801dc956bf76eeef6497bd",
+      "bytes": 1225
+    },
+    {
+      "path": "inputs/H2_2026-10-13/H1/H1_named_anchor_review.tsv",
+      "source": "config/H1_named_anchor_review.tsv",
+      "sha256": "485dd9e0b9e13a26cda57a9ff1885a9a376f6ba7f1813a3ab9418650a2df6428",
+      "bytes": 902
+    }
+  ],
+  "downloaded": [
+    {
+      "path": "inputs/H2_2026-10-13/references/GToTree_HMM_sources.tsv",
+      "url": "https://raw.githubusercontent.com/AstrobioMike/GToTree/9ce125f69366b0fea043df5e91380fe8254b502e/hmm_sets/hmm-sources-and-info.tsv",
+      "bytes": 46102,
+      "sha256": "a56701ebf9271077afe3ce5306fdcc3b706cd12381e18e8f976fc13de6a8896c"
+    },
+    {
+      "path": "inputs/H2_2026-10-13/references/GToTree.sh",
+      "url": "https://raw.githubusercontent.com/AstrobioMike/GToTree/9ce125f69366b0fea043df5e91380fe8254b502e/bin/GToTree",
+      "bytes": 223819,
+      "sha256": "62e777792698c013dbf66d42eba291c5d2af3b2edcf2805dc6999cf81d613eff"
+    },
+    {
+      "path": "inputs/H2_2026-10-13/references/GToTree_User_Guide.html",
+      "url": "https://github.com/AstrobioMike/GToTree/wiki/User-Guide",
+      "bytes": 295289,
+      "sha256": "f441c401dc47e8e6a787ae238dcaa60a9e1aac1bb76bb316464b968ca4cfae9e"
+    },
+    {
+      "path": "inputs/H2_2026-10-13/references/GToTree_considerations.html",
+      "url": "https://github.com/AstrobioMike/GToTree/wiki/things-to-consider",
+      "bytes": 225376,
+      "sha256": "89169d0729fbb8f82170a90bbeeccb2a2b1a5d8ebf9be59dd8f984708d711b8e"
+    },
+    {
+      "path": "inputs/H2_2026-10-13/references/Bacteria.hmm",
+      "url": "https://zenodo.org/records/13858489/files/Bacteria.hmm?download=1",
+      "bytes": 4990289,
+      "sha256": "266c086ff2b16e6acf2e07e3a994f0119fd8731c0470e97b3be2f3125b73e2fc"
+    },
+    {
+      "path": "inputs/H2_2026-10-13/references/PF00733.hmm.gz",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF00733/?annotation=hmm",
+      "bytes": 35510,
+      "sha256": "cebfa2601f640a011b7819474517ae28a37994e3e31e7a33d195c24732b98ea4"
+    },
+    {
+      "path": "inputs/H2_2026-10-13/references/PF00310.hmm.gz",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF00310/?annotation=hmm",
+      "bytes": 35240,
+      "sha256": "8ee2eff152d758551945ac13059d6e024a7e8c352f4281055b4880c19ce67ce7"
+    },
+    {
+      "path": "inputs/H2_2026-10-13/references/PF05402.hmm.gz",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF05402/?annotation=hmm",
+      "bytes": 8122,
+      "sha256": "0035f71b28b21567060629932037171c8f8e01ebd7011b2e5fd5a3cd028648b6"
+    },
+    {
+      "path": "inputs/H2_2026-10-13/references/PF13471.hmm.gz",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF13471/?annotation=hmm",
+      "bytes": 12181,
+      "sha256": "3fa3f8b87453596cbbcddc3faea3112178cbe9bbbf5f89fd7ac494d4f3588f3c"
+    },
+    {
+      "path": "inputs/H2_2026-10-13/references/PF03412.hmm.gz",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF03412/?annotation=hmm",
+      "bytes": 13235,
+      "sha256": "c7e8f5e9daa897189f16617f3ac8e1f674826e5c3eb066a63fdaafb7eb1b2c2c"
+    },
+    {
+      "path": "inputs/H2_2026-10-13/references/PF00583.hmm.gz",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF00583/?annotation=hmm",
+      "bytes": 14027,
+      "sha256": "7d909760d112330a0c65d8d6048f6367ef49b5a176d6c061fb9833f2add124de"
+    },
+    {
+      "path": "inputs/H2_2026-10-13/references/PF13302.hmm.gz",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF13302/?annotation=hmm",
+      "bytes": 16614,
+      "sha256": "f1a1424883589bfb08deb037a5a6589231b7ec9fd1c533862a4fa063665ee222"
+    },
+    {
+      "path": "inputs/H2_2026-10-13/references/PF13508.hmm.gz",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF13508/?annotation=hmm",
+      "bytes": 11180,
+      "sha256": "790e38b5f60a10085af103fbd20f16651f70d0f6969dbef863448886bd36197d"
+    },
+    {
+      "path": "inputs/H2_2026-10-13/references/PF00005.hmm.gz",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF00005/?annotation=hmm",
+      "bytes": 13828,
+      "sha256": "2d00c1059d3e5f156688f890ce48c3858ed30915385d79e0c7e328d3840a4cc6"
+    },
+    {
+      "path": "inputs/H2_2026-10-13/references/PF00664.hmm.gz",
+      "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF00664/?annotation=hmm",
+      "bytes": 25953,
+      "sha256": "263abde9fd250d57e2aa84da79845c5a726ccefa02e36edde25152322be769e4"
+    },
+    {
+      "path": "inputs/H2_2026-10-13/references/NCBI_taxonomy_00.xml",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=taxonomy&id=316%2C329%2C1392%2C1396%2C1402%2C1406%2C1423%2C1428%2C1814%2C1888%2C1898%2C2065%2C2072%2C28094%2C33907%2C40318%2C40576%2C44250%2C47763%2C47866%2C51201%2C59737%2C59843%2C64104%2C66865%2C66883%2C67257%2C67260%2C68171%2C76729%2C84480%2C95162%2C120957%2C164348%2C180899%2C190195%2C224308%2C226900%2C261591%2C279010%2C290109%2C290110%2C291112%2C312026%2C337066%2C385957%2C416012%2C471575%2C520838%2C527031%2C665958%2C715225%2C766760%2C863227%2C943816%2C946078%2C999545%2C1004165%2C1036171%2C1038869%2C1038870%2C1068978%2C1068979%2C1085388%2C1122960%2C1141168%2C1147161%2C1203257%2C1206723%2C1206781%2C1210068%2C1349777%2C1366050%2C1421946%2C1421947%2C1521533%2C1535768%2C1537797%2C1539142%2C1544741%2C1571773%2C1580539%2C1648923%2C1655277%2C1664069%2C1695166%2C1770053%2C1822466%2C1848709%2C1871066%2C1890302%2C1920425%2C1925020%2C1925021%2C1931992%2C2026187%2C2026189%2C2029685%2C2033516%2C2100168&retmode=xml",
+      "bytes": 438482,
+      "sha256": "fedcc8fce48d324f813c6f19181605c4dcaa5b8cfa791a35a76f97152b75cbff"
+    },
+    {
+      "path": "inputs/H2_2026-10-13/references/NCBI_taxonomy_01.xml",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=taxonomy&id=2184547%2C2184567%2C2218628%2C2219512%2C2705253%2C2705254%2C2740676%2C2755382%2C2759955%2C2766700%2C2767482%2C2774037%2C2792007%2C2792480%2C2805097%2C2816232%2C2817761%2C2819180%2C2819182%2C2846761%2C2871175%2C2892541%2C2896530%2C2909586%2C2921562%2C2929516%2C2943489%2C2954643%2C2986923%2C3004104%2C3004355%2C3015153%2C3034235%2C3040919%2C3042298%2C3042311%2C3097554%2C3112632%2C3112960%2C3121596%2C3154247%2C3154307%2C3154442%2C3154485%2C3154534%2C3154592%2C3154597%2C3154685%2C3154755%2C3154785%2C3154807%2C3154977%2C3155098%2C3155104%2C3155105%2C3155191%2C3155340%2C3155506%2C3155540%2C3156271%2C3156748%2C3160989%2C3341793%2C3342821%2C3345988%2C3346217%2C3346848%2C3346868%2C3346928%2C3364308%2C3364638%2C3364764%2C3364768%2C3364771%2C3365053%2C3365097%2C3365689%2C3366008%2C3366125%2C3366134%2C3389881&retmode=xml",
+      "bytes": 198209,
+      "sha256": "c36d5783d6fbe3f1bc21162fb5b7b6aa6534534ca30ae47de5717c2baa0b5538"
+    }
+  ],
+  "derived_profiles": {
+    "path": "inputs/H2_2026-10-13/references/BGC_domains.hmm",
+    "sha256": "8005f8239c6850e9ea678aca71e86214342d687b4d830c566a934241874facd4"
+  }
+}

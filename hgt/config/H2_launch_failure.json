@@ -1,0 +1,23 @@
+{
+  "failed_jobs": [
+    "937780",
+    "937853",
+    "937856"
+  ],
+  "cancelled_dependents": [
+    "937854",
+    "937855",
+    "937857"
+  ],
+  "cause": "nonexistent Slurm output directory; batch launch failed before analysis; create own logs directory",
+  "replacement_jobs": {
+    "markers": "937866",
+    "host_prepare": "937867",
+    "host_fits": "937868",
+    "actino_search": "937869",
+    "actino_collect": "937870",
+    "actino_markers": "937871",
+    "domain_prepare": "937872",
+    "domain_tree": "937873"
+  }
+}

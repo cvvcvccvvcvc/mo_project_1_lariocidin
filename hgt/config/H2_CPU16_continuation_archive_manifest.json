@@ -1,0 +1,35 @@
+{
+  "scope": "unfinished Actino138 host CPU16 fit; full search done, BNNI support refinement ongoing; stopped to continue same checkpoint on available64CPU",
+  "files": [
+    {
+      "path": "results/H2/run_checkpoints/cpu16/Actino138/noncanonical/ML.bionj",
+      "bytes": 4608,
+      "sha256": "a4317fe712c4c6f115c16b91132b11f11d03a638720e59717277bf02706fac7b"
+    },
+    {
+      "path": "results/H2/run_checkpoints/cpu16/Actino138/noncanonical/ML.ckp.gz",
+      "bytes": 1223062,
+      "sha256": "a1b6f8d675d65491d45272c7f9757c2d66f41919f97a11ffb07e6abf13bd4a8a"
+    },
+    {
+      "path": "results/H2/run_checkpoints/cpu16/Actino138/noncanonical/ML.log",
+      "bytes": 54936,
+      "sha256": "a5591ae9e52c182834bd7d8c0471fec11a387fc2d2c0b37857f0f7e11c20704d"
+    },
+    {
+      "path": "results/H2/run_checkpoints/cpu16/Actino138/noncanonical/ML.mldist",
+      "bytes": 209092,
+      "sha256": "e574934f14bd9e2d804ac19d620f0f07b39b56413c6b4a3dfaf12d580c154c29"
+    },
+    {
+      "path": "results/H2/run_checkpoints/cpu16/Actino138/noncanonical/ML.treefile",
+      "bytes": 4854,
+      "sha256": "1c3d54cad59a09eab5272d3c6b43f463d7cbfbc93b65ed873f40da84201176f3"
+    },
+    {
+      "path": "results/H2/run_checkpoints/cpu16/Actino138/noncanonical/iqtree.log",
+      "bytes": 27494,
+      "sha256": "756d351b80b878cd4c5bede8cc6c16e3fa334e97a70eca04404db524d4ca0515"
+    }
+  ]
+}

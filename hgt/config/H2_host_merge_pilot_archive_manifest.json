@@ -1,0 +1,137 @@
+{
+  "status": "unfinished_resource_pilots; not_completed_model_comparison",
+  "preserved_files": [
+    {
+      "path": "results/H2/pilots/host_model_merge/Actino138/noncanonical/ML.log",
+      "bytes": 21885,
+      "sha256": "179a6a4629a457b2a9914219b4d9054e6fbd4f585f549306d8a3b9112ced8b52"
+    },
+    {
+      "path": "results/H2/pilots/host_model_merge/Actino138/noncanonical/ML.model.gz",
+      "bytes": 947273,
+      "sha256": "cd4285ce260c65e5f673c7d71e543c0fbc1c3a3f665cc55b5da632cfbb90599a"
+    },
+    {
+      "path": "results/H2/pilots/host_model_merge/Actino138/noncanonical/iqtree.log",
+      "bytes": 49165,
+      "sha256": "e955d0dc2d9aa342727dcb9393ad5d3ca224dc9d2c8851b83c154631a11e4039"
+    },
+    {
+      "path": "results/H2/pilots/host_model_merge/Actino138/noncanonical/noncanonical_partitions.nex",
+      "bytes": 6155,
+      "sha256": "56f4b33d950061e0db5ca32ae9b6118c01d40887e6dd8c448155181a655d5005"
+    },
+    {
+      "path": "results/H2/pilots/host_model_merge/Bacteria74/canonical/ML.best_scheme",
+      "bytes": 1799,
+      "sha256": "9c23306266c5d5c64bc13a115954ba7c2d60aa8146446d8d8b2a75c9823f759e"
+    },
+    {
+      "path": "results/H2/pilots/host_model_merge/Bacteria74/canonical/ML.best_scheme.nex",
+      "bytes": 3743,
+      "sha256": "00b83479131df4330ab5b7bf09ca82e4be677950e27579bc711a59385fc6691c"
+    },
+    {
+      "path": "results/H2/pilots/host_model_merge/Bacteria74/canonical/ML.bionj",
+      "bytes": 4635,
+      "sha256": "a1dcfac92b30221e91f3f42ae2289de48b3654f3fc43e93f18556a9b43e8c702"
+    },
+    {
+      "path": "results/H2/pilots/host_model_merge/Bacteria74/canonical/ML.ckp.gz",
+      "bytes": 7958,
+      "sha256": "31bd44ea6f0e50108b4079c7b5883056c09d6f0f63a727019675857677935876"
+    },
+    {
+      "path": "results/H2/pilots/host_model_merge/Bacteria74/canonical/ML.log",
+      "bytes": 21512,
+      "sha256": "ffc4724648f6485cdd97a7a272b17c9846aa346022b71778d6f250e702c1296d"
+    },
+    {
+      "path": "results/H2/pilots/host_model_merge/Bacteria74/canonical/ML.mldist",
+      "bytes": 206210,
+      "sha256": "14b2ec965da9ec27e86381fba2afcd9d66355484cbead8d9ed10700d7c41478f"
+    },
+    {
+      "path": "results/H2/pilots/host_model_merge/Bacteria74/canonical/ML.model.gz",
+      "bytes": 1824725,
+      "sha256": "7aa6593a7aa41765d88b180b1c74b2a7daf3e84580b4a4d47666f8194dea619e"
+    },
+    {
+      "path": "results/H2/pilots/host_model_merge/Bacteria74/canonical/ML.treefile",
+      "bytes": 4820,
+      "sha256": "0ee995cf71551221defa69130db2ba4bcffdad05bd3978ab3801cee825032e83"
+    },
+    {
+      "path": "results/H2/pilots/host_model_merge/Bacteria74/canonical/canonical_partitions.nex",
+      "bytes": 3251,
+      "sha256": "0e54e925883b22fb7fb680290c2459cd937c62abfdbba8ed8f6feee6c340610d"
+    },
+    {
+      "path": "results/H2/pilots/host_model_merge/Bacteria74/canonical/iqtree.log",
+      "bytes": 64639,
+      "sha256": "9df876e12488bd978bb296a36efaf216b1b54c46d3095eff1dc2888d1c30a37c"
+    },
+    {
+      "path": "results/H2/pilots/host_model_merge/Bacteria74/canonical_MAG_diagnostic/ML.best_scheme",
+      "bytes": 1800,
+      "sha256": "c0d2f3aa7f353f27dcc7aa2a6cee980d6b80e51bd84e3c3c3acdec3c841898a1"
+    },
+    {
+      "path": "results/H2/pilots/host_model_merge/Bacteria74/canonical_MAG_diagnostic/ML.best_scheme.nex",
+      "bytes": 3745,
+      "sha256": "51a7e3244c3a34676a2ec5ff3e27a8c1bea5aeca9f600afc2d7a628514ab246c"
+    },
+    {
+      "path": "results/H2/pilots/host_model_merge/Bacteria74/canonical_MAG_diagnostic/ML.log",
+      "bytes": 20036,
+      "sha256": "5c0238bcb687436a4ce3a0c3f83262966b2f103194515f9797073e501bc2dfb1"
+    },
+    {
+      "path": "results/H2/pilots/host_model_merge/Bacteria74/canonical_MAG_diagnostic/ML.model.gz",
+      "bytes": 1816925,
+      "sha256": "5b9e9a3df2cfa116cf55a44895433f71be13487b34516a6a1a7efa942060c67e"
+    },
+    {
+      "path": "results/H2/pilots/host_model_merge/Bacteria74/canonical_MAG_diagnostic/canonical_MAG_diagnostic_partitions.nex",
+      "bytes": 3251,
+      "sha256": "0e54e925883b22fb7fb680290c2459cd937c62abfdbba8ed8f6feee6c340610d"
+    },
+    {
+      "path": "results/H2/pilots/host_model_merge/Bacteria74/canonical_MAG_diagnostic/iqtree.log",
+      "bytes": 62809,
+      "sha256": "024f72aba36e48e2a9b58d4043fa93b7cf32ff4b6b88232984a60c4324abb9aa"
+    },
+    {
+      "path": "results/H2/pilots/host_model_merge/Bacteria74/noncanonical/ML.best_scheme",
+      "bytes": 1821,
+      "sha256": "80d9e1bd9eb906cb481427bc6a2725c58e5e6a239e7cde1b9498ae0e9602be18"
+    },
+    {
+      "path": "results/H2/pilots/host_model_merge/Bacteria74/noncanonical/ML.best_scheme.nex",
+      "bytes": 3773,
+      "sha256": "07b260229bc26fa2102e5ff95a69e4c046f74471f647eaf2a80c9e0078cdf6e4"
+    },
+    {
+      "path": "results/H2/pilots/host_model_merge/Bacteria74/noncanonical/ML.log",
+      "bytes": 19938,
+      "sha256": "b4768111bd260aac90b3d834652271abd67252689e735726e05080507f4485ea"
+    },
+    {
+      "path": "results/H2/pilots/host_model_merge/Bacteria74/noncanonical/ML.model.gz",
+      "bytes": 1441645,
+      "sha256": "c63839007b50558958347d59fd68c22bd8b2296271fb8606c73ecabca2c68f17"
+    },
+    {
+      "path": "results/H2/pilots/host_model_merge/Bacteria74/noncanonical/iqtree.log",
+      "bytes": 63628,
+      "sha256": "171994e0c874a34631ad6265911fd046181b8a03a4399415efb5ebc27dd94069"
+    },
+    {
+      "path": "results/H2/pilots/host_model_merge/Bacteria74/noncanonical/noncanonical_partitions.nex",
+      "bytes": 3251,
+      "sha256": "0e54e925883b22fb7fb680290c2459cd937c62abfdbba8ed8f6feee6c340610d"
+    }
+  ],
+  "checkpoint_note": "available ML.model.gz files preserve ModelFinder state; only canonical74 had reached a stage with ML.ckp.gz; no nonexistent checkpoint claimed",
+  "date": "2026-10-14"
+}

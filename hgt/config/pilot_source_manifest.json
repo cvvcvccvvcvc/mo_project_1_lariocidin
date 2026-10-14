@@ -1,0 +1,191 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/biobakery/waafle/fbf3679e39935d928eff1fcaa243456422056877/demo/docs/demo.md",
+    "path": "inputs/2026-10-13/method_sources/waafle/demo/docs/demo.md",
+    "bytes": 21675,
+    "sha256": "d1b59d077ce8222f9d9ec6993bdb1ec3c67bc32fc71e1fa46e41b517ff1a50e7",
+    "retrieved_utc": "2026-10-13T11:15:13.635929+00:00"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/biobakery/waafle/fbf3679e39935d928eff1fcaa243456422056877/demo/input/demo_contigs.fna",
+    "path": "inputs/2026-10-13/method_sources/waafle/demo/input/demo_contigs.fna",
+    "bytes": 891194,
+    "sha256": "b9e8e6cef784512d263f600620497b90ab7af9adae2e46969c848575d8f30474",
+    "retrieved_utc": "2026-10-13T11:15:14.095894+00:00"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/biobakery/waafle/fbf3679e39935d928eff1fcaa243456422056877/demo/input/demo_taxonomy.tsv",
+    "path": "inputs/2026-10-13/method_sources/waafle/demo/input/demo_taxonomy.tsv",
+    "bytes": 11530,
+    "sha256": "ec4946219923bad7f9ee6ece1d0269aea9b3181bef1d88ce83bba793fff99f40",
+    "retrieved_utc": "2026-10-13T11:15:13.576534+00:00"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/biobakery/waafle/fbf3679e39935d928eff1fcaa243456422056877/demo/output/demo_contigs.blastout",
+    "path": "inputs/2026-10-13/method_sources/waafle/demo/output/demo_contigs.blastout",
+    "bytes": 174334,
+    "sha256": "f07c59d0ca6b1b20d03a1326cc4aa7102561ce451272f6ed822eeed9f02397a7",
+    "retrieved_utc": "2026-10-13T11:15:13.841545+00:00"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/biobakery/waafle/fbf3679e39935d928eff1fcaa243456422056877/demo/output/demo_contigs.lgt.tsv",
+    "path": "inputs/2026-10-13/method_sources/waafle/demo/output/demo_contigs.lgt.tsv",
+    "bytes": 5711,
+    "sha256": "6fede01c15a2b677d419a2ffdfd884eb6156dc1b7a0fece7334a352b7bf78781",
+    "retrieved_utc": "2026-10-13T11:15:14.218794+00:00"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/biobakery/waafle/fbf3679e39935d928eff1fcaa243456422056877/demo/output/demo_contigs.no_lgt.tsv",
+    "path": "inputs/2026-10-13/method_sources/waafle/demo/output/demo_contigs.no_lgt.tsv",
+    "bytes": 30398,
+    "sha256": "f5cd9d7a9ce4375c10f663ebd832c73d9ec69e8d9362e6a35c09f84ef96dc2c9",
+    "retrieved_utc": "2026-10-13T11:15:14.375133+00:00"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/biobakery/waafle/fbf3679e39935d928eff1fcaa243456422056877/demo/output/demo_contigs.unclassified.tsv",
+    "path": "inputs/2026-10-13/method_sources/waafle/demo/output/demo_contigs.unclassified.tsv",
+    "bytes": 85,
+    "sha256": "cb0bab3f9c2ebef4365ef218c1561979d0a63424ce38dfc48d48827fc63df037",
+    "retrieved_utc": "2026-10-13T11:15:14.429371+00:00"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/biobakery/waafle/fbf3679e39935d928eff1fcaa243456422056877/waafle/__init__.py",
+    "path": "inputs/2026-10-13/method_sources/waafle/waafle/__init__.py",
+    "bytes": 28,
+    "sha256": "0bf4ae710b87bfa77c485f430abd0ae732b5e9056b57e84c6c2917df0af85e92",
+    "retrieved_utc": "2026-10-13T11:15:14.764117+00:00"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/biobakery/waafle/fbf3679e39935d928eff1fcaa243456422056877/waafle/utils.py",
+    "path": "inputs/2026-10-13/method_sources/waafle/waafle/utils.py",
+    "bytes": 25359,
+    "sha256": "55e6e1dfad20ffc2f33f366f31f453adcdc84a02398919934514b3013364b404",
+    "retrieved_utc": "2026-10-13T11:15:14.903163+00:00"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/biobakery/waafle/fbf3679e39935d928eff1fcaa243456422056877/waafle/waafle_genecaller.py",
+    "path": "inputs/2026-10-13/method_sources/waafle/waafle/waafle_genecaller.py",
+    "bytes": 7683,
+    "sha256": "a92ebb8ec3f005165894cb695c15acdb49c9a74385ad91afffa29a8660a2ce50",
+    "retrieved_utc": "2026-10-13T11:15:14.995562+00:00"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/biobakery/waafle/fbf3679e39935d928eff1fcaa243456422056877/waafle/waafle_junctions.py",
+    "path": "inputs/2026-10-13/method_sources/waafle/waafle/waafle_junctions.py",
+    "bytes": 15696,
+    "sha256": "59e2d0284adf5bd5b03e86118ede46543e434f169bc722a7d63409d68c99ea17",
+    "retrieved_utc": "2026-10-13T11:15:15.169781+00:00"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/biobakery/waafle/fbf3679e39935d928eff1fcaa243456422056877/waafle/waafle_orgscorer.py",
+    "path": "inputs/2026-10-13/method_sources/waafle/waafle/waafle_orgscorer.py",
+    "bytes": 36239,
+    "sha256": "3230a3b9224dc40604ba02261712c0e3b5763dcbe91d5bd96105f67911476e81",
+    "retrieved_utc": "2026-10-13T11:15:15.536813+00:00"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/biobakery/waafle/fbf3679e39935d928eff1fcaa243456422056877/waafle/waafle_qc.py",
+    "path": "inputs/2026-10-13/method_sources/waafle/waafle/waafle_qc.py",
+    "bytes": 6174,
+    "sha256": "d996519b07693216c7414e131dd22982cfd52b11d70a9ecb951a36d59f3a2e4c",
+    "retrieved_utc": "2026-10-13T11:15:15.647219+00:00"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/biobakery/waafle/fbf3679e39935d928eff1fcaa243456422056877/waafle/waafle_search.py",
+    "path": "inputs/2026-10-13/method_sources/waafle/waafle/waafle_search.py",
+    "bytes": 3654,
+    "sha256": "01cac6e114f3d5192452c2b9dc6df414465cfdc489a861b8dfc547f9f5724cb6",
+    "retrieved_utc": "2026-10-13T11:15:15.647671+00:00"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/SysBioChalmers/HGTphyloDetect/d4ff8c5dbdaf3b200e45dd57962dfb11776f43d7/main/HGT_workflow_close.py",
+    "path": "inputs/2026-10-13/method_sources/HGTphyloDetect/main/HGT_workflow_close.py",
+    "bytes": 8736,
+    "sha256": "61d61d1a83de4fa4a79ef08c0e2370197ba17be0b41a40c2c20a7a2b39eb281b",
+    "retrieved_utc": "2026-10-13T11:15:15.858569+00:00"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/SysBioChalmers/HGTphyloDetect/d4ff8c5dbdaf3b200e45dd57962dfb11776f43d7/main/HGT_workflow_distant.py",
+    "path": "inputs/2026-10-13/method_sources/HGTphyloDetect/main/HGT_workflow_distant.py",
+    "bytes": 8447,
+    "sha256": "b600ee05d7feb157a5af540c8c7615ca996fc793e7b4ab0632931119e72e98ee",
+    "retrieved_utc": "2026-10-13T11:15:16.258505+00:00"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/SysBioChalmers/HGTphyloDetect/d4ff8c5dbdaf3b200e45dd57962dfb11776f43d7/main/blastp.py",
+    "path": "inputs/2026-10-13/method_sources/HGTphyloDetect/main/blastp.py",
+    "bytes": 1306,
+    "sha256": "394e0bb18f9c3575a9dd76a337afae9e9a411732180037d12badb4e4df22fbba",
+    "retrieved_utc": "2026-10-13T11:15:16.423934+00:00"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/biobakery/waafle/52fc236506bcbd942aaf513975b63b2257d590c8/README.md",
+    "path": "inputs/2026-10-13/method_sources/waafle_v1.0.0/README.md",
+    "bytes": 16423,
+    "sha256": "041a2103d452b99fdd3dd5bd1f20b6dc89175cb589d5cbd9d8565f9343035d2e",
+    "retrieved_utc": "2026-10-13T11:20:13.082646+00:00"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/biobakery/waafle/52fc236506bcbd942aaf513975b63b2257d590c8/demo/output/demo_contigs.gff",
+    "path": "inputs/2026-10-13/method_sources/waafle_v1.0.0/demo/output/demo_contigs.gff",
+    "bytes": 29663,
+    "sha256": "dd3cdb43148ba229ae55c6330e454552942bfa2735e28a6cff7f2b05b53827a8",
+    "retrieved_utc": "2026-10-13T11:20:13.178546+00:00"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/biobakery/waafle/52fc236506bcbd942aaf513975b63b2257d590c8/setup.py",
+    "path": "inputs/2026-10-13/method_sources/waafle_v1.0.0/setup.py",
+    "bytes": 1020,
+    "sha256": "debb5b43ea49bd6d64ec49db610988ab217312a5e3a8c2251f0fd477f814d01e",
+    "retrieved_utc": "2026-10-13T11:20:12.890199+00:00"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/biobakery/waafle/52fc236506bcbd942aaf513975b63b2257d590c8/waafle/__init__.py",
+    "path": "inputs/2026-10-13/method_sources/waafle_v1.0.0/waafle/__init__.py",
+    "bytes": 28,
+    "sha256": "0bf4ae710b87bfa77c485f430abd0ae732b5e9056b57e84c6c2917df0af85e92",
+    "retrieved_utc": "2026-10-13T11:20:12.969985+00:00"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/biobakery/waafle/52fc236506bcbd942aaf513975b63b2257d590c8/waafle/utils.py",
+    "path": "inputs/2026-10-13/method_sources/waafle_v1.0.0/waafle/utils.py",
+    "bytes": 19488,
+    "sha256": "ceefa5c64aa83a6f601cdbad890ee4439dc7e5a2f88fb5f496126e609acc5e8c",
+    "retrieved_utc": "2026-10-13T11:20:13.608658+00:00"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/biobakery/waafle/52fc236506bcbd942aaf513975b63b2257d590c8/waafle/waafle_genecaller.py",
+    "path": "inputs/2026-10-13/method_sources/waafle_v1.0.0/waafle/waafle_genecaller.py",
+    "bytes": 7683,
+    "sha256": "a92ebb8ec3f005165894cb695c15acdb49c9a74385ad91afffa29a8660a2ce50",
+    "retrieved_utc": "2026-10-13T11:20:13.638169+00:00"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/biobakery/waafle/52fc236506bcbd942aaf513975b63b2257d590c8/waafle/waafle_junctions.py",
+    "path": "inputs/2026-10-13/method_sources/waafle_v1.0.0/waafle/waafle_junctions.py",
+    "bytes": 15479,
+    "sha256": "3c705d053afb0eeb0628860945de7e3543eacfdad9a42e37f7a7b673e2a2af05",
+    "retrieved_utc": "2026-10-13T11:20:13.752105+00:00"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/biobakery/waafle/52fc236506bcbd942aaf513975b63b2257d590c8/waafle/waafle_orgscorer.py",
+    "path": "inputs/2026-10-13/method_sources/waafle_v1.0.0/waafle/waafle_orgscorer.py",
+    "bytes": 36239,
+    "sha256": "3230a3b9224dc40604ba02261712c0e3b5763dcbe91d5bd96105f67911476e81",
+    "retrieved_utc": "2026-10-13T11:20:14.220451+00:00"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/biobakery/waafle/52fc236506bcbd942aaf513975b63b2257d590c8/waafle/waafle_qc.py",
+    "path": "inputs/2026-10-13/method_sources/waafle_v1.0.0/waafle/waafle_qc.py",
+    "bytes": 6174,
+    "sha256": "d996519b07693216c7414e131dd22982cfd52b11d70a9ecb951a36d59f3a2e4c",
+    "retrieved_utc": "2026-10-13T11:20:14.234418+00:00"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/biobakery/waafle/52fc236506bcbd942aaf513975b63b2257d590c8/waafle/waafle_search.py",
+    "path": "inputs/2026-10-13/method_sources/waafle_v1.0.0/waafle/waafle_search.py",
+    "bytes": 3734,
+    "sha256": "a3979eca4e0d90a8a1f9a487a30b5d732baad1267ed6828618c21132fa6f8d85",
+    "retrieved_utc": "2026-10-13T11:20:14.222785+00:00"
+  }
+]

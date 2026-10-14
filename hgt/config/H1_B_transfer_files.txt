@@ -1,0 +1,4 @@
+scripts/H1_B_homology.sbatch
+results/H1_sequences/B_author_references.faa
+results/H1_sequences/canonical_component_queries.faa
+config/H1_B_inputs.sha256

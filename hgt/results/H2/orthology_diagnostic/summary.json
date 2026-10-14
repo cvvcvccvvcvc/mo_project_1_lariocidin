@@ -1,0 +1,25 @@
+{
+  "tips": 115,
+  "extra_native_homologues": 4,
+  "model": "LG+F+G4",
+  "model_basis": "previously selected primary noncanonical_C class; parameters reestimated; no new model comparison",
+  "command": [
+    "<operator-workdir>/lariocidin/.env/bin/iqtree",
+    "-s",
+    "<operator-workdir>/lariocidin_hgt/H2_2026-10-13/results/H2/orthology_diagnostic/trimmed_alignment.faa",
+    "-nt",
+    "1",
+    "-seed",
+    "141014",
+    "-m",
+    "LG+F+G4",
+    "-fast",
+    "-alrt",
+    "1000",
+    "--keep-ident",
+    "--prefix",
+    "<operator-workdir>/lariocidin_hgt/H2_2026-10-13/results/H2/orthology_diagnostic/ML"
+  ],
+  "status": "separate_approximate_ML_orthology_diagnostic; 1000SHaLRT_only; not_HGT_event_tree",
+  "limits": "unrepresented homologue function unconfirmed; one partial contig-edge gene; no change to primary trees"
+}

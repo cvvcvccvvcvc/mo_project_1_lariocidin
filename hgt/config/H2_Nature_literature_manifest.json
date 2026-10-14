@@ -1,0 +1,8 @@
+{
+  "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12497486&retmode=xml",
+  "path": "projects/lariocidin/hgt/inputs/H2_2026-10-13/references/Jangra2025_PMC12497486.xml",
+  "bytes": 187695,
+  "sha256": "9e836fdb70630c0d66c5c290f6dd08d75aa1396f195229229c6fe574de82ee2b",
+  "content_verified": "article XML with PMC12497486",
+  "purpose": "primary Nature BGC biology and search/phylogeny methods; does not overwrite prior failed source responses"
+}

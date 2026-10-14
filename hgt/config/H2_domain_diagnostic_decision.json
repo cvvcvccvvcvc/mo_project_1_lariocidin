@@ -1,0 +1,9 @@
+{
+  "decision": "187-tip PF00733 domain background is a family-level diagnostic only; approximate ML with 1000 SH-aLRT; no UFBoot or event inference",
+  "reason": "full diagnostic ML search remained improving after about95 minutes; keep primary component and host full ML unchanged",
+  "cancelled_job": "937873_10",
+  "replacement_job": "938272_10",
+  "preserve": "results/H2/pilots/C_domain_full_search contains checkpoint and logs",
+  "background_limit": "one highest-scoring domain outside mapped target loci per genus may include unmapped RiPP systems; no proven metabolic-negative set",
+  "equivalence": "no equivalence between full search and fast diagnostic claimed"
+}

@@ -1,0 +1,307 @@
+{
+  "created_utc": "2026-10-13T11:09:31.085125+00:00",
+  "git_head": "1818122bd74255b9e738c547b3245d4b12d33035",
+  "purpose": "Isolated HGT planning inputs; legacy results remain limited and are not evidence of absence of HGT",
+  "files": [
+    {
+      "origin": "projects/lariocidin/data/raw/LAR-BGC-42280aa.zip",
+      "snapshot": "inputs/2026-10-13/base/data/raw/LAR-BGC-42280aa.zip",
+      "bytes": 263011,
+      "sha256": "2f9a39493d8056232ceedb1d4b676dccbdfd10c6d81319bd745ae8a3f137a980"
+    },
+    {
+      "origin": "projects/lariocidin/data/raw/research_2026-09-10/triculamin_lasso_BGCs.zip",
+      "snapshot": "inputs/2026-10-13/base/data/raw/research_2026-09-10/triculamin_lasso_BGCs.zip",
+      "bytes": 5816621,
+      "sha256": "a4b3b1e5b3e454f654c399123b31197f3a4c48a6d8d953bd5f164d24fe67cdcf"
+    },
+    {
+      "origin": "projects/lariocidin/data/raw/research_2026-09-10/osf_bioinformatics_listing.json",
+      "snapshot": "inputs/2026-10-13/base/data/raw/research_2026-09-10/osf_bioinformatics_listing.json",
+      "bytes": 2269,
+      "sha256": "b9a72ab1d898f7079d329307403f817f3ffa8d0825ba88b48512233406e7ee6b"
+    },
+    {
+      "origin": "projects/lariocidin/config/source_snapshots.zip",
+      "snapshot": "inputs/2026-10-13/base/config/source_snapshots.zip",
+      "bytes": 292292,
+      "sha256": "a4a8aceefecc08877ecf6fe5d004ef03d44172365ab1e753e446a79e04b4334e"
+    },
+    {
+      "origin": "projects/lariocidin/config/sources.tsv",
+      "snapshot": "inputs/2026-10-13/base/config/sources.tsv",
+      "bytes": 607,
+      "sha256": "4328b846281dc1d8cd5c1a3d8f85c3dae741cd6914a039553132a2a4c4ebee67"
+    },
+    {
+      "origin": "projects/lariocidin/config/research_sources_2026-09-10.tsv",
+      "snapshot": "inputs/2026-10-13/base/config/research_sources_2026-09-10.tsv",
+      "bytes": 2222,
+      "sha256": "549f5bcfa5db79cb6827157b5e655724a71af03598cbaeefe949a0fe70d96d53"
+    },
+    {
+      "origin": "projects/lariocidin/config/literature_anchors.tsv",
+      "snapshot": "inputs/2026-10-13/base/config/literature_anchors.tsv",
+      "bytes": 496,
+      "sha256": "6203279bab8f8f429c7bb7d15a6e9e8d2973e8718d0c77ec932342bab0c1bd1e"
+    },
+    {
+      "origin": "docs/mini-project-map.md",
+      "snapshot": "inputs/2026-10-13/context/docs/mini-project-map.md",
+      "bytes": 36991,
+      "sha256": "239a8bf3e30b0bc2bea8fa37a5893245ecb57efbcfaefdb341d3d9f45eb803ce"
+    },
+    {
+      "origin": "docs/lariocidin-plan.md",
+      "snapshot": "inputs/2026-10-13/context/docs/lariocidin-plan.md",
+      "bytes": 57290,
+      "sha256": "62fb2927279aeea3bd03d8a068401d326173bc131f4f6b66b80db8d9ae09f484"
+    },
+    {
+      "origin": "docs/lariocidin-evidence.md",
+      "snapshot": "inputs/2026-10-13/context/docs/lariocidin-evidence.md",
+      "bytes": 36492,
+      "sha256": "63d120969b4a852cf6cce757193c8a9f06ccf4d3a4780931e938990798f408d7"
+    },
+    {
+      "origin": "projects/lariocidin/config/hgt_assemblies.tsv",
+      "snapshot": "inputs/2026-10-13/legacy/config/hgt_assemblies.tsv",
+      "bytes": 7626,
+      "sha256": "cfd1baa9223365dced4477e048e0ac7abecc10567f21dbef213c8708eda2d682"
+    },
+    {
+      "origin": "projects/lariocidin/config/hgt_control_review.tsv",
+      "snapshot": "inputs/2026-10-13/legacy/config/hgt_control_review.tsv",
+      "bytes": 1218,
+      "sha256": "95ee2b0bd956bd43354911cba0570524180d3098c2919baeafd917a28e8a4cd6"
+    },
+    {
+      "origin": "projects/lariocidin/config/hgt_order_constraint.nwk",
+      "snapshot": "inputs/2026-10-13/legacy/config/hgt_order_constraint.nwk",
+      "bytes": 407,
+      "sha256": "a1765ccabf1328e1c5e0f3a1eed464bf2e440480f283450b2b2d0a8eb3fb61f7"
+    },
+    {
+      "origin": "projects/lariocidin/config/s5_download_manifest.json",
+      "snapshot": "inputs/2026-10-13/legacy/config/s5_download_manifest.json",
+      "bytes": 78556,
+      "sha256": "cf9143cedf7ff5265c8e093edd7058beee2c7e2c36361dc4bb4e1b7426ad9a8b"
+    },
+    {
+      "origin": "projects/lariocidin/results/iqtree/hgt/B1.au.treefile",
+      "snapshot": "inputs/2026-10-13/legacy/results/iqtree/hgt/B1.au.treefile",
+      "bytes": 750,
+      "sha256": "064af3bcb1b2fada2ab7bed1ca2b65730bb971cfe124b14e1596e81e1bf80d85"
+    },
+    {
+      "origin": "projects/lariocidin/results/iqtree/hgt/B1.constrained.treefile",
+      "snapshot": "inputs/2026-10-13/legacy/results/iqtree/hgt/B1.constrained.treefile",
+      "bytes": 750,
+      "sha256": "222bd1f1e179623e440d8bfe62343b623d4fd16d5d5ca5926429f723e5488544"
+    },
+    {
+      "origin": "projects/lariocidin/results/iqtree/hgt/B1.free.contree",
+      "snapshot": "inputs/2026-10-13/legacy/results/iqtree/hgt/B1.free.contree",
+      "bytes": 773,
+      "sha256": "83623710501b633d6e31681ca3a625645dbe3f8f6951e61ad3b6f28e2bb23d9e"
+    },
+    {
+      "origin": "projects/lariocidin/results/iqtree/hgt/B1.free.treefile",
+      "snapshot": "inputs/2026-10-13/legacy/results/iqtree/hgt/B1.free.treefile",
+      "bytes": 824,
+      "sha256": "0dcb6c120912787d4befeb63a15eab4e9b763d0934320672bd05acfff8c6c6a2"
+    },
+    {
+      "origin": "projects/lariocidin/results/iqtree/hgt/B2.au.treefile",
+      "snapshot": "inputs/2026-10-13/legacy/results/iqtree/hgt/B2.au.treefile",
+      "bytes": 750,
+      "sha256": "13eabb0f5d914098edcd43198948f52e77cd8d806e7c09be59e1f5fd3beda659"
+    },
+    {
+      "origin": "projects/lariocidin/results/iqtree/hgt/B2.constrained.treefile",
+      "snapshot": "inputs/2026-10-13/legacy/results/iqtree/hgt/B2.constrained.treefile",
+      "bytes": 750,
+      "sha256": "2d2ca071056defdedfa334605da0ebae75b4520138e89af9ade6e3b2d27defb8"
+    },
+    {
+      "origin": "projects/lariocidin/results/iqtree/hgt/B2.free.contree",
+      "snapshot": "inputs/2026-10-13/legacy/results/iqtree/hgt/B2.free.contree",
+      "bytes": 773,
+      "sha256": "8fa79c6352bb6f554dee70c0dfb516eb4ab3b7f6d086d79087c6b30979244a97"
+    },
+    {
+      "origin": "projects/lariocidin/results/iqtree/hgt/B2.free.treefile",
+      "snapshot": "inputs/2026-10-13/legacy/results/iqtree/hgt/B2.free.treefile",
+      "bytes": 827,
+      "sha256": "f85af22f5b5c6008286839cbb3950bb22b0db54cb18021941187443163415e96"
+    },
+    {
+      "origin": "projects/lariocidin/results/iqtree/hgt/C.free.contree",
+      "snapshot": "inputs/2026-10-13/legacy/results/iqtree/hgt/C.free.contree",
+      "bytes": 775,
+      "sha256": "b3a4f17bdf0046c182435bb82668fd8cd0e2d71f5a0bb9c11f71d23b492cd72c"
+    },
+    {
+      "origin": "projects/lariocidin/results/iqtree/hgt/C.free.treefile",
+      "snapshot": "inputs/2026-10-13/legacy/results/iqtree/hgt/C.free.treefile",
+      "bytes": 821,
+      "sha256": "e7f5537f9efb2079ece109fade4b69f2174976beff6683a5557299766b696fd9"
+    },
+    {
+      "origin": "projects/lariocidin/results/iqtree/hgt/D.au.treefile",
+      "snapshot": "inputs/2026-10-13/legacy/results/iqtree/hgt/D.au.treefile",
+      "bytes": 750,
+      "sha256": "493f101d7b7a82bcf9197faf72ec65e74b05f9fb3960a354eef1b8680449bc72"
+    },
+    {
+      "origin": "projects/lariocidin/results/iqtree/hgt/D.constrained.treefile",
+      "snapshot": "inputs/2026-10-13/legacy/results/iqtree/hgt/D.constrained.treefile",
+      "bytes": 750,
+      "sha256": "a31515879c56f67ba1fb3e1a3f5ea8757eed771b2bbab2ce98ab3c6ac0edd295"
+    },
+    {
+      "origin": "projects/lariocidin/results/iqtree/hgt/D.free.contree",
+      "snapshot": "inputs/2026-10-13/legacy/results/iqtree/hgt/D.free.contree",
+      "bytes": 775,
+      "sha256": "16818dd5d757c35db86f0d0de106a56107259ef7bf335b37ac9b52c405ec574b"
+    },
+    {
+      "origin": "projects/lariocidin/results/iqtree/hgt/D.free.treefile",
+      "snapshot": "inputs/2026-10-13/legacy/results/iqtree/hgt/D.free.treefile",
+      "bytes": 820,
+      "sha256": "e066845f541433887a3d53d9facb3ac0c5bbac9c72dd4ab58a1e9cd7de89d0f9"
+    },
+    {
+      "origin": "projects/lariocidin/results/iqtree/hgt/host.contree",
+      "snapshot": "inputs/2026-10-13/legacy/results/iqtree/hgt/host.contree",
+      "bytes": 1279,
+      "sha256": "38822c67599d3b4ce54dea71a52c52251636bf8e1ae03f3e01426c88f2f2dd9d"
+    },
+    {
+      "origin": "projects/lariocidin/results/iqtree/hgt/host.treefile",
+      "snapshot": "inputs/2026-10-13/legacy/results/iqtree/hgt/host.treefile",
+      "bytes": 1359,
+      "sha256": "ee5046c3d5a82e1592327ad791dcb90449b1b4a2eb6fe713cce244f04d5dcec1"
+    },
+    {
+      "origin": "projects/lariocidin/results/tables/carrier_bgc_assembly_validation.tsv",
+      "snapshot": "inputs/2026-10-13/legacy/results/tables/carrier_bgc_assembly_validation.tsv",
+      "bytes": 3871,
+      "sha256": "b4ba3b88146d9ba5779a1b90c35a03a454e61518fe48e03c175af6aae6e3f90d"
+    },
+    {
+      "origin": "projects/lariocidin/results/tables/carrier_bgc_dna_validation.tsv",
+      "snapshot": "inputs/2026-10-13/legacy/results/tables/carrier_bgc_dna_validation.tsv",
+      "bytes": 1794,
+      "sha256": "37bd5b10d6001544d4d4f9ff866636ebee9dfbffe4dac205f25583666572a7f7"
+    },
+    {
+      "origin": "projects/lariocidin/results/tables/hgt_biosample_attributes.tsv",
+      "snapshot": "inputs/2026-10-13/legacy/results/tables/hgt_biosample_attributes.tsv",
+      "bytes": 22364,
+      "sha256": "ad7a876af86f322696c60b637073008e2925095f11f286a050101d8af00ca087"
+    },
+    {
+      "origin": "projects/lariocidin/results/tables/hgt_biosamples.tsv",
+      "snapshot": "inputs/2026-10-13/legacy/results/tables/hgt_biosamples.tsv",
+      "bytes": 6372,
+      "sha256": "e9a0c8f5dd95ebedc5edc23e5077b68f54922029fb257f7243b3853e8f857696"
+    },
+    {
+      "origin": "projects/lariocidin/results/tables/hgt_control_bgc_contexts.tsv",
+      "snapshot": "inputs/2026-10-13/legacy/results/tables/hgt_control_bgc_contexts.tsv",
+      "bytes": 1945,
+      "sha256": "ed2de41434d7fe9861bc11d3f40315e3bd393c47d696f9cc59e8094e710212e3"
+    },
+    {
+      "origin": "projects/lariocidin/results/tables/hgt_control_bgc_status.tsv",
+      "snapshot": "inputs/2026-10-13/legacy/results/tables/hgt_control_bgc_status.tsv",
+      "bytes": 1844,
+      "sha256": "a1f33b0f7f0d1a2941acd8515c537ea41c0eb92bf3649016de41069cbc89d5e5"
+    },
+    {
+      "origin": "projects/lariocidin/results/tables/hgt_control_neighbor_homology.tsv",
+      "snapshot": "inputs/2026-10-13/legacy/results/tables/hgt_control_neighbor_homology.tsv",
+      "bytes": 1566,
+      "sha256": "4935c102446dcde999c3ec02d63295191d360a7947bc978e3df2ee42c1347f2f"
+    },
+    {
+      "origin": "projects/lariocidin/results/tables/hgt_control_profile_hits.tsv",
+      "snapshot": "inputs/2026-10-13/legacy/results/tables/hgt_control_profile_hits.tsv",
+      "bytes": 2071,
+      "sha256": "708a4899f1f979821db05d34580c8398628d0a8d9eaa1cba4dccdd89eb5b2a59"
+    },
+    {
+      "origin": "projects/lariocidin/results/tables/hgt_free_tree_assessment.tsv",
+      "snapshot": "inputs/2026-10-13/legacy/results/tables/hgt_free_tree_assessment.tsv",
+      "bytes": 107,
+      "sha256": "da289d7b2456cf82bb640454f498ca4896eac597aa367b97f2d6497901f0fc05"
+    },
+    {
+      "origin": "projects/lariocidin/results/tables/hgt_topology_tests.tsv",
+      "snapshot": "inputs/2026-10-13/legacy/results/tables/hgt_topology_tests.tsv",
+      "bytes": 813,
+      "sha256": "9f35853f79fdab8785d900a99b7ca5ef544d11195d3a5eb5d9e56b44c24806a5"
+    },
+    {
+      "origin": "projects/lariocidin/results/tables/host_control_pairs.tsv",
+      "snapshot": "inputs/2026-10-13/legacy/results/tables/host_control_pairs.tsv",
+      "bytes": 1261,
+      "sha256": "aed0376e72c776e2ddd4f94bc8684f3ad71b9f22832056cd361d8cfcf18762c7"
+    },
+    {
+      "origin": "projects/lariocidin/results/tables/host_marker_boundaries.tsv",
+      "snapshot": "inputs/2026-10-13/legacy/results/tables/host_marker_boundaries.tsv",
+      "bytes": 530,
+      "sha256": "b6f9b28d6a6744d9bd6983cb17f411d9f6ac013d734b11131c5836eaa2b9792a"
+    },
+    {
+      "origin": "projects/lariocidin/results/tables/host_marker_inventory.tsv",
+      "snapshot": "inputs/2026-10-13/legacy/results/tables/host_marker_inventory.tsv",
+      "bytes": 60874,
+      "sha256": "327e0f946fb05b30d4c0184a1c557fea078906ad0e7eeaf51d027f08a1f06af2"
+    },
+    {
+      "origin": "projects/lariocidin/results/tables/host_taxa.tsv",
+      "snapshot": "inputs/2026-10-13/legacy/results/tables/host_taxa.tsv",
+      "bytes": 3532,
+      "sha256": "f1ba77581ecd9c46b2856693cc4d56b72fee2b7cd2880ea6bdfee31277ad1b46"
+    },
+    {
+      "origin": "projects/lariocidin/results/tables/host_tree_summary.json",
+      "snapshot": "inputs/2026-10-13/legacy/results/tables/host_tree_summary.json",
+      "bytes": 587,
+      "sha256": "20e3f5291be8f993d175a7e188dfd87b0f4747e5544853b7da188b10d87969c3"
+    },
+    {
+      "origin": "projects/lariocidin/reviews/2026-09-11-s5-protocol.md",
+      "snapshot": "inputs/2026-10-13/legacy/reviews/2026-09-11-s5-protocol.md",
+      "bytes": 8956,
+      "sha256": "2a2adf1e3b9f25963b71c43fd1b2c2802281bb41b803fe5c773005ee81c02db2"
+    },
+    {
+      "origin": "projects/lariocidin/reviews/2026-10-08-final-synthesis.md",
+      "snapshot": "inputs/2026-10-13/legacy/reviews/2026-10-08-final-synthesis.md",
+      "bytes": 14025,
+      "sha256": "7c4685a3bd2e636b61ae5c46e510bf8891f648e553c43560f899cc618f44f8fd"
+    },
+    {
+      "origin": "projects/lariocidin/reviews/2026-10-08-report-audit.md",
+      "snapshot": "inputs/2026-10-13/legacy/reviews/2026-10-08-report-audit.md",
+      "bytes": 5975,
+      "sha256": "5abee78605b5b6d856e08356ce7fa1a43e57e75df638fb86ba0b71764770ffce"
+    },
+    {
+      "origin": "projects/lariocidin/reviews/2026-10-12-method-clarifications.md",
+      "snapshot": "inputs/2026-10-13/legacy/reviews/2026-10-12-method-clarifications.md",
+      "bytes": 44333,
+      "sha256": "3c9917ceb98e6009a013c1297a2fd4d185ab5ac403346526ace7113897de2f05"
+    },
+    {
+      "origin": "projects/lariocidin/data/raw/CP169648.1.gb",
+      "snapshot": "inputs/2026-10-13/base/data/raw/CP169648.1.gb",
+      "bytes": 17368805,
+      "sha256": "fd1f54f979278437a01b0b607f861aac78ec239f12ab0d018c7b7497112bfedb"
+    }
+  ]
+}

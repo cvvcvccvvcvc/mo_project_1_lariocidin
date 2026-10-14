@@ -1,0 +1,23 @@
+{
+  "domain_canonical_C": {
+    "tips_in_group": 62,
+    "other_tips": 125,
+    "exact_separating_edge_present": true,
+    "SH_aLRT": 99.3,
+    "limit": "approximate_ML_orthology_diagnostic; separation_does_not_establish_function_or_one_to_one_orthology"
+  },
+  "domain_noncanonical_C": {
+    "tips_in_group": 93,
+    "other_tips": 94,
+    "exact_separating_edge_present": true,
+    "SH_aLRT": 99.9,
+    "limit": "approximate_ML_orthology_diagnostic; separation_does_not_establish_function_or_one_to_one_orthology"
+  },
+  "noncanonical_targets_versus_four_extra_full_length_homologues": {
+    "tips_in_group": 111,
+    "other_tips": 4,
+    "exact_separating_edge_present": false,
+    "SH_aLRT": null,
+    "limit": "approximate_ML_orthology_diagnostic; separation_does_not_establish_function_or_one_to_one_orthology"
+  }
+}
