@@ -94,8 +94,8 @@
     }
   ],
   "final_profiles": {
-    "canonical": "${OPERATOR_HOME}/code/Study/MO/projects/lariocidin/data/processed/literature_profiles/final.canonical.hmm",
-    "noncanonical": "${OPERATOR_HOME}/code/Study/MO/projects/lariocidin/data/processed/literature_profiles/final.noncanonical.hmm"
+    "canonical": "${REPO_ROOT}/projects/lariocidin/data/processed/literature_profiles/final.canonical.hmm",
+    "noncanonical": "${REPO_ROOT}/projects/lariocidin/data/processed/literature_profiles/final.noncanonical.hmm"
   },
   "limitations": [
     "The source groups were sequence-informed, so this is not independent validation.",

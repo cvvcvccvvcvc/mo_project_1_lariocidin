@@ -1,6 +1,6 @@
 [
   [
-    "${OPERATOR_HOME}/code/Study/MO/projects/lariocidin/.env/bin/hmmsearch",
+    "${REPO_ROOT}/projects/lariocidin/.env/bin/hmmsearch",
     "--cpu",
     "4",
     "--noali",
@@ -11,14 +11,14 @@
     "--domT",
     "20",
     "--tblout",
-    "${OPERATOR_HOME}/code/Study/MO/projects/lariocidin/results/hmmer/maize_catalogue/canonical.tbl",
+    "${REPO_ROOT}/projects/lariocidin/results/hmmer/maize_catalogue/canonical.tbl",
     "--domtblout",
-    "${OPERATOR_HOME}/code/Study/MO/projects/lariocidin/results/hmmer/maize_catalogue/canonical.domtbl",
-    "${OPERATOR_HOME}/code/Study/MO/projects/lariocidin/data/processed/literature_profiles/final.canonical.hmm",
-    "${OPERATOR_HOME}/code/Study/MO/projects/lariocidin/data/raw/s3/protein_catalogue-100.faa"
+    "${REPO_ROOT}/projects/lariocidin/results/hmmer/maize_catalogue/canonical.domtbl",
+    "${REPO_ROOT}/projects/lariocidin/data/processed/literature_profiles/final.canonical.hmm",
+    "${REPO_ROOT}/projects/lariocidin/data/raw/s3/protein_catalogue-100.faa"
   ],
   [
-    "${OPERATOR_HOME}/code/Study/MO/projects/lariocidin/.env/bin/hmmsearch",
+    "${REPO_ROOT}/projects/lariocidin/.env/bin/hmmsearch",
     "--cpu",
     "4",
     "--noali",
@@ -29,10 +29,10 @@
     "--domT",
     "20",
     "--tblout",
-    "${OPERATOR_HOME}/code/Study/MO/projects/lariocidin/results/hmmer/maize_catalogue/noncanonical.tbl",
+    "${REPO_ROOT}/projects/lariocidin/results/hmmer/maize_catalogue/noncanonical.tbl",
     "--domtblout",
-    "${OPERATOR_HOME}/code/Study/MO/projects/lariocidin/results/hmmer/maize_catalogue/noncanonical.domtbl",
-    "${OPERATOR_HOME}/code/Study/MO/projects/lariocidin/data/processed/literature_profiles/final.noncanonical.hmm",
-    "${OPERATOR_HOME}/code/Study/MO/projects/lariocidin/data/raw/s3/protein_catalogue-100.faa"
+    "${REPO_ROOT}/projects/lariocidin/results/hmmer/maize_catalogue/noncanonical.domtbl",
+    "${REPO_ROOT}/projects/lariocidin/data/processed/literature_profiles/final.noncanonical.hmm",
+    "${REPO_ROOT}/projects/lariocidin/data/raw/s3/protein_catalogue-100.faa"
   ]
 ]

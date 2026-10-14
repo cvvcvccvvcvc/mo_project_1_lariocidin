@@ -1,6 +1,6 @@
 [
   [
-    "${OPERATOR_HOME}/code/Study/MO/projects/lariocidin/.env/bin/hmmsearch",
+    "${REPO_ROOT}/projects/lariocidin/.env/bin/hmmsearch",
     "--cpu",
     "4",
     "--noali",
@@ -15,11 +15,11 @@
     "--domtblout",
     "projects/lariocidin/results/hmmer/hgt_controls/canonical.domtbl",
     "--max",
-    "${OPERATOR_HOME}/code/Study/MO/projects/lariocidin/data/processed/literature_profiles/final.canonical.hmm",
+    "${REPO_ROOT}/projects/lariocidin/data/processed/literature_profiles/final.canonical.hmm",
     "projects/lariocidin/data/processed/hgt_control_proteomes.faa"
   ],
   [
-    "${OPERATOR_HOME}/code/Study/MO/projects/lariocidin/.env/bin/hmmsearch",
+    "${REPO_ROOT}/projects/lariocidin/.env/bin/hmmsearch",
     "--cpu",
     "4",
     "--noali",
@@ -34,7 +34,7 @@
     "--domtblout",
     "projects/lariocidin/results/hmmer/hgt_controls/noncanonical.domtbl",
     "--max",
-    "${OPERATOR_HOME}/code/Study/MO/projects/lariocidin/data/processed/literature_profiles/final.noncanonical.hmm",
+    "${REPO_ROOT}/projects/lariocidin/data/processed/literature_profiles/final.noncanonical.hmm",
     "projects/lariocidin/data/processed/hgt_control_proteomes.faa"
   ]
 ]
