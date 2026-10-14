@@ -12,4 +12,5 @@ export OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1
 .env/bin/python scripts/steps/collect_diversity_catalogue.py --prefix diversity_controls --output-prefix diversity_controls_review --shards 1 \
     --selection inputs/selections/controls/diversity_controls_selection.tsv --refseq-metadata inputs/selections/controls/diversity_controls_refseq_metadata.tsv \
     --mgnify-metadata inputs/selections/extension/diversity_extension_mgnify_metadata.tsv
-exec .env/bin/python scripts/steps/merge_diversity_catalogues.py --input-suffix review --output-prefix diversity_final
+.env/bin/python scripts/steps/merge_diversity_catalogues.py --input-suffix review --output-prefix diversity_final
+.env/bin/python scripts/steps/characterize_diversity_candidates.py

@@ -1,0 +1,19 @@
+organism	all_source	family	NCBI_species_taxid	species_in_resolved_literature	genus_in_traced	C_nearest_traced_group	C_identity_percent	C_query_coverage_percent	C_traced_coverage_percent	A_nearest_traced_group	A_identity_percent	A_query_coverage_percent	A_traced_coverage_percent	merged_locus_id
+DASVLX01 sp035552275	Soil	noncanonical			False	bgc_5071f2fd866c51d9	80.045	99.8	98.4	bgc_5071f2fd866c51d9	76.596	100.0	100.0	bgc_89b93f19afb0b604
+Bacillus licheniformis	RefSeq	canonical	1402	True	True	bgc_b76dc5c14fdb08d5	95.946	100.0	100.0	bgc_c1447ef10a7c2fdd	92.683	100.0	100.0	bgc_4b9f76c8d21c2e4f
+Streptomyces stoeckheimensis	RefSeq	noncanonical	3344656	False	True	bgc_d7fafdc1c35c043b	63.814	99.8	92.3	bgc_4795ebb0351d9e67	53.623	100.0	100.0	bgc_e9824007541b452d
+Paraburkholderia sp. (species unassigned)	Soil	canonical			True	bgc_5646de692c23cd5a	69.673	100.0	100.0	bgc_5ad1464ea8f387e6	79.487	100.0	97.5	bgc_1999a9023625fb43
+Kribbella sp. (species unassigned)	Soil	noncanonical			True	bgc_81a6cacae24ab22e	88.398	98.1	84.6	bgc_81a6cacae24ab22e	81.633	100.0	100.0	bgc_c1a7331530c828c2
+Actinocatenispora sp. (species unassigned)	Soil	noncanonical			False	bgc_f6e9698c3a3218e7	63.033	95.3	99.1	bgc_f6e9698c3a3218e7	76.087	97.9	95.8	bgc_37a75814cd2ca233
+Trinickia sp. (species unassigned)	Soil	canonical			True	bgc_446fe028c08860c8	65.948	100.0	99.2	bgc_446fe028c08860c8	74.359	90.7	92.9	bgc_1b809f0fa8598c73
+Trinickia sp035492435	Soil	canonical			True	bgc_446fe028c08860c8	62.037	99.8	99.1	bgc_3491ef4d9a3428ab	65.789	100.0	95.0	bgc_87cf7602bf14248e
+Bacillus paralicheniformis	RefSeq	canonical	1648923	True	True	bgc_b76dc5c14fdb08d5	98.498	100.0	100.0	bgc_c1447ef10a7c2fdd	100.000	100.0	100.0	bgc_47fbb8dc0e12437e
+Bacillus haynesii	RefSeq	canonical	1925021	True	True	bgc_428b08358c560814	99.850	100.0	100.0	bgc_428b08358c560814	100.000	100.0	100.0	bgc_18b06c4f80c3da58
+Brevibacillus gelatini	RefSeq	canonical	1655277	True	True	bgc_5f1cbba65a41d6f5	98.802	100.0	100.0	bgc_5f1cbba65a41d6f5	97.500	100.0	100.0	bgc_910bbf7b820e88a4
+Natronosporangium sp036564175	Soil	noncanonical			False	bgc_5071f2fd866c51d9	53.828	97.1	96.0	bgc_127e68ec37f115df	62.791	91.5	87.8	bgc_859a104d48cc5de7
+Bacillus licheniformis	Marine	canonical			True	bgc_b76dc5c14fdb08d5	95.946	100.0	100.0	bgc_c1447ef10a7c2fdd	92.683	100.0	100.0	bgc_54f5b70e9a7c7ad8
+Bacillus paralicheniformis	Marine	canonical			True	bgc_b76dc5c14fdb08d5	99.550	100.0	100.0	bgc_c1447ef10a7c2fdd	100.000	100.0	100.0	bgc_5c665d68d4f1b385
+Bacillus paralicheniformis	Human_Gut	canonical			True	bgc_b76dc5c14fdb08d5	99.399	100.0	100.0	bgc_c1447ef10a7c2fdd	100.000	100.0	100.0	bgc_0a64ad0cdac6b815
+Algihabitans sp006969625	Marine	noncanonical			False	bgc_4f984ef56a482bd1	37.226	89.5	94.2	bgc_fb6abee6db913a62	47.826	92.0	81.5	bgc_a5de0d0a95e80f32
+Pseudonocardia sp001942415	Marine_Sediment	noncanonical			True	bgc_7ad21d9ffe1581c4	74.495	98.0	90.6					bgc_7be18baa991d8517
+Bacillus licheniformis	Human_Gut	canonical	1402	True	True	bgc_b76dc5c14fdb08d5	95.946	100.0	100.0	bgc_c1447ef10a7c2fdd	92.683	100.0	100.0	bgc_69361dd27724db65
