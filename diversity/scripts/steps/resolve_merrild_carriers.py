@@ -8,7 +8,7 @@ from collections import defaultdict
 import pandas as pd
 
 from collect_diversity_catalogue import wgs_project
-from fetch_hgt_assemblies import Cache, ROOT, assembly_summaries, result_uids
+from source_cache import Cache, ROOT, assembly_summaries, result_uids
 
 
 def main():

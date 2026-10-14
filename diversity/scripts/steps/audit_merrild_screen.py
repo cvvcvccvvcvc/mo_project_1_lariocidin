@@ -9,7 +9,7 @@ from Bio import SeqIO
 from Bio.Seq import Seq
 
 from extract_diversity_contexts import read_genome
-from fetch_hgt_assemblies import ROOT
+from source_cache import ROOT
 from screen_diversity_proteomes import fetch_batch
 
 

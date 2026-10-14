@@ -14,7 +14,7 @@ import subprocess
 from collections import defaultdict
 
 from Bio import SeqIO
-from fetch_hgt_assemblies import Cache, ROOT
+from source_cache import Cache, ROOT
 
 PANEL = ("PF00005", "PF00310", "PF00583", "PF00664", "PF00733",
          "PF03415", "PF05402", "PF13471", "PF13537")

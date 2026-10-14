@@ -13,7 +13,7 @@ import urllib.parse
 from collections import Counter
 from pathlib import Path
 
-from fetch_hgt_assemblies import Cache, ROOT, result_uids, assembly_summaries
+from source_cache import Cache, ROOT, result_uids, assembly_summaries
 from fetch_research_inputs import restore_snapshots
 
 

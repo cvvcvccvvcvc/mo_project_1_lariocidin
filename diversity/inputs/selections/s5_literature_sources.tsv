@@ -1,7 +1,0 @@
-source_id	role	url	accessed_at	scope
-iqtree_advanced_tutorial	constraint search and AU test syntax	https://iqtree.github.io/doc/Advanced-Tutorial	2026-09-11	official IQ-TREE documentation
-ncbi_datasets_genome_download	assembly download/provenance reference	https://www.ncbi.nlm.nih.gov/datasets/docs/v2/reference-docs/command-line/datasets/download/genome/	2026-09-11	official NCBI documentation; implementation used E-utilities and assembly FTP URLs
-bacdive_photorhabdus_caribbeanensis_hg29	HG29 type-strain identity	https://bacdive.dsmz.de/strain/5049	2026-09-11	HG29 aliases include DSM 22391/CIP 109949
-bacdive_photorhabdus_asymbiotica_dsm15149	DSM 15149 culture aliases	https://bacdive.dsmz.de/strain/5038	2026-09-11	DSM 15149 aliases include ATCC 43950, distinct from ATCC 43949
-dsmz_xenorhabdus_innexi_dsm16336	DSM 16336 type-strain identity	https://www.dsmz.de/collection/catalogue/details/culture/DSM-16336	2026-09-11	strain Sca; type strain
-kim_et_al_x_innexi_hgb1681	HGB1681 genome/isolate identity	https://pmc.ncbi.nlm.nih.gov/articles/PMC5709968/	2026-09-11	HGB1681/PTA-6826 genome described as a separate X. innexi isolate

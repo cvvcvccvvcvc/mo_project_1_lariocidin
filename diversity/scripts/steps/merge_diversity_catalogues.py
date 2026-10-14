@@ -12,7 +12,7 @@ from Bio.SeqRecord import SeqRecord
 
 from curate_diversity_contexts import BLAST_FIELDS, blast
 from extract_diversity_contexts import read_genome
-from fetch_hgt_assemblies import ROOT
+from source_cache import ROOT
 
 
 def read(path):

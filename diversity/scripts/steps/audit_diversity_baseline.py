@@ -15,7 +15,7 @@ from pathlib import Path
 
 from Bio import SeqIO
 
-from fetch_hgt_assemblies import Cache, ROOT
+from source_cache import Cache, ROOT
 from maize_genomes import read_genome
 from prepare_literature_reference import parse_member
 

@@ -6,7 +6,7 @@ import pandas as pd
 from prepare_literature_reference import parse_member
 from profile_search import ROOT
 from collect_diversity_catalogue import wgs_project
-from fetch_hgt_assemblies import Cache
+from source_cache import Cache
 from prepare_diversity_published import reference_metadata
 
 def main():

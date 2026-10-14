@@ -7,7 +7,7 @@ import xml.etree.ElementTree as ET
 
 import pandas as pd
 from audit_maize_provenance import validate_accessions
-from fetch_hgt_assemblies import Cache, ROOT
+from source_cache import Cache, ROOT
 
 
 def main():

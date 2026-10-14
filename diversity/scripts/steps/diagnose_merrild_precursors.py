@@ -7,7 +7,7 @@ from Bio import SeqIO
 from Bio.Seq import Seq
 
 from extract_diversity_contexts import read_genome, translated
-from fetch_hgt_assemblies import ROOT
+from source_cache import ROOT
 from curate_diversity_contexts import read_blast
 
 
