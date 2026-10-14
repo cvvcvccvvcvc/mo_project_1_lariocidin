@@ -1,124 +1,56 @@
-# Lariocidin-like BGC project
+# Lariocidin-like BGCs: поиск разнообразия и проверка HGT
 
-## Current state
+Проект изучает, какие последовательности, архитектуры и носители лариоцидиноподобных биосинтетических кластеров (BGC) добавляет поиск в публичных геномах и какие истории их компонентов требуют отдельной проверки переноса. Canonical и noncanonical системы сравниваются раздельно. Предсказанный кластер не означает экспериментально подтверждённый продукт.
 
-The bounded scientific analysis is complete. The fixed MGnify search found no context-supported target BGC among records whose primary metadata support metagenomic origin. Three supported canonical BGC belong to cell cultures labelled MAG by the catalogue and are nearly identical to published systems. In the focal HGT case, the host-order constraint was not rejected for B1/B2/D, and the free C tree is already compatible. This supports an inconclusive HGT result, not a claim that transfer never occurred. The [final synthesis and review C](reviews/2026-10-08-final-synthesis.md) give the exact hypotheses, denominators, evidence and limitations. Human scientific review and public repository placement remain before submission.
+## Текущее состояние и результат
 
-Start with the [final synthesis](reviews/2026-10-08-final-synthesis.md), then use the [research chronology](reviews/research-log.md) for decision history. The active scope is in [`../../docs/lariocidin-plan.md`](../../docs/lariocidin-plan.md); durable source facts and limitations are in [`../../docs/lariocidin-evidence.md`](../../docs/lariocidin-evidence.md). Older packages remain evidence for their stages, not the current protocol.
+- Итог поиска и повторной курации: **201 группа** (89 canonical, 112 noncanonical); ещё 8 335 номинаций сохранены как неопределённые. [Отчёт с ограничениями](reviews/2026-10-13-diversity-selection-final.md), [краткий каталог](results/tables/diversity_final_catalogue_summary.tsv), [полный каталог](results/tables/diversity_final_BGC_catalogue.tsv).
+- [Манифест замороженного снимка для HGT](exports/diversity_final_2026-10-13/README.md) описывает носителей, координаты, последовательности и основания статуса. Сами крупные файлы снимка остаются вне Git и восстанавливаются из зафиксированных входов. Неопределённые локусы не являются отрицательными контролями.
+- [HGT-линия](hgt/README.md) выполняется отдельно. [Её план](hgt/plan.md) и [разбор готовых деревьев](hgt/reviews/2026-10-14-H2-ready-tree-comparison.md) фиксируют, что уже сделано и какие выводы пока преждевременны.
 
-The [scientific and implementation audit](reviews/2026-10-08-validation.md) records reporting/provenance fixes, stronger sequence checks for control BGC context, exact replay of 38 alignments, and remaining inferential limits. The numerical search and topology-test conclusions survived this audit. S3 is a descriptive non-detection in the fixed sample, not a statistical proof of absence.
+Текущие научные решения принадлежат [плану](../../docs/lariocidin-plan.md), проверенные биологические основания — [справке](../../docs/lariocidin-evidence.md). Датированные `reviews/` содержат результаты и аудит, `config/` — отбор, адреса источников, версии и SHA-256, `scripts/` — расчёты, `results/` — малые итоговые свидетельства. Исторический ограниченный этап S0–S6 сохранён в Git и [итоговом отчёте](reviews/2026-10-08-final-synthesis.md).
 
-## Reference-stage contract
+## Что нужно для повторения
 
-Question for the complete project: how does known lariocidin-like BGC diversity expand in public genomes and MAGs, and which suitable cases have concordant evidence compatible with HGT?
+Нужны Linux или macOS, micromamba/conda, доступ к публичным источникам из `config/` и свободное место для загружаемых данных. `environment.yml` задаёт переносимые версии; `environment.osx-arm64.lock` и `environment.linux-64.lock` фиксируют конкретные пакеты своих платформ. Исходные геномы, большие промежуточные данные, кеши и окружение в Git не входят. Их точные источники и хеши находятся в `config/` и HGT-манифестах. Архивы метаданных для полного повторения diversity хранятся отдельно от Git; сверяйте их с `config/off_git_assets.tsv` перед использованием. Пока эти архивы не опубликованы вместе с репозиторием, полный исторический повтор не является самодостаточным из одного Git clone.
 
-The current work tests the diversity part on one fixed catalogue and includes a calculated focal HGT comparison without significant rejection of the prespecified host-order constraint. This is not proof of vertical inheritance or absence of HGT. Its unit of observation is a BGC occurrence in an assembly. A unique protein sequence and an organism/assembly occurrence are retained as separate concepts. The 29 records are an author-curated reference set, not 29 experimentally confirmed lariocidin producers and not a random ecological sample.
+### Небольшой воспроизводимый запуск
 
-The operational family rule remains: LrcC homology must be supported by coherent BGC context; an isolated profile hit is insufficient. Canonical and noncanonical candidates remain separate. S3 low-score labels are provisional triage, not experimentally validated exclusions.
-
-## Reproduce the reference prototype
-
-From this directory:
+Из `projects/lariocidin`:
 
 ```bash
 micromamba create -y -p "$PWD/.env" -f environment.yml
-scripts/run_reference.sh
+bash scripts/run_reference.sh
+.env/bin/python -m unittest discover -s tests -v
 ```
 
-The run downloads only the fixed reference archive and two accessioned NCBI records when absent, checks their SHA-256 values, rebuilds tables and alignments, runs IQ-TREE model selection plus 1,000 SH-aLRT and 1,000 ultrafast bootstrap replicates, regenerates figures, and validates the result. Exact versions from the completed run are in [`results/software_versions.tsv`](results/software_versions.tsv). The two tree searches took about seven wall-clock minutes in total on the machine used for this run; environment creation is separate.
+`run_reference.sh` получает фиксированный опубликованный reference и два NCBI accession, проверяет SHA-256, строит таблицы, выравнивания, деревья и рисунки, затем выполняет валидацию. Результаты находятся в `results/`; точные входы — в `config/sources.tsv` и `config/checksums.sha256`. Сбой контрольной суммы требует проверки источника, а не замены ожидаемого хеша.
 
-On Apple Silicon macOS, the exact 143-package environment can instead be requested with `micromamba create -y -p "$PWD/.env" -f environment.osx-arm64.lock`. The portable YAML pins the analytical package versions; other operating systems were not tested. The lock passed a creation dry run; this audit used the existing environment and did not claim a fresh installation or a complete cold rerun of every ML search.
+### Полный diversity-анализ на кластере
 
-## Important inputs and decisions
+1. Подготовьте чистый checkout нужного Git-коммита, Linux-окружение из lock-файла и отдельную рабочую область с запасом диска. Поместите исключённые архивы снимков в `config/` и проверьте `sha256sum -c config/off_git_assets.sha256` либо получите данные по зафиксированным URL и сравните хеши каждого файла.
+2. В каталоге проекта восстановите снимки и подготовьте исходную базу: `.env/bin/python scripts/fetch_research_inputs.py --diversity`, затем `prepare_diversity_sources.py`, `annotate_diversity_domains.py`, `audit_diversity_baseline.py`, `resolve_diversity_ftp.py`, `prepare_diversity_published.py`, `prepare_diversity_role_reference.py`. Запускайте каждый скрипт через `.env/bin/python scripts/<имя>`; ошибки и неполные скачивания останавливают расчёт.
+3. Для основного видового поиска отправьте `scripts/slurm/diversity_array.sh` (8 задач), затем `diversity_context_array.sh` с зависимостью `aftercorr` и `collect_diversity_catalogue.py` с `afterok`. Точная команда и границы выборки приведены в [протоколе видового этапа](reviews/2026-10-13-diversity-catalogue.md). Межсредовое расширение и контроли используют свои зафиксированные selection-файлы и манифесты; их нельзя подменять видовой выборкой.
+4. Когда все 17 context-shards и исходные таблицы готовы, запустите `bash scripts/submit_diversity_review.sh`. Он отправит финальную повторную курацию и сведение с зависимостью Slurm. После успешных заданий выполните `.env/bin/python scripts/compare_diversity_catalogues.py`; для нового замороженного HGT-снимка вызовите `export_diversity_handoff.py --output <новый-каталог>`. Не перезаписывайте снимок от 13 октября.
+5. Сверьте число обследованных входов, завершение всех shards, каталоги и ограничения с [итоговым отчётом](reviews/2026-10-13-diversity-selection-final.md); сохраните commit, версии, selection-файлы и контрольные суммы в новом run manifest. Несовпадение не исправляйте редактированием результата вручную.
 
-- [`config/sources.tsv`](config/sources.tsv): source URLs, revisions/accessions, access date, and checksums.
-- [`config/reference_metadata.tsv`](config/reference_metadata.tsv): stable sample IDs, display names, assembly/contig accessions, and broad taxonomic groups. Some names/accessions repair incomplete exported metadata; the basis is recorded per row.
-- [`config/lrcc_selection.tsv`](config/lrcc_selection.tsv): the explicit one-per-BGC LrcC choices and confidence. This file, not an invisible heuristic, owns the reference selection.
-- [`data/README.md`](data/README.md): storage and coordinate conventions.
+Полный поиск требовал 41,5 GiB протеомов и выполнялся в отдельных заданиях Slurm. Для первой проверки установки и входов используйте `screen_diversity_proteomes.py --limit 12`; этот пилот не заменяет полный анализ.
 
-The BLASTP comparison to M2 is a within-record ranking aid, not a validated family classifier. Every chosen feature is currently the highest-scoring CDS in its submitted BGC, but eight choices remain marked `moderate` because their source annotation or sequence architecture is incomplete/distant.
+## Доступ и запуск в кластере
 
-## Main outputs
-
-| Output | Meaning |
-|---|---|
-| [`data/processed/reference_manifest.tsv`](data/processed/reference_manifest.tsv) | One row per published BGC, with provenance and parsing diagnostics |
-| [`data/processed/all_cds.tsv`](data/processed/all_cds.tsv) | Only translated CDS features, with zero-based half-open BGC coordinates |
-| [`data/processed/lrcc_selected.tsv`](data/processed/lrcc_selected.tsv) | Final LrcC selections joined to taxonomy, evidence, and M2 similarity |
-| [`results/tables/lrcc_candidate_ranking.tsv`](results/tables/lrcc_candidate_ranking.tsv) | Top four within-BGC candidates by M2-seeded BLASTP |
-| [`results/tables/reference_bgc_summary.tsv`](results/tables/reference_bgc_summary.tsv) | BGC, LrcC length/confidence, and annotation-derived gene-category summary |
-| [`results/tables/alignment_qc.tsv`](results/tables/alignment_qc.tsv) | Gap fraction and ungapped length for every aligned sequence |
-| [`results/tables/lrcc_pairwise_identity.tsv`](results/tables/lrcc_pairwise_identity.tsv) | Pairwise identity over positions where both sequences have residues |
-| [`results/tables/tree_clades.tsv`](results/tables/tree_clades.tsv) | Descendants, taxonomy, and SH-aLRT/UFBoot for each rooted internal clade |
-| [`results/iqtree/reference_lrcc.treefile`](results/iqtree/reference_lrcc.treefile) | Full unrooted ML tree; internal labels are SH-aLRT/UFBoot |
-| [`results/iqtree/canonical_lrcc.treefile`](results/iqtree/canonical_lrcc.treefile) | Sensitivity tree excluding four short Actinomycetota candidates |
-| [`results/figures/lrcc_full_tree.png`](results/figures/lrcc_full_tree.png) | Full tree rooted on the paeninodin cyclase for display |
-| [`results/figures/lrcc_canonical_tree.png`](results/figures/lrcc_canonical_tree.png) | Sensitivity tree rooted on the same outgroup |
-| [`results/figures/representative_bgc_architectures.png`](results/figures/representative_bgc_architectures.png) | Four annotation-based example architectures |
-| [`data/processed/literature_bgc_manifest.tsv`](data/processed/literature_bgc_manifest.tsv) | 393 published BGC records with source group, metadata, parse status, and evidence status |
-| [`results/tables/literature_profile_calibration_summary.json`](results/tables/literature_profile_calibration_summary.json) | Cluster-held-out internal benchmark of canonical/noncanonical HMMs |
-| [`results/tables/focal_split_sensitivity.tsv`](results/tables/focal_split_sensitivity.tsv) | Presence and support of the focal unrooted split across five tree variants |
-| [`results/tables/pseudomonadota_core_roles.tsv`](results/tables/pseudomonadota_core_roles.tsv) | Explicit A–D assignments and inference basis for 14 Pseudomonadota loci |
-| [`results/tables/focal_context_manifest.tsv`](results/tables/focal_context_manifest.tsv) | Versioned NCBI accessions, exact C checks, available flanks, and checksums |
-| [`results/tables/maize_curated_candidates.tsv`](results/tables/maize_curated_candidates.tsv) | All 50 S3 hits with sequence, provenance, context status, and stated reason |
-| [`results/tables/maize_checkpoint_summary.json`](results/tables/maize_checkpoint_summary.json) | Machine-readable S3 denominators, result, and limitations |
-| [`results/figures/s3_search_checkpoint.png`](results/figures/s3_search_checkpoint.png) | Review-B summary of provenance and candidate triage |
-
-The rooted files next to the PNGs are visualization products. Rooting does not turn branch support into HGT probability or establish the direction of evolution.
-
-## Known limitations
-
-- The original source uses malformed/stripped GenBank fields; parser warnings and translation/CDS discrepancies are retained. Missing colored gene categories in the architecture figure often mean missing annotations, not biological absence.
-- Twenty-one of thirty aligned sequences fail IQ-TREE's composition chi-square check in the full analysis. This is a model/data warning, not a failed program run.
-- The four Actinomycetota candidates are only 376–442 aa and form a long, distinct part of the alignment; one has more than 50% gaps. The sensitivity analysis therefore excludes them.
-- The paeninodin sequence is the outgroup used in the published analysis, but its branch is long. Interpret deep rooting cautiously.
-- The authors' MEGA `.mtsx` session confirms their 29 taxa, WAG model and 100 bootstraps, but is not a portable Newick tree. Our modern analysis uses MAFFT and IQ-TREE with the BIC-selected `Q.PFAM+I+G4` model; it is a transparent reanalysis, not a claim of exact split-by-split reproduction.
-- Broad phylum/order labels are working metadata for visualization. They do not replace an independent host species tree.
-
-## Reproduce S2a
-
-After creating the environment, run in order:
+Настройте **вне репозитория** личный SSH alias `mo-cluster` на разрешённый Slurm login host. Адрес, имя пользователя, ключ, возможный jump host и путь рабочей области выдаёт администратор; храните их в `~/.ssh/config` или локальном менеджере секретов. На кластере задайте приватный `MO_WORKDIR`. При первом запуске клонируйте будущий GitHub-репозиторий в `$MO_WORKDIR/lariocidin`; затем рабочая последовательность:
 
 ```bash
-scripts/run_literature_reference.sh
-scripts/run_profile_calibration.sh
-scripts/run_tree_sensitivity.sh
-scripts/run_pseudomonadota_core.sh
-scripts/run_focal_context.sh
+ssh mo-cluster
+# На кластере: перейти в собственную рабочую область и обновить чистый checkout.
+cd "$MO_WORKDIR/lariocidin"
+git fetch origin
+git pull --ff-only
+micromamba create -y -p .env -f environment.linux-64.lock
+bash scripts/submit_diversity_review.sh   # только после подготовки всех входов
+squeue -u "$USER"
 ```
 
-These runs fetch and verify the fixed literature archive, normalize it, build/test profiles, repeat the focal tree under prespecified variants, compare A–D, and retrieve four versioned NCBI contexts. Large raw downloads remain outside version control. [`config/source_snapshots.zip`](config/source_snapshots.zip) retains 167 original small public metadata snapshots; `fetch_research_inputs.py` restores them after checking against the original manifests. This preserves the historical input selection without depending on today's API responses.
+`MO_WORKDIR` — приватная переменная оператора, не путь из этого репозитория. Если требуется второй SSH-переход, настройте его в личной конфигурации. Код переносится Git-коммитом, исключённые входы — отдельно с проверкой SHA-256; не копируйте окружение или временные результаты с другой машины. На login node только подготовка и отправка; тяжёлый поиск выполняется через `sbatch`. Планируйте не более **64 CPU, 512 GiB RAM и 250 GB диска** суммарно; текущие partition/QOS и реальную квоту проверяйте перед отправкой. При нехватке места удаляйте восстанавливаемые кэши после проверки результатов, а не входные свидетельства или checkpoints активных задач.
 
-## Reproduce S3
-
-After S2a products exist, run:
-
-```bash
-scripts/run_maize_search.sh
-```
-
-This verifies/downloads the pinned MGnify and BioSample/ENA inputs, reruns profile controls, searches catalogue representatives and every GFF-annotated CDS, audits provenance, extracts candidate contexts, and regenerates the review checkpoint. Raw/cache inputs require roughly 2 GB and remain outside Git; URLs, retrieval metadata, and SHA-256 values are retained in `config/`. The run does not perform the HGT stage.
-
-## Reproduce and inspect S5
-
-The saved [S5 protocol](reviews/2026-09-11-s5-protocol.md) fixes the carrier set, host markers, gene tests and stop rule. `config/hgt_assemblies.tsv` and `config/s5_download_manifest.json` map exact assemblies to downloaded GBFF files and checksums. From this directory, after S2a and environment setup:
-
-```bash
-scripts/run_hgt_assembly_fetch.sh
-scripts/run_hgt_trees.sh
-scripts/run_hgt_review.sh
-```
-
-`run_hgt_trees.sh` reruns the alignments, ML searches and AU tests. `run_hgt_review.sh` can also run on the retained trees: it checks pinned assemblies, regenerates topology summaries, BioSample metadata, control proteomes/profile searches/context evidence, the 15 unresolved CDS-to-DNA mappings, and the S5 figure. Control context now requires an exact known precursor and distinct B1/B2/D sequence homologs in the same local neighborhood, in addition to a high canonical C hit. The four supported control loci survive this stricter audit.
-
-Thirteen previously unresolved proteins match an ordinary DNA translation, and two match with an allowed bacterial `TTG` initiation; this checks sequence encoding, not experimental translation starts. See the [per-row evidence](results/tables/carrier_bgc_dna_validation.tsv). The host tree used one model on the concatenation, without partitions. The [topology test table](results/tables/hgt_topology_tests.tsv), [host summary](results/tables/host_tree_summary.json) and [primary IQ-TREE outputs](results/iqtree/hgt/) support the limited conclusion.
-
-Focused regression checks: `.env/bin/python -m unittest discover -s tests -v`. They cover a rejected constraint, Holm correction, AU table parsing, missing/duplicate taxa, unrooted splits, and wrong BioSample responses. Recorded data-level checks and replay boundaries are in [`validation_2026-10-08.json`](results/tables/validation_2026-10-08.json).
-
-## Defence material
-
-The editable [four-slide defence deck](results/defence/lariocidin_defence_2026-10-08-v2.pptx) contains speaker notes and the English S3 result figure. The [S5 summary figure](results/figures/s5_hgt_summary.png) and [final synthesis](reviews/2026-10-08-final-synthesis.md) provide supporting detail. Add the public repository URL to the deck after publication; no GitHub or Zenodo remote is configured here.
-
-## Research records
-
-Keep dated interpretation and audit notes in `reviews/`; maintain current decisions in the shared plan rather than extending this README into a second protocol. Additional downloaded research inputs have separate `config/research_sources_*.tsv` manifests with URLs, access dates, versions, sizes, and SHA-256. These files do not change the reference pipeline's original input contract. Store small derived tables in `results/tables/` and link their derivation from the corresponding audit. Local Git history begins with a baseline after S2a; the journal, not that first commit, reconstructs earlier decisions.
+Публичный репозиторий не должен содержать личные адреса, SSH-настройки, ключи, токены, абсолютные пользовательские пути и Slurm stdout со сведениями об окружении. Для HGT используются отдельная рабочая область и [его команды](hgt/README.md); не меняйте входы diversity в ходе HGT-расчёта.

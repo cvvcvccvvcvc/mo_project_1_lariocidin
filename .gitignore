@@ -3,6 +3,15 @@
 .mplconfig/
 data/raw/
 data/interim/
+data/processed/diversity_*
+config/diversity_*metadata_snapshots.zip
+results/tables/diversity_*
+results/logs/
+results/hmmer/
+hgt/inputs/
+hgt/results/
+exports/
+presentation/
 data/processed/hgt_control_features.tsv
 data/processed/hgt_control_proteomes.faa
 results/iqtree/*.bionj
@@ -22,3 +31,4 @@ results/iqtree/hgt/*.console.log
 __pycache__/
 *.pyc
 .DS_Store
+*.restore
