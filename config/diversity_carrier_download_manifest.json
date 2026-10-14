@@ -1,0 +1,23 @@
+{
+  "diversity_extension_supported_ncbi": {
+    "bytes": 6737,
+    "local_path": "data/raw/diversity_2026-10-13/diversity_extension_supported_ncbi.xml",
+    "retrieved_utc": "2026-10-13T11:24:29.541047+00:00",
+    "sha256": "bd1f6550340b2ebdca43c7147500d64461202daa8c3ede0bd0b0e7b8e37afb49",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=biosample&id=SAMN05830206%2CSAMN09470677%2CSAMN16811670&retmode=xml"
+  },
+  "supported_soil_ena": {
+    "bytes": 19829,
+    "local_path": "data/raw/diversity_2026-10-13/supported_soil_ena.xml",
+    "retrieved_utc": "2026-10-12T23:45:43.332354+00:00",
+    "sha256": "8d50145fceb94e9cd009080b94a0c43ebb16e84a5015d73e0c73af75cee60ea9",
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/SAMEA114816616,SAMEA114817274,SAMEA114821183,SAMEA114821675"
+  },
+  "supported_soil_ncbi": {
+    "bytes": 13091,
+    "local_path": "data/raw/diversity_2026-10-13/supported_soil_ncbi.xml",
+    "retrieved_utc": "2026-10-12T23:45:42.703738+00:00",
+    "sha256": "fc6973c74137b24b00d405c2ab5b8ef6d8e2d16264d93511669976768250c3d7",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=biosample&id=SAMN18298933%2CSAMN37937134%2CSAMN37954924%2CSAMN37956690&retmode=xml"
+  }
+}

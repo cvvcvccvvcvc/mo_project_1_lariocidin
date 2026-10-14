@@ -1,0 +1,264 @@
+{
+  "created_utc": "2026-10-13T13:56:17.467644+00:00",
+  "primary_groups": 201,
+  "source_locus_core_spans": 208,
+  "contexts_with_coordinates": 8543,
+  "exported_gene_records": 9010,
+  "coordinate_system": "0-based half-open, original contig strand +/-1",
+  "warning": "Failure of the diversity filter does not establish absence of a BGC. Uncertain loci are not negative HGT controls.",
+  "HGT_active_files": "not_modified",
+  "files": {
+    "README.md": {
+      "bytes": 3262,
+      "sha256": "693c4a5ec625557f18371f02c9c7babbe715e9b4086e469e20146044a93a2c24"
+    },
+    "code/collect_diversity_catalogue.py": {
+      "bytes": 17491,
+      "sha256": "d1bdbed5e7ade42f4cb13d8295a9b1bb24ed07170cccf205c181a594a423e8b8"
+    },
+    "code/compare_diversity_catalogues.py": {
+      "bytes": 5615,
+      "sha256": "8f3a7b30124e4eb17d6e06b4805e81e7cab0780add98e510a684a9dc2a60a406"
+    },
+    "code/curate_diversity_contexts.py": {
+      "bytes": 19863,
+      "sha256": "e3b7ddee6eeb8df6f9e68f17585951f0abc36133172ffdbb5517c0992e45ea9a"
+    },
+    "code/diagnose_merrild_precursors.py": {
+      "bytes": 10175,
+      "sha256": "10a08b9148751b4c543bf5bb94a05ca8fd6b3d2a9ea0a97e3fdc12fc740eabfb"
+    },
+    "code/export_diversity_handoff.py": {
+      "bytes": 13277,
+      "sha256": "1d6da006b1efd199fada81abef8921608724e4627f6d4e24feeb9e167519c204"
+    },
+    "code/merge_diversity_catalogues.py": {
+      "bytes": 16887,
+      "sha256": "f0c5da1b46f94989570a7a10649a5168280a82cdbfb3be91ed6a28db24843f40"
+    },
+    "context_windows.fna.gz": {
+      "bytes": 46277403,
+      "sha256": "8032ad9ea2fea349efd9b6bb2f91add760a286ef1ee90c1c764f6e40ab206c94"
+    },
+    "diversity_C_fragment_audit.tsv": {
+      "bytes": 2797,
+      "sha256": "a8c789c54989ec1a558ff157caa4721300e049c6158d274183d11daceb27f9c1"
+    },
+    "diversity_final_BGC_catalogue.tsv": {
+      "bytes": 519429,
+      "sha256": "fd6bbc409d54059e78476be38a48f6fdea38e80958af8a03e3bff0e929b13a1d"
+    },
+    "diversity_final_M2_precursor_similarity.tsv": {
+      "bytes": 211529,
+      "sha256": "587e30f2ec83f631c7c7681f0bfa2a638b3e10b5fdd349017bc796d0ca46207b"
+    },
+    "diversity_final_added_loci.tsv": {
+      "bytes": 109779,
+      "sha256": "4221c13785f932fdca304d1e115ee407ed013f3c94163b6fbfac6c01ddbb0f6a"
+    },
+    "diversity_final_catalogue_summary.tsv": {
+      "bytes": 54628,
+      "sha256": "dd6df6c937d37cc1c3c4bf662f18d708fa9d29ba632023011beed96beef0e2e8"
+    },
+    "diversity_final_core_gene_evidence.tsv": {
+      "bytes": 413326,
+      "sha256": "363e5dc19111c0d070893ab80a68b2e0e91e35ae4f142a10924812d69874bca0"
+    },
+    "diversity_final_licheniformis_published_records.tsv": {
+      "bytes": 70,
+      "sha256": "778d8cd1401dc27ea0e5d081cfea8e50d48edddd756a5f8b28adbd6f890022e6"
+    },
+    "diversity_final_merrild_screen_stages.tsv": {
+      "bytes": 94206,
+      "sha256": "e8a0014e724b8c34f6f06f06657cb41226c71d7e87b509f53cc5c665aa4bb41f"
+    },
+    "diversity_final_merrild_sequence_audit.tsv": {
+      "bytes": 42703,
+      "sha256": "5d204f5efd06957045462e60c1325b5db9af185917145a949e0868fd2450e730"
+    },
+    "diversity_final_occurrences.tsv": {
+      "bytes": 426324,
+      "sha256": "be8e5b20b760207cbd43160ea80baa00f51910fde0e406ea27f93912f2328062"
+    },
+    "diversity_final_selection_summary.json": {
+      "bytes": 2279,
+      "sha256": "d28f32f9488509e197b91eae04393f2505f6a59bd2952eda3d8530f68b83d18d"
+    },
+    "diversity_final_source_review.tsv": {
+      "bytes": 1325,
+      "sha256": "ba40b0790f438073f1c4c1d7b6ea0a6796f874ec5cdaabd1f56a04b4f92ca092"
+    },
+    "diversity_final_status_changes.tsv": {
+      "bytes": 109191,
+      "sha256": "a17367297e0dd68d7229ea270fe69fc03e234fbbdf99c104778a924520846c8b"
+    },
+    "diversity_final_summary.json": {
+      "bytes": 1126,
+      "sha256": "3b4e4267dd76234e7e12c44dc1bd6e1806b9d8274a37c371c3d7adb41fef20f3"
+    },
+    "diversity_final_uncertain.tsv": {
+      "bytes": 13002088,
+      "sha256": "8a0b07bbad83126c7a7b227c12a5b38316a86a6f543158a858da3b098abb3c75"
+    },
+    "diversity_merrild_sequence_audit.tsv": {
+      "bytes": 32385,
+      "sha256": "c7ec5110c8a104f16b6a9c6ae0ff717b1ebdce14039e1a51558d5dc9d30ff3b4"
+    },
+    "genes.faa": {
+      "bytes": 5997409,
+      "sha256": "8ef7d429dbc2ee29b022a6a796d93de11335a844a02fd7004e8f3907877cc01d"
+    },
+    "genes.fna": {
+      "bytes": 17377895,
+      "sha256": "3bf70cf46f30e6b6a928d4563f6ad7922a937b266ae1b0a4c298370c3af9ad62"
+    },
+    "genes.tsv": {
+      "bytes": 5586507,
+      "sha256": "f19a13f0dd3c551c8548849bfe322439f514f94320510a892321b161d5b65cd8"
+    },
+    "locus_coordinates_and_statuses.tsv": {
+      "bytes": 13560902,
+      "sha256": "a7223be5ca0f3dccd0ee81789488839987e0d9aea0c3775f1b0321675a22c5f5"
+    },
+    "provenance/diversity_carrier_identity_review.tsv": {
+      "bytes": 2358,
+      "sha256": "ae6f710ad315da6bed1f3176de575cf24d7820259c35c949f66bbd55a9e6ec09"
+    },
+    "provenance/diversity_controls_0_context_downloads.jsonl": {
+      "bytes": 2000,
+      "sha256": "59b5b365c93dabc47028b57c114f5a10f0d410d73b1811a17b05f987b42c02cb"
+    },
+    "provenance/diversity_extension_0_context_downloads.jsonl": {
+      "bytes": 110137,
+      "sha256": "0a00cb66a48b6d5cddbff15993989d013c59035301340b86d923640cbdcf61d2"
+    },
+    "provenance/diversity_extension_1_context_downloads.jsonl": {
+      "bytes": 93629,
+      "sha256": "93b25251e3a7f01dfa18c344a0babaade059e7a9a4035acbc3888107f800e64a"
+    },
+    "provenance/diversity_extension_2_context_downloads.jsonl": {
+      "bytes": 108149,
+      "sha256": "0a33a222bdb318c33ba799439f7db0dfa2399f872d72fa6e8f571e3386bfb62c"
+    },
+    "provenance/diversity_extension_3_context_downloads.jsonl": {
+      "bytes": 94797,
+      "sha256": "d311374b97b64717eabd74b795c7d43417e064f4869f9fb6be86ece14be7f37b"
+    },
+    "provenance/diversity_extension_4_context_downloads.jsonl": {
+      "bytes": 99368,
+      "sha256": "9e496b7c379047a6505b288873ae489aa5896d08872b2eb14d186a1e64e7ed6b"
+    },
+    "provenance/diversity_extension_5_context_downloads.jsonl": {
+      "bytes": 111082,
+      "sha256": "24beba2ebf735dee43ec135bcfdd94e993083c972c483512a4f85d125440b342"
+    },
+    "provenance/diversity_extension_6_context_downloads.jsonl": {
+      "bytes": 94890,
+      "sha256": "b930b13e289a106d403b34f2448dc2903c3fa0856a849cbd9dde2c28ef994353"
+    },
+    "provenance/diversity_extension_7_context_downloads.jsonl": {
+      "bytes": 103806,
+      "sha256": "ae69daa6e9358f2abd6586f5eb4b87f40044eef6b898c32bc8cc8b429424686e"
+    },
+    "provenance/diversity_extension_download_manifest.json": {
+      "bytes": 40896,
+      "sha256": "76ceb4534ad8271b97c66da569e57ab4b8d7706bc836e3e188c11a83a50c1c3b"
+    },
+    "provenance/diversity_protocol.json": {
+      "bytes": 1639,
+      "sha256": "6c48c354c8616b92ab05cb46a4667fd9c0437e2976fd5ef454260cd4caf0343a"
+    },
+    "provenance/diversity_selection_preservation_manifest.json": {
+      "bytes": 100128,
+      "sha256": "1ed840456c6fe1efe46e85d4f565a5a0369f958da834f909f0a267f95739ab87"
+    },
+    "provenance/diversity_selection_review_protocol.json": {
+      "bytes": 2616,
+      "sha256": "b08cb1cf03d2132107bedd2c4514af99e894b84280942882892d7a105f996f72"
+    },
+    "provenance/diversity_species_0_context_downloads.jsonl": {
+      "bytes": 232431,
+      "sha256": "6099ef814afe259d22775265970bfb594c0fe57314b3e92005aab216c78adf84"
+    },
+    "provenance/diversity_species_1_context_downloads.jsonl": {
+      "bytes": 229367,
+      "sha256": "26bba12d1b0715032af0e5773e6b94c75f7ae2a886dd2768b8afa74ac0ed5810"
+    },
+    "provenance/diversity_species_2_context_downloads.jsonl": {
+      "bytes": 238330,
+      "sha256": "362f2dc3987e1efeb5c2986898656879e5bcafc0883ffc8ac155c08259f7a825"
+    },
+    "provenance/diversity_species_3_context_downloads.jsonl": {
+      "bytes": 246826,
+      "sha256": "f17e4e75d8d22c22b70c34761d1e8edb30eb8b9e43806153efb07c2cd16e92bc"
+    },
+    "provenance/diversity_species_4_context_downloads.jsonl": {
+      "bytes": 225001,
+      "sha256": "cd74806ba490cacea9e71e285367d2ab33b016980555e23244ac3c83815d2c7c"
+    },
+    "provenance/diversity_species_5_context_downloads.jsonl": {
+      "bytes": 222045,
+      "sha256": "e3a783759cc24ac3e320d84f30e686a2940f9dd39c4383933d463ea1a8c38737"
+    },
+    "provenance/diversity_species_6_context_downloads.jsonl": {
+      "bytes": 238929,
+      "sha256": "8a813beac9aff412045714da8b37140ea5eb61df863de3c8731df5ec5d359b8f"
+    },
+    "provenance/diversity_species_7_context_downloads.jsonl": {
+      "bytes": 216259,
+      "sha256": "00b0b79d52e873f8f18fcd3be9eee77941690e00561690b8b6ac7c735214e868"
+    },
+    "provenance/final_candidate_SAMD00222841.xml": {
+      "bytes": 3699,
+      "sha256": "f67bb8dd37e08d379fdbd76d7ec8a00f72f695219e60c444faa51484bca9ab2e"
+    },
+    "provenance/final_candidate_SAMEA2247663.xml": {
+      "bytes": 2870,
+      "sha256": "f2622f8529689309162bd1c47dca983f09472faa6d811ef6155243535375e1c8"
+    },
+    "provenance/final_candidate_ncbi_BioSamples.xml": {
+      "bytes": 3777,
+      "sha256": "7b3896b17bd777588725b004cf60c5a1314eb92ff70c108048303971a01fd543"
+    },
+    "provenance/final_soil_candidate_BioSamples.xml": {
+      "bytes": 6514,
+      "sha256": "e10cef6bc90d249f3d255859ae906b210fc8ad38bde0558f6829c7332e107cb2"
+    },
+    "references/diversity_M2_precursor_references.faa": {
+      "bytes": 155,
+      "sha256": "f02c3e3352938423760fcebb61447db6eb7ad88f1c09e1bbb3fd172f6dde13ec"
+    },
+    "references/diversity_precursor_core_sites.tsv": {
+      "bytes": 15672,
+      "sha256": "96e5d97a650e9b0e40882b53d92985fd398ccd3bcf1e7cc02342cdf931fea63e"
+    },
+    "references/diversity_published_C.faa": {
+      "bytes": 190891,
+      "sha256": "d87e20bc40c6ea0579574c321e00688d2f14cc7403d9565d4d78d4c330f251c5"
+    },
+    "references/diversity_published_DNA.fna": {
+      "bytes": 7840265,
+      "sha256": "95e690514673dffd5cc6a38a56ec70705cbd007f16392a8ef325e479127a0055"
+    },
+    "references/diversity_role_reference.tsv": {
+      "bytes": 573994,
+      "sha256": "daf688cf25af4868f61adab318c8340f5a340db4dd20c7b0a7253ce316ab6446"
+    },
+    "references/literature_bgc_manifest.tsv": {
+      "bytes": 147330,
+      "sha256": "f58346e6e96ccf5e43947a006f08c2e42bf67da62c9c7b4f764f8f2910663536"
+    },
+    "references/literature_precursor_occurrences.tsv": {
+      "bytes": 120811,
+      "sha256": "798977bce0ef37086757b0f35590eb603dd81d90a6541fe09ad94ddcab780ad0"
+    },
+    "references/literature_unique_precursors.faa": {
+      "bytes": 14778,
+      "sha256": "e1fd9f353550a8e68398917906a71d97cca5d69c765ba0509d57fb9de62c1a7d"
+    },
+    "source_locus_core_spans.fna": {
+      "bytes": 513679,
+      "sha256": "2b8b8531a49ffde9a75167db7eb9ec81962530a9fd83c9cf61f426fd65162a1a"
+    }
+  }
+}

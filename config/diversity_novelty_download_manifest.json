@@ -1,0 +1,93 @@
+{
+  "GCA_002569665.1__assembly_summary": {
+    "bytes": 4319,
+    "local_path": "data/raw/diversity_2026-10-12/GCA_002569665.1__assembly_summary.json",
+    "retrieved_utc": "2026-10-12T18:05:33.584448+00:00",
+    "sha256": "d277b2793673804f2df591457261f66ea366c84b314ffeae0dbdba6215954e26",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=assembly&id=1337601&retmode=json"
+  },
+  "GCA_002569665.1__refseq_proteins": {
+    "bytes": 1052277,
+    "local_path": "data/raw/diversity_2026-10-12/GCA_002569665.1__refseq_proteins.faa.gz",
+    "retrieved_utc": "2026-10-12T18:09:16.956945+00:00",
+    "sha256": "c23ea78a9349914caabfc8f8d89d5008c76e4c0e4bdb8eb6dfb17f47d33cfd11",
+    "url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/569/665/GCF_002569665.1_ASM256966v1/GCF_002569665.1_ASM256966v1_protein.faa.gz"
+  },
+  "GCA_002569665.1__search": {
+    "bytes": 333,
+    "local_path": "data/raw/diversity_2026-10-12/GCA_002569665.1__search.json",
+    "retrieved_utc": "2026-10-12T18:05:32.310626+00:00",
+    "sha256": "d0dc77e49958e8207d08782c9c71c26b95d30dd1a2de6484e08f3d35426b12b0",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=assembly&term=GCA_002569665.1%5BAssembly+Accession%5D&retmode=json"
+  },
+  "GCA_002572225.1__assembly_summary": {
+    "bytes": 4321,
+    "local_path": "data/raw/diversity_2026-10-12/GCA_002572225.1__assembly_summary.json",
+    "retrieved_utc": "2026-10-12T18:05:35.661201+00:00",
+    "sha256": "d53060a9bf49e0c6d0d7e448361d6ebbb5eb9eeb9b724eb5b12de0317c013040",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=assembly&id=1338851&retmode=json"
+  },
+  "GCA_002572225.1__refseq_proteins": {
+    "bytes": 1067415,
+    "local_path": "data/raw/diversity_2026-10-12/GCA_002572225.1__refseq_proteins.faa.gz",
+    "retrieved_utc": "2026-10-12T18:09:18.264470+00:00",
+    "sha256": "43337cc1ad215a8fd2ecdc0907ed3273264be78f42f5065e8828a4d846fca5f5",
+    "url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/572/225/GCF_002572225.1_ASM257222v1/GCF_002572225.1_ASM257222v1_protein.faa.gz"
+  },
+  "GCA_002572225.1__search": {
+    "bytes": 333,
+    "local_path": "data/raw/diversity_2026-10-12/GCA_002572225.1__search.json",
+    "retrieved_utc": "2026-10-12T18:05:34.583305+00:00",
+    "sha256": "3a08ca343278ba54abb3509e81115ba1912867af42aca1aae69f250f53d9daa5",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=assembly&term=GCA_002572225.1%5BAssembly+Accession%5D&retmode=json"
+  },
+  "GCA_002582335.1__assembly_summary": {
+    "bytes": 4320,
+    "local_path": "data/raw/diversity_2026-10-12/GCA_002582335.1__assembly_summary.json",
+    "retrieved_utc": "2026-10-12T18:05:31.138363+00:00",
+    "sha256": "3eb84468aaed5f947ff60c8d8cdabb28bb2d866f73c28b1e2e49be69f9dbeb3d",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=assembly&id=1343841&retmode=json"
+  },
+  "GCA_002582335.1__refseq_proteins": {
+    "bytes": 1089007,
+    "local_path": "data/raw/diversity_2026-10-12/GCA_002582335.1__refseq_proteins.faa.gz",
+    "retrieved_utc": "2026-10-12T18:09:15.604507+00:00",
+    "sha256": "4088f7f0b2ae97134cbe16b6cae7c6394ed60254a68cdb3187ac642b8bad8da0",
+    "url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/582/335/GCF_002582335.1_ASM258233v1/GCF_002582335.1_ASM258233v1_protein.faa.gz"
+  },
+  "GCA_002582335.1__search": {
+    "bytes": 333,
+    "local_path": "data/raw/diversity_2026-10-12/GCA_002582335.1__search.json",
+    "retrieved_utc": "2026-10-12T18:05:29.570979+00:00",
+    "sha256": "a35562c6dda204e3e19598a4574af62c63869dcffa5879751730932869b506cc",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=assembly&term=GCA_002582335.1%5BAssembly+Accession%5D&retmode=json"
+  },
+  "WP_176544197.1__ipg": {
+    "bytes": 663,
+    "local_path": "data/raw/diversity_2026-10-12/WP_176544197.1__ipg.tsv",
+    "retrieved_utc": "2026-10-12T18:11:29.169154+00:00",
+    "sha256": "fe4734df299e635e1973776494c48f1901b8114d8b00c4ac1c5ac127bdb42b96",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=WP_176544197.1&rettype=ipg&retmode=text"
+  },
+  "WP_176547010.1__ipg": {
+    "bytes": 192,
+    "local_path": "data/raw/diversity_2026-10-12/WP_176547010.1__ipg.tsv",
+    "retrieved_utc": "2026-10-12T18:11:31.002473+00:00",
+    "sha256": "98c714eec87d91bdf62bd056f242f6950e7b4e6db16471b16aab268dfbcf7e97",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=WP_176547010.1&rettype=ipg&retmode=text"
+  },
+  "bacillus_C_protein_summaries": {
+    "bytes": 1245,
+    "local_path": "data/raw/diversity_2026-10-12/bacillus_C_protein_summaries.json",
+    "retrieved_utc": "2026-10-12T18:23:21.788085+00:00",
+    "sha256": "c9ba0998bcb66aa09884d41a791a047b487e03347502e727a24daf1628055194",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=protein&id=WP_176544197.1%2CWP_176547010.1&retmode=json"
+  },
+  "gelatinamin_osf_root": {
+    "bytes": 8751,
+    "local_path": "data/raw/diversity_2026-10-12/gelatinamin_osf_root.json",
+    "retrieved_utc": "2026-10-12T18:05:36.564113+00:00",
+    "sha256": "b61323d49a54587a7f7918f3e7ccc5a9052a43ec1141a0c18baee884f751d6a2",
+    "url": "https://api.osf.io/v2/nodes/xhmrf/files/osfstorage/"
+  }
+}

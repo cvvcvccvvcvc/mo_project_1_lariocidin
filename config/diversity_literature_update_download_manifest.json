@@ -1,0 +1,10 @@
+{
+  "follower_preprint_api": {
+    "url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.07.03.736388",
+    "local_path": "data/raw/diversity_2026-10-13/follower_preprint_api.json",
+    "sha256": "7cde84f8b4b20e0615b490d9d8840ecbf7bde752815f25659ad8cbe19a60a52a",
+    "bytes": 1665,
+    "retrieved_utc": "2026-10-12T20:55:37.239679+00:00",
+    "scope": "primary_api_abstract_and_metadata_only; full_text_429; not_an_additional_BGC_export_comparator"
+  }
+}

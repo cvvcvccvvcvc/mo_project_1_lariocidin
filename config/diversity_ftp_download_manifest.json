@@ -1,0 +1,10 @@
+{
+  "refseq_assembly_summary": {
+    "url": "https://ftp.ncbi.nlm.nih.gov/genomes/refseq/bacteria/assembly_summary.txt",
+    "local_path": "data/raw/diversity_2026-10-12/refseq_bacterial_assembly_summary.txt",
+    "sha256": "3e620e61ebca0d2abcaac8b508c1893d6e59211f6259a3d6f34bf68f96695358",
+    "bytes": 240673304,
+    "retrieved_utc": "2026-10-12T20:26:28.803342+00:00",
+    "selected_accessions_resolved": 22840
+  }
+}

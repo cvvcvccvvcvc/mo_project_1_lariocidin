@@ -1,0 +1,18 @@
+{
+  "status": "fixed_final_controls_before_launch",
+  "selected": [
+    "GCF_039527485.1",
+    "GCF_900519125.1",
+    "GCF_963888115.1",
+    "GCF_963863825.1",
+    "GCF_037976035.1"
+  ],
+  "not_in_current_RefSeq_summary": [
+    "GCF_000399645.1",
+    "GCF_000471925.1",
+    "GCF_033718635.1"
+  ],
+  "reason": "nucleotide-to-assembly primary links resolve additional carrier records; WGS master accession uses 00 plus dot version, unlike contig version prefix",
+  "criteria": "unchanged",
+  "stopping_rule": "no_further_database_expansion"
+}

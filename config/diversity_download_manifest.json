@@ -1,0 +1,198 @@
+{
+  "refseq_reference_page_000": {
+    "bytes": 4062757,
+    "local_path": "data/raw/diversity_2026-10-12/refseq_reference_page_000.json",
+    "retrieved_utc": "2026-10-12T18:09:26.860861+00:00",
+    "sha256": "9df028f0162fab3cf8bfbdb26c7f3f66c997eba128044c1c19dee9a949dde27d",
+    "url": "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/taxon/2/dataset_report?filters.reference_only=true&filters.assembly_source=refseq&page_size=1000"
+  },
+  "refseq_reference_page_001": {
+    "bytes": 4168710,
+    "local_path": "data/raw/diversity_2026-10-12/refseq_reference_page_001.json",
+    "retrieved_utc": "2026-10-12T18:09:30.018693+00:00",
+    "sha256": "f8ced2dfd02c6714f324a5edb33daba7b024a2707a14c2a85714aa6693daf182",
+    "url": "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/taxon/2/dataset_report?filters.reference_only=true&filters.assembly_source=refseq&page_size=1000&page_token=eNrjMo1WMnQ2DHE2cnK2tDQzsLA0NrQwMDC0NDEwNTK1NLc0V9JRUHJ3douHC-oZKcUCAEb8C6c"
+  },
+  "refseq_reference_page_002": {
+    "bytes": 3863452,
+    "local_path": "data/raw/diversity_2026-10-12/refseq_reference_page_002.json",
+    "retrieved_utc": "2026-10-12T18:09:33.128833+00:00",
+    "sha256": "a6c09a87504c5887265a1f39a1c7ff8aaaafccbbf14cc00ebbd103f7c2475347",
+    "url": "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/taxon/2/dataset_report?filters.reference_only=true&filters.assembly_source=refseq&page_size=1000&page_token=eNrjMo1WMnQ2DHEDAktLA0tDMzMjcwMDQzNDQ3NLU0sLSwslHQUld2e3eLignqFSLABMRQvK"
+  },
+  "refseq_reference_page_003": {
+    "bytes": 3829710,
+    "local_path": "data/raw/diversity_2026-10-12/refseq_reference_page_003.json",
+    "retrieved_utc": "2026-10-12T18:09:35.955012+00:00",
+    "sha256": "c61bb2316fa3aca1ce48fff6013e27870b10a29c61e0cd77f086ad7771ea89b2",
+    "url": "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/taxon/2/dataset_report?filters.reference_only=true&filters.assembly_source=refseq&page_size=1000&page_token=eNrjMo1WMnQ2DHEDAktLU3MTSwtjMwMjI0tDS3NDU0sLSwslHQUld2e3eLignqFSLABPFAvh"
+  },
+  "refseq_reference_page_004": {
+    "bytes": 3904586,
+    "local_path": "data/raw/diversity_2026-10-12/refseq_reference_page_004.json",
+    "retrieved_utc": "2026-10-12T18:09:40.302508+00:00",
+    "sha256": "7071be0378f855e7ba6f64b7c00b4c822b2284bc7f8b9cadb30cadf7f4396bac",
+    "url": "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/taxon/2/dataset_report?filters.reference_only=true&filters.assembly_source=refseq&page_size=1000&page_token=eNrjMo1WMnQ2DHEDAktLcyNzC3NzYwMDQwMjQwMTU0sLSwslHQUld2e3eLignqFSLABLZguy"
+  },
+  "refseq_reference_page_005": {
+    "bytes": 3932983,
+    "local_path": "data/raw/diversity_2026-10-12/refseq_reference_page_005.json",
+    "retrieved_utc": "2026-10-12T18:09:42.632833+00:00",
+    "sha256": "9d69726d8e22f565095e2afc6620ed9ae06a262a70af7cffb40d35b567a9b623",
+    "url": "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/taxon/2/dataset_report?filters.reference_only=true&filters.assembly_source=refseq&page_size=1000&page_token=eNrjMo1WMnQ2jHBydbKwtDSxtDQ0tTA2MDAysrAwNTG1tLC0UNJRUHJ3douHC-oZKsUCAEr0C8c"
+  },
+  "refseq_reference_page_006": {
+    "bytes": 4303516,
+    "local_path": "data/raw/diversity_2026-10-12/refseq_reference_page_006.json",
+    "retrieved_utc": "2026-10-12T18:09:44.965803+00:00",
+    "sha256": "5723f6e876b7cc6c425f95d0c54b912047b0993f1c2a6d3641496f0076bb807c",
+    "url": "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/taxon/2/dataset_report?filters.reference_only=true&filters.assembly_source=refseq&page_size=1000&page_token=eNrjMo1WMnQ2jHADAktLYwsTE2MzUwNjQ0Mgx9zU0sLSQklHQcnd2S0eLqhnqBQLAE6oC-A"
+  },
+  "refseq_reference_page_007": {
+    "bytes": 4237566,
+    "local_path": "data/raw/diversity_2026-10-12/refseq_reference_page_007.json",
+    "retrieved_utc": "2026-10-12T18:09:47.891635+00:00",
+    "sha256": "210d4fea1246e2bf30836a3183f9689a2d2b20e43425f206fc854188f0d20612",
+    "url": "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/taxon/2/dataset_report?filters.reference_only=true&filters.assembly_source=refseq&page_size=1000&page_token=eNrjMo1WMnQ2CnEDAktLc1MzSwsDM0sDA0MDMwNTU0sLSwslHQUld2e3eLignqFSLABN0QvN"
+  },
+  "refseq_reference_page_008": {
+    "bytes": 4249682,
+    "local_path": "data/raw/diversity_2026-10-12/refseq_reference_page_008.json",
+    "retrieved_utc": "2026-10-12T18:09:51.361306+00:00",
+    "sha256": "3499238bb3aa7fbcdc1d25a076453830b4c869e3d4744b4303527975fae09c40",
+    "url": "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/taxon/2/dataset_report?filters.reference_only=true&filters.assembly_source=refseq&page_size=1000&page_token=eNrjMo1WMnQ2C3E2cnK2tDQ3tTSxsDQ0MDQyMDcwNjW1tLC0UNJRUHJ3douHC-oZKsUCAEjTC68"
+  },
+  "refseq_reference_page_009": {
+    "bytes": 4304858,
+    "local_path": "data/raw/diversity_2026-10-12/refseq_reference_page_009.json",
+    "retrieved_utc": "2026-10-12T18:09:54.318345+00:00",
+    "sha256": "8f85df694eb30f4af18208ab0793d2251c7cec2792c6266aba8c3ec2c3ca58a9",
+    "url": "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/taxon/2/dataset_report?filters.reference_only=true&filters.assembly_source=refseq&page_size=1000&page_token=eNrjMo1WMnQ2C3E2cnOzBAJjSxNDSwMDQxNjUyMTU0sLSwslHQUld2e3eLignqFSLABKWgu5"
+  },
+  "refseq_reference_page_010": {
+    "bytes": 4283087,
+    "local_path": "data/raw/diversity_2026-10-12/refseq_reference_page_010.json",
+    "retrieved_utc": "2026-10-12T18:09:56.886869+00:00",
+    "sha256": "46d6b881cf1e520ac58cd75b6e3261701e7b97abedb18f7c2bea2e7377e7aaba",
+    "url": "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/taxon/2/dataset_report?filters.reference_only=true&filters.assembly_source=refseq&page_size=1000&page_token=eNrjMo1WMnQ2C3E2dnOztLQ0NzM3sTQ2MDAwNzc0NTK1tLC0UNJRUHJ3douHC-oZKsUCAEsuC8E"
+  },
+  "refseq_reference_page_011": {
+    "bytes": 4022563,
+    "local_path": "data/raw/diversity_2026-10-12/refseq_reference_page_011.json",
+    "retrieved_utc": "2026-10-12T18:09:59.263999+00:00",
+    "sha256": "0efad8a41aec2590964c6a9ce86864c2b9bab88ae5746f52b90e3d2b3f6aad16",
+    "url": "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/taxon/2/dataset_report?filters.reference_only=true&filters.assembly_source=refseq&page_size=1000&page_token=eNrjMo1WMnQ2C3EDAktLM3NLS3NjcwNjAxMDS3NLU0sLSwslHQUld2e3eLignqFSLABQ3gvu"
+  },
+  "refseq_reference_page_012": {
+    "bytes": 3974971,
+    "local_path": "data/raw/diversity_2026-10-12/refseq_reference_page_012.json",
+    "retrieved_utc": "2026-10-12T18:10:01.807517+00:00",
+    "sha256": "37d164c44a8edad3a1b701a972f17b4b84ca818dc0ae273062ccdc457960490c",
+    "url": "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/taxon/2/dataset_report?filters.reference_only=true&filters.assembly_source=refseq&page_size=1000&page_token=eNrjMo1WMnQ2C3EDAktLC0sTU0tzIwMDE0NjMzNjU6CAhZKOgpK7s1s8XFDPUCkWAE8XC9g"
+  },
+  "refseq_reference_page_013": {
+    "bytes": 3977684,
+    "local_path": "data/raw/diversity_2026-10-12/refseq_reference_page_013.json",
+    "retrieved_utc": "2026-10-12T18:10:05.222794+00:00",
+    "sha256": "52bec6c2465f8d5edb394b91057e10b9bd164f0daf462e98be97847d26f08f15",
+    "url": "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/taxon/2/dataset_report?filters.reference_only=true&filters.assembly_source=refseq&page_size=1000&page_token=eNrjMo1WMnQ2C3EDAktLS2NzM0MzQwMDYwtTIwtLU0sLSwslHQUld2e3eLignqFSLABPNgvl"
+  },
+  "refseq_reference_page_014": {
+    "bytes": 3987582,
+    "local_path": "data/raw/diversity_2026-10-12/refseq_reference_page_014.json",
+    "retrieved_utc": "2026-10-12T18:10:07.782095+00:00",
+    "sha256": "402f0cd23dd16f5edb3c06d51e4bbfa8fa07107ea0095e986bdb5a87f85d72ae",
+    "url": "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/taxon/2/dataset_report?filters.reference_only=true&filters.assembly_source=refseq&page_size=1000&page_token=eNrjMo1WMnQ2C3EDAktLS1NTU3MDcwNDAwsjAyDb0sLSQklHQcnd2S0eLqhnqBQLAE3qC84"
+  },
+  "refseq_reference_page_015": {
+    "bytes": 4013155,
+    "local_path": "data/raw/diversity_2026-10-12/refseq_reference_page_015.json",
+    "retrieved_utc": "2026-10-12T18:10:10.400213+00:00",
+    "sha256": "f0c14c7535c49a71019937021df34e097fbe726f0b675d7a716a8d94f1405d83",
+    "url": "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/taxon/2/dataset_report?filters.reference_only=true&filters.assembly_source=refseq&page_size=1000&page_token=eNrjMo1WMnQ2C3EDAktLSzNTE2NjCwNjS1Njc1MTU0sLSwslHQUld2e3eLignqFSLABQUgvs"
+  },
+  "refseq_reference_page_016": {
+    "bytes": 4017736,
+    "local_path": "data/raw/diversity_2026-10-12/refseq_reference_page_016.json",
+    "retrieved_utc": "2026-10-12T18:10:12.528112+00:00",
+    "sha256": "ef72e68fa25b16b3c71182918843a1b9ab3f56b933860392744658504b8bb66f",
+    "url": "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/taxon/2/dataset_report?filters.reference_only=true&filters.assembly_source=refseq&page_size=1000&page_token=eNrjMo1WMnQ2C3EDAktLS3MjMyNTIwMTIzMzU1MTU0sLSwslHQUld2e3eLignqFSLABO9gvf"
+  },
+  "refseq_reference_page_017": {
+    "bytes": 4016440,
+    "local_path": "data/raw/diversity_2026-10-12/refseq_reference_page_017.json",
+    "retrieved_utc": "2026-10-12T18:10:15.367837+00:00",
+    "sha256": "e11d984b11405fba431c1d4ef59b04c52a7bcbc2007db34d620d4da28b649790",
+    "url": "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/taxon/2/dataset_report?filters.reference_only=true&filters.assembly_source=refseq&page_size=1000&page_token=eNrjMo1WMnQ2C3EDAktLS3NzSwNTQwNDYyMLA1NLU0sLSwslHQUld2e3eLignqFSLABO-Avc"
+  },
+  "refseq_reference_page_018": {
+    "bytes": 4011129,
+    "local_path": "data/raw/diversity_2026-10-12/refseq_reference_page_018.json",
+    "retrieved_utc": "2026-10-12T18:10:17.592860+00:00",
+    "sha256": "0ff24549ca484cab22856625a0727e7d7aaae6baa1c4636ba9c24e94f706f8a7",
+    "url": "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/taxon/2/dataset_report?filters.reference_only=true&filters.assembly_source=refseq&page_size=1000&page_token=eNrjMo1WMnQ2C3EDAktLSwsjU0tLEwMDQyNzA3MTU0sLSwslHQUld2e3eLignqFSLABPAgvW"
+  },
+  "refseq_reference_page_019": {
+    "bytes": 4029790,
+    "local_path": "data/raw/diversity_2026-10-12/refseq_reference_page_019.json",
+    "retrieved_utc": "2026-10-12T18:10:19.782143+00:00",
+    "sha256": "7a7f69a144cf7cacd6f712dccc08386038379425da117af50489fd0cafabfb7d",
+    "url": "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/taxon/2/dataset_report?filters.reference_only=true&filters.assembly_source=refseq&page_size=1000&page_token=eNrjMo1WMnQ2C3EDAktLSwszS0NzQwMjCzNTc0NDU0sLSwslHQUld2e3eLignqFSLABQCAvj"
+  },
+  "refseq_reference_page_020": {
+    "bytes": 4040795,
+    "local_path": "data/raw/diversity_2026-10-12/refseq_reference_page_020.json",
+    "retrieved_utc": "2026-10-12T18:10:22.150694+00:00",
+    "sha256": "93228c0cf0b79c732d2248770b264c78635356158d22a6487b4d1036ea1c9dd0",
+    "url": "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/taxon/2/dataset_report?filters.reference_only=true&filters.assembly_source=refseq&page_size=1000&page_token=eNrjMo1WMnQ2C3EDAksgMDQwMTMzMDA2MbIwNDW1tLC0UNJRUHJ3douHC-oZKsUCAE3CC88"
+  },
+  "refseq_reference_page_021": {
+    "bytes": 4108057,
+    "local_path": "data/raw/diversity_2026-10-12/refseq_reference_page_021.json",
+    "retrieved_utc": "2026-10-12T18:10:24.659756+00:00",
+    "sha256": "d7a7c89961579c5e5dac9b0cf92d631b66cd1573bc5b39bd8f6f7f455bbdb24d",
+    "url": "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/taxon/2/dataset_report?filters.reference_only=true&filters.assembly_source=refseq&page_size=1000&page_token=eNrjMo1WMnQ2C3EDAksgMDOyNDM3MDEzM7YwMza1tLC0UNJRUHJ3douHC-oZKsUCAFHIC_Y"
+  },
+  "refseq_reference_page_022": {
+    "bytes": 3358964,
+    "local_path": "data/raw/diversity_2026-10-12/refseq_reference_page_022.json",
+    "retrieved_utc": "2026-10-12T18:10:26.522963+00:00",
+    "sha256": "44960f3541141e1fac4fc4291f4e199fcd3022bf2170a367349ee19451fc5209",
+    "url": "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/taxon/2/dataset_report?filters.reference_only=true&filters.assembly_source=refseq&page_size=1000&page_token=eNrjMo1WMnQ2i3ADAktLSyMDE2NjcwMDY0NjQyMDU0sLSwslHQUld2e3eLignqFSLABLlAuy"
+  },
+  "reviewed_bacterial_count": {
+    "bytes": 17,
+    "local_path": "data/raw/diversity_2026-10-12/reviewed_bacterial_count.tsv",
+    "retrieved_utc": "2026-10-12T18:09:24.722173+00:00",
+    "sha256": "6ea8c37c34ba692adefaa08a62194d435079c7fc22b8dd95c4f797ba59d8dc2e",
+    "url": "https://rest.uniprot.org/uniprotkb/search?query=%28reviewed%3Atrue%29%20AND%20%28taxonomy_id%3A2%29&format=tsv&fields=accession&size=1"
+  },
+  "reviewed_bacterial_proteins": {
+    "bytes": 73852718,
+    "local_path": "data/raw/diversity_2026-10-12/reviewed_bacterial_proteins.faa.gz",
+    "retrieved_utc": "2026-10-12T18:09:23.997476+00:00",
+    "sha256": "721789a19c65f5e477c87a5f1cdb8430addf6033f5668a29d2be6e61c1e405bd",
+    "url": "https://rest.uniprot.org/uniprotkb/stream?query=%28reviewed%3Atrue%29%20AND%20%28taxonomy_id%3A2%29&format=fasta&compressed=true"
+  },
+  "soil_metadata": {
+    "bytes": 8063435,
+    "local_path": "data/raw/diversity_2026-10-12/soil_metadata.tsv",
+    "retrieved_utc": "2026-10-12T18:04:50.316497+00:00",
+    "sha256": "4d605589a524546a4b7f064c5f53171bd168469da996dfecb69d4344d72396a7",
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/soil/v1.0/genomes-all_metadata.tsv"
+  },
+  "soil_protein_listing": {
+    "bytes": 1800,
+    "local_path": "data/raw/diversity_2026-10-12/soil_protein_listing.html",
+    "retrieved_utc": "2026-10-12T18:04:53.757502+00:00",
+    "sha256": "aaa7c5c386eaf6134377894b3dabcd4ce38db0bc5be14b56d49413db7e401b5d",
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/soil/v1.0/protein_catalogue/"
+  },
+  "soil_readme": {
+    "bytes": 5920,
+    "local_path": "data/raw/diversity_2026-10-12/soil_readme.txt",
+    "retrieved_utc": "2026-10-12T18:04:51.974947+00:00",
+    "sha256": "0220d873cc489ca96ce1ee6d821dbe7a367510fbe8cfff2192eb4142d43cc2e9",
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/soil/v1.0/README_v1.0.txt"
+  }
+}

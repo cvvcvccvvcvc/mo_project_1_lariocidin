@@ -47,13 +47,13 @@ def read_scores(tbl, domtbl, profile):
     return rows
 
 
-def search(fasta, output_dir, exhaustive=False):
+def search(fasta, output_dir, exhaustive=False, cpu=4):
     output_dir.mkdir(parents=True, exist_ok=True)
     rows, commands = [], []
     for profile in PROFILES:
         prefix = output_dir / profile
         tbl, dom = prefix.with_suffix(".tbl"), prefix.with_suffix(".domtbl")
-        command = [str(ROOT / ".env/bin/hmmsearch"), "--cpu", "4", "--noali",
+        command = [str(ROOT / ".env/bin/hmmsearch"), "--cpu", str(cpu), "--noali",
                    "--seed", "42", "-T", "80", "--domT", "20",
                    "--tblout", str(tbl), "--domtblout", str(dom)]
         if exhaustive:

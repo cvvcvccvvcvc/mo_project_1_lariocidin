@@ -1,0 +1,65 @@
+{
+  "PF00005": {
+    "bytes": 13828,
+    "local_path": "data/raw/diversity_2026-10-12/PF00005.hmm.gz",
+    "retrieved_utc": "2026-10-12T18:19:59.290351+00:00",
+    "sha256": "2d00c1059d3e5f156688f890ce48c3858ed30915385d79e0c7e328d3840a4cc6",
+    "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF00005/?annotation=hmm"
+  },
+  "PF00310": {
+    "bytes": 35240,
+    "local_path": "data/raw/diversity_2026-10-12/PF00310.hmm.gz",
+    "retrieved_utc": "2026-10-12T18:20:00.188596+00:00",
+    "sha256": "8ee2eff152d758551945ac13059d6e024a7e8c352f4281055b4880c19ce67ce7",
+    "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF00310/?annotation=hmm"
+  },
+  "PF00583": {
+    "bytes": 14027,
+    "local_path": "data/raw/diversity_2026-10-12/PF00583.hmm.gz",
+    "retrieved_utc": "2026-10-12T18:20:00.870607+00:00",
+    "sha256": "7d909760d112330a0c65d8d6048f6367ef49b5a176d6c061fb9833f2add124de",
+    "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF00583/?annotation=hmm"
+  },
+  "PF00664": {
+    "bytes": 25953,
+    "local_path": "data/raw/diversity_2026-10-12/PF00664.hmm.gz",
+    "retrieved_utc": "2026-10-12T18:20:01.547883+00:00",
+    "sha256": "263abde9fd250d57e2aa84da79845c5a726ccefa02e36edde25152322be769e4",
+    "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF00664/?annotation=hmm"
+  },
+  "PF00733": {
+    "bytes": 35510,
+    "local_path": "data/raw/diversity_2026-10-12/PF00733.hmm.gz",
+    "retrieved_utc": "2026-10-12T18:20:02.368339+00:00",
+    "sha256": "cebfa2601f640a011b7819474517ae28a37994e3e31e7a33d195c24732b98ea4",
+    "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF00733/?annotation=hmm"
+  },
+  "PF03415": {
+    "bytes": 33149,
+    "local_path": "data/raw/diversity_2026-10-12/PF03415.hmm.gz",
+    "retrieved_utc": "2026-10-12T18:20:03.263217+00:00",
+    "sha256": "37bc88d003b7c31533c603fd2e1f1378783ec87800afaa41aba9b2973bf52c0c",
+    "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF03415/?annotation=hmm"
+  },
+  "PF05402": {
+    "bytes": 8122,
+    "local_path": "data/raw/diversity_2026-10-12/PF05402.hmm.gz",
+    "retrieved_utc": "2026-10-12T18:20:03.839832+00:00",
+    "sha256": "0035f71b28b21567060629932037171c8f8e01ebd7011b2e5fd5a3cd028648b6",
+    "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF05402/?annotation=hmm"
+  },
+  "PF13471": {
+    "bytes": 12181,
+    "local_path": "data/raw/diversity_2026-10-12/PF13471.hmm.gz",
+    "retrieved_utc": "2026-10-12T18:20:04.459831+00:00",
+    "sha256": "3fa3f8b87453596cbbcddc3faea3112178cbe9bbbf5f89fd7ac494d4f3588f3c",
+    "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF13471/?annotation=hmm"
+  },
+  "PF13537": {
+    "bytes": 13059,
+    "local_path": "data/raw/diversity_2026-10-12/PF13537.hmm.gz",
+    "retrieved_utc": "2026-10-12T18:20:05.112587+00:00",
+    "sha256": "364ad83e897278fb5b2b694aba142c23631288c55a55ff36f51b0115fdc40743",
+    "url": "https://www.ebi.ac.uk/interpro/api/entry/pfam/PF13537/?annotation=hmm"
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "status": "complete",
+  "date": "2026-10-13",
+  "user_agreed_criteria": [
+    "terminal_A_C_overlap_1_or_4_nt",
+    "canonical_opposite_A_with_processing",
+    "C_integrity_uncertain",
+    "A_alignment_core_span"
+  ],
+  "technical_fix": "admissibility_before_alternative_start_collapse",
+  "scope": "all_8540_previously_screened_contexts;no_new_databases;no_full_screen",
+  "slurm_jobs": {
+    "sequence_integrity_audit": 937690,
+    "final_cached_curation": 937721,
+    "final_collection_merge": 937722
+  },
+  "verification": {
+    "snapshot_files_SHA256": 63,
+    "previous_result_files_preserved": 137,
+    "HGT_writes_by_diversity": 0,
+    "external_HGT_changes_observed": 3,
+    "positive_genes_coordinate_DNA_translation_matches": 645,
+    "exported_genes_AA_DNA_hashes": 9010,
+    "primary_groups": 201,
+    "uncertain_source_nominations": 8335,
+    "C_A_family_consistency": 198
+  },
+  "files": {
+    "scripts/prepare_diversity_sources.py": {
+      "sha256": "d3a26f49ada0f0c2158056b1774e3bc67b50d6ab654bcd918b4687b850b2f43d",
+      "bytes": 7587
+    },
+    "scripts/prepare_diversity_role_reference.py": {
+      "sha256": "e0df6ac6601d7c526765e8a1ffbe36845d976865970ebb4075b5be40b6beeeaa",
+      "bytes": 3176
+    },
+    "scripts/extract_diversity_contexts.py": {
+      "sha256": "dbab7b0a558b145f6e9799e648902379a95412b7afb43288ffcf1c43fa1a27e2",
+      "bytes": 12802
+    },
+    "scripts/resolve_diversity_ftp.py": {
+      "sha256": "ea09583df4ce613b0348c4e918bd42a4016589ee936f8db3c4d6a6f3370a12f0",
+      "bytes": 2601
+    },
+    "scripts/prepare_diversity_published.py": {
+      "sha256": "0feec341a9079e6e964b8685a1fe2cf549db27a739deef2a0295c71f2cc8d44f",
+      "bytes": 4735
+    },
+    "scripts/prepare_diversity_extension.py": {
+      "sha256": "b38c184acab4d1f903a6c33fbc684bfd5eb00fc037fa50df04632bdfb421330c",
+      "bytes": 8692
+    },
+    "scripts/plot_diversity_catalogue.py": {
+      "sha256": "1238ad07ebc7f7fccfd0dad85156be1dfe5e21266cd90940b109ab220a066107",
+      "bytes": 6198
+    },
+    "scripts/annotate_diversity_domains.py": {
+      "sha256": "b27d008c76aa08b4a854993346bc521c4e3688b5598a0acdb078ed396d72e69a",
+      "bytes": 4705
+    },
+    "scripts/compare_diversity_catalogues.py": {
+      "sha256": "8f3a7b30124e4eb17d6e06b4805e81e7cab0780add98e510a684a9dc2a60a406",
+      "bytes": 5615
+    },
+    "scripts/merge_diversity_catalogues.py": {
+      "sha256": "f0c5da1b46f94989570a7a10649a5168280a82cdbfb3be91ed6a28db24843f40",
+      "bytes": 16887
+    },
+    "scripts/collect_diversity_catalogue.py": {
+      "sha256": "d1bdbed5e7ade42f4cb13d8295a9b1bb24ed07170cccf205c181a594a423e8b8",
+      "bytes": 17491
+    },
+    "scripts/audit_diversity_baseline.py": {
+      "sha256": "7d2f36d0a7281b81f243b8783494e69012efc52a8b5d49885907ec10780699c7",
+      "bytes": 12189
+    },
+    "scripts/export_diversity_handoff.py": {
+      "sha256": "1d6da006b1efd199fada81abef8921608724e4627f6d4e24feeb9e167519c204",
+      "bytes": 13277
+    },
+    "scripts/curate_diversity_contexts.py": {
+      "sha256": "e3b7ddee6eeb8df6f9e68f17585951f0abc36133172ffdbb5517c0992e45ea9a",
+      "bytes": 19863
+    },
+    "scripts/screen_diversity_proteomes.py": {
+      "sha256": "c831126994387c10e22f02012f333e81c96776ff5ba3541938089ca64100eb68",
+      "bytes": 11331
+    },
+    "scripts/audit_diversity_carriers.py": {
+      "sha256": "b3472784d57e26e846b44da8a7d4f8ca1cc0af398e42dbc3b669c0c7b22c3cef",
+      "bytes": 5351
+    },
+    "scripts/diagnose_merrild_precursors.py": {
+      "sha256": "10a08b9148751b4c543bf5bb94a05ca8fd6b3d2a9ea0a97e3fdc12fc740eabfb",
+      "bytes": 10175
+    },
+    "scripts/slurm/diversity_collect_review.sh": {
+      "sha256": "f91fab2ef0277d62bc521ecb2d514ecc70d0c4735c256bb34f4d1b41eed759ca",
+      "bytes": 1051
+    },
+    "scripts/slurm/diversity_recurate.sh": {
+      "sha256": "8b7f7dd9339ba674bb59ea51f8fdd68e93b608d2b6e36984edb9b48861f0830d",
+      "bytes": 471
+    },
+    "config/diversity_selection_review_protocol.json": {
+      "sha256": "b08cb1cf03d2132107bedd2c4514af99e894b84280942882892d7a105f996f72",
+      "bytes": 2616
+    },
+    "results/tables/diversity_final_status_changes.tsv": {
+      "sha256": "a17367297e0dd68d7229ea270fe69fc03e234fbbdf99c104778a924520846c8b",
+      "bytes": 109191
+    },
+    "results/tables/diversity_final_added_loci.tsv": {
+      "sha256": "4221c13785f932fdca304d1e115ee407ed013f3c94163b6fbfac6c01ddbb0f6a",
+      "bytes": 109779
+    },
+    "results/tables/diversity_final_selection_summary.json": {
+      "sha256": "d28f32f9488509e197b91eae04393f2505f6a59bd2952eda3d8530f68b83d18d",
+      "bytes": 2279
+    },
+    "results/tables/diversity_final_BGC_catalogue.tsv": {
+      "sha256": "fd6bbc409d54059e78476be38a48f6fdea38e80958af8a03e3bff0e929b13a1d",
+      "bytes": 519429
+    },
+    "results/tables/diversity_final_occurrences.tsv": {
+      "sha256": "be8e5b20b760207cbd43160ea80baa00f51910fde0e406ea27f93912f2328062",
+      "bytes": 426324
+    },
+    "results/tables/diversity_final_summary.json": {
+      "sha256": "3b4e4267dd76234e7e12c44dc1bd6e1806b9d8274a37c371c3d7adb41fef20f3",
+      "bytes": 1126
+    },
+    "results/tables/diversity_final_core_gene_evidence.tsv": {
+      "sha256": "363e5dc19111c0d070893ab80a68b2e0e91e35ae4f142a10924812d69874bca0",
+      "bytes": 413326
+    },
+    "results/tables/diversity_final_uncertain.tsv": {
+      "sha256": "8a0b07bbad83126c7a7b227c12a5b38316a86a6f543158a858da3b098abb3c75",
+      "bytes": 13002088
+    },
+    "results/tables/diversity_final_licheniformis_published_records.tsv": {
+      "sha256": "778d8cd1401dc27ea0e5d081cfea8e50d48edddd756a5f8b28adbd6f890022e6",
+      "bytes": 70
+    },
+    "results/tables/diversity_final_merrild_screen_stages.tsv": {
+      "sha256": "e8a0014e724b8c34f6f06f06657cb41226c71d7e87b509f53cc5c665aa4bb41f",
+      "bytes": 94206
+    },
+    "results/tables/diversity_final_merrild_sequence_audit.tsv": {
+      "sha256": "5d204f5efd06957045462e60c1325b5db9af185917145a949e0868fd2450e730",
+      "bytes": 42703
+    },
+    "results/tables/diversity_final_M2_precursor_similarity.tsv": {
+      "sha256": "587e30f2ec83f631c7c7681f0bfa2a638b3e10b5fdd349017bc796d0ca46207b",
+      "bytes": 211529
+    },
+    "results/tables/diversity_final_source_review.tsv": {
+      "sha256": "ba40b0790f438073f1c4c1d7b6ea0a6796f874ec5cdaabd1f56a04b4f92ca092",
+      "bytes": 1325
+    },
+    "results/tables/diversity_final_catalogue_summary.tsv": {
+      "sha256": "dd6df6c937d37cc1c3c4bf662f18d708fa9d29ba632023011beed96beef0e2e8",
+      "bytes": 54628
+    }
+  },
+  "snapshot": "exports/diversity_final_2026-10-13",
+  "HGT": "not_edited_by_diversity;external_changes_observed",
+  "observed_external_HGT_changes": [
+    {
+      "path": "hgt/config/H1_ncbi_download_manifest.json",
+      "before_sha256": "23a123a1257aa1fd1943d355dde95716e63fe74df014b2d9558fc0d08ec874a5",
+      "observed_sha256": "22ea4d044b2c139ded475e8806fa31b15527937dde65843141893726321b363a",
+      "handling": "observed_external_change;not_modified_or_reverted_by_diversity"
+    },
+    {
+      "path": "hgt/results/tables/H1_C_role_evidence.tsv",
+      "before_sha256": "1282265de6b490f63d8dd046212a5475becac9c7009f9dde99d24b3f69ecb1c8",
+      "observed_sha256": "4e2bd9d70ee67c378c9e7168aa4f53e9c26a1a28a5b9788f81baad34fda40902",
+      "handling": "observed_external_change;not_modified_or_reverted_by_diversity"
+    },
+    {
+      "path": "hgt/scripts/audit_h1.py",
+      "before_sha256": "ff0b0fcec8534ce613642024c53f5f6006d9c10d7007a2491b10d18f207d4cf5",
+      "observed_sha256": "3f2bfffe2d0f91897166a708e8bf66e1a7ba3bf1dc23279930f11cb36ae52dfd",
+      "handling": "observed_external_change;not_modified_or_reverted_by_diversity"
+    }
+  ]
+}

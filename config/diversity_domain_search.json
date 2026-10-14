@@ -1,0 +1,19 @@
+{
+  "method": "hmmsearch --cut_ga",
+  "panel_versions": [
+    "PF00005.34",
+    "PF00310.27",
+    "PF00583.32",
+    "PF00664.29",
+    "PF00733.28",
+    "PF03415.20",
+    "PF05402.19",
+    "PF13471.13",
+    "PF13537.12"
+  ],
+  "query_sha256": "91347b74583cfa3c1e226cd8fc7ef4eec32914cdc57fad4be40c2da157fe5efd",
+  "models_sha256": "7cf0c2940af2973960bab066aa72dd74f5de39472ad48850065f1c93e858ca11",
+  "query_count": 132,
+  "occurrences": 149,
+  "limitation": "Targeted panel only; negative result does not exclude domains absent from this panel or divergent RREs."
+}

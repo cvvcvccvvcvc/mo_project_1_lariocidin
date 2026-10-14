@@ -1,0 +1,188 @@
+{
+  "status": "completed_search_catalogue_and_final_replay",
+  "sources": {
+    "Marine": {
+      "version": "v2.0",
+      "all_records": 50866,
+      "eligible_species_reps": 12133,
+      "source_types": {
+        "MAG": 12071,
+        "Isolate": 62
+      }
+    },
+    "Marine_Sediment": {
+      "version": "v1.0",
+      "all_records": 10126,
+      "eligible_species_reps": 5310,
+      "source_types": {
+        "MAG": 5020,
+        "Isolate": 290
+      }
+    },
+    "Human_Gut": {
+      "version": "v3.0",
+      "all_records": 286621,
+      "eligible_species_reps": 6425,
+      "source_types": {
+        "MAG": 5538,
+        "Isolate": 887
+      }
+    }
+  },
+  "selected_proteomes": {
+    "Marine": 12133,
+    "Human_Gut": 6410,
+    "Marine_Sediment": 5310,
+    "RefSeq": 162
+  },
+  "exact_accession_overlaps_omitted": 15,
+  "merrild_initial_coverage": {
+    "carrier_not_resolved": 103,
+    "other_strain_same_NCBI_species_selected": 95,
+    "resolved_published_carrier_absent": 88,
+    "exact_published_carrier_selected": 27
+  },
+  "criteria": "unchanged_diversity_protocol",
+  "stopping_rule": "one_pooled_extension_then_result_interpretation_no_all_nonreference_RefSeq",
+  "HGT": "unchanged",
+  "slurm": {
+    "screen": "937620",
+    "context": "937621",
+    "collect": "937622",
+    "controls": "937623",
+    "merrild_audit": "937624",
+    "merge": "937645",
+    "pilot": "937603",
+    "failed_merge": "937625",
+    "failed_merge_missing_S3": "937625",
+    "failed_merge_PDB_ID": "937645",
+    "final_replay": "937655",
+    "precursor_diagnostic": "937647"
+  },
+  "pilot": {
+    "genomes": 8,
+    "screen_wall_seconds": 8.364,
+    "proteins": 30911,
+    "raw_bytes": 7962511,
+    "context_nominations": 3,
+    "exactly_mapped": 3
+  },
+  "selection_sha256": "2361c7805156cb5e14bbb59d4aec7103c1c16506a85d4726924dfd622ac16467",
+  "additional_refseq_controls": 5,
+  "superseded_slurm": {
+    "pilot": "937603",
+    "screen": "937604",
+    "context": "937605",
+    "collect": "937606",
+    "controls": "937615",
+    "merrild_audit": "937616",
+    "merge": "937618"
+  },
+  "restart_reason": "12 versioned Human Gut IDs need bucket based on unversioned accession; fixed URLs, unchanged genomes/order/criteria; completed batches reused",
+  "merge_repair": "Copy historical S3 novelty table and original evidence inputs that were only local; no scientific criteria changed",
+  "local_finalization": "Completed local merge and primary provenance; 488 selected core genes translated exactly; documented collection aliases reviewed separately from sequence equality",
+  "result_summary": {
+    "source_locus_rows": 164,
+    "unique_assembly_locus_groups": 161,
+    "unique_carrier_locus_variant_groups": 158,
+    "duplicate_source_rows": 6,
+    "assembly_content_groups": 160,
+    "biosamples_in_occurrences": 161,
+    "families": {
+      "noncanonical": 90,
+      "canonical": 68
+    },
+    "stages": {
+      "final_interbiome_extension": 117,
+      "species_RefSeq_Soil": 38,
+      "historical_Maize_S3": 3
+    },
+    "C_sequence_variants": 132,
+    "A_sequence_variants": 107,
+    "literature_relation": {
+      "published_carrier_and_C_DNA_traced": 140,
+      "unmatched_exported_core_literature_scope_limited": 14,
+      "exact_exported_core_carrier_relation_unresolved": 4
+    },
+    "carrier_relation": {
+      "known_published_carrier_and_locus": 138,
+      "carrier_extension_unresolved": 12,
+      "known_published_carrier_collection_alias_and_exact_core": 3,
+      "additional_strain_relative_to_resolved_published_metadata": 2,
+      "known_published_species_and_core_strain_identity_unresolved": 1,
+      "known_native_experimental_carrier_in_Merrild_text": 1,
+      "additional_species_candidate_literature_coverage_incomplete": 1
+    },
+    "HGT": "unchanged"
+  },
+  "criterion_changes": "none; carrier identity interpretations curated with primary collection sources",
+  "shard_context_dependency": "aftercorr; task throttle6 while screens active; aggregate <=64CPUs",
+  "file_hashes": {
+    "scripts/prepare_diversity_role_reference.py": "e0df6ac6601d7c526765e8a1ffbe36845d976865970ebb4075b5be40b6beeeaa",
+    "scripts/._curate_diversity_contexts.py": "86de8ef84cd9fe7ae536c87461c447ec42d2041eb06a7ae88a7f19756ef3187d",
+    "scripts/resolve_diversity_ftp.py": "ea09583df4ce613b0348c4e918bd42a4016589ee936f8db3c4d6a6f3370a12f0",
+    "scripts/curate_diversity_contexts.py": "22ccd6dc4f52fd573514f4f1084a418444a997c1c3627bb1f67133b732af6c19",
+    "scripts/._audit_diversity_carriers.py": "86de8ef84cd9fe7ae536c87461c447ec42d2041eb06a7ae88a7f19756ef3187d",
+    "scripts/._plot_diversity_catalogue.py": "86de8ef84cd9fe7ae536c87461c447ec42d2041eb06a7ae88a7f19756ef3187d",
+    "scripts/plot_diversity_catalogue.py": "1238ad07ebc7f7fccfd0dad85156be1dfe5e21266cd90940b109ab220a066107",
+    "scripts/._screen_diversity_proteomes.py": "86de8ef84cd9fe7ae536c87461c447ec42d2041eb06a7ae88a7f19756ef3187d",
+    "scripts/screen_diversity_proteomes.py": "c831126994387c10e22f02012f333e81c96776ff5ba3541938089ca64100eb68",
+    "scripts/._extract_diversity_contexts.py": "86de8ef84cd9fe7ae536c87461c447ec42d2041eb06a7ae88a7f19756ef3187d",
+    "scripts/extract_diversity_contexts.py": "dbab7b0a558b145f6e9799e648902379a95412b7afb43288ffcf1c43fa1a27e2",
+    "scripts/._collect_diversity_catalogue.py": "86de8ef84cd9fe7ae536c87461c447ec42d2041eb06a7ae88a7f19756ef3187d",
+    "scripts/._prepare_diversity_published.py": "86de8ef84cd9fe7ae536c87461c447ec42d2041eb06a7ae88a7f19756ef3187d",
+    "scripts/prepare_diversity_published.py": "0feec341a9079e6e964b8685a1fe2cf549db27a739deef2a0295c71f2cc8d44f",
+    "scripts/._prepare_diversity_extension.py": "86de8ef84cd9fe7ae536c87461c447ec42d2041eb06a7ae88a7f19756ef3187d",
+    "scripts/prepare_diversity_extension.py": "b38c184acab4d1f903a6c33fbc684bfd5eb00fc037fa50df04632bdfb421330c",
+    "scripts/collect_diversity_catalogue.py": "ebdcc237b32527c0f55ac9fa162c99291a4c8ebafeb6aa2a38035fbfc0689d72",
+    "scripts/audit_diversity_carriers.py": "b3472784d57e26e846b44da8a7d4f8ca1cc0af398e42dbc3b669c0c7b22c3cef",
+    "scripts/merge_diversity_catalogues.py": "c1e3b428d04bd581e541f7b3b44878e72f4720122062ab82e4453a491d669e4e",
+    "scripts/audit_merrild_screen.py": "abdcd9a5e81b5a5c4e096b1f1d05c48bba8591cf017a86784b9b697ca72641a7",
+    "scripts/diagnose_merrild_precursors.py": "22596455f4e4cfb9f3392a3adf063787326f582f228fffaeca560467fbba9ca5",
+    "config/diversity_linux_pilot_selection.tsv": "ae7ce9232cde5f3975cf26180b6255e0da05c659e6a64ab257317fa5940049a2",
+    "config/diversity_species_6_selection.tsv": "e72dd7a2bc9a510c40f532112b639766058f9669213b807a95a3f5a0eb8b7220",
+    "config/diversity_species_2_selection.tsv": "a625e0ccb395e0b1f2d9090b45fd1e814fc79354b021dafbb765283f62400ad7",
+    "config/diversity_species_3_selection.tsv": "6084da2617bf05d324657540f2aa109400c0689f36c68c50f6c4feb255b80e48",
+    "config/diversity_species_4_selection.tsv": "5988d3255510c3a0cd209faf33711ede965098e19c27eb3ffac52206beab9c1c",
+    "config/diversity_species_5_selection.tsv": "6ea36370c4f5785724cb9cdda947bf7c0fc0b48b1f6d83390cba64febd1cc7c8",
+    "config/diversity_species_0_selection.tsv": "7c508ef4bd1e9c517b4fcfaa0b54658c6dcace7c876e7358f6ca965a8907a119",
+    "config/diversity_species_1_selection.tsv": "1193ececaa0f027c74199f4ebe0951a0dfea07edfffc5c7828a38e6a958b1cef",
+    "config/diversity_species_7_selection.tsv": "c7b69e2ab4a6b48c5b1177a7e8ec0da43b4bad82cc71fbc40eb82df825557e92",
+    "config/diversity_controls_0_selection.tsv": "7e2656296b45189b2c063c51d0a7669312c9080da0e378b953141dc8608fe9e2",
+    "config/diversity_extension_pilot_selection.tsv": "d4923f2dc7ac0f935a34a52a270b3c2ecd9d441c73c6b96a3607cdbe25b0b683",
+    "config/diversity_extension_3_selection.tsv": "656ee3dc7c96767f2486edfcda945cb14b703de9a22c05dc91f9ea658cbefc19",
+    "config/diversity_extension_1_selection.tsv": "b94a6b8e2e72b04cdb3210202bf44b13736e0deea3b8a5a95a6a2d92cff4d9cc",
+    "config/diversity_extension_2_selection.tsv": "f656e4ccd1b17a0db1980fd36a8bf36f813b7ac6c95e205f9653631ce6a162c8",
+    "config/diversity_extension_0_selection.tsv": "48cb0b1fc5ca1763740ec2c88b6cdc7991bc19a6c3d3dbf55c08099e6a111b69",
+    "config/diversity_extension_7_selection.tsv": "78fa7b04effdfc6cb87017dd2dbcb6e31dac5ab6bb2c489bb1e0902d59cd4455",
+    "config/diversity_extension_5_selection.tsv": "2a208ebfa3148fc4af8512121ba1c1ae489752343a33ded513e0d31e5fcadec4",
+    "config/diversity_extension_6_selection.tsv": "817f5c2ce181de684636a06b02cc73708e9a5c1dbc3526d51152a0fbd09b30c0",
+    "config/diversity_extension_4_selection.tsv": "60d8ff901dd10e2c831274078692e7097afc41a8bae068c5e8ba9f11700e94b9",
+    "config/diversity_controls_selection.tsv": "e4d4c7cc0920af54c1323856b5a01379f855dc89ad45324b4cd22a2bc8d56886",
+    "config/diversity_extension_selection.tsv": "2361c7805156cb5e14bbb59d4aec7103c1c16506a85d4726924dfd622ac16467",
+    "config/diversity_protocol.json": "6c48c354c8616b92ab05cb46a4667fd9c0437e2976fd5ef454260cd4caf0343a",
+    "config/diversity_carrier_identity_review.tsv": "ae6f710ad315da6bed1f3176de575cf24d7820259c35c949f66bbd55a9e6ec09",
+    "results/tables/diversity_merged_occurrences.tsv": "05d6589434d58fc444f9d4378066d9a11656153b4dea4943fa16553c4a50cb47",
+    "results/tables/diversity_merged_BGC_catalogue.tsv": "af9eda2e605877b5156fb92259434498fa61ff0c97c470892c8c95d32349d73a",
+    "results/tables/diversity_merged_uncertain.tsv": "74b06ab814c5941f79bbadc9d3d3aaf2181b3565a0d1b0c6c922da75f9501866",
+    "results/tables/diversity_merged_core_gene_evidence.tsv": "19b37d50516fae496a7597c41223801db86df8a62823fe11d2c516cb35178719",
+    "results/tables/diversity_M2_precursor_similarity.tsv": "c09d1a5136147c14939a227f205bbff1f6845822a70f52724fbb2edfbf0bbbb1",
+    "scripts/resolve_merrild_carriers.py": "7d29d32529d5e1761ee0f262454c8466392f9b70835713c4be500ff9dc08ab14",
+    "config/diversity_extension_scope.json": "5d74bb1724afd25a7cdd32d20de452c1c1f39391cbf6e87e8ac0a69722cc9660",
+    "config/diversity_extension_download_manifest.json": "54135f95ecc9a32cfa73561062871ca24b41d51feb7042382f9303dd5d352da3",
+    "config/diversity_extension_metadata_snapshots.zip": "ed2b3fae1993ea18ad31cf93a064581152d217eb5d71298b5d14e8a7258d27e1",
+    "results/tables/diversity_merged_gene_DNA_validation.tsv": "d7047f27ff11c63fc82050b6cb5b7bb318ab02d74370f75b03c483a412d3653a",
+    "results/tables/diversity_merrild_coverage.tsv": "93f5c0c2f94111a8ae868a2f11b3366de0ca8101af16962033fa72df58d2293c",
+    "results/tables/diversity_merrild_screen_stages.tsv": "23e5d120b6d65f77374aabd885237c4693146369d94a7ff376bb97e98dc0590e",
+    "results/tables/diversity_merrild_precursor_diagnostics.tsv": "b59e77a3ba0df86789e961fa4693d7320bc741980b86ad6102d12ce96f1b6cce",
+    "results/tables/diversity_merrild_criteria_trace.tsv": "ca60e7079a69d9301d2c30777d211d4a45174fdad3b888c156df494d91711482",
+    "results/tables/diversity_newer_literature_audit.json": "bfdc634747b2d12ec9abd1c0afcc548625453129d750c5b410f23e422a4e2a71",
+    "reviews/2026-10-13-interbiome-diversity.md": "db56c0927e73daa7d689186d3c3651f8b9d91c1eb66826206a9cec9f2549ac9d",
+    "reviews/2026-10-13-interbiome-scope.md": "e6debcf25e2cc2885ac6842b423e5778c8c9912490c0153d4b6d0de7449a8ff0"
+  },
+  "validation": {
+    "selected_core_gene_DNA_matches": "488/488 formal-stage source gene rows; historical S3 not reclassified",
+    "existing_regression_checks": "6 passed",
+    "final_cluster_replay": "937655 COMPLETED exit0:0"
+  }
+}

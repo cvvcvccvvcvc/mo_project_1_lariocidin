@@ -1,0 +1,23 @@
+{
+  "cdd_batch_00_submission": {
+    "bytes": 156,
+    "local_path": "data/raw/diversity_2026-10-12/cdd_batch_00_submission.txt",
+    "retrieved_utc": "2026-10-12T18:14:22.383181+00:00",
+    "sha256": "d8b9e6934d83420c03b773200a68a0fec65988a376800d5cca74806bf33a5824",
+    "url": "https://www.ncbi.nlm.nih.gov/Structure/bwrpsb/bwrpsb.cgi"
+  },
+  "cdd_hits": {
+    "bytes": 466493,
+    "local_path": "data/raw/diversity_2026-10-12/cdd_hits.tsv",
+    "retrieved_utc": "2026-10-12T18:11:27.590312+00:00",
+    "sha256": "8651ce7f45671ca25bc08a21e622e15fbbafc105fb6f4f51a0c4e057db153abc",
+    "url": "https://www.ncbi.nlm.nih.gov/Structure/bwrpsb/bwrpsb.cgi?cdsid=QM3-qcdsearch-123B4C56759D4E5C-3B1BCA228966BFD8&tdata=hits&dmode=std&qdefl=true&cddefl=true"
+  },
+  "cdd_submission": {
+    "bytes": 156,
+    "local_path": "data/raw/diversity_2026-10-12/cdd_submission.txt",
+    "retrieved_utc": "2026-10-12T18:10:25.072061+00:00",
+    "sha256": "c437f41a3980b4966b6ed7e970b3faa82674ec13e7325b28b11022a5f0b09c56",
+    "url": "https://www.ncbi.nlm.nih.gov/Structure/bwrpsb/bwrpsb.cgi"
+  }
+}

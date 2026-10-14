@@ -1,0 +1,48 @@
+{
+  "status": "fixed_selection_before_launch",
+  "sources": {
+    "Marine": {
+      "version": "v2.0",
+      "all_records": 50866,
+      "eligible_species_reps": 12133,
+      "source_types": {
+        "MAG": 12071,
+        "Isolate": 62
+      }
+    },
+    "Marine_Sediment": {
+      "version": "v1.0",
+      "all_records": 10126,
+      "eligible_species_reps": 5310,
+      "source_types": {
+        "MAG": 5020,
+        "Isolate": 290
+      }
+    },
+    "Human_Gut": {
+      "version": "v3.0",
+      "all_records": 286621,
+      "eligible_species_reps": 6425,
+      "source_types": {
+        "MAG": 5538,
+        "Isolate": 887
+      }
+    }
+  },
+  "selected_proteomes": {
+    "Marine": 12133,
+    "Human_Gut": 6410,
+    "Marine_Sediment": 5310,
+    "RefSeq": 162
+  },
+  "exact_accession_overlaps_omitted": 15,
+  "merrild_initial_coverage": {
+    "carrier_not_resolved": 103,
+    "other_strain_same_NCBI_species_selected": 95,
+    "resolved_published_carrier_absent": 88,
+    "exact_published_carrier_selected": 27
+  },
+  "criteria": "unchanged_diversity_protocol",
+  "stopping_rule": "one_pooled_extension_then_result_interpretation_no_all_nonreference_RefSeq",
+  "HGT": "unchanged"
+}

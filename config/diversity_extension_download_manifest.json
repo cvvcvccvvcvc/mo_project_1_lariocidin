@@ -1,0 +1,612 @@
+{
+  "CCUG20834_strain_aliases": {
+    "bytes": 14452,
+    "local_path": "data/raw/diversity_extension_2026-10-13/CCUG20834_strain_aliases.html",
+    "retrieved_utc": "2026-10-13T11:44:24.532650+00:00",
+    "sha256": "cc461731aa0ca5bb9403cd109ef42b599f6f10c33fcca2cf99adc20cc95ffad3",
+    "url": "https://www.ccug.se/strain?id=20834"
+  },
+  "JCM12172_strain_aliases": {
+    "bytes": 7802,
+    "local_path": "data/raw/diversity_extension_2026-10-13/JCM12172_strain_aliases.html",
+    "retrieved_utc": "2026-10-13T11:44:22.881848+00:00",
+    "sha256": "98cfd51491f9edffcbd5e75097288d0eea4a01587e4f39b5b2f3faf5215ccdec",
+    "url": "https://www.jcm.riken.jp/cgi-bin/jcm/jcm_number?JCM=12172"
+  },
+  "JCM5010_strain_aliases": {
+    "bytes": 7374,
+    "local_path": "data/raw/diversity_extension_2026-10-13/JCM5010_strain_aliases.html",
+    "retrieved_utc": "2026-10-13T11:36:02.673418+00:00",
+    "sha256": "42aeddfc05fe5862edbd3cc7ba85ffaad2882c173e573cbf6e2a0ee002b79999",
+    "url": "https://www.jcm.riken.jp/cgi-bin/jcm/jcm_number?JCM=5010"
+  },
+  "JCM9310_strain_aliases": {
+    "bytes": 991,
+    "local_path": "data/raw/diversity_extension_2026-10-13/JCM9310_strain_aliases.html",
+    "retrieved_utc": "2026-10-13T11:46:38.213254+00:00",
+    "sha256": "ebde909745595df8aafd8748ea6b43dbd7459ea6b16add96d163c24e6ef07fa4",
+    "url": "https://www.jcm.riken.jp/cgi-bin/jcm/jcm_number?JCM=9310"
+  },
+  "NCBI_caryophylli_type": {
+    "bytes": 44467,
+    "local_path": "data/raw/diversity_extension_2026-10-13/NCBI_caryophylli_type.html",
+    "retrieved_utc": "2026-10-13T11:44:23.772833+00:00",
+    "sha256": "b84413a0d6d76f493b2c08930e606a11e31e02a0a679ff4cca0ee486088fbddf",
+    "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28094"
+  },
+  "extension_refseq_metadata_00": {
+    "bytes": 193155,
+    "local_path": "data/raw/diversity_extension_2026-10-13/extension_refseq_metadata_00.json",
+    "retrieved_utc": "2026-10-13T09:39:50.126571+00:00",
+    "sha256": "84391cee7126ae0246d5db25da9f3c44a8d9ce759915d51200117e4e28104398",
+    "url": "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/accession/GCF_000186125.1,GCF_000193415.1,GCF_000231075.2,GCF_000280905.1,GCF_000472845.1,GCF_000514435.1,GCF_000670435.1,GCF_000670455.1,GCF_000812465.1,GCF_000948275.1,GCF_000949135.2,GCF_001083795.1,GCF_001955855.1,GCF_001955865.1,GCF_002550475.1,GCF_002550645.1,GCF_002571465.1,GCF_002879875.1,GCF_002933115.1,GCF_002975315.1,GCF_003028655.1,GCF_003710935.1,GCF_003854275.1,GCF_003857985.1,GCF_003994375.1,GCF_006658625.1,GCF_008180465.1,GCF_009377295.1,GCF_011174915.1,GCF_011751595.1,GCF_012516315.1,GCF_013284485.1,GCF_013302895.1,GCF_013314535.1,GCF_013357965.1,GCF_013358065.1,GCF_013358115.1,GCF_014338615.1,GCF_014842675.1,GCF_015477055.1,GCF_015550535.1,GCF_015999545.1,GCF_016622115.1,GCF_017356985.1,GCF_018070605.1,GCF_018274415.1,GCF_018614205.1,GCF_018614355.1,GCF_018614975.1,GCF_018741285.1/dataset_report?page_size=1000"
+  },
+  "extension_refseq_metadata_01": {
+    "bytes": 194754,
+    "local_path": "data/raw/diversity_extension_2026-10-13/extension_refseq_metadata_01.json",
+    "retrieved_utc": "2026-10-13T09:39:51.089234+00:00",
+    "sha256": "b07ad177e4de536c95a24558589e124107e1050477bc4356c3248b66ddcc1a62",
+    "url": "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/accession/GCF_019263595.1,GCF_019793795.1,GCF_020496225.1,GCF_021044705.1,GCF_021653975.1,GCF_022832475.1,GCF_023022945.1,GCF_025846855.2,GCF_026789545.1,GCF_026790595.1,GCF_026792105.1,GCF_027158125.1,GCF_027257875.1,GCF_027460265.1,GCF_028863165.1,GCF_029867355.1,GCF_030268165.1,GCF_030268885.1,GCF_030815985.1,GCF_030816325.1,GCF_030817705.1,GCF_031455635.1,GCF_035804975.1,GCF_035805255.1,GCF_035809135.1,GCF_035818335.1,GCF_035830835.1,GCF_036212645.1,GCF_036216845.1,GCF_036216865.1,GCF_036621315.1,GCF_037907165.1,GCF_037911585.1,GCF_038008685.1,GCF_038900695.1,GCF_040149425.2,GCF_040272795.1,GCF_040296705.1,GCF_040299345.1,GCF_040300825.1,GCF_040303465.1,GCF_040606465.1,GCF_040610655.1,GCF_040611175.1,GCF_040611815.1,GCF_040611935.1,GCF_040612275.1,GCF_040613155.1,GCF_040630375.1,GCF_040632275.1/dataset_report?page_size=1000"
+  },
+  "extension_refseq_metadata_02": {
+    "bytes": 203652,
+    "local_path": "data/raw/diversity_extension_2026-10-13/extension_refseq_metadata_02.json",
+    "retrieved_utc": "2026-10-13T09:39:52.258558+00:00",
+    "sha256": "e6a5b9f7fd317592ad32ff7552161469465f9db619d9154eadb5ccb44971fadf",
+    "url": "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/accession/GCF_040632435.1,GCF_040632445.1,GCF_040632455.1,GCF_040632505.1,GCF_040639015.1,GCF_040644035.1,GCF_040659795.1,GCF_040678235.1,GCF_040680595.1,GCF_040684415.1,GCF_040701725.1,GCF_040946265.1,GCF_041262605.1,GCF_042261905.1,GCF_042270255.1,GCF_042667115.1,GCF_042673865.1,GCF_042718355.1,GCF_042718755.1,GCF_042718795.1,GCF_042720675.1,GCF_042732975.1,GCF_042735535.1,GCF_042749695.1,GCF_042797515.1,GCF_042799295.1,GCF_042800595.1,GCF_042869215.1,GCF_042869455.1,GCF_042869575.1,GCF_042869715.1,GCF_042879415.1,GCF_042882305.1,GCF_042890265.1,GCF_043656355.1,GCF_044332345.1,GCF_044334115.1,GCF_044387595.1,GCF_044389265.1,GCF_044389345.1,GCF_044389845.1,GCF_044390825.1,GCF_044458165.1,GCF_044461185.1,GCF_044593195.1,GCF_044747625.1,GCF_044756005.1,GCF_044767625.1,GCF_044767975.1,GCF_050272275.1/dataset_report?page_size=1000"
+  },
+  "extension_refseq_metadata_03": {
+    "bytes": 49009,
+    "local_path": "data/raw/diversity_extension_2026-10-13/extension_refseq_metadata_03.json",
+    "retrieved_utc": "2026-10-13T09:39:53.378111+00:00",
+    "sha256": "54095c967769626e06992d199b9fcfac13f82ac4d3b653ac1c1d66518c02c9a5",
+    "url": "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/accession/GCF_050275235.1,GCF_050367005.1,GCF_053586955.1,GCF_053587015.1,GCF_053588155.1,GCF_053590845.1,GCF_053592555.1,GCF_053604055.1,GCF_053605665.1,GCF_060394495.1,GCF_900095505.1,GCF_900177465.1/dataset_report?page_size=1000"
+  },
+  "final_candidate_BioSamples": {
+    "bytes": 10363,
+    "interpretation_limit": "Only exact SAMN accession matches usable; foreign identifiers were resolved to unrelated numeric IDs by NCBI and those records were discarded; W1118 record unrelated to catalogue, unused.",
+    "local_path": "data/raw/diversity_extension_2026-10-13/final_candidate_BioSamples.xml",
+    "retrieved_utc": "2026-10-13T13:40:50.115859+00:00",
+    "sha256": "d66345b7e9b846a94806540644dfabce225975ee95374921741a81061731280c",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=biosample&id=SAMN09932323,SAMD00222841,SAMEA2247663,SAMN07206915,SAMN07521004&retmode=xml"
+  },
+  "final_candidate_SAMD00222841": {
+    "bytes": 3699,
+    "local_path": "data/raw/diversity_extension_2026-10-13/final_candidate_SAMD00222841.xml",
+    "retrieved_utc": "2026-10-13T13:41:29.749611+00:00",
+    "sha256": "f67bb8dd37e08d379fdbd76d7ec8a00f72f695219e60c444faa51484bca9ab2e",
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/SAMD00222841"
+  },
+  "final_candidate_SAMEA2247663": {
+    "bytes": 2870,
+    "local_path": "data/raw/diversity_extension_2026-10-13/final_candidate_SAMEA2247663.xml",
+    "retrieved_utc": "2026-10-13T13:41:30.277483+00:00",
+    "sha256": "f2622f8529689309162bd1c47dca983f09472faa6d811ef6155243535375e1c8",
+    "url": "https://www.ebi.ac.uk/ena/browser/api/xml/SAMEA2247663"
+  },
+  "final_candidate_ncbi_BioSamples": {
+    "bytes": 3777,
+    "local_path": "data/raw/diversity_extension_2026-10-13/final_candidate_ncbi_BioSamples.xml",
+    "retrieved_utc": "2026-10-13T13:52:15.457727+00:00",
+    "sha256": "7b3896b17bd777588725b004cf60c5a1314eb92ff70c108048303971a01fd543",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=biosample&id=SAMN09932323,SAMN07206915&retmode=xml"
+  },
+  "final_soil_candidate_BioSamples": {
+    "bytes": 6514,
+    "local_path": "data/raw/diversity_extension_2026-10-13/final_soil_candidate_BioSamples.xml",
+    "retrieved_utc": "2026-10-13T13:42:17.017309+00:00",
+    "sha256": "e10cef6bc90d249f3d255859ae906b210fc8ad38bde0558f6829c7332e107cb2",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=biosample&id=SAMN18298960,SAMN18298961&retmode=xml"
+  },
+  "follower_JATS": {
+    "bytes": 79959,
+    "local_path": "data/raw/diversity_extension_2026-10-13/follower_JATS.xml",
+    "retrieved_utc": "2026-10-13T09:45:42.102698+00:00",
+    "sha256": "9950bd90326d2daca9318d5f1a2c03756b43f254d64675c562b987bb6732d3fc",
+    "url": "https://www.biorxiv.org/content/early/2026/07/06/2026.07.03.736388.source.xml"
+  },
+  "gelatinamin_osf_files": {
+    "bytes": 8751,
+    "local_path": "data/raw/diversity_extension_2026-10-13/gelatinamin_osf_files.json",
+    "retrieved_utc": "2026-10-13T09:45:36.689013+00:00",
+    "sha256": "b61323d49a54587a7f7918f3e7ccc5a9052a43ec1141a0c18baee884f751d6a2",
+    "url": "https://api.osf.io/v2/nodes/xhmrf/files/osfstorage/"
+  },
+  "gelatinamin_plasmid_listing": {
+    "bytes": 12340,
+    "local_path": "data/raw/diversity_extension_2026-10-13/gelatinamin_plasmid_listing.json",
+    "retrieved_utc": "2026-10-13T09:48:03.345704+00:00",
+    "sha256": "7aa0ab7cefaf23f26ae6349375c57f76a606e8e0bfab2cba8daf87cfaec2f1eb",
+    "url": "https://api.osf.io/v2/nodes/xhmrf/files/osfstorage/68165bdd6c0912f6f39fdd5e/"
+  },
+  "human-gut_README_v3.0": {
+    "bytes": 96023,
+    "local_path": "data/raw/diversity_extension_2026-10-13/human-gut_README_v3.0.txt",
+    "retrieved_utc": "2026-10-13T09:34:08.477529+00:00",
+    "sha256": "c030f676dd6e21c58406bed462f23bd7d6a4b198cfbf1909057e055607f84f1e",
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/human-gut/v3.0/README_v3.0.txt"
+  },
+  "human-gut_genomes-all_metadata": {
+    "bytes": 113806255,
+    "local_path": "data/raw/diversity_extension_2026-10-13/human-gut_genomes-all_metadata.tsv",
+    "retrieved_utc": "2026-10-13T09:34:33.478717+00:00",
+    "sha256": "dd3cbd4efdb6235c037c59aa3f4ef4559d92534ba01059c4badaa0de592f95b9",
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/human-gut/v3.0/genomes-all_metadata.tsv"
+  },
+  "human-gut_known_issues": {
+    "bytes": 1581,
+    "local_path": "data/raw/diversity_extension_2026-10-13/human-gut_known_issues.txt",
+    "retrieved_utc": "2026-10-13T09:34:34.497875+00:00",
+    "sha256": "66b7ef3f86c9084cd3dfca300921bbaff95625365630ebd793634c38a25622e0",
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/human-gut/v3.0/known_issues.txt"
+  },
+  "human-gut_latest_index": {
+    "bytes": 3169,
+    "local_path": "data/raw/diversity_extension_2026-10-13/human-gut_latest_index.html",
+    "retrieved_utc": "2026-10-13T09:33:45.552302+00:00",
+    "sha256": "907b3aad5f68f8ebdff5ca1a27c65394b38c5692045c83e0b1feeed849c6457a",
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/human-gut/v3.0/"
+  },
+  "human-gut_versions": {
+    "bytes": 1758,
+    "local_path": "data/raw/diversity_extension_2026-10-13/human-gut_versions.html",
+    "retrieved_utc": "2026-10-13T09:26:15.326960+00:00",
+    "sha256": "ef97491be84dc57d52a0543de7cf72a087c8cf468d418b18ae1529a7d969496f",
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/human-gut/"
+  },
+  "m2_PDB9DFC": {
+    "bytes": 20136,
+    "local_path": "data/raw/diversity_extension_2026-10-13/m2_PDB9DFC.json",
+    "retrieved_utc": "2026-10-13T09:42:09.594439+00:00",
+    "sha256": "12df199fc168c2393711820188d7484f987f53dcded91de9cd7e0ba8bb3fb389",
+    "url": "https://data.rcsb.org/rest/v1/core/entry/9DFC"
+  },
+  "m2_PDB9DFC_fasta": {
+    "bytes": 16590,
+    "local_path": "data/raw/diversity_extension_2026-10-13/m2_PDB9DFC_fasta.faa",
+    "retrieved_utc": "2026-10-13T09:42:10.526672+00:00",
+    "sha256": "591130ff041aab406e3397ff94018da09f332b4eb2418edbec5f9cb0178d188c",
+    "url": "https://www.rcsb.org/fasta/entry/9DFC/display"
+  },
+  "marine-sediment_README_v1.0": {
+    "bytes": 15810,
+    "local_path": "data/raw/diversity_extension_2026-10-13/marine-sediment_README_v1.0.txt",
+    "retrieved_utc": "2026-10-13T09:34:06.648875+00:00",
+    "sha256": "8cbd8edd66f5eb8b356f128cd0b4663e1b36cece7b2a5a455d0db3eead73957a",
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/marine-sediment/v1.0/README_v1.0.txt"
+  },
+  "marine-sediment_genomes-all_metadata": {
+    "bytes": 4065235,
+    "local_path": "data/raw/diversity_extension_2026-10-13/marine-sediment_genomes-all_metadata.tsv",
+    "retrieved_utc": "2026-10-13T09:34:07.844470+00:00",
+    "sha256": "a6ffa0978c591c6e0fccb7a759b7fa59d87317691cb4ee9bb81d9f761078e0f0",
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/marine-sediment/v1.0/genomes-all_metadata.tsv"
+  },
+  "marine-sediment_latest_index": {
+    "bytes": 2777,
+    "local_path": "data/raw/diversity_extension_2026-10-13/marine-sediment_latest_index.html",
+    "retrieved_utc": "2026-10-13T09:33:45.136958+00:00",
+    "sha256": "4f42ca4b5c1be550887cd1bde82430dfc0b1be74ac45f301e99d98ff535f0de2",
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/marine-sediment/v1.0/"
+  },
+  "marine-sediment_versions": {
+    "bytes": 1002,
+    "local_path": "data/raw/diversity_extension_2026-10-13/marine-sediment_versions.html",
+    "retrieved_utc": "2026-10-13T09:26:14.457000+00:00",
+    "sha256": "f0aad6c1ce4ba04633c2d9a228e055bc38211b458962a85e5c7e039f5df5eb2e",
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/marine-sediment/"
+  },
+  "marine_README_v2.0": {
+    "bytes": 27182,
+    "local_path": "data/raw/diversity_extension_2026-10-13/marine_README_v2.0.txt",
+    "retrieved_utc": "2026-10-13T09:34:02.662897+00:00",
+    "sha256": "68c87dfade32201a0946644cd241a3534fe34940095b413c68a3e7d538265747",
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/marine/v2.0/README_v2.0.txt"
+  },
+  "marine_genomes-all_metadata": {
+    "bytes": 20621312,
+    "local_path": "data/raw/diversity_extension_2026-10-13/marine_genomes-all_metadata.tsv",
+    "retrieved_utc": "2026-10-13T09:34:06.225171+00:00",
+    "sha256": "084e482695b93b0cf9be1334ed2c9efba42de3120281bca4799eb8033725b251",
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/marine/v2.0/genomes-all_metadata.tsv"
+  },
+  "marine_latest_index": {
+    "bytes": 3180,
+    "local_path": "data/raw/diversity_extension_2026-10-13/marine_latest_index.html",
+    "retrieved_utc": "2026-10-13T09:33:44.713076+00:00",
+    "sha256": "f2d925bb1d66b277f8e4d47b7079635ea23ce47a3146cd3bdb3d5bfdff0ff9d6",
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/marine/v2.0/"
+  },
+  "marine_versions": {
+    "bytes": 1174,
+    "local_path": "data/raw/diversity_extension_2026-10-13/marine_versions.html",
+    "retrieved_utc": "2026-10-13T09:26:14.038228+00:00",
+    "sha256": "8f6e33005ab232dba0824bab09f8f2a33b165e713338beb0d4d47f4f02b5b4ea",
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/marine/"
+  },
+  "merrild_article": {
+    "bytes": 5048495,
+    "local_path": "data/raw/diversity_extension_2026-10-13/merrild_article.pdf",
+    "retrieved_utc": "2026-10-13T09:45:43.642456+00:00",
+    "sha256": "1cd4af3e7f21f2da14a9e68e7c3ab796d7c707f5f255d9c8e00f3e940fb281d1",
+    "url": "https://d-nb.info/1358881979/34"
+  },
+  "merrild_final_refseq_controls": {
+    "bytes": 19450,
+    "local_path": "data/raw/diversity_extension_2026-10-13/merrild_final_refseq_controls.json",
+    "retrieved_utc": "2026-10-13T09:56:52.156534+00:00",
+    "sha256": "e829b0702feab7ea75825a8205a17162fd157c338b5c93d8d1a89c77b3554606",
+    "url": "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/accession/GCF_039527485.1,GCF_900519125.1,GCF_963888115.1,GCF_963863825.1,GCF_037976035.1/dataset_report?page_size=1000"
+  },
+  "merrild_nucleotide_AHFV01000041": {
+    "bytes": 302,
+    "local_path": "data/raw/diversity_extension_2026-10-13/merrild_nucleotide_AHFV01000041.json",
+    "retrieved_utc": "2026-10-13T09:49:25.142613+00:00",
+    "sha256": "99ea80c098069bd0e7ffe8d6c0915731641a198283de96f20266a5757cc4fc9d",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=nuccore&term=AHFV01000041%5BAccession%5D&retmode=json&retmax=2"
+  },
+  "merrild_nucleotide_AHFV01000041__assembly_summary": {
+    "bytes": 4548,
+    "local_path": "data/raw/diversity_extension_2026-10-13/merrild_nucleotide_AHFV01000041__assembly_summary.json",
+    "retrieved_utc": "2026-10-13T09:49:27.171216+00:00",
+    "sha256": "1feec7931478cb8582296ba15171a3ebd71a70b5a467a4a9859a9e9894d4700e",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=assembly&id=690538&retmode=json"
+  },
+  "merrild_nucleotide_AHFV01000041_assembly": {
+    "bytes": 192,
+    "local_path": "data/raw/diversity_extension_2026-10-13/merrild_nucleotide_AHFV01000041_assembly.json",
+    "retrieved_utc": "2026-10-13T09:49:26.178260+00:00",
+    "sha256": "847b2805299cf5573fcd81170599d49e8a598c4a24c7c464d390aefa0d385882",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=nuccore&db=assembly&id=500558136&retmode=json"
+  },
+  "merrild_nucleotide_BAAAJZ010000009": {
+    "bytes": 309,
+    "local_path": "data/raw/diversity_extension_2026-10-13/merrild_nucleotide_BAAAJZ010000009.json",
+    "retrieved_utc": "2026-10-13T09:49:28.166919+00:00",
+    "sha256": "9a8b7c28282819363913da781965ca60fd33f9651220678710948a07b6702f62",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=nuccore&term=BAAAJZ010000009%5BAccession%5D&retmode=json&retmax=2"
+  },
+  "merrild_nucleotide_BAAAJZ010000009__assembly_summary": {
+    "bytes": 9025,
+    "local_path": "data/raw/diversity_extension_2026-10-13/merrild_nucleotide_BAAAJZ010000009__assembly_summary.json",
+    "retrieved_utc": "2026-10-13T09:49:30.222730+00:00",
+    "sha256": "65a26a7572c2a0c416d21f04240f46b754665d46e0d856f574086cbd76dbd079",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=assembly&id=22554591%2C22554591&retmode=json"
+  },
+  "merrild_nucleotide_BAAAJZ010000009_assembly": {
+    "bytes": 266,
+    "local_path": "data/raw/diversity_extension_2026-10-13/merrild_nucleotide_BAAAJZ010000009_assembly.json",
+    "retrieved_utc": "2026-10-13T09:49:29.294864+00:00",
+    "sha256": "35ef301f33453596d781934a8d5122e9b6c1555120d09fda6680566b74f8d0e6",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=nuccore&db=assembly&id=2681991037&retmode=json"
+  },
+  "merrild_nucleotide_BGC0002150": {
+    "bytes": 359,
+    "local_path": "data/raw/diversity_extension_2026-10-13/merrild_nucleotide_BGC0002150.json",
+    "retrieved_utc": "2026-10-13T09:49:31.181599+00:00",
+    "sha256": "77255dbeb2fdf692a721097844c1668335dfb4bd882c69e0ab0adb503799f5cb",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=nuccore&term=BGC0002150%5BAccession%5D&retmode=json&retmax=2"
+  },
+  "merrild_nucleotide_BGC0002151": {
+    "bytes": 359,
+    "local_path": "data/raw/diversity_extension_2026-10-13/merrild_nucleotide_BGC0002151.json",
+    "retrieved_utc": "2026-10-13T09:49:32.173610+00:00",
+    "sha256": "225b88fe800b67e38665b14df64b31d2eda500ccac518e9f7e4d7ce92437c746",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=nuccore&term=BGC0002151%5BAccession%5D&retmode=json&retmax=2"
+  },
+  "merrild_nucleotide_BMVG01000044.1": {
+    "bytes": 307,
+    "local_path": "data/raw/diversity_extension_2026-10-13/merrild_nucleotide_BMVG01000044.1.json",
+    "retrieved_utc": "2026-10-13T09:49:33.320419+00:00",
+    "sha256": "7509e2c9ee110309bdefae767d6d1129acfc569d99198b96b2028913ec25df56",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=nuccore&term=BMVG01000044.1%5BAccession%5D&retmode=json&retmax=2"
+  },
+  "merrild_nucleotide_BMVG01000044.1__assembly_summary": {
+    "bytes": 9089,
+    "local_path": "data/raw/diversity_extension_2026-10-13/merrild_nucleotide_BMVG01000044.1__assembly_summary.json",
+    "retrieved_utc": "2026-10-13T09:49:35.558928+00:00",
+    "sha256": "87d35e40c4024b9c9cc6d154696aa33ef4eeef174b625c280f3822a1ba2a79ee",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=assembly&id=8120841%2C8120841&retmode=json"
+  },
+  "merrild_nucleotide_BMVG01000044.1_assembly": {
+    "bytes": 264,
+    "local_path": "data/raw/diversity_extension_2026-10-13/merrild_nucleotide_BMVG01000044.1_assembly.json",
+    "retrieved_utc": "2026-10-13T09:49:34.405825+00:00",
+    "sha256": "5cc66efc2e5c922de4dd38ed21729cd79ceb95d5535abf9458f1d555d92a4968",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=nuccore&db=assembly&id=1904238423&retmode=json"
+  },
+  "merrild_nucleotide_CAWLTP010000025": {
+    "bytes": 309,
+    "local_path": "data/raw/diversity_extension_2026-10-13/merrild_nucleotide_CAWLTP010000025.json",
+    "retrieved_utc": "2026-10-13T09:49:36.509689+00:00",
+    "sha256": "dc020b160b2675a9f9c289fd7329f8521dd88f433ac2d83393a1ccc5ffd2c404",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=nuccore&term=CAWLTP010000025%5BAccession%5D&retmode=json&retmax=2"
+  },
+  "merrild_nucleotide_CAWLTP010000025__assembly_summary": {
+    "bytes": 8933,
+    "local_path": "data/raw/diversity_extension_2026-10-13/merrild_nucleotide_CAWLTP010000025__assembly_summary.json",
+    "retrieved_utc": "2026-10-13T09:49:38.685258+00:00",
+    "sha256": "83ef1d0c4bd5fad035b1116485ef86ba513f29b7113046d65b2931c94f6bf557",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=assembly&id=21723011%2C21723011&retmode=json"
+  },
+  "merrild_nucleotide_CAWLTP010000025_assembly": {
+    "bytes": 266,
+    "local_path": "data/raw/diversity_extension_2026-10-13/merrild_nucleotide_CAWLTP010000025_assembly.json",
+    "retrieved_utc": "2026-10-13T09:49:37.584917+00:00",
+    "sha256": "e900c7afce86adedf26983598b17a8775992cd4fe57ae2f64b390740bba85597",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=nuccore&db=assembly&id=2691648700&retmode=json"
+  },
+  "merrild_nucleotide_CAWPIB010000002": {
+    "bytes": 309,
+    "local_path": "data/raw/diversity_extension_2026-10-13/merrild_nucleotide_CAWPIB010000002.json",
+    "retrieved_utc": "2026-10-13T09:49:39.673677+00:00",
+    "sha256": "722d208b3532465c7d66545d6b466b2c51c98bd7bce9ee515c1f5e8c5a8016d3",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=nuccore&term=CAWPIB010000002%5BAccession%5D&retmode=json&retmax=2"
+  },
+  "merrild_nucleotide_CAWPIB010000002__assembly_summary": {
+    "bytes": 8911,
+    "local_path": "data/raw/diversity_extension_2026-10-13/merrild_nucleotide_CAWPIB010000002__assembly_summary.json",
+    "retrieved_utc": "2026-10-13T09:49:41.653293+00:00",
+    "sha256": "ceb316e4126bf067f94caf8b997baa1c48fae6782e2ca3d935411052cbb1edd2",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=assembly&id=21756471%2C21756471&retmode=json"
+  },
+  "merrild_nucleotide_CAWPIB010000002_assembly": {
+    "bytes": 266,
+    "local_path": "data/raw/diversity_extension_2026-10-13/merrild_nucleotide_CAWPIB010000002_assembly.json",
+    "retrieved_utc": "2026-10-13T09:49:40.783133+00:00",
+    "sha256": "bc6844c20290e35688a6495b658975f4b4ad641cbe3477626ad79b16e4eb914a",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=nuccore&db=assembly&id=2691703811&retmode=json"
+  },
+  "merrild_nucleotide_CP006668": {
+    "bytes": 294,
+    "local_path": "data/raw/diversity_extension_2026-10-13/merrild_nucleotide_CP006668.json",
+    "retrieved_utc": "2026-10-13T09:49:42.922455+00:00",
+    "sha256": "13341a0f53c774e4f654d21d9a7e0ebffb940001dfbd9bece81d0d1c56a16646",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=nuccore&term=CP006668%5BAccession%5D&retmode=json&retmax=2"
+  },
+  "merrild_nucleotide_CP006668__assembly_summary": {
+    "bytes": 4447,
+    "local_path": "data/raw/diversity_extension_2026-10-13/merrild_nucleotide_CP006668__assembly_summary.json",
+    "retrieved_utc": "2026-10-13T09:49:45.377591+00:00",
+    "sha256": "77e401d8469b60d0a0fb69da988b5ea3f21ff3efd440e6046d2b38fab32dbd48",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=assembly&id=66041&retmode=json"
+  },
+  "merrild_nucleotide_CP006668_assembly": {
+    "bytes": 181,
+    "local_path": "data/raw/diversity_extension_2026-10-13/merrild_nucleotide_CP006668_assembly.json",
+    "retrieved_utc": "2026-10-13T09:49:44.160686+00:00",
+    "sha256": "11cd16a40b3e5e3e38c359a35b51b9b9f09cad6c9609b6c250f856fb72219f05",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=nuccore&db=assembly&id=546340292&retmode=json"
+  },
+  "merrild_nucleotide_CP120585": {
+    "bytes": 295,
+    "local_path": "data/raw/diversity_extension_2026-10-13/merrild_nucleotide_CP120585.json",
+    "retrieved_utc": "2026-10-13T09:49:46.341475+00:00",
+    "sha256": "7898d62f475a165e6f626bc04d3c487847bb39da5a36fe6b8e7cb1008e52fde3",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=nuccore&term=CP120585%5BAccession%5D&retmode=json&retmax=2"
+  },
+  "merrild_nucleotide_CP120585__assembly_summary": {
+    "bytes": 4135,
+    "local_path": "data/raw/diversity_extension_2026-10-13/merrild_nucleotide_CP120585__assembly_summary.json",
+    "retrieved_utc": "2026-10-13T09:49:48.585204+00:00",
+    "sha256": "325c5b4eea662c8952b937b0bcc05bc836d949b0e2aac8bbb842969cdd6e753b",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=assembly&id=28498771&retmode=json"
+  },
+  "merrild_nucleotide_CP120585_assembly": {
+    "bytes": 185,
+    "local_path": "data/raw/diversity_extension_2026-10-13/merrild_nucleotide_CP120585_assembly.json",
+    "retrieved_utc": "2026-10-13T09:49:47.656273+00:00",
+    "sha256": "5ce47e3e45e47695c6b6ac2292ba54fab4d56a498c3884b18b16b17a0222474f",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=nuccore&db=assembly&id=2957969839&retmode=json"
+  },
+  "merrild_nucleotide_CP150260": {
+    "bytes": 295,
+    "local_path": "data/raw/diversity_extension_2026-10-13/merrild_nucleotide_CP150260.json",
+    "retrieved_utc": "2026-10-13T09:49:49.529046+00:00",
+    "sha256": "b619274ec4c01d5b2afee26e5a8b456218c020b488fa6b896d3af9248ded3236",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=nuccore&term=CP150260%5BAccession%5D&retmode=json&retmax=2"
+  },
+  "merrild_nucleotide_CP150260__assembly_summary": {
+    "bytes": 4197,
+    "local_path": "data/raw/diversity_extension_2026-10-13/merrild_nucleotide_CP150260__assembly_summary.json",
+    "retrieved_utc": "2026-10-13T09:49:51.537811+00:00",
+    "sha256": "6ac2c5969bc6cf0aeea0d3ae09d54106cfb2e06abe60cc48895adebed045be25",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=assembly&id=55964898&retmode=json"
+  },
+  "merrild_nucleotide_CP150260_assembly": {
+    "bytes": 185,
+    "local_path": "data/raw/diversity_extension_2026-10-13/merrild_nucleotide_CP150260_assembly.json",
+    "retrieved_utc": "2026-10-13T09:49:50.623068+00:00",
+    "sha256": "a86667d2dfc8000e429615c4363668e0257bf2502e98afa6de3fd6c0cfdefdb3",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=nuccore&db=assembly&id=2709930441&retmode=json"
+  },
+  "merrild_nucleotide_DARXCD010000053": {
+    "bytes": 369,
+    "local_path": "data/raw/diversity_extension_2026-10-13/merrild_nucleotide_DARXCD010000053.json",
+    "retrieved_utc": "2026-10-13T09:49:52.685734+00:00",
+    "sha256": "3d3c252440850b724417070b62a337cd72a65a589be4eb1f0c8ea0a40a7f22f9",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=nuccore&term=DARXCD010000053%5BAccession%5D&retmode=json&retmax=2"
+  },
+  "merrild_nucleotide_FMHU01000002.1": {
+    "bytes": 307,
+    "local_path": "data/raw/diversity_extension_2026-10-13/merrild_nucleotide_FMHU01000002.1.json",
+    "retrieved_utc": "2026-10-13T09:49:53.713542+00:00",
+    "sha256": "e952193c055b2b5d74949a29c35cf06bb3d2436d9426a543b927c0e680a63f33",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=nuccore&term=FMHU01000002.1%5BAccession%5D&retmode=json&retmax=2"
+  },
+  "merrild_nucleotide_FMHU01000002.1__assembly_summary": {
+    "bytes": 9549,
+    "local_path": "data/raw/diversity_extension_2026-10-13/merrild_nucleotide_FMHU01000002.1__assembly_summary.json",
+    "retrieved_utc": "2026-10-13T09:49:56.018323+00:00",
+    "sha256": "5c5b86a8fa5bb895116c8db773b4c60c0659a52e16c7697a87735c95542745f7",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=assembly&id=789921%2C789921&retmode=json"
+  },
+  "merrild_nucleotide_FMHU01000002.1_assembly": {
+    "bytes": 262,
+    "local_path": "data/raw/diversity_extension_2026-10-13/merrild_nucleotide_FMHU01000002.1_assembly.json",
+    "retrieved_utc": "2026-10-13T09:49:54.843304+00:00",
+    "sha256": "7ad54ad2083af8b998dfbc64f262cf818ceb73f01830915c193273725696db53",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=nuccore&db=assembly&id=1059543685&retmode=json"
+  },
+  "merrild_nucleotide_FNLO01000002.1": {
+    "bytes": 307,
+    "local_path": "data/raw/diversity_extension_2026-10-13/merrild_nucleotide_FNLO01000002.1.json",
+    "retrieved_utc": "2026-10-13T09:49:56.970865+00:00",
+    "sha256": "015a3395c79a6013a860ab5fc10eb51e3c3819ab4c09e80b30b4927ac71e5d3a",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=nuccore&term=FNLO01000002.1%5BAccession%5D&retmode=json&retmax=2"
+  },
+  "merrild_nucleotide_FNLO01000002.1__assembly_summary": {
+    "bytes": 9523,
+    "local_path": "data/raw/diversity_extension_2026-10-13/merrild_nucleotide_FNLO01000002.1__assembly_summary.json",
+    "retrieved_utc": "2026-10-13T09:49:59.207807+00:00",
+    "sha256": "6481fde856c7eb0e3eb7a8592c93dd9efa8941c7fb7925e6d7d35060fc8d8615",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=assembly&id=866861%2C866861&retmode=json"
+  },
+  "merrild_nucleotide_FNLO01000002.1_assembly": {
+    "bytes": 262,
+    "local_path": "data/raw/diversity_extension_2026-10-13/merrild_nucleotide_FNLO01000002.1_assembly.json",
+    "retrieved_utc": "2026-10-13T09:49:58.227566+00:00",
+    "sha256": "74644fdd6e5ac12ec3f8fa69c8e512a9f2c2646679ff3cf821c25072547f3c26",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=nuccore&db=assembly&id=1089132211&retmode=json"
+  },
+  "merrild_nucleotide_JARMRH010000052": {
+    "bytes": 369,
+    "local_path": "data/raw/diversity_extension_2026-10-13/merrild_nucleotide_JARMRH010000052.json",
+    "retrieved_utc": "2026-10-13T09:50:00.198951+00:00",
+    "sha256": "10ec887655bb1f8de125d192a25431519daa9feb96d99d48a8a911cc34d49dd8",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=nuccore&term=JARMRH010000052%5BAccession%5D&retmode=json&retmax=2"
+  },
+  "merrild_nucleotide_JARMRI010000075": {
+    "bytes": 369,
+    "local_path": "data/raw/diversity_extension_2026-10-13/merrild_nucleotide_JARMRI010000075.json",
+    "retrieved_utc": "2026-10-13T09:50:01.187785+00:00",
+    "sha256": "87e0f2067ac8afc93fdde8a75a2ab170ba21f6a47f3f3f7d677532519572a253",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=nuccore&term=JARMRI010000075%5BAccession%5D&retmode=json&retmax=2"
+  },
+  "merrild_nucleotide_JARMRJ010000024": {
+    "bytes": 369,
+    "local_path": "data/raw/diversity_extension_2026-10-13/merrild_nucleotide_JARMRJ010000024.json",
+    "retrieved_utc": "2026-10-13T09:50:02.432988+00:00",
+    "sha256": "e3497106a095b940c74e6764dfcdeec21853c902d8394df2c19c42b3aacb78d6",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=nuccore&term=JARMRJ010000024%5BAccession%5D&retmode=json&retmax=2"
+  },
+  "merrild_nucleotide_LS992241": {
+    "bytes": 295,
+    "local_path": "data/raw/diversity_extension_2026-10-13/merrild_nucleotide_LS992241.json",
+    "retrieved_utc": "2026-10-13T09:50:03.388485+00:00",
+    "sha256": "349f6ac1d1124fcd10445fcd1f50c200c879fdfb61e1c2ce0909472242509c3b",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=nuccore&term=LS992241%5BAccession%5D&retmode=json&retmax=2"
+  },
+  "merrild_nucleotide_LS992241__assembly_summary": {
+    "bytes": 4330,
+    "local_path": "data/raw/diversity_extension_2026-10-13/merrild_nucleotide_LS992241__assembly_summary.json",
+    "retrieved_utc": "2026-10-13T09:50:05.760821+00:00",
+    "sha256": "b1d08498935499662ba6ccb5f58c68a19197a300bf5ded03b695b2324007af43",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=assembly&id=3020581&retmode=json"
+  },
+  "merrild_nucleotide_LS992241_assembly": {
+    "bytes": 184,
+    "local_path": "data/raw/diversity_extension_2026-10-13/merrild_nucleotide_LS992241_assembly.json",
+    "retrieved_utc": "2026-10-13T09:50:04.755294+00:00",
+    "sha256": "11354834c919f32d2fc47c1025b66834e5d8b0ff71ead8cc80e91d5dae193bfc",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=nuccore&db=assembly&id=1465383833&retmode=json"
+  },
+  "merrild_nucleotide_RBXO01000001.1": {
+    "bytes": 307,
+    "local_path": "data/raw/diversity_extension_2026-10-13/merrild_nucleotide_RBXO01000001.1.json",
+    "retrieved_utc": "2026-10-13T09:50:06.851026+00:00",
+    "sha256": "104c9e975533c826cf3fdf074b0ae9c82465297f101f84b43503fd2809645022",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=nuccore&term=RBXO01000001.1%5BAccession%5D&retmode=json&retmax=2"
+  },
+  "merrild_nucleotide_RBXO01000001.1__assembly_summary": {
+    "bytes": 8937,
+    "local_path": "data/raw/diversity_extension_2026-10-13/merrild_nucleotide_RBXO01000001.1__assembly_summary.json",
+    "retrieved_utc": "2026-10-13T09:50:09.231226+00:00",
+    "sha256": "5c49750c39d40c3187e313a3f7340fed87b15a44ac9ba0d798708ec35a99a885",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=assembly&id=2011271%2C2011271&retmode=json"
+  },
+  "merrild_nucleotide_RBXO01000001.1_assembly": {
+    "bytes": 264,
+    "local_path": "data/raw/diversity_extension_2026-10-13/merrild_nucleotide_RBXO01000001.1_assembly.json",
+    "retrieved_utc": "2026-10-13T09:50:08.212051+00:00",
+    "sha256": "451ed276924e2db73ee4237e5c90021752ea495c9b98696e91da1c0cf87bbc95",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=nuccore&db=assembly&id=1488972776&retmode=json"
+  },
+  "merrild_nucleotide_RHHS01000024.1": {
+    "bytes": 307,
+    "local_path": "data/raw/diversity_extension_2026-10-13/merrild_nucleotide_RHHS01000024.1.json",
+    "retrieved_utc": "2026-10-13T09:50:10.422222+00:00",
+    "sha256": "8f9988f2205e7751dd40134f9ef9d22d3423250f6133f34071079fa23fe5abd3",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=nuccore&term=RHHS01000024.1%5BAccession%5D&retmode=json&retmax=2"
+  },
+  "merrild_nucleotide_RHHS01000024.1__assembly_summary": {
+    "bytes": 8767,
+    "local_path": "data/raw/diversity_extension_2026-10-13/merrild_nucleotide_RHHS01000024.1__assembly_summary.json",
+    "retrieved_utc": "2026-10-13T09:50:12.619969+00:00",
+    "sha256": "31f411b93716486f79b7bbe1ae6e84ea1481fe619f25449ae6ab4e4caa0aa4ca",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=assembly&id=2067981%2C2067981&retmode=json"
+  },
+  "merrild_nucleotide_RHHS01000024.1_assembly": {
+    "bytes": 264,
+    "local_path": "data/raw/diversity_extension_2026-10-13/merrild_nucleotide_RHHS01000024.1_assembly.json",
+    "retrieved_utc": "2026-10-13T09:50:11.543083+00:00",
+    "sha256": "60cc21ec2448d5bd31d38725174c18d019d4958692650cb60f0420ed17d1f9bd",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=nuccore&db=assembly&id=1508859314&retmode=json"
+  },
+  "merrild_nucleotide_VJOK01000002.1": {
+    "bytes": 367,
+    "local_path": "data/raw/diversity_extension_2026-10-13/merrild_nucleotide_VJOK01000002.1.json",
+    "retrieved_utc": "2026-10-13T09:50:13.638666+00:00",
+    "sha256": "4dfc1f38347ec9166e5b6036e7e5307c69ad6f14c9199905415334182ec87319",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=nuccore&term=VJOK01000002.1%5BAccession%5D&retmode=json&retmax=2"
+  },
+  "merrild_unresolved_samples_0": {
+    "bytes": 1438,
+    "local_path": "data/raw/diversity_extension_2026-10-13/merrild_unresolved_samples_0.json",
+    "retrieved_utc": "2026-10-13T09:49:21.001875+00:00",
+    "sha256": "53f7fedcd4eee69492fb7f870c66f3a137cfddc19353b1fb58b154957d1caeab",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=assembly&term=SAMEA1018298%5BAll+Fields%5D+OR+SAMEA104411591%5BAll+Fields%5D+OR+SAMEA104411596%5BAll+Fields%5D+OR+SAMEA104411605%5BAll+Fields%5D+OR+SAMEA104411642%5BAll+Fields%5D+OR+SAMEA104411656%5BAll+Fields%5D+OR+SAMEA104411665%5BAll+Fields%5D+OR+SAMEA104411684%5BAll+Fields%5D+OR+SAMEA13299636%5BAll+Fields%5D+OR+SAMEA2042076%5BAll+Fields%5D+OR+SAMEA2340876%5BAll+Fields%5D+OR+SAMEA2340887%5BAll+Fields%5D+OR+SAMEA2340901%5BAll+Fields%5D+OR+SAMEA2627029%5BAll+Fields%5D+OR+SAMEA2661005%5BAll+Fields%5D+OR+SAMEA3359873%5BAll+Fields%5D+OR+SAMEA3359899%5BAll+Fields%5D+OR+SAMEA3504618%5BAll+Fields%5D+OR+SAMEA3504625%5BAll+Fields%5D+OR+SAMEA5607302%5BAll+Fields%5D&retmode=json&retmax=1000"
+  },
+  "merrild_unresolved_samples_20": {
+    "bytes": 869,
+    "local_path": "data/raw/diversity_extension_2026-10-13/merrild_unresolved_samples_20.json",
+    "retrieved_utc": "2026-10-13T09:49:21.994128+00:00",
+    "sha256": "7882feb8e9fe0f6d5d255e47498a6f1d4bce25db148638effbf2389b9f7c5ca0",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=assembly&term=SAMEA970869%5BAll+Fields%5D+OR+SAMEA970882%5BAll+Fields%5D+OR+SAMN02195006%5BAll+Fields%5D+OR+SAMN02199259%5BAll+Fields%5D+OR+SAMN03018408%5BAll+Fields%5D+OR+SAMN03649451%5BAll+Fields%5D+OR+SAMN08912797%5BAll+Fields%5D+OR+SAMN08912927%5BAll+Fields%5D+OR+SAMN08913095%5BAll+Fields%5D+OR+SAMN08913278%5BAll+Fields%5D+OR+SAMN09727225%5BAll+Fields%5D+OR+SAMN09932352%5BAll+Fields%5D+OR+SAMN09932439%5BAll+Fields%5D+OR+SAMN09932516%5BAll+Fields%5D+OR+SAMN10361570%5BAll+Fields%5D+OR+SAMN13955582%5BAll+Fields%5D+OR+SAMN17211779%5BAll+Fields%5D+OR+SAMN17211784%5BAll+Fields%5D+OR+SAMN17211789%5BAll+Fields%5D+OR+SAMN17211794%5BAll+Fields%5D&retmode=json&retmax=1000"
+  },
+  "merrild_unresolved_samples_20__assembly_summary": {
+    "bytes": 4416,
+    "local_path": "data/raw/diversity_extension_2026-10-13/merrild_unresolved_samples_20__assembly_summary.json",
+    "retrieved_utc": "2026-10-13T09:49:22.940010+00:00",
+    "sha256": "3b4b9f35c5699003149093411d4a1a836666c1e3245828ef6d0bec48a2f31814",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=assembly&id=19752941&retmode=json"
+  },
+  "merrild_unresolved_samples_40": {
+    "bytes": 1188,
+    "local_path": "data/raw/diversity_extension_2026-10-13/merrild_unresolved_samples_40.json",
+    "retrieved_utc": "2026-10-13T09:49:24.136763+00:00",
+    "sha256": "e3e4d23d78cbd35750148ee6246db90534fdb029580b2929a386e81a89a1fac4",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=assembly&term=SAMN17211799%5BAll+Fields%5D+OR+SAMN17211804%5BAll+Fields%5D+OR+SAMN17301536%5BAll+Fields%5D+OR+SAMN33241596%5BAll+Fields%5D+OR+SAMN33241597%5BAll+Fields%5D+OR+SAMN33241598%5BAll+Fields%5D+OR+SAMN33241599%5BAll+Fields%5D+OR+SAMN33241600%5BAll+Fields%5D+OR+SAMN33241605%5BAll+Fields%5D+OR+SAMN33241608%5BAll+Fields%5D+OR+SAMN33241609%5BAll+Fields%5D+OR+SAMN33241610%5BAll+Fields%5D+OR+SAMN33241611%5BAll+Fields%5D+OR+SAMN33241612%5BAll+Fields%5D+OR+SAMN33241614%5BAll+Fields%5D+OR+SAMN33241615%5BAll+Fields%5D&retmode=json&retmax=1000"
+  },
+  "mgnify_catalogue_root": {
+    "bytes": 4681,
+    "local_path": "data/raw/diversity_extension_2026-10-13/mgnify_catalogue_root.html",
+    "retrieved_utc": "2026-10-13T09:23:00.253137+00:00",
+    "sha256": "434c163e5f5cba1c898e26702a173609b17b1282cf431b4bda86ebe586910a3d",
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/"
+  },
+  "versioned_genome_listing_MGYG000001302.1": {
+    "bytes": 6700,
+    "local_path": "data/raw/diversity_extension_2026-10-13/versioned_genome_listing_MGYG000001302.1.html",
+    "retrieved_utc": "2026-10-13T10:10:51.600937+00:00",
+    "sha256": "a40bfcd9cac8d682e9be9c4aac4bf0617e3e795e0f5545017006fb0f3c410c71",
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/human-gut/v3.0/species_catalogue/MGYG0000013/MGYG000001302.1/genome/"
+  },
+  "versioned_genome_listing_MGYG000003398.1": {
+    "bytes": 6700,
+    "local_path": "data/raw/diversity_extension_2026-10-13/versioned_genome_listing_MGYG000003398.1.html",
+    "retrieved_utc": "2026-10-13T10:10:58.949886+00:00",
+    "sha256": "d6a885b056434fbc78b0c1cf7c6bb518571b774cdc4f4b66172686a8e5ef3398",
+    "url": "https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/human-gut/v3.0/species_catalogue/MGYG0000033/MGYG000003398.1/genome/"
+  }
+}

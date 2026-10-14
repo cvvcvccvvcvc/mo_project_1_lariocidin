@@ -1,0 +1,21 @@
+{
+  "as_of": "2026-10-13",
+  "gelatinamin": {
+    "publication": "10.1002/cbic.70378",
+    "data": "https://osf.io/xhmrf/",
+    "C_exact_Merrild": "cyc_31c0486e9f8e9d81",
+    "A_exact_Merrild": "pre_cd487f642b2e5e12",
+    "limit": "engineered expression plasmid verifies amino-acid references; it is not native genomic DNA"
+  },
+  "follower": {
+    "publication": "10.64898/2026.07.03.736388",
+    "status": "preprint_v1",
+    "native_TriA": "MSKKSKPGDGIRGKGVRGRFMFMDETPEAEATTSIRDSLADLAETLESEARK",
+    "native_TriA_sha256": "1109442c05dda11f3871b7bbdd68edf95ef4eb1ca0968fb7adcc1293dbc36b14",
+    "full_text_and_supplement": "retrieved",
+    "natural_catalogue_expansion": "not reported; study mutates previously described triA and expresses existing genes in heterologous hosts",
+    "Burkholderia": "heterologous host, not established natural carrier"
+  },
+  "other_newer_literature": "2026 LrcE self-resistance work characterizes M2; review articles do not establish new native BGC sequences",
+  "novelty_limit": "No exhaustive proof of global absence; unregistered/inaccessible native genomes and unresolved exported metadata remain outside exact sequence comparisons"
+}
