@@ -20,7 +20,7 @@
 Из этого каталога на машине с micromamba/conda:
 
 ```sh
-micromamba create -y -p .env -f environment.yml
+micromamba create -y -p .env -f environment/environment.yml
 bash scripts/run_reference.sh
 .env/bin/python -m unittest discover -s tests -v
 ```
@@ -29,7 +29,7 @@ bash scripts/run_reference.sh
 
 ## Полный анализ
 
-1. На Linux создайте `.env` из `environment.linux-64.lock`, затем поместите внешние архивы в `inputs/archives/` и проверьте `sha256sum -c inputs/provenance/off_git_assets.sha256`. До публикации архивов полный исторический повтор требует получения этих файлов у автора работы.
+1. На Linux создайте `.env` из `environment/environment.linux-64.lock`, затем поместите внешние архивы в `inputs/archives/` и проверьте `sha256sum -c inputs/provenance/off_git_assets.sha256`. До публикации архивов полный исторический повтор требует получения этих файлов у автора работы.
 2. Запустите `bash scripts/submit_baseline.sh`: он проверит архивы и отправит один Slurm job для опубликованного reference, литературного и Maize baseline, затем подготовки diversity-источников и сравнительных файлов. Проверьте успешное завершение задания до следующего этапа.
 3. Отправьте видовой поиск, контексты и сборку одной командой `bash scripts/submit_species.sh`; она задаёт Slurm-зависимости и не запускает анализ на login node. После видового этапа отправьте `bash scripts/submit_additional.sh extension` и `bash scripts/submit_additional.sh controls` (по отдельности либо параллельно, соблюдая общую квоту). Они используют собственные зафиксированные выборки и сами связывают Slurm-задания. Исторические run manifests фиксируют исходные входы и результаты.
 4. После всех 17 context-shards выполните `bash scripts/submit_diversity_review.sh`. Скрипт проверяет входы, ставит повторную курацию и сборку с зависимостью. Сравните итог с `RESULTS.md`; для нового HGT-снимка используйте `export_diversity_handoff.py --output <новый-каталог>`, не перезаписывая снимок 13 октября.

@@ -90,7 +90,7 @@ def main():
     if set(r['assembly'] for r in references)!=set(accessions):raise ValueError('Incomplete exact RefSeq metadata')
     pd.DataFrame(references).to_csv(ROOT/'inputs/selections/diversity_extension_refseq_metadata.tsv',sep='\t',index=False)
     summary={'status':'fixed_selection_before_launch','sources':counts,'selected_proteomes':pd.DataFrame(selection).source.value_counts().to_dict(),'exact_accession_overlaps_omitted':len(overlaps),'merrild_initial_coverage':pd.DataFrame(coverage).initial_selection_status.value_counts().to_dict(),'criteria':'unchanged_diversity_protocol','stopping_rule':'one_pooled_extension_then_result_interpretation_no_all_nonreference_RefSeq','HGT':'unchanged'}
-    (ROOT/'protocols/diversity_extension_scope.json').write_text(json.dumps(summary,indent=2)+'\n')
+    (ROOT/'inputs/provenance/diversity_extension_scope.json').write_text(json.dumps(summary,indent=2)+'\n')
     print(json.dumps(summary))
 
 

@@ -56,7 +56,7 @@ def main():
               "models_sha256": hashlib.sha256(model_path.read_bytes()).hexdigest(),
               "query_count": len(grouped), "occurrences": len(sequences),
               "limitation": "Targeted panel only; negative result does not exclude domains absent from this panel or divergent RREs."}
-    (ROOT / "protocols/diversity_domain_search.json").write_text(json.dumps(config, indent=2) + "\n")
+    (ROOT / "inputs/provenance/diversity_domain_search.json").write_text(json.dumps(config, indent=2) + "\n")
     domtbl = tables / "diversity_pfam_hits.domtbl"
     command = [str(ROOT / ".env/bin/hmmsearch"), "--cpu", "4", "--seed", "42", "--noali", "--cut_ga",
                "--domtblout", str(domtbl), str(model_path), str(query_path)]
