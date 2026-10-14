@@ -1,6 +1,0 @@
-variant	sequence_count	alignment_columns	focal_split_present	sh_alrt	ufboot	meets_stronger_support_guide
-full_original	30	790	True	95.7	92.0	False
-canonical_original	26	786	True	94.3	86.0	False
-pseudomonadota_default	14	694	False			False
-pseudomonadota_bnni	14	694	False			False
-pseudomonadota_occupancy80_bnni	14	608	False			False

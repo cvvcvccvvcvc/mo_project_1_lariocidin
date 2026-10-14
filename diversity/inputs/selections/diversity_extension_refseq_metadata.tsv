@@ -1,0 +1,163 @@
+assembly	organism	strain	biosample	assembly_level	biosample_title	biosample_package	metagenomic	sample_type	isolation_source	host	country	metagenome_source	wgs_project	source_completeness	source_contamination
+GCF_012516315.1	Limnospira fusiformis SAG 85.79	SAG 85.79	SAMN14546157	Complete Genome	MIGS Cultured Bacterial/Archaeal sample from Limnospira fusiformis	MIGS.ba.water.6.0					Chad:Natron Lake			99.76	0.24
+GCF_018741285.1	Bacillus wiedmannii	JAS07/5	SAMN10879065	Complete Genome	Microbe sample from Bacillus wiedmannii	Microbe.1.0		cell culture	soil		Poland: farmland in Jasienowka			99.41	1.76
+GCF_003994375.1	Streptomyces lydicus	WYEC 108	SAMN08971293	Complete Genome	MIGS Cultured Bacterial/Archaeal sample from Streptomyces lydicus	MIGS.ba.soil.6.0					USA:Providence			99.94	0.69
+GCF_015999545.1	Lysinibacillus sp. JNUCC-52	JNUCC-52	SAMN16879892	Complete Genome	Microbe sample from Lysinibacillus sp. Strain JNUCC-52	Microbe.1.0		Whole organism	Baengnokdam Summit Crater Area, Mt. Halla	soil	South Korea: Jeju Island			88.28	8.99
+GCF_017356985.1	Streptomyces griseocarneus	KCC S-1010	SAMN18118672	Chromosome	Streptomyces griseocarneus KCC S-1010	Microbe.1.0		pure culture	not applicable		not applicable			95.37	1.06
+GCF_002879875.1	Trinickia caryophylli	Ballard 720	SAMN08277009	Contig	MIGS Cultured Bacterial/Archaeal sample from Trinickia caryophylli	MIGS.ba.host-associated.6.0			missing	Carnation	missing		PNXZ01	99.23	1.75
+GCF_000514435.1	Salinispora mooreana	CNT-150	SAMN02597228	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Salinispora mooreana	MIGS.ba.6.0					missing		AZVX01	98.97	0.69
+GCF_003710935.1	Brevibacillus gelatini	DSM 100115	SAMN10331140	Contig	Microbe sample from Brevibacillus gelatini	Microbe.1.0		cell culture	hot spring		Turkey		RHHS01	87.88	5.12
+GCF_000670455.1	Mycobacterium tuberculosis TB_RSA31	TB_RSA31	SAMN02403472	Scaffold	Generic sample from Mycobacterium tuberculosis TB_RSA31	Generic.1.0			missing	Homo sapiens	South Africa		JKWH01	97.64	0.37
+GCF_000670435.1	Mycobacterium tuberculosis TB_RSA30	TB_RSA30	SAMN02403471	Scaffold	Generic sample from Mycobacterium tuberculosis TB_RSA30	Generic.1.0			missing	Homo sapiens	South Africa		JKWI01	97.59	0.37
+GCF_000948275.1	Bacillus licheniformis	5NAP23	SAMN03025777	Contig	Microbe sample Bacillus licheniformis 5NAP23	Microbe.1.0		missing	water		Greece: Thessaloniki, Nea Apollonia		JYBQ01	96.99	0.99
+GCF_002550475.1	Bacillus anthracis	AFS095574	SAMN07598655	Scaffold	Microbe sample from Bacillus anthracis	Microbe.1.0		cell culture	plant root		USA: NC		NVLX01	95.29	5.2
+GCF_016622115.1	Stutzerimonas stutzeri	KOL14.W.495.96	SAMN13075219	Scaffold	Pseudomonas stutzeri	Microbe.1.0		cell culture	submarine volcano		Greece:Santorini, Kolumbo		WIFO01	98.09	0.81
+GCF_018614975.1	Paenibacillus polymyxa	ISL-58	SAMN18298933	Contig	ISL58	MIGS.ba.soil.6.0					Chile: Atacama Desert, between Atacama Salar and Lajia lagoon		JAGGNR01	99.72	0.56
+GCF_015550535.1	Bacillus paralicheniformis	J1101004_170508_A1	SAMN15532482	Scaffold	Microbe sample from Bacillus paralicheniformis	Microbe.1.0		whole organism	stool	Homo sapiens	USA		JADNAZ01	98.78	0.05
+GCF_013284485.1	Bacillus pacificus	HD1.3	SAMN15003255	Contig	Microbe sample from Bacillus pacificus	Microbe.1.0		soil sample	soil from tomato plant		Viet Nam: Hoai Duc, Ha Noi		JABSVD01	99.41	
+GCF_013302895.1	Streptomyces albus subsp. chlorinus	NRRL B-24108	SAMN12230311	Scaffold	Microbe sample from Streptomyces albus subsp. chlorinus	Microbe.1.0		Whole organism	marine sediment		USA		VJOK01	97.6	1.72
+GCF_002571465.1	Bacillus wiedmannii	AFS069985	SAMN07598325	Scaffold	Microbe sample from Bacillus wiedmannii	Microbe.1.0		cell culture	soil		USA: NY		NVID01	98.82	0.1
+GCF_011751595.1	Bacillus albus	B-13	SAMN13865276	Scaffold	Microbe sample from Bacillus albus	Microbe.1.0		single cell	Soybean rhizosphere soil		China:hebei		JAAAWS01	99.41	0.1
+GCF_009377295.1	Paenibacillus glucanolyticus	J12	SAMN12771811	Contig	Microbe sample from Paenibacillus glucanolyticus	Microbe.1.0		cell culture	Inner wall of a refrigerator		Germany: Bonn		VXLF01	99.72	
+GCF_001955865.1	Paenibacillus glucanolyticus	FSL R5-0817	SAMN05929625	Contig	Microbe sample from Paenibacillus glucanolyticus	Microbe.1.0		culture	milk		USA		MRTT01	99.72	0.81
+GCF_008180465.1	Bacillus swezeyi	CH43_1T	SAMN12612710	Contig	Microbe sample from Bacillus swezeyi	Microbe.1.0		Sediment	sediment		Mexico: desert of Cuatro Cienegas, Coahuila		VTEL01	99.41	
+GCF_003028655.1	Trinickia symbiotica	JPY-366	SAMN08794480	Contig	MIGS Cultured Bacterial/Archaeal sample from Trinickia symbiotica	MIGS.ba.plant-associated.6.0				Mimosa	Brazil: Chapada Diamantina, BA		PYUC01	99.69	1.34
+GCF_000472845.1	Paraburkholderia mimosarum STM 3621	STM 3621	SAMN02440788	Scaffold	Generic sample from Burkholderia mimosarum STM 3621	Generic.1.0				Mimosa pudica	French Guiana		AXAO01	97.61	0.64
+GCF_002933115.1	Rathayibacter iranicus	TRS5	SAMN08438723	Contig	Microbe sample from Rathayibacter iranicus	Microbe.1.0		cell culture		Triticum aestivum	Turkey		PSXT01	98.62	1.05
+GCF_000193415.1	Paenibacillus vortex V453	V453	SAMN02471038	Contig	Sample from Paenibacillus vortex V453	Generic.1.0							ADHJ01	93.07	0.19
+GCF_015477055.1	Nocardia beijingensis	N-39	SAMN16551471	Contig	Microbe sample from Nocardia beijingensis	Microbe.1.0		BALF	BALF	Homo sapiens	China:Fujian		JADLRZ01	98.93	2.7
+GCF_002975315.1	Paenibacillus sp. MYb63	MYb63	SAMN07581388	Scaffold	C. elegans microbiome	Microbe.1.0		Whole organism	Rotting apple	Caenorhabditis elegans MY316	Germany: Kiel		PCOX01	99.72	0.09
+GCF_000949135.2	Burkholderia sp. USMB20	USMB20	SAMN03177436	Contig	Microbe sample from Burkholderia sp. USMB20	Microbe.1.0		root nodule	root nodule		Malaysia: Taiping Rubber Plantation, Perak		JTAN02	95.85	0.06
+GCF_014842675.1	Paenibacillus sp. CFBP 13594	CFBP13594	SAMN16237029	Contig	Microbe sample from Paenibacillus CFBP13594	Microbe.1.0		cell culture	Seed	Phaseolus vulgaris	France		JACYVQ01	99.72	1.48
+GCF_000186125.1	Bacillus sp. BT1B_CT2	BT1B_CT2	SAMN02463786	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Bacillus sp. BT1B_CT2	MIGS.ba.6.0			oral swab from a patient with Crohn's disease	Homo sapiens	not provided		ACWC01	95.19	
+GCF_001955855.1	Paenibacillus sp. FSL R5-0765	FSL R5-0765	SAMN05929624	Contig	Microbe sample from Paenibacillus sp. FSL R5-0765	Microbe.1.0		culture	milk		USA		MRTS01	99.72	0.37
+GCF_002550645.1	Bacillus sp. AFS094611	AFS094611	SAMN07598637	Scaffold	Microbe sample from Bacillus sp. AFS094611	Microbe.1.0		cell culture	core	Plant	USA: NC		NVMH01	98.82	0.22
+GCF_003854275.1	Burkholderia sp. Bp8963	Bp8963	SAMN09073220	Contig	Pathogen: environmental/food/other sample from Burkholderia sp. Bp8963	Pathogen.env.1.0			soil		Puerto Rico: CEIBA		QTQP01	100.0	0.62
+GCF_003857985.1	Burkholderia sp. Bp9090	Bp9090	SAMN09073333	Contig	Pathogen: environmental/food/other sample from Burkholderia sp. Bp9090	Pathogen.env.1.0			soil		Puerto Rico: Maunabo		QTPV01	100.0	0.57
+GCF_000231075.2	Amycolatopsis sp. ATCC 39116	ATCC 39116	SAMN00117521	Contig	Generic sample from Amycolatopsis sp. ATCC 39116	Generic.1.0							AFWY03	99.06	0.17
+GCF_000280905.1	Streptomyces sp. AA1529	AA1529	SAMN02470041	Contig	Sample from Streptomyces sp. AA1529	Generic.1.0			marine sediment		China: Yellow Sea		ALAP01	98.07	0.13
+GCF_011174915.1	Photorhabdus sp. RW14-46	RW14-46	SAMN08584168	Scaffold	Microbe sample from Photorhabdus sp. RW14-46	Microbe.1.0		Whole organism	intestines	Heterorhabditis bacteriophora	Rwanda		PUJT01	96.75	0.96
+GCF_013314535.1	Bacillus sp. Xin1	Xin1	SAMN15051669	Contig	Microbe sample from Bacillus sp. Xin1	Microbe.1.0		cell culture	soil		China		JABUAE01	98.82	0.05
+GCF_018614355.1	Streptomyces sp. ISL-22	ISL-22	SAMN18298959	Scaffold	ISL22	MIGS.ba.soil.6.0					Chile: Atacama Desert, between Atacama Salar and Lajia lagoon		JAGGOQ01	93.89	1.33
+GCF_006658625.1	Bradyrhizobium sp. UNPF46	UNPF46	SAMN03770683	Contig	MIGS Cultured Bacterial/Archaeal sample from Bradyrhizobium sp. UNPF46	MIGS.ba.soil.6.0					Japan: Niigata		LFJB01	100.0	0.3
+GCF_000812465.1	Cupriavidus sp. IDO	IDO	SAMN03261525	Contig	Microbe sample from Cupriavidus sp. IDO	Microbe.1.0		cell culture from single colony	soil near the ocean		China: Dalian		JWMA01	98.38	4.57
+GCF_014338615.1	Bacillus sp. Xin	Xin	SAMN15887563	Scaffold	Microbe sample from Bacillus sp. Xin	Microbe.1.0		cell culture	soil	cotton	China		JACRZA01	98.82	0.05
+GCF_018070605.1	Streptomyces sp. B15	B15	SAMN18713693	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Streptomyces sp. B15	MIGS.ba.plant-associated.6.0				Atriplex sp.	Turkey: Samsun		JAGPXJ01	98.83	0.76
+GCF_018614205.1	Streptomyces sp. ISL-36	ISL-36	SAMN18298961	Scaffold	ISL36	MIGS.ba.soil.6.0					Chile: Atacama Desert, between Atacama Salar and Lajia lagoon		JAGGOS01	97.08	1.99
+GCF_013358115.1	Streptomyces lunaelactis	MM29	SAMN15009833	Contig	Microbe sample from Streptomyces lunaelactis	Microbe.1.0		culture isolate	cave		Belgium: Comblain-au-Pont		JABSUG01	99.62	1.52
+GCF_013357965.1	Streptomyces lunaelactis	MM115	SAMN15009843	Contig	Microbe sample from Streptomyces lunaelactis	Microbe.1.0		culture isolate	cave		Belgium: Comblain-au-Pont		JABSUQ01	99.0	1.7
+GCF_013358065.1	Streptomyces lunaelactis	MM31	SAMN15009834	Contig	Microbe sample from Streptomyces lunaelactis	Microbe.1.0		culture isolate	cave		Belgium: Comblain-au-Pont		JABSUH01	99.62	1.64
+GCF_018274415.1	Catenulispora pinistramenti	NF23	SAMN15569046	Contig	Microbe sample from Catenulispora pinistramenti	Microbe.1.0		culture	soil		Poland		JACEGJ01	99.16	2.24
+GCF_001083795.1	Streptomyces sp. SBT349	SBT349	SAMN03468208	Scaffold	Streptomyces sp. SBT349, isolated 2013-05 from marine sponge Sarcotragus spinosulus in Milos, Greece	Microbe.1.0		tissue sample		Sarcotragus spinosulus	Greece: 5-7m offshore Pollonia, Milos		LAVK01	94.41	1.17
+GCF_023022945.1	Bacillus glycinifermentans	MGMM1	SAMN27512390	Complete Genome	MIGS Cultured Bacterial/Archaeal sample from Bacillus glycinifermentans	MIGS.ba.soil.6.0			Chernozemic soil		Russia: Kazan			98.78	0.29
+GCF_021044705.1	Nocardia huaxiensis	BCHNH01	SAMN23376436	Complete Genome	Pathogen: clinical or host-associated sample from Nocardia huaxiensis	Pathogen.cl.1.0			eye	Homo sapiens	China			97.88	4.53
+GCF_019793795.1	Paenibacillus sp. DR312	DR312	SAMN20846937	Complete Genome	Microbe sample from Paenibacillus sp. DR312	Microbe.1.0		whole organism		Rhizosphere of Soybean	South Korea			99.72	0.28
+GCF_040149425.2	Cupriavidus sp. DF5525	73-1	SAMN41705136	Complete Genome	Microbe sample from Cupriavidus sp. DF5525	Microbe.1.0		cell culture	contaminated soil	not applicable	China			99.59	3.55
+GCF_036621315.1	Bacillus thuringiensis	B9	SAMN37921998	Contig	Microbe sample from Bacillus thuringiensis	Microbe.1.0		Cell culture	roots	Peganum harmala	Tunisia: Mednine		JAZIFB01	98.45	0.83
+GCF_040272795.1	Photorhabdus laumondii	S56	SAMN41842375	Scaffold	Microbe sample from Photorhabdus laumondii	Microbe.1.0		Cell culture	nematode		USA: Boston		JBELYA01	98.65	1.03
+GCF_035818335.1	Bacillus glycinifermentans	BD-629	SAMN33940747	Scaffold	Microbe sample from Bacillus glycinifermentans	Microbe.1.0		cell culture	soil		not collected		JARTAJ01	98.48	
+GCF_035804975.1	Bacillus glycinifermentans	CBP-3203	SAMN33940160	Scaffold	Microbe sample from Bacillus glycinifermentans	Microbe.1.0		cell culture	not collected		not collected		JARRTL01	98.78	1.18
+GCF_035805255.1	Bacillus glycinifermentans	CBP-3186	SAMN33940143	Scaffold	Microbe sample from Bacillus glycinifermentans	Microbe.1.0		cell culture	not collected		not collected		JARRUA01	98.78	1.18
+GCF_028863165.1	Xenorhabdus bovienii	MC_235_E_2016	SAMN19312228	Scaffold	Microbe sample from Xenorhabdus bovienii	Microbe.1.0		cell culture	nematodes	Steinernema affine	USA: Indiana, Moores Creek IURTP		JAILST01	97.4	7.22
+GCF_026792105.1	Bacillus haynesii	N5b4	SAMN25999761	Scaffold	Microbe sample from Bacillus haynesii	Microbe.1.0		cell culture	not collected		not collected		JALAQL01	98.78	
+GCF_026790595.1	Bacillus haynesii	M16B2	SAMN25999836	Scaffold	Microbe sample from Bacillus haynesii	Microbe.1.0		cell culture	not collected		not collected		JALANO01	98.73	
+GCF_026789545.1	Bacillus haynesii	N9A12	SAMN25999889	Scaffold	Microbe sample from Bacillus haynesii	Microbe.1.0		cell culture	not collected		not collected		JALALQ01	98.78	0.07
+GCF_037907165.1	Paenibacillus glucanolyticus	NRS-1280	SAMN33770101	Scaffold	Microbe sample from Paenibacillus glucanolyticus	Microbe.1.0		cell culture	not collected		not collected		JARLKM01	99.35	0.2
+GCF_030268165.1	Trinickia caryophylli	NBRC 13591	SAMD00557615	Contig	Burkholderia caryophylli NBRC 13591	MIGS.ba.6.0				Dianthus caryophyllus	Japan:Hyogo, Tsuna, Kariya		BSQD01	99.68	0.51
+GCF_036216865.1	Bacillus swezeyi	B-41299	SAMN32974836	Scaffold	Microbe sample from Bacillus swezeyi	Microbe.1.0		cell culture	soil		Israel: Evolution Canyon		JARMMH01	99.41	
+GCF_036216845.1	Bacillus swezeyi	B-41298	SAMN32974835	Scaffold	Microbe sample from Bacillus swezeyi	Microbe.1.0		cell culture	soil		Israel: Evolution Canyon		JARMMI01	99.41	0.59
+GCF_036212645.1	Bacillus swezeyi	NRS-1553	SAMN32975053	Scaffold	Microbe sample from Bacillus swezeyi	Microbe.1.0		cell culture	not collected		not collected		JARMDZ01	99.41	
+GCF_035809135.1	Bacillus swezeyi	B-41288	SAMN33940597	Scaffold	Microbe sample from Bacillus swezeyi	Microbe.1.0		cell culture	soil		Israel		JARSHY01	99.41	
+GCF_040611815.1	Streptomyces syringium	NPDC006537	SAMN41497577	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Streptomyces syringium	MIGS.ba.6.0			sandy loam; mixed grass prairie		USA		JBEXOY01	99.91	0.74
+GCF_040612275.1	Streptomyces syringium	NPDC006439	SAMN41495855	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Streptomyces syringium	MIGS.ba.6.0			river bank (brown); sandy		USA		JBEXPX01	99.91	0.74
+GCF_030817705.1	Streptomyces afghaniensis	W1I20	SAMN34299895	Contig	Streptomyces afghaniensis W1I20	MIGS.ba.6.0			missing	not applicable	USA: Washington, Lind Dryland Research Station		JAUSZO01	98.86	0.96
+GCF_029867355.1	Nocardia abscessus	740800755	SAMN34231271	Contig	Pathogen: clinical or host-associated sample from Nocardia abscessus	Pathogen.cl.1.0			not applicable	not applicable	not applicable		JARWQP01	97.92	2.91
+GCF_040299345.1	Streptomyces puniciscabiei	NPDC000818	SAMN41495482	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Streptomyces puniciscabiei	MIGS.ba.6.0					Argentina		JBEPBZ01	99.24	1
+GCF_040632275.1	Nocardia beijingensis	NPDC019527	SAMN41498039	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Nocardia beijingensis	MIGS.ba.6.0					not applicable		JBEYBO01	98.81	2.31
+GCF_040610655.1	Nocardia beijingensis	NPDC003889	SAMN41495265	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Nocardia beijingensis	MIGS.ba.6.0			hillside		Indonesia		JBEXMR01	98.72	2.62
+GCF_027460265.1	Streptomyces sp. WMMC940	WMMC940	SAMN32275917	Contig	Microbe sample from Streptomyces sp. WMMC940	Microbe.1.0		Whole organism		Phallusia nigra	USA:Florida, Summerland Key		JAPZBC01	98.39	0.98
+GCF_030815985.1	Paenibacillus sp. W2I17	B21a W2I17	SAMN35085408	Contig	Paenibacillus sp. B21a W2I17	MIGS.ba.6.0			missing	not applicable	USA: Washington, Lind Dryland Research Station		JAUSXM01	96.95	0.56
+GCF_030816325.1	Paenibacillus sp. W4I10	W4I10	SAMN34353143	Contig	Paenibacillus sp. W4I10	MIGS.ba.6.0			missing	not applicable	USA: Washington, Lind Dryland Research Station		JAUSXX01	98.75	
+GCF_037911585.1	Streptomyces sp. GSL17-111	GSL17-111	SAMN39964354	Contig	Microbe sample from Streptomyces sp. GSL17-111	Microbe.1.0		Cell culture	sediment		USA: Great Salt Lake Utah (South Arm)		JBAJNS01	97.63	0.76
+GCF_038008685.1	Lysinibacillus sp. FSL W8-0992	FSL W8-0992	SAMN29228795	Contig	WGS of Bacilli	Microbe.1.0		whole organism	food ingredient	not applicable	not applicable		JBBOZQ01	83.06	8.11
+GCF_020496225.1	Pseudonocardia sp. ICBG162	ICBG162	SAMN19609955	Contig	Microbe sample from Pseudonocardia sp. ICBG162	Microbe.1.0		Cell culture	Brazilian Cerrado	Attine ant	Brazil: Cerrado, SP		JAHLJD01	93.39	9.18
+GCF_025846855.2	Pararhizobium sp. BT-229	BT-229	SAMN31210270	Contig	genome	Microbe.1.0		pure culture		Sophora davidii	China:Yan'an		JAOYTJ01	99.91	10.83
+GCF_022832475.1	Bacillus sp. B19-2	B19-2	SAMN26994084	Scaffold	Microbe sample from Bacillus sp.	Microbe.1.0		pure culture	marine biofilm		China: Hong Kong		JALHKQ01	98.78	0.01
+GCF_031455635.1	Paenibacillus sp. 2003	2003	SAMN18257912	Contig	Paenibacillus sp. 2003	MIGS.ba.6.0			missing	not applicable	USA: Memphis, Nebraska		JAVDTB01	99.72	
+GCF_021653975.1	Amycolatopsis sp. GM8	GM8	SAMN23227703	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Amycolatopsis sp. GM8	MIGS.ba.host-associated.6.0			gut	Macrotermes barneyi	China: Guangdong province		JAJKFK01	97.13	2.57
+GCF_035830835.1	Bacillus sp. AAVF1	AAVF1	SAMN39255887	Contig	Microbe sample from Bacillus sp. AAVF1	Microbe.1.0		cell culture	soil		Mexico: Sonora		JAYMDM01	98.78	
+GCF_040630375.1	Streptomyces triculaminicus	NPDC005810	SAMN41499014	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Streptomyces triculaminicus	MIGS.ba.6.0					not applicable		JBEXXL01	99.81	1.25
+GCF_030268885.1	Kitasatospora phosalacinea	NBRC 14627	SAMD00538323	Scaffold	Kitasatospora phosalacinea NBRC 14627	Generic.1.0		cell culture	soil		Japan		BSSA01	97.73	1.69
+GCF_038900695.1	Paraburkholderia sp. JHI2823	JHI2823	SAMN39286532	Contig	MIGS Cultured Bacterial/Archaeal sample from Paraburkholderia sp. JHI2823	MIGS.ba.symbiont-associated.6.0				Mimosa somnians	Argentina: Parana River, East of Ita Ibate, Corrientes		JAYMRY01	98.97	0.2
+GCF_040303465.1	Streptomyces sp. NPDC095613	NPDC095613	SAMN41497719	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Streptomyces sp. NPDC095613	MIGS.ba.6.0					not applicable		JBEOTH01	99.62	0.85
+GCF_040611175.1	Streptomyces sp. NPDC003036	NPDC003036	SAMN41495606	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Streptomyces sp. NPDC003036	MIGS.ba.6.0					Fiji		JBEXNO01	98.86	1.12
+GCF_040611935.1	Streptomyces sp. NPDC006512	NPDC006512	SAMN41495321	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Streptomyces sp. NPDC006512	MIGS.ba.6.0			sandstone outcrop (tan); sandy		USA		JBEXPG01	99.62	1.83
+GCF_027257875.1	Burkholderia sp. IMCC1007	IMCC1007	SAMN32146873	Scaffold	Microbe sample from Burkholderia sp. IMCC1007	Microbe.1.0		Microorganism	rhizospheric soil	Maize	Malaysia: Pagoh		JAPVQY01	99.57	0.36
+GCF_040296705.1	Streptomyces sp. NPDC002055	NPDC002055	SAMN41495777	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Streptomyces sp. NPDC002055	MIGS.ba.6.0					China		JBEOXS01	100.0	1.89
+GCF_040300825.1	Streptomyces sp. NPDC000229	NPDC000229	SAMN41495188	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Streptomyces sp. NPDC000229	MIGS.ba.6.0					not applicable		JBEPEL01	98.77	2.68
+GCF_027158125.1	Streptomyces sp. H39-C1	H39-C1	SAMN32161932	Scaffold	Microbe sample from Streptomyces sp. H39-C1	Microbe.1.0		rock	rock		Antarctica: Horseshoe Island		JAPVLS01	99.23	1.45
+GCF_040606465.1	Streptomyces sp. NPDC005407	NPDC005407	SAMN41497365	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Streptomyces sp. NPDC005407	MIGS.ba.6.0					not applicable		JBEXEY01	99.57	1.58
+GCF_040613155.1	Streptomyces sp. NPDC006307	NPDC006307	SAMN41498452	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Streptomyces sp. NPDC006307	MIGS.ba.6.0			compost pile; exterior		USA		JBEXRP01	99.4	1.62
+GCF_019263595.1	Pseudonocardia sp. KRD291	KRD291	SAMN16811670	Contig	Microbe sample from Pseudonocardia sp.	Microbe.1.0		Isolate	marine sediment		Southern Ocean		JADQDD01	93.29	7.2
+GCF_042667115.1	Bacillus paralicheniformis	NPDC057332	SAMN43796299	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Bacillus paralicheniformis	MIGS.ba.6.0					China		JBHUZZ01	98.78	
+GCF_042270255.1	Bacillus wiedmannii	NPDC055926	SAMN43787450	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Bacillus wiedmannii	MIGS.ba.6.0					China		JBHJZJ01	99.41	0.44
+GCF_042882305.1	Paenibacillus glucanolyticus	NPDC058225	SAMN43797011	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Paenibacillus glucanolyticus	MIGS.ba.6.0					China		JBHVWI01	99.72	0.2
+GCF_042720675.1	Paenibacillus glucanolyticus	NPDC058493	SAMN43797236	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Paenibacillus glucanolyticus	MIGS.ba.6.0					China		JBHXMV01	99.72	0.2
+GCF_040946265.1	Paenibacillus glucanolyticus	LK2561	SAMN39131991	Contig	Microbe sample from Paenibacillus glucanolyticus	Microbe.1.0		Bacterial Culture	Dorsal	Sus scrofa minusculus	USA: Wisconsin, Madison		JAYWMC01	99.72	
+GCF_042869215.1	Paenibacillus glucanolyticus	NPDC007132	SAMN43992921	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Paenibacillus glucanolyticus	MIGS.ba.6.0					not applicable		JBIAFK01	99.72	
+GCF_044458165.1	Paenibacillus glucanolyticus	NPDC050491	SAMN43996456	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Paenibacillus glucanolyticus	MIGS.ba.6.0					not applicable		JBITHQ01	99.72	
+GCF_042261905.1	Paenibacillus glucanolyticus	NPDC056430	SAMN43795661	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Paenibacillus glucanolyticus	MIGS.ba.6.0					China		JBHJRJ01	99.72	0.2
+GCF_050272275.1	Paenibacillus glucanolyticus	NPDC048992	SAMN46054124	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Paenibacillus glucanolyticus	MIGS.ba.6.0					not applicable		JBNNLY01	95.55	1.63
+GCF_044332345.1	Streptomyces lydicus	NPDC017092	SAMN43993748	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Streptomyces lydicus	MIGS.ba.6.0					not applicable		JBIROV01	99.91	2.18
+GCF_042800595.1	Pseudonocardia alni	NPDC057612	SAMN43796504	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Pseudonocardia alni	MIGS.ba.6.0					China		JBHVGS01	92.61	5.5
+GCF_044747625.1	Streptomyces nodosus	NPDC090066	SAMN43997565	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Streptomyces nodosus	MIGS.ba.6.0					not applicable		JBIVEM01	99.91	3.16
+GCF_043656355.1	Streptomyces cacaoi	NPDC058241	SAMN43797023	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Streptomyces cacaoi	MIGS.ba.6.0					China		JBHVWU01	100.0	0.82
+GCF_042797515.1	Streptomyces cinereoruber	NPDC057809	SAMN43796707	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Streptomyces cinereoruber	MIGS.ba.6.0					China		JBHVLJ01	99.62	1.56
+GCF_044461185.1	Streptomyces qinglanensis	NPDC049883	SAMN43996370	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Streptomyces qinglanensis	MIGS.ba.6.0					not applicable		JBITKS01	98.86	0.19
+GCF_042718795.1	Streptomyces cyaneofuscatus	NPDC058568	SAMN43797292	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Streptomyces cyaneofuscatus	MIGS.ba.6.0					China		JBHXOX01	99.46	0.51
+GCF_042718755.1	Streptomyces cyaneofuscatus	NPDC058569	SAMN43797293	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Streptomyces cyaneofuscatus	MIGS.ba.6.0					China		JBHXOY01	99.27	0.51
+GCF_042718355.1	Amycolatopsis thermoflava	NPDC058585	SAMN43797308	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Amycolatopsis thermoflava	MIGS.ba.6.0					China		JBHXPN01	99.06	1.63
+GCF_040678235.1	Amycolatopsis methanolica	NPDC052744	SAMN41497707	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Amycolatopsis methanolica	MIGS.ba.6.0					not applicable		JBFATH01	98.71	0.66
+GCF_044389265.1	Nocardia beijingensis	NPDC019626	SAMN43994101	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Nocardia beijingensis	MIGS.ba.6.0					not applicable		JBIRXV01	99.11	3.3
+GCF_044389345.1	Nocardia beijingensis	NPDC019619	SAMN43994100	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Nocardia beijingensis	MIGS.ba.6.0					not applicable		JBIRXW01	99.11	3.3
+GCF_044389845.1	Nocardia sp. NPDC019323	NPDC019323	SAMN43994080	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Nocardia sp. NPDC019323	MIGS.ba.6.0					not applicable		JBIRYN01	98.97	1.94
+GCF_040632435.1	Nocardia sp. NPDC019375	NPDC019375	SAMN41496072	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Nocardia sp. NPDC019375	MIGS.ba.6.0					not applicable		JBEYBW01	98.61	1.94
+GCF_044593195.1	Streptomyces sp. NPDC052396	NPDC052396	SAMN43996659	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Streptomyces sp. NPDC052396	MIGS.ba.6.0					not applicable		JBIUAW01	99.53	2.38
+GCF_040684415.1	Streptomyces sp. NPDC091212	NPDC091212	SAMN41497085	Contig	MIGS Cultured Bacterial/Archaeal sample from Streptomyces sp. NPDC091212	MIGS.ba.6.0					not applicable		JBFBGB01	99.62	0.57
+GCF_042869455.1	Streptomyces sp. NPDC007025	NPDC007025	SAMN43992911	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Streptomyces sp. NPDC007025	MIGS.ba.6.0					not applicable		JBIAFT01	98.67	0.19
+GCF_042890265.1	Streptomyces sp. NPDC002209	NPDC002209	SAMN43992578	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Streptomyces sp. NPDC002209	MIGS.ba.6.0					not applicable		JBIARX01	99.62	0.57
+GCF_042869715.1	Streptomyces sp. NPDC006784	NPDC006784	SAMN43992892	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Streptomyces sp. NPDC006784	MIGS.ba.6.0					not applicable		JBIAGJ01	98.62	0.19
+GCF_044756005.1	Streptomyces sp. NPDC092045	NPDC092045	SAMN43997798	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Streptomyces sp. NPDC092045	MIGS.ba.6.0					not applicable		JBIVSC01	99.24	0.88
+GCF_044767975.1	Streptomyces sp. NPDC101181	NPDC101181	SAMN43998264	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Streptomyces sp. NPDC101181	MIGS.ba.6.0					not applicable		JBIWOX01	99.15	
+GCF_044334115.1	Streptomyces sp. NPDC020858	NPDC020858	SAMN43994263	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Streptomyces sp. NPDC020858	MIGS.ba.6.0					not applicable		JBIRSG01	99.62	0.76
+GCF_042735535.1	Streptomyces sp. NPDC059568	NPDC059568	SAMN43798057	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Streptomyces sp. NPDC059568	MIGS.ba.6.0					South Korea		JBHWBT01	99.53	1.64
+GCF_044387595.1	Streptomyces triculaminicus	NPDC020323	SAMN43994150	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Streptomyces triculaminicus	MIGS.ba.6.0					not applicable		JBIRWF01	99.91	0.68
+GCF_042732975.1	Streptomyces sp. NPDC059743	NPDC059743	SAMN43798187	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Streptomyces sp. NPDC059743	MIGS.ba.6.0					South Korea		JBHWGS01	99.43	1.45
+GCF_042869575.1	Streptomyces sp. NPDC006925	NPDC006925	SAMN43992900	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Streptomyces sp. NPDC006925	MIGS.ba.6.0					not applicable		JBIAGB01	97.92	0.28
+GCF_044390825.1	Streptomyces sp. NPDC018833	NPDC018833	SAMN43994055	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Streptomyces sp. NPDC018833	MIGS.ba.6.0					not applicable		JBIRZM01	100.0	1.99
+GCF_044767625.1	Streptomyces sp. NPDC101224	NPDC101224	SAMN43998285	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Streptomyces sp. NPDC101224	MIGS.ba.6.0					not applicable		JBIWOF01	99.24	0.88
+GCF_041262605.1	Kitasatospora sp. GAS1066B	GAS1066B	SAMN41528239	Contig	Kitasatospora sp. GAS1066B	Microbe.1.0		whole organism		not applicable	missing		JBGCCO01	99.24	2.61
+GCF_040644035.1	Streptomyces sp. NPDC047042	NPDC047042	SAMN41496335	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Streptomyces sp. NPDC047042	MIGS.ba.6.0			soil		Comoros		JBEYVP01	99.78	0.57
+GCF_040632455.1	Nocardia sp. NPDC019304	NPDC019304	SAMN41495695	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Nocardia sp. NPDC019304	MIGS.ba.6.0					not applicable		JBEYBY01	98.61	1.94
+GCF_040632445.1	Nocardia sp. NPDC019309	NPDC019309	SAMN41496281	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Nocardia sp. NPDC019309	MIGS.ba.6.0					not applicable		JBEYBX01	98.61	1.94
+GCF_042799295.1	Streptomyces sp. NPDC057695	NPDC057695	SAMN43796576	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Streptomyces sp. NPDC057695	MIGS.ba.6.0					China		JBHVIY01	99.91	1.18
+GCF_040632505.1	Nocardia sp. NPDC019302	NPDC019302	SAMN41495872	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Nocardia sp. NPDC019302	MIGS.ba.6.0					not applicable		JBEYBZ01	98.61	2.85
+GCF_040659795.1	Pseudonocardia sp. NPDC049635	NPDC049635	SAMN41497660	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Pseudonocardia sp. NPDC049635	MIGS.ba.6.0					not applicable		JBFAON01	90.76	4.12
+GCF_040701725.1	Streptomyces sp. NPDC093109	NPDC093109	SAMN41496672	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Streptomyces sp. NPDC093109	MIGS.ba.6.0					not applicable		JBFBEZ01	99.62	1.83
+GCF_042673865.1	Streptomyces sp. NPDC056987	NPDC056987	SAMN43796030	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Streptomyces sp. NPDC056987	MIGS.ba.6.0					China		JBHURV01	99.62	1.01
+GCF_040639015.1	Streptomyces sp. NPDC023998	NPDC023998	SAMN41495898	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Streptomyces sp. NPDC023998	MIGS.ba.6.0					not applicable		JBEZZC01	100.0	1.86
+GCF_042879415.1	Photorhabdus sp. RM125S	RM125S	SAMN43547067	Contig	Microbe sample from Photorhabdus sp. RM125S	Microbe.1.0		Cell Culture		Heterorhabditis	missing		JBHFKS01	98.33	1.01
+GCF_040680595.1	Streptomyces sp. NPDC052015	NPDC052015	SAMN41496213	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Streptomyces sp. NPDC052015	MIGS.ba.6.0					not applicable		JBFAWZ01	99.53	10.31
+GCF_042749695.1	Streptomyces sp. NPDC059479	NPDC059479	SAMN43797999	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Streptomyces sp. NPDC059479	MIGS.ba.6.0					South Korea		JBHYUF01	98.72	1.58
+GCF_060394495.1	Photorhabdus cinerea	DSM 19724	SAMN60694393	Complete Genome	Microbe sample from Photorhabdus cinerea	Microbe.1.0		Bacteria		Heterorhabditis downesi	Switzerland		JBZTBD01	93.81	2.24
+GCF_050367005.1	Streptomyces albus subsp. chlorinus	NRRL B-24108	SAMN48328717	Complete Genome	Microbe sample from Streptomyces albus subsp. chlorinus NRRL B-24108	Microbe.1.0		pure culture	soil		missing			98.45	1.72
+GCF_900095505.1	Bacillus wiedmannii	RIVM_BC120	SAMEA4361422	Scaffold	Bacillus cereus RIVM_BC120	Generic.1.0							FMIJ01	99.41	1.76
+GCF_050275235.1	Paenibacillus glucanolyticus	NPDC005966	SAMN46054029	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Paenibacillus glucanolyticus	MIGS.ba.6.0					Taiwan		JBNNOY01	99.72	
+GCF_900177465.1	Trinickia caryophylli	Ballard 720	SAMN06295900	Scaffold	Paraburkholderia caryophylli Ballard 720	MIGS.ba.6.0			missing	not applicable	missing		FXAH01	99.68	0.51
+GCF_053605665.1	Nocardia beijingensis	NPDC003772	SAMN41498605	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Nocardia beijingensis	MIGS.ba.6.0			near roots		Indonesia		JBSGJS01	98.87	2.44
+GCF_053590845.1	Nocardia beijingensis	NPDC003181	SAMN41498268	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Nocardia beijingensis	MIGS.ba.6.0					Indonesia		JBSFTI01	98.87	2.35
+GCF_053588155.1	Nocardia beijingensis	NPDC003479	SAMN41498325	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Nocardia beijingensis	MIGS.ba.6.0					Indonesia		JBSFPK01	98.74	2.35
+GCF_053604055.1	Nocardia beijingensis	NPDC004090	SAMN41498635	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Nocardia beijingensis	MIGS.ba.6.0					Indonesia		JBSGGU01	98.4	2.69
+GCF_053587015.1	Streptomyces sp. NPDC003710	NPDC003710	SAMN41496924	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Streptomyces sp. NPDC003710	MIGS.ba.6.0			near roots		Indonesia		JBSFNJ01	100.0	0.57
+GCF_053586955.1	Nocardia sp. NPDC003726	NPDC003726	SAMN41496925	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Nocardia sp. NPDC003726	MIGS.ba.6.0					Indonesia		JBSFNF01	98.97	2.22
+GCF_053592555.1	Streptomyces sp. NPDC002643	NPDC002643	SAMN41496916	Scaffold	MIGS Cultured Bacterial/Archaeal sample from Streptomyces sp. NPDC002643	MIGS.ba.6.0					China		JBSFVY01	99.34	1.94

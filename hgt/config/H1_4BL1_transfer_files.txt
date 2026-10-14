@@ -1,6 +1,0 @@
-scripts/H1_4BL1.sbatch
-inputs/H1_2026-10-13/ncbi/H1_Nature_4BL1_candidate_metadata.json
-inputs/H1_2026-10-13/ncbi/genomes/GCF_002146705.1.gbff.gz
-results/tables/H1_Nature_4BL1_assembly_inputs.tsv
-config/H1_ncbi_download_manifest.json
-config/H1_4BL1_inputs.sha256

@@ -1,0 +1,6 @@
+assembly	organism	strain	biosample	assembly_level	biosample_title	biosample_package	metagenomic	sample_type	isolation_source	host	country	metagenome_source	wgs_project	source_completeness	source_contamination
+GCF_037976035.1	Bacillus sp. FSL K6-0972		SAMN26232365	Complete Genome	WGS of Bacilli	Microbe.1.0		whole organism	milk powder	not applicable	not applicable			98.78	
+GCF_900519125.1	Paenibacillus alvei		SAMEA4695338	Chromosome	Paenibacillus B-LR genome	Generic.1.0			LA ROCHELLE					98.01	2.91
+GCF_039527485.1	Pseudonocardia alni	JCM 12172	SAMD00645129	Contig	Pseudonocardia antarctica strain JCM 12172 genome sample	Generic.1.0		cell culture	Moraine sample		Antarctica		BAAAJZ01	93.08	3.94
+GCF_963863825.1	Photorhabdus australis DSM 17609		SAMEA115015370	Scaffold	GCF_000711895.1	Generic.1.0					not collected		CAWLTP01	94.11	3.57
+GCF_963888115.1	Photorhabdus cinerea		SAMEA115015444	Scaffold	GCF_011189575.1	Generic.1.0					not collected		CAWPIB01	94.55	2.24

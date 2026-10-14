@@ -1,5 +1,0 @@
-role	order_split_present	model
-B1	False	Q.PLANT+G4
-B2	False	Q.PLANT+G4
-C	True	Q.PFAM+G4
-D	False	Q.PLANT+G4

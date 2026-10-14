@@ -1,3 +1,0 @@
-search=937869
-collect=937870
-markers=937871

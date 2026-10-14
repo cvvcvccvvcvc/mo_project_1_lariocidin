@@ -1,7 +1,0 @@
-candidate_id	exact_RefSeq_protein	Id	Source	Nucleotide Accession	Start	Stop	Strand	Protein	Protein Name	Organism	Strain	Assembly
-MGYG000517804_04933	WP_176544197.1	333435781	RefSeq	NZ_NTQA01000001.1	26299	28317	-	WP_176544197.1	asparagine synthase-related protein	Bacillus cereus	AFS027869	GCF_002559805.1
-MGYG000517804_04933	WP_176544197.1	333435781	RefSeq	NZ_NUXW01000062.1	10844	12862	-	WP_176544197.1	asparagine synthase-related protein	Bacillus cereus	AFS079389	GCF_002566535.1
-MGYG000517804_04933	WP_176544197.1	333435781	RefSeq	NZ_NVBI01000114.1	14460	16478	+	WP_176544197.1	asparagine synthase-related protein	Bacillus cereus	AFS067803	GCF_002568425.1
-MGYG000517804_04933	WP_176544197.1	333435781	INSDC	JBHJZJ010000023.1	7391	9409	+	MFB8331681.1	asparagine synthase-related protein	Bacillus wiedmannii	NPDC055926	GCA_042270255.1
-MGYG000517792_00972	WP_176547010.1	333438055	RefSeq	N/A				WP_176547010.1	asparagine synthase-related protein	Bacillus wiedmannii		
-MGYG000517796_00183	WP_176547010.1	333438055	RefSeq	N/A				WP_176547010.1	asparagine synthase-related protein	Bacillus wiedmannii		
