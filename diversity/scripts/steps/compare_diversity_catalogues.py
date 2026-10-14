@@ -40,18 +40,15 @@ def main():
     source_review=read(tables/'diversity_final_source_review.tsv').set_index('genome_id')
     for column in source_review.columns:
         final[column]=final.genome_id.map(source_review[column]).fillna('')
-    m2=read(tables/'diversity_final_M2_precursor_similarity.tsv')
-    for column,reference,flag in [('M2_full_exact_A_count','M2_full_precursor','exact_entire_reference'),
-                                  ('M2_mature_exact_segment_A_count','M2_mature_LAR','contains_exact_reference_segment')]:
-        counts=m2[(m2.comparison_reference==reference)&m2[flag]].groupby('merged_locus_id').query_id.nunique()
-        final[column]=final.merged_locus_id.map(counts).fillna(0).astype(int)
-    final.to_csv(tables/'diversity_final_BGC_catalogue.tsv',sep='\t',index=False)
+    final[[column for column in final if column != 'merged_locus_id'] + ['merged_locus_id']].to_csv(
+        tables/'diversity_final_BGC_catalogue.tsv',sep='\t',index=False)
     columns=['merged_locus_id','family','status','organism','strain','primary_strain','all_assembly','all_source','all_biosample',
              'architecture','C_aa_length','C_reference_identity_percent','C_domains','precursor_C_strand_agreement',
              'precursor_C_overlap_nt','C_difference_interpretation','carrier_relation_to_literature',
-             'locus_relation_to_literature','M2_full_exact_A_count','M2_mature_exact_segment_A_count',
+             'locus_relation_to_literature',
              'primary_origin_assessment','primary_metadata_caveat']
-    final[columns].to_csv(tables/'diversity_final_catalogue_summary.tsv',sep='\t',index=False)
+    columns.remove('merged_locus_id')
+    final[columns + ['merged_locus_id']].to_csv(tables/'diversity_final_catalogue_summary.tsv',sep='\t',index=False)
     previous=read(tables/'diversity_merged_BGC_catalogue.tsv')
     new=final[~final.merged_locus_id.isin(previous.merged_locus_id)]
     new.to_csv(tables/'diversity_final_added_loci.tsv',sep='\t',index=False)

@@ -5,7 +5,6 @@ cd "${SLURM_SUBMIT_DIR:?}"
 bash scripts/run_reference.sh
 bash scripts/run_literature_reference.sh
 bash scripts/run_profile_calibration.sh
-bash scripts/run_maize_search.sh
 .env/bin/python scripts/steps/prepare_pseudomonadota_core.py \
   --features data/processed/reference/all_cds.tsv \
   --all-cds data/processed/reference/all_cds.faa \

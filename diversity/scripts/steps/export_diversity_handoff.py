@@ -70,43 +70,19 @@ def main():
                         if row['C_strand']==-1:core=core.reverse_complement()
                         assert sha(core)==row['core_sha256']
                         core_records.append(SeqRecord(core,id=window.id,description='defined_core_span_not_product_sequence'))
-        history=read(ROOT/'inputs/selections/baseline/maize_curated_core_roles.tsv')
-        history_coords=read(tables/'maize_candidate_neighbors.tsv')
-        history_proteins=SeqIO.to_dict(SeqIO.parse(processed/'maize/maize_candidate_neighbors.faa','fasta'))
-        historical=catalogue[catalogue.search_stage=='historical_Maize_S3'].set_index('locus_id')
-        for window in SeqIO.parse(processed/'maize/maize_candidate_windows.gbk','genbank'):
-            if window.id not in historical.index:continue
-            row=historical.loc[window.id].to_dict();metadata[window.id]={'locus_id':window.id,**row}
-            SeqIO.write(SeqRecord(window.seq,id=window.id,description=f'historical_window_start_0based={row["window_start"]}'),windows_out,'fasta')
-            assigned=history[history.candidate_id==window.id].set_index('protein_id').role.to_dict()
-            for f in history_coords[(history_coords.candidate_id==window.id)&history_coords.target_id.isin(assigned)].to_dict('records'):
-                query=f['target_id'];strand=1 if f['strand']=='+' else -1
-                dna=window.seq[f['start_0based']-int(row['window_start']):f['end_0based_exclusive']-int(row['window_start'])]
-                if strand==-1:dna=dna.reverse_complement()
-                protein=history_proteins[query];assert translated(dna)==str(protein.seq)
-                sequences[query]=protein;dna_records[query]=SeqRecord(dna,id=query,description='historical_coding_orientation')
-                gene_rows.append({'locus_id':window.id,'merged_locus_id':row['merged_locus_id'],'genome_id':row['genome_id'],
-                    'assembly':row['assembly'],'biosample':row['biosample'],'organism':row['organism'],'strain':row['strain'],
-                    'contig':row['contig'],'locus_status':row['status'],'family':row['family'],'export_role':assigned[query],
-                    'query_id':query,'start':f['start_0based'],'end':f['end_0based_exclusive'],'strand':strand,
-                    'origin':'historical_annotated_CDS','product':f['product'],'aa_length':len(protein.seq),
-                    'sequence_sha256':sha(protein.seq),'coding_DNA_sha256':sha(dna),'coordinate_DNA_translation_match':True,
-                    'status_basis':'preserved_historical_manual_review;precursor_like_labels_not_reclassified'})
-            core=window.seq[int(row['core_start'])-int(row['window_start']):int(row['core_end'])-int(row['window_start'])]
-            if row['C_strand']==-1:core=core.reverse_complement()
-            assert sha(core)==row['core_sha256']
-            core_records.append(SeqRecord(core,id=window.id,description='historical_core_includes_ABC_not_redefined'))
     pd.DataFrame(gene_rows).fillna('').to_csv(output/'genes.tsv',sep='\t',index=False)
     pd.DataFrame(metadata.values()).fillna('').to_csv(output/'locus_coordinates_and_statuses.tsv',sep='\t',index=False)
     SeqIO.write(sequences.values(),output/'genes.faa','fasta')
     SeqIO.write(dna_records.values(),output/'genes.fna','fasta')
     SeqIO.write(core_records,output/'source_locus_core_spans.fna','fasta')
     for path in [*tables.glob('diversity_final_*'),tables/'diversity_C_fragment_audit.tsv',tables/'diversity_merrild_sequence_audit.tsv']:
+        if '_M2_' in path.name:
+            continue
         shutil.copy2(path,output/path.name)
     references=output/'references';references.mkdir()
     for name in ['diversity_published_DNA.fna','diversity_published_C.faa','literature_unique_precursors.faa',
                  'literature_precursor_occurrences.tsv','literature_bgc_manifest.tsv','diversity_role_reference.tsv',
-                 'diversity_M2_precursor_references.faa','diversity_precursor_core_sites.tsv']:
+                 'diversity_precursor_core_sites.tsv']:
         shutil.copy2((processed/"discovery"/name) if name.startswith("diversity_") else (processed/"literature"/name),references/name)
     provenance=output/'provenance';provenance.mkdir()
     for path in [ROOT/'protocols/diversity_selection_review_protocol.json',ROOT/'protocols/diversity_protocol.json',
@@ -130,11 +106,11 @@ def main():
 - `diversity_final_occurrences.tsv`: все представления, связанные через `merged_locus_id`.
 - `locus_coordinates_and_statuses.tsv`, `genes.tsv`: исходные contig-координаты, цепи, носители, основания статусов; `genes.faa`/`genes.fna` используют `query_id`. DNA записана в направлении кодирования.
 - `context_windows.fna.gz`: исходная ориентация contig; абсолютное начало окна дано в метаданных. Координаты везде 0-based, конец не включён.
-- `source_locus_core_spans.fna`: определённые интервалы всех положительных представлений. Исторические Maize-интервалы включают ABC, современные интервалы определены выбранными A/B1/B2/C; границы нельзя приравнивать к границам продукта.
-- Таблицы доказательств, сопоставление именно с M2 и литературный аудит сохранены отдельно. BLAST, домены, аннотация и положение имеют разные основания; функции не подтверждены для каждого локуса.
+- `source_locus_core_spans.fna`: определённые интервалы всех положительных представлений. Границы задают выбранные A/B1/B2/C и не равны границам транскрипта или продукта.
+- Таблицы доказательств и литературный аудит сохранены отдельно. BLAST, домены, аннотация и положение имеют разные основания; функции не подтверждены для каждого локуса.
 - `references/`, `provenance/`, `code/` и `manifest.json`: фиксированные сравнения, протоколы, URL/хеши исходных сборок, код и контрольные суммы. Полные host assemblies остаются доступными по исходным ledger, в снимок включены необходимые окна.
 
-Неопределённые гены могут быть частичными или иметь неразрешённую фазу аннотации; это видно в проверке перевода координатной DNA. Исторические `precursor_like` сохранены с прежним основанием. Совпадение предшественника или сегмента M2 не доказывает производство лариоцидина.
+Неопределённые гены могут быть частичными или иметь неразрешённую фазу аннотации; это видно в проверке перевода координатной DNA. Сходство последовательности с опубликованным предшественником не доказывает производство лариоцидина.
 ''')
     files={str(p.relative_to(output)):{'bytes':p.stat().st_size,'sha256':hashlib.sha256(p.read_bytes()).hexdigest()}
            for p in sorted(output.rglob('*')) if p.is_file()}

@@ -22,14 +22,11 @@ PANEL = ("PF00005", "PF00310", "PF00583", "PF00664", "PF00733",
 
 def main():
     processed, tables = ROOT / "data/processed", ROOT / "results/tables"
-    sequences = {r.id: str(r.seq) for r in SeqIO.parse(processed / "maize/maize_direct_candidates.faa", "fasta")}
+    sequences = {}
     original = {r.id: str(r.seq) for r in SeqIO.parse(processed / "reference/all_cds.faa", "fasta")}
     with (tables / "pseudomonadota_core_roles.tsv").open() as handle:
         for row in csv.DictReader(handle, delimiter="\t"):
             sequences[row["feature_id"]] = original[row["feature_id"]]
-    with (tables / "maize_supported_core_proteins.tsv").open() as handle:
-        for row in csv.DictReader(handle, delimiter="\t"):
-            sequences[row["protein_id"]] = row["sequence"]
     sequences.update({identifier: sequence for identifier, sequence in original.items()
                       if identifier.startswith("paenibacillus_m2__")})
     grouped = defaultdict(list)

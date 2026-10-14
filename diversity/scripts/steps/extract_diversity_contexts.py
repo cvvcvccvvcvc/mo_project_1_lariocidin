@@ -19,9 +19,33 @@ from Bio.Seq import Seq
 from Bio.SeqRecord import SeqRecord
 from Bio.SeqFeature import ExactPosition
 
-from extract_maize_contexts import small_orfs
 from profile_search import ROOT
 from screen_diversity_proteomes import fetch_batch
+
+
+def small_orfs(dna, offset, candidate):
+    records, rows = [], []
+    for strand, oriented in ((1, dna), (-1, dna.reverse_complement())):
+        text = str(oriented)
+        for frame in range(3):
+            last_stop = frame - 3
+            for stop in range(frame, len(text) - 2, 3):
+                if text[stop:stop + 3] not in ("TAA", "TGA", "TAG"):
+                    continue
+                first = max(last_stop + 3, stop - 300)
+                for start in range(first, stop - 59, 3):
+                    if text[start:start + 3] not in ("ATG", "GTG", "TTG"):
+                        continue
+                    protein = "M" + str(Seq(text[start:stop]).translate(table=11))[1:]
+                    low, high = ((start, stop + 3) if strand == 1
+                                 else (len(text) - stop - 3, len(text) - start))
+                    identifier = f"{candidate}__orf_{offset + low}_{offset + high}_{'p' if strand == 1 else 'm'}"
+                    records.append(SeqRecord(Seq(protein), id=identifier, description=""))
+                    rows.append({"orf_id": identifier, "candidate_id": candidate,
+                                 "start_0based": offset + low, "end_0based_exclusive": offset + high,
+                                 "strand": strand, "aa_length": len(protein), "start_codon": text[start:start + 3]})
+                last_stop = stop
+    return records, rows
 
 
 def translated(dna, table=11, phase=0):

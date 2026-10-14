@@ -24,8 +24,6 @@ def restore_snapshots(root=ROOT, diversity=False):
         for row in json.loads(path.read_text()).values():
             expected[row["local_path"]] = row["sha256"]
     if not diversity:
-        for name, row in json.loads((root / "inputs/provenance/maize_biosample_downloads.json").read_text()).items():
-            expected[f"data/raw/s3/{name}"] = row["sha256"]
         with (root / "inputs/selections/baseline/research_sources_2026-09-10.tsv").open() as handle:
             for row in csv.DictReader(handle, delimiter="\t"):
                 expected[row["local_path"]] = row["sha256"]

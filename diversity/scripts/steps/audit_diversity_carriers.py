@@ -6,8 +6,13 @@ import urllib.parse
 import xml.etree.ElementTree as ET
 
 import pandas as pd
-from audit_maize_provenance import validate_accessions
 from source_cache import Cache, ROOT
+
+
+def validate_accessions(samples, requested):
+    received = [sample.get("accession") for sample in samples]
+    if len(received) != len(set(received)) or set(received) != set(requested):
+        raise ValueError("BioSample response does not match requested accession set")
 
 
 def main():

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Merge completed stages, preserve evidence axes, and compare precursors to M2."""
+"""Merge completed stages and preserve evidence for each candidate group."""
 import argparse
 import hashlib
 import json
@@ -8,9 +8,6 @@ from collections import defaultdict
 import pandas as pd
 from Bio import SeqIO
 from Bio.Seq import Seq
-from Bio.SeqRecord import SeqRecord
-
-from curate_diversity_contexts import BLAST_FIELDS, blast
 from extract_diversity_contexts import read_genome
 from source_cache import ROOT
 
@@ -39,35 +36,7 @@ def main():
         catalogues.append(data)
         u = read(tables/f'{result_prefix}_uncertain.tsv');u['technical_batch'] = prefix;uncertain.append(u)
         genes.update(SeqIO.to_dict(SeqIO.parse(processed/f'{result_prefix}_BGC_genes.faa', 'fasta')))
-    # Historical S3 calls retain their original review basis and precursor-like labels.
-    history = read(tables/'diversity_bacillus_novelty.tsv')
-    roles = read(ROOT/'inputs/selections/baseline/maize_curated_core_roles.tsv')
-    maize_loci = read(tables/'maize_candidate_loci.tsv').set_index('target_id')
-    maize_neighbors = read(tables/'maize_candidate_neighbors.tsv')
-    maize_genes = SeqIO.to_dict(SeqIO.parse(processed.parent/'maize_candidate_neighbors.faa', 'fasta'))
-    historical = []
-    for r in history.to_dict('records'):
-        candidate = r['candidate_id'];assigned = roles[roles.candidate_id == candidate]
-        a_ids = list(assigned[assigned.role == 'precursor_like'].protein_id)
-        genes.update({x: maize_genes[x] for x in assigned.protein_id})
-        locus = maize_loci.loc[candidate]
-        coordinates = maize_neighbors[(maize_neighbors.candidate_id == candidate) & maize_neighbors.target_id.isin(assigned.protein_id)]
-        historical.append({'locus_id': candidate, 'genome_id': candidate.rsplit('_', 1)[0], 'source': 'Maize_Rhizosphere_historical',
-            'organism': 'Bacillus wiedmannii', 'strain': r['strain'], 'assembly': r['refseq_assembly'], 'biosample': r['biosample'],
-            'assembly_contig_multiset_sha256': r['assembly_contig_multiset_sha256'], 'C_sha256': r['C_sha256'],
-            'core_sha256': r['core_sha256'], 'family': 'canonical', 'status': 'historical_review_supported_BGC',
-            'contig': locus['contig'], 'C_start': locus['start_0based'], 'C_end': locus['end_0based_exclusive'],
-            'C_strand': 1 if locus['strand'] == '+' else -1, 'C_query_id': candidate,
-            'window_start': locus['window_start_0based'], 'window_end': locus['window_end_0based_exclusive'],
-            'core_start': int(coordinates.start_0based.min()), 'core_end': int(coordinates.end_0based_exclusive.max()),
-            'chosen_core_gene_ids': ';'.join(coordinates.sort_values('start_0based', ascending=locus['strand']=='+').target_id),
-            'precursor_query_ids': ';'.join(a_ids), 'precursor_sha256': ';'.join(sha(genes[x].seq) for x in a_ids),
-            'precursor_origins': 'historical_annotated_precursor_like', 'architecture': 'historical_A_candidates-B1-B2-C',
-            'search_stage': 'historical_Maize_S3', 'technical_batch': 'historical_Maize_S3',
-            'published_exact_core_records': r['exact_core_matches_in_422_records'],
-            'carrier_comparison': 'not_matched_in_exported_carrier_metadata',
-            'interpretation_reason': 'Original manual context review retained; not retrospectively reclassified'})
-    all_rows = pd.concat(catalogues+[pd.DataFrame(historical)], ignore_index=True).fillna('')
+    all_rows = pd.concat(catalogues, ignore_index=True).fillna('')
     # Only assemblies occurring under multiple source IDs require physical reconciliation.
     duplicate_assemblies = set(all_rows.groupby('assembly_contig_multiset_sha256').genome_id.nunique().loc[lambda x:x>1].index)
     raw_paths = {}
@@ -171,7 +140,8 @@ def main():
             unique.loc[index,'carrier_relation_to_literature'] = review['reviewed_carrier_relation']
             unique.loc[index,'carrier_review_source'] = review['evidence_source']
     unique['novelty_limit'] = 'sequence/export comparison; unregistered or unavailable literature loci remain unresolved; product untested'
-    unique.to_csv(tables/f'{args.output_prefix}_BGC_catalogue.tsv', sep='\t', index=False)
+    unique[[column for column in unique if column != 'merged_locus_id'] + ['merged_locus_id']].to_csv(
+        tables/f'{args.output_prefix}_BGC_catalogue.tsv', sep='\t', index=False)
     pd.concat(uncertain, ignore_index=True).fillna('').to_csv(tables/f'{args.output_prefix}_uncertain.tsv', sep='\t', index=False)
     core_evidence = []
     for prefix in prefixes:
@@ -183,33 +153,8 @@ def main():
     locus_lookup = all_rows.set_index('locus_id').merged_locus_id.to_dict()
     combined_evidence['merged_locus_id'] = combined_evidence.locus_id.map(locus_lookup)
     combined_evidence.to_csv(tables/f'{args.output_prefix}_core_gene_evidence.tsv',sep='\t',index=False)
-    # M2 mature sequence is taken from the experimental 9DFC polymer entity, not inferred for other systems.
-    original = SeqIO.to_dict(SeqIO.parse(processed.parent/'all_cds.faa','fasta'))
-    m2 = original['paenibacillus_m2__cds01']
-    mature = next(r for r in SeqIO.parse(ROOT/'data/raw/diversity_extension_2026-10-13/m2_PDB9DFC_fasta.faa','fasta') if r.id.split('|')[0]=='9DFC_57')
-    if str(m2.seq) != 'MRKVQVAPLKSYGAFLTVTLSKKSKPGDGKFGRGVKRG' or not str(m2.seq).endswith(str(mature.seq)):
-        raise ValueError('M2 precursor/experimental mature peptide reference conflict')
-    reference = processed/'diversity_M2_precursor_references.faa'
-    SeqIO.write([SeqRecord(m2.seq,id='M2_full_precursor',description='CP169648.1_38aa'),SeqRecord(mature.seq,id='M2_mature_LAR',description='PDB9DFC_entity57_18aa_precursor_positions21_38')], reference,'fasta')
     precursor_ids = sorted({x for cell in unique.precursor_query_ids for x in cell.split(';') if x})
     fasta=processed/f'{args.output_prefix}_precursors.faa';SeqIO.write([genes[x] for x in precursor_ids],fasta,'fasta')
-    blast(fasta,reference,processed/('diversity_M2_blast.tsv' if args.output_prefix == 'diversity_merged' else f'{args.output_prefix}_M2_blast.tsv'),cpu=4,short=True)
-    alignments=pd.read_csv(processed/('diversity_M2_blast.tsv' if args.output_prefix == 'diversity_merged' else f'{args.output_prefix}_M2_blast.tsv'),sep='\t',names=BLAST_FIELDS)
-    alignments=alignments.sort_values('bitscore',ascending=False).drop_duplicates(['query_id','subject_id'])
-    evidence=[]
-    for r in unique.to_dict('records'):
-        for query in r['precursor_query_ids'].split(';'):
-            sequence=str(genes[query].seq)
-            for subject,refseq in [('M2_full_precursor',str(m2.seq)),('M2_mature_LAR',str(mature.seq))]:
-                match=alignments[(alignments.query_id==query)&(alignments.subject_id==subject)]
-                hit=match.iloc[0].to_dict() if len(match) else {}
-                evidence.append({'merged_locus_id':r['merged_locus_id'],'locus_id':r['locus_id'],'source':r['source'],
-                    'family':r['family'],'organism':r['organism'],'query_id':query,'sequence':sequence,'comparison_reference':subject,
-                    'exact_entire_reference':sequence==refseq,'contains_exact_reference_segment':refseq in sequence,
-                    'query_coverage_percent':100*(hit['qend']-hit['qstart']+1)/len(sequence) if hit else 0,
-                    'M2_reference_coverage_percent':100*(hit['send']-hit['sstart']+1)/len(refseq) if hit else 0,**hit,
-                    'interpretation':'sequence proximity only; other precursor cleavage, topology, activity and product remain untested'})
-    pd.DataFrame(evidence).fillna('').to_csv(tables/('diversity_M2_precursor_similarity.tsv' if args.output_prefix == 'diversity_merged' else f'{args.output_prefix}_M2_precursor_similarity.tsv'),sep='\t',index=False)
     SeqIO.write([genes[x] for x in sorted({r['C_query_id'] for r in unique.to_dict('records')})],processed/f'{args.output_prefix}_C.faa','fasta')
     summary={'source_locus_rows':len(all_rows),'unique_assembly_locus_groups':len(set(assembly_keys)), 'unique_carrier_locus_variant_groups':len(unique), 'duplicate_source_rows':len(all_rows)-len(unique),
         'assembly_content_groups':all_rows.assembly_contig_multiset_sha256.nunique(), 'biosamples_in_occurrences':all_rows.biosample.nunique(), 'families':unique.family.value_counts().to_dict(),'stages':unique.search_stage.value_counts().to_dict(),
