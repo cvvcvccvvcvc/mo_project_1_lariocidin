@@ -314,7 +314,7 @@ cyc_4fc45a284889a7db -          lariocidin_canonical -               0.47    3.1
 # Pipeline mode:   SEARCH
 # Query file:      ${OPERATOR_HOME}/code/Study/MO/projects/lariocidin/data/processed/literature_profiles/cv_fold_1.canonical.hmm
 # Target file:     ${OPERATOR_HOME}/code/Study/MO/projects/lariocidin/data/processed/literature_unique_cyclases.faa
-# Option settings: ${OPERATOR_HOME}/code/Study/MO/projects/lariocidin/.env/bin/hmmsearch --tblout ${OPERATOR_HOME}/code/Study/MO/projects/lariocidin/data/processed/literature_profiles/cv_fold_1.canonical.tblout --noali -T -999 --max ${OPERATOR_HOME}/code/Study/MO/projects/lariocidin/data/processed/literature_profiles/cv_fold_1.canonical.hmm ${OPERATOR_HOME}/code/Study/MO/projects/lariocidin/data/processed/literature_unique_cyclases.faa 
+# Option settings: ${OPERATOR_HOME}/code/Study/MO/projects/lariocidin/.env/bin/hmmsearch --tblout ${OPERATOR_HOME}/code/Study/MO/projects/lariocidin/data/processed/literature_profiles/cv_fold_1.canonical.tblout --noali -T -999 --max ${OPERATOR_HOME}/code/Study/MO/projects/lariocidin/data/processed/literature_profiles/cv_fold_1.canonical.hmm ${OPERATOR_HOME}/code/Study/MO/projects/lariocidin/data/processed/literature_unique_cyclases.faa
 # Current dir:     ${OPERATOR_HOME}/code/Study/MO/projects/lariocidin
 # Date:            Thu Sep 10 17:19:45 2026
 # [ok]
