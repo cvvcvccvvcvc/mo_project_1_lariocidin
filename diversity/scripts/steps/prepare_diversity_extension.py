@@ -16,7 +16,7 @@ def main():
         base=f'https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/{biome}/{version}/'
         for name in [f'README_{version}.txt','genomes-all_metadata.tsv']+(['known_issues.txt'] if biome=='human-gut' else []):
             cache.download(biome+'_'+name.replace('.tsv','').replace('.txt',''),base+name,'.tsv' if name.endswith('.tsv') else '.txt')
-    old=pd.concat([pd.read_csv(x,sep='\t',keep_default_na=False) for x in sorted((ROOT/'inputs/selections').glob('diversity_species_*_selection.tsv'))])
+    old=pd.concat([pd.read_csv(x,sep='\t',keep_default_na=False) for x in sorted((ROOT/'inputs/selections/shards').glob('diversity_species_*_selection.tsv'))])
     # Original assembly aliases and species-taxid are read from the frozen official summary.
     with (ROOT/'data/raw/diversity_2026-10-12/refseq_bacterial_assembly_summary.txt').open() as h:
      for line in h:

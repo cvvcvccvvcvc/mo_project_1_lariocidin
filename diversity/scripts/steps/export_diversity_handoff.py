@@ -110,8 +110,8 @@ def main():
         shutil.copy2((processed/"discovery"/name) if name.startswith("diversity_") else (processed/name),references/name)
     provenance=output/'provenance';provenance.mkdir()
     for path in [ROOT/'protocols/diversity_selection_review_protocol.json',ROOT/'protocols/diversity_protocol.json',
-                 ROOT/'inputs/selections/diversity_carrier_identity_review.tsv',*ROOT.glob('inputs/provenance/diversity_*_context_downloads.jsonl'),
-                 ROOT/'inputs/provenance/diversity_extension_download_manifest.json',ROOT/'inputs/provenance/diversity_selection_preservation_manifest.json']:
+                 ROOT/'inputs/selections/diversity_carrier_identity_review.tsv',*ROOT.glob('inputs/provenance/shards/diversity_*_context_downloads.jsonl'),
+                 ROOT/'inputs/provenance/diversity_extension_download_manifest.json',ROOT/'inputs/provenance/historical/diversity_selection_preservation_manifest.json']:
         shutil.copy2(path,provenance/path.name)
     code=output/'code';code.mkdir()
     for name in ['curate_diversity_contexts.py','collect_diversity_catalogue.py','merge_diversity_catalogues.py',

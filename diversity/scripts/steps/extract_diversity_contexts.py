@@ -89,7 +89,12 @@ def main():
     tables = ROOT / "results/tables"
     hits = pd.read_csv(tables / f"{args.screen_name}_profile_hits.tsv", sep="\t")
     best = hits.sort_values("sequence_score", ascending=False).drop_duplicates("target_id")
-    selected = pd.read_csv(ROOT / "inputs/selections" / f"{args.screen_name}_selection.tsv", sep="\t", keep_default_na=False).set_index("genome_id")
+    shard = (args.screen_name.rsplit("_", 1)[-1].isdigit()
+             and args.screen_name.startswith(("diversity_species_", "diversity_extension_",
+                                         "diversity_controls_")))
+    selection_dir = ROOT / ("inputs/selections/shards" if shard else "inputs/selections")
+    provenance_dir = ROOT / ("inputs/provenance/shards" if shard else "inputs/provenance")
+    selected = pd.read_csv(selection_dir / f"{args.screen_name}_selection.tsv", sep="\t", keep_default_na=False).set_index("genome_id")
     soil = pd.read_csv(ROOT / "inputs/selections/diversity_soil_species.tsv", sep="\t", keep_default_na=False).set_index("Genome")
     candidates = {}
     for path in sorted((ROOT / "results/hmmer" / args.screen_name).glob("batch_*/candidates.faa")):
@@ -101,7 +106,7 @@ def main():
     out.mkdir(parents=True, exist_ok=True)
     raw = ROOT / "data/raw/diversity_contexts"
     raw.mkdir(parents=True, exist_ok=True)
-    manifest = ROOT / "inputs/provenance" / f"{args.screen_name}_context_downloads.jsonl"
+    manifest = provenance_dir / f"{args.screen_name}_context_downloads.jsonl"
     pinned = {r["genome_id"]: r for r in (json.loads(x) for x in manifest.read_text().splitlines())} if manifest.exists() else {}
     loci, neighbors, validations = [], [], []
     groups = list(best.groupby("genome_id"))

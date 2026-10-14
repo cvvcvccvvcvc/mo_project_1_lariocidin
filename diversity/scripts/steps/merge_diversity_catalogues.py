@@ -71,7 +71,7 @@ def main():
     # Only assemblies occurring under multiple source IDs require physical reconciliation.
     duplicate_assemblies = set(all_rows.groupby('assembly_contig_multiset_sha256').genome_id.nunique().loc[lambda x:x>1].index)
     raw_paths = {}
-    for path in (ROOT/'inputs/provenance').glob('diversity_*_context_downloads.jsonl'):
+    for path in (ROOT/'inputs/provenance/shards').glob('diversity_*_context_downloads.jsonl'):
         for line in path.read_text().splitlines():
             record=json.loads(line);raw_paths[record['genome_id']]=(ROOT/record['local_path'], record.get('source', 'RefSeq' if record['local_path'].endswith('.gbff.gz') else 'MGnify'))
     genomes = {};keys = []

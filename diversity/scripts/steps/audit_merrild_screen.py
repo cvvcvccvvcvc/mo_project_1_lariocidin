@@ -23,7 +23,7 @@ def main():
     args = parser.parse_args()
     tables = ROOT/'results/tables'
     selected = pd.concat([read(path) for prefix in args.prefixes
-                          for path in sorted((ROOT/'inputs/selections').glob(prefix+'_[0-9]*_selection.tsv'))], ignore_index=True)
+                          for path in sorted((ROOT/'inputs/selections/shards').glob(prefix+'_[0-9]*_selection.tsv'))], ignore_index=True)
     if selected.genome_id.duplicated().any():
         raise ValueError('Repeated physical input IDs in coverage audit')
     selected = selected.set_index('genome_id')

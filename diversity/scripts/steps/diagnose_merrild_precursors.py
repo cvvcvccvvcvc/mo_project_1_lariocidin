@@ -60,7 +60,7 @@ def main():
     a = read(ROOT/'data/processed/literature_precursor_occurrences.tsv')
     published = {r.id:str(r.seq).upper() for r in SeqIO.parse(ROOT/'data/processed/discovery/diversity_published_DNA.fna','fasta')}
     paths = {};contexts={};features={};admitted={}
-    for path in (ROOT/'inputs/provenance').glob('diversity_*_context_downloads.jsonl'):
+    for path in (ROOT/'inputs/provenance/shards').glob('diversity_*_context_downloads.jsonl'):
         for line in path.read_text().splitlines():
             record=json.loads(line);paths[record['genome_id']]=ROOT/record['local_path']
     for prefix in ['diversity_species','diversity_extension','diversity_controls']:

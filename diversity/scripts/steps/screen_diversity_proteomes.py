@@ -119,7 +119,12 @@ def main():
     if args.limit == 0 and args.output_name == "diversity_pilot":
         raise ValueError("Use a separate --output-name for the full screen to preserve the pilot")
     tables = ROOT / "results/tables"
-    with (ROOT / "inputs/selections" / f"{args.output_name}_selection.tsv").open("w") as handle:
+    shard = (args.output_name.rsplit("_", 1)[-1].isdigit()
+             and args.output_name.startswith(("diversity_species_", "diversity_extension_",
+                                         "diversity_controls_")))
+    selection_dir = ROOT / ("inputs/selections/shards" if shard else "inputs/selections")
+    provenance_dir = ROOT / ("inputs/provenance/shards" if shard else "inputs/provenance")
+    with (selection_dir / f"{args.output_name}_selection.tsv").open("w") as handle:
         writer = csv.DictWriter(handle, fieldnames=list(selected[0]), delimiter="\t")
         writer.writeheader()
         writer.writerows(selected)
@@ -131,7 +136,7 @@ def main():
     started = time.monotonic()
     # Append per-batch records: avoid repeatedly rewriting a genome-sized JSON
     # manifest. Pin URLs and hashes before deriving any scientific result.
-    ledger = ROOT / "inputs/provenance" / f"{args.output_name}_downloads.jsonl"
+    ledger = provenance_dir / f"{args.output_name}_downloads.jsonl"
     pinned = {r["genome_id"]: r for r in (json.loads(line) for line in ledger.read_text().splitlines())} if ledger.exists() else {}
     for offset in range(0, len(selected), args.batch_size):
         batch = selected[offset:offset+args.batch_size]
