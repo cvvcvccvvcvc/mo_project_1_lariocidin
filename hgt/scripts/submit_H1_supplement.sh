@@ -2,6 +2,7 @@
 set -euo pipefail
 HGT_ROOT=${HGT_ROOT:-$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)}
 cd "$HGT_ROOT"
+mkdir -p results/slurm
 sha256sum -c config/H1/H1_supplement_inputs.sha256 > results/slurm/supplement_input_hash_check.txt
 export HGT_ROOT
 export HGT_PYTHON="${HGT_PYTHON:-${HGT_BIN:?Set HGT_BIN}/python}"
