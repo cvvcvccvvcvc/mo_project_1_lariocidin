@@ -24,7 +24,7 @@ def validate_accessions(samples, requested):
 
 
 def main():
-    table = pd.read_csv(ROOT / "inputs/selections/maize_s3_genomes.tsv", sep="\t")
+    table = pd.read_csv(ROOT / "inputs/selections/baseline/maize_s3_genomes.tsv", sep="\t")
     scope = table[table.in_scope]
     # Preserve source-specific XML and an unresolved category rather than infer
     # MAG/isolate status from the organism name or an empty attribute.

@@ -43,7 +43,7 @@ def main():
     parser.add_argument("--output-prefix", help="Read separately recurated shard tables and preserve the original stage outputs")
     parser.add_argument("--selection", type=str)
     parser.add_argument("--refseq-metadata", default="data/processed/discovery/diversity_refseq_metadata.tsv")
-    parser.add_argument("--mgnify-metadata", default="inputs/selections/diversity_soil_species.tsv")
+    parser.add_argument("--mgnify-metadata", default="inputs/selections/species/diversity_soil_species.tsv")
     args = parser.parse_args()
     output_prefix = args.output_prefix or args.prefix
     tables, processed = ROOT / "results/tables", ROOT / "data/processed/discovery"
@@ -107,7 +107,7 @@ def main():
     hits = pd.concat(hit_tables, ignore_index=True)
     data = pd.concat(catalogues, ignore_index=True).fillna("")
     expected = (set(read(ROOT / args.selection).genome_id) if args.selection else
-                set(read(ROOT / "inputs/selections/diversity_refseq_species.tsv").assembly) | set(soil.index))
+                set(read(ROOT / "inputs/selections/species/diversity_refseq_species.tsv").assembly) | set(soil.index))
     if len(proteomes) != len(expected) or set(proteomes.genome_id) != expected:
         raise ValueError("Completed proteomes differ from the fixed source selection")
     core_by_locus = {r.id: str(r.seq).upper() for r in core_records}

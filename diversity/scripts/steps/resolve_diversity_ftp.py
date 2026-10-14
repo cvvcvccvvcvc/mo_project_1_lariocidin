@@ -13,7 +13,7 @@ from profile_search import ROOT
 
 def main():
     path = ROOT / "data/raw/diversity_2026-10-12/refseq_bacterial_assembly_summary.txt"
-    selected_path = ROOT / "inputs/selections/diversity_refseq_species.tsv"
+    selected_path = ROOT / "inputs/selections/species/diversity_refseq_species.tsv"
     with selected_path.open() as handle:
         selected = list(csv.DictReader(handle, delimiter="\t"))
     wanted = {r["assembly"] for r in selected}

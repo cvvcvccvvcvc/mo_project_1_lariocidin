@@ -5,8 +5,7 @@
 diversity/data/raw/
 diversity/data/interim/
 diversity/data/processed/discovery/
-diversity/data/processed/hgt_control_*
-diversity/data/processed/literature_cyclase_all_vs_all.tsv
+diversity/data/processed/literature/literature_cyclase_all_vs_all.tsv
 diversity/inputs/archives/*.zip
 diversity/results/
 hgt/inputs/

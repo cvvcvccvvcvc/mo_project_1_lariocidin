@@ -86,10 +86,10 @@ def main():
     pd.DataFrame(loci).to_csv(tables / "maize_candidate_loci.tsv", sep="\t", index=False)
     pd.DataFrame(neighbors).to_csv(tables / "maize_candidate_neighbors.tsv", sep="\t", index=False)
     pd.DataFrame(orf_rows).to_csv(tables / "maize_candidate_small_orfs.tsv", sep="\t", index=False)
-    SeqIO.write(proteins.values(), processed / "maize_candidate_neighbors.faa", "fasta")
-    SeqIO.write(all_orfs, processed / "maize_candidate_small_orfs.faa", "fasta")
-    SeqIO.write(nucleotide_windows, processed / "maize_candidate_windows.fna", "fasta")
-    SeqIO.write(genbank, processed / "maize_candidate_windows.gbk", "genbank")
+    SeqIO.write(proteins.values(), processed / "maize/maize_candidate_neighbors.faa", "fasta")
+    SeqIO.write(all_orfs, processed / "maize/maize_candidate_small_orfs.faa", "fasta")
+    SeqIO.write(nucleotide_windows, processed / "maize/maize_candidate_windows.fna", "fasta")
+    SeqIO.write(genbank, processed / "maize/maize_candidate_windows.gbk", "genbank")
     print({"candidate_loci": len(loci), "neighbor_CDS": len(proteins), "small_ORF_candidates": len(all_orfs)})
 
 

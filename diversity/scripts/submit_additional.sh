@@ -5,15 +5,15 @@ cd "$root"
 case "${1:-}" in
   extension)
     prefix=diversity_extension; shards=8
-    selection=inputs/selections/diversity_extension_selection.tsv
-    metadata=inputs/selections/diversity_extension_refseq_metadata.tsv
-    mgnify=inputs/selections/diversity_extension_mgnify_metadata.tsv
+    selection=inputs/selections/extension/diversity_extension_selection.tsv
+    metadata=inputs/selections/extension/diversity_extension_refseq_metadata.tsv
+    mgnify=inputs/selections/extension/diversity_extension_mgnify_metadata.tsv
     ;;
   controls)
     prefix=diversity_controls; shards=1
-    selection=inputs/selections/diversity_controls_selection.tsv
-    metadata=inputs/selections/diversity_controls_refseq_metadata.tsv
-    mgnify=inputs/selections/diversity_extension_mgnify_metadata.tsv
+    selection=inputs/selections/controls/diversity_controls_selection.tsv
+    metadata=inputs/selections/controls/diversity_controls_refseq_metadata.tsv
+    mgnify=inputs/selections/extension/diversity_extension_mgnify_metadata.tsv
     ;;
   *) echo 'Usage: submit_additional.sh extension|controls' >&2; exit 2 ;;
 esac

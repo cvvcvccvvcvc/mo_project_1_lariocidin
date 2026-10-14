@@ -31,7 +31,7 @@ def main():
     triage = triage.merge(best, left_on="target_id", right_on="asnb_query_id", how="left", validate="one_to_one")
     triage["asnb_minus_lasso_bits"] = triage.asnb_bitscore - triage.bitscore
     triage["curation_status"] = "unresolved"
-    strong_roles = pd.read_csv(ROOT / "inputs/selections/maize_curated_core_roles.tsv", sep="\t")
+    strong_roles = pd.read_csv(ROOT / "inputs/selections/baseline/maize_curated_core_roles.tsv", sep="\t")
     supported_ids = set(strong_roles.candidate_id)
     for index, row in triage.iterrows():
         if row.target_id in supported_ids:
@@ -53,10 +53,10 @@ def main():
     triage.to_csv(tables / "maize_curated_candidates.tsv", sep="\t", index=False)
 
     literature_proteins = defaultdict(list)
-    for record in SeqIO.parse(processed / "literature_all_cds.faa", "fasta"):
+    for record in SeqIO.parse(processed / "literature/literature_all_cds.faa", "fasta"):
         literature_proteins[seqhash(record.seq)].append(record.id)
-    reference_C = SeqIO.to_dict(SeqIO.parse(processed / "literature_unique_cyclases.faa", "fasta"))
-    reference_manifest = pd.read_csv(processed / "literature_bgc_manifest.tsv", sep="\t")
+    reference_C = SeqIO.to_dict(SeqIO.parse(processed / "literature/literature_unique_cyclases.faa", "fasta"))
+    reference_manifest = pd.read_csv(processed / "literature/literature_bgc_manifest.tsv", sep="\t")
     archive_records = []
     with zipfile.ZipFile(ROOT / "data/raw/research_2026-09-10/triculamin_lasso_BGCs.zip") as archive:
         for member in reference_manifest.archive_member:

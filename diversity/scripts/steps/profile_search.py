@@ -58,7 +58,7 @@ def search(fasta, output_dir, exhaustive=False, cpu=4):
                    "--tblout", str(tbl), "--domtblout", str(dom)]
         if exhaustive:
             command.append("--max")
-        command += [str(ROOT / f"data/processed/literature_profiles/final.{profile}.hmm"), str(fasta)]
+        command += [str(ROOT / f"results/profile_calibration/final.{profile}.hmm"), str(fasta)]
         with prefix.with_suffix(".log").open("w") as log:
             subprocess.run(command, check=True, stdout=log, stderr=subprocess.STDOUT, timeout=7200)
         commands.append(command)

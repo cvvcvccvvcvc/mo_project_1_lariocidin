@@ -14,7 +14,7 @@ from profile_search import ROOT
 
 def main():
     processed = ROOT / "data/processed"
-    features = pd.read_csv(processed / "literature_all_cds.tsv", sep="\t", keep_default_na=False)
+    features = pd.read_csv(processed / "literature/literature_all_cds.tsv", sep="\t", keep_default_na=False)
     roles = defaultdict(set)
     basis = defaultdict(set)
     for r in features.to_dict("records"):
@@ -50,7 +50,7 @@ def main():
     selected["inferred_roles"] = selected.feature_id.map(lambda x: ";".join(sorted(roles[x])))
     selected["role_evidence_basis"] = selected.feature_id.map(lambda x: ";".join(sorted(basis[x])))
     selected.to_csv(processed / "discovery/diversity_role_reference.tsv", sep="\t", index=False)
-    records = [r for r in SeqIO.parse(processed / "literature_all_cds.faa", "fasta") if r.id in roles]
+    records = [r for r in SeqIO.parse(processed / "literature/literature_all_cds.faa", "fasta") if r.id in roles]
     SeqIO.write(records, processed / "discovery/diversity_role_reference.faa", "fasta")
     print(f"role-reference proteins: {len(records)}; positional hypotheses explicitly flagged")
 

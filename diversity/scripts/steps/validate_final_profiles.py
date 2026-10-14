@@ -20,8 +20,8 @@ def main():
         labels.append({"target_id": identifier, "group": group, "parent_id": parent,
                        "source": source, "aa_length": len(sequence)})
 
-    table = pd.read_csv(processed / "literature_unique_cyclases.tsv", sep="\t").set_index("cyclase_id")
-    for record in SeqIO.parse(processed / "literature_unique_cyclases.faa", "fasta"):
+    table = pd.read_csv(processed / "literature/literature_unique_cyclases.tsv", sep="\t").set_index("cyclase_id")
+    for record in SeqIO.parse(processed / "literature/literature_unique_cyclases.faa", "fasta"):
         source_group = table.loc[record.id, "source_groups"]
         group = source_group if source_group in ("canonical", "noncanonical") else "other_lasso"
         add(record.id, record.seq, group, source="Merrild archive")
@@ -42,10 +42,10 @@ def main():
                         source="|".join([record.id, feature.qualifiers.get("protein_id", [""])[0],
                                          feature.qualifiers.get("product", [""])[0]]))
     assert len({record.id for record in sequences}) == len(sequences)
-    fasta = processed / "final_profile_controls.faa"
+    fasta = processed / "reference/final_profile_controls.faa"
     SeqIO.write(sequences, fasta, "fasta")
     labels = pd.DataFrame(labels)
-    labels.to_csv(processed / "final_profile_control_labels.tsv", sep="\t", index=False)
+    labels.to_csv(processed / "reference/final_profile_control_labels.tsv", sep="\t", index=False)
     summaries, selected_by_mode = {}, {}
     for mode in ("default", "max"):
         scores = search(fasta, ROOT / f"results/hmmer/controls_{mode}", exhaustive=mode == "max")

@@ -5,12 +5,12 @@ project_dir=$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)
 env_dir="$project_dir/.env"
 processed_dir="$project_dir/data/processed"
 table_dir="$project_dir/results/tables"
-profile_dir="$processed_dir/literature_profiles"
+profile_dir="$project_dir/results/profile_calibration"
 
 "$env_dir/bin/python" "$project_dir/scripts/steps/calibrate_family_profiles.py" \
-  --cyclase-fasta "$processed_dir/literature_unique_cyclases.faa" \
-  --cyclase-table "$processed_dir/literature_unique_cyclases.tsv" \
-  --all-v-all "$processed_dir/literature_cyclase_all_vs_all.tsv" \
+  --cyclase-fasta "$processed_dir/literature/literature_unique_cyclases.faa" \
+  --cyclase-table "$processed_dir/literature/literature_unique_cyclases.tsv" \
+  --all-v-all "$processed_dir/literature/literature_cyclase_all_vs_all.tsv" \
   --mafft "$env_dir/bin/mafft" \
   --hmmbuild "$env_dir/bin/hmmbuild" \
   --hmmsearch "$env_dir/bin/hmmsearch" \

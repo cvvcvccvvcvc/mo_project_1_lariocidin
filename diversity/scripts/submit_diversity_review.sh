@@ -5,7 +5,7 @@ project_dir=$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)
 cd "$project_dir"
 test -x .env/bin/python || { echo 'Missing .env/bin/python' >&2; exit 1; }
 test -f protocols/diversity_selection_review_protocol.json || { echo 'Missing review protocol' >&2; exit 1; }
-tasks=inputs/selections/diversity_selection_review_tasks.tsv
+tasks=inputs/selections/review/diversity_selection_review_tasks.tsv
 n=$(wc -l < "$tasks")
 [[ "$n" -eq 17 ]] || { echo "Expected 17 frozen review shards; found $n" >&2; exit 1; }
 while read -r screen output; do

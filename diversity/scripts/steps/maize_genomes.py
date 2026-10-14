@@ -90,5 +90,5 @@ def read_genome(identifier):
 
 
 if __name__ == "__main__":
-    table = pd.read_csv(ROOT / "inputs/selections/maize_s3_genomes.tsv", sep="\t")
+    table = pd.read_csv(ROOT / "inputs/selections/baseline/maize_s3_genomes.tsv", sep="\t")
     fetch(table[table.in_scope].to_dict("records"))

@@ -33,8 +33,8 @@ def reference_metadata(report):
 
 def main():
     processed = ROOT / "data/processed"
-    literature = pd.read_csv(processed / "literature_bgc_manifest.tsv", sep="\t", keep_default_na=False)
-    original = pd.read_csv(processed / "reference_manifest.tsv", sep="\t", keep_default_na=False)
+    literature = pd.read_csv(processed / "literature/literature_bgc_manifest.tsv", sep="\t", keep_default_na=False)
+    original = pd.read_csv(processed / "reference/reference_manifest.tsv", sep="\t", keep_default_na=False)
     records, metadata = [], []
     with zipfile.ZipFile(ROOT / "data/raw/research_2026-09-10/triculamin_lasso_BGCs.zip") as archive:
         for row in literature.to_dict("records"):
@@ -57,12 +57,12 @@ def main():
         row["DNA_sha256"] = hashlib.sha256(str(record.seq).upper().encode()).hexdigest()
     SeqIO.write(records, processed / "discovery/diversity_published_DNA.fna", "fasta")
     pd.DataFrame(metadata).to_csv(processed / "discovery/diversity_published_records.tsv", sep="\t", index=False)
-    c_records = list(SeqIO.parse(processed / "literature_unique_cyclases.faa", "fasta"))
-    c_records += list(SeqIO.parse(processed / "lrcc_reference.faa", "fasta"))
+    c_records = list(SeqIO.parse(processed / "literature/literature_unique_cyclases.faa", "fasta"))
+    c_records += list(SeqIO.parse(processed / "reference/lrcc_reference.faa", "fasta"))
     SeqIO.write(c_records, processed / "discovery/diversity_published_C.faa", "fasta")
     # Preserve primary metadata already present in the frozen source snapshot.
     source_metadata = []
-    selected = set(pd.read_csv(ROOT / "inputs/selections/diversity_refseq_species.tsv", sep="\t").assembly)
+    selected = set(pd.read_csv(ROOT / "inputs/selections/species/diversity_refseq_species.tsv", sep="\t").assembly)
     for path in sorted((ROOT / "data/raw/diversity_2026-10-12").glob("refseq_reference_page_*.json")):
         for report in json.loads(path.read_text())["reports"]:
             if report["accession"] not in selected:

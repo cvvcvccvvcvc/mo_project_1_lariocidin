@@ -29,7 +29,7 @@ def main():
                             & (metadata.Completeness >= 50) & (metadata.Contamination < 10))
     metadata["priority_quality"] = (metadata.Completeness >= 90) & (metadata.Contamination < 5)
     assert metadata.Genome.is_unique and len(metadata) == 431 and metadata.in_scope.sum() == 399
-    metadata.to_csv(ROOT / "inputs/selections/maize_s3_genomes.tsv", sep="\t", index=False)
+    metadata.to_csv(ROOT / "inputs/selections/baseline/maize_s3_genomes.tsv", sep="\t", index=False)
     paths = [raw / f"protein_catalogue-100.{extension}" for extension in ("faa", "tsv")]
     with tarfile.open(raw / "protein_catalogue-100.tar.gz", "r:gz") as archive:
         assert set(archive.getnames()) == {p.name for p in paths}
@@ -75,7 +75,7 @@ def main():
     occurrences = pd.DataFrame(rows, columns=["representative_id", "member_id", "Genome"]).merge(
         metadata, on="Genome", validate="many_to_one")
     occurrences.to_csv(output / "maize_catalogue_candidate_members.tsv", sep="\t", index=False)
-    with fasta.open() as source, (ROOT / "data/processed/maize_candidate_representatives.faa").open("w") as target:
+    with fasta.open() as source, (ROOT / "data/processed/maize/maize_candidate_representatives.faa").open("w") as target:
         for header, sequence in SimpleFastaParser(source):
             if header.split()[0] in hits:
                 target.write(f">{header}\n{sequence}\n")
@@ -90,7 +90,7 @@ def main():
         "hit_members_in_scope": int(occurrences.in_scope.sum()),
         "hit_MAG_in_scope": int(occurrences.loc[occurrences.in_scope, "Genome"].nunique()),
         "inputs": {str(p.relative_to(ROOT)): digest(p) for p in paths},
-        "profiles": {g: digest(ROOT / f"data/processed/literature_profiles/final.{g}.hmm")
+        "profiles": {g: digest(ROOT / f"results/profile_calibration/final.{g}.hmm")
                      for g in ("canonical", "noncanonical")},
         "limitation": "Membership covers the MAGs; representatives are not every exact sequence. MGnify clustering permits 80% target coverage.",
     }

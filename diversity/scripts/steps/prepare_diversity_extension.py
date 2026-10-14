@@ -43,8 +43,8 @@ def main():
       known.add(acc);known.add(r['Genome_accession']) if r['Genome_accession'] else None
       selection.append({'source':label,'genome_id':acc,'assembly':r['Genome_accession'],'biosample':r['Sample_accession'],'url':url,'compression':'gzip' if biome=='human-gut' else 'plain','context_url':r['FTP_download'].replace('ftp://','https://',1)})
       meta.append({**r,'source':label,'catalogue_version':version})
-     pd.DataFrame(q).to_csv(ROOT/f'inputs/selections/diversity_extension_{biome}_species.tsv',sep='\t',index=False)
-    published=pd.read_csv(ROOT/'data/processed/literature_bgc_manifest.tsv',sep='\t',keep_default_na=False)
+     pd.DataFrame(q).to_csv(ROOT/f'inputs/selections/extension/diversity_extension_{biome}_species.tsv',sep='\t',index=False)
+    published=pd.read_csv(ROOT/'data/processed/literature/literature_bgc_manifest.tsv',sep='\t',keep_default_na=False)
     published=published[published.source_group.isin(['canonical','noncanonical'])]
     coverage=[];supplement={}
     with zipfile.ZipFile(ROOT/'data/raw/research_2026-09-10/triculamin_lasso_BGCs.zip') as archive:
@@ -75,10 +75,10 @@ def main():
      base=r['ftp_path'].replace('ftp://','https://',1).rstrip('/');folder=base.rsplit('/',1)[-1]
      if base=='na' or r['protein_coding_gene_count']=='0':continue
      selection.append({'source':'RefSeq','genome_id':acc,'assembly':acc,'biosample':r['biosample'],'url':f'{base}/{folder}_protein.faa.gz','compression':'gzip','context_url':f'{base}/{folder}_genomic.gbff.gz'})
-    pd.DataFrame(meta).to_csv(ROOT/'inputs/selections/diversity_extension_mgnify_metadata.tsv',sep='\t',index=False)
+    pd.DataFrame(meta).to_csv(ROOT/'inputs/selections/extension/diversity_extension_mgnify_metadata.tsv',sep='\t',index=False)
     pd.DataFrame(coverage).to_csv(ROOT/'results/tables/diversity_merrild_coverage.tsv',sep='\t',index=False)
-    pd.DataFrame(list(supplement.values())).to_csv(ROOT/'inputs/selections/diversity_extension_refseq_assemblies.tsv',sep='\t',index=False)
-    pd.DataFrame(selection).to_csv(ROOT/'inputs/selections/diversity_extension_selection.tsv',sep='\t',index=False)
+    pd.DataFrame(list(supplement.values())).to_csv(ROOT/'inputs/selections/extension/diversity_extension_refseq_assemblies.tsv',sep='\t',index=False)
+    pd.DataFrame(selection).to_csv(ROOT/'inputs/selections/extension/diversity_extension_selection.tsv',sep='\t',index=False)
     pd.DataFrame(overlaps,columns=['genome_id','source','assembly','basis']).to_csv(ROOT/'results/tables/diversity_extension_selection_overlaps.tsv',sep='\t',index=False)
     accessions=[r['genome_id'] for r in selection if r['source']=='RefSeq'];references=[]
     for i in range(0,len(accessions),50):
@@ -88,7 +88,7 @@ def main():
         if payload.get('next_page_token'):raise ValueError('Unexpected metadata pagination')
         references.extend(reference_metadata(r) for r in payload['reports'])
     if set(r['assembly'] for r in references)!=set(accessions):raise ValueError('Incomplete exact RefSeq metadata')
-    pd.DataFrame(references).to_csv(ROOT/'inputs/selections/diversity_extension_refseq_metadata.tsv',sep='\t',index=False)
+    pd.DataFrame(references).to_csv(ROOT/'inputs/selections/extension/diversity_extension_refseq_metadata.tsv',sep='\t',index=False)
     summary={'status':'fixed_selection_before_launch','sources':counts,'selected_proteomes':pd.DataFrame(selection).source.value_counts().to_dict(),'exact_accession_overlaps_omitted':len(overlaps),'merrild_initial_coverage':pd.DataFrame(coverage).initial_selection_status.value_counts().to_dict(),'criteria':'unchanged_diversity_protocol','stopping_rule':'one_pooled_extension_then_result_interpretation_no_all_nonreference_RefSeq','HGT':'unchanged'}
     (ROOT/'inputs/provenance/diversity_extension_scope.json').write_text(json.dumps(summary,indent=2)+'\n')
     print(json.dumps(summary))

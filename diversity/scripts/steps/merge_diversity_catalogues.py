@@ -41,7 +41,7 @@ def main():
         genes.update(SeqIO.to_dict(SeqIO.parse(processed/f'{result_prefix}_BGC_genes.faa', 'fasta')))
     # Historical S3 calls retain their original review basis and precursor-like labels.
     history = read(tables/'diversity_bacillus_novelty.tsv')
-    roles = read(ROOT/'inputs/selections/maize_curated_core_roles.tsv')
+    roles = read(ROOT/'inputs/selections/baseline/maize_curated_core_roles.tsv')
     maize_loci = read(tables/'maize_candidate_loci.tsv').set_index('target_id')
     maize_neighbors = read(tables/'maize_candidate_neighbors.tsv')
     maize_genes = SeqIO.to_dict(SeqIO.parse(processed.parent/'maize_candidate_neighbors.faa', 'fasta'))
@@ -93,7 +93,7 @@ def main():
             keys.append(f"{assembly_hash}|{r['contig']}|{r['C_strand']}|{r['C_end'] if int(r['C_strand'])==1 else r['C_start']}")
     assembly_keys = ['assembly_bgc_'+sha(x)[:16] for x in keys]
     all_rows['assembly_locus_group_id'] = assembly_keys
-    identity_review = read(ROOT/'inputs/selections/diversity_carrier_identity_review.tsv').set_index('genome_id').to_dict('index')
+    identity_review = read(ROOT/'inputs/selections/review/diversity_carrier_identity_review.tsv').set_index('genome_id').to_dict('index')
     for index,r in enumerate(all_rows.to_dict('records')):
         culture = identity_review.get(r['genome_id'],{}).get('culture_identity_id','')
         if culture:
@@ -128,7 +128,7 @@ def main():
     engineered_tria = {sha(r.seq) for r in tria if r.id != 'TriA'}
     unique['A_exact_2026_native_TriA'] = unique.precursor_sha256.map(lambda x:bool(set(x.split(';')) & native_tria))
     unique['A_exact_2026_engineered_TriA'] = unique.precursor_sha256.map(lambda x:bool(set(x.split(';')) & engineered_tria))
-    taxonomy = read(ROOT/'inputs/selections/diversity_carrier_taxonomy.tsv')
+    taxonomy = read(ROOT/'inputs/selections/review/diversity_carrier_taxonomy.tsv')
     taxa = {}
     for r in taxonomy.to_dict('records'):
         for acc in [r['assembly_accession'], r['gbrs_paired_asm']]:

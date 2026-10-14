@@ -2,7 +2,7 @@
 set -euo pipefail
 root=$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)
 cd "$root"
-for path in .env/bin/python protocols/diversity_protocol.json inputs/selections/diversity_refseq_species.tsv data/processed/discovery/diversity_refseq_metadata.tsv; do
+for path in .env/bin/python protocols/diversity_protocol.json inputs/selections/species/diversity_refseq_species.tsv data/processed/discovery/diversity_refseq_metadata.tsv; do
   test -e "$path" || { echo "Missing prerequisite: $path" >&2; exit 1; }
 done
 mkdir -p results/logs results/tables data/processed/discovery/contexts

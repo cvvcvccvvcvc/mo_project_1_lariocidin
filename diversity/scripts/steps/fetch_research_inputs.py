@@ -19,14 +19,14 @@ ROOT = Path(__file__).resolve().parents[2]
 def restore_snapshots(root=ROOT, diversity=False):
     expected = {}
     manifests = sorted((root / "inputs/provenance").glob("diversity_*download_manifest.json")) if diversity else [
-        root / "inputs/provenance" / name for name in ("s3_download_manifest.json", "s5_download_manifest.json")]
+        root / "inputs/provenance" / name for name in ("s3_download_manifest.json",)]
     for path in manifests:
         for row in json.loads(path.read_text()).values():
             expected[row["local_path"]] = row["sha256"]
     if not diversity:
         for name, row in json.loads((root / "inputs/provenance/maize_biosample_downloads.json").read_text()).items():
             expected[f"data/raw/s3/{name}"] = row["sha256"]
-        with (root / "inputs/selections/research_sources_2026-09-10.tsv").open() as handle:
+        with (root / "inputs/selections/baseline/research_sources_2026-09-10.tsv").open() as handle:
             for row in csv.DictReader(handle, delimiter="\t"):
                 expected[row["local_path"]] = row["sha256"]
     archive_name = "diversity_metadata_snapshots.zip" if diversity else "source_snapshots.zip"
@@ -57,7 +57,7 @@ def main():
     if args.diversity:
         print(f"Verified {count} diversity metadata/model snapshots")
         return
-    with (ROOT / "inputs/selections/research_sources_2026-09-10.tsv").open() as handle:
+    with (ROOT / "inputs/selections/baseline/research_sources_2026-09-10.tsv").open() as handle:
         row = next(row for row in csv.DictReader(handle, delimiter="\t") if row["source_id"] == "triculamin_bgc_archive")
     path = ROOT / row["local_path"]
     if not path.exists():

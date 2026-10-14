@@ -70,11 +70,11 @@ def main():
                         if row['C_strand']==-1:core=core.reverse_complement()
                         assert sha(core)==row['core_sha256']
                         core_records.append(SeqRecord(core,id=window.id,description='defined_core_span_not_product_sequence'))
-        history=read(ROOT/'inputs/selections/maize_curated_core_roles.tsv')
+        history=read(ROOT/'inputs/selections/baseline/maize_curated_core_roles.tsv')
         history_coords=read(tables/'maize_candidate_neighbors.tsv')
-        history_proteins=SeqIO.to_dict(SeqIO.parse(processed/'maize_candidate_neighbors.faa','fasta'))
+        history_proteins=SeqIO.to_dict(SeqIO.parse(processed/'maize/maize_candidate_neighbors.faa','fasta'))
         historical=catalogue[catalogue.search_stage=='historical_Maize_S3'].set_index('locus_id')
-        for window in SeqIO.parse(processed/'maize_candidate_windows.gbk','genbank'):
+        for window in SeqIO.parse(processed/'maize/maize_candidate_windows.gbk','genbank'):
             if window.id not in historical.index:continue
             row=historical.loc[window.id].to_dict();metadata[window.id]={'locus_id':window.id,**row}
             SeqIO.write(SeqRecord(window.seq,id=window.id,description=f'historical_window_start_0based={row["window_start"]}'),windows_out,'fasta')
@@ -107,10 +107,10 @@ def main():
     for name in ['diversity_published_DNA.fna','diversity_published_C.faa','literature_unique_precursors.faa',
                  'literature_precursor_occurrences.tsv','literature_bgc_manifest.tsv','diversity_role_reference.tsv',
                  'diversity_M2_precursor_references.faa','diversity_precursor_core_sites.tsv']:
-        shutil.copy2((processed/"discovery"/name) if name.startswith("diversity_") else (processed/name),references/name)
+        shutil.copy2((processed/"discovery"/name) if name.startswith("diversity_") else (processed/"literature"/name),references/name)
     provenance=output/'provenance';provenance.mkdir()
     for path in [ROOT/'protocols/diversity_selection_review_protocol.json',ROOT/'protocols/diversity_protocol.json',
-                 ROOT/'inputs/selections/diversity_carrier_identity_review.tsv',*ROOT.glob('inputs/provenance/shards/diversity_*_context_downloads.jsonl'),
+                 ROOT/'inputs/selections/review/diversity_carrier_identity_review.tsv',*ROOT.glob('inputs/provenance/shards/diversity_*_context_downloads.jsonl'),
                  ROOT/'inputs/provenance/diversity_extension_download_manifest.json',ROOT/'inputs/provenance/historical/diversity_selection_preservation_manifest.json']:
         shutil.copy2(path,provenance/path.name)
     code=output/'code';code.mkdir()

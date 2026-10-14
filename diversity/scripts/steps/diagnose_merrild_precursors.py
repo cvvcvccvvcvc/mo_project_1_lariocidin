@@ -21,7 +21,7 @@ def audit_saved_C_integrity():
     High identity/query coverage nominate an integrity review, not a biochemical
     classifier. Raw hits and both gene coordinates remain available for review.
     """
-    references=read(ROOT/'data/processed/literature_all_cds.tsv')
+    references=read(ROOT/'data/processed/literature/literature_all_cds.tsv')
     c_references=set(references.loc[references.author_role=='cyclase','feature_id'])
     rows=[]
     for directory in sorted((ROOT/'data/processed/discovery/contexts').glob('diversity_*_contexts')):
@@ -57,7 +57,7 @@ def main():
     tables = ROOT/'results/tables'
     stages = read(tables/'diversity_merrild_screen_stages.tsv')
     failed = stages[stages.stage == 'C_nominated_BGC_criteria_not_met']
-    a = read(ROOT/'data/processed/literature_precursor_occurrences.tsv')
+    a = read(ROOT/'data/processed/literature/literature_precursor_occurrences.tsv')
     published = {r.id:str(r.seq).upper() for r in SeqIO.parse(ROOT/'data/processed/discovery/diversity_published_DNA.fna','fasta')}
     paths = {};contexts={};features={};admitted={}
     for path in (ROOT/'inputs/provenance/shards').glob('diversity_*_context_downloads.jsonl'):
@@ -68,7 +68,7 @@ def main():
         for directory in sorted((ROOT/'data/processed/discovery/contexts').glob(prefix+'_[0-9]*_contexts')):
             f=read(directory/'features.tsv');features.update({x:g for x,g in f.groupby('locus_id')})
             e=read(directory/'precursor_evidence.tsv');admitted.update({x:g for x,g in e.groupby('locus_id')})
-    sequences={r.id:str(r.seq) for r in SeqIO.parse(ROOT/'data/processed/literature_unique_precursors.faa','fasta')}
+    sequences={r.id:str(r.seq) for r in SeqIO.parse(ROOT/'data/processed/literature/literature_unique_precursors.faa','fasta')}
     results=[];details=[]
     for genome,records in failed.groupby('genome_id'):
         annotations,contigs=read_genome(paths[genome],'RefSeq')

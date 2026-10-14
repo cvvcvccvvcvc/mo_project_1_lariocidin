@@ -91,9 +91,9 @@ def main():
     loci = pd.read_csv(out / "loci.tsv", sep="\t", keep_default_na=False)
     features = pd.read_csv(out / "features.tsv", sep="\t", keep_default_na=False)
     role_reference = pd.read_csv(ROOT / "data/processed/discovery/diversity_role_reference.tsv", sep="\t", keep_default_na=False).set_index("feature_id")
-    precursor_reference = pd.read_csv(ROOT / "data/processed/literature_precursor_occurrences.tsv", sep="\t", keep_default_na=False)
+    precursor_reference = pd.read_csv(ROOT / "data/processed/literature/literature_precursor_occurrences.tsv", sep="\t", keep_default_na=False)
     precursor_groups = precursor_reference.groupby("precursor_id").source_group.agg(lambda x: set(x)).to_dict()
-    cyclase_reference = pd.read_csv(ROOT / "data/processed/literature_unique_cyclases.tsv", sep="\t", keep_default_na=False).set_index("cyclase_id")
+    cyclase_reference = pd.read_csv(ROOT / "data/processed/literature/literature_unique_cyclases.tsv", sep="\t", keep_default_na=False).set_index("cyclase_id")
     gene_sequences = {r.id: str(r.seq) for r in SeqIO.parse(out / "neighbors.faa", "fasta")}
     gene_sequences.update({r.id: str(r.seq) for r in SeqIO.parse(out / "precursor_queries.faa", "fasta")})
     c_ids = set(features.loc[features.is_C, "query_id"])
@@ -105,7 +105,7 @@ def main():
         precursor_hits, role_hits, c_hits, reviewed_hits = [read_blast(out / name) for name in
             ["precursor_blast.tsv", "role_blast.tsv", "C_literature_blast.tsv", "C_reviewed_blast.tsv"]]
     else:
-        precursor_hits = blast(out / "precursor_queries.faa", ROOT / "data/processed/literature_unique_precursors.faa", out / "precursor_blast.tsv", args.cpu, short=True)
+        precursor_hits = blast(out / "precursor_queries.faa", ROOT / "data/processed/literature/literature_unique_precursors.faa", out / "precursor_blast.tsv", args.cpu, short=True)
         role_hits = blast(out / "neighbors.faa", ROOT / "data/processed/discovery/diversity_role_reference.faa", out / "role_blast.tsv", args.cpu)
         c_hits = blast(out / "C.faa", ROOT / "data/processed/discovery/diversity_published_C.faa", out / "C_literature_blast.tsv", args.cpu)
         reviewed_hits = blast(out / "C.faa", ROOT / "data/interim/diversity_baseline/reviewed_bacterial.faa", out / "C_reviewed_blast.tsv", args.cpu, database=True)

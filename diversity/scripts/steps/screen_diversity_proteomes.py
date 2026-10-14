@@ -40,14 +40,14 @@ def selection(limit, manifest=None):
             raise ValueError("Selection contains repeated genome IDs")
         return inputs
     inputs = []
-    for r in input_rows(ROOT / "inputs/selections/diversity_refseq_species.tsv"):
+    for r in input_rows(ROOT / "inputs/selections/species/diversity_refseq_species.tsv"):
         acc = r["assembly"]
         base = r["ftp_path"]
         folder = base.rsplit("/", 1)[1]
         url = f"{base}/{folder}_protein.faa.gz"
         inputs.append({"source": "RefSeq", "genome_id": acc, "assembly": acc, "biosample": r["biosample"],
                        "url": url, "compression": "gzip"})
-    for r in input_rows(ROOT / "inputs/selections/diversity_soil_species.tsv"):
+    for r in input_rows(ROOT / "inputs/selections/species/diversity_soil_species.tsv"):
         acc = r["Genome"]
         url = f"https://ftp.ebi.ac.uk/pub/databases/metagenomics/mgnify_genomes/soil/v1.0/species_catalogue/{acc[:-2]}/{acc}/genome/{acc}.faa"
         inputs.append({"source": "Soil", "genome_id": acc, "assembly": r["Genome_accession"],
@@ -122,15 +122,17 @@ def main():
     shard = (args.output_name.rsplit("_", 1)[-1].isdigit()
              and args.output_name.startswith(("diversity_species_", "diversity_extension_",
                                          "diversity_controls_")))
-    selection_dir = ROOT / ("inputs/selections/shards" if shard else "inputs/selections")
-    provenance_dir = ROOT / ("inputs/provenance/shards" if shard else "inputs/provenance")
+    selection_dir = ROOT / ("inputs/selections/shards" if shard else ".local/pilot/selections")
+    provenance_dir = ROOT / ("inputs/provenance/shards" if shard else ".local/pilot/provenance")
+    selection_dir.mkdir(parents=True, exist_ok=True)
+    provenance_dir.mkdir(parents=True, exist_ok=True)
     with (selection_dir / f"{args.output_name}_selection.tsv").open("w") as handle:
         writer = csv.DictWriter(handle, fieldnames=list(selected[0]), delimiter="\t")
         writer.writeheader()
         writer.writerows(selected)
     raw = ROOT / "data/raw/diversity_proteomes"
     raw.mkdir(parents=True, exist_ok=True)
-    interim = ROOT / "data/interim" / args.output_name
+    interim = ROOT / ("data/interim" if shard else ".local/pilot/interim") / args.output_name
     interim.mkdir(parents=True, exist_ok=True)
     summaries, scores = [], []
     started = time.monotonic()

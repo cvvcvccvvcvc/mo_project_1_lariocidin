@@ -67,7 +67,7 @@ def main():
     hit_ids = set(scores.target_id)
     rep_members = pd.read_csv(ROOT / "results/tables/maize_catalogue_candidate_members.tsv", sep="\t")
     nominated = set(rep_members.loc[rep_members.in_scope, "member_id"])
-    with fasta.open() as handle, (ROOT / "data/processed/maize_direct_candidates.faa").open("w") as output:
+    with fasta.open() as handle, (ROOT / "data/processed/maize/maize_direct_candidates.faa").open("w") as output:
         for header, protein in SimpleFastaParser(handle):
             if header in hit_ids:
                 output.write(f">{header}\n{protein}\n")

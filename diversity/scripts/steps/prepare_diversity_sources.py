@@ -78,7 +78,7 @@ def main():
                          "assembly_name": info["assembly_name"],
                          "annotation": report["annotation_info"].get("name", ""),
                          "selection": "current_annotated_bacterial_refseq_reference"})
-    with (ROOT / "inputs/selections/diversity_refseq_species.tsv").open("w") as handle:
+    with (ROOT / "inputs/selections/species/diversity_refseq_species.tsv").open("w") as handle:
         writer = csv.DictWriter(handle, fieldnames=list(selected[0]), delimiter="\t")
         writer.writeheader()
         writer.writerows(selected)
@@ -88,7 +88,7 @@ def main():
     selected_soil = [r for r in genomes if r["Genome"] == r["Species_rep"]
                      and r["Lineage"].startswith("d__Bacteria;")
                      and float(r["Completeness"]) >= 50 and float(r["Contamination"]) < 10]
-    with (ROOT / "inputs/selections/diversity_soil_species.tsv").open("w") as handle:
+    with (ROOT / "inputs/selections/species/diversity_soil_species.tsv").open("w") as handle:
         writer = csv.DictWriter(handle, fieldnames=list(genomes[0]), delimiter="\t")
         writer.writeheader()
         writer.writerows(selected_soil)

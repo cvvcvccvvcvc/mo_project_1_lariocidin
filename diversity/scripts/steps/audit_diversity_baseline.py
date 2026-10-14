@@ -41,8 +41,8 @@ def wgs_project(accession):
 def main():
     processed, tables = ROOT / "data/processed", ROOT / "results/tables"
     raw = ROOT / "data/raw/diversity_2026-10-12"
-    library = rows(processed / "literature_bgc_manifest.tsv")
-    original = rows(processed / "reference_manifest.tsv")
+    library = rows(processed / "literature/literature_bgc_manifest.tsv")
+    original = rows(processed / "reference/reference_manifest.tsv")
     candidates = rows(tables / "maize_curated_candidates.tsv")
     domain_rows = {r["protein_id"]: r for r in rows(tables / "diversity_domain_evidence.tsv")}
     cores = {r["candidate_id"]: r for r in rows(tables / "maize_supported_core_comparison.tsv")}
@@ -58,7 +58,7 @@ def main():
         references.append(("LAR-BGC/" + row["file_name"], row["accession"], strain, str(record.seq).upper()))
 
     novelty, public_proteins = [], []
-    candidate_sequences = {r.id: str(r.seq) for r in SeqIO.parse(processed / "maize_direct_candidates.faa", "fasta")}
+    candidate_sequences = {r.id: str(r.seq) for r in SeqIO.parse(processed / "maize/maize_direct_candidates.faa", "fasta")}
     cache = Cache(raw, ROOT / "inputs/provenance/diversity_novelty_download_manifest.json")
     for candidate in candidates:
         identifier = candidate["target_id"]
@@ -107,14 +107,14 @@ def main():
     if public_proteins:
         write_table(tables / "diversity_bacillus_public_protein_occurrences.tsv", public_proteins)
 
-    features = {r["feature_id"]: r for r in rows(processed / "all_cds.tsv")}
-    lit_features = rows(processed / "literature_all_cds.tsv")
-    lit_sequences = {r.id: str(r.seq) for r in SeqIO.parse(processed / "literature_all_cds.faa", "fasta")}
+    features = {r["feature_id"]: r for r in rows(processed / "reference/all_cds.tsv")}
+    lit_features = rows(processed / "literature/literature_all_cds.tsv")
+    lit_sequences = {r.id: str(r.seq) for r in SeqIO.parse(processed / "literature/literature_all_cds.faa", "fasta")}
     exact = defaultdict(list)
     for f in lit_features:
         if f["feature_id"] in lit_sequences:
             exact[lit_sequences[f["feature_id"]]].append(f)
-    sequences = {r.id: str(r.seq) for r in SeqIO.parse(processed / "all_cds.faa", "fasta")}
+    sequences = {r.id: str(r.seq) for r in SeqIO.parse(processed / "reference/all_cds.faa", "fasta")}
     evidence = []
     for r in rows(tables / "pseudomonadota_core_roles.tsv"):
         f = features[r["feature_id"]]
@@ -156,7 +156,7 @@ def main():
     with (tables / "diversity_baseline_blast.log").open("w") as log:
         subprocess.run([str(blast / "makeblastdb"), "-in", str(database), "-dbtype", "prot"], check=True, stdout=log, stderr=log)
         fields = "6 qseqid sseqid pident length qlen slen evalue bitscore qcovhsp"
-        subprocess.run([str(blast / "blastp"), "-query", str(processed / "maize_direct_candidates.faa"),
+        subprocess.run([str(blast / "blastp"), "-query", str(processed / "maize/maize_direct_candidates.faa"),
                         "-db", str(database), "-evalue", "1e-5", "-max_target_seqs", "10", "-num_threads", "4",
                         "-outfmt", fields, "-out", str(tables / "diversity_maize_vs_reviewed.tsv")], check=True, stdout=log, stderr=log)
     titles = {r.id: r.description for r in SeqIO.parse(database, "fasta")}
@@ -179,7 +179,7 @@ def main():
                            "measured_Pfam_panel_domains": domain_rows[candidate["target_id"]]["domains"],
                            "interpretation": "nearest_reviewed_homolog_not_function_assignment"})
     write_table(tables / "diversity_broad_comparison.tsv", comparison)
-    summary = {"historical_cyclase_database": dict(Counter(r["source_groups"] for r in rows(processed / "literature_unique_cyclases.tsv"))),
+    summary = {"historical_cyclase_database": dict(Counter(r["source_groups"] for r in rows(processed / "literature/literature_unique_cyclases.tsv"))),
                "historical_reviewed_AsnB": 5, "new_reviewed_bacterial_sequences": db_count,
                "candidates_compared": len(comparison), "roles_audited": len(evidence),
                "distinct_Bacillus_biosamples": len({r["biosample"] for r in novelty}),

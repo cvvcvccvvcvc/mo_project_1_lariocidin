@@ -18,7 +18,7 @@ def sha256(path):
 def main():
     manifest = ROOT / "inputs/provenance/s3_download_manifest.json"
     records = json.loads(manifest.read_text()) if manifest.exists() else {}
-    with (ROOT / "inputs/selections/s3_sources.tsv").open() as handle:
+    with (ROOT / "inputs/selections/baseline/s3_sources.tsv").open() as handle:
         for row in csv.DictReader(handle, delimiter="\t"):
             path = ROOT / row["local_path"]
             path.parent.mkdir(parents=True, exist_ok=True)
