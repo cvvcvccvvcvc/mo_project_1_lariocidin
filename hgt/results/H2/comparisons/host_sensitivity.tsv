@@ -1,0 +1,5 @@
+comparison	dataset	shared_single_copy_hosts	first_nonzero_splits	second_nonzero_splits	common_splits	RF_nonzero_splits	strong_first_splits	strong_second_splits	strong_conflicting_split_pairs
+MAG_addition_diagnostic	canonical	143	131	134	131	3	103	103	0
+MAG_addition_C_diagnostic	canonical_C	104	72	74	68	10	45	41	0
+74_versus_138_marker_host_trees_on_shared_taxa	noncanonical_Actinomycetota	117	114	114	101	26	87	99	1
+C_tree_resampling_with_Actino138_admission_on_shared_single_copy_hosts	noncanonical_C	79	75	76	68	15	42	43	0

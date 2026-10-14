@@ -1,0 +1,13 @@
+scope	family	multicopy_hosts_excluded	shared_single_copy_hosts	status	first_nonzero_splits	second_nonzero_splits	common_splits	RF_nonzero_splits	strong_first_splits	strong_second_splits	strong_conflicting_split_pairs
+Bacteria74	canonical_ABC_family	72	not_an_orthology_criterion	D1_D2_paralogous_reference_family; retain_all_copy_tree; no_one_to_one_host_or_component_RF							not_applicable
+Bacteria74	canonical_B1	0	92	descriptive_split_comparison; neither_pvalue_nor_HGT_event_test	46	84	25	80	21	59	11
+Bacteria74	canonical_B2	0	102	descriptive_split_comparison; neither_pvalue_nor_HGT_event_test	66	93	30	99	33	68	32
+Bacteria74	canonical_C	0	104	descriptive_split_comparison; neither_pvalue_nor_HGT_event_test	74	95	34	101	41	70	29
+Bacteria74	canonical_GNAT_E	0	48	descriptive_split_comparison; neither_pvalue_nor_HGT_event_test	25	41	18	30	7	30	0
+Bacteria74	noncanonical_ABC_D	0	14	descriptive_split_comparison; neither_pvalue_nor_HGT_event_test	11	11	7	8	6	6	1
+Bacteria74	noncanonical_C	1	83	descriptive_split_comparison; neither_pvalue_nor_HGT_event_test	79	80	31	97	43	61	128
+Bacteria74	noncanonical_GNAT_neighbour	1	72	descriptive_split_comparison; neither_pvalue_nor_HGT_event_test	68	69	26	85	36	52	87
+Actinobacteria138	noncanonical_ABC_D	0	30	descriptive_split_comparison; neither_pvalue_nor_HGT_event_test	21	27	13	22	10	17	1
+Actinobacteria138	noncanonical_C	2	101	descriptive_split_comparison; neither_pvalue_nor_HGT_event_test	91	98	34	121	50	80	202
+Actinobacteria138	noncanonical_GNAT_neighbour	2	73	descriptive_split_comparison; neither_pvalue_nor_HGT_event_test	69	70	22	95	37	58	135
+Actinobacteria138	uncertain_Nature_system_C	0	4	descriptive_split_comparison; neither_pvalue_nor_HGT_event_test	1	1	0	2	1	1	1

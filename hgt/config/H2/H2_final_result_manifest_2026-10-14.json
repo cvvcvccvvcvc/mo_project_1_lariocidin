@@ -1,0 +1,146 @@
+{
+  "date": "2026-10-14",
+  "status": "H2 computation and descriptive comparison completed; H3 not performed",
+  "source_snapshot": "H2_2026-10-13",
+  "predecessor_manifest": "config/H2/H2_ready_result_manifest_2026-10-14.json",
+  "analysis_code": "frozen H2 review code snapshot identified in predecessor manifest",
+  "reporting_repository_base_commit": "7a08e96fedbecdd24b732042c5d1332bb2aaec6f",
+  "software": {
+    "IQ-TREE": "3.1.3"
+  },
+  "slurm_jobs": [
+    {
+      "id": "938342_0",
+      "role": "Actino138 noncanonical host ML",
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "elapsed": "05:58:00",
+      "cpus": 64
+    },
+    {
+      "id": "938343",
+      "role": "Actino138 gCF",
+      "state": "COMPLETED",
+      "exit_code": "0:0"
+    },
+    {
+      "id": "938347",
+      "role": "final comparisons and figures",
+      "state": "COMPLETED",
+      "exit_code": "0:0"
+    }
+  ],
+  "validation": {
+    "actino_host_tips": 144,
+    "actino_host_ufboot_trees": 1000,
+    "actino_gcf_branch_rows": 141,
+    "tree_datasets_reviewed": 20,
+    "component_host_comparisons": 12,
+    "curated_relationships": 6,
+    "figures_reported": 23
+  },
+  "resource_measurement": {
+    "scope": "scratch plus home after final jobs",
+    "bytes": 180131614720,
+    "decimal_GB": 180.13161472,
+    "limit_decimal_GB": 250,
+    "headroom_decimal_GB": 69.86838528
+  },
+  "tracked_outputs": [
+    {
+      "path": "results/H2/actino/host_trees/noncanonical/ML.treefile",
+      "bytes": 5839,
+      "sha256": "1edd3b813604a51963f7ce966058e04e97f41063b4c1b042a1148f6504725251"
+    },
+    {
+      "path": "results/H2/actino/host_trees/noncanonical/concordance.cf.branch",
+      "bytes": 5280,
+      "sha256": "718f6632cb9ae5de23a20fa5d5ca6642c582ce76a7cd947e8446481c28c19f57"
+    },
+    {
+      "path": "results/H2/actino/host_trees/noncanonical/concordance.cf.stat.tsv",
+      "bytes": 8170,
+      "sha256": "26b8006030f2cfbd1659ca61f3375833ef7167e9f8cf3f9e393ec496584a2566"
+    },
+    {
+      "path": "results/H2/figures/Actino138_noncanonical.pdf",
+      "bytes": 52243,
+      "sha256": "728e0894957a9a72c2daea8373143fc5b1c1583a0f253cf92f1b56cdd3fbad1d"
+    },
+    {
+      "path": "results/H2/figures/Actino138_noncanonical_C_overview.pdf",
+      "bytes": 22382,
+      "sha256": "b5574624dd38fa9683b5e05853976536787e3a9d2d83231221a67ba968bd0f94"
+    },
+    {
+      "path": "results/H2/comparisons/H2_relationship_catalog.tsv",
+      "bytes": 1777,
+      "sha256": "3f938b138cbab7dafe3179088933d0430fa5dcec77e5a51d4a4c4c76d16c8d34"
+    },
+    {
+      "path": "results/H2/comparisons/H2_relationship_evidence.json",
+      "bytes": 26384,
+      "sha256": "057345c8678452c5338985ade0e0ca443f8dda2613cf4414bad704871aeed68b"
+    },
+    {
+      "path": "results/H2/comparisons/component_host.tsv",
+      "bytes": 1728,
+      "sha256": "44d0005eab108cd49f90c01a09e699944383332335fc3943aa31c6db72f026fe"
+    },
+    {
+      "path": "results/H2/comparisons/component_pair_conflicts.tsv",
+      "bytes": 1804,
+      "sha256": "92f733dc0592454cda8f166e6582a3032f2295e5d435cf4d0312daa0572f3069"
+    },
+    {
+      "path": "results/H2/comparisons/component_pairs.tsv",
+      "bytes": 2217,
+      "sha256": "0fae1e6dfb23c7ff727aa885bd2c62f57b642eed56f3846dc78570b8c5f730e6"
+    },
+    {
+      "path": "results/H2/comparisons/host_sensitivity.tsv",
+      "bytes": 526,
+      "sha256": "114f09e2e061d81279cad39dd7d46f8927104e37efcef6fe6c979c415b5caac0"
+    },
+    {
+      "path": "results/H2/comparisons/relative_placement.tsv",
+      "bytes": 26622,
+      "sha256": "c966fd2fef5cb2faa78486344355f693395daa4ef2f3e4b9fb4bfe2abe1798af"
+    },
+    {
+      "path": "results/H2/comparisons/supported_split_conflicts.tsv",
+      "bytes": 569159,
+      "sha256": "6644db1eb62ad37f1ff99e2e1ddffd2a84e796d07b3c95e1114077cc9ee25077"
+    },
+    {
+      "path": "results/H2/comparisons/tree_quality.tsv",
+      "bytes": 6287,
+      "sha256": "19361651bedd1c7a316988b45175cb7b1d994c73878abb72359593b81e6a1adf"
+    }
+  ],
+  "off_git_outputs": [
+    {
+      "path": "results/H2/actino/host_trees/noncanonical/ML.ufboot",
+      "bytes": 4854000,
+      "sha256": "c520688b8c0923d41377a28c44e470eee0670b0adbc683e4b4651df544c77573"
+    },
+    {
+      "path": "results/H2/actino/host_trees/noncanonical/ML.iqtree",
+      "bytes": 65513,
+      "sha256": "29ea4f302031986720d603cf0e98657e4ceba648c1c110bce24fe734afade4fa"
+    },
+    {
+      "path": "results/H2/actino/host_trees/noncanonical/concordance.cf.stat",
+      "bytes": 9147,
+      "sha256": "7a16ed5eb71e77e88cdaa75a9c7486e692c5a3346ec0dc1d5203d1dd7c145b47"
+    },
+    {
+      "path": "results/H2/actino/host_trees/noncanonical/independent_marker_trees.nwk",
+      "bytes": 144770,
+      "sha256": "9720fd251d70af9988f2846b74dd74626199fdbd424a09ecdc232335fa6a831a"
+    }
+  ],
+  "sanitization": "concordance.cf.stat.tsv reproduces the non-comment rows of concordance.cf.stat; only the latter contains a private absolute path in comments",
+  "inference_limit": "descriptive topology and concordance only; no DL/DTL, AU, transfer direction or historical route estimated",
+  "text_normalization": "Final comparison TSV files were converted from CRLF to LF for Git; field values were not changed. The non-applicable final cell in the ABC family row is explicitly marked not_applicable to preserve a complete TSV record."
+}
