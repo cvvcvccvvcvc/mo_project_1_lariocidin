@@ -10,7 +10,8 @@ set -euo pipefail
 export PYTHONDONTWRITEBYTECODE=1
 : "${HGT_BIN:?Set HGT_BIN to the pinned environment bin directory}"
 export HGT_BIN
-export MPLCONFIGDIR="$HGT_ROOT/tools/matplotlib-cache"
+export MPLCONFIGDIR="$HGT_ROOT/results/cache/matplotlib"
+mkdir -p "$MPLCONFIGDIR"
 options=()
 if [[ ${HGT_READY_ONLY:-0} == 1 ]]; then options=(--ready-only); fi
 "$HGT_BIN/python" "$HGT_ROOT/scripts/steps/h2_compare_trees.py" "${options[@]}"

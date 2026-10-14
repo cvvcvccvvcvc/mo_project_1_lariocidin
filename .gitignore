@@ -10,6 +10,7 @@ diversity/inputs/archives/*.zip
 diversity/results/
 hgt/inputs/
 hgt/results/
+hgt/tools/
 __pycache__/
 *.pyc
 .DS_Store

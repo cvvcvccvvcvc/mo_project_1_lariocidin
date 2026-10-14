@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 HGT_ROOT=$(cd "$(dirname "$0")/.." && pwd)
-HGT_BIN="$HGT_ROOT/../.env/bin"
+: "${HGT_BIN:?Set HGT_BIN to the pinned environment bin directory}"
 HGT_SEQUENCES="$HGT_ROOT/results/H1_sequences"
 "$HGT_BIN/makeblastdb" -in "$HGT_SEQUENCES/merrild_author_C.faa" -dbtype prot \
     -out "$HGT_SEQUENCES/author_C_db" > "$HGT_SEQUENCES/blast_build.log" 2>&1

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 HGT_ROOT=$(cd "$(dirname "$0")/.." && pwd)
-HGT_PYTHON=${1:-"$HGT_ROOT/../.env/bin/python"}
+HGT_PYTHON=${1:-"${HGT_BIN:?Set HGT_BIN or pass a Python executable}/python"}
 HGT_TOOL="$HGT_ROOT/inputs/2026-10-13/method_sources/waafle_v1.0.0"
 HGT_DEMO="$HGT_ROOT/inputs/2026-10-13/method_sources/waafle/demo"
 HGT_OUTPUT="$HGT_ROOT/results/waafle_fixture_v1.0.0"
