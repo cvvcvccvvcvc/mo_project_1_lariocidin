@@ -1,24 +1,36 @@
 {
   "refseq_reference_page_000": {
-    "bytes": 4062757,
+    "bytes": 4062724,
     "local_path": "data/raw/diversity_2026-10-12/refseq_reference_page_000.json",
     "retrieved_utc": "2026-10-12T18:09:26.860861+00:00",
-    "sha256": "9df028f0162fab3cf8bfbdb26c7f3f66c997eba128044c1c19dee9a949dde27d",
-    "url": "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/taxon/2/dataset_report?filters.reference_only=true&filters.assembly_source=refseq&page_size=1000"
+    "sha256": "269a1b73881d8223cf8cee34b69c19a461801de65f12a214d22518d318bd4a6c",
+    "url": "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/taxon/2/dataset_report?filters.reference_only=true&filters.assembly_source=refseq&page_size=1000",
+    "download_bytes": 4062757,
+    "download_sha256": "9df028f0162fab3cf8bfbdb26c7f3f66c997eba128044c1c19dee9a949dde27d",
+    "derived_on": "2026-10-14",
+    "derivation": "legacy_crop_cohort_exclusion"
   },
   "refseq_reference_page_001": {
-    "bytes": 4168710,
+    "bytes": 4168667,
     "local_path": "data/raw/diversity_2026-10-12/refseq_reference_page_001.json",
     "retrieved_utc": "2026-10-12T18:09:30.018693+00:00",
-    "sha256": "f8ced2dfd02c6714f324a5edb33daba7b024a2707a14c2a85714aa6693daf182",
-    "url": "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/taxon/2/dataset_report?filters.reference_only=true&filters.assembly_source=refseq&page_size=1000&page_token=eNrjMo1WMnQ2DHE2cnK2tDQzsLA0NrQwMDC0NDEwNTK1NLc0V9JRUHJ3douHC-oZKcUCAEb8C6c"
+    "sha256": "b02135f66611ecdf3cb0e96e8b51ddcd839b884973711befb78af7579047d7bd",
+    "url": "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/taxon/2/dataset_report?filters.reference_only=true&filters.assembly_source=refseq&page_size=1000&page_token=eNrjMo1WMnQ2DHE2cnK2tDQzsLA0NrQwMDC0NDEwNTK1NLc0V9JRUHJ3douHC-oZKcUCAEb8C6c",
+    "download_bytes": 4168710,
+    "download_sha256": "f8ced2dfd02c6714f324a5edb33daba7b024a2707a14c2a85714aa6693daf182",
+    "derived_on": "2026-10-14",
+    "derivation": "legacy_crop_cohort_exclusion"
   },
   "refseq_reference_page_002": {
-    "bytes": 3863452,
+    "bytes": 3863419,
     "local_path": "data/raw/diversity_2026-10-12/refseq_reference_page_002.json",
     "retrieved_utc": "2026-10-12T18:09:33.128833+00:00",
-    "sha256": "a6c09a87504c5887265a1f39a1c7ff8aaaafccbbf14cc00ebbd103f7c2475347",
-    "url": "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/taxon/2/dataset_report?filters.reference_only=true&filters.assembly_source=refseq&page_size=1000&page_token=eNrjMo1WMnQ2DHEDAktLA0tDMzMjcwMDQzNDQ3NLU0sLSwslHQUld2e3eLignqFSLABMRQvK"
+    "sha256": "73d7da69b4bee3a6df0a2c2429e2670be52f0b8afb8009b5450b0d2b779c1ccc",
+    "url": "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/taxon/2/dataset_report?filters.reference_only=true&filters.assembly_source=refseq&page_size=1000&page_token=eNrjMo1WMnQ2DHEDAktLA0tDMzMjcwMDQzNDQ3NLU0sLSwslHQUld2e3eLignqFSLABMRQvK",
+    "download_bytes": 3863452,
+    "download_sha256": "a6c09a87504c5887265a1f39a1c7ff8aaaafccbbf14cc00ebbd103f7c2475347",
+    "derived_on": "2026-10-14",
+    "derivation": "legacy_crop_cohort_exclusion"
   },
   "refseq_reference_page_003": {
     "bytes": 3829710,
@@ -42,11 +54,15 @@
     "url": "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/taxon/2/dataset_report?filters.reference_only=true&filters.assembly_source=refseq&page_size=1000&page_token=eNrjMo1WMnQ2jHBydbKwtDSxtDQ0tTA2MDAysrAwNTG1tLC0UNJRUHJ3douHC-oZKsUCAEr0C8c"
   },
   "refseq_reference_page_006": {
-    "bytes": 4303516,
+    "bytes": 4303449,
     "local_path": "data/raw/diversity_2026-10-12/refseq_reference_page_006.json",
     "retrieved_utc": "2026-10-12T18:09:44.965803+00:00",
-    "sha256": "5723f6e876b7cc6c425f95d0c54b912047b0993f1c2a6d3641496f0076bb807c",
-    "url": "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/taxon/2/dataset_report?filters.reference_only=true&filters.assembly_source=refseq&page_size=1000&page_token=eNrjMo1WMnQ2jHADAktLYwsTE2MzUwNjQ0Mgx9zU0sLSQklHQcnd2S0eLqhnqBQLAE6oC-A"
+    "sha256": "7832c4660478e04f1de742b9178b2c9b61f2c8cd11b329f43b22f77df966b79f",
+    "url": "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/taxon/2/dataset_report?filters.reference_only=true&filters.assembly_source=refseq&page_size=1000&page_token=eNrjMo1WMnQ2jHADAktLYwsTE2MzUwNjQ0Mgx9zU0sLSQklHQcnd2S0eLqhnqBQLAE6oC-A",
+    "download_bytes": 4303516,
+    "download_sha256": "5723f6e876b7cc6c425f95d0c54b912047b0993f1c2a6d3641496f0076bb807c",
+    "derived_on": "2026-10-14",
+    "derivation": "legacy_crop_cohort_exclusion"
   },
   "refseq_reference_page_007": {
     "bytes": 4237566,

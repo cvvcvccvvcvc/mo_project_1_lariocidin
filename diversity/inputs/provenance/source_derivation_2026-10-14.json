@@ -1,0 +1,121 @@
+{
+  "snapshot_date": "2026-10-14",
+  "purpose": "Record locally curated source files after exclusion of the legacy crop cohort; preserve the original download digests.",
+  "files": [
+    {
+      "path": "data/raw/diversity_2026-10-12/refseq_reference_page_000.json",
+      "source_manifest": "diversity_download_manifest.json",
+      "source_id": "refseq_reference_page_000",
+      "original_download": {
+        "bytes": 4062757,
+        "sha256": "9df028f0162fab3cf8bfbdb26c7f3f66c997eba128044c1c19dee9a949dde27d"
+      },
+      "current_local": {
+        "bytes": 4062724,
+        "sha256": "269a1b73881d8223cf8cee34b69c19a461801de65f12a214d22518d318bd4a6c"
+      }
+    },
+    {
+      "path": "data/raw/diversity_2026-10-12/refseq_reference_page_001.json",
+      "source_manifest": "diversity_download_manifest.json",
+      "source_id": "refseq_reference_page_001",
+      "original_download": {
+        "bytes": 4168710,
+        "sha256": "f8ced2dfd02c6714f324a5edb33daba7b024a2707a14c2a85714aa6693daf182"
+      },
+      "current_local": {
+        "bytes": 4168667,
+        "sha256": "b02135f66611ecdf3cb0e96e8b51ddcd839b884973711befb78af7579047d7bd"
+      }
+    },
+    {
+      "path": "data/raw/diversity_2026-10-12/refseq_reference_page_002.json",
+      "source_manifest": "diversity_download_manifest.json",
+      "source_id": "refseq_reference_page_002",
+      "original_download": {
+        "bytes": 3863452,
+        "sha256": "a6c09a87504c5887265a1f39a1c7ff8aaaafccbbf14cc00ebbd103f7c2475347"
+      },
+      "current_local": {
+        "bytes": 3863419,
+        "sha256": "73d7da69b4bee3a6df0a2c2429e2670be52f0b8afb8009b5450b0d2b779c1ccc"
+      }
+    },
+    {
+      "path": "data/raw/diversity_2026-10-12/refseq_reference_page_006.json",
+      "source_manifest": "diversity_download_manifest.json",
+      "source_id": "refseq_reference_page_006",
+      "original_download": {
+        "bytes": 4303516,
+        "sha256": "5723f6e876b7cc6c425f95d0c54b912047b0993f1c2a6d3641496f0076bb807c"
+      },
+      "current_local": {
+        "bytes": 4303449,
+        "sha256": "7832c4660478e04f1de742b9178b2c9b61f2c8cd11b329f43b22f77df966b79f"
+      }
+    },
+    {
+      "path": "data/raw/diversity_2026-10-12/cdd_hits.tsv",
+      "source_manifest": "diversity_domain_download_manifest.json",
+      "source_id": "cdd_hits",
+      "original_download": {
+        "bytes": 466493,
+        "sha256": "8651ce7f45671ca25bc08a21e622e15fbbafc105fb6f4f51a0c4e057db153abc"
+      },
+      "current_local": {
+        "bytes": 454715,
+        "sha256": "8ebe681f1d68a0e1766af16e5c9cc042a218370e5f01b39416ed5af7a24da3cf"
+      }
+    },
+    {
+      "path": "data/raw/diversity_extension_2026-10-13/extension_refseq_metadata_01.json",
+      "source_manifest": "diversity_extension_download_manifest.json",
+      "source_id": "extension_refseq_metadata_01",
+      "original_download": {
+        "bytes": 194754,
+        "sha256": "b07ad177e4de536c95a24558589e124107e1050477bc4356c3248b66ddcc1a62"
+      },
+      "current_local": {
+        "bytes": 194744,
+        "sha256": "db853e737e2bc17604a9bb46ce1ef1f7b5807e1163057ea3c8aba889da305f77"
+      }
+    },
+    {
+      "path": "data/raw/diversity_extension_2026-10-13/mgnify_catalogue_root.html",
+      "source_manifest": "diversity_extension_download_manifest.json",
+      "source_id": "mgnify_catalogue_root",
+      "original_download": {
+        "bytes": 4681,
+        "sha256": "434c163e5f5cba1c898e26702a173609b17b1282cf431b4bda86ebe586910a3d"
+      },
+      "current_local": {
+        "bytes": 4465,
+        "sha256": "b9c8c5cfc1784c0a64002e56b9e9a463e7c5b2ed6c3e8b0fac4dea55d1a2a1fa"
+      }
+    },
+    {
+      "path": "inputs/archives/diversity_metadata_snapshots.zip",
+      "source_manifest": "off_git_assets.tsv",
+      "original_download": {
+        "bytes": 128741522,
+        "sha256": "a28e5f66c7e45e643fb1cfedaf90592407c9953d8d00b2c3d3e9f76a374d793f"
+      },
+      "current_local": {
+        "bytes": 128740771,
+        "sha256": "543cb689df2ce99f8feb65d5993229b3b1495725bc0e344686d3197682efac7d"
+      }
+    },
+    {
+      "path": "inputs/archives/diversity_extension_metadata_snapshots.zip",
+      "source_manifest": "off_git_assets.tsv",
+      "original_download": {
+        "bytes": 27190046,
+        "sha256": "ed2b3fae1993ea18ad31cf93a064581152d217eb5d71298b5d14e8a7258d27e1"
+      },
+      "current_local": {
+        "bytes": 27190026,
+        "sha256": "1b33646935d943bb96427c2ccd394b5521196f120cb8a739bf1af45e2bf4847a"
+      }
+    }
+  ]
+}

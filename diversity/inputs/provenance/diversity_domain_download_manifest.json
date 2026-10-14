@@ -7,11 +7,15 @@
     "url": "https://www.ncbi.nlm.nih.gov/Structure/bwrpsb/bwrpsb.cgi"
   },
   "cdd_hits": {
-    "bytes": 466493,
+    "bytes": 454715,
     "local_path": "data/raw/diversity_2026-10-12/cdd_hits.tsv",
     "retrieved_utc": "2026-10-12T18:11:27.590312+00:00",
-    "sha256": "8651ce7f45671ca25bc08a21e622e15fbbafc105fb6f4f51a0c4e057db153abc",
-    "url": "https://www.ncbi.nlm.nih.gov/Structure/bwrpsb/bwrpsb.cgi?cdsid=QM3-qcdsearch-123B4C56759D4E5C-3B1BCA228966BFD8&tdata=hits&dmode=std&qdefl=true&cddefl=true"
+    "sha256": "8ebe681f1d68a0e1766af16e5c9cc042a218370e5f01b39416ed5af7a24da3cf",
+    "url": "https://www.ncbi.nlm.nih.gov/Structure/bwrpsb/bwrpsb.cgi?cdsid=QM3-qcdsearch-123B4C56759D4E5C-3B1BCA228966BFD8&tdata=hits&dmode=std&qdefl=true&cddefl=true",
+    "download_bytes": 466493,
+    "download_sha256": "8651ce7f45671ca25bc08a21e622e15fbbafc105fb6f4f51a0c4e057db153abc",
+    "derived_on": "2026-10-14",
+    "derivation": "legacy_crop_cohort_exclusion"
   },
   "cdd_submission": {
     "bytes": 156,
