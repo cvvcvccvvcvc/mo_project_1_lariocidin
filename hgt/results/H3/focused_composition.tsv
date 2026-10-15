@@ -1,0 +1,13 @@
+case_id	panel	family	host_id	tip_id	IQTREE_composition_chi2	p_percent_displayed	source_log_relative_to_hgt
+H2-CAN-BURK	Bacteria74	canonical_C	H0056	H0056_Cf843f3c6e1	failed	0.00	results/H2/component_trees/canonical_C/ML.log
+H2-CAN-BURK	Bacteria74	canonical_C	H0065	H0065_C78e6145138	failed	0.11	results/H2/component_trees/canonical_C/ML.log
+H2-CAN-BURK	Bacteria74	canonical_C	H0163	H0163_Cd9401e25b3	failed	0.03	results/H2/component_trees/canonical_C/ML.log
+H2-CAN-BURK	Bacteria74	canonical_C	H0203	H0203_C7666e36c9a	failed	0.08	results/H2/component_trees/canonical_C/ML.log
+H2-CAN-BURK	Bacteria74	canonical_C	H0208	H0208_Cbfacb1059a	failed	0.00	results/H2/component_trees/canonical_C/ML.log
+H2-CAN-BURK	Bacteria74	canonical_C	H0308	H0308_Ca1a9bf969c	failed	0.00	results/H2/component_trees/canonical_C/ML.log
+H2-NC-ISL	Actino138	noncanonical_C	H0051	H0051_Cbe5968925b	passed	52.97	results/H2/actino/component_trees/noncanonical_C/ML.log
+H2-NC-ISL	Actino138	noncanonical_C	H0183	H0183_C04d68fb29f	passed	99.75	results/H2/actino/component_trees/noncanonical_C/ML.log
+H2-NC-ISL	Actino138	noncanonical_C	H0223	H0223_C5bd105a36e	passed	43.84	results/H2/actino/component_trees/noncanonical_C/ML.log
+H2-NC-ISL	Actino138	noncanonical_GNAT_neighbour	H0051	H0051_G9a2c7f19fa	passed	61.31	results/H2/actino/component_trees/noncanonical_GNAT_neighbour/ML.log
+H2-NC-ISL	Actino138	noncanonical_GNAT_neighbour	H0183	H0183_Gf6fc002aba	passed	99.20	results/H2/actino/component_trees/noncanonical_GNAT_neighbour/ML.log
+H2-NC-ISL	Actino138	noncanonical_GNAT_neighbour	H0223	H0223_G19ebb5a99b	passed	85.65	results/H2/actino/component_trees/noncanonical_GNAT_neighbour/ML.log
