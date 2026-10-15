@@ -16,6 +16,16 @@
   ],
   "alignment": "results/H2/component_trees/canonical_C/trimmed_alignment.faa",
   "alignment_sha256": "9da5f34523bee7447dac37d55184036457dae45f7dfb503b4e116b5f23a813b0",
+  "leaf_map": "results/H2/component_leaf_map.tsv",
+  "leaf_map_sha256": "5395527ae6544e0d3d075efb1303928e27f8f1c86a1aaf53923d9c1e83eb15d1",
+  "focal_C_tips": [
+    "H0056_Cf843f3c6e1",
+    "H0065_C78e6145138",
+    "H0163_Cd9401e25b3",
+    "H0203_C7666e36c9a",
+    "H0208_Cbfacb1059a",
+    "H0308_Ca1a9bf969c"
+  ],
   "host_reference_tree": "results/H2/host_trees/canonical/ML.treefile",
   "host_reference_tree_sha256": "d915dc27297aaab66f85c8853ac16151885f12b8903ba5976326eb7a8a1690a4",
   "H2_gene_reference_tree": "results/H2/component_trees/canonical_C/ML.treefile",
@@ -23,5 +33,7 @@
   "constraint_tree": "config/H3/BURK_C_host_split_constraint.nwk",
   "constraint_tree_sha256": "5730dbfefdf140395161054aa255aef80159f41a956bd851aa33448fdce878b9",
   "constraint_semantics": "The four host-side tips are separated from the other 100 C tips; every other relationship is unresolved. All 104 tips are retained because the two focal splits become compatible if projected to only the six named candidate hosts.",
+  "negative_controls": "No independent BGC-negative controls validated; the other C tips provide phylogenetic context, not negative controls.",
+  "stop_rule": "Do not run AU if constrained and unconstrained trees have different taxon sets or if the constrained tree lacks the specified four-tip split. Do not make an HGT event call from an AU result.",
   "readiness_gate": "Do not interpret AU before C model sensitivity and orthology/context review; AU tests topology conditional on alignment/model, not transfer."
 }
