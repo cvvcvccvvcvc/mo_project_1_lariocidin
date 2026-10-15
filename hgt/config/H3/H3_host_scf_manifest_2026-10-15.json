@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-15",
+  "purpose": "Descriptive host site concordance for H2-CAN-BURK and H2-NC-ISL; neither topology test nor HGT probability",
+  "source": "frozen H2 tree and concatenated marker alignment; no new genome input",
+  "analysis_code_commit": "8b4cf2d",
+  "software": "IQ-TREE 3.1.3",
+  "method": "parsimony sCF with 100 random quartets per branch; -seed 131015; -T 4",
+  "slurm": {
+    "job_id": "938448",
+    "array_indices": [
+      0,
+      1,
+      2
+    ],
+    "state": "COMPLETED",
+    "exit_code": "0:0 each",
+    "request_per_task": "4 CPU, 8 GiB, 2 h",
+    "observed_elapsed_seconds": [
+      25,
+      24,
+      23
+    ]
+  },
+  "sanitization": "Only the generated absolute-path read.table comment was removed from each cf.stat; numeric rows unchanged. cf.branch is kept off Git because it is byte-identical to the H2 branch map.",
+  "panels": {
+    "Bacteria74_canonical": {
+      "alignment": "results/H2/tree_inputs/canonical_hosts.faa",
+      "alignment_sha256": "77217f40b85a2cf31ff440c482043d95989063248f594276e9ecccde116c8862",
+      "reference_tree": "results/H2/host_trees/canonical/ML.treefile",
+      "reference_tree_sha256": "d915dc27297aaab66f85c8853ac16151885f12b8903ba5976326eb7a8a1690a4",
+      "sanitized_cf_stat": "results/H3/site_concordance/Bacteria74_canonical/concordance.cf.stat",
+      "sanitized_cf_stat_sha256": "5c5385f0bc2f5605a0c6eae147a16b1421dbaf873ed6000659092f065ea8ecfa",
+      "branch_ids_identical_to_H2_gCF": true
+    },
+    "Bacteria74_noncanonical": {
+      "alignment": "results/H2/tree_inputs/noncanonical_hosts.faa",
+      "alignment_sha256": "4f0855dccc137287b9f56a633e4fcd436f737dfce2f1fefb19c8534b55f4522f",
+      "reference_tree": "results/H2/host_trees/noncanonical/ML.treefile",
+      "reference_tree_sha256": "9566e03f8993fc0f291533a2794a419712f04b7ae1b2097487e6d1c8392b6eba",
+      "sanitized_cf_stat": "results/H3/site_concordance/Bacteria74_noncanonical/concordance.cf.stat",
+      "sanitized_cf_stat_sha256": "395354f3e6832145ba9fad41a0ad576f356c48d2b2d7aa6f73378d1e1ec44706",
+      "branch_ids_identical_to_H2_gCF": true
+    },
+    "Actino138_noncanonical": {
+      "alignment": "results/H2/actino/tree_inputs/noncanonical_hosts.faa",
+      "alignment_sha256": "4971602ecfd9c9090565d461475c438b85a334e09144aa1360a00a9661c0114e",
+      "reference_tree": "results/H2/actino/host_trees/noncanonical/ML.treefile",
+      "reference_tree_sha256": "1edd3b813604a51963f7ce966058e04e97f41063b4c1b042a1148f6504725251",
+      "sanitized_cf_stat": "results/H3/site_concordance/Actino138_noncanonical/concordance.cf.stat",
+      "sanitized_cf_stat_sha256": "a52723a3ce3146e0c35e1a7682dd19e8fd79a7886883fe7bd41330827b3cc2af",
+      "branch_ids_identical_to_H2_gCF": true
+    }
+  }
+}
