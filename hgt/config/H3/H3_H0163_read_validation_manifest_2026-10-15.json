@@ -1,0 +1,88 @@
+{
+  "date": "2026-10-15",
+  "candidate_id": "H2-CAN-BURK",
+  "question": "Does the read set from the H0163 BioSample support the internal B2-like stop codon in the frozen assembly?",
+  "assembly": {
+    "accession": "GCF_003854275.1",
+    "biosample": "SAMN09073220",
+    "contig": "NZ_QTQP01000053.1",
+    "contig_length_bp": 51572,
+    "contig_sequence_sha256": "1bb7f93c8ad0d54e25bc56d89429487f8d7dcdd5c7ea2118148636dc7dcb3770",
+    "frozen_H2_genome_fasta_sha256": "73e35a186e8ebeb884b551ff70c42aab42979c8524ce7bbecf1e7f927af90919",
+    "H2_role_homology_sha256": "986bac78e8d18a4f934caa462866027920437b6ee932812b77c412987be44c87",
+    "H2_native_proteins_table_sha256": "503b1a3c0a6239ec70b9422bafc5247db5ca31045f0fa1093f15a267f30b8970",
+    "H2_role_references_faa_sha256": "2fd01780eb3855ce57923a560e04fb79c56153986a9cfc73940a254f58af6759"
+  },
+  "public_reads": {
+    "run": "SRR7457462",
+    "metadata": "https://www.ebi.ac.uk/ena/browser/view/SRR7457462",
+    "layout": "paired",
+    "R1": {
+      "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR745/002/SRR7457462/SRR7457462_1.fastq.gz",
+      "bytes": 205864508,
+      "ena_md5_verified": "33bbb5e36c87ffee20b6c654eef83cc6",
+      "sha256": "efb8851edc2dceb7298b6f7d76f433ddda5ac5404f269487fe5dd4a4b7400958"
+    },
+    "R2": {
+      "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR745/002/SRR7457462/SRR7457462_2.fastq.gz",
+      "bytes": 240420731,
+      "ena_md5_verified": "2e6a28e06e1711faa287e814b153c701",
+      "sha256": "af23fd2096dbe09dd498d975e52ea9424a3464f7ed60c28fc8d8d829b9c60cd3"
+    }
+  },
+  "six_host_C_reference_hit_review": {
+    "method": "Count distinct annotated proteins with at least one hit to a role_references.tsv family ending _C in each frozen H2 native role_homology.tsv; no additional coverage cutoff",
+    "role_references_tsv_sha256": "e3cbf8bf674a5b9b4d4e09177b49f860b02a0704acde1690206b274fc2ef4911",
+    "hits_per_host": {"H0056": 1, "H0065": 1, "H0163": 1, "H0203": 1, "H0208": 1, "H0308": 1},
+    "role_homology_sha256_per_host": {
+      "H0056": "c6d1739e9c7445359812c26455c55b3ebef9c71d5708c740b92527595850e647",
+      "H0065": "48a0e0bf9e2545e4126c4f7c232b7039329ce08b1ab513fa8133d06af2dc52e4",
+      "H0163": "986bac78e8d18a4f934caa462866027920437b6ee932812b77c412987be44c87",
+      "H0203": "335a0c53502306ac313f1d6ad8c99ce0e90a1c56de10b3cf3a62ff22fc721fdb",
+      "H0208": "fbc5e80311c21854b48ffa3adb6cf0c3e482f8ffd2e3cd3753772fd49182bce1",
+      "H0308": "cb9bd0ab51db5a5b53521f1eb65e5ec2cc3931cef6e33cc5632e7d000eda8175"
+    },
+    "limit": "Reference-based hits among annotated proteins cannot exclude divergent or unannotated C paralogs."
+  },
+  "locus": {
+    "native_B2_like_protein": "H0163_P05370",
+    "protein_length_aa": 102,
+    "coordinates_0based_halfopen": [50143, 50452],
+    "strand": "-",
+    "B2_reference": "Merrild_2025_dd84ee921f03.f3",
+    "reference_length_aa": 154,
+    "BLASTP_identity_first_102_aa_percent": 50,
+    "BLASTP_reference_coverage": 0.6623,
+    "internal_stop_codon_number": 103,
+    "internal_stop_plus_coordinates_1based": [50144, 50145, 50146],
+    "internal_stop_plus_triplet": "CTA",
+    "internal_stop_minus_triplet": "TAG",
+    "post_stop_segment": "51 aa before the next in-frame stop; global BLOSUM62 alignment to the 52-aa reference tail has 26 identical positions"
+  },
+  "read_check": {
+    "script_commit": "c04ffcd",
+    "slurm_job": "938459",
+    "state": "COMPLETED 0:0 in 10m18s",
+    "request": "8 CPU, 16 GiB, 2 h",
+    "software": "bwa 0.7.17-r1188; samtools 1.13",
+    "method": "BWA-MEM against the complete frozen H0163 assembly; retain primary alignments overlapping contig interval [49900,50550); samtools mpileup -aa -q 20 -Q 20 with default BAQ over 1-based positions 50000-50452",
+    "remote_target_bam_sha256": "53a9f21ee4452dadd662e2c1829336534615b6a4de1d59e555cb21738f29437d",
+    "remote_mpileup_sha256": "9544414211d51c536a54bcc992ae536a6c7273e662e055dc36920acaf73f8355",
+    "result_table": "results/H3/read_validation/H0163_B2_stop_support.tsv",
+    "result_table_sha256": "6afed336e3ebd13c406b821a10db58b82b3af9d68c4675a9f16d8f8b9349923d",
+    "depth_at_stop_plus_positions": [71, 68, 66],
+    "nonreference_calls_at_stop": 0,
+    "spanning_read_alignments_MAPQ20_raw_baseQ20": 71,
+    "spanning_distinct_read_names": 61,
+    "spanning_haplotype": "CTA only; 40 forward and 31 reverse read alignments",
+    "indel_events_positions_50124_to_50166": 0,
+    "median_depth_positions_50000_to_50452": 70
+  },
+  "resource_measurement": {
+    "scope": "scratch plus home after read check",
+    "bytes": 180593537024,
+    "decimal_GB": 180.593537024,
+    "limit_decimal_GB": 250
+  },
+  "interpretation_limit": "Reads from the same BioSample support the assembled premature stop; this does not establish protein function, BGC activity, transfer, or absence of more distant C paralogs. PCR duplicates were not marked; the 61 names are distinct read identifiers, not a count of independent DNA molecules."
+}

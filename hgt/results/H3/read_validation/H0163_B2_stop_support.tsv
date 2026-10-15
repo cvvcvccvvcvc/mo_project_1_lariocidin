@@ -1,0 +1,4 @@
+host_id	run_accession	contig	position_1based	reference_plus_base	depth_MAPQ20_BAQ20	ref_forward	ref_reverse	nonreference_calls
+H0163	SRR7457462	NZ_QTQP01000053.1	50144	C	71	36	35	0
+H0163	SRR7457462	NZ_QTQP01000053.1	50145	T	68	35	33	0
+H0163	SRR7457462	NZ_QTQP01000053.1	50146	A	66	37	29	0
