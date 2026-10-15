@@ -1,0 +1,27 @@
+{
+  "candidate_id": "H2-CAN-BURK",
+  "status": "design_only; AU not run",
+  "purpose": "Exploratory test of one H2-supported host split in the canonical C alignment",
+  "shared_single_copy_hosts": 104,
+  "host_side_hosts": [
+    "H0056",
+    "H0163",
+    "H0208",
+    "H0308"
+  ],
+  "gene_side_hosts": [
+    "H0065",
+    "H0163",
+    "H0203"
+  ],
+  "alignment": "results/H2/component_trees/canonical_C/trimmed_alignment.faa",
+  "alignment_sha256": "9da5f34523bee7447dac37d55184036457dae45f7dfb503b4e116b5f23a813b0",
+  "host_reference_tree": "results/H2/host_trees/canonical/ML.treefile",
+  "host_reference_tree_sha256": "d915dc27297aaab66f85c8853ac16151885f12b8903ba5976326eb7a8a1690a4",
+  "H2_gene_reference_tree": "results/H2/component_trees/canonical_C/ML.treefile",
+  "H2_gene_reference_tree_sha256": "626bf99ac82ab1ea3731d5231615ef3992a0c4b363e16b882dc28d7c08f49818",
+  "constraint_tree": "config/H3/BURK_C_host_split_constraint.nwk",
+  "constraint_tree_sha256": "5730dbfefdf140395161054aa255aef80159f41a956bd851aa33448fdce878b9",
+  "constraint_semantics": "The four host-side tips are separated from the other 100 C tips; every other relationship is unresolved. All 104 tips are retained because the two focal splits become compatible if projected to only the six named candidate hosts.",
+  "readiness_gate": "Do not interpret AU before C model sensitivity and orthology/context review; AU tests topology conditional on alignment/model, not transfer."
+}
