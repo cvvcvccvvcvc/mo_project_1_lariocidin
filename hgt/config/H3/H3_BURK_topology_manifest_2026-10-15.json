@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-15",
+  "candidate_id": "H2-CAN-BURK",
+  "scope": "Exploratory C topology test; no HGT event call",
+  "source": "Frozen H2 protein alignment and trees; no new genome input",
+  "software": "IQ-TREE 3.1.3",
+  "input": {
+    "alignment": "results/H2/component_trees/canonical_C/trimmed_alignment.faa",
+    "alignment_sha256": "9da5f34523bee7447dac37d55184036457dae45f7dfb503b4e116b5f23a813b0",
+    "taxa": 104,
+    "alignment_sites": 592,
+    "unconstrained_tree": "results/H2/component_trees/canonical_C/ML.treefile",
+    "unconstrained_tree_sha256": "626bf99ac82ab1ea3731d5231615ef3992a0c4b363e16b882dc28d7c08f49818",
+    "host_tree": "results/H2/host_trees/canonical/ML.treefile",
+    "host_tree_sha256": "d915dc27297aaab66f85c8853ac16151885f12b8903ba5976326eb7a8a1690a4",
+    "constraint_design": "config/H3/BURK_C_AU_design.json",
+    "constraint_design_commit": "c6a0ad6",
+    "constraint_design_sha256": "3271d728dfecffd05c3d76feaa38fc1421624a8e50ffc26429b799915fdf7459",
+    "constraint_tree": "config/H3/BURK_C_host_split_constraint.nwk",
+    "constraint_tree_sha256": "5730dbfefdf140395161054aa255aef80159f41a956bd851aa33448fdce878b9"
+  },
+  "runs": {
+    "full_C10_pilot": {
+      "slurm_job": "938451",
+      "state": "operator-cancelled after 9m21s; no final tree used",
+      "model": "LG+C10+F+G4",
+      "request": "8 CPU, 32 GiB, 4 h"
+    },
+    "PMSF_sensitivity": {
+      "slurm_job": "938452",
+      "state": "COMPLETED 0:0 in 25m04s",
+      "request": "8 CPU, 16 GiB, 2 h",
+      "model": "LG+C10+F+G4 with -ft unconstrained H2 C guide tree, -seed 131016, -T 8",
+      "tree": "results/H3/model_sensitivity/PMSF_canonical_C/ML.treefile",
+      "tree_sha256": "fe659b504bb941fb2789ce8ffc82885f576edb91c87d6bd067c1ab023867b66d",
+      "shared_unrooted_internal_splits_with_H2_LG_G4": "88/101",
+      "focal_gene_split_present": true,
+      "focal_host_split_present": false,
+      "limitation": "H2 gene tree supplied as guide; no new branch support or independent correction for lineage composition"
+    },
+    "constrained_LG_G4_search": {
+      "script_commit": "f77e446",
+      "slurm_job": "938454",
+      "state": "COMPLETED 0:0 in 20m48s",
+      "request": "8 CPU, 16 GiB, 2 h",
+      "model": "LG+G4, -g four-host split, -seed 131017, -T 8",
+      "tree": "results/H3/topology/BURK_C_LG_G4/constrained.treefile",
+      "tree_sha256": "fc73a2b5f330f55c166d14fc4ce99998c27927b7c59a57ce46d6608bae613d5a",
+      "same_104_tips_as_unconstrained": true,
+      "focal_host_split_present": true,
+      "focal_gene_split_present": false
+    },
+    "AU_test": {
+      "script_commit": "05b7e04",
+      "slurm_job": "938456",
+      "state": "COMPLETED 0:0 in 4s",
+      "model": "LG+G4; -te H2 unconstrained C tree; -zb 10000 -au -seed 131018 -T 8",
+      "tree_order": ["H2 unconstrained C", "best four-host-constrained C"],
+      "candidate_trees_sha256": "53d5a2ff9577e661878aebdfff58f3c6c21e1608bc4cc764226eaeb1c64a914c",
+      "summary": "results/H3/topology/BURK_C_LG_G4/AU_summary.tsv",
+      "summary_sha256": "5e14d946bc3ab2de116d582d7afd203dc6a12887220bcdcc7eed1fcf27f1b100",
+      "host_constrained_delta_logL": 103.47,
+      "host_constrained_p_AU": 1.13e-8
+    }
+  },
+  "resource_measurement": {
+    "scope": "scratch plus home after completed jobs",
+    "bytes": 180132757504,
+    "decimal_GB": 180.132757504,
+    "limit_decimal_GB": 250,
+    "headroom_decimal_GB": 69.867242496
+  },
+  "interpretation_limit": "Post-selected candidate and stationary LG+G4 composition warning: AU tests compatibility of these two C topologies conditional on the alignment/model, not transfer, direction, or whole BGC history. DL/DTL and read-level locus validation remain absent."
+}
