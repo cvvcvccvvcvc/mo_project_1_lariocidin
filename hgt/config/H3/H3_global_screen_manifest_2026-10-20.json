@@ -1,0 +1,238 @@
+{
+  "date": "2026-10-20",
+  "status": "bounded exploratory gCF inventory and three new AU comparisons completed",
+  "frozen_H2_source": "H2_2026-10-13",
+  "method": "supported H2 pair conflicts deduplicated by scope/family/host_split; existing host gCF mapped, all projected branches reported; partial constraints include all shared single-copy tips, leaving excluded copies unconstrained; two-tree AU tests original H2 ML tree versus constrained ML tree on same alignment/model with 10000 RELL replicates",
+  "input_files": [
+    {
+      "path": "results/H2/comparisons/supported_split_conflicts.tsv",
+      "sha256": "6644db1eb62ad37f1ff99e2e1ddffd2a84e796d07b3c95e1114077cc9ee25077",
+      "bytes": 569159
+    },
+    {
+      "path": "results/H2/comparisons/tree_quality.tsv",
+      "sha256": "19361651bedd1c7a316988b45175cb7b1d994c73878abb72359593b81e6a1adf",
+      "bytes": 6287
+    },
+    {
+      "path": "config/H2/H2_review_relation_queries.json",
+      "sha256": "fcf4c6332808863ebe6fd090a598390133d360a1a563d3bb92e1136a60570276",
+      "bytes": 1800
+    },
+    {
+      "path": "results/H2/host_trees/canonical/concordance.cf.branch",
+      "sha256": "b687fee83378f96baa5ca159322a1ea5faa346478bfca7514f64d364f28f6aa7",
+      "bytes": 5243
+    },
+    {
+      "path": "results/H2/host_trees/canonical/concordance.cf.stat",
+      "sha256": "3a9026cf3cb8ef18937b340a81a08604961aef1700f343b4359aecf3db50bc36",
+      "bytes": 8694
+    },
+    {
+      "path": "results/H2/host_trees/noncanonical/concordance.cf.branch",
+      "sha256": "3aeac8d6aec2706043d8f8ab4b24abb4163a8ec9c2209d9edcf72b4fa3f2eb08",
+      "bytes": 4540
+    },
+    {
+      "path": "results/H2/host_trees/noncanonical/concordance.cf.stat",
+      "sha256": "052398fd886755489de1a0414bb6b89a213b1323106dbe5eeac31e29634eb948",
+      "bytes": 7689
+    },
+    {
+      "path": "results/H2/actino/host_trees/noncanonical/concordance.cf.branch",
+      "sha256": "718f6632cb9ae5de23a20fa5d5ca6642c582ce76a7cd947e8446481c28c19f57",
+      "bytes": 5280
+    },
+    {
+      "path": "results/H2/actino/host_trees/noncanonical/concordance.cf.stat",
+      "sha256": "7a16ed5eb71e77e88cdaa75a9c7486e692c5a3346ec0dc1d5203d1dd7c145b47",
+      "bytes": 9147
+    },
+    {
+      "path": "results/H2/actino/host_trees/uncertain_Nature/concordance.cf.branch",
+      "sha256": "9cebf4227f89b15a8d05b43ad30c7f960610517e3d891ff6d2b0d0d7f033d315",
+      "bytes": 240
+    },
+    {
+      "path": "results/H2/actino/host_trees/uncertain_Nature/concordance.cf.stat",
+      "sha256": "fb0551b811aa7c50706821db944c406de0b014aa3cfff82d0b3829ede506e3f6",
+      "bytes": 1306
+    }
+  ],
+  "analysis_code": [
+    {
+      "path": "scripts/steps/h3_constraint_inventory.py",
+      "sha256": "b3a8872c9c5b42aa18939fe5442c26ab5f7ea22b4d73d045b50a2ea7c9bb713c",
+      "bytes": 4723
+    },
+    {
+      "path": "scripts/jobs/H3_screen_AU.sbatch",
+      "sha256": "8831e7f994350b885ffbd20d994b105041b50d1092cae0f91d0922d57e1202c1",
+      "bytes": 1426
+    }
+  ],
+  "outputs": [
+    {
+      "path": "results/H3/global_screen/constraint_inventory.tsv",
+      "sha256": "2cb8769798328ea896b16a1c40ae539a1992cdd7db654a36ba50d8fcd8bac6d5",
+      "bytes": 59351
+    },
+    {
+      "path": "results/H3/global_screen/AU_summary.tsv",
+      "sha256": "bf69af7d191627fb156859c49a2d40dff780f8cecd15f6c0fc67c5c75c921a9b",
+      "bytes": 894
+    }
+  ],
+  "inventory_counts": {
+    "supported_conflict_pairs": 627,
+    "unique_panel_family_host_constraints": 174,
+    "new_AU_tests": 3,
+    "prior_BURK_AU_tests_reused": 1,
+    "untested_AU_constraints": 170
+  },
+  "software": "IQ-TREE 3.1.3; Biopython from pinned project environment",
+  "new_AU_runs": [
+    {
+      "case": "Bacteria74_canonical_B2_9a88e7c008a9",
+      "model": "JTT+G4",
+      "host_gCF_N_over_gN": "68/68",
+      "constrained_p_AU": 0.00218,
+      "delta_logL": 28.06,
+      "execution": {
+        "kind": "Slurm",
+        "job_id": "938987",
+        "exit_code": "0:0",
+        "cpus": 8,
+        "requested_mem_GiB": 16,
+        "wall": "00:04:01"
+      },
+      "alignment": {
+        "path": "results/H2/component_trees/canonical_B2/trimmed_alignment.faa",
+        "sha256": "c83eac23bc31402175c422c65737d1d24063d68869bff871aefb5d09ae25e1af",
+        "bytes": 17238
+      },
+      "unconstrained_H2_tree": {
+        "path": "results/H2/component_trees/canonical_B2/ML.treefile",
+        "sha256": "c73b06d177552b0894f376e30339e0c38fc0198907def07f4041c3bc75228305",
+        "bytes": 5216
+      },
+      "host_constraint": {
+        "path": "results/H3/global_screen/constraints/Bacteria74_canonical_B2_9a88e7c008a9.nwk",
+        "sha256": "7ce037a35067cb42d7bacb54352eeca6e53259180944ff5aab308ac74ea6eb96",
+        "bytes": 1841
+      },
+      "constrained_tree": {
+        "path": "results/H3/global_screen/AU/Bacteria74_canonical_B2_9a88e7c008a9/constrained.treefile",
+        "sha256": "e6cfaefb1687774b3bbf7798ee3b448c5b3607a6ddc3716a8eee1f6a9b2b78e2",
+        "bytes": 4650
+      },
+      "AU_report_ignored_local": {
+        "path": "results/H3/global_screen/AU/Bacteria74_canonical_B2_9a88e7c008a9/AU.iqtree",
+        "sha256": "69c0e8a6f77b9e8063a1e8a013e78597017a328ac05a92ad753926d8444c20d5",
+        "bytes": 17685
+      },
+      "verification": "free and constrained trees have identical tip sets; constrained tree contains projected host split; free tree lacks it"
+    },
+    {
+      "case": "Bacteria74_canonical_B1_489153d05353",
+      "model": "LG+G4",
+      "host_gCF_N_over_gN": "65/65",
+      "constrained_p_AU": 0.0867,
+      "delta_logL": 7.6939,
+      "execution": {
+        "kind": "local_pilot",
+        "cpus": 4,
+        "wall_seconds": 176.674
+      },
+      "alignment": {
+        "path": "results/H2/component_trees/canonical_B1/trimmed_alignment.faa",
+        "sha256": "8ad2d70411f62d8b08eacb3034f378ea9eba3cf1b5655b2c1b6257054f4a8800",
+        "bytes": 11500
+      },
+      "unconstrained_H2_tree": {
+        "path": "results/H2/component_trees/canonical_B1/ML.treefile",
+        "sha256": "41173a9096b42f9b931152c1f317746bfbc4c57b8b16b558f0129334b9d4ab6b",
+        "bytes": 4673
+      },
+      "host_constraint": {
+        "path": "results/H3/global_screen/constraints/Bacteria74_canonical_B1_489153d05353.nwk",
+        "sha256": "8d70005b3871180fe216f80461abfa3270b2a975654abc8df551cbce38f4b4a3",
+        "bytes": 1661
+      },
+      "constrained_tree": {
+        "path": "results/H3/global_screen/AU/Bacteria74_canonical_B1_489153d05353/constrained.treefile",
+        "sha256": "3963d364c411094e3f66a1666cf0adc97f23f7a94f115c5b012f0668a6e21f5d",
+        "bytes": 4190
+      },
+      "AU_report_ignored_local": {
+        "path": "results/H3/global_screen/pilot_B1_489153d05353/AU.iqtree",
+        "sha256": "5261f29265a39ae89a005230b0829b3c6fdfd352af0a87b2e8e39795c2af3400",
+        "bytes": 13291
+      },
+      "verification": "free and constrained trees have identical tip sets; constrained tree contains projected host split; free tree lacks it"
+    },
+    {
+      "case": "Bacteria74_noncanonical_C_3276280a7edf",
+      "model": "LG+F+G4",
+      "host_gCF_N_over_gN": "54/55",
+      "constrained_p_AU": 0.101,
+      "delta_logL": 11.177,
+      "execution": {
+        "kind": "Slurm",
+        "job_id": "938988",
+        "exit_code": "0:0",
+        "cpus": 8,
+        "requested_mem_GiB": 16,
+        "wall": "00:09:14"
+      },
+      "alignment": {
+        "path": "results/H2/component_trees/noncanonical_C/trimmed_alignment.faa",
+        "sha256": "f1903821d3f0c2329e2d70777271eb31416d84babb8c422a34d03873d9aee414",
+        "bytes": 33065
+      },
+      "unconstrained_H2_tree": {
+        "path": "results/H2/component_trees/noncanonical_C/ML.treefile",
+        "sha256": "909da7c2ecd471ad99293f819cf4285a2e85ae924588191bf12be22a1d50b044",
+        "bytes": 4446
+      },
+      "host_constraint": {
+        "path": "results/H3/global_screen/constraints/Bacteria74_noncanonical_C_3276280a7edf.nwk",
+        "sha256": "f86fbff4d2fe8fba520d25c573bf5417c9a0c09815518ec814fbe8c8059fa1db",
+        "bytes": 1499
+      },
+      "constrained_tree": {
+        "path": "results/H3/global_screen/AU/Bacteria74_noncanonical_C_3276280a7edf/constrained.treefile",
+        "sha256": "be72cec61246fbe9346f50b763179fc8b2dba83f3c554829aea2b82e91bd8574",
+        "bytes": 3868
+      },
+      "AU_report_ignored_local": {
+        "path": "results/H3/global_screen/AU/Bacteria74_noncanonical_C_3276280a7edf/AU.iqtree",
+        "sha256": "17541234a9697df61aee0fc6ca189539e2c04efab3b3adafc2fa81ba8f4be647",
+        "bytes": 17533
+      },
+      "verification": "free and constrained trees have identical tip sets; constrained tree contains projected host split; free tree lacks it"
+    }
+  ],
+  "existing_BURK_AU_manifest": {
+    "path": "config/H3/H3_BURK_topology_manifest_2026-10-15.json",
+    "sha256": "5b1d0ad7700d8de4c4f4cc8b1dca69f2ec653f0fc6dcc77ae4abfaafbe22aab1",
+    "bytes": 3713
+  },
+  "resources": {
+    "Slurm_jobs": [
+      "938987",
+      "938988"
+    ],
+    "max_concurrent_screen_CPUs": 16,
+    "max_concurrent_screen_requested_mem_GiB": 32,
+    "remote_screen_directory_bytes_after_jobs": 298056,
+    "HGT_output_directory_bytes_measured_after_jobs": 6772296564,
+    "last_completed_scratch_plus_home_measurement_decimal_GB": 180.593537024,
+    "last_completed_measurement_date": "2026-10-15",
+    "current_full_measurement_status": "home du scan timed out after 300 seconds; no current full-total claim",
+    "scratch_plus_home_limit_decimal_GB": 250,
+    "note": "new screen output under 0.001 GB; no genome copies or active diversity inputs used"
+  },
+  "interpretation_limit": "All AU cases selected after H2 review; nominal p-AU is conditional on sampled trees, alignment, model and taxon set, not probability or proof of HGT. No all-174 AU analysis, DL/DTL, direction, or whole-BGC transfer inference."
+}

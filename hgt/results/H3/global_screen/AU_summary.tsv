@@ -1,0 +1,5 @@
+case	scope	family	host_split	gCF_order_of_174	host_gCF_N_over_gN	host_gCF_percent	model	free_logL	constrained_logL	delta_logL	constrained_p_AU	run	interpretation
+Bacteria74_canonical_B2_9a88e7c008a9	Bacteria74	canonical_B2	9a88e7c008a9	1	68/68	100	JTT+G4	-5322.958601	-5351.018941	28.06	0.00218	cluster_938987	exploratory_topology_test_not_HGT_event
+Bacteria74_canonical_B1_489153d05353	Bacteria74	canonical_B1	489153d05353	3	65/65	100	LG+G4	-3555.044087	-3562.737983	7.6939	0.0867	local_pilot	exploratory_topology_test_not_HGT_event
+Bacteria74_noncanonical_C_3276280a7edf	Bacteria74	noncanonical_C	3276280a7edf	5	54/55	98.18	LG+F+G4	-24086.56309	-24097.74031	11.177	0.101	cluster_938988	exploratory_topology_test_not_HGT_event
+H2-CAN-BURK	Bacteria74	canonical_C	2c48f22cd4ee	22	52/64	81.25	LG+G4	-21970.98324	-22074.45021	103.47	1.13e-08	cluster_938456	exploratory_topology_test_not_HGT_event
