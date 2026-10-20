@@ -1,0 +1,216 @@
+{
+  "date": "2026-10-20",
+  "status": "174/174 exploratory host-constraint AU comparisons completed and locally verified",
+  "frozen_H2_source": "H2_2026-10-13",
+  "analysis_family": "627 supported H2 gene-host conflict pairs deduplicated to 174 panel×component-family×host-split constraints; four prior AU retained and 170 newly computed",
+  "method": "Existing H2 gCF ranks host split support. For each constraint, compare frozen H2 free ML component tree with the best constrained ML search on the same alignment and H2 model using IQ-TREE 3.1.3 two-tree AU, 10000 RELL replicates. Verify equal tip sets and the projected host split in each constrained tree.",
+  "multiple_testing": {
+    "family_size": 174,
+    "nominal_alpha": 0.05,
+    "bonferroni_raw_p_threshold": 0.00028735632183908046,
+    "adjusted_p_formula": "min(1, 174 * p_AU)",
+    "qualification": "Exploratory: constraints selected from supported H2 conflicts, many tests dependent; adjustment does not repair post-selection, model, composition or orthology limitations."
+  },
+  "inputs": [
+    {
+      "path": "results/H3/global_screen/constraint_inventory.tsv",
+      "sha256": "2cb8769798328ea896b16a1c40ae539a1992cdd7db654a36ba50d8fcd8bac6d5",
+      "bytes": 59351
+    },
+    {
+      "path": "results/H3/global_screen/AU_summary.tsv",
+      "sha256": "bf69af7d191627fb156859c49a2d40dff780f8cecd15f6c0fc67c5c75c921a9b",
+      "bytes": 894
+    },
+    {
+      "path": "results/H2/comparisons/tree_quality.tsv",
+      "sha256": "19361651bedd1c7a316988b45175cb7b1d994c73878abb72359593b81e6a1adf",
+      "bytes": 6287
+    },
+    {
+      "path": "results/H2/actino/component_trees/noncanonical_ABC_D/trimmed_alignment.faa",
+      "sha256": "ed21d2e7e859912665405ff39892bce2a6ee43d4099e9f10ab7122c691b63527",
+      "bytes": 18360
+    },
+    {
+      "path": "results/H2/actino/component_trees/noncanonical_ABC_D/ML.treefile",
+      "sha256": "f18db79bef421234ff1e3d9443e524fb2b3e33a83d6f0e6c7a225658952ec401",
+      "bytes": 1508
+    },
+    {
+      "path": "results/H2/actino/component_trees/noncanonical_C/trimmed_alignment.faa",
+      "sha256": "6b58381a1a555fbe9eae9ff4f5144f99307b701a865e65d8b652a97360ebbf7a",
+      "bytes": 42420
+    },
+    {
+      "path": "results/H2/actino/component_trees/noncanonical_C/ML.treefile",
+      "sha256": "b9be99e4a5eaf36fc5db21f5aaee6e434e308654e221239aec5f74c44ff76eae",
+      "bytes": 5479
+    },
+    {
+      "path": "results/H2/actino/component_trees/noncanonical_GNAT_neighbour/trimmed_alignment.faa",
+      "sha256": "9609f236c766ae83ab2f47e502c25392dbb3ee1ae857f3ca5aec53dd402f6f75",
+      "bytes": 23485
+    },
+    {
+      "path": "results/H2/actino/component_trees/noncanonical_GNAT_neighbour/ML.treefile",
+      "sha256": "7eda88d31fbfeb26c0d09ef7a913d2a9a636b20ee548de9034658d59e4916e06",
+      "bytes": 4013
+    },
+    {
+      "path": "results/H2/actino/component_trees/uncertain_Nature_system_C/trimmed_alignment.faa",
+      "sha256": "ce804373b97002b5ff24455bb75f7c94a8fafd0afa5628ac58d74dce7801f24b",
+      "bytes": 1760
+    },
+    {
+      "path": "results/H2/actino/component_trees/uncertain_Nature_system_C/ML.treefile",
+      "sha256": "19398133e5fd1deef3b7ab2a51f11a5b75e14ee1e3e529d0410a0ae8c8307e43",
+      "bytes": 150
+    },
+    {
+      "path": "results/H2/component_trees/canonical_B1/trimmed_alignment.faa",
+      "sha256": "8ad2d70411f62d8b08eacb3034f378ea9eba3cf1b5655b2c1b6257054f4a8800",
+      "bytes": 11500
+    },
+    {
+      "path": "results/H2/component_trees/canonical_B1/ML.treefile",
+      "sha256": "41173a9096b42f9b931152c1f317746bfbc4c57b8b16b558f0129334b9d4ab6b",
+      "bytes": 4673
+    },
+    {
+      "path": "results/H2/component_trees/canonical_B2/trimmed_alignment.faa",
+      "sha256": "c83eac23bc31402175c422c65737d1d24063d68869bff871aefb5d09ae25e1af",
+      "bytes": 17238
+    },
+    {
+      "path": "results/H2/component_trees/canonical_B2/ML.treefile",
+      "sha256": "c73b06d177552b0894f376e30339e0c38fc0198907def07f4041c3bc75228305",
+      "bytes": 5216
+    },
+    {
+      "path": "results/H2/component_trees/canonical_C/trimmed_alignment.faa",
+      "sha256": "9da5f34523bee7447dac37d55184036457dae45f7dfb503b4e116b5f23a813b0",
+      "bytes": 64584
+    },
+    {
+      "path": "results/H2/component_trees/canonical_C/ML.treefile",
+      "sha256": "626bf99ac82ab1ea3731d5231615ef3992a0c4b363e16b882dc28d7c08f49818",
+      "bytes": 5372
+    },
+    {
+      "path": "results/H2/component_trees/noncanonical_ABC_D/trimmed_alignment.faa",
+      "sha256": "9452b9dc50a455c99f702c44d2e1af488ec1d3f40b63127fc4b12dca5aee760c",
+      "bytes": 8372
+    },
+    {
+      "path": "results/H2/component_trees/noncanonical_ABC_D/ML.treefile",
+      "sha256": "32224e8d14c15a16ebdb22fd881b21485fb31d146c47a26ca1ae26ab92cf4245",
+      "bytes": 673
+    },
+    {
+      "path": "results/H2/component_trees/noncanonical_C/trimmed_alignment.faa",
+      "sha256": "f1903821d3f0c2329e2d70777271eb31416d84babb8c422a34d03873d9aee414",
+      "bytes": 33065
+    },
+    {
+      "path": "results/H2/component_trees/noncanonical_C/ML.treefile",
+      "sha256": "909da7c2ecd471ad99293f819cf4285a2e85ae924588191bf12be22a1d50b044",
+      "bytes": 4446
+    },
+    {
+      "path": "results/H2/component_trees/noncanonical_GNAT_neighbour/trimmed_alignment.faa",
+      "sha256": "f277e4378bcbb0811dc9e2fcb51f7e4d9b2c9ac27601dc97728e7036f8d6c625",
+      "bytes": 22570
+    },
+    {
+      "path": "results/H2/component_trees/noncanonical_GNAT_neighbour/ML.treefile",
+      "sha256": "ffce21ad817d762552aacadeafcb7446178c94e2b5b205336a299d5764b34c93",
+      "bytes": 3860
+    }
+  ],
+  "analysis_code": [
+    {
+      "path": "scripts/steps/h3_constraint_inventory.py",
+      "sha256": "b3a8872c9c5b42aa18939fe5442c26ab5f7ea22b4d73d045b50a2ea7c9bb713c",
+      "bytes": 4723
+    },
+    {
+      "path": "scripts/steps/h3_au_schedule.py",
+      "sha256": "b6fcbf20a84c4e8c4ef5a19cee16e4bbf245e3e09ef1f74897d43bde77de9439",
+      "bytes": 1826
+    },
+    {
+      "path": "scripts/steps/h3_au_collect.py",
+      "sha256": "77c66c48595daca9ddea7e72d9ee78eabcaba743bfdf47fceaff42f3638cff87",
+      "bytes": 6968
+    },
+    {
+      "path": "scripts/jobs/H3_screen_AU.sbatch",
+      "sha256": "8831e7f994350b885ffbd20d994b105041b50d1092cae0f91d0922d57e1202c1",
+      "bytes": 1426
+    },
+    {
+      "path": "scripts/jobs/H3_screen_AU_array.sbatch",
+      "sha256": "e5174d1f47810e8e96e224e397e5d85cef7a61aa53581fd1152f6490110a524a",
+      "bytes": 577
+    }
+  ],
+  "outputs": [
+    {
+      "path": "results/H3/global_screen/AU_queue.tsv",
+      "sha256": "f45173b062c06f354c818729722a0620ec2ce0297c607bdb11b5f890a8a510ad",
+      "bytes": 10332
+    },
+    {
+      "path": "results/H3/global_screen/AU_full_screen.tsv",
+      "sha256": "213107860fb4f2a03efed8c6bb57fc2915b86cded1212c83168d532dabdc14ff",
+      "bytes": 80109
+    }
+  ],
+  "per_constraint_sha256": "AU_full_screen.tsv records SHA-256 of each host constraint and constrained tree; raw AU.iqtree reports retained outside Git because they contain cluster paths.",
+  "prior_AU_manifest": [
+    {
+      "path": "config/H3/H3_global_screen_manifest_2026-10-20.json",
+      "sha256": "2b913eaccf29280091e193d02a94c187f1f698eafdeb3b9839aff5680dfc4da6",
+      "bytes": 9833
+    },
+    {
+      "path": "config/H3/H3_BURK_topology_manifest_2026-10-15.json",
+      "sha256": "5b1d0ad7700d8de4c4f4cc8b1dca69f2ec653f0fc6dcc77ae4abfaafbe22aab1",
+      "bytes": 3713
+    }
+  ],
+  "run": {
+    "pilot_array_938989": "failed before computation due Slurm spool-relative wrapper path; fixed before successful arrays",
+    "successful_arrays": [
+      "939017 (queue indices 1-28, 28 completed 0:0)",
+      "939026 (queue indices 29-170, 142 completed 0:0)"
+    ],
+    "array_max_concurrent_tasks": 7,
+    "per_task_cpus": 8,
+    "per_task_requested_memory_GiB": 16,
+    "max_concurrent_screen_cpus": 56,
+    "max_concurrent_requested_memory_GiB": 112,
+    "per_task_time_limit": "01:00:00"
+  },
+  "verification": {
+    "constraints": 174,
+    "new_AU": 170,
+    "prior_AU": 4,
+    "same_tip_set": 174,
+    "constrained_split_present": 174,
+    "raw_p_AU_below_0.05": 167,
+    "bonferroni_familywise_below_0.05": 127,
+    "p_rank_entries": 174
+  },
+  "disk": {
+    "scratch_plus_home_limit_decimal_GB": 250,
+    "last_completed_full_measurement_decimal_GB": 180.593537024,
+    "last_completed_full_measurement_date": "2026-10-15",
+    "current_full_measurement": "attempted after completion; remote full-directory scan timed out, not claimed as measured",
+    "current_global_screen_bytes": 28346083,
+    "no_genome_copy": true
+  },
+  "interpretation_limit": "AU rejects or retains a host-constrained topology conditional on an alignment, model and taxon set; neither raw nor corrected p_AU is the probability of HGT. No DL/DTL, direction or whole-BGC transfer inference.",
+  "source_repository_commit": "2b7ef46d34f4f4a811b1f8d5259f0834be7db2d0"
+}
